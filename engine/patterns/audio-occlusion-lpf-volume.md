@@ -1,15 +1,10 @@
 ---
-name: audio-occlusion-lpf-volume
-description: Cheap audio occlusion via raycast — obstructed sources get Low Pass Filter + volume reduction, 0.1s update interval
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, audio, occlusion, low-pass-filter, spatial]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, audio, occlusion, low-pass-filter, spatial]
+date: 2026-05-17
+status: draft
 ---
 
 # Audio Occlusion Pattern (LPF + Volume)

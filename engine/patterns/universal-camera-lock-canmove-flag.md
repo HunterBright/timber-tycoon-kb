@@ -1,15 +1,10 @@
 ---
-name: universal-camera-lock-canmove-flag
-description: Single canMove bool on PlayerController gates all movement and camera rotation — works for every minigame without per-minigame camera code
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, camera, minigame, input-gating, player-controller]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, camera, minigame, input-gating, player-controller]
+date: 2026-05-17
+status: draft
 ---
 
 # Universal Camera Lock — canMove Flag

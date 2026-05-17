@@ -1,15 +1,10 @@
 ---
-name: game-state-machine-pattern
-description: GameStateMachine enum-based high-level state gating for input, time scale, and system activation
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, state-machine, game-state, input-gating]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, state-machine, game-state, input-gating]
+date: 2026-05-17
+status: draft
 ---
 
 # GameStateMachine Pattern

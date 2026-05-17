@@ -1,15 +1,10 @@
 ---
-name: water-zone-gameplay-component
-description: WaterZone BoxCollider trigger on river — 50% movement slowdown + waist-depth clamp, splash audio, gives strategic shortcut across map
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, water, wading, slowdown, gameplay-zone]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, water, wading, slowdown, gameplay-zone]
+date: 2026-05-17
+status: draft
 ---
 
 # WaterZone Gameplay Component

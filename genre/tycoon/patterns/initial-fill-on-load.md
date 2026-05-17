@@ -1,15 +1,10 @@
 ---
-name: initial-fill-on-load
-description: NPC customers NOT serialized — on scene load, spawn N customers directly into free slots. Parking slot state IS saved (not NPC objects).
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, npc, save-load, initial-state, lifecycle]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, npc, save-load, initial-state, lifecycle]
+date: 2026-05-17
+status: draft
 ---
 
 # Initial Fill on Load (Don't Serialize NPC State)

@@ -1,15 +1,10 @@
 ---
-name: vehicle-camera-runtime-attach-detach
-description: Third-person orbit camera added/removed as component at runtime on vehicle enter/exit — mouse orbit, scroll zoom, smooth Lerp follow
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, camera, third-person, orbit, runtime, vehicle]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, camera, third-person, orbit, runtime, vehicle]
+date: 2026-05-17
+status: draft
 ---
 
 # VehicleCamera Third-Person Orbit (Runtime Attach/Detach)

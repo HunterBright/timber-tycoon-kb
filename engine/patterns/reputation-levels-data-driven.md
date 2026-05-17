@@ -1,15 +1,10 @@
 ---
-name: reputation-levels-data-driven
-description: Reputation levels in ReputationLevels.asset SO — threshold + name + unlocks per level, code reads from data, zero code changes to add levels
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, scriptableobject, progression, data-driven, reputation]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, scriptableobject, progression, data-driven, reputation]
+date: 2026-05-17
+status: draft
 ---
 
 # ReputationLevels.asset Data-Driven Progression

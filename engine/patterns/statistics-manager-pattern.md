@@ -1,15 +1,10 @@
 ---
-name: statistics-manager-pattern
-description: StatisticsManager singleton — 11 lifetime stats + capped 200-event journal, ISaveable, UI with 2 tabs
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, statistics, journal, isaveable, ui, events]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, statistics, journal, isaveable, ui, events]
+date: 2026-05-17
+status: draft
 ---
 
 # StatisticsManager Pattern

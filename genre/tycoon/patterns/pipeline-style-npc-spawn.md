@@ -1,15 +1,10 @@
 ---
-name: pipeline-style-npc-spawn
-description: NPC customer spawn triggered by OnPurchaseComplete — pipeline ensures steady customer flow scaled to player throughput
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, npc, spawn, pipeline, event-driven]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, npc, spawn, pipeline, event-driven]
+date: 2026-05-17
+status: draft
 ---
 
 # Pipeline-Style NPC Spawn (OnPurchaseComplete Trigger)

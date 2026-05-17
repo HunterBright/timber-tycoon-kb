@@ -1,15 +1,10 @@
 ---
-name: worker-output-quality-distribution
-description: Worker default output — 20% Bad/50% Good/30% Perfect random roll. perfectQuality flag = always Perfect. Late-game upgrade, never makes workers OP vs. skilled player.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [game-design, tycoon, worker, quality, distribution, progression]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [game-design, tycoon, worker, quality, distribution, progression]
+date: 2026-05-17
+status: draft
 ---
 
 # Worker Output Quality Distribution

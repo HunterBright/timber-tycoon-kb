@@ -1,15 +1,10 @@
 ---
-name: vfx-performance-budget
-description: Scene-wide VFX particle budget — max 500 particles / 10 active systems — enforced via VFXManager throttling
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, vfx, particle-system, performance, budget]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, vfx, particle-system, performance, budget]
+date: 2026-05-17
+status: draft
 ---
 
 # VFX Performance Budget

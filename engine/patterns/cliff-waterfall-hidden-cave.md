@@ -1,15 +1,10 @@
 ---
-name: cliff-waterfall-hidden-cave
-description: Waterfall (no collider) hides cave entrance behind it — player walks through to discover cave
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, level-design, secret, waterfall, cave, player-discovery]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, level-design, secret, waterfall, cave, player-discovery]
+date: 2026-05-17
+status: draft
 ---
 
 # Cliff + Waterfall Hidden Cave Pattern

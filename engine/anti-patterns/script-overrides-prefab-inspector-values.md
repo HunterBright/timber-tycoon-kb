@@ -7,28 +7,66 @@ date: 2026-05-17
 status: draft
 ---
 
-# ANTI-PATTERN: Script Overwrites Prefab Inspector Values (DirtClump Case)
+# ANTI-PATTERN: Script Overrides Prefab Inspector Values
 
-## The trap
-Setting values in the Inspector on a prefab, then having code in `Awake` or `Start` overwrite those values with hardcoded constants. The designer edits the Inspector field and nothing changes in Play Mode. "I set it to 0.5 but in Play Mode it's 0.05."
+Code overwrites Inspector-set values silently — designer edits have no effect in Play Mode.
 
-## Why it fails
-Code runs AFTER the Inspector-set value is loaded. The hardcoded override wins every time. The designer has no way to know from the Inspector that their edits are being silently discarded.
+## The Trap
+
+Setting values in the Inspector on a prefab, then having code in `Awake`, `Start`, or a spawn method overwrite those values with hardcoded constants. The designer edits the Inspector field and nothing changes in Play Mode. `AddComponent` doesn't check for existing components — creates a duplicate.
+
+## Why It Fails
+
+Code runs AFTER Inspector-set values are loaded. The hardcoded override wins every time. The designer has no way to know from the Inspector that their edits are being silently discarded.
 
 ## Symptoms
+
 - Inspector edit produces no in-game change
 - Value in Play Mode differs from value in Inspector
-- Designer spends 20+ minutes on each encounter until they find the code override
+- Two components of the same type on one object (duplicate from `AddComponent`)
+- Designer spends 20+ minutes on each encounter until the code override is found
 
-## Correct approach
-Two fixes:
+## Correct Pattern
 
-**Fix 1 (preferred when value is designer-tunable):** Remove the hardcoded override. Trust the Inspector value. The prefab IS the source of truth.
+```csharp
+// ✅ Correct: use existing, add only if missing, NEVER override existing values
+CapsuleCollider col = trunk.GetComponent<CapsuleCollider>();
+if (col == null) {
+    col = trunk.AddComponent<CapsuleCollider>();
+    // Only set values when CREATING — no prefab values to trust yet
+    col.direction = 0;    // X-axis for lying log (horizontal)
+    col.radius = 0.15f;
+    col.height = 3.5f;
+    col.center = Vector3.zero;
+}
+// If col already exists: trust Inspector values — don't touch them
+```
 
-**Fix 2 (when value is mathematical/derived):** Read from a ScriptableObject or constant. Make it explicit that code controls this value — don't put it in an Inspector field that looks editable.
+**General rule:** if a prefab field is designer-tunable (visible in Inspector), code must not overwrite it. The Inspector value is the design intent.
 
-Detection: if Inspector edit produces no in-game change, `grep -r "fieldName" Assets/ --include="*.cs"` to find the override.
+**Detection:** if an Inspector edit has no effect in Play Mode, `grep -r "fieldName" Assets/ --include="*.cs"` to find the overwriting code.
 
-General rule: **NEVER overwrite Inspector-set values from code unless intentional and documented.**
+**Fix options:**
+- **Fix 1 (preferred):** Remove the hardcoded override. Trust the Inspector value. The prefab IS the source of truth.
+- **Fix 2 (when value is mathematical/derived):** Read from a ScriptableObject or constant. Make it explicit that code controls this value — don't put it in an Inspector field that looks editable.
 
-See also: [[script-overrides-prefab-inspector]] for the more severe CapsuleCollider variant that causes physics failure.
+## Case 1: CapsuleCollider (trunk physics, 90 min lost)
+
+ChoppableTree spawn code called `AddComponent<CapsuleCollider>()` and hardcoded microscopic values. The trunk prefab already had a correctly-sized CapsuleCollider from the Inspector. Result: two CapsuleColliders on the object — trunk levitated or fell through ground.
+
+```csharp
+// ❌ Anti-pattern
+CapsuleCollider col = trunk.AddComponent<CapsuleCollider>(); // ADDS second collider
+col.radius = 0.0075f;  // microscopic — wrong
+col.height = 0.0024f;  // microscopic — wrong
+```
+
+Symptoms: trunk spawns and immediately levitates, OR falls through terrain, OR sinks halfway — same root cause: two colliders, one microscopic.
+
+## Case 2: DirtClump (radius/scale)
+
+`DirtClump.Awake()` set `radius = 0.05f` overriding the Inspector value. Designer set it to `0.5f` in the prefab — had no effect. "I set it to 0.5 but in Play Mode it's 0.05."
+
+## See also
+
+[[trunk-fall-physics-config]], [[capsule-collider-direction-axis]]

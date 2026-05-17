@@ -1,15 +1,10 @@
 ---
-name: game-event-so-event-channel
-description: GameEventSO ScriptableObject event channel — Raise/Register/Unregister for decoupled messaging
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, scriptableobject, events, messaging, decoupled]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, scriptableobject, events, messaging, decoupled]
+date: 2026-05-17
+status: draft
 ---
 
 # GameEventSO ScriptableObject Event Channel

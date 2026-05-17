@@ -1,15 +1,10 @@
 ---
-name: customer-tier-system
-description: Three NPC customer tiers (Regular/Contractor/VIP) unlock via Reputation — spawn distribution scales with progression, VIP is a milestone moment
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [game-design, tycoon, customer, tier, progression]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [game-design, tycoon, customer, tier, progression]
+date: 2026-05-17
+status: draft
 ---
 
 # Customer Tier System (Regular / Contractor / VIP)

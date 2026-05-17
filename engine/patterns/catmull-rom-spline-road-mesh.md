@@ -1,15 +1,10 @@
 ---
-name: catmull-rom-spline-road-mesh
-description: Procedural road generation — Catmull-Rom spline through waypoints → quad strip mesh with vertex colors and Perlin variation
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, road, mesh-generation, spline, catmull-rom]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, road, mesh-generation, spline, catmull-rom]
+date: 2026-05-17
+status: draft
 ---
 
 # Catmull-Rom Spline + Quad Strip Mesh for Roads

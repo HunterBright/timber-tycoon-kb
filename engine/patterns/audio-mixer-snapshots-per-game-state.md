@@ -1,15 +1,10 @@
 ---
-name: audio-mixer-snapshots-per-game-state
-description: Audio Mixer snapshots for clean game-state transitions — Paused mutes SFX, Menu boosts music, Playing restores full mix
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, audio, mixer, snapshots, game-state]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, audio, mixer, snapshots, game-state]
+date: 2026-05-17
+status: draft
 ---
 
 # Audio Mixer Snapshots per Game State

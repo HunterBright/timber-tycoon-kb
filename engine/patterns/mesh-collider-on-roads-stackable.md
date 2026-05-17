@@ -1,15 +1,10 @@
 ---
-name: mesh-collider-on-roads-stackable
-description: MeshCollider on generated roads enables raycasting onto road surfaces, allowing new road waypoints to stack on existing roads
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, road, collider, stacking, raycast]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, road, collider, stacking, raycast]
+date: 2026-05-17
+status: draft
 ---
 
 # MeshCollider on Roads = Stackable

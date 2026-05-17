@@ -1,15 +1,10 @@
 ---
-name: multi-step-quest-checklist
-description: Quest sub-tasks rendered as inline checklist with real-time counter — player sees exact progress without guessing
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, quest, ui, tutorial, multi-step]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, quest, ui, tutorial, multi-step]
+date: 2026-05-17
+status: draft
 ---
 
 # Multi-Step Quest Checklist Pattern

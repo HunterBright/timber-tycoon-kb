@@ -1,15 +1,10 @@
 ---
-name: vehicle-enter-exit-choreography
-description: Vehicle enter/exit sequence — disable player scripts → parent player to vehicle → detach camera → reverse on exit with left-side placement
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, vehicle, enter, exit, choreography, sequence]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, vehicle, enter, exit, choreography, sequence]
+date: 2026-05-17
+status: draft
 ---
 
 # Vehicle Enter/Exit Choreography Sequence

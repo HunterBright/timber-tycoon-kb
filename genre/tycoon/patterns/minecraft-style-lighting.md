@@ -1,15 +1,10 @@
 ---
-name: minecraft-style-lighting
-description: Static overhead Directional Light + decorative skybox sun — intensity/color vary with time, rotation never changes. Eliminates horizontal-angle blackout.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, lighting, day-night, minecraft-style, low-poly]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, lighting, day-night, minecraft-style, low-poly]
+date: 2026-05-17
+status: draft
 ---
 
 # Minecraft-Style Lighting (Static Overhead + Decorative Sun)

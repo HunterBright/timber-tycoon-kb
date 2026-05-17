@@ -1,15 +1,10 @@
 ---
-name: npc-parking-pd-controller
-description: NPC vehicle PD controller for parking — Kct=5 proportional torque + Kd=0.4 damping, handles back-in parking, switches to kinematic on success
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, npc, parking, pd-controller, vehicle, physics]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, npc, parking, pd-controller, vehicle, physics]
+date: 2026-05-17
+status: draft
 ---
 
 # NPC Parking PD Controller

@@ -1,15 +1,10 @@
 ---
-name: reputation-backend-migration-rollback-safety
-description: 2-sprint migration with independent commits and smoke tests per stage — never big-bang refactor, always rollback safety
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, refactoring, migration, rollback, architecture]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, refactoring, migration, rollback, architecture]
+date: 2026-05-17
+status: draft
 ---
 
 # Backend Migration Pattern with Rollback Safety

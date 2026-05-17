@@ -1,15 +1,10 @@
 ---
-name: ambient-crossfade-zone-based
-description: Zone-based ambient soundscape crossfade — forest/sawmill/road switch with 1s fade, never silent, 2-source alternating
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, audio, ambient, crossfade, zones]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, audio, ambient, crossfade, zones]
+date: 2026-05-17
+status: draft
 ---
 
 # Ambient Crossfade Zone-Based Pattern

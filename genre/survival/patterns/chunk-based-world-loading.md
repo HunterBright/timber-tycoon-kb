@@ -1,15 +1,10 @@
 ---
-name: chunk-based-world-loading
-description: Eskimo Simulator uses 256m×256m chunk streaming via Addressables for 6km² map — architectural divergence from TT's single-scene approach. Pattern for large open-world survival games.
-metadata:
-  type: pattern
-  project: eskimo-simulator
-  suggested-category: genre/survival/patterns
-  tags: [unity, world-streaming, chunks, survival, eskimo]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: eskimo-simulator
+suggested-category: genre/survival/patterns
+tags: [unity, world-streaming, chunks, survival, eskimo]
+date: 2026-05-17
+status: draft
 ---
 
 # Chunk-Based World Loading (Eskimo Simulator)

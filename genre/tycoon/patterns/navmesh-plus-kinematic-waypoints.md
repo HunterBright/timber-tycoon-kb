@@ -1,15 +1,10 @@
 ---
-name: navmesh-plus-kinematic-waypoints
-description: Hybrid NPC movement — NavMeshAgent for pedestrians (free-form walking), kinematic waypoints for vehicles (road paths). Different agents, different systems.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, navmesh, npc, pedestrians, vehicles, hybrid]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, navmesh, npc, pedestrians, vehicles, hybrid]
+date: 2026-05-17
+status: draft
 ---
 
 # NavMesh + Kinematic Waypoints Hybrid

@@ -1,15 +1,10 @@
 ---
-name: architectural-naming-convention
-description: Building element naming — Beam_{Dir}_Log, Pillar_{Compass}_{Size}, Wall_{Compass}, Foundation — enables scripted setup and predictable hierarchy scanning
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, blender, naming, architecture, prefabs]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects, blender-pipelines]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, blender, naming, architecture, prefabs]
+date: 2026-05-17
+status: draft
 ---
 
 # Architectural Elements Naming Convention

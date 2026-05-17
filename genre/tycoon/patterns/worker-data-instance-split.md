@@ -1,15 +1,10 @@
 ---
-name: worker-data-instance-split
-description: WorkerData SO (blueprint: role, speed, salary) + WorkerInstance runtime (isHired, speedMultiplier, perfectQuality). Upgrades modify instance, not blueprint.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, scriptableobject, worker, blueprint, runtime]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, scriptableobject, worker, blueprint, runtime]
+date: 2026-05-17
+status: draft
 ---
 
 # WorkerData (SO Blueprint) + WorkerInstance (Runtime) Split

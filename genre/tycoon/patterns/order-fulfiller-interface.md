@@ -1,15 +1,10 @@
 ---
-name: order-fulfiller-interface
-description: IOrderFulfiller interface — player and NPC share same contract, asymmetric implementations ensure player is always faster (sprint, capacity, no delay)
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, interface, order-fulfillment, player, npc, asymmetry]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, interface, order-fulfillment, player, npc, asymmetry]
+date: 2026-05-17
+status: draft
 ---
 
 # OrderFulfiller Interface (Player vs NPC, Player Always Faster)

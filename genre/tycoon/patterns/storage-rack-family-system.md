@@ -1,15 +1,10 @@
 ---
-name: storage-rack-family-system
-description: StorageFamily enum — each rack has a typed family (Log/Plank/Bark/Firewood/PelletBag/etc), maxCapacity, maxDistinctStacks (species cap), isActive. Auto-registers in StorageRackRegistry via OnEnable.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, storage, family, capacity, racks, sawmill]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, storage, family, capacity, racks, sawmill]
+date: 2026-05-17
+status: draft
 ---
 
 # StorageRack Family System

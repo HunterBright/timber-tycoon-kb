@@ -1,15 +1,10 @@
 ---
-name: object-pooling-npcs-fifo-queue
-description: Max 8 active NPCs from pre-instantiated pool + FIFO customer queue at SalesCounter — predictable memory, zero GC spikes
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, npc, object-pool, performance, fifo]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, npc, object-pool, performance, fifo]
+date: 2026-05-17
+status: draft
 ---
 
 # Object Pooling for NPCs + FIFO Customer Queue

@@ -1,15 +1,10 @@
 ---
-name: crate-manager-tier-progression
-description: CrateManager tier progression — Small_10/Medium_15/Large_25 slots, upgrades via event subscription, ISaveable
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, crate, tier, upgrade, inventory]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, crate, tier, upgrade, inventory]
+date: 2026-05-17
+status: draft
 ---
 
 # CrateManager Tier Progression

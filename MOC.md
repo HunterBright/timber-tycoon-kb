@@ -87,7 +87,6 @@ See _inbox/ for pending drafts.
 - [GetOrAddComponent extension method](engine/patterns/get-or-add-component-pattern.md)
 - [Storage migration: Primary new + Legacy fallback](engine/patterns/storage-migration-primary-plus-legacy-fallback.md)
 - [Before-delete legacy class checklist](engine/patterns/before-delete-legacy-class-checklist.md)
-- [ScriptableObject runtime-assigned references](engine/patterns/scriptable-object-runtime-assigned-references.md)
 - [Diegetic 3D button raycast pattern](engine/patterns/diegetic-3d-button-raycast.md)
 - [Camera lock: save → lerp → restore](engine/patterns/camera-lock-save-lerp-restore.md)
 - [Sliding head bandsaw mouse-drag tempo minigame](engine/patterns/sliding-head-bandsaw-mouse-drag-tempo-minigame.md)
@@ -144,8 +143,7 @@ See _inbox/ for pending drafts.
 - [Scene files are binary, never text-edit](engine/anti-patterns/scene-files-binary-never-edit.md)
 - [Legacy code conflict after refactor](engine/anti-patterns/legacy-code-conflict-after-refactor.md)
 - [Rotating Directional Light → black terrain at dawn/dusk](engine/anti-patterns/rotating-directional-light-day-night.md)
-- [Script overrides prefab Inspector values (CapsuleCollider)](engine/anti-patterns/script-overrides-prefab-collider.md)
-- [Script overrides prefab inspector values (original)](engine/anti-patterns/script-overrides-prefab-inspector-values.md)
+- [Script overrides prefab Inspector values (CapsuleCollider + DirtClump cases)](engine/anti-patterns/script-overrides-prefab-inspector-values.md)
 - [Low-poly water side-wave anti-pattern](engine/anti-patterns/low-poly-water-side-wave.md)
 - [Race condition: Start() vs Instantiate parameter](engine/anti-patterns/race-condition-start-vs-instantiate-parameter.md)
 - [bake_space_transform + linked duplicates rotation bug](engine/anti-patterns/bake-space-transform-linked-duplicates-rotation-bug.md)
@@ -220,6 +218,7 @@ See _inbox/ for pending drafts.
 - [Procedural textures in Blender Cycles (commercial)](workflow/3d-models/procedural-textures-cycles-commercial.md)
 - [Blender headless Python generation](workflow/3d-models/blender-headless-python-generation.md)
 - [ZERO floating / ZERO flickering mandate](workflow/3d-models/zero-floating-zero-flickering-mandate.md)
+- [Tripo (organic) vs Blender MCP (geometric) — pipeline routing](workflow/3d-models/tripo-organic-vs-blender-geometric-decision.md)
 
 #### Asset Pipeline
 - [Tripo cleanup pipeline](workflow/asset-pipeline/tripo-cleanup-pipeline.md)

@@ -1,15 +1,10 @@
 ---
-name: mountains-hierarchy-front-and-backdrop
-description: Two-FBX mountain hierarchy — front ring single-sided + double-sided backdrop with 10m overlap to prevent horizon gap
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, blender, mountains, backdrop, double-sided, low-poly]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects, blender-pipelines]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, blender, mountains, backdrop, double-sided, low-poly]
+date: 2026-05-17
+status: draft
 ---
 
 # Mountains Hierarchy — Front Ring + Backdrop Double-Sided

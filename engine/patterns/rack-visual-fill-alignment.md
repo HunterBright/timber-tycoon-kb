@@ -1,15 +1,10 @@
 ---
-name: rack-visual-fill-alignment
-description: Storage rack fill visualization via child fillLevel transforms aligned to shelf Y positions — bags rest on shelves deterministically
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, prefabs, racks, fill-visualization, alignment]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, prefabs, racks, fill-visualization, alignment]
+date: 2026-05-17
+status: draft
 ---
 
 # Rack Visual Fill Alignment Pattern

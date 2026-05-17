@@ -1,15 +1,10 @@
 ---
-name: storage-rack-registry-auto-register
-description: StorageRackRegistry singleton auto-registers racks via OnEnable/OnDisable — zero StorageManager edits when adding new racks
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, storage, registry, singleton, on-enable]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, storage, registry, singleton, on-enable]
+date: 2026-05-17
+status: draft
 ---
 
 # StorageRackRegistry Singleton + Auto-Registration via OnEnable

@@ -1,15 +1,10 @@
 ---
-name: worker-simulate-work-cycle
-description: NPC workers operate via SimulateWorkCycle() on timer — no NavMesh, no walking animation, pure production logic. Scales to 12+ workers at zero performance cost.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [game-design, tycoon, npc-worker, simulation, abstraction]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [game-design, tycoon, npc-worker, simulation, abstraction]
+date: 2026-05-17
+status: draft
 ---
 
 # Worker Simulate Work Cycle (No NavMesh/AI)

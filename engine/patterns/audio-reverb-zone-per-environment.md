@@ -1,15 +1,10 @@
 ---
-name: audio-reverb-zone-per-environment
-description: AudioReverbZone components per environment give location-specific acoustics — sawmill interior echoes, forest is light, open field is dry
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, audio, reverb, environment, ambient]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, audio, reverb, environment, ambient]
+date: 2026-05-17
+status: draft
 ---
 
 # AudioReverbZone per Environment

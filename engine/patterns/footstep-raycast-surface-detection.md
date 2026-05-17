@@ -1,15 +1,10 @@
 ---
-name: footstep-raycast-surface-detection
-description: Footstep SFX surface detection via downward raycast — layer hit maps to SFX pool (grass/dirt/wood/stone/water)
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, audio, footstep, raycast, terrain, sfx]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, audio, footstep, raycast, terrain, sfx]
+date: 2026-05-17
+status: draft
 ---
 
 # Footstep Raycast Surface Detection

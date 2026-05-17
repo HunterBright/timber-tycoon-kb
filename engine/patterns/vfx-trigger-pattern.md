@@ -1,15 +1,10 @@
 ---
-name: vfx-trigger-pattern
-description: VFXTrigger.cs component subscribes to GameEventSO channel and spawns VFX prefab at runtime — gameplay code never references VFX
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, vfx, game-event, decoupled, trigger]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, vfx, game-event, decoupled, trigger]
+date: 2026-05-17
+status: draft
 ---
 
 # VFX Trigger Pattern via GameEventSO

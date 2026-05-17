@@ -1,15 +1,10 @@
 ---
-name: debris-cleanup-single-click-drop
-description: Tutorial debris interaction — single E click, pile despawns, 1 plank drops. No minigame, no hold, no animation. First gameplay moment must be instant and satisfying.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, tutorial, debris, cleanup, visual-progression]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, tutorial, debris, cleanup, visual-progression]
+date: 2026-05-17
+status: draft
 ---
 
 # Debris Cleanup — Single-Click Drop Materials Visual

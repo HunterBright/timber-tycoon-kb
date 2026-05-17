@@ -1,15 +1,10 @@
 ---
-name: isaveable-contract
-description: ISaveable interface — GetSaveKey/GetSaveData/LoadSaveData three-method persistence contract with SaveManager auto-registration
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, save-system, isaveable, persistence, json]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, save-system, isaveable, persistence, json]
+date: 2026-05-17
+status: draft
 ---
 
 # ISaveable Contract

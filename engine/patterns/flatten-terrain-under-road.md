@@ -1,15 +1,10 @@
 ---
-name: flatten-terrain-under-road-smoothstep
-description: Terrain flattening under roads — smoothstep blend zone gracefully transitions from flat road surface to natural terrain contour
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, road, terrain, mesh-modification, smoothstep]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, road, terrain, mesh-modification, smoothstep]
+date: 2026-05-17
+status: draft
 ---
 
 # Flatten Terrain Under Road (Smoothstep Blend)

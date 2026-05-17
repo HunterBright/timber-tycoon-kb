@@ -1,15 +1,10 @@
 ---
-name: dictionary-warehouse-registry
-description: Dictionary<ProductType,int> warehouse inventory — zero physical GameObjects, O(1) lookup, auto-init on first access, visual layer separate
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, storage, dictionary, registry, data-driven]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, storage, dictionary, registry, data-driven]
+date: 2026-05-17
+status: draft
 ---
 
 # Dictionary<ProductType, int> Warehouse Registry

@@ -1,15 +1,10 @@
 ---
-name: collider-distribution-rule
-description: Selective collider rule — BoxCollider on Foundation/Walls/Pillars (solid), NO collider on Beams/Roofs (visual-only) — reduces physics scene cost
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, colliders, performance, architecture, level-design]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, colliders, performance, architecture, level-design]
+date: 2026-05-17
+status: draft
 ---
 
 # Collider Distribution Rule (Architecture)

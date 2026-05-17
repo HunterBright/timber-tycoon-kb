@@ -1,15 +1,10 @@
 ---
-name: typography-accessibility-stack
-description: Complete TMP + accessibility stack — TextMeshPro mandatory, Polish SDF atlas, size hierarchy, color palette, dynamic font scaling
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, ui, typography, accessibility, textmeshpro, font, sdf]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, ui, typography, accessibility, textmeshpro, font, sdf]
+date: 2026-05-17
+status: draft
 ---
 
 # Typography + Accessibility Stack

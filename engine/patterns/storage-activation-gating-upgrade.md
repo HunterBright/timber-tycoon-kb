@@ -1,15 +1,10 @@
 ---
-name: storage-activation-gating-upgrade
-description: Racks start inactive, unlock progressively via upgrade purchase events — player unlocks storage types as they progress
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, storage, upgrade, gating, progression]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, storage, upgrade, gating, progression]
+date: 2026-05-17
+status: draft
 ---
 
 # Storage Activation Gating via Upgrade Purchase

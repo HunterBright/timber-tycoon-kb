@@ -1,15 +1,10 @@
 ---
-name: wing-snap-points-modular-fade-in
-description: Building expansion via pre-placed wing prefabs (all in scene at start, hidden), revealed with 1.5s material fade-in + dust VFX on purchase
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, building, modular, snap-points, fade, expansion]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, building, modular, snap-points, fade, expansion]
+date: 2026-05-17
+status: draft
 ---
 
 # Wing Snap-Points Modular Instant Fade-In

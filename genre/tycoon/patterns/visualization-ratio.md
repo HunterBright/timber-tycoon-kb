@@ -1,15 +1,10 @@
 ---
-name: visualization-ratio-inventory-to-visual
-description: 10:1 inventory-to-visual ratio for logs, 20:1 for planks, 5:1 for pellet bags. FloorToInt(currentAmount / ratio) drives slot activation — looks full without rendering each unit.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, visualization, inventory, ratio, scale]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, visualization, inventory, ratio, scale]
+date: 2026-05-17
+status: draft
 ---
 
 # Visualization Ratio (Inventory to Visual Stack)

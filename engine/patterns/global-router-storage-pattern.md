@@ -1,15 +1,10 @@
 ---
-name: global-router-storage-pattern
-description: StorageManager.AddToStorage() routes by ProductType → StorageFamily mapping — callers don't know which rack, fully decoupled
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, storage, routing, decoupled, manager]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, storage, routing, decoupled, manager]
+date: 2026-05-17
+status: draft
 ---
 
 # GLOBAL_ROUTER Pattern (StorageManager.AddToStorage)

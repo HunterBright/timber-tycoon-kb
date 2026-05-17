@@ -1,15 +1,10 @@
 ---
-name: trunk-fall-physics-config
-description: Fallen trunk Rigidbody config — mass=80, isKinematic=false at spawn, auto-stabilize to kinematic after 1.5s to prevent jitter
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, physics, rigidbody, tree-cutting, fallen-trunk]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, physics, rigidbody, tree-cutting, fallen-trunk]
+date: 2026-05-17
+status: draft
 ---
 
 # Trunk Fall Physics Config
@@ -43,7 +38,7 @@ IEnumerator StabilizeTrunk(Rigidbody rb, float delay) {
 }
 ```
 
-**CapsuleCollider config** (from prefab — do NOT override in code, see [[script-overrides-prefab-collider]]):
+**CapsuleCollider config** (from prefab — do NOT override in code, see [[script-overrides-prefab-inspector-values]]):
 - Direction: 0 (X-axis, along trunk length)
 - Radius: 0.15
 - Height: 3.5
@@ -66,4 +61,4 @@ StartCoroutine(RestoreCollision(trunk.GetComponent<Collider>(), playerCollider, 
 - **No physics fall:** trunk plays a falling animation (no Rigidbody), converts to static collider on landing — simpler, less dynamic
 - **Ragdoll trunk:** Rigidbody chain per log segment — cinematic but expensive
 
-See also: [[capsule-collider-direction-axis]], [[script-overrides-prefab-collider]]
+See also: [[capsule-collider-direction-axis]], [[script-overrides-prefab-inspector-values]]

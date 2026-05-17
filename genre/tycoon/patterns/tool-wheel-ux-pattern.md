@@ -1,15 +1,10 @@
 ---
-name: tool-wheel-ux-pattern
-description: Radial tool selector — hold Q opens wheel, mouse selects sector, LPM confirms / release Q cancels. Game runs (not paused) during selection.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, ui, tool-wheel, fps, controls]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, ui, tool-wheel, fps, controls]
+date: 2026-05-17
+status: draft
 ---
 
 # ToolWheel UX Pattern

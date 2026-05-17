@@ -1,15 +1,10 @@
 ---
-name: kiosk-interactable-cube-placeholder
-description: Diegetic world-space kiosk as IInteractable Cube primitive — designer positions immediately, art replaces later, OnInteract opens UI panel
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, interactable, kiosk, placeholder, ui]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, interactable, kiosk, placeholder, ui]
+date: 2026-05-17
+status: draft
 ---
 
 # KioskInteractable + Cube Placeholder Pattern

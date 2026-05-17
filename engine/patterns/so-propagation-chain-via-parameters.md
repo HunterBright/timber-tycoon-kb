@@ -1,15 +1,10 @@
 ---
-name: so-propagation-chain-via-parameters
-description: SO references propagate via explicit parameter passing through spawn chains (ChoppableTree → Stump → GrowingTree), not singleton lookup
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, scriptableobject, propagation, parameter-passing]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, scriptableobject, propagation, parameter-passing]
+date: 2026-05-17
+status: draft
 ---
 
 # SO Propagation Chain via Parameter Passing

@@ -1,15 +1,10 @@
 ---
-name: carry-capacity-progression-sprint
-description: Player carry capacity 1→3→5→8 logs via upgrades, sprint (2× speed) ensures player always outperforms NPC (capped at 3, walk-only)
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [game-design, tycoon, progression, carry, sprint, npc]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [game-design, tycoon, progression, carry, sprint, npc]
+date: 2026-05-17
+status: draft
 ---
 
 # Carry Capacity Progression + Sprint Advantage

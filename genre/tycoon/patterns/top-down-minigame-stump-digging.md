@@ -1,15 +1,10 @@
 ---
-name: top-down-camera-minigame-stump-digging
-description: Stump digging minigame — top-down camera + click-on-targets (4-8 golden points around stump perimeter). 4th distinct mechanic in TT alongside zone-click, circular needle, and hold-needle.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: genre/tycoon/patterns
-  tags: [unity, minigame, camera, top-down, stump, mechanic]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: genre/tycoon/patterns
+tags: [unity, minigame, camera, top-down, stump, mechanic]
+date: 2026-05-17
+status: draft
 ---
 
 # Top-Down Camera Minigame (Stump Digging)

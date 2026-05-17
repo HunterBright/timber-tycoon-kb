@@ -1,15 +1,10 @@
 ---
-name: shared-mesh-and-materials-reference
-description: Placeholder GameObjects reference the SAME mesh + materials as the final asset — no duplication, no placeholder-vs-final drift
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: engine/patterns
-  tags: [unity, prefabs, references, placeholders, debug]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+type: pattern
+project: timber-tycoon
+suggested-category: engine/patterns
+tags: [unity, prefabs, references, placeholders, debug]
+date: 2026-05-17
+status: draft
 ---
 
 # Shared Mesh + Materials Reference Pattern
