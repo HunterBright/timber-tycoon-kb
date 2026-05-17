@@ -27,7 +27,7 @@ Entry point. Browse by category or use full-text search.
 
 ## TODO — Seed extraction (post-demo)
 
-Extract these from TT memory (C:\Users\mrhun\.claude\projects\D--Unity-Timber-Tycoon\memory\):
+Extract these from TT memory (C:\Users\<user>\.claude\projects\D--Unity-Timber-Tycoon\memory\):
 
 **To engine/lessons/:**
 - feedback_bake_space_transform_empties.md → Blender empty + shared mesh rotation bug
@@ -56,7 +56,7 @@ See _inbox/ for pending drafts.
 
 ## Generated entries (KB_BUILD_PACKAGE 2026-05-17)
 
-141 entries created across 8 batches. Links use path relative to `D:\Hunter\KnowledgeBase\`.
+141 entries created across 8 batches. Links use path relative to `<kb-root>\`.
 
 ### Engine
 

@@ -1,7 +1,7 @@
 # KB Build Package — Timber Tycoon Knowledge Base
 
 **Generated:** 2026-05-17 by claude.ai (Opus 4.7) for autonomous execution by Claude Code.
-**Target:** `D:\Hunter\KnowledgeBase\` (junction at `D:\Unity\Timber_Tycoon\kb\`)
+**Target:** `<kb-root>\` (junction at `<project-root>\kb\`)
 **Scope:** 168 candidates → ~150 unique .md files after dedup mergers.
 
 ---
@@ -22,7 +22,7 @@ Each entry has enough context that you (Code) can render the full `.md` file usi
 
 ## 2. Workflow Protocol
 
-### Templates (in `D:\Hunter\KnowledgeBase\templates\`)
+### Templates (in `<kb-root>\templates\`)
 - `lesson.md` — for Type A (technical know-how, gotchas, lessons learned)
 - `pattern.md` — for Type B and C (reusable code patterns, design patterns)
 - `decision.md` — for Type C (design decisions with reasoning, alternatives)
@@ -41,7 +41,7 @@ Per-entry, the brief includes explicit `Template:` field. Use that.
 Process in 8 batches of ~20-25 entries each. After each batch:
 
 ````
-git add D:/Hunter/KnowledgeBase/
+git add <kb-root>/
 git commit -m "feat(kb): batch N — {category}"
 ````
 
@@ -125,7 +125,7 @@ Then `/clear: TAK — kontekst pełny po N entries, fresh start dla batch N+1`.
 ## 3. Output Tree
 
 ```
-D:\Hunter\KnowledgeBase\
+<kb-root>\
 ├── engine\
 │   ├── lessons\           (~30 files)
 │   ├── patterns\          (~45 files)
@@ -3490,7 +3490,7 @@ The full catalog of 168 candidates follows. Process top-to-bottom in batches.
   ```bash
   "C:/Program Files/Blender Foundation/Blender 5.0/blender.exe" \
     --background \
-    --python "D:/Unity/Timber_Tycoon/_BlenderScripts/01_create_frame.py"
+    --python "<project-root>/_BlenderScripts/01_create_frame.py"
   ```
 - Script structure:
   1. Clear scene (delete default cube + lights, keep camera + world)
@@ -3662,7 +3662,7 @@ The full catalog of 168 candidates follows. Process top-to-bottom in batches.
 
 ## 8. MOC.md Template (Code generates this)
 
-After all batches complete, Code creates `D:\Hunter\KnowledgeBase\MOC.md` with this structure (replace `{path}` with actual paths from entries):
+After all batches complete, Code creates `<kb-root>\MOC.md` with this structure (replace `{path}` with actual paths from entries):
 
 ```markdown
 # MOC — Map of Content
@@ -3855,7 +3855,7 @@ Code: when writing this MOC, replace each `{path}` with the actual path from the
 
 ## 9. Final Report Template
 
-After all batches done, Code writes `D:\Hunter\KnowledgeBase\KB_BUILD_REPORT.md`:
+After all batches done, Code writes `<kb-root>\KB_BUILD_REPORT.md`:
 
 ```markdown
 # KB Build Report

@@ -8,4 +8,11 @@ Thumbs.db
 
 # Temp
 *.tmp
+*.bak
 *~
+
+# Transient/scratch — never commit content
+_inbox/
+
+# Audit reports — keep local
+KB_SECURITY_AUDIT.md

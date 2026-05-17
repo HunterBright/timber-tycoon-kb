@@ -23,7 +23,7 @@ When generating 3D assets programmatically — especially when: the asset follow
 ```bash
 "C:/Program Files/Blender Foundation/Blender 5.0/blender.exe" \
   --background \
-  --python "D:/Unity/Timber_Tycoon/_BlenderScripts/01_create_frame.py"
+  --python "<project-root>/_BlenderScripts/01_create_frame.py"
 ```
 
 `--background`: no GUI, headless mode. Script runs, Blender closes.

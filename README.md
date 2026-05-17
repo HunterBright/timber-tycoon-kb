@@ -11,7 +11,7 @@ Survives projects. Grows with each session.
 - Architecture Decision Records with trade-offs
 - Anti-patterns: what NOT to do
 
-**Project memory** (lives at C:\Users\mrhun\.claude\projects\<project>\memory\):
+**Project memory** (lives at C:\Users\<user>\.claude\projects\<project>\memory\):
 - Project-specific feedback (colors, positions, design preferences)
 - Current sprint state
 - Per-project decisions still in flux
@@ -34,7 +34,7 @@ Different scope, different lifetime, different storage. Both intentional.
 3. New projects: junction kb\ → this folder, instant access
 
 ## How Claude Code uses this
-Global CLAUDE.md at C:\Users\mrhun\.claude\CLAUDE.md instructs Claude to:
+Global CLAUDE.md at C:\Users\<user>\.claude\CLAUDE.md instructs Claude to:
 - Read MOC.md when task is non-trivial and likely has prior art
 - Auto-write drafts when triggers fire (see global CLAUDE.md)
 - Not interrupt flow with "should I save?" prompts
