@@ -44,7 +44,7 @@ CustomerTier GetTierForSpawn() {
 ```
 
 **VIP milestone moment — "Demo Day 4 FINAL PUSH":**
-- First VIP customer spawns: $1500 mansion order (50 Oak Planks + 20 Premium Pellets)
+- First VIP customer spawns: $1500 mansion order (50 Oak Planks + 20 Pellets)
 - Designed as climactic moment — player has earned it through all prior progression
 - Announce via Notification Queue: "New customer type: VIP! Premium orders available."
 

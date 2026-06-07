@@ -1,3 +1,5 @@
+> NOTE: tier/quality claims in this aggregate are superseded by genre/tycoon/decisions/tier-system-foundation.md (regenerate to refresh).
+
 # KB Build Package — Timber Tycoon Knowledge Base
 
 **Generated:** 2026-05-17 by claude.ai (Opus 4.7) for autonomous execution by Claude Code.
@@ -2342,7 +2344,7 @@ The full catalog of 168 candidates follows. Process top-to-bottom in batches.
 - **Related:** #072, #044
 - **Tags:** game-design, tycoon, minigame, quality, quantity, progression
 
-**Brief:** TT minigames affect quantity, not quality. Tree species = quality tier (Spruce common, Birch valuable, Oak premium). Machine tier = quality cap. Minigame result (bad/good/perfect) = quantity multiplier (1/2/3 outputs).
+**Brief:** TT minigames affect quantity, not quality. Tree species = separate SKU (different price, not a quality grade). Machine tier = gate on tree tiers (T1/T2/T3), NOT a quality cap. See tier-system-foundation.md. Minigame result (bad/good/perfect) = quantity multiplier (1/2/3 outputs).
 
 **Details:**
 - Design decision: separate "skill" from "content"

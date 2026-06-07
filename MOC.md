@@ -176,6 +176,7 @@ See _inbox/ for pending drafts.
 - [Reverse-parking entry stub orientation (forward-tail)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/reverse-parking-entry-stub-orientation.md)
 
 #### Tycoon — Decisions
+- [Tier system foundation — trees/products/machines (SOURCE OF TRUTH)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/tier-system-foundation.md)
 - [Quantity-not-quality design principle](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/quantity-not-quality-principle.md)
 - [Sales flow: hybrid player + NPC worker](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/sales-flow-decision-hybrid.md)
 - [Tool tier replacement (not multiple in inventory)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/tool-tier-replacement-not-inventory.md)

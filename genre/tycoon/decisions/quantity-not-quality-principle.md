@@ -14,6 +14,8 @@ metadata:
 
 # Quantity-Not-Quality Design Principle
 
+> CORRECTION: machine-tier and plank-gradation claims below are superseded by genre/tycoon/decisions/tier-system-foundation.md.
+
 ## Decision
 Minigames in Timber Tycoon affect **output quantity**, not quality. Quality is determined by inputs (tree species + machine tier). Minigame execution (player skill) determines how many outputs per cycle.
 
@@ -23,7 +25,7 @@ TT has 5 minigames (tree cutting, sawmill, chipper, plank maker, pelletizer). Th
 ## Options Considered
 
 **Option A — Skill affects quality (REJECTED)**
-- Bad execution → Regular Plank, Good → Fine Plank, Perfect → Premium Plank
+- Bad execution → Regular Plank, Good → Fine Plank, Perfect → Premium Plank (NOTE: Fine/Premium plank variants do NOT exist — this describes the REJECTED idea. Planks have no quality grades; species = type only.)
 - Problem: casual players can never get premium products → frustrating, feels punishing
 - Problem: "quality" implies different visual models per grade → 3× asset complexity
 - Problem: balance nightmare (Premium Plank worth 3×? What about Spruce Premium vs Oak Regular?)
@@ -36,12 +38,12 @@ TT has 5 minigames (tree cutting, sawmill, chipper, plank maker, pelletizer). Th
 
 ## Design Implications
 
-**Species = quality tier:**
-- Spruce (common), Birch (valuable), Oak (premium), Maple (similar to Oak)
+**Species = separate SKU, not a grade:**
+- Each species is a separate SKU sold at a different price: Plank_Oak > Plank_Spruce. There is NO Basic/Fine/Premium plank gradation.
 - Player earns more by diversifying tree types, not by getting better at minigames
 
-**Machine tier = quality cap:**
-- Tier 1 PlankMaker → only Basic Plank. Tier 2 → Fine Plank. Player must upgrade.
+**Machine tier = gate on tree tiers (NOT quality):**
+- Machine tier sets which tree tiers it processes (T1→T1, T2→T1+T2, T3→all). It does NOT change output quality. No Fine Plank exists. See tier-system-foundation.md.
 - Minigame performance can't unlock what tier doesn't allow.
 
 **NPC workers always produce "Good" (2x output):** consistent performance without skill variance. Late-game upgrade unlocks "Perfect" (3x).
