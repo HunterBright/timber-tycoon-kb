@@ -81,6 +81,12 @@ See _inbox/ for pending drafts.
 - [Cylindric vs rectangular beams visual contrast](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/cylindric-beams-visual-contrast.md)
 - [Read actual code before hypothesizing (debugging discipline)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/read-actual-code-before-hypothesizing.md)
 - [Tag assignment: code vs Inspector](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/tag-assignment-code-vs-inspector.md)
+- [Stale skybox reflections whiten PBR materials at night](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/stale-reflection-probe-night-whitening.md)
+- ["Dark band that follows the player" = terrain self-shadow on near-coplanar roads](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/urp-distant-caster-shadow-band.md)
+- [ScriptableObject changes in Play Mode DO persist after exit](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/scriptableobject-playmode-persistence.md)
+- [Play-Mode in-memory edits pollute on-disk assets (zero-git-diff trap)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/playmode-asset-pollution-vs-disk.md)
+- [Debugging methodology: search-first, trust the render, check upstream](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/debugging-search-first-trust-render-check-upstream.md)
+- [Scene View A/B false positive — Game view with live camera is ground truth](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/scene-view-ab-false-positive-game-view-ground-truth.md)
 
 #### Patterns (reusable techniques)
 - [Vehicle interaction zones as triggers](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/vehicle-interaction-zones-as-triggers.md)
@@ -138,6 +144,9 @@ See _inbox/ for pending drafts.
 - [ChoppableTree multi-type naming convention](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/choppable-tree-multi-type-naming-convention.md)
 - [Single-material atlas for static props](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/single-material-atlas-for-static-props.md)
 - [TreeState + StumpState enums](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/tree-stump-state-machine-enums.md)
+- [Detect FBX mesh long axis programmatically from bounds](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/fbx-long-axis-detect-programmatically.md)
+- [Convex MeshCollider for irregular clickable objects](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/mesh-collider-convex-for-clickable-minigame-objects.md)
+- [Stacked carry system — camera viewmodel + LIFO + species-agnostic prefab refs](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/stacked-carry-system-camera-viewmodel.md)
 
 #### Anti-Patterns (what NOT to do)
 - [Cycles bake for solid colors → black/blurred](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/cycles-bake-for-solid-colors.md)
@@ -149,6 +158,7 @@ See _inbox/ for pending drafts.
 - [Race condition: Start() vs Instantiate parameter](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/race-condition-start-vs-instantiate-parameter.md)
 - [bake_space_transform + linked duplicates rotation bug](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/bake-space-transform-linked-duplicates-rotation-bug.md)
 - [Generator destroys both paths unconditionally (no per-path guard)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/generator-destroys-both-paths-no-guard.md)
+- [Runtime writes to a shared material ASSET (skybox/day-night git noise)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/unity-runtime-writes-to-shared-material-asset.md)
 
 ### Genre
 
