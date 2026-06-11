@@ -73,4 +73,4 @@ PD controller handles any starting approach angle — no "follow a script" seque
 - **Pure kinematic waypoint parking:** no physics, just lerp from "approach point" → "parked position" — simpler, less realistic
 - **Ackermann steering:** model turning radius accurately for realistic parking sequences
 
-See also: [[forward-axis-blender-fbx-quirk]], [[pipeline-style-npc-spawn]]
+See also: [[forward-axis-blender-fbx-quirk]], [[pipeline-style-npc-spawn]], [[reverse-parking-entry-stub-orientation]]

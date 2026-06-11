@@ -42,3 +42,4 @@ Any Blender-authored vehicle, character, or directional prop exported via FBX wi
 ## Related
 - [FBX export standard settings](fbx-export-standard-settings-blender-to-unity.md)
 - [Self-collision compound BoxColliders](self-collision-compound-colliders-ignore.md)
+- [Reverse-parking entry stub orientation — real-world consequence: Cross(tangent,up) offset in rear-first kinematic](../../genre/tycoon/patterns/reverse-parking-entry-stub-orientation.md)

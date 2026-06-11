@@ -61,4 +61,4 @@ Each agent type uses its appropriate movement system. Pedestrians on NavMesh avo
 - **All NavMesh:** use a Unity NavMesh with car physics simulation — works for simple cases, breaks for multi-lane or reverse parking
 - **All waypoints:** pre-script every NPC movement including pedestrians — works for very scripted sequences (parade, cutscene), doesn't scale to dynamic gameplay
 
-See also: [[npc-parking-pd-controller]], [[pipeline-style-npc-spawn]]
+See also: [[npc-parking-pd-controller]], [[pipeline-style-npc-spawn]], [[reverse-parking-entry-stub-orientation]]
