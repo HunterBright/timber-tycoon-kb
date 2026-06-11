@@ -53,5 +53,20 @@ No rotation needed.
 - With a proper skybox that handles all edge cases (horizon glow, atmospheric scattering)
 - With explicit clamping to prevent below-horizon angles
 
+## If You Do Rotate: quantize the rotation (verified mitigation, 2026-06-11)
+A continuously rotating sun re-renders the entire shadow map every frame with a slightly different
+light matrix → all shadow edges crawl/shimmer constantly. The verified fix in Timber Tycoon:
+**quantize the sun ROTATION to ~0.5° steps** (exposed as a serialized parameter) while color,
+intensity, and skybox time-of-day stay fully continuous. Shadows update in discrete, imperceptible
+hops instead of crawling every frame; nothing else visibly steps, because only the rotation is
+quantized. At 0.5° the step is below what players notice, and the shimmer is gone.
+
+```csharp
+[SerializeField] float sunRotationStepDegrees = 0.5f;
+float quantized = Mathf.Round(continuousAngle / sunRotationStepDegrees) * sunRotationStepDegrees;
+sunLight.transform.rotation = Quaternion.Euler(quantized, yaw, 0f);
+// color / intensity / skybox _TimeOfDay keep using continuousAngle
+```
+
 ## See also
 [[four-phase-weighted-smoothstep-day-night]], [[procedural-skybox-sun-moon-trick]]

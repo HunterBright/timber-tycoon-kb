@@ -9,6 +9,20 @@ status: draft
 
 # Tripo (organic) vs Blender MCP (geometric) — Pipeline Routing Decision
 
+> **UPDATED 2026-06-11** — the original two-way routing below predates the adoption of the
+> **Quaternius Stylized Nature MegaKit (CC0)** as the flora standard. Current three-way routing:
+>
+> - **Flora** (trees for scatter, bushes, grass, rocks-as-decoration) → **Quaternius assets** first.
+>   A curated CC0 kit beats both generators on speed and art consistency for mass-scattered nature;
+>   generation is only worth it for hero assets with gameplay roles.
+> - **Organic / NPC meshes** (characters, stumps, dirt clumps, food, irregular hero props) → **Tripo**
+>   (still needs retopo review, see [[tripo-cleanup-pipeline]]).
+> - **Geometric / hard-surface** (machines, vehicles, buildings, racks, furniture, roads) → **Blender MCP**.
+>
+> The shape-classification reasoning below remains valid for the Tripo-vs-Blender split — it just
+> applies only AFTER checking whether an asset-pack asset covers the need. Original decision kept
+> as historical context.
+
 ## Context
 
 Two 3D asset generation pipelines are available:
