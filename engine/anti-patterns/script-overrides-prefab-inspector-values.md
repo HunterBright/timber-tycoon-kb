@@ -67,6 +67,8 @@ Symptoms: trunk spawns and immediately levitates, OR falls through terrain, OR s
 
 `DirtClump.Awake()` set `radius = 0.05f` overriding the Inspector value. Designer set it to `0.5f` in the prefab — had no effect. "I set it to 0.5 but in Play Mode it's 0.05."
 
+**Resolution (2026-05-29):** the radius mismatch was eliminated by dropping the runtime-forced SphereCollider entirely. `CreateClump()` previously hardcoded `sc.radius = 0.14f` at spawn, overriding the prefab's `0.2`. The fix switches to a **convex MeshCollider derived from the clump's own mesh** (destroy any existing collider, `AddComponent<MeshCollider>()`, assign `MeshFilter.sharedMesh`, `convex = true`). This removes the whole prefab-vs-code radius argument: there is no `radius` field to override, the collider shape IS the mesh. The lesson generalizes — when code and prefab keep fighting over a primitive collider's numeric size, the cleaner fix is often to derive the collider from geometry rather than to argue about which number wins. See [[mesh-collider-convex-for-clickable-minigame-objects]].
+
 ## See also
 
 [[trunk-fall-physics-config]], [[capsule-collider-direction-axis]]
