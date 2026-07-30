@@ -20,7 +20,7 @@ suggested-category: engine/patterns
 # Asset Origin at Bottom-Center Convention
 
 ## When to use
-All 3D assets exported from Blender to Unity. Applies to trees, buildings, props, vehicles — every asset that needs to be placed on or snapped to a surface.
+All 3D assets exported from Blender to Unity. Applies to trees, buildings, props, vehicles - every asset that needs to be placed on or snapped to a surface.
 
 ## Steps
 Per asset type:
@@ -34,12 +34,12 @@ In Blender:
 - Object → Set Origin → Origin to Geometry, then manually snap to bottom in Edit Mode
 
 ## Why this works
-- Ground-snap via raycast needs no offset calculation — pivot touches the surface
-- Rotations are natural — object rotates around its base, not its geometric center
-- Stacking works — "place asset on surface" = pivot touches surface = correct visual placement
+- Ground-snap via raycast needs no offset calculation - pivot touches the surface
+- Rotations are natural - object rotates around its base, not its geometric center
+- Stacking works - "place asset on surface" = pivot touches surface = correct visual placement
 
 ## Trade-offs
 Requires deliberate origin placement per asset in Blender (can't just click "Origin to Geometry"). Extra 30 seconds per asset in Blender saves debugging every time placement code is written.
 
 ## Variants
-Exception: PelletBag / FertilizerBag use exact label-bottom (bottom of print area), not geometric bottom — matters when bags are stacked on shelves.
+Exception: PelletBag / FertilizerBag use exact label-bottom (bottom of print area), not geometric bottom - matters when bags are stacked on shelves.

@@ -16,7 +16,7 @@ applies_to:
 - unity-projects
 - claude-code-projects
 source: ''
-description: Audio pipeline — ElevenLabs MCP for SFX + voice, Suno (manual) for music, FFmpeg normalize all to -16 LUFS. WAV for production, OGG for runtime. Naming conventions per channel.
+description: Audio pipeline - ElevenLabs MCP for SFX + voice, Suno (manual) for music, FFmpeg normalize all to -16 LUFS. WAV for production, OGG for runtime. Naming conventions per channel.
 severity: medium
 suggested-category: workflow/asset-pipeline
 name: audio-asset-pipeline-elevenlabs-suno
@@ -29,7 +29,7 @@ name: audio-asset-pipeline-elevenlabs-suno
 | Tool | Use | Access |
 |------|-----|--------|
 | ElevenLabs MCP | SFX generation, NPC voice bites | `mcp__elevenlabs__*` |
-| Suno | Music generation | Web UI only — no MCP. Manual download. |
+| Suno | Music generation | Web UI only - no MCP. Manual download. |
 | FFmpeg | Normalize volume, convert format | CLI on local machine |
 
 ## Step-by-step
@@ -51,7 +51,7 @@ Output: `.wav` file
 ```bash
 ffmpeg -i input.wav -af "loudnorm=I=-16:LRA=11:TP=-1.5" normalized.wav
 ```
-All audio in TT normalized to -16 LUFS. Consistent volume across all clips — no "this clip is way louder than others."
+All audio in TT normalized to -16 LUFS. Consistent volume across all clips - no "this clip is way louder than others."
 
 **4. Convert to OGG for runtime:**
 ```bash

@@ -1,9 +1,9 @@
 ---
 title: 'ANTI-PATTERN: Start() Reads SO Before Parent Sets It'
 type: anti-pattern
-status: draft
-confidence: medium
-verified: ''
+status: needs-reproduction
+confidence: low
+verified: '2026-07-30'
 date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -13,20 +13,31 @@ tags:
 - instantiate
 - scriptableobject
 applies_to: []
-source: ''
+source: zweryfikowane reprodukcja i dokumentacja 2026-07-30, patrz AUDYT-SPORNYCH-WPISOW
 suggested-category: engine/anti-patterns
+audit_verdict: CZESCIOWO BLEDNY
 ---
 
 # ANTI-PATTERN: Start() Reads SO Before Parent Sets It
 
+> [!warning] Ten wpis zostal zweryfikowany 2026-07-30 i werdykt brzmi: **CZESCIOWO BLEDNY**
+>
+> Zly winowajca: to nie `Start()` czyta dane za wczesnie, tylko `Awake()` i `OnEnable()`.
+> Blok oznaczony we wpisie jako "bledny kod" jest w rzeczywistosci poprawny.
+> Wszystkie trzy sposoby naprawy zostaja - dzialaja.
+>
+> Pelne uzasadnienie, dowody i proponowane poprawki: [[AUDYT-SPORNYCH-WPISOW]].
+> Tresc ponizej NIE zostala jeszcze przepisana - czytaj ja z ta uwaga.
+
+
 ## The trap
-Instantiate a prefab, then assign a ScriptableObject reference to it right after. Seems fine — the assignment happens right there in the code. But `Start()` already ran with `null`.
+Instantiate a prefab, then assign a ScriptableObject reference to it right after. Seems fine - the assignment happens right there in the code. But `Start()` already ran with `null`.
 
 ```csharp
 // BUGGY
 GameObject tree = Instantiate(prefab);
 GrowingTree gt = tree.GetComponent<GrowingTree>();
-gt.treeTypeData = data; // TOO LATE — Start() already ran with null
+gt.treeTypeData = data; // TOO LATE - Start() already ran with null
 ```
 
 ## Why it fails

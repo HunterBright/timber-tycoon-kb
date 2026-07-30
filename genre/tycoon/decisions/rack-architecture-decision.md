@@ -14,7 +14,7 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: 'Storage racks: 3 options analyzed — shared BagRack with capacity upgrades, dedicated rack per product, visual-only swap. Decision open; recommendation is Option B (dedicated racks).'
+description: 'Storage racks: 3 options analyzed - shared BagRack with capacity upgrades, dedicated rack per product, visual-only swap. Decision open; recommendation is Option B (dedicated racks).'
 severity: medium
 suggested-category: genre/tycoon/decisions
 name: rack-architecture-decision
@@ -24,31 +24,31 @@ name: rack-architecture-decision
 
 ## Decision
 
-**Status:** Open — pending Creative Director (Hunter) decision.
-**Recommendation:** Option B — Dedicated rack per product type.
+**Status:** Open - pending Creative Director (Hunter) decision.
+**Recommendation:** Option B - Dedicated rack per product type.
 
 ## Options considered
 
-### Option A — Shared BagRack with capacity upgrades
+### Option A - Shared BagRack with capacity upgrades
 - One rack holds all bag types (pellet + fertilizer + furniture bags)
 - Upgrades increase slot count
 - **Pro:** Simple model, player clearly feels "more slots"
-- **Con:** Visual chaos late game — a single rack mixing pellets, fertilizer, furniture = no visual clarity
+- **Con:** Visual chaos late game - a single rack mixing pellets, fertilizer, furniture = no visual clarity
 
-### Option B — Dedicated rack per product type (RECOMMENDED)
+### Option B - Dedicated rack per product type (RECOMMENDED)
 - PelletRack, FertilizerRack, FurnitureRack are distinct GameObjects
 - Each unlocked as purchased upgrade
-- **Pro:** Visual clarity — sawmill looks like a showroom, each rack is a landmark
+- **Pro:** Visual clarity - sawmill looks like a showroom, each rack is a landmark
 - **Con:** More racks = more floor space needed; late game sawmill may feel crowded
 
-### Option C — Visual upgrade only (model swap)
+### Option C - Visual upgrade only (model swap)
 - Same rack, just swaps to a fancier model when upgraded
 - **Pro:** Zero gameplay change, easy to implement
-- **Con:** Player buys upgrade but nothing changes functionally — "what did I just buy?"
+- **Con:** Player buys upgrade but nothing changes functionally - "what did I just buy?"
 
 ## Recommendation rationale
 
-Option B wins because Timber Tycoon's core appeal is the sawmill as a "place" — the player should walk around and see distinct areas for each product. A dedicated PelletRack next to the Pelletizer communicates workflow visually. Option A muddles this by mixing everything. Option C provides no upgrade satisfaction.
+Option B wins because Timber Tycoon's core appeal is the sawmill as a "place" - the player should walk around and see distinct areas for each product. A dedicated PelletRack next to the Pelletizer communicates workflow visually. Option A muddles this by mixing everything. Option C provides no upgrade satisfaction.
 
 ## Consequences
 

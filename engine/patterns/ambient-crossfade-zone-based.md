@@ -54,7 +54,7 @@ public class AmbientZoneSO : ScriptableObject {
 
 **Zone detection:** trigger collider on zone boundaries. `OnTriggerEnter` → `AmbientManager.TransitionTo(newZone)`.
 
-**Never-silent rule:** old source fades to 0.05f minimum (not 0f). Player always hears something — avoids jarring silence pockets at zone edges.
+**Never-silent rule:** old source fades to 0.05f minimum (not 0f). Player always hears something - avoids jarring silence pockets at zone edges.
 
 **Zones in Timber Tycoon:**
 
@@ -66,14 +66,14 @@ public class AmbientZoneSO : ScriptableObject {
 | River | water flow + birds | 0.65 |
 | City (planned) | crowd murmur + traffic | 0.5 |
 
-**Day/Night modifier:** AmbientManager modulates volume × `DayNightMultiplier` from TimeManager — nighttime forest is quieter with different clip (crickets vs. birds).
+**Day/Night modifier:** AmbientManager modulates volume × `DayNightMultiplier` from TimeManager - nighttime forest is quieter with different clip (crickets vs. birds).
 
 ## Why this works
 Two alternating AudioSources allow smooth crossfade without gap. Trigger-based zone detection is cheap (single event per zone boundary, not per-frame). The crossfade duration hides the transition, so players don't consciously notice the change.
 
 ## Trade-offs
 - Overlapping trigger colliders: if player moves fast through a thin zone, multiple transitions fire quickly. Add minimum stay time (0.5s) before triggering to debounce
-- Loop points: ambient clips must loop seamlessly — use audio editor to set clean loop points, avoid cross-fade artifacts at loop boundary
+- Loop points: ambient clips must loop seamlessly - use audio editor to set clean loop points, avoid cross-fade artifacts at loop boundary
 - 2D audio only: ambient is `spatialBlend = 0` (not positional). Positional ambient (river sound near river) is a separate `AudioSource` on the river object
 
 ## Variants

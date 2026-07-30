@@ -21,7 +21,7 @@ suggested-category: genre/tycoon/patterns
 # Top-Down Camera Minigame (Stump Digging)
 
 ## When to use
-Tycoon games with a physical interaction mechanic that benefits from a top-down perspective. Stump digging is a spatial task (click multiple points around an object) — top-down makes the target points readable without FPP camera distortion.
+Tycoon games with a physical interaction mechanic that benefits from a top-down perspective. Stump digging is a spatial task (click multiple points around an object) - top-down makes the target points readable without FPP camera distortion.
 
 ## Steps
 
@@ -51,7 +51,7 @@ List<Vector3> GenerateDigPoints(Transform stump, int count) {
 - Raycast from screen position to world plane (y = stump.position.y)
 - If hit within `clickRadius` of next target point: register "dig"
 - Play dig animation (brief down-up motion on point indicator) + spark VFX
-- Progress to next point in sequence (or nearest unclicked — player choice)
+- Progress to next point in sequence (or nearest unclicked - player choice)
 
 **Completion:**
 ```csharp
@@ -64,13 +64,13 @@ void OnAllPointsClicked() {
 ```
 
 **Minigame catalog in Timber Tycoon (4 distinct mechanics):**
-1. Zone-click (tree chop) — strafe + click at correct moment
-2. Circular cursor needle (sawmill) — needle in spinning wheel
-3. Hold-needle (chipper) — hold E until needle in zone
+1. Zone-click (tree chop) - strafe + click at correct moment
+2. Circular cursor needle (sawmill) - needle in spinning wheel
+3. Hold-needle (chipper) - hold E until needle in zone
 4. Top-down click-targets (stump digging)
 
 ## Why this works
-Top-down gives full spatial awareness of the stump. Click-targets are large enough to be forgiving (radius-based hit detection, not pixel-perfect). The stump lifting at the end is the payoff — physical reward visible from the top-down perspective before camera returns to FPP.
+Top-down gives full spatial awareness of the stump. Click-targets are large enough to be forgiving (radius-based hit detection, not pixel-perfect). The stump lifting at the end is the payoff - physical reward visible from the top-down perspective before camera returns to FPP.
 
 ## Trade-offs
 - Camera transition cost: lerp to top-down and back = ~1.2s total. Acceptable for 5-6 stumps per session. For rapid repeated digging, reduce transition duration to 0.3s.

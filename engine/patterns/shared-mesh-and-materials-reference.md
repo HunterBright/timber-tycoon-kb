@@ -42,11 +42,11 @@ PelletRack_Placeholder/
   SlotAnchor_0_0, SlotAnchor_0_1, ... (positioned manually)
 ```
 
-**Difference between placeholder and final = only transform, layer, and components — NOT mesh/material assets.**
+**Difference between placeholder and final = only transform, layer, and components - NOT mesh/material assets.**
 
 **Workflow:**
 1. Drop `PelletRack_Placeholder` in scene, configure `StorageRack` component
-2. Iterate gameplay (storage logic, fill levels) — visual is already correct
+2. Iterate gameplay (storage logic, fill levels) - visual is already correct
 3. When final prefab arrives: swap GameObject in scene, copy transform. Runtime behavior unchanged.
 
 **Update propagation:** modify `BagRack.fbx` in Blender → re-import → placeholder updates automatically.
@@ -55,12 +55,12 @@ PelletRack_Placeholder/
 Unity's asset reference system means both placeholder and final share the same mesh/material asset objects. Visual parity is guaranteed. Demo screenshots look polished even before "final" assets exist.
 
 ## Trade-offs
-- Placeholder still has `_Placeholder` suffix in name — signal it's work-in-progress, even though it looks final
+- Placeholder still has `_Placeholder` suffix in name - signal it's work-in-progress, even though it looks final
 - If placeholder needs to be invisible in-game (debug only), use `HideFlags` or a separate debug-only scene
 - SlotAnchor positions may need manual adjustment when final mesh dimensions differ from placeholder
 
 ## Variants
-- **Fully identical prefab early:** just create the actual prefab immediately and stop thinking of it as "placeholder" — sometimes faster
+- **Fully identical prefab early:** just create the actual prefab immediately and stop thinking of it as "placeholder" - sometimes faster
 - **Debug material layer:** give placeholder GameObject a separate layer that's excluded from production builds
 
 See also: [[rack-visual-fill-alignment]]

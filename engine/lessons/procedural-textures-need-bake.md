@@ -25,7 +25,7 @@ time_lost: ''
 # Procedural Textures Must Be Baked Before FBX Export
 
 ## Problem
-Blender procedural shaders (Wave/Voronoi/Noise + ColorRamp → Principled BSDF) don't carry through FBX export. Unity receives pink or gray materials instead of the designed look. No error is shown — materials simply arrive wrong.
+Blender procedural shaders (Wave/Voronoi/Noise + ColorRamp → Principled BSDF) don't carry through FBX export. Unity receives pink or gray materials instead of the designed look. No error is shown - materials simply arrive wrong.
 
 ## Root cause
 FBX format carries texture FILE references, not shader graphs. Procedural shaders exist only in Blender's render context (Cycles/Eevee). Once exported to FBX, the shader data has nowhere to go.

@@ -45,7 +45,7 @@ Review each result. If the shortcut has been replaced by real interaction: delet
 1. Early development: "U key opens upgrade shop" added for testing (inside `#if UNITY_EDITOR`)
 2. Migration: real kiosk interaction implemented → upgrade shop now opens through kiosk
 3. Cleanup (often skipped): `#if UNITY_EDITOR` U-key shortcut still exists
-4. Result: both routes active simultaneously — can cause state confusion
+4. Result: both routes active simultaneously - can cause state confusion
 
 ## Anti-pattern examples
 
@@ -63,10 +63,10 @@ Review each result. If the shortcut has been replaced by real interaction: delet
 ## Marker convention in TT
 
 All temporary code uses one of these explicit markers:
-- `#if UNITY_EDITOR` — editor-only, but review if real feature replaced it
-- `// TODO debug` — remove before ship
-- `// INTENTIONALLY LOW` — debug value, see [[intentionally-low-maxcapacity-test-racks]]
-- `// TEMP` — temporary until [feature] is implemented
+- `#if UNITY_EDITOR` - editor-only, but review if real feature replaced it
+- `// TODO debug` - remove before ship
+- `// INTENTIONALLY LOW` - debug value, see [[intentionally-low-maxcapacity-test-racks]]
+- `// TEMP` - temporary until [feature] is implemented
 
 All markers must be searchable. Never add debug code without a marker.
 

@@ -24,7 +24,7 @@ Procedural roads on a terrain mesh. Without terrain flattening, roads hover over
 
 ## Steps
 
-**Algorithm — iterate every terrain vertex near the road:**
+**Algorithm - iterate every terrain vertex near the road:**
 ```csharp
 void FlattenTerrainUnderRoad(Vector3[] terrainVertices, List<Vector3> splinePoints,
     float roadWidth, float blendZone, float roadY) {
@@ -43,7 +43,7 @@ void FlattenTerrainUnderRoad(Vector3[] terrainVertices, List<Vector3> splinePoin
 
 **Parameters:**
 - `roadWidth`: half-width of the road (e.g., 1.5m for a 3m-wide road)
-- `blendZone`: transition width on each side (typically 1–2× roadWidth, e.g., 3m for a 3m road)
+- `blendZone`: transition width on each side (typically 1-2× roadWidth, e.g., 3m for a 3m road)
 - `roadY`: target Y elevation of the flat road surface
 
 **Result:** road surface is flat at `roadY`, surrounding terrain transitions smoothly back to natural height over `blendZone` distance.
@@ -55,11 +55,11 @@ void FlattenTerrainUnderRoad(Vector3[] terrainVertices, List<Vector3> splinePoin
 
 ## Trade-offs
 - Modifies terrain mesh in-place: destructive if not saved. Always save as a named mesh asset before closing the Editor
-- `MinDistanceToSpline` is O(N × M) where N = terrain verts, M = spline points — for large terrains, this is slow. Cache spline points, use spatial partition (grid) for lookup
-- Blend zones from adjacent roads may conflict where roads cross — apply roads sequentially, not simultaneously
+- `MinDistanceToSpline` is O(N × M) where N = terrain verts, M = spline points - for large terrains, this is slow. Cache spline points, use spatial partition (grid) for lookup
+- Blend zones from adjacent roads may conflict where roads cross - apply roads sequentially, not simultaneously
 
 ## Variants
-- **Unity Terrain flatten:** uses `TerrainData.SetHeights()` — simpler API, works only with Unity Terrain (not custom mesh)
-- **Static in Blender:** manually conform road topology to terrain in Blender (face-copy, terrain +2cm offset) — TT uses this for static roads in Roads.fbx, more control
+- **Unity Terrain flatten:** uses `TerrainData.SetHeights()` - simpler API, works only with Unity Terrain (not custom mesh)
+- **Static in Blender:** manually conform road topology to terrain in Blender (face-copy, terrain +2cm offset) - TT uses this for static roads in Roads.fbx, more control
 
 See also: [[catmull-rom-spline-road-mesh]], [[mesh-collider-on-roads-stackable]]

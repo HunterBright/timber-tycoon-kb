@@ -38,7 +38,7 @@ Any architectural structure (building, machine housing, bridge) where the design
 **Why beams have no collider:**
 - Player can walk under them (high clearance)
 - Removing collider: simpler player navigation (no head-bump on low frames), fewer raycast hits, smaller PhysX scene
-- Beams are visual information only — removing them from physics doesn't change any gameplay
+- Beams are visual information only - removing them from physics doesn't change any gameplay
 
 **Setup script:**
 ```csharp
@@ -52,7 +52,7 @@ foreach (var t in building.GetComponentsInChildren<Transform>()) {
 }
 ```
 
-**Adjust BoxCollider size** to match mesh bounds — Unity auto-sizes on Add, but verify no overshoots.
+**Adjust BoxCollider size** to match mesh bounds - Unity auto-sizes on Add, but verify no overshoots.
 
 ## Why this works
 Physics engine iterates all colliders in the broad-phase per frame. Fewer colliders = faster broad-phase = more physics budget for dynamic objects. Visual-only elements (beams, roofs) have zero gameplay impact when excluded.
@@ -63,7 +63,7 @@ Physics engine iterates all colliders in the broad-phase per frame. Fewer collid
 - Missing collider check: if player falls through world, the first debug step is verifying Foundation has a BoxCollider
 
 ## Variants
-- **MeshCollider for complex shapes:** for organic rock walls or curved foundations, MeshCollider + convex=false — more accurate but heavier
+- **MeshCollider for complex shapes:** for organic rock walls or curved foundations, MeshCollider + convex=false - more accurate but heavier
 - **Trigger zones:** doorways with Trigger colliders for zone detection (entering sawmill triggers ambient change, etc.)
 
 See also: [[architectural-naming-convention]]

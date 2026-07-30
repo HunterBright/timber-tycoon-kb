@@ -28,7 +28,7 @@ Any FPS/third-person game where the player enters a vehicle. Without a defined s
 **Enter sequence (called from VehicleInteractable.OnInteract):**
 ```csharp
 void EnterVehicle(Transform vehicleRoot) {
-    // 1. Disable player scripts (order matters — disable before re-parenting)
+    // 1. Disable player scripts (order matters - disable before re-parenting)
     player.GetComponent<PlayerController>().enabled   = false;
     player.GetComponent<CharacterController>().enabled = false;
     player.GetComponent<PlayerInteraction>().enabled  = false;
@@ -76,15 +76,15 @@ void ExitVehicle() {
 - Destroy VehicleCamera BEFORE re-attaching camera to player (avoid competing transform updates)
 
 ## Why this works
-Explicit sequence with defined ordering eliminates race conditions between player and vehicle transforms. Each step is deterministic — no frame-order dependency.
+Explicit sequence with defined ordering eliminates race conditions between player and vehicle transforms. Each step is deterministic - no frame-order dependency.
 
 ## Trade-offs
-- Exit position `vehicle.right * -1.5f`: positions player on vehicle's left side. If vehicle is against a wall, player may spawn inside wall — add a clear-space check before exiting
+- Exit position `vehicle.right * -1.5f`: positions player on vehicle's left side. If vehicle is against a wall, player may spawn inside wall - add a clear-space check before exiting
 - `hold E 1s` for exit: prevents accidental exit while using E for interaction. Time configurable per game feel
 - CharacterController reset: if player exits mid-slope, CC may immediately slide. Add a brief grace period where CC is kinematic after re-enable
 
 ## Variants
 - **Door animation**: trigger door open anim before EnterVehicle(), door close after
-- **Camera cutscene**: briefly fade-to-black, reposition, fade-in — hides abrupt camera transition
+- **Camera cutscene**: briefly fade-to-black, reposition, fade-in - hides abrupt camera transition
 
 See also: [[vehicle-camera-runtime-attach-detach]], [[get-or-add-component-pattern]]

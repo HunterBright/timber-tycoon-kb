@@ -34,18 +34,18 @@ Strict folder separation for every script:
 - **Editor extension** (CustomEditor, EditorWindow, MenuItem, PropertyDrawer): `Assets/Project/Scripts/Editor/`
 
 Example for Road system:
-- `Assets/Project/Scripts/Road.cs` — runtime, has waypoints, generates mesh
-- `Assets/Project/Scripts/Editor/RoadTool.cs` — CustomEditor, Scene View handles
+- `Assets/Project/Scripts/Road.cs` - runtime, has waypoints, generates mesh
+- `Assets/Project/Scripts/Editor/RoadTool.cs` - CustomEditor, Scene View handles
 
 Runtime code needing optional editor features: wrap in `#if UNITY_EDITOR` directive.
 
-Create the `Editor/` folder if it doesn't exist — Unity will auto-recognize it.
+Create the `Editor/` folder if it doesn't exist - Unity will auto-recognize it.
 
 ## What didn't work
-Mixing scripts in one folder — builds break or scripts silently disappear.
+Mixing scripts in one folder - builds break or scripts silently disappear.
 
 ## Transferability
-Fundamental Unity project structure rule. Applies to every Unity project. Build CI should fail fast if this rule is violated — add assembly definition files to enforce boundaries.
+Fundamental Unity project structure rule. Applies to every Unity project. Build CI should fail fast if this rule is violated - add assembly definition files to enforce boundaries.
 
 ## Related
 - [Editor Scene View input capture](editor-scene-view-input-capture.md)

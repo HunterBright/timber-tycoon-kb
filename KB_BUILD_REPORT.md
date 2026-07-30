@@ -48,10 +48,10 @@ Delta from 168 candidates: 27 fewer files than candidates. Accounted for by:
 ## Dedup Mergers Applied
 | Source IDs | Target Path | Notes |
 |---|---|---|
-| #096, #119 | genre/tycoon/patterns/storage-rack-family-system.md | Merged — #096 initial design, #119 added maxDistinctStacks + activation gating |
-| sweep2-CapsuleCollider, #112 | engine/anti-patterns/script-overrides-prefab-collider.md | Merged — followed dedup merger table as authority over #112's Path: field |
+| #096, #119 | genre/tycoon/patterns/storage-rack-family-system.md | Merged - #096 initial design, #119 added maxDistinctStacks + activation gating |
+| sweep2-CapsuleCollider, #112 | engine/anti-patterns/script-overrides-prefab-collider.md | Merged - followed dedup merger table as authority over #112's Path: field |
 | #011, #106, #107 | engine/lessons/mesh-exporter-obj-pitfalls.md | Merged into 3 subsections |
-| sweep2-TreeTypeData, #108 | engine/patterns/scriptable-object-runtime-injection.md | Merged — TreeTypeData context incorporated into #108 file |
+| sweep2-TreeTypeData, #108 | engine/patterns/scriptable-object-runtime-injection.md | Merged - TreeTypeData context incorporated into #108 file |
 | #093, #094, #095 | engine/patterns/typography-accessibility-stack.md | Merged into 3 sections (Typography / Accessibility / Credits) |
 
 ## Flagged Entries
@@ -60,7 +60,7 @@ Delta from 168 candidates: 27 fewer files than candidates. Accounted for by:
 Entry was listed as a sweep with no separate brief definition. Resolved by: created `engine/patterns/choppable-tree-multi-type-naming-convention.md` using context from CLAUDE.md architectural patterns section. Content inferred correctly but lacks direct source quote.
 
 ### 2. MOC "Single-material atlas for static props" and "Tripo organic vs Blender geometric decision"
-These appear in the MOC.md template section but no corresponding batch entries were found in batches 1-8. The first (`single-material-atlas-for-static-props.md`) was found in batch 1 git output — it was created from early sweep data. The second (Tripo organic vs Blender geometric decision) does not appear in any batch definition and was not created. **Flag: missing entry for `workflow/3d-models/tripo-organic-vs-blender-geometric-decision.md`.**
+These appear in the MOC.md template section but no corresponding batch entries were found in batches 1-8. The first (`single-material-atlas-for-static-props.md`) was found in batch 1 git output - it was created from early sweep data. The second (Tripo organic vs Blender geometric decision) does not appear in any batch definition and was not created. **Flag: missing entry for `workflow/3d-models/tripo-organic-vs-blender-geometric-decision.md`.**
 
 ## Skipped Entries
 None. All 168 candidates were either rendered as individual files or folded into merged files.
@@ -81,9 +81,9 @@ Generated with 141 categorized links. Existing TODO section preserved. New secti
 | 8 | 0273d33 | workflow/3d-models + asset-pipeline (9 entries) |
 
 ## Next Steps for Hunter
-1. **Review MOC.md** — validate categorization, check links work
+1. **Review MOC.md** - validate categorization, check links work
 2. **Spot-check 5-10 entries** for content quality (suggested: entries marked ★ = highest value)
-3. **Missing entry** — `workflow/3d-models/tripo-organic-vs-blender-geometric-decision.md` was not generated (not in any batch definition). Create manually or add to next build package if needed.
-4. **Promote flagged entries** — entries built from inferred context (sweep2-1) should be reviewed and verified against actual project state
+3. **Missing entry** - `workflow/3d-models/tripo-organic-vs-blender-geometric-decision.md` was not generated (not in any batch definition). Create manually or add to next build package if needed.
+4. **Promote flagged entries** - entries built from inferred context (sweep2-1) should be reviewed and verified against actual project state
 5. **Use `/kb-review`** command in Claude Code to query the KB during development
-6. **Status: draft** on all entries — run `/kb-review` to validate and change to `validated` as entries are confirmed correct
+6. **Status: draft** on all entries - run `/kb-review` to validate and change to `validated` as entries are confirmed correct

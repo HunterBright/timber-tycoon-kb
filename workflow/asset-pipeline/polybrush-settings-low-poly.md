@@ -15,7 +15,7 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: Polybrush settings for TT low-poly terrain — Outer Radius 40, Sculpt Power 30, Falloff linear, Strength 1.0. Default settings produce sharp bumps incompatible with low-poly style.
+description: Polybrush settings for TT low-poly terrain - Outer Radius 40, Sculpt Power 30, Falloff linear, Strength 1.0. Default settings produce sharp bumps incompatible with low-poly style.
 severity: medium
 suggested-category: workflow/asset-pipeline
 name: polybrush-settings-low-poly
@@ -25,7 +25,7 @@ name: polybrush-settings-low-poly
 
 ## Why settings matter
 
-Default Polybrush settings produce sharp, spiky bumps — wrong for TT's low-poly aesthetic. TT terrain needs smooth, low-frequency undulation (gentle hills, shallow valleys). Settings must match the aesthetic before sculpting begins.
+Default Polybrush settings produce sharp, spiky bumps - wrong for TT's low-poly aesthetic. TT terrain needs smooth, low-frequency undulation (gentle hills, shallow valleys). Settings must match the aesthetic before sculpting begins.
 
 ## Tuned settings for TT
 
@@ -48,7 +48,7 @@ Default Polybrush settings produce sharp, spiky bumps — wrong for TT's low-pol
 | Setting | Value |
 |---------|-------|
 | Outer Radius | 20 |
-| Falloff | Soft (not linear) — for blended transitions between grass/dirt/rock |
+| Falloff | Soft (not linear) - for blended transitions between grass/dirt/rock |
 | Strength | 0.4 |
 
 ## Post-Polybrush
@@ -57,7 +57,7 @@ Use Mesh → Smooth Vertex (custom Editor tool in TT) for additional softening o
 
 ## What "wrong" settings look like
 
-Default Polybrush: Outer Radius 5, Power 80 → produces small sharp protrusions that look like inverted spikes. The low-poly style amplifies this — each vertex moves dramatically with small radius.
+Default Polybrush: Outer Radius 5, Power 80 → produces small sharp protrusions that look like inverted spikes. The low-poly style amplifies this - each vertex moves dramatically with small radius.
 
 With tuned settings (Radius 40, Power 30): vertices move subtly across a wide area → smooth rolling hills that match TT's established terrain aesthetic.
 

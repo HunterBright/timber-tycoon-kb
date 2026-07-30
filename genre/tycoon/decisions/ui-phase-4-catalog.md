@@ -15,7 +15,7 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: 'UI Phase 4 — 12 systems catalog for post-MVP UX completion: HUD, Notification Queue, Tooltips, Cursor, Confirmation Dialogs, Visual Feedback, Typography, Icons, Statistics, Settings, Accessibility, Credits.'
+description: 'UI Phase 4 - 12 systems catalog for post-MVP UX completion: HUD, Notification Queue, Tooltips, Cursor, Confirmation Dialogs, Visual Feedback, Typography, Icons, Statistics, Settings, Accessibility, Credits.'
 severity: medium
 suggested-category: genre/tycoon/decisions
 name: ui-phase-4-catalog
@@ -46,9 +46,9 @@ name: ui-phase-4-catalog
 
 ## Why catalog this
 
-"We need a settings menu before Early Access" — caught late = emergency sprint. Caught here = planned work. All 12 were known risks; this document prevented surprises.
+"We need a settings menu before Early Access" - caught late = emergency sprint. Caught here = planned work. All 12 were known risks; this document prevented surprises.
 
-**Estimated effort per system:** 2-3 weeks average (UI work is inherently slow — layout, hover states, localization, edge cases).
+**Estimated effort per system:** 2-3 weeks average (UI work is inherently slow - layout, hover states, localization, edge cases).
 
 ## Lesson for future projects
 

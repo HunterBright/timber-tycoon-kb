@@ -28,11 +28,11 @@ name: zero-code-changes-philosophy
 
 ## New species workflow (reference implementation)
 
-1. Create `Assets/Models/Trees/Oak/` — add `Oak_Adult.fbx`, `Oak_Stump.fbx`, `Oak_Trunk_Fallen.fbx`, `Oak_Log.fbx`, `Oak_Sapling.fbx`, growth stages
+1. Create `Assets/Models/Trees/Oak/` - add `Oak_Adult.fbx`, `Oak_Stump.fbx`, `Oak_Trunk_Fallen.fbx`, `Oak_Log.fbx`, `Oak_Sapling.fbx`, growth stages
 2. `Right-click → Create → Timber Tycoon → Tree Type Data → TreeType_Oak`
 3. Assign models to `TreeType_Oak` fields in Inspector
 4. Optionally: drop `TreeType_Oak` on existing tree prefab variant
-5. Done — Spruce/Birch/Oak/Maple all coexist with zero code changes between them
+5. Done - Spruce/Birch/Oak/Maple all coexist with zero code changes between them
 
 ## Systems that enable this philosophy
 
@@ -53,8 +53,8 @@ name: zero-code-changes-philosophy
 
 ## Trade-offs
 
-- More SOs to maintain: each content variant has its own asset file. Worth it — asset management is cheaper than code management.
-- Enum must be extended: StorageFamily, WoodSpecies, WorkerRole are enums. Adding a new value touches the enum file. That's unavoidable — but one line vs. multiple system changes.
+- More SOs to maintain: each content variant has its own asset file. Worth it - asset management is cheaper than code management.
+- Enum must be extended: StorageFamily, WoodSpecies, WorkerRole are enums. Adding a new value touches the enum file. That's unavoidable - but one line vs. multiple system changes.
 - Test scope: new SO requires a smoke test (does it flow through the pipeline correctly?). Not code testing, but sanity testing.
 
 ## Implication for future projects

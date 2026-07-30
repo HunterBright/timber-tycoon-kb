@@ -21,7 +21,7 @@ suggested-category: genre/tycoon/patterns
 # Wing Snap-Points Modular Instant Fade-In
 
 ## When to use
-Tycoon games with expandable buildings (sawmill wings, store extensions, farm outbuildings). Player should feel immediate reward on purchase — not "wait for construction animation."
+Tycoon games with expandable buildings (sawmill wings, store extensions, farm outbuildings). Player should feel immediate reward on purchase - not "wait for construction animation."
 
 ## Steps
 
@@ -80,11 +80,11 @@ public class WingReveal : MonoBehaviour {
 **Inspiration:** Tavern Manager (instant building reveal), Schedule 1 (immediate property upgrades).
 
 ## Why this works
-Pre-placing wings eliminates runtime "where does the wing go?" logic. Fade-in is cosmetic — wing is already at correct position and scale. Purchase = instant gameplay benefit (new workstations accessible), fade = visual polish.
+Pre-placing wings eliminates runtime "where does the wing go?" logic. Fade-in is cosmetic - wing is already at correct position and scale. Purchase = instant gameplay benefit (new workstations accessible), fade = visual polish.
 
 ## Trade-offs
 - All wings always in scene: memory + rendering cost even for hidden wings. At 3-5 wings with modest poly count, negligible. For 20+ wings, consider async loading.
-- Material transparency requirement: shader must support alpha. URP/Lit supports this with alpha transparency mode. Opaque materials can't fade — ensure wing materials use Transparent or Alpha rendering mode.
+- Material transparency requirement: shader must support alpha. URP/Lit supports this with alpha transparency mode. Opaque materials can't fade - ensure wing materials use Transparent or Alpha rendering mode.
 - Dust VFX position: use wing root transform for VFX spawn. For large wings, consider multiple dust burst points along the edge.
 
 ## Variants

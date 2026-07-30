@@ -27,7 +27,7 @@ Multi-part vehicles where different surfaces have different interaction behavior
 2. Cabin child: trigger BoxCollider + `VehicleInteractable` script (E to enter). Layer: `Interactable`
 3. Flatbed child: trigger BoxCollider + `FlatbedInteractable` script (E to load/unload). Layer: `Interactable`
 4. Both children on layer `Interactable` (layer 3) for player raycast
-5. Triggers fire `OnTriggerEnter` for interaction detection — no physics response
+5. Triggers fire `OnTriggerEnter` for interaction detection - no physics response
 
 Auto-setup via Editor: `Tools > Setup All Vehicles` configures from FBX naming convention.
 

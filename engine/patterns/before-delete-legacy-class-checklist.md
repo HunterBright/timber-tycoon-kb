@@ -37,10 +37,10 @@ Before deleting any class, script file, component, or SO from a Unity project. T
 4. Check AssemblyDefinition references (`.asmdef` files)
 5. Only if all clear → delete
 
-Recovery if you deleted prematurely: scene shows `m_Script: {fileID: 11500000, guid: 00000…}` — open scene → for each missing script → Inspector → ⋮ menu → Remove Component.
+Recovery if you deleted prematurely: scene shows `m_Script: {fileID: 11500000, guid: 00000…}` - open scene → for each missing script → Inspector → ⋮ menu → Remove Component.
 
 ## Why this works
-Unity stores MonoBehaviour references in scene/prefab YAML as GUID+fileID pairs. Deleting the script file leaves the GUID reference intact — the scene loads with "missing script" errors and broken behavior.
+Unity stores MonoBehaviour references in scene/prefab YAML as GUID+fileID pairs. Deleting the script file leaves the GUID reference intact - the scene loads with "missing script" errors and broken behavior.
 
 ## Trade-offs
 5-minute discipline per deletion. Always worth it.

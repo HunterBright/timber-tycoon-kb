@@ -1,5 +1,5 @@
 ---
-title: Inbox — Pending drafts
+title: Inbox - Pending drafts
 type: index
 status: draft
 confidence: low
@@ -11,7 +11,7 @@ applies_to: []
 source: ''
 ---
 
-# Inbox — Pending drafts
+# Inbox - Pending drafts
 
 Claude Code writes draft entries here during sessions. Hunter reviews weekly.
 
@@ -26,4 +26,4 @@ Run /kb-review or say "review KB inbox":
 3. Claude applies decisions, moves files to target folders
 
 ## Don't manually move files from here
-Let Claude handle the move during review — it preserves git history and updates indexes.
+Let Claude handle the move during review - it preserves git history and updates indexes.

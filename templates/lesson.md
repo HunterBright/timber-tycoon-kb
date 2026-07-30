@@ -1,5 +1,5 @@
 ---
-title: <Title — specific, searchable>
+title: <Title - specific, searchable>
 type: lesson
 status: draft
 confidence: medium
@@ -16,7 +16,7 @@ suggested-category: engine/lessons
 time_lost: ''
 ---
 
-# <Title — specific, searchable>
+# <Title - specific, searchable>
 
 ## Problem
 What happened. Concrete symptoms.

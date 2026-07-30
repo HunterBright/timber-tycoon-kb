@@ -52,12 +52,12 @@ void ConfirmSelection() {
 **Locked tools:** grayed out in wheel with unlock hint tooltip ("Unlock: Shovel after first stump"). Players see what's coming, know progression exists.
 
 **Tool unlock sequence:**
-1. Axe — unlocked at Quest 2 (FindAxe)
-2. Shovel — unlocked after digging first stump
-3. Planting tool — unlocked after first sapling collected
+1. Axe - unlocked at Quest 2 (FindAxe)
+2. Shovel - unlocked after digging first stump
+3. Planting tool - unlocked after first sapling collected
 
 ## Why this works
-Hold-Q + mouse is faster than menu navigation. No game pause = real-time engagement. Visual wheel shows all tools at once — player learns available tools from day one.
+Hold-Q + mouse is faster than menu navigation. No game pause = real-time engagement. Visual wheel shows all tools at once - player learns available tools from day one.
 
 ## Trade-offs
 - Mouse look disabled during wheel: must restore exactly on close. Use a "mouselock count" pattern to avoid partial restoration bugs

@@ -20,7 +20,7 @@ suggested-category: engine/patterns
 # CrateManager Tier Progression
 
 ## When to use
-Games where the player has a carry capacity that upgrades over time (crate, backpack, cargo hold). Upgrades should be event-driven — no per-upgrade code needed once the tier system exists.
+Games where the player has a carry capacity that upgrades over time (crate, backpack, cargo hold). Upgrades should be event-driven - no per-upgrade code needed once the tier system exists.
 
 ## Steps
 
@@ -76,10 +76,10 @@ public struct CrateSlot {
 **Tier as progression moment:** each crate upgrade is visible to the player (more slot markers, different model). Tutorial points to first crate upgrade ~10 minutes in.
 
 ## Why this works
-Tier upgrade via event subscription = CrateManager is self-updating. Upgrade shop doesn't call CrateManager directly — raises event, CrateManager responds. `enum CrateTier { Small_10 = 10, Medium_15 = 15 }` embeds the slot count in the enum value itself.
+Tier upgrade via event subscription = CrateManager is self-updating. Upgrade shop doesn't call CrateManager directly - raises event, CrateManager responds. `enum CrateTier { Small_10 = 10, Medium_15 = 15 }` embeds the slot count in the enum value itself.
 
 ## Trade-offs
-- Slot count = `(int)CurrentTier`: works cleanly only if tier names follow `Name_N` pattern. If design changes slot counts mid-project, this coupling breaks — consider a separate `Dictionary<CrateTier, int>` lookup
+- Slot count = `(int)CurrentTier`: works cleanly only if tier names follow `Name_N` pattern. If design changes slot counts mid-project, this coupling breaks - consider a separate `Dictionary<CrateTier, int>` lookup
 - Unload all at once: player can't selectively leave items in crate. For more control, add `Unload(int slotIndex)` method
 - Multiple crates: currently assumes 1 crate per player. For co-op or vehicle-mounted crates, scope CrateManager per vehicle/player entity
 

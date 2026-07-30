@@ -36,7 +36,7 @@ Critical: flag prevents re-highlight in later gameplay. A tree highlighted durin
 Quest-flag is a gate: highlight is only active during the exact quest phase targeting that object. Removes tutorial context from gameplay context cleanly.
 
 ## Trade-offs
-Requires objects to be marked as tutorial targets (Inspector or code). Worth it — alternative is permanent highlighting or complex state tracking.
+Requires objects to be marked as tutorial targets (Inspector or code). Worth it - alternative is permanent highlighting or complex state tracking.
 
 ## Variants
 Same pattern for: NPC highlight during customer tutorial, machine highlight during "first use" quest, counter highlight during "repair counter" quest.

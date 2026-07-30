@@ -50,16 +50,16 @@ if (!VFXManager.Instance.RequestSpawn(particleCount)) return; // denied
 | Sale coins | 2 | 30 | 60 |
 | Vehicle exhaust | 2 | 20 | 40 |
 | Water splash | 1 | 100 | 100 |
-| Reserve | — | — | 100 |
+| Reserve | - | - | 100 |
 
-**VFXManager throttle policy:** if over budget, skip spawn (not queue — queuing causes delayed particle flood). Critical VFX (sale coins) get priority; ambient VFX (smoke) get skipped first.
+**VFXManager throttle policy:** if over budget, skip spawn (not queue - queuing causes delayed particle flood). Critical VFX (sale coins) get priority; ambient VFX (smoke) get skipped first.
 
 ## Why this works
 Setting a hard scene-wide cap prevents the worst-case scenario: dozens of tree cuts in rapid succession each spawning an uncapped particle system. Enforcing at the manager level means individual VFX prefabs don't need to be aware of each other.
 
 ## Trade-offs
 - Budget is approximate (Max Particles ≠ actual particles at a given frame, but close enough)
-- VFX may skip on high-action moments — design VFX as "nice to have" enhancements, not gameplay feedback
+- VFX may skip on high-action moments - design VFX as "nice to have" enhancements, not gameplay feedback
 - Budget numbers are project-specific; these are TT values, not universals
 
 ## Variants

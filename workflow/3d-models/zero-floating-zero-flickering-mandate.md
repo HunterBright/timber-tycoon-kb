@@ -26,8 +26,8 @@ name: zero-floating-zero-flickering-mandate
 ## The mandate
 
 Every generated asset shipped to Unity must pass:
-1. **ZERO floating elements** — no visible gap between adjacent surfaces
-2. **ZERO Z-fighting flickering** — no coplanar surfaces at the same Z depth
+1. **ZERO floating elements** - no visible gap between adjacent surfaces
+2. **ZERO Z-fighting flickering** - no coplanar surfaces at the same Z depth
 
 ## Failure modes
 
@@ -44,10 +44,10 @@ Two faces occupy the exact same position in 3D space. GPU oscillates between ren
 
 **Adjacent surfaces that should TOUCH:**
 ```python
-# WRONG — beam at Z=1.800001, pillar top at Z=1.8 → visible gap
+# WRONG - beam at Z=1.800001, pillar top at Z=1.8 → visible gap
 beam.location.z = 1.800001
 
-# CORRECT — beam and pillar share the same Z coordinate (they overlap by design)
+# CORRECT - beam and pillar share the same Z coordinate (they overlap by design)
 PILLAR_TOP_Z = 1.800
 beam.location.z = PILLAR_TOP_Z  # use shared constant
 ```

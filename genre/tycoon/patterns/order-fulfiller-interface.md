@@ -75,15 +75,15 @@ public class WorkerController : MonoBehaviour, IOrderFulfiller {
 **Late game:** player hires 2 NPC workers → 3 fulfillers active simultaneously. Player focuses on premium/VIP orders, NPCs handle regular volume.
 
 ## Why this works
-Interface allows `SalesCounter` to work with any fulfiller without knowing if it's a player or NPC. `customer.ReceiveDelivery(fulfiller.CarryCapacity)` — same call, different capacity. Asymmetry is in the data, not the interface.
+Interface allows `SalesCounter` to work with any fulfiller without knowing if it's a player or NPC. `customer.ReceiveDelivery(fulfiller.CarryCapacity)` - same call, different capacity. Asymmetry is in the data, not the interface.
 
 ## Trade-offs
-- Coroutine interface: `FulfillOrder` as `IEnumerator` requires `MonoBehaviour.StartCoroutine`. Can't call from pure C# classes — ensure all fulfillers are MonoBehaviours
+- Coroutine interface: `FulfillOrder` as `IEnumerator` requires `MonoBehaviour.StartCoroutine`. Can't call from pure C# classes - ensure all fulfillers are MonoBehaviours
 - Sprint detection: `PlayerController.MovementSpeed` reads live input. NPC reads fixed value. Both implement the same getter correctly for their type.
 - Future fulfillers: adding a "vehicle" fulfiller (truck delivers to wholesale customer) = implement `IOrderFulfiller` on `VehicleController`. Interface is extensible.
 
 ## Variants
-- **Fully abstract orders:** `IOrderFulfiller.CanFulfill(Order)` returns bool — checks if fulfiller has inventory/capacity. Add before assigning orders.
+- **Fully abstract orders:** `IOrderFulfiller.CanFulfill(Order)` returns bool - checks if fulfiller has inventory/capacity. Add before assigning orders.
 - **Priority system:** VIP orders get assigned to player first, Regular orders go to NPCs. Implement as `OrderPriority` enum in the order queue.
 
 See also: [[carry-capacity-progression-sprint]], [[worker-simulate-work-cycle]], [[customer-tier-system]]

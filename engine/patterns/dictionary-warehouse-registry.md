@@ -44,12 +44,12 @@ public class StorageManager : MonoBehaviour, ISaveable {
 
     public int Get(ProductType type) {
         inventory.TryGetValue(type, out var count);
-        return count; // returns 0 if absent — auto-init
+        return count; // returns 0 if absent - auto-init
     }
 }
 ```
 
-**Visual layer reads dictionary** — visual prefabs instantiated separately:
+**Visual layer reads dictionary** - visual prefabs instantiated separately:
 ```csharp
 // StorageRackVisual.cs subscribes to OnInventoryChanged:
 void RefreshVisuals(ProductType type, int count) {
@@ -58,7 +58,7 @@ void RefreshVisuals(ProductType type, int count) {
 }
 ```
 
-**ISaveable — serialize as JSON:**
+**ISaveable - serialize as JSON:**
 ```csharp
 public string GetSaveData() {
     // Convert Dictionary to serializable struct
@@ -80,8 +80,8 @@ public void LoadSaveData(string json) {
 Dictionary separates data from presentation. 1000 logs = 1 `int` in memory, not 1000 GameObjects. Visual layer can update independently at its own cadence (e.g., only on major fill changes, not every +1).
 
 ## Trade-offs
-- No physical items in scene: some games need physics-based items (pickable stacks) — Dictionary model doesn't support that. Use a hybrid: Dictionary for inventory counts, separate `CollectableItem` pool for physics objects
-- `ProductType` enum: adding values mid-project is safe (existing save files load fine — missing keys default to 0). Removing values breaks saved data that has that key
-- Thread safety: Unity runs on a single thread for MonoBehaviours — no concurrent access concerns
+- No physical items in scene: some games need physics-based items (pickable stacks) - Dictionary model doesn't support that. Use a hybrid: Dictionary for inventory counts, separate `CollectableItem` pool for physics objects
+- `ProductType` enum: adding values mid-project is safe (existing save files load fine - missing keys default to 0). Removing values breaks saved data that has that key
+- Thread safety: Unity runs on a single thread for MonoBehaviours - no concurrent access concerns
 
 See also: [[global-router-storage-pattern]], [[storage-rack-registry-auto-register]]

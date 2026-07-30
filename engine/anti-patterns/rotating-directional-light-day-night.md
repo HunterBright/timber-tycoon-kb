@@ -15,7 +15,7 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: Rotating Directional Light for day/night cycle — at dawn/dusk goes BLACK, at night lights from below. Use static overhead light + skybox-driven ambient instead.
+description: Rotating Directional Light for day/night cycle - at dawn/dusk goes BLACK, at night lights from below. Use static overhead light + skybox-driven ambient instead.
 severity: high
 time_lost: 2d (iterated on rotation-based system before switching approach)
 suggested-category: engine/anti-patterns
@@ -40,7 +40,7 @@ The assumption "rotate light = simulate sun" breaks because: the math of surface
 **Static overhead Directional Light + skybox-driven ambient (TT approach):**
 - Directional Light stays at approximately overhead angle (e.g., ~45° elevation)
 - Time of day is represented by: skybox color shift + ambient light color (not rotation)
-- At night: light intensity scales down to 0.1–0.2, color shifts to cool blue
+- At night: light intensity scales down to 0.1-0.2, color shifts to cool blue
 - Skybox shader draws sun/moon position decoratively (see [[procedural-skybox-sun-moon-trick]])
 - Result: no black terrain at any time of day, consistent shadow direction
 

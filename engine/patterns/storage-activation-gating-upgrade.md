@@ -24,7 +24,7 @@ Games with progressive content unlocking where storage types map to gameplay pro
 
 ## Steps
 
-**StorageRack — default inactive:**
+**StorageRack - default inactive:**
 ```csharp
 public class StorageRack : MonoBehaviour {
     [SerializeField] bool isActive = false; // starts locked
@@ -72,15 +72,15 @@ public class StorageRack : MonoBehaviour {
 **Visual state:** inactive rack = transparent gray material (or invisible scaffold). Active = full rack model. Tutorial draws player's attention to next unlock.
 
 ## Why this works
-Player unlocks storage types alongside the machines that produce for those types. Prevents "what is this rack for?" confusion. Upgrade purchase event propagates to racks automatically — no SawmillManager edit needed per new rack type.
+Player unlocks storage types alongside the machines that produce for those types. Prevents "what is this rack for?" confusion. Upgrade purchase event propagates to racks automatically - no SawmillManager edit needed per new rack type.
 
 ## Trade-offs
 - `unlockId` is a string: typo-proof via constants or an enum-to-string conversion
-- Visual swap: must switch materials in code or have separate child GameObjects (placeholder vs. active mesh) — keep both children in prefab, toggle active state on unlock
+- Visual swap: must switch materials in code or have separate child GameObjects (placeholder vs. active mesh) - keep both children in prefab, toggle active state on unlock
 - Day 1 racks: still use the same system, just `isActive = true` as default value in Inspector
 
 ## Variants
-- **Prerequisite chain:** rack A requires rack B to be unlocked first — add `requiredUnlockId` field
+- **Prerequisite chain:** rack A requires rack B to be unlocked first - add `requiredUnlockId` field
 - **Capacity upgrade:** same pattern for upgrading rack capacity (10 → 20 → 30 slots) via unlock events
 
 See also: [[storage-rack-registry-auto-register]], [[global-router-storage-pattern]], [[reputation-levels-data-driven]]

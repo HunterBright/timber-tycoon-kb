@@ -60,7 +60,7 @@ ParkingSlot GetFreeSlot() => slots.FirstOrDefault(s => s.occupant == null);
 **Queued spawn:** if all slots occupied when next NPC should spawn, queue them. Fire queue when a slot becomes free.
 
 **Spawn rate control (`spawnRate` parameter):**
-- 3–5 NPCs/minute for active sawmill feeling
+- 3-5 NPCs/minute for active sawmill feeling
 - At high player progression: higher max concurrent (scales with Reputation level)
 
 **Initial fill on load** (see [[initial-fill-on-load]]): spawn N customers at game start without waiting for purchase events.
@@ -71,7 +71,7 @@ Pipeline spawn creates a feedback loop: sell more → customers replaced faster 
 ## Trade-offs
 - `maxConcurrentNPCs` cap: prevents infinite NPC accumulation if player is selling extremely fast. Tune to map capacity
 - Queue overflow: if queue grows unbounded during high performance, cap queue size at 2× slot count
-- NPC object pooling (see [[object-pooling-npcs-fifo-queue]]): essential — don't Instantiate/Destroy per spawn, reuse from pool
+- NPC object pooling (see [[object-pooling-npcs-fifo-queue]]): essential - don't Instantiate/Destroy per spawn, reuse from pool
 
 ## Variants
 - **Timed spawn:** ignore pipeline, just spawn one every N seconds. Simpler but feels disconnected from player activity

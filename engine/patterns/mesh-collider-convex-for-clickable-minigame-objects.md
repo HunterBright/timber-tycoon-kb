@@ -1,9 +1,9 @@
 ---
 title: Convex MeshCollider for Irregular Clickable Objects
 type: pattern
-status: verified
-confidence: high
-verified: ''
+status: needs-reproduction
+confidence: low
+verified: '2026-07-30'
 date: '2026-05-29'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -14,14 +14,24 @@ tags:
 - minigame
 - prefab
 applies_to: []
-source: ''
+source: zweryfikowane reprodukcja i dokumentacja 2026-07-30, patrz AUDYT-SPORNYCH-WPISOW
 suggested-category: engine/patterns
+audit_verdict: CZESCIOWO BLEDNY
 ---
 
 # Convex MeshCollider for Irregular Clickable Objects
 
+> [!warning] Ten wpis zostal zweryfikowany 2026-07-30 i werdykt brzmi: **CZESCIOWO BLEDNY**
+>
+> Dwa zdania sa falszywe: ze wypuklosc jest konieczna, zeby klikniecie trafilo (w grze klika sie drzewa i meble z niewypuklymi zderzakami) oraz uzasadnienie przez "to nie jest trigger".
+> Wymog zderzaka na glownym obiekcie zostaje.
+>
+> Pelne uzasadnienie, dowody i proponowane poprawki: [[AUDYT-SPORNYCH-WPISOW]].
+> Tresc ponizej NIE zostala jeszcze przepisana - czytaj ja z ta uwaga.
+
+
 ## Problem
-A clickable minigame object has an irregular/lumpy visible mesh but a primitive collider (e.g. a SphereCollider). The hitbox no longer matches the silhouette — the player clicks visible geometry and misses, or clicks empty space and hits. Hardcoding the primitive's radius (`sc.radius = 0.14f`) also fights whatever the prefab author set in the Inspector.
+A clickable minigame object has an irregular/lumpy visible mesh but a primitive collider (e.g. a SphereCollider). The hitbox no longer matches the silhouette - the player clicks visible geometry and misses, or clicks empty space and hits. Hardcoding the primitive's radius (`sc.radius = 0.14f`) also fights whatever the prefab author set in the Inspector.
 
 ## Root cause
 A primitive collider approximates the mesh with a fixed shape. Once the mesh becomes irregular (a flattened, lumpy dirt clod instead of a ball), the sphere either over- or under-covers it. The fix is to make the collider BE the mesh shape.
@@ -35,7 +45,7 @@ Swap the primitive for a **convex MeshCollider derived from the object's own mes
 foreach (Collider oldCol in clump.GetComponentsInChildren<Collider>())
     Destroy(oldCol);
 
-// Convex MeshCollider matching the actual mesh — placed on the TAG-bearing root
+// Convex MeshCollider matching the actual mesh - placed on the TAG-bearing root
 // so the click raycast's CompareTag + membership check still resolve.
 MeshFilter clumpMesh = clump.GetComponentInChildren<MeshFilter>();
 MeshCollider meshCol = clump.AddComponent<MeshCollider>();
@@ -46,13 +56,13 @@ meshCol.isTrigger = false;
 
 Three non-obvious requirements:
 1. **Place the collider on the tag-bearing ROOT object.** The click handler resolves the hit via `hit.collider.gameObject.CompareTag("DirtClump")` and a `spawnedClumps.Contains(hitObj)` membership check. If the MeshCollider lands on an untagged child mesh, `hitObj` is the child → both checks fail → the object is unclickable. Add the collider to the same GameObject that carries the tag and is tracked in the spawn list, and assign the mesh from `GetComponentInChildren<MeshFilter>()`.
-2. **Destroy any pre-existing collider first.** `AddComponent` never replaces — without the `Destroy` loop you end up with the prefab's SphereCollider AND the new MeshCollider, and the raycast can hit the stale one. (See [[script-overrides-prefab-inspector-values]] for the duplicate-collider trap.)
-3. **`convex = true` is mandatory here.** Raycast picking needs it, and the clump carries a kinematic Rigidbody — a non-convex MeshCollider is only legal on static/kinematic bodies, and convex is the safe choice for anything that might ever move. See [[dynamic-rigidbody-no-nonconvex-meshcollider]].
+2. **Destroy any pre-existing collider first.** `AddComponent` never replaces - without the `Destroy` loop you end up with the prefab's SphereCollider AND the new MeshCollider, and the raycast can hit the stale one. (See [[script-overrides-prefab-inspector-values]] for the duplicate-collider trap.)
+3. **`convex = true` is mandatory here.** Raycast picking needs it, and the clump carries a kinematic Rigidbody - a non-convex MeshCollider is only legal on static/kinematic bodies, and convex is the safe choice for anything that might ever move. See [[dynamic-rigidbody-no-nonconvex-meshcollider]].
 
 `isTrigger = false` because the picking raycast must hit a solid collider.
 
 ## What didn't work
-Keeping the SphereCollider and hardcoding `radius = 0.14f` at spawn — it both mismatched the irregular mesh AND silently overrode the prefab's own `radius` value (the prefab had `0.2`). The MeshCollider approach deletes the whole prefab-vs-code radius argument: there is no radius to mismatch, the shape is the mesh.
+Keeping the SphereCollider and hardcoding `radius = 0.14f` at spawn - it both mismatched the irregular mesh AND silently overrode the prefab's own `radius` value (the prefab had `0.2`). The MeshCollider approach deletes the whole prefab-vs-code radius argument: there is no radius to mismatch, the shape is the mesh.
 
 ## Transferability
 Any Unity project with click/tap-to-collect or click-to-interact objects whose mesh is irregular (rocks, debris, ore chunks, collectibles). The rule: collider on the tag-bearing root, derived from the mesh, convex, no leftover primitive.

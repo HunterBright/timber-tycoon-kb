@@ -29,7 +29,7 @@ Tycoon games where the player physically carries items between stations. Player 
 
 | Level | Polish name | Items | Visual |
 |-------|-------------|-------|--------|
-| 0 (start) | — | 1 log | Single log in arms |
+| 0 (start) | - | 1 log | Single log in arms |
 | 1 | Rękawice robocze | 3 logs | Bundle under arm |
 | 2 | Szelki drwala | 5 logs | Stack on shoulder |
 | 3 | Siła weterana | 8 logs | Large stack (endgame) |
@@ -43,7 +43,7 @@ float speed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
 // Sprint available regardless of carry amount (no speed penalty for carrying)
 ```
 
-**Sprint cost:** Stamina system considered and rejected. Sprint is free — tycoon games punish AFK, not active play.
+**Sprint cost:** Stamina system considered and rejected. Sprint is free - tycoon games punish AFK, not active play.
 
 **Player vs NPC comparison at Level 3 + sprint:**
 - Player: 8 logs, 10 m/s, 0 delay = 80 log-meters/second effective throughput
@@ -57,11 +57,11 @@ Sprint + capacity creates a clear player advantage throughout the game. Even at 
 
 ## Trade-offs
 - No stamina system: player can sprint indefinitely. Keep it. Fatigue in tycoon = frustrating, not engaging.
-- Level 0 = 1 log: early game humbling moment. Intentional — teaches upgrade system value. Keep first upgrade early (within 5 minutes).
+- Level 0 = 1 log: early game humbling moment. Intentional - teaches upgrade system value. Keep first upgrade early (within 5 minutes).
 - NPC `StorageDelay`: 200ms is subtle enough to feel "realistic" (NPC fumbles with rack), large enough to be measurable at scale.
 
 ## Variants
 - **Species-specific carry limits:** heavy logs weigh more. Add variety, adds complexity. Rejected for TT (cognitive load too high)
-- **Vehicle carry**: truck carries 24-60 logs (see TruckData SO). Separate system — player drive the truck, not carry the logs.
+- **Vehicle carry**: truck carries 24-60 logs (see TruckData SO). Separate system - player drive the truck, not carry the logs.
 
 See also: [[quantity-not-quality-principle]], [[order-fulfiller-interface]]

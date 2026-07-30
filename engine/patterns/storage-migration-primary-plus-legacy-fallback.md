@@ -26,14 +26,14 @@ Migrating a storage or data system (e.g., WarehouseManager → StorageManager) a
 1. Implement new system fully
 2. At each callsite: new system is PRIMARY path, legacy is FALLBACK:
 ```csharp
-// Sprint C2 — migration to StorageManager
+// Sprint C2 - migration to StorageManager
 int removed = StorageManager.Instance.ConsumeOneLog(species);
 if (removed == 0) {
     // TODO Sprint C5: remove fallback once all systems migrated
     removed = WarehouseManager.Instance?.ConsumeOneLog(species) ?? 0;
 }
 ```
-3. Mark fallback with `// TODO Sprint X:` — findable via grep
+3. Mark fallback with `// TODO Sprint X:` - findable via grep
 4. At load time: read old save keys, write to new keys, clear old keys
 5. Remove fallback ONLY when `grep -r "WarehouseManager" Assets/` returns zero hits
 

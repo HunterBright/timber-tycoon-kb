@@ -25,7 +25,7 @@ name: tripo-firewood-log-vocab
 ## What happened
 
 Prompt: "firewood log" → Tripo generates a 3-meter cylinder (full tree trunk shape).
-Expected: a small wedge-shaped piece — the "product to sell" version of firewood in TT.
+Expected: a small wedge-shaped piece - the "product to sell" version of firewood in TT.
 
 Tripo is trained on common internet images. "Firewood log" → most images are actual logs. TT's use is niche (already-split firewood piece), requiring description-first prompts.
 

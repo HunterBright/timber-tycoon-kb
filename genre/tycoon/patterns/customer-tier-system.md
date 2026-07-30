@@ -28,18 +28,18 @@ Tycoon games where customer value should scale with player progression. Starting
 
 | Tier | Order Size | Species | Revenue | Visual |
 |------|------------|---------|---------|--------|
-| Regular | 5–10 items | Common (Spruce) | $50–100 | Economy car |
-| Contractor | 15–30 items | Often premium | $300–500 | Work truck |
+| Regular | 5-10 items | Common (Spruce) | $50-100 | Economy car |
+| Contractor | 15-30 items | Often premium | $300-500 | Work truck |
 | VIP | 50+ items | Premium specific | $1000+ | Luxury sedan |
 
 **Spawn distribution per Reputation level:**
 
 | Reputation Level | Regular | Contractor | VIP |
 |-----------------|---------|------------|-----|
-| 1–2 | 100% | 0% | 0% |
-| 3–5 | 70% | 30% | 0% |
-| 6–8 | 50% | 40% | 10% |
-| 9–12 | 30% | 50% | 20% |
+| 1-2 | 100% | 0% | 0% |
+| 3-5 | 70% | 30% | 0% |
+| 6-8 | 50% | 40% | 10% |
+| 9-12 | 30% | 50% | 20% |
 | 13 (max) | 20% | 50% | 30% |
 
 **Implementation:**
@@ -53,9 +53,9 @@ CustomerTier GetTierForSpawn() {
 }
 ```
 
-**VIP milestone moment — "Demo Day 4 FINAL PUSH":**
+**VIP milestone moment - "Demo Day 4 FINAL PUSH":**
 - First VIP customer spawns: $1500 mansion order (50 Oak Planks + 20 Pellets)
-- Designed as climactic moment — player has earned it through all prior progression
+- Designed as climactic moment - player has earned it through all prior progression
 - Announce via Notification Queue: "New customer type: VIP! Premium orders available."
 
 **Visual differentiation:** different `CarVariants SO` per tier. Regular = economy car colors, VIP = dark/luxury palette. Player learns to read tier from car model before NPC even parks.

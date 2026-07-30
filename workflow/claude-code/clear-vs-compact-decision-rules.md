@@ -1,5 +1,5 @@
 ---
-title: /clear vs /compact — Decision Rules
+title: /clear vs /compact - Decision Rules
 type: lesson
 status: draft
 confidence: medium
@@ -20,7 +20,7 @@ suggested-category: workflow/claude-code
 name: clear-vs-compact-decision-rules
 ---
 
-# /clear vs /compact — Decision Rules
+# /clear vs /compact - Decision Rules
 
 ## The two tools
 
@@ -35,7 +35,7 @@ name: clear-vs-compact-decision-rules
 - Starting a task in a different system (e.g., just finished NPC traffic, now doing UI)
 - Previous task is complete and committed
 - Context degraded below 20% (see [[context-degradation-threshold]])
-- Too many iteration cycles on the same thing — context is "noisy" with obsolete versions
+- Too many iteration cycles on the same thing - context is "noisy" with obsolete versions
 
 ### Use `/compact` when:
 - Mid-task, approaching completion, just need a bit more headroom
@@ -54,11 +54,11 @@ Running 3+: cognitive load too high. Easy to lose track of which terminal has wh
 
 Prompt format signals context decision:
 ```
-/clear: TAK — fresh start, nowy temat
+/clear: TAK - fresh start, nowy temat
 ```
 or
 ```
-/clear: NIE — kontynuacja [nazwa systemu]
+/clear: NIE - kontynuacja [nazwa systemu]
 ```
 
 This appears at top of every new prompt. Claude Code reads it before doing anything else.

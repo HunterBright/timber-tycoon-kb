@@ -19,7 +19,7 @@ suggested-category: engine/patterns
 # GetOrAddComponent Extension Method
 
 ## When to use
-Any place you would write `AddComponent<T>()` in a setup script, spawn handler, or editor tool — especially if that code might run more than once (re-runs, respawns, parking respawn).
+Any place you would write `AddComponent<T>()` in a setup script, spawn handler, or editor tool - especially if that code might run more than once (re-runs, respawns, parking respawn).
 
 ## Steps
 Define once in `Assets/Project/Scripts/Extensions/GameObjectExtensions.cs`:
@@ -42,4 +42,4 @@ Calling `AddComponent<T>()` twice creates two instances of the same component. B
 Tiny overhead: one extra `GetComponent` call. Always worth it for any setup code that might run multiple times.
 
 ## Variants
-Same principle as `GetOrCreateChild(name)`, `GetOrAddLayer(tag)` — any "ensure X exists, create if missing" pattern.
+Same principle as `GetOrCreateChild(name)`, `GetOrAddLayer(tag)` - any "ensure X exists, create if missing" pattern.

@@ -15,7 +15,7 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: After moving SpawnStump to TreeFactory, old ChoppableTree.SpawnStump still called from quest script — two paths diverge silently
+description: After moving SpawnStump to TreeFactory, old ChoppableTree.SpawnStump still called from quest script - two paths diverge silently
 severity: high
 suggested-category: engine/anti-patterns
 name: legacy-code-conflict-after-refactor
@@ -52,7 +52,7 @@ public void SpawnStump() => TreeFactory.Instance.CreateStump(transform, treeType
 - Compiler warning on every old caller = visible reminder to migrate
 - Remove shim only after `grep` confirms zero callers
 
-**Before any refactor — find all callers:**
+**Before any refactor - find all callers:**
 ```bash
 grep -r "SpawnStump" Assets/ --include="*.cs"
 # Migrate all before merging
@@ -62,8 +62,8 @@ grep -r "SpawnStump" Assets/ --include="*.cs"
 After refactor, check for leftover `testMode`, `autoStart`, `debugSpawn` booleans. These can silently activate the old code path in Play Mode even if production code is migrated.
 
 ## Detection Pattern
-- Symptom: "this worked before refactor" — exact signal that an old code path is still active somewhere
-- Debug: add `Debug.Log("[LEGACY] ChoppableTree.SpawnStump called")` temporarily — if it fires, the old path is still in use
+- Symptom: "this worked before refactor" - exact signal that an old code path is still active somewhere
+- Debug: add `Debug.Log("[LEGACY] ChoppableTree.SpawnStump called")` temporarily - if it fires, the old path is still in use
 
 ## See also
 [[before-delete-legacy-class-checklist]], [[migration-pattern-rollback-safety]]

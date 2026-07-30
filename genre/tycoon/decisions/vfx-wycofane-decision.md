@@ -1,5 +1,5 @@
 ---
-title: VFX Wycofane — Sawdust, Kurz, Liście Cut from MVP
+title: VFX Wycofane - Sawdust, Kurz, Liście Cut from MVP
 type: decision
 status: draft
 confidence: medium
@@ -15,13 +15,13 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: 'Sawdust, tree-fall dust, and seasonal leaves VFX cut from MVP. Scope cut with explicit rationale — retained: vehicle exhaust, sawmill smoke, splash, gold coin sale.'
+description: 'Sawdust, tree-fall dust, and seasonal leaves VFX cut from MVP. Scope cut with explicit rationale - retained: vehicle exhaust, sawmill smoke, splash, gold coin sale.'
 severity: medium
 suggested-category: genre/tycoon/decisions
 name: vfx-wycofane-decision
 ---
 
-# VFX Wycofane — Sawdust, Kurz, Liście Cut from MVP
+# VFX Wycofane - Sawdust, Kurz, Liście Cut from MVP
 
 ## Decision
 
@@ -43,7 +43,7 @@ Each VFX requires: particle system design, GPU performance tuning, audio sync, t
 **Why sawdust/kurz/liście cut:**
 - Not core to "tycoon" experience (vs. immersive sim or survival)
 - VFX budget (#075) is limited for MVP
-- Player attention in tycoon is on numbers, upgrades, flow — not on particle effects
+- Player attention in tycoon is on numbers, upgrades, flow - not on particle effects
 - Likelihood of player noticing absence: low. Likelihood of player noticing performance drop from adding: high.
 
 **Why retained VFX kept:**
@@ -54,7 +54,7 @@ Each VFX requires: particle system design, GPU performance tuning, audio sync, t
 
 ## Revisit condition
 
-Post-demo launch: if community feedback includes "game feels lifeless" or "trees don't feel real when cut" — re-add sawdust/kurz as first candidates. Use VFX budget pattern (#075) to evaluate fit.
+Post-demo launch: if community feedback includes "game feels lifeless" or "trees don't feel real when cut" - re-add sawdust/kurz as first candidates. Use VFX budget pattern (#075) to evaluate fit.
 
 ## Lesson for future projects
 

@@ -27,9 +27,9 @@ time_lost: ''
 
 ## Root cause
 `direction` parameter meaning:
-- 0 = X-axis (horizontal — good for: fallen trunk, lying cylinder, ship hull)
-- 1 = Y-axis (default vertical — good for: character controller, standing tree, pole)
-- 2 = Z-axis (forward — good for: torpedo, projectile, forward-pointing object)
+- 0 = X-axis (horizontal - good for: fallen trunk, lying cylinder, ship hull)
+- 1 = Y-axis (default vertical - good for: character controller, standing tree, pole)
+- 2 = Z-axis (forward - good for: torpedo, projectile, forward-pointing object)
 
 For a fallen trunk exported from Blender with its length along the X-axis: direction must be 0.
 
@@ -41,10 +41,10 @@ Cheatsheet for TT objects:
 
 To determine the right axis: check which Blender axis is the long axis of the mesh, then apply after FBX axis remap (Blender Y → Unity Z, Blender Z → Unity Y).
 
-Never hardcode collider values from code when the prefab already has a correctly configured CapsuleCollider — see [[script-overrides-prefab-inspector-values]].
+Never hardcode collider values from code when the prefab already has a correctly configured CapsuleCollider - see [[script-overrides-prefab-inspector-values]].
 
 ## What didn't work
-Default direction=1 (vertical) on a lying fallen trunk — capsule points up, trunk levitates.
+Default direction=1 (vertical) on a lying fallen trunk - capsule points up, trunk levitates.
 
 ## Transferability
 Any Unity project with non-vertical capsule shapes. The cheatsheet is universal. The Blender-to-Unity axis remap detail is specific to Blender pipelines.

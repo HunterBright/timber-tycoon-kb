@@ -16,7 +16,7 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: TT minigames affect output QUANTITY not QUALITY — species/machine tier determines quality, player skill determines how many items per cycle
+description: TT minigames affect output QUANTITY not QUALITY - species/machine tier determines quality, player skill determines how many items per cycle
 severity: high
 suggested-category: genre/tycoon/decisions
 name: quantity-not-quality-design-principle
@@ -34,13 +34,13 @@ TT has 5 minigames (tree cutting, sawmill, chipper, plank maker, pelletizer). Th
 
 ## Options Considered
 
-**Option A — Skill affects quality (REJECTED)**
-- Bad execution → Regular Plank, Good → Fine Plank, Perfect → Premium Plank (NOTE: Fine/Premium plank variants do NOT exist — this describes the REJECTED idea. Planks have no quality grades; species = type only.)
+**Option A - Skill affects quality (REJECTED)**
+- Bad execution → Regular Plank, Good → Fine Plank, Perfect → Premium Plank (NOTE: Fine/Premium plank variants do NOT exist - this describes the REJECTED idea. Planks have no quality grades; species = type only.)
 - Problem: casual players can never get premium products → frustrating, feels punishing
 - Problem: "quality" implies different visual models per grade → 3× asset complexity
 - Problem: balance nightmare (Premium Plank worth 3×? What about Spruce Premium vs Oak Regular?)
 
-**Option B — Skill affects quantity (SELECTED)**
+**Option B - Skill affects quantity (SELECTED)**
 - Bad execution → 1 Plank, Good → 2 Planks, Perfect → 3 Planks (same species/tier)
 - Quality determined solely by inputs: Oak Plank always worth more than Spruce Plank regardless of skill
 - Casual player: fewer planks per cycle (1), but never "bad" planks

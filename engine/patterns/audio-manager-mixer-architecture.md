@@ -28,7 +28,7 @@ Any Unity game with more than 3 audio sources. Without a manager, AudioSources l
 3. SFX pool: 10 pre-allocated AudioSources, rotate FIFO (interrupt oldest if all busy)
 4. Music crossfade: 2 AudioSources alternating, 1s fade in / 1s fade out
 5. Spatial blend: SFX/Ambient = 1.0 (3D positional), Music/UI = 0.0 (2D)
-6. Volume saved as ISaveable: 5 floats (master, music, sfx, ambient, ui) at 0–1
+6. Volume saved as ISaveable: 5 floats (master, music, sfx, ambient, ui) at 0-1
 7. Mixer snapshots per game state (see [[audio-mixer-snapshots-per-game-state]])
 
 ## Why this works

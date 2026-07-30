@@ -20,7 +20,7 @@ suggested-category: genre/tycoon/patterns
 # Initial Fill on Load (Don't Serialize NPC State)
 
 ## When to use
-Any tycoon/simulation game with transient NPC characters that move around the map. Serializing mid-walk NPC positions and AI states is complex, fragile, and bloats save files — avoid it.
+Any tycoon/simulation game with transient NPC characters that move around the map. Serializing mid-walk NPC positions and AI states is complex, fragile, and bloats save files - avoid it.
 
 ## Steps
 
@@ -41,7 +41,7 @@ Any tycoon/simulation game with transient NPC characters that move around the ma
 - NPC AI sub-state (driving to park, walking to counter)
 - Transaction state (which items they're buying)
 
-**On load — initial fill:**
+**On load - initial fill:**
 ```csharp
 void LoadSaveData(string json) {
     var data = JsonUtility.FromJson<SlotSaveData>(json);
@@ -65,10 +65,10 @@ void LoadSaveData(string json) {
 **Save format:** only IDs + occupied bool + customer tier. Not 3D positions. Tiny.
 
 ## Why this works
-NPC state is inherently transient — a mid-walk NPC has no gameplay-critical state. The slot occupancy is the meaningful state (is a customer waiting to be served?). Reconstruct from that, not from saved 3D positions.
+NPC state is inherently transient - a mid-walk NPC has no gameplay-critical state. The slot occupancy is the meaningful state (is a customer waiting to be served?). Reconstruct from that, not from saved 3D positions.
 
 ## Trade-offs
-- Mid-transaction loss: if player saved during active sale, NPC transaction state is lost on reload — customer starts over. Acceptable (sale takes ~10s)
+- Mid-transaction loss: if player saved during active sale, NPC transaction state is lost on reload - customer starts over. Acceptable (sale takes ~10s)
 - Initial fill = "different customers" than before save: NPCs aren't the same instances. Players won't notice (all look similar, all have same behavior)
 - Scaling fill count: if Reputation level changes between save and load (due to offline progression or cheat), fill count may differ from player's expectation
 

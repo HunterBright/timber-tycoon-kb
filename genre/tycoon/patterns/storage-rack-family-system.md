@@ -21,7 +21,7 @@ suggested-category: genre/tycoon/patterns
 # StorageRack Family System
 
 ## When to use
-Tycoon games with multiple rack/storage types that hold different material categories. Use when you need data-driven storage — adding a new material type should require zero code changes, only a new enum value and rack Inspector config.
+Tycoon games with multiple rack/storage types that hold different material categories. Use when you need data-driven storage - adding a new material type should require zero code changes, only a new enum value and rack Inspector config.
 
 ## Steps
 
@@ -48,7 +48,7 @@ public class StorageRack : MonoBehaviour {
 ```
 
 **maxDistinctStacks values by family:**
-- `Bark`: 1 (only WoodSpecies.None — bark is species-agnostic)
+- `Bark`: 1 (only WoodSpecies.None - bark is species-agnostic)
 - `Plank`: 3 (3 species variety realistic for single rack)
 - `Log`: 4 (handles all 4 active tree species)
 - `PelletBag` / `FertilizerBag`: 2 (typically same recipe)
@@ -59,7 +59,7 @@ void OnEnable() => StorageRackRegistry.Instance.Register(this);
 void OnDisable() => StorageRackRegistry.Instance.Unregister(this);
 ```
 
-**Usage — reading via StorageManager facade:**
+**Usage - reading via StorageManager facade:**
 ```csharp
 // Caller side:
 StorageManager.Instance.Add(StorageFamily.Log, WoodSpecies.Spruce, 3);
@@ -68,7 +68,7 @@ StorageManager.Instance.Get(StorageFamily.Plank, WoodSpecies.Oak);
 ```
 
 ## Why this works
-Storage architecture is fully data-driven. Adding a new family (e.g., "Toy") = add one enum value, configure racks in Inspector. Zero code changes. `maxDistinctStacks` enforces species realism without hard-coded species checks — a Log rack holding 4 species feels natural, a Bark rack holding 4 species would not.
+Storage architecture is fully data-driven. Adding a new family (e.g., "Toy") = add one enum value, configure racks in Inspector. Zero code changes. `maxDistinctStacks` enforces species realism without hard-coded species checks - a Log rack holding 4 species feels natural, a Bark rack holding 4 species would not.
 
 ## Trade-offs
 - Single rack per family: if two racks exist with the same family, registry uses first-registered. For multiple racks same family, extend registry to return `List<StorageRack>` and let StorageManager select least-full.

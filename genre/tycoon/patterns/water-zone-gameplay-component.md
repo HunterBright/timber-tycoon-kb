@@ -58,7 +58,7 @@ public class WaterZone : MonoBehaviour {
 
 **BoxCollider:** covering the river width/depth, marked as `isTrigger = true`. River mesh itself has no collider (can walk through it).
 
-**Wading depth clamp:** `waterSurfaceY - 0.6f` = player submerged to waist. Below-waist submersion is cosmetic only — CharacterController still handles ground movement.
+**Wading depth clamp:** `waterSurfaceY - 0.6f` = player submerged to waist. Below-waist submersion is cosmetic only - CharacterController still handles ground movement.
 
 **Strategic choice:** cross river directly (slower, shorter path) vs. go around bridge (longer, full speed). Player chooses based on urgency. Adds map richness.
 
@@ -72,8 +72,8 @@ Simple trigger + speedMultiplier = one component, complete gameplay effect. No s
 
 ## Trade-offs
 - `speedMultiplier` stack: if player enters multiple WaterZone triggers (river + flood area), multiplier compounds. Add a zone counter: restore fully on last exit, not every exit
-- Vehicle in water: vehicle doesn't use `PlayerController.speedMultiplier` — add separate `VehicleWaterZone` handling (engine rev down, speed cap)
-- Ripple/displacement VFX: water shader doesn't respond to player — would require GPU displacement or mesh manipulation. Deferred.
+- Vehicle in water: vehicle doesn't use `PlayerController.speedMultiplier` - add separate `VehicleWaterZone` handling (engine rev down, speed cap)
+- Ripple/displacement VFX: water shader doesn't respond to player - would require GPU displacement or mesh manipulation. Deferred.
 
 ## Variants
 - **Swimming zone:** deeper water, player switches to swim locomotion. Higher complexity but more immersive for games with large water bodies

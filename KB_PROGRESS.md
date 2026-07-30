@@ -16,14 +16,14 @@ source: ''
 Started: 2026-05-17
 
 ## Batches
-- [x] Batch 1 — engine/lessons part 1 (25 entries)
-- [ ] Batch 2 — engine/patterns part 1
-- [ ] Batch 3 — engine/patterns part 2
-- [ ] Batch 4 — engine/patterns part 3 + anti-patterns
-- [ ] Batch 5 — genre/tycoon/patterns
-- [ ] Batch 6 — genre/tycoon/decisions + survival + cross-genre
-- [ ] Batch 7 — workflow/claude-code + mcp-tools
-- [ ] Batch 8 — workflow/3d-models + asset-pipeline
+- [x] Batch 1 - engine/lessons part 1 (25 entries)
+- [ ] Batch 2 - engine/patterns part 1
+- [ ] Batch 3 - engine/patterns part 2
+- [ ] Batch 4 - engine/patterns part 3 + anti-patterns
+- [ ] Batch 5 - genre/tycoon/patterns
+- [ ] Batch 6 - genre/tycoon/decisions + survival + cross-genre
+- [ ] Batch 7 - workflow/claude-code + mcp-tools
+- [ ] Batch 8 - workflow/3d-models + asset-pipeline
 
 ## Completed Entries
 #001 ✓ Procedural textures must be baked
@@ -53,7 +53,7 @@ sweep2-3 ✓ Race condition Start() vs Instantiate parameter (anti-pattern)
 sweep2-4 ✓ Tag assignment code vs Inspector
 
 ## Flagged Entries
-(append `#NNN ⚠️ {title} — reason` per flag)
+(append `#NNN ⚠️ {title} - reason` per flag)
 
 ## Dedup Mergers Applied
 #011 ← merged #106 (face winding) + #107 (F4 precision) as subsections

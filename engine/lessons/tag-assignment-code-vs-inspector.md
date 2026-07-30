@@ -23,7 +23,7 @@ suggested-category: engine/lessons
 # Tag Assignment: Code vs Inspector for Runtime-Spawned Objects
 
 ## Problem
-Runtime-spawned objects don't get detected by `CompareTag` even though the script is correct. Pickup/trigger logic silently fails. "Why isn't my DirtClump being detected?" — it is, but the tag is "Untagged."
+Runtime-spawned objects don't get detected by `CompareTag` even though the script is correct. Pickup/trigger logic silently fails. "Why isn't my DirtClump being detected?" - it is, but the tag is "Untagged."
 
 ## Root cause
 Tags assigned via Inspector on a prefab are baked into the prefab asset. When spawned via `Instantiate`, the instance inherits the prefab's tag. If the prefab's tag is "Untagged" (the default), all spawned instances are Untagged regardless of what `CompareTag` expects.
@@ -44,7 +44,7 @@ public static class Tags {
 ```
 
 ## What didn't work
-Expecting tag to auto-propagate from scene prefab references to spawned instances — it doesn't.
+Expecting tag to auto-propagate from scene prefab references to spawned instances - it doesn't.
 
 ## Transferability
 Applies to any Unity project using runtime Instantiate + tag-based detection (combat collision, pickup systems, trigger zones). Standard defensive pattern: after every Instantiate call, verify the tag on the spawned instance if tags are used for detection.

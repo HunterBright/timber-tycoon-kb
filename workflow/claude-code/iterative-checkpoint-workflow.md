@@ -16,7 +16,7 @@ applies_to:
 - claude-code-projects
 - blender-pipelines
 source: ''
-description: Complex assets generated in checkpoints — partial asset → multi-angle preview → Hunter approval → next checkpoint. No jump-ahead. Error caught early = cheap. Caught late = redo everything.
+description: Complex assets generated in checkpoints - partial asset → multi-angle preview → Hunter approval → next checkpoint. No jump-ahead. Error caught early = cheap. Caught late = redo everything.
 severity: medium
 suggested-category: workflow/claude-code
 name: iterative-checkpoint-workflow-generated-assets
@@ -35,7 +35,7 @@ Complex 3D assets or multi-step generations where errors accumulate (Blender mac
 3. Hunter reviews preview, responds: ✅ / 🚫 / 🔧
 4. On ✅: proceed to next checkpoint
 5. On 🔧: Code fixes, regenerates preview, back to step 3
-6. On 🚫: rethink approach (rare — indicates wrong direction from start)
+6. On 🚫: rethink approach (rare - indicates wrong direction from start)
 
 **Checkpoint sequence for a machine (PlankMaker example):**
 1. Frame / base geometry
@@ -71,7 +71,7 @@ render_to_file("checkpoint_front.png")
 ## Trade-offs
 
 - Slower than one-shot if every checkpoint passes first try (rare for complex assets)
-- Requires Hunter to be present at each checkpoint — can't run fully autonomously
+- Requires Hunter to be present at each checkpoint - can't run fully autonomously
 - Worth it: reduces total rework time by 60-80% on complex assets
 
 See also: [[quad-backtick-prompt-format]], [[three-level-analysis-system]]

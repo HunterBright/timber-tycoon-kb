@@ -20,7 +20,7 @@ suggested-category: engine/patterns
 # Audio Mixer Snapshots per Game State
 
 ## When to use
-Any Unity game with multiple game states where audio mix should change — pause menu, cutscenes, main menu. Without snapshots, pause feels noisy and SFX bleed into UI screens.
+Any Unity game with multiple game states where audio mix should change - pause menu, cutscenes, main menu. Without snapshots, pause feels noisy and SFX bleed into UI screens.
 
 ## Steps
 
@@ -60,15 +60,15 @@ void OnDisable() => GameStateMachine.OnStateChanged.Unregister(OnGameStateChange
 - Main menu: no gameplay audio, music prominent
 
 ## Why this works
-Snapshots are an Audio Mixer feature — all transitions handled by Unity's audio engine with proper dB curves, no custom lerp code needed. Single `TransitionTo()` call changes the entire mix atomically.
+Snapshots are an Audio Mixer feature - all transitions handled by Unity's audio engine with proper dB curves, no custom lerp code needed. Single `TransitionTo()` call changes the entire mix atomically.
 
 ## Trade-offs
 - Setup cost: configuring N snapshots × M groups = N×M parameter values to tune
-- Snapshot names are strings — typo-proof by using constants or enum-to-string conversion
+- Snapshot names are strings - typo-proof by using constants or enum-to-string conversion
 - `TransitionTo(0f)` for instant cut (pause menu), `TransitionTo(0.3f)` for smooth crossfade (entering gameplay)
 
 ## Variants
-- **Cutscene snapshot:** music + 3 dB, SFX -20 dB, ambient -10 dB — emphasis on score
-- **Dialogue snapshot:** music -15 dB, ambient -15 dB, SFX -10 dB — player focuses on voice
+- **Cutscene snapshot:** music + 3 dB, SFX -20 dB, ambient -10 dB - emphasis on score
+- **Dialogue snapshot:** music -15 dB, ambient -15 dB, SFX -10 dB - player focuses on voice
 
 See also: [[audio-manager-mixer-architecture]], [[game-state-machine-pattern]]

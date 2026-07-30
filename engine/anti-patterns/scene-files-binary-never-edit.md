@@ -1,9 +1,9 @@
 ---
-title: 'ANTI-PATTERN: Scene Files Are Binary — Never Edit as Text'
+title: 'ANTI-PATTERN: Scene Files Are Binary - Never Edit as Text'
 type: anti-pattern
-status: draft
+status: needs-reproduction
 confidence: medium
-verified: ''
+verified: '2026-07-30'
 date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -14,14 +14,24 @@ tags:
 - missing-script
 applies_to:
 - unity-projects
-source: ''
-description: Unity .unity and .prefab files look like YAML but contain internal GUIDs — text editing breaks scene. Recovery via Inspector Remove Component.
+source: zweryfikowane reprodukcja i dokumentacja 2026-07-30, patrz AUDYT-SPORNYCH-WPISOW
+description: Unity .unity and .prefab files look like YAML but contain internal GUIDs - text editing breaks scene. Recovery via Inspector Remove Component.
 severity: high
 suggested-category: engine/anti-patterns
 name: scene-files-binary-never-text-edit
+audit_verdict: DO SPRAWDZENIA
 ---
 
-# ANTI-PATTERN: Scene Files Are Binary — Never Edit as Text
+# ANTI-PATTERN: Scene Files Are Binary - Never Edit as Text
+
+> [!warning] Ten wpis zostal zweryfikowany 2026-07-30 i werdykt brzmi: **DO SPRAWDZENIA**
+>
+> Tytul mowiacy, ze sceny sa binarne "z natury", jest za mocny jako regula ogolna - ale dla NASZEJ konfiguracji zmierzono, ze scena jest binarna mimo Force Text.
+> Zasada praktyczna (nie edytuj scen jako tekstu) zostaje i jest teraz wymuszona hookiem.
+>
+> Pelne uzasadnienie, dowody i proponowane poprawki: [[AUDYT-SPORNYCH-WPISOW]].
+> Tresc ponizej NIE zostala jeszcze przepisana - czytaj ja z ta uwaga.
+
 
 ## The Trap
 Unity `.unity` scene files and `.prefab` prefab files open in any text editor as YAML-like text. They look editable. You try to "quickly fix" a component reference, rename a class, or move a GameObject by editing the text. The scene then fails to load or has missing/corrupted GameObjects.
@@ -46,7 +56,7 @@ These errors often aren't noticed until reopening the scene, by which time the d
 3. Click ⋮ menu → Remove Component
 4. Re-add the correct component
 
-**Bulk read operations (acceptable):** `grep "MyClass" *.unity` to find all scene files referencing a class — read-only, no edits. Also fine for source-control diff review.
+**Bulk read operations (acceptable):** `grep "MyClass" *.unity` to find all scene files referencing a class - read-only, no edits. Also fine for source-control diff review.
 
 **Force text serialization for diffability:** Edit → Project Settings → Editor → Asset Serialization → Force Text. This makes diffs readable in git, but still: don't edit the files by hand.
 

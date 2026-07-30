@@ -58,7 +58,7 @@ if (StorageRackRegistry.Instance.TryGetRackByFamily(family, out var rack))
 **Adding a new rack type:**
 1. Drop GameObject with `StorageRack` component
 2. Set `family` in Inspector
-3. Done — zero StorageManager changes
+3. Done - zero StorageManager changes
 
 **StorageFamily enum (Timber Tycoon):**
 ```csharp
@@ -66,15 +66,15 @@ public enum StorageFamily { Log, Firewood, Stump, Plank, Bark, ChipBag, PelletBa
 ```
 
 ## Why this works
-`OnEnable`/`OnDisable` fires automatically when the GameObject activates/deactivates or enters/exits the scene. The rack registers itself — no wiring ceremony. StorageManager looks up via enum key at call time, not at scene init.
+`OnEnable`/`OnDisable` fires automatically when the GameObject activates/deactivates or enters/exits the scene. The rack registers itself - no wiring ceremony. StorageManager looks up via enum key at call time, not at scene init.
 
 ## Trade-offs
 - One family → one rack: first registered wins; if two racks share a family, only the latest survives. Extend to `Dictionary<StorageFamily, List<StorageRack>>` for overflow routing
-- Execution order dependency: StorageRackRegistry.Awake must run before any StorageRack.OnEnable — enforce via Script Execution Order or hierarchy order
-- No scene validation: if a rack family is expected but no rack exists, `TryGetRackByFamily` returns false silently — log a warning in StorageManager for debug builds
+- Execution order dependency: StorageRackRegistry.Awake must run before any StorageRack.OnEnable - enforce via Script Execution Order or hierarchy order
+- No scene validation: if a rack family is expected but no rack exists, `TryGetRackByFamily` returns false silently - log a warning in StorageManager for debug builds
 
 ## Variants
 - **Multi-rack per family** (capacity overflow): registry stores `List<StorageRack>`, StorageManager iterates until overflow is zero
-- **General pattern**: any "service discoverable by type" uses the same OnEnable/Registry idiom — workstation machines, vendor zones, planting spots
+- **General pattern**: any "service discoverable by type" uses the same OnEnable/Registry idiom - workstation machines, vendor zones, planting spots
 
 See also: [[global-router-storage-pattern]], [[parallel-architecture-pattern]]

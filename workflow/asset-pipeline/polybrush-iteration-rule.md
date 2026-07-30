@@ -1,5 +1,5 @@
 ---
-title: Polybrush Iteration Rule — No Return to Generator
+title: Polybrush Iteration Rule - No Return to Generator
 type: lesson
 status: draft
 confidence: medium
@@ -21,13 +21,13 @@ suggested-category: workflow/asset-pipeline
 name: polybrush-iteration-rule
 ---
 
-# Polybrush Iteration Rule — No Return to Generator
+# Polybrush Iteration Rule - No Return to Generator
 
 ## What happened
 
 1. LowPolyTerrainGenerator generates terrain mesh, exports as Unity mesh asset
 2. Polybrush sculpting session: hand-carved bumps, hollows, painted vertex colors (2 hours)
-3. "The noise scale is slightly off — let me tweak it in the generator"
+3. "The noise scale is slightly off - let me tweak it in the generator"
 4. Generator regenerates mesh, overwrites the mesh asset
 5. All Polybrush work is gone. Polybrush has no cross-session undo.
 

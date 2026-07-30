@@ -43,10 +43,10 @@ Affects:
 
 Detection: if car drives sideways on first test → check this first. It's always this.
 
-Alternative (rejected): rotate model 90° in Blender before export — breaks existing prefabs.
+Alternative (rejected): rotate model 90° in Blender before export - breaks existing prefabs.
 
 ## What didn't work
-Using `transform.forward` directly — car drives sideways.
+Using `transform.forward` directly - car drives sideways.
 
 ## Transferability
 Any Blender-authored vehicle, character, or directional prop exported via FBX will have this quirk unless the Blender artist explicitly rotates the root object 90° in Y before export. Document this as a project convention; every new vehicle developer needs to know.
@@ -54,4 +54,4 @@ Any Blender-authored vehicle, character, or directional prop exported via FBX wi
 ## Related
 - [FBX export standard settings](fbx-export-standard-settings-blender-to-unity.md)
 - [Self-collision compound BoxColliders](self-collision-compound-colliders-ignore.md)
-- [Reverse-parking entry stub orientation — real-world consequence: Cross(tangent,up) offset in rear-first kinematic](../../genre/tycoon/patterns/reverse-parking-entry-stub-orientation.md)
+- [Reverse-parking entry stub orientation - real-world consequence: Cross(tangent,up) offset in rear-first kinematic](../../genre/tycoon/patterns/reverse-parking-entry-stub-orientation.md)

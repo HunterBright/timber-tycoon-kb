@@ -21,7 +21,7 @@ suggested-category: genre/tycoon/patterns
 # Worker Output Quality Distribution
 
 ## When to use
-Tycoon games where automated workers produce outputs that the player can also produce manually. The distribution must keep workers "useful but not dominant" — players should still want to participate.
+Tycoon games where automated workers produce outputs that the player can also produce manually. The distribution must keep workers "useful but not dominant" - players should still want to participate.
 
 ## Steps
 
@@ -51,7 +51,7 @@ var quality = worker.perfectQuality ? OutputQuality.Perfect : worker.GetOutputQu
 
 **Design intent:** "default worker is slightly worse than active player. Max worker equals active player. Both are needed."
 
-**Tuneable:** distribution stored in `BalanceConfig.workerQualityDistribution` SO — designers can adjust without code changes.
+**Tuneable:** distribution stored in `BalanceConfig.workerQualityDistribution` SO - designers can adjust without code changes.
 
 ## Why this works
 20/50/30 is calibrated so workers feel useful (2.1 avg > 1 if player does nothing) but not dominant over engaged player (2.5+ for any active play). `perfectQuality` as endgame unlock gives meaningful upgrade goal at level 13.
@@ -63,6 +63,6 @@ var quality = worker.perfectQuality ? OutputQuality.Perfect : worker.GetOutputQu
 
 ## Variants
 - **Flat average:** worker always produces 2 outputs (no RNG). Simpler, predictable but less interesting.
-- **Skill-leveled workers:** each individual worker has a hidden "skill" float that improves over time (like Stardew NPC friendships) — adds progression, adds save complexity.
+- **Skill-leveled workers:** each individual worker has a hidden "skill" float that improves over time (like Stardew NPC friendships) - adds progression, adds save complexity.
 
 See also: [[worker-data-instance-split]], [[worker-simulate-work-cycle]], [[quantity-not-quality-principle]]

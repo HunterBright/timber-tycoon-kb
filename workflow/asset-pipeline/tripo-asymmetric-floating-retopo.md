@@ -1,5 +1,5 @@
 ---
-title: Tripo Asymmetric / Floating Elements — Blender Retopo
+title: Tripo Asymmetric / Floating Elements - Blender Retopo
 type: lesson
 status: draft
 confidence: medium
@@ -21,12 +21,12 @@ suggested-category: workflow/asset-pipeline
 name: tripo-asymmetric-floating-retopo
 ---
 
-# Tripo Asymmetric / Floating Elements — Blender Retopo
+# Tripo Asymmetric / Floating Elements - Blender Retopo
 
 ## Known Tripo weaknesses
 
 1. **Asymmetry:** left and right sides of symmetric objects generated differently (different wheel shapes, uneven door panels, mismatched legs)
-2. **Floating elements:** loose details (bolts, handles, panels) not attached to main mesh — visible as disconnected pieces when rotating in viewport
+2. **Floating elements:** loose details (bolts, handles, panels) not attached to main mesh - visible as disconnected pieces when rotating in viewport
 
 ## Fix: Asymmetry via Mirror modifier
 
@@ -46,7 +46,7 @@ Step 5: Edit Mode → Select All → Mesh → Merge by Distance (threshold: 0.00
 
 ```
 Step 1: Enter Edit Mode → rotate view to identify floating piece
-         (disconnected geometry orbits separately — visible immediately)
+         (disconnected geometry orbits separately - visible immediately)
 Step 2: Select floating piece vertices
 Step 3: G → move toward nearest main mesh face
 Step 4: Enable Snap: Vertex → Nearest (magnet icon, shortcut: Shift+Tab)

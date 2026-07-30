@@ -18,7 +18,7 @@ Survives projects. Grows with each session.
 
 ## What lives here vs. what lives in memory
 
-**KB (this folder)** — transferable cross-project wisdom:
+**KB (this folder)** - transferable cross-project wisdom:
 - Unity/Blender bugs and gotchas (engine-level)
 - Validated workflow patterns (asset pipeline, Claude Code conventions)
 - Architecture Decision Records with trade-offs
@@ -33,17 +33,17 @@ Survives projects. Grows with each session.
 Different scope, different lifetime, different storage. Both intentional.
 
 ## Structure
-- engine/ — Unity/Blender/URP wisdom (transferable across all projects)
-- genre/ — Genre-specific patterns (tycoon, survival, roguelike, pvp)
-- workflow/ — Meta-tooling: Claude Code, MCP, asset pipeline
-- projects/ — Per-project indexes (links only, no content)
-- _inbox/ — Drafts awaiting weekly review (Claude writes here)
-- _archive/ — Superseded entries (kept for history)
-- templates/ — Entry templates (lesson/pattern/decision/anti-pattern)
+- engine/ - Unity/Blender/URP wisdom (transferable across all projects)
+- genre/ - Genre-specific patterns (tycoon, survival, roguelike, pvp)
+- workflow/ - Meta-tooling: Claude Code, MCP, asset pipeline
+- projects/ - Per-project indexes (links only, no content)
+- _inbox/ - Drafts awaiting weekly review (Claude writes here)
+- _archive/ - Superseded entries (kept for history)
+- templates/ - Entry templates (lesson/pattern/decision/anti-pattern)
 
 ## Workflow
 1. During sessions, Claude Code auto-writes drafts to _inbox/
-2. Sunday evening: /kb-review — batch approve/edit/reject drafts
+2. Sunday evening: /kb-review - batch approve/edit/reject drafts
 3. New projects: junction kb\ → this folder, instant access
 
 ## How Claude Code uses this

@@ -15,7 +15,7 @@ tags:
 applies_to:
 - blender-pipelines
 source: ''
-description: For commercial release, use procedural textures (Wave + Voronoi + Noise → baked PNG) — zero external image files = zero licensing concerns. All TT materials are procedural.
+description: For commercial release, use procedural textures (Wave + Voronoi + Noise → baked PNG) - zero external image files = zero licensing concerns. All TT materials are procedural.
 severity: high
 suggested-category: workflow/3d-models
 name: procedural-textures-cycles-commercial
@@ -76,7 +76,7 @@ Procedural shaders don't survive FBX export. Always bake to PNG before exporting
 - 512×512 for background props, 1024×1024 for hero assets
 - OUtput: `{AssetName}_Bake.png` in adjacent folder
 
-Baked PNG is the "source of truth" for Unity — the procedural nodes are just the generator.
+Baked PNG is the "source of truth" for Unity - the procedural nodes are just the generator.
 
 ## Bonus: small .blend file
 

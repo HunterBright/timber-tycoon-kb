@@ -27,12 +27,12 @@ FPS-style game where player holds a tool (axe, shovel, weapon) that should alway
    ```
    Player → PlayerCamera → ToolViewmodel
    ```
-2. Set ToolViewmodel local position/rotation once (right side, slightly below center, angled inward — e.g., localPos (0.3, -0.2, 0.6))
+2. Set ToolViewmodel local position/rotation once (right side, slightly below center, angled inward - e.g., localPos (0.3, -0.2, 0.6))
 3. Tool auto-follows camera (Unity transform inheritance)
 4. Tool swap: `ToolWheel` selects → `ToolViewmodel.Show(ToolType)` enables matching child mesh
 5. Each tool = child GameObject, only one active at a time
 
-No per-frame follow code needed — parenting handles it.
+No per-frame follow code needed - parenting handles it.
 
 ## Why this works
 Transform inheritance in Unity handles the follow for free. Child transform = parent transform + local offset. No Update() loop, no Lerp, no lag.

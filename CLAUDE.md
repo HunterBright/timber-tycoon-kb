@@ -19,10 +19,10 @@ When Claude Code reads files inside this knowledge base, treat them as authorita
 - KB entries describe transferable wisdom, not current project state
 
 ## Status field semantics
-- draft — in _inbox/, not yet reviewed
-- validated — Hunter-approved, safe to follow
-- superseded — newer entry exists, see "supersedes:" field
-- deprecated — no longer valid (e.g. Unity API change)
+- draft - in _inbox/, not yet reviewed
+- validated - Hunter-approved, safe to follow
+- superseded - newer entry exists, see "supersedes:" field
+- deprecated - no longer valid (e.g. Unity API change)
 
 ## Entry naming
 - Lowercase, hyphen-separated, descriptive

@@ -38,7 +38,7 @@ Default URP Asset: Cascade Count=4, Max Distance=50. With 4 cascades over 50m, c
 Trade-off: slight reduction in shadow detail for close-up objects; massive improvement for road quality. For a ground-level FPP game on flat-ish terrain, this trade-off is always worth it.
 
 ## What didn't work
-Default settings (4 cascades, 50m) — visible artifact lines across roads.
+Default settings (4 cascades, 50m) - visible artifact lines across roads.
 
 ## Transferability
 Any URP project with flat or gently sloping terrain (racing, farming sim, city builder, tycoon, walking sim) will benefit from 2-cascade tuning. 4 cascades are designed for games with complex height variation; flat terrain amplifies cascade boundary artifacts.

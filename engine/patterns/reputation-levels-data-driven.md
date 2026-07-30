@@ -65,7 +65,7 @@ public ReputationLevel GetLevel(int index) => levelsConfig.levels[index];
 | ... | ... | ... |
 | 12 | Legenda Lasu | 5000 |
 
-**Scaling story:** Initial design: 5 levels (MVP). Scaled to 13 during balancing — editing the `ReputationLevels.asset` Inspector, zero code changes.
+**Scaling story:** Initial design: 5 levels (MVP). Scaled to 13 during balancing - editing the `ReputationLevels.asset` Inspector, zero code changes.
 
 **Localization:** level names use localization keys. `LocalizationManager.Get("Reputation.Level.Drwal")` returns language-appropriate string.
 
@@ -73,12 +73,12 @@ public ReputationLevel GetLevel(int index) => levelsConfig.levels[index];
 All level data lives in one place (the SO). Balance team changes thresholds without touching code. New levels = add entries to list. Remove levels = delete entries. Code reads dynamically, handles any list length.
 
 ## Trade-offs
-- Level count driven by data: if `levels.Count == 0`, `GetCurrentLevel()` always returns 0 — add a validation check
+- Level count driven by data: if `levels.Count == 0`, `GetCurrentLevel()` always returns 0 - add a validation check
 - `unlocks` list as strings: typo-proof via using the same string constants as the upgrade system. Consider an `UnlockKey` enum instead of raw strings
-- Localization key coupling: level name keys must exist in localization files. Missing key = displayed as raw key in UI — add Editor validation to check all level name keys exist
+- Localization key coupling: level name keys must exist in localization files. Missing key = displayed as raw key in UI - add Editor validation to check all level name keys exist
 
 ## Variants
-- **JSON config:** same data in an external JSON file, loaded at runtime — allows patches without rebuilding. More complex, useful for live-service games
-- **Inline thresholds:** thresholds defined in ReputationManager code as `static readonly int[]` — faster iteration for programmers, worse for designers
+- **JSON config:** same data in an external JSON file, loaded at runtime - allows patches without rebuilding. More complex, useful for live-service games
+- **Inline thresholds:** thresholds defined in ReputationManager code as `static readonly int[]` - faster iteration for programmers, worse for designers
 
 See also: [[scriptable-object-runtime-injection]], [[migration-pattern-rollback-safety]]

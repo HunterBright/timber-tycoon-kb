@@ -54,7 +54,7 @@ var northWall = transform.Find("Wall_North");
 ```
 
 ## Why this works
-Predictable names = Inspector hierarchy is readable at a glance. Scripted setup scripts use `StartsWith("Beam_")` prefix matching — zero hardcoded indices. New elements follow the pattern = scripts find them automatically.
+Predictable names = Inspector hierarchy is readable at a glance. Scripted setup scripts use `StartsWith("Beam_")` prefix matching - zero hardcoded indices. New elements follow the pattern = scripts find them automatically.
 
 ## Trade-offs
 - No automatic enforcement: naming is a convention, not a rule. One off-name element = scripted setup misses it silently. Add an Editor validation script that warns on misnamed elements
@@ -62,7 +62,7 @@ Predictable names = Inspector hierarchy is readable at a glance. Scripted setup 
 - `Tall2` suffix: hacky indicator for "second identical at same height." Consider `_A`/`_B` suffix or indexed `Pillar_NE_Tall_01`
 
 ## Variants
-- **Indexed naming:** `Beam_01`, `Beam_02` — simpler but loses semantic meaning
-- **Category prefix:** `B_BeamNorth`, `P_PillarNE` — useful when sorting by category in large hierarchies
+- **Indexed naming:** `Beam_01`, `Beam_02` - simpler but loses semantic meaning
+- **Category prefix:** `B_BeamNorth`, `P_PillarNE` - useful when sorting by category in large hierarchies
 
 See also: [[collider-distribution-rule]], [[choppable-tree-multi-type-naming-convention]]

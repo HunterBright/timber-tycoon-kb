@@ -48,25 +48,25 @@ for (int i = 0; i < 3; i++) {
 **Capacity logic:**
 - `maxCapacity = 9` (3 shelves × 3 bags each)
 - `fillLevel1` = first 3 items
-- `fillLevel2` = items 4–6
-- `fillLevel3` = items 7–9
+- `fillLevel2` = items 4-6
+- `fillLevel3` = items 7-9
 - StorageRack activates/deactivates fillLevel groups based on current count
 
 **Per-product visual definition:** `StorageFamilySO` specifies which prefab to instantiate for each product type (BagOfPellet, Firewood_Basic, Plank_Spruce, etc.)
 
 **Alignment workflow:**
 1. Position fillLevel transforms in scene to match Blender shelf Y values
-2. Instantiate products as children — they inherit the shelf Y
+2. Instantiate products as children - they inherit the shelf Y
 3. Offset products along X/Z for even spacing within a shelf
 
 ## Why this works
-Pre-positioned transforms as parents guarantee products land at the correct world height. No raycasting, no physics-based placement, no drift. Fully deterministic — same shelf, same position, every time.
+Pre-positioned transforms as parents guarantee products land at the correct world height. No raycasting, no physics-based placement, no drift. Fully deterministic - same shelf, same position, every time.
 
 ## Trade-offs
-- Shelf Y values are hardcoded to match specific model — if model changes, fillLevel transforms must be repositioned
+- Shelf Y values are hardcoded to match specific model - if model changes, fillLevel transforms must be repositioned
 - bake_space_transform bug (see [[bake-space-transform-linked-duplicates-rotation-bug]]): empty node positions may need remapping (X,Y,Z)→(X,Z,-Y) in setup scripts
-- Item spacing (X offset) is manually configured per rack type — no automatic spacing algorithm
+- Item spacing (X offset) is manually configured per rack type - no automatic spacing algorithm
 
 ## Variants
-- **Dynamic slot grid:** calculate slot positions procedurally from rack dimensions + item count — more flexible, more code
-- **Physics-placed:** drop items with gravity, let them settle on shelves — looks great, unpredictable and expensive
+- **Dynamic slot grid:** calculate slot positions procedurally from rack dimensions + item count - more flexible, more code
+- **Physics-placed:** drop items with gravity, let them settle on shelves - looks great, unpredictable and expensive

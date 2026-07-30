@@ -37,7 +37,7 @@ Using `bake_space_transform=True` in FBX export combined with linked duplicates 
 - Coordinate remap when transferring empty positions from Blender to Unity: `(X,Y,Z) → (X,Z,-Y)` + reset rotation to identity before instantiation
 
 ## What didn't work
-Linked duplicates as slot markers — the rotation injection is baked into the mesh data and has no simple in-Unity fix.
+Linked duplicates as slot markers - the rotation injection is baked into the mesh data and has no simple in-Unity fix.
 
 ## Transferability
 Any Blender FBX pipeline that uses linked duplicates for repeated elements (furniture slots, weapon racks, tile grids) will hit this. Workaround applies to any engine receiving the FBX.

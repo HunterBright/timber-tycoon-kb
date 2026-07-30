@@ -1,5 +1,5 @@
 ---
-title: Tripo (organic) vs Blender MCP (geometric) — Pipeline Routing Decision
+title: Tripo (organic) vs Blender MCP (geometric) - Pipeline Routing Decision
 type: decision
 status: draft
 confidence: medium
@@ -16,9 +16,9 @@ source: ''
 suggested-category: workflow/3d-models
 ---
 
-# Tripo (organic) vs Blender MCP (geometric) — Pipeline Routing Decision
+# Tripo (organic) vs Blender MCP (geometric) - Pipeline Routing Decision
 
-> **UPDATED 2026-06-11** — the original two-way routing below predates the adoption of the
+> **UPDATED 2026-06-11** - the original two-way routing below predates the adoption of the
 > **Quaternius Stylized Nature MegaKit (CC0)** as the flora standard. Current three-way routing:
 >
 > - **Flora** (trees for scatter, bushes, grass, rocks-as-decoration) → **Quaternius assets** first.
@@ -28,34 +28,34 @@ suggested-category: workflow/3d-models
 >   (still needs retopo review, see [[tripo-cleanup-pipeline]]).
 > - **Geometric / hard-surface** (machines, vehicles, buildings, racks, furniture, roads) → **Blender MCP**.
 >
-> The shape-classification reasoning below remains valid for the Tripo-vs-Blender split — it just
+> The shape-classification reasoning below remains valid for the Tripo-vs-Blender split - it just
 > applies only AFTER checking whether an asset-pack asset covers the need. Original decision kept
 > as historical context.
 
 ## Context
 
 Two 3D asset generation pipelines are available:
-- **Tripo AI** — text-to-3D, fast, produces organic forms with natural surface variation
-- **Blender MCP** — Python-scripted procedural geometry, precise, deterministic
+- **Tripo AI** - text-to-3D, fast, produces organic forms with natural surface variation
+- **Blender MCP** - Python-scripted procedural geometry, precise, deterministic
 
 Both can theoretically produce any asset, but each has a clear strength profile. Without a routing rule, engineers default to personal preference and waste time fighting the wrong tool.
 
 ## Options Considered
 
-**Option A — Tripo for everything:**
+**Option A - Tripo for everything:**
 Fast iteration, but fails on geometric/architectural assets. Symmetry issues appear unpredictably (see [[tripo-asymmetric-floating-retopo]]). Mechanical parts (machines, vehicles) come out warped or asymmetric, requiring expensive retopo or manual cleanup. Not worth it for geometric shapes.
 
-**Option B — Blender MCP for everything:**
+**Option B - Blender MCP for everything:**
 Precise and reproducible, but hand-scripting organic shapes (bark grain, leaf clusters, irregular rock surfaces) takes days compared to Tripo's minutes. Over-engineers natural variation that Tripo handles automatically.
 
-**Option C — Shape-led routing:**
+**Option C - Shape-led routing:**
 Match the tool to the asset's shape class:
 - **Organic** → Tripo (trees, rocks, characters, irregular props, terrain features)
 - **Geometric** → Blender MCP (machines, vehicles, buildings, racks, furniture)
 
 ## Decision
 
-**Option C — shape-led routing.**
+**Option C - shape-led routing.**
 
 The primary classification question when starting a new asset: *Is this shape primarily organic or primarily geometric?*
 
@@ -65,7 +65,7 @@ The primary classification question when starting a new asset: *Is this shape pr
 
 ## Consequences
 
-- Pipeline branches per asset type — onboarding a new asset starts with shape classification, not tool selection
+- Pipeline branches per asset type - onboarding a new asset starts with shape classification, not tool selection
 - Hybrid assets (wooden barrel = geometric cylinder + organic wood grain) → Blender MCP for base geometry + Tripo-sourced texture or procedural Cycles material for surface detail
 - Tripo output always needs retopo review (see [[tripo-cleanup-pipeline]]) before Unity import
 - Blender MCP output always needs UV unwrap + texture bake before FBX export (see [[procedural-textures-need-bake]])

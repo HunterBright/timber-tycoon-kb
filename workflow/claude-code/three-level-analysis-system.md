@@ -14,7 +14,7 @@ tags:
 applies_to:
 - claude-code-projects
 source: ''
-description: Tasks classified by analysis depth — Level 1 (full analysis + accept, architectural), Level 2 (brief justification + accept, additive), Level 3 (immediate, single-value). Prevents over-thinking simple and under-thinking complex.
+description: Tasks classified by analysis depth - Level 1 (full analysis + accept, architectural), Level 2 (brief justification + accept, additive), Level 3 (immediate, single-value). Prevents over-thinking simple and under-thinking complex.
 severity: medium
 suggested-category: workflow/claude-code
 name: three-level-analysis-system
@@ -24,7 +24,7 @@ name: three-level-analysis-system
 
 ## The three levels
 
-### Level 1 — Full analysis + explicit acceptance required (5-10 min thinking)
+### Level 1 - Full analysis + explicit acceptance required (5-10 min thinking)
 
 **When:**
 - Architectural changes (new manager, new pattern, new system)
@@ -37,10 +37,10 @@ name: three-level-analysis-system
 1. Analysis (problem context, which systems are affected)
 2. 2-3 options with pros/cons
 3. Recommendation with rationale
-4. "Do you accept? Y/N" — **STOP, wait for answer**
+4. "Do you accept? Y/N" - **STOP, wait for answer**
 5. Only implement after explicit "ok / yes / zatwierdzam"
 
-### Level 2 — Brief justification + acceptance (1-2 min, 1-2 sentences)
+### Level 2 - Brief justification + acceptance (1-2 min, 1-2 sentences)
 
 **When:**
 - New feature that follows existing pattern (new tree species, new product type)
@@ -49,10 +49,10 @@ name: three-level-analysis-system
 
 **What Code does:**
 1. One sentence: "I'll use pattern X because it matches how we handle Y"
-2. "Confirm?" — wait for answer
+2. "Confirm?" - wait for answer
 3. Implement after confirmation
 
-### Level 3 — Immediate implementation (no analysis)
+### Level 3 - Immediate implementation (no analysis)
 
 **When:**
 - Single value change in existing ScriptableObject

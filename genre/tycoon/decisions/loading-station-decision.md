@@ -1,5 +1,5 @@
 ---
-title: LoadingStation Decision — Manual Walk Early, Station Late
+title: LoadingStation Decision - Manual Walk Early, Station Late
 type: decision
 status: draft
 confidence: medium
@@ -14,13 +14,13 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: Loading crate — walk to each rack manually early game (engagement), centralized LoadingStation as lvl 8 upgrade (QoL reward). Manual walk is gameplay; convenience is earned.
+description: Loading crate - walk to each rack manually early game (engagement), centralized LoadingStation as lvl 8 upgrade (QoL reward). Manual walk is gameplay; convenience is earned.
 severity: medium
 suggested-category: genre/tycoon/decisions
 name: loading-station-vs-walking-decision
 ---
 
-# LoadingStation Decision — Manual Walk Early, Station Late
+# LoadingStation Decision - Manual Walk Early, Station Late
 
 ## Decision
 
@@ -37,7 +37,7 @@ name: loading-station-vs-walking-decision
 
 **Option A alone fails long-term:** Late game with 50+ products to load = 50 walks = tedious. Core loop becomes friction, not fun.
 
-**Option B alone skips engagement:** If LoadingStation exists from day 1, the player never navigates the sawmill. Loses "sense of place" — walking past your machines and racks is part of feeling like an owner.
+**Option B alone skips engagement:** If LoadingStation exists from day 1, the player never navigates the sawmill. Loses "sense of place" - walking past your machines and racks is part of feeling like an owner.
 
 **Staged solution gives best of both worlds:**
 - Early game: manual walking is intentional. Player learns the layout, sees each rack, understands capacity.
@@ -67,6 +67,6 @@ public class LoadingStation : MonoBehaviour, IInteractable {
 
 ## Lesson
 
-Quality-of-life upgrades are most valued when the player has experienced the friction they eliminate. Don't remove friction too early — let the player feel it, then reward them for progressing past it.
+Quality-of-life upgrades are most valued when the player has experienced the friction they eliminate. Don't remove friction too early - let the player feel it, then reward them for progressing past it.
 
 See also: [[crate-manager-tier-progression]], [[storage-activation-gating-upgrade]]

@@ -19,7 +19,7 @@ suggested-category: engine/patterns
 # GameStateMachine Pattern
 
 ## When to use
-Any game with more than one screen/mode (menu, gameplay, pause, cutscene). Without explicit state, input bleeds across states — pause menu lets player move, cutscenes get interrupted.
+Any game with more than one screen/mode (menu, gameplay, pause, cutscene). Without explicit state, input bleeds across states - pause menu lets player move, cutscenes get interrupted.
 
 ## Steps
 
@@ -39,7 +39,7 @@ void OnStateEnter(GameState newState) {
             // show pause UI
             break;
         case GameState.Cutscene:
-            // disable player input — handled by input gate
+            // disable player input - handled by input gate
             break;
         case GameState.Playing:
             Time.timeScale = 1f;
@@ -65,13 +65,13 @@ if (!playerController.canMove) return;
 **ISaveable:** persist current state for crash recovery on next launch.
 
 **States used in Timber Tycoon:**
-- `Boot` — initial load, dependency init
-- `Splash` — logo screen
-- `MainMenu` — main menu
-- `Loading` — async scene load
-- `Playing` — full gameplay
-- `Paused` — pause menu open, `Time.timeScale = 0`
-- `Cutscene` — scripted sequences, player input blocked
+- `Boot` - initial load, dependency init
+- `Splash` - logo screen
+- `MainMenu` - main menu
+- `Loading` - async scene load
+- `Playing` - full gameplay
+- `Paused` - pause menu open, `Time.timeScale = 0`
+- `Cutscene` - scripted sequences, player input blocked
 
 ## Why this works
 State as a single shared enum means every system can check the same source of truth. `Time.timeScale = 0` at Paused stops all Update loops automatically, no manual "if paused, skip" needed.

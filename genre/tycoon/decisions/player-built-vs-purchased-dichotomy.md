@@ -56,7 +56,7 @@ All follow [[building-progression-instant-spawn]] pattern.
 
 One = manageable. Five = a crafting game (not what TT is).
 
-**Design argument:** The tutorial repair moment is powerful precisely because it's unique. If every upgrade required manual labor, the tycoon feel disappears — the game becomes work.
+**Design argument:** The tutorial repair moment is powerful precisely because it's unique. If every upgrade required manual labor, the tycoon feel disappears - the game becomes work.
 
 ## Future projects
 

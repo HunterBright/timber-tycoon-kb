@@ -36,7 +36,7 @@ name: planting-spot-universal-not-typed
 ## Why universal wins
 
 **Typed spots (rejected):**
-- "Realistic" — a spruce stump can only grow a spruce back
+- "Realistic" - a spruce stump can only grow a spruce back
 - But: forces player to carry specific sapling types to specific spots
 - Consequence: player spends time matching saplings to spots instead of playing the tycoon loop
 - Worse: if player only has Birch saplings but only Spruce stumps are available, progression is blocked
@@ -50,13 +50,13 @@ name: planting-spot-universal-not-typed
 ## Implementation
 
 ```csharp
-// PlantingSpot — no species field
+// PlantingSpot - no species field
 public class PlantingSpot : MonoBehaviour {
     // treeTypeData is NOT stored here
 
     public void PlantSapling(PickupSapling sapling) {
         var growingTreePrefab = sapling.treeTypeData.growingTreePrefab;
-        // Instantiate at this spot position — sapling type determines what grows
+        // Instantiate at this spot position - sapling type determines what grows
     }
 }
 ```

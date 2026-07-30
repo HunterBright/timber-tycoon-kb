@@ -26,7 +26,7 @@ Any system where multiple producers (machines, pickup zones) output items that n
 
 **Caller code (machine output):**
 ```csharp
-// PlankMaker finishes — just announces what was made:
+// PlankMaker finishes - just announces what was made:
 int overflow = StorageManager.Instance.AddToStorage(ProductType.Plank, 4);
 if (overflow > 0) Debug.Log($"{overflow} planks couldn't be stored (rack full)");
 ```
@@ -65,16 +65,16 @@ public static StorageFamily GetFamily(ProductType t) => t switch {
 2. Add mapping in `StorageFamilyMapping`
 3. Add `StorageFamily.NewRack` if needed
 4. Place rack in scene with matching family
-5. Done — producers already work
+5. Done - producers already work
 
 **ProductType enum (TT):** Log, Stump, Firewood, WoodChips, Plank, Bark, Pellet, Fertilizer, Furniture
 
 ## Why this works
-Router is a single indirection layer between producers and storage. Producers only need to know their ProductType — routing is not their concern. Adding a new rack type = data change, not a code change across all producers.
+Router is a single indirection layer between producers and storage. Producers only need to know their ProductType - routing is not their concern. Adding a new rack type = data change, not a code change across all producers.
 
 ## Trade-offs
-- ProductType → StorageFamily mapping: if two ProductTypes share a rack family, both go to the same rack (may or may not be intended — check at design time)
+- ProductType → StorageFamily mapping: if two ProductTypes share a rack family, both go to the same rack (may or may not be intended - check at design time)
 - Overflow return value: callers should log or notify player when items can't be stored. Silently dropping overflow = invisible data loss
-- Multiple racks per family (overflow routing): extends to `List<StorageRack>` per family — try first until capacity found
+- Multiple racks per family (overflow routing): extends to `List<StorageRack>` per family - try first until capacity found
 
 See also: [[storage-rack-registry-auto-register]], [[dictionary-warehouse-registry]], [[storage-rack-family-system]]

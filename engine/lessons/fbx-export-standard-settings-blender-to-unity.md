@@ -1,9 +1,9 @@
 ---
 title: FBX Export Standard Settings (Blender → Unity)
 type: lesson
-status: draft
+status: needs-reproduction
 confidence: medium
-verified: ''
+verified: '2026-07-30'
 date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -15,19 +15,29 @@ tags:
 applies_to:
 - unity-projects
 - blender-pipelines
-source: ''
+source: zweryfikowane reprodukcja i dokumentacja 2026-07-30, patrz AUDYT-SPORNYCH-WPISOW
 severity: medium
 suggested-category: engine/lessons
 time_lost: ''
+audit_verdict: DO SPRAWDZENIA
 ---
 
 # FBX Export Standard Settings (Blender → Unity)
+
+> [!warning] Ten wpis zostal zweryfikowany 2026-07-30 i werdykt brzmi: **DO SPRAWDZENIA**
+>
+> To nie jest uniwersalny standard, tylko **wersjonowany preset TEGO projektu** dla tej pary Blender-Unity.
+> Przy zmianie wersji trzeba przetestowac go od nowa.
+>
+> Pelne uzasadnienie, dowody i proponowane poprawki: [[AUDYT-SPORNYCH-WPISOW]].
+> Tresc ponizej NIE zostala jeszcze przepisana - czytaj ja z ta uwaga.
+
 
 ## Problem
 Without a fixed FBX export configuration, assets arrive in Unity with wrong scale, incorrect rotation, or broken normals. "Why is my asset 100× too small?" and "why is it inside-out?" are the recurring symptoms.
 
 ## Root cause
-Blender and Unity use different coordinate systems and unit conventions. FBX export settings control how the axis/scale conversion is applied — wrong settings produce wrong output.
+Blender and Unity use different coordinate systems and unit conventions. FBX export settings control how the axis/scale conversion is applied - wrong settings produce wrong output.
 
 ## Solution
 Standard FBX export settings that eliminate scale/rotation/unit bugs:
@@ -47,7 +57,7 @@ Apply transforms before export: Ctrl+A → All Transforms in Blender Object Mode
 
 Unity Import Settings:
 - Scale Factor = 1
-- **Convert Units: OFF** (critical — do not double-convert)
+- **Convert Units: OFF** (critical - do not double-convert)
 - Bake Axis Conversion: ON
 
 Validation: if Unity shows Scale 100 → export settings wrong. If mesh invisible → normals flipped (recalculate outside in Blender).

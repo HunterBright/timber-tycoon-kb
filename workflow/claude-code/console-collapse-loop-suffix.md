@@ -15,7 +15,7 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: Unity Console Collapse mode merges identical log strings. In loops, add unique [#{i}] suffix per iteration — all logs visible even with Collapse ON.
+description: Unity Console Collapse mode merges identical log strings. In loops, add unique [#{i}] suffix per iteration - all logs visible even with Collapse ON.
 severity: high
 suggested-category: workflow/claude-code
 name: console-collapse-loop-suffix
@@ -25,21 +25,21 @@ name: console-collapse-loop-suffix
 
 ## What happened
 
-Unity Console "Collapse" mode (default ON) merges logs that have identical string content. A loop printing 10 log entries shows as a single entry with "×10" counter — the actual per-iteration data is invisible.
+Unity Console "Collapse" mode (default ON) merges logs that have identical string content. A loop printing 10 log entries shows as a single entry with "×10" counter - the actual per-iteration data is invisible.
 
-Symptom: "Why is my loop only processing item 3?" — it isn't. Console is hiding the other 9.
+Symptom: "Why is my loop only processing item 3?" - it isn't. Console is hiding the other 9.
 
 ## Fix
 
 Include a unique suffix in every loop log:
 
 ```csharp
-// WRONG — Collapse merges all of these into one entry
+// WRONG - Collapse merges all of these into one entry
 for (int i = 0; i < items.Count; i++) {
     Debug.Log($"Processing {items[i].name}"); // all merge as "Processing item"
 }
 
-// CORRECT — each log is unique, all visible
+// CORRECT - each log is unique, all visible
 for (int i = 0; i < items.Count; i++) {
     Debug.Log($"[#{i}] Processing {items[i].name}");
 }
@@ -61,7 +61,7 @@ foreach (var item in items) {
 
 ## Alternative
 
-Turn off Collapse in Console toolbar (small icon, 4th from left). Works but easy to forget to turn back on — then truly identical errors stop being grouped, which IS useful.
+Turn off Collapse in Console toolbar (small icon, 4th from left). Works but easy to forget to turn back on - then truly identical errors stop being grouped, which IS useful.
 
 Convention is better: unique suffix is self-documenting, works regardless of Console mode.
 

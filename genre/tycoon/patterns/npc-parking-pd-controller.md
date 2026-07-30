@@ -25,7 +25,7 @@ NPC vehicles that need to maneuver into specific parking slots, including back-i
 
 ## Steps
 
-**PD controller — applies force/torque toward slot target:**
+**PD controller - applies force/torque toward slot target:**
 ```csharp
 public class NPCParkingPDController : MonoBehaviour {
     [SerializeField] Transform slotTarget;
@@ -64,8 +64,8 @@ public class NPCParkingPDController : MonoBehaviour {
 ```
 
 **Constants (tuned by trial for TT NPCPickup01):**
-- `Kct = 5` — correction gain: higher = snappier turn, too high = oscillation
-- `Kd = 0.4` — damping: prevents overshoot
+- `Kct = 5` - correction gain: higher = snappier turn, too high = oscillation
+- `Kd = 0.4` - damping: prevents overshoot
 - `invertSlotForward = true` for back-in slots (NPC reverses into slot)
 
 **Forward axis fix:** NPC vehicle's "forward" = `-transform.right` (FBX export quirk, see [[forward-axis-blender-fbx-quirk]]). Compensate in PD controller by using `-transform.right` as the vehicle's heading vector.
@@ -73,15 +73,15 @@ public class NPCParkingPDController : MonoBehaviour {
 **Stop → kinematic:** once parked, `isKinematic = true` snaps vehicle to exact slot position/rotation, stops physics simulation. Prevents post-park drift.
 
 ## Why this works
-PD controller handles any starting approach angle — no "follow a script" sequence needed. The derivative term prevents oscillation (car swinging side to side). Kinematic snap on finish ensures visual precision.
+PD controller handles any starting approach angle - no "follow a script" sequence needed. The derivative term prevents oscillation (car swinging side to side). Kinematic snap on finish ensures visual precision.
 
 ## Trade-offs
-- Constants tuned per vehicle type — NPCPickup01 constants won't work for a large truck (different mass/wheelbase). Per-vehicle `PDConfig` SO recommended
+- Constants tuned per vehicle type - NPCPickup01 constants won't work for a large truck (different mass/wheelbase). Per-vehicle `PDConfig` SO recommended
 - Angular error near ±180° can cause wrap-around torque: add `angErr = Mathf.Clamp(angErr, -90, 90)` for safety
-- Multiple vehicles parking simultaneously: each has independent PD, no inter-vehicle awareness — they may clip if two slots are close
+- Multiple vehicles parking simultaneously: each has independent PD, no inter-vehicle awareness - they may clip if two slots are close
 
 ## Variants
-- **Pure kinematic waypoint parking:** no physics, just lerp from "approach point" → "parked position" — simpler, less realistic
+- **Pure kinematic waypoint parking:** no physics, just lerp from "approach point" → "parked position" - simpler, less realistic
 - **Ackermann steering:** model turning radius accurately for realistic parking sequences
 
 See also: [[forward-axis-blender-fbx-quirk]], [[pipeline-style-npc-spawn]], [[reverse-parking-entry-stub-orientation]]

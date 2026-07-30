@@ -1,5 +1,5 @@
 ---
-title: Tool Tier Replacement — NOT Multiple Tiers in Inventory
+title: Tool Tier Replacement - NOT Multiple Tiers in Inventory
 type: decision
 status: draft
 confidence: medium
@@ -21,7 +21,7 @@ suggested-category: genre/tycoon/decisions
 name: tool-tier-replacement-decision
 ---
 
-# Tool Tier Replacement — NOT Multiple Tiers in Inventory
+# Tool Tier Replacement - NOT Multiple Tiers in Inventory
 
 ## Decision
 
@@ -38,13 +38,13 @@ name: tool-tier-replacement-decision
 
 Keeping multiple tiers introduces:
 1. **Inventory bloat**: toolwheel grows with each upgrade
-2. **Decision fatigue**: "which axe for this tree?" — player overthinks, loses flow
-3. **Unclear upgrade value**: T1 still works after buying T2 — was the upgrade worth it?
+2. **Decision fatigue**: "which axe for this tree?" - player overthinks, loses flow
+3. **Unclear upgrade value**: T1 still works after buying T2 - was the upgrade worth it?
 4. **Save complexity**: must track all tier ownership per tool type
 
 Replacement gives:
 - Clear progression arc: "I have a better axe now"
-- Upgrade feels **irrevocable** — commitment signals value
+- Upgrade feels **irrevocable** - commitment signals value
 - Tycoon philosophy: always moving forward, no backsliding
 
 ## Implementation notes

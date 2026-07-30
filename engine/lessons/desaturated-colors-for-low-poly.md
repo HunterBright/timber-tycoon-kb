@@ -24,7 +24,7 @@ time_lost: ''
 # Desaturated Colors for Low-Poly Aesthetic
 
 ## Problem
-First instinct for low-poly is saturated, bright colors (think mobile game assets). The result looks cheap — players say "it feels unpolished" without being able to articulate why. The palette is the problem.
+First instinct for low-poly is saturated, bright colors (think mobile game assets). The result looks cheap - players say "it feels unpolished" without being able to articulate why. The palette is the problem.
 
 ## Root cause
 Saturated low-poly = "mobile shovelware" visual language. Desaturated, slightly muted palette = "premium indie" (Slime Rancher, Townscaper, A Short Hike). The difference is entirely in the palette choices.
@@ -38,7 +38,7 @@ Use desaturated, slightly cool-toned palettes:
 - Always test in-context: Play Mode at player eye height, NOT Scene View flyover
 
 ## What didn't work
-High-saturation palette — looks cheap at player eye level even if it looks fine in the aerial editor view.
+High-saturation palette - looks cheap at player eye level even if it looks fine in the aerial editor view.
 
 ## Transferability
 Applies to any stylized low-poly game targeting "cozy/premium indie" aesthetic. The desaturation principle holds for isometric builders, walking sims, farming games, and open-world explorers.

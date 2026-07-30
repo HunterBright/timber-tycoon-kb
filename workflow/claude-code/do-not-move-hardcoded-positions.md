@@ -16,7 +16,7 @@ applies_to:
 - unity-projects
 - claude-code-projects
 source: ''
-description: Scene objects with designer-tuned positions get // DO NOT MOVE comment. Code agents must respect this — never auto-adjust marked positions. Applied to cliff, waterfall, sawmill, bridge.
+description: Scene objects with designer-tuned positions get // DO NOT MOVE comment. Code agents must respect this - never auto-adjust marked positions. Applied to cliff, waterfall, sawmill, bridge.
 severity: medium
 suggested-category: workflow/claude-code
 name: do-not-move-hardcoded-positions
@@ -29,10 +29,10 @@ name: do-not-move-hardcoded-positions
 Scene objects positioned by a designer get a `// DO NOT MOVE` comment wherever their position is hardcoded in setup scripts.
 
 ```csharp
-// DO NOT MOVE — manually positioned by Hunter, visual composition locked
+// DO NOT MOVE - manually positioned by Hunter, visual composition locked
 Cliff_Waterfall.transform.position = new Vector3(184.5f, 7.2f, -82.3f);
 
-// DO NOT MOVE — tartak position locked (all machine positions relative to this)
+// DO NOT MOVE - tartak position locked (all machine positions relative to this)
 Sawmill.transform.position = new Vector3(177.9f, 7.62f, -88.71f);
 ```
 
@@ -44,7 +44,7 @@ Objects marked DO NOT MOVE:
 - Bridge
 - River cave entrance
 - Individual mountain positions (inner ring)
-- Sawmill (177.9, 7.62, -88.71) — all machine layout depends on this
+- Sawmill (177.9, 7.62, -88.71) - all machine layout depends on this
 - Ramp/unload zone
 
 Objects NOT marked (Code/Coplay can adjust):
@@ -60,7 +60,7 @@ Objects NOT marked (Code/Coplay can adjust):
 
 ## Why hardcoded, not data-driven
 
-These objects were positioned by eye — the exact float coordinates are the design. The heightmap can't represent cliff position (terrain is flat under the cliff — it's a separate mesh floating). Each position was manually tuned for visual composition and gameplay layout. "Better" is not calculable.
+These objects were positioned by eye - the exact float coordinates are the design. The heightmap can't represent cliff position (terrain is flat under the cliff - it's a separate mesh floating). Each position was manually tuned for visual composition and gameplay layout. "Better" is not calculable.
 
 ## Common failure mode
 

@@ -44,19 +44,19 @@ Their `Cast Shadows = Off` fix was valid hygiene, not the cause of the band.
 `Cast Shadows = Off` on the terrain renderer (+ backdrop mountains as hygiene). The terrain still
 RECEIVES shadows normally; its own cast shadows on gentle low-poly relief were imperceptible.
 (Alternatives if terrain shadows are needed: raise depth/normal bias, raise the co-planar layer,
-or shrink shadow distance — all with worse trade-offs.)
+or shrink shadow distance - all with worse trade-offs.)
 
 ## Two transferable diagnostic lessons
 1. **Editor-view captures are NOT ground truth for shadow bugs.** A Scene-View A/B capture test
-   confidently pointed at the distant mountain casters. The Game view told a different story —
+   confidently pointed at the distant mountain casters. The Game view told a different story -
    see [[scene-view-ab-false-positive-game-view-ground-truth]]. Also: offscreen RenderTexture
-   renders in Edit Mode showed NO realtime shadows at all — dead end.
+   renders in Edit Mode showed NO realtime shadows at all - dead end.
 2. **The decisive tool was a runtime group-toggle harness**: an editor-only, self-bootstrapping
-   MonoBehaviour (RuntimeInitializeOnLoadMethod inside #if UNITY_EDITOR — scene file untouched,
+   MonoBehaviour (RuntimeInitializeOnLoadMethod inside #if UNITY_EDITOR - scene file untouched,
    nothing persists) with hotkeys toggling Cast Shadows per renderer group (terrain / roads /
    trees / props / EVERYTHING-except-player as the null test) + an overlay showing states and live
    sun elevation. The user plays, presses keys at the bug spot, and the culprit group is found in
-   minutes — with the sun elevation recorded for the report.
+   minutes - with the sun elevation recorded for the report.
 
 ## Rule of thumb
 When stacking a mesh a few centimeters above another (roads, decals-as-geometry, rugs, paths):

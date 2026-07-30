@@ -1,5 +1,5 @@
 ---
-title: Sales Flow Decision — Hybrid D (Player + NPC Side by Side)
+title: Sales Flow Decision - Hybrid D (Player + NPC Side by Side)
 type: decision
 status: draft
 confidence: medium
@@ -14,25 +14,25 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: Sales flow decision — 4 options (player-only, auto-NPC, mixed, hybrid) analyzed, chose D hybrid. Player + NPC worker serve queue simultaneously. Foundational for all worker design.
+description: Sales flow decision - 4 options (player-only, auto-NPC, mixed, hybrid) analyzed, chose D hybrid. Player + NPC worker serve queue simultaneously. Foundational for all worker design.
 severity: medium
 suggested-category: genre/tycoon/decisions
 name: sales-flow-decision-hybrid-d
 ---
 
-# Sales Flow Decision — Hybrid D (Player + NPC Side by Side)
+# Sales Flow Decision - Hybrid D (Player + NPC Side by Side)
 
 ## Decision
 
-**Chosen:** Option D — Hybrid. Player AND NPC worker both serve the customer queue simultaneously.
+**Chosen:** Option D - Hybrid. Player AND NPC worker both serve the customer queue simultaneously.
 
 ## Options considered
 
 | Option | Description | Verdict |
 |--------|-------------|---------|
-| A | Player serves all customers | REJECTED — overwhelmed late game |
-| B | NPC worker handles everything | REJECTED — player goes AFK |
-| C | Player chooses per order: manual or auto | REJECTED — decision fatigue |
+| A | Player serves all customers | REJECTED - overwhelmed late game |
+| B | NPC worker handles everything | REJECTED - player goes AFK |
+| C | Player chooses per order: manual or auto | REJECTED - decision fatigue |
 | D | Both active simultaneously | SELECTED |
 
 ## Why D wins
@@ -41,7 +41,7 @@ name: sales-flow-decision-hybrid-d
 
 **Option B** removes the core loop: if an NPC handles everything, the player is just watching a screensaver.
 
-**Option C** introduces meta-decisions per order: "should I do this one myself or let the NPC?" — adds friction to the core loop.
+**Option C** introduces meta-decisions per order: "should I do this one myself or let the NPC?" - adds friction to the core loop.
 
 **Option D** gives players ongoing agency while letting workers handle overflow:
 - Player advantages: sprint speed, higher carry capacity (8 vs 3 items), no storage delay (see [[order-fulfiller-interface]])

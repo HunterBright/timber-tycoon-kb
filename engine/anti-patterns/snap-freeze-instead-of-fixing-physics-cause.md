@@ -28,7 +28,7 @@ An object jitters, sinks, or won't rest. The "quick fix" is: after a delay, set 
 ## Why It Bites
 Each manual override fights the physics engine and assumes a pose the engine never produced:
 - A single-point ground raycast snaps a long object's pivot, burying one end and floating the other on sloped/uneven terrain.
-- Zeroing tilt assumes the mesh's neutral pose is "lying flat" — often it is the modelled-upright pose, so the object stands up.
+- Zeroing tilt assumes the mesh's neutral pose is "lying flat" - often it is the modelled-upright pose, so the object stands up.
 - Freezing mid-motion locks in whatever chaotic pose the timer happened to catch.
 Every override is a new assumption that fails on the next case. The real cause (spawn overlap, wrong collider, missing sleep registration) stays unfixed underneath.
 

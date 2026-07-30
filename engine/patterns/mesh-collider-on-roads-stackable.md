@@ -57,12 +57,12 @@ if (Physics.Raycast(editorRay, out hit, Mathf.Infinity, roadPlacementMask))
 MeshCollider makes roads part of the raycast-able physics scene. Waypoint tool raycasts into this scene to find hit positions. Stack N roads = each layer is discoverable by the next.
 
 ## Trade-offs
-- `MeshCollider.convex = false` on road meshes: non-convex colliders can't participate in dynamic Rigidbody collision — acceptable, roads are static
+- `MeshCollider.convex = false` on road meshes: non-convex colliders can't participate in dynamic Rigidbody collision - acceptable, roads are static
 - Performance: MeshCollider cooking (baking collision mesh) takes time on mesh changes. For procedural tools, cook once after generation is complete
-- Convex mesh limit: each MeshCollider must be convex if set to convex=true. Roads with many waypoints are never convex — keep `convex = false`
+- Convex mesh limit: each MeshCollider must be convex if set to convex=true. Roads with many waypoints are never convex - keep `convex = false`
 
 ## Variants
 - **Terrain collider only**: skip road MeshColliders, just elevate waypoints manually. Simpler but no stacking support
-- **NavMesh baking**: roads naturally become part of NavMesh walkable area when they have MeshColliders + correct layer — NPC pathfinding bonus
+- **NavMesh baking**: roads naturally become part of NavMesh walkable area when they have MeshColliders + correct layer - NPC pathfinding bonus
 
 See also: [[catmull-rom-spline-road-mesh]], [[flatten-terrain-under-road]]

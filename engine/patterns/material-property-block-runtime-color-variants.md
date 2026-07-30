@@ -31,9 +31,9 @@ bodyRenderer.SetPropertyBlock(mpb);
 ```
 
 Important caveats:
-- MPB doesn't survive scene reload — re-apply in `Start()` / on spawn
+- MPB doesn't survive scene reload - re-apply in `Start()` / on spawn
 - For save/load: persist the color as a `Color` field in ISaveable, re-apply from saved data on load
-- Separate body renderer (`Mat_Body`) from trim/glass/wheels — only body color varies, reducing MPB calls
+- Separate body renderer (`Mat_Body`) from trim/glass/wheels - only body color varies, reducing MPB calls
 
 Convention in TT: `CarVariantData SO` stores 8 body colors, assigned randomly at spawn via MPB.
 

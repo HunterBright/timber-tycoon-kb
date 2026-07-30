@@ -14,7 +14,7 @@ tags:
 applies_to:
 - claude-code-projects
 source: ''
-description: Hunter's standard prompt format — wrapped in 4 backticks, starts with
+description: Hunter's standard prompt format - wrapped in 4 backticks, starts with
 severity: high
 suggested-category: workflow/claude-code
 name: quad-backtick-claude-code-prompt-format
@@ -50,7 +50,7 @@ Hunter **never** puts `/clear` in the same block as the task. They are submitted
 
 First message:
 ```
-/clear: TAK — fresh start, new topic
+/clear: TAK - fresh start, new topic
 ```
 
 Second message (the actual task, in quad-backtick format):

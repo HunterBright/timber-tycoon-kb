@@ -44,10 +44,10 @@ Model attention spreads across the entire context window. When context is full, 
 
 ## Mitigation strategy
 
-1. **Short sessions** per `/clear` cycle — single focused task per context
+1. **Short sessions** per `/clear` cycle - single focused task per context
 2. **Write findings to disk** before reaching the threshold (use checkpoint files)
-3. **Front-load critical info** — put the most important constraints at TOP of prompt, not buried in the middle
-4. **Recognize early** — "Code is being weirdly bad today" = usually context, not a model issue
+3. **Front-load critical info** - put the most important constraints at TOP of prompt, not buried in the middle
+4. **Recognize early** - "Code is being weirdly bad today" = usually context, not a model issue
 
 ## Common misdiagnosis
 

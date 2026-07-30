@@ -54,10 +54,10 @@ public void RefreshVisuals(int currentAmount) {
 - On Remove() from rack
 - On load (saved `currentAmount` → immediate refresh in Start)
 
-**Design note:** Players won't count. "Looks full" and "looks half-empty" are the only states that matter visually. Ratio precision is irrelevant — visual impression is the goal.
+**Design note:** Players won't count. "Looks full" and "looks half-empty" are the only states that matter visually. Ratio precision is irrelevant - visual impression is the goal.
 
 ## Why this works
-`FloorToInt(currentAmount / ratio)` is O(1). No loop over inventory, no mesh generation. Slot activation (`SetActive`) is cheap. 10:1 ratio for logs means a rack of 60 logs shows 6 visual stacks — full-looking without 60 log meshes.
+`FloorToInt(currentAmount / ratio)` is O(1). No loop over inventory, no mesh generation. Slot activation (`SetActive`) is cheap. 10:1 ratio for logs means a rack of 60 logs shows 6 visual stacks - full-looking without 60 log meshes.
 
 ## Trade-offs
 - Imprecise: 1-9 logs looks identical to 0 logs (no visual slots active). Add a "not empty" indicator (single log visible from 1+) if player needs to distinguish empty from "barely any".

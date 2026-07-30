@@ -1,9 +1,9 @@
 ---
 title: 'Skill Loading: @Reference vs On-Demand'
 type: lesson
-status: draft
-confidence: medium
-verified: ''
+status: needs-reproduction
+confidence: low
+verified: '2026-07-30'
 date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -13,14 +13,24 @@ tags:
 - on-demand
 applies_to:
 - claude-code-projects
-source: ''
+source: zweryfikowane reprodukcja i dokumentacja 2026-07-30, patrz AUDYT-SPORNYCH-WPISOW
 description: Skills via @reference (loaded immediately, costs context upfront) vs on-demand (Code searches when relevant, saves context budget). Use @ for small/always-needed, on-demand for large/episodic.
 severity: medium
 suggested-category: workflow/mcp-tools
 name: skill-loading-on-demand-vs-reference
+audit_verdict: DO SPRAWDZENIA
 ---
 
 # Skill Loading: @Reference vs On-Demand
+
+> [!warning] Ten wpis zostal zweryfikowany 2026-07-30 i werdykt brzmi: **DO SPRAWDZENIA**
+>
+> Podane w tym wpisie procenty zuzycia kontekstu to lokalny pomiar sprzed miesiecy, nie wlasciwosc produktu.
+> Nie opieraj na nich decyzji.
+>
+> Pelne uzasadnienie, dowody i proponowane poprawki: [[AUDYT-SPORNYCH-WPISOW]].
+> Tresc ponizej NIE zostala jeszcze przepisana - czytaj ja z ta uwaga.
+
 
 ## Two loading strategies
 
@@ -33,15 +43,15 @@ name: skill-loading-on-demand-vs-reference
 
 ### Use `@` (immediate) for:
 - Skills **definitely** needed in current session (active development on that domain)
-- **Small** skills (< 200 lines) — cheap to load
+- **Small** skills (< 200 lines) - cheap to load
 - Skills Code forgets it should read (e.g., project conventions it might miss)
 
 Examples in TT: `@unity-conventions` always loaded (small, always relevant to any Unity work)
 
 ### Use on-demand for:
-- **Large** skills (> 300 lines) — expensive to load if not used
+- **Large** skills (> 300 lines) - expensive to load if not used
 - Skills with **episodic** relevance (needed only when working on Blender, or only for map work)
-- **Multi-skill scenarios** where several skills might be needed — load only what's actually relevant
+- **Multi-skill scenarios** where several skills might be needed - load only what's actually relevant
 
 Examples in TT: `@blender-export` on-demand (large, only needed during model pipeline work); `@map-environment` on-demand (only when doing terrain work)
 

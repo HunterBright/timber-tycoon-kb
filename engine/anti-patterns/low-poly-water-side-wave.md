@@ -20,10 +20,10 @@ suggested-category: engine/anti-patterns
 # ANTI-PATTERN: sin(X) + sin(Z) Water Shader = Side Waves
 
 ## The trap
-The intuitive first-pass water shader applies sinusoidal vertex displacement equally on X and Z axes. This seems correct — water should move. But the result looks wrong: the river "wobbles" perpendicular to its flow direction, like a trapped pond, not a flowing river.
+The intuitive first-pass water shader applies sinusoidal vertex displacement equally on X and Z axes. This seems correct - water should move. But the result looks wrong: the river "wobbles" perpendicular to its flow direction, like a trapped pond, not a flowing river.
 
 ## Why it fails
-`displacement = sin(time + X*freq) + sin(time + Z*freq)` is symmetric in X/Z — it moves the water equally in all horizontal directions. A flowing river should have strong displacement along its flow axis and minimal displacement across it.
+`displacement = sin(time + X*freq) + sin(time + Z*freq)` is symmetric in X/Z - it moves the water equally in all horizontal directions. A flowing river should have strong displacement along its flow axis and minimal displacement across it.
 
 ## Symptoms
 - River surface oscillates sideways toward the banks

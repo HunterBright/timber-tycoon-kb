@@ -25,18 +25,18 @@ Any ISaveable component that depends on other components or services being ready
 
 ## Steps
 1. Move ALL dependency wiring to `Awake`:
-   - `Services.Register<T>(this)` — register in ServiceLocator
+   - `Services.Register<T>(this)` - register in ServiceLocator
    - sibling component caching (`rb = GetComponent<Rigidbody>()`)
    - prefab reference caching
 2. Leave `Start()` for game logic that runs after scene is fully loaded
-3. SaveManager.Start iterates all ISaveables and calls `LoadSaveData` — by this time, all Awakes have run
+3. SaveManager.Start iterates all ISaveables and calls `LoadSaveData` - by this time, all Awakes have run
 
 Lifecycle order:
 ```
 Awake (ALL instances) → OnEnable → Start (ALL instances) → first Update
 ```
 
-SaveManager.Start fires during the Start phase — after all Awakes, but Start order is undefined between objects.
+SaveManager.Start fires during the Start phase - after all Awakes, but Start order is undefined between objects.
 
 ## Why this works
 `Awake` is called before `Start` for ALL instances in the scene. By wiring dependencies in `Awake`, you guarantee that when SaveManager's `Start` dispatches `LoadSaveData`, your component is fully initialized and ready to receive restored state.

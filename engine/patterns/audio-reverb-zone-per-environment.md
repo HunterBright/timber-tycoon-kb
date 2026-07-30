@@ -57,9 +57,9 @@ Any game where the player moves between acoustically distinct spaces (building i
 AudioReverbZone is Unity built-in, zero code needed. Listener location determines reverb automatically. Overlap = automatic smooth blending between zones at no extra cost.
 
 ## Trade-offs
-- Up to 4 `AudioReverbZone` components can affect the listener simultaneously — don't place too many overlapping
-- Presets are approximate — tune Min/Max Distance so that zones don't bleed into inappropriate spaces
-- Doesn't work well with 2D audio (UI, music) — those bypass spatial processing anyway
+- Up to 4 `AudioReverbZone` components can affect the listener simultaneously - don't place too many overlapping
+- Presets are approximate - tune Min/Max Distance so that zones don't bleed into inappropriate spaces
+- Doesn't work well with 2D audio (UI, music) - those bypass spatial processing anyway
 
 ## Variants
 - **Script-driven reverb snapshots**: trigger custom reverb presets from `AmbientZoneSO` (more control, more code)

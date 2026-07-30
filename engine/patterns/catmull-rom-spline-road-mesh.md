@@ -55,9 +55,9 @@ Vector3 CatmullRom(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t) {
 | Forest path | Dark earth (0.38, 0.32, 0.22) |
 | Sidewalk | Light concrete (0.78, 0.75, 0.70) |
 
-**Perlin noise variation:** per-vertex `color + Mathf.PerlinNoise(x * freq, z * freq) * amplitude` — organic color variation, subtle (amplitude ~0.05).
+**Perlin noise variation:** per-vertex `color + Mathf.PerlinNoise(x * freq, z * freq) * amplitude` - organic color variation, subtle (amplitude ~0.05).
 
-**Shader:** `Custom/LowPolyVertexColor` — same as terrain.
+**Shader:** `Custom/LowPolyVertexColor` - same as terrain.
 
 **5 road types in TT**, each with preset color + `defaultWidth` field in `RoadTypeSO`.
 
@@ -65,7 +65,7 @@ Vector3 CatmullRom(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t) {
 Catmull-Rom produces smooth curves through all control points, not just toward them (unlike Bezier). Quad strip mesh is trivially generated from the spline. Designers iterate in seconds: move a waypoint, press Generate, road updates.
 
 ## Trade-offs
-- Spline resolution vs. polygon count: `splineResolution = 10` between waypoints means a 100-waypoint road = 1000 quads = 4000 verts — acceptable
+- Spline resolution vs. polygon count: `splineResolution = 10` between waypoints means a 100-waypoint road = 1000 quads = 4000 verts - acceptable
 - Sharp turns: Catmull-Rom doesn't guarantee perpendicular quads at high curvature. Clamp maximum turn rate between waypoints
 - Terrain interaction: road mesh must be elevated above terrain to avoid z-fighting (see [[flatten-terrain-under-road]])
 

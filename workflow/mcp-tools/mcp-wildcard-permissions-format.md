@@ -1,9 +1,9 @@
 ---
 title: MCP Wildcard Permissions Format
 type: lesson
-status: draft
-confidence: medium
-verified: ''
+status: needs-reproduction
+confidence: low
+verified: '2026-07-30'
 date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -13,14 +13,21 @@ tags:
 - configuration
 applies_to:
 - claude-code-projects
-source: ''
+source: zweryfikowane reprodukcja i dokumentacja 2026-07-30, patrz AUDYT-SPORNYCH-WPISOW
 description: MCP permissions in .claude/settings.json use double-underscore format mcp__{server}__* (wildcard) or mcp__{server}__{tool} (specific). Wrong format = server silently fails to connect.
 severity: high
 suggested-category: workflow/mcp-tools
 name: mcp-wildcard-permissions-format
+audit_verdict: DO SPRAWDZENIA
 ---
 
 # MCP Wildcard Permissions Format
+
+> [!warning] Ten wpis zostal zweryfikowany 2026-07-30 i werdykt brzmi: **DO SPRAWDZENIA**
+>
+> Pelne uzasadnienie, dowody i proponowane poprawki: [[AUDYT-SPORNYCH-WPISOW]].
+> Tresc ponizej NIE zostala jeszcze przepisana - czytaj ja z ta uwaga.
+
 
 ## Rule
 
@@ -39,13 +46,13 @@ MCP tool permissions in `.claude/settings.json` use double-underscore format:
 }
 ```
 
-**Wildcard:** `mcp__{server}__*` — allows all tools from that MCP server.
-**Specific:** `mcp__{server}__{tool_name}` — allows only that tool.
+**Wildcard:** `mcp__{server}__*` - allows all tools from that MCP server.
+**Specific:** `mcp__{server}__{tool_name}` - allows only that tool.
 
 ## Critical: double underscore, not single
 
 `mcp__blender-mcp__*` ✅ (double underscore separator)
-`mcp_blender-mcp_*` ❌ (single underscore — silently fails)
+`mcp_blender-mcp_*` ❌ (single underscore - silently fails)
 `mcp__blender-mcp__create_object` ✅ (specific tool, double underscore)
 
 The double underscore is MCP protocol convention. Single underscore is reserved for other uses in the protocol.

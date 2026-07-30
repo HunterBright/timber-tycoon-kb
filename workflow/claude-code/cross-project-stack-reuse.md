@@ -26,7 +26,7 @@ name: cross-project-consistency-stack-reuse
 
 ## Decision
 
-Eskimo Simulator uses the same core technology stack as Timber Tycoon. Not because of inertia — because reuse compounds skill investment.
+Eskimo Simulator uses the same core technology stack as Timber Tycoon. Not because of inertia - because reuse compounds skill investment.
 
 ## Shared stack
 
@@ -42,10 +42,10 @@ Eskimo Simulator uses the same core technology stack as Timber Tycoon. Not becau
 
 ## Eskimo additions (not replacements)
 
-- **FishNet** — multiplayer networking layer
-- **NetworkBehaviour** — extension of MonoBehaviour for MP state
-- **Addressables** — chunk streaming for 6km² map
-- **Inuktitut voice** — ElevenLabs native language for Inuit NPCs
+- **FishNet** - multiplayer networking layer
+- **NetworkBehaviour** - extension of MonoBehaviour for MP state
+- **Addressables** - chunk streaming for 6km² map
+- **Inuktitut voice** - ElevenLabs native language for Inuit NPCs
 
 These extend the stack, they don't replace it. ServiceLocator still works. GameEventSO still works (as NetworkGameEventSO variant). ISaveable still works (server-authoritative).
 

@@ -76,10 +76,10 @@ void RefreshUI(string questId, int stepIndex) {
 | 6: Sawmill | Sequential | Use sawmill once → place plank |
 | ... | ... | ... |
 
-**Sequential vs parallel:** `stepsAreSequential = true` — step N+1 grayed out until step N completes. `false` — all steps active simultaneously (e.g., "do A and B in any order").
+**Sequential vs parallel:** `stepsAreSequential = true` - step N+1 grayed out until step N completes. `false` - all steps active simultaneously (e.g., "do A and B in any order").
 
 ## Why this works
-Checklist UI makes progress tangible — player can count remaining boxes. Counter for "collect N" shows exactly how many more are needed. Visual completion checkmarks provide satisfying closure.
+Checklist UI makes progress tangible - player can count remaining boxes. Counter for "collect N" shows exactly how many more are needed. Visual completion checkmarks provide satisfying closure.
 
 ## Trade-offs
 - Counter spoilers: showing "3/5" tells player exactly 2 more. For mystery quests, hide count. For tutorial, always show it.

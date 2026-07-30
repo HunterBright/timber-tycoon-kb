@@ -51,7 +51,7 @@ Only if all 4 return empty: proceed with deletion.
 
 "Delete refactored code" is one click. "Fix 47 missing scripts in scene" is half a day. Asymmetric cost.
 
-Unity scenes store MonoBehaviour references by script GUID. When the script is deleted, GUID becomes dangling. Unity doesn't error immediately — it silently shows "Missing Script (MonoBehaviour)" in Inspector, but the scene still loads. Problems surface later when something tries to call the missing component.
+Unity scenes store MonoBehaviour references by script GUID. When the script is deleted, GUID becomes dangling. Unity doesn't error immediately - it silently shows "Missing Script (MonoBehaviour)" in Inspector, but the scene still loads. Problems surface later when something tries to call the missing component.
 
 ## When recovery is needed
 

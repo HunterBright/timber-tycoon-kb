@@ -1,5 +1,5 @@
 ---
-title: Multiplayer from MVP — Not Retrofit
+title: Multiplayer from MVP - Not Retrofit
 type: decision
 status: draft
 confidence: medium
@@ -21,7 +21,7 @@ suggested-category: genre/survival/decisions
 name: multiplayer-from-mvp-decision
 ---
 
-# Multiplayer from MVP — Not Retrofit
+# Multiplayer from MVP - Not Retrofit
 
 ## Decision
 
@@ -38,10 +38,10 @@ name: multiplayer-from-mvp-decision
 
 Single-player code makes assumptions that break under networking:
 
-1. **Singletons everywhere** — `GameManager.Instance.AddMoney()` assumes one authority. Networked: who is the authority?
-2. **Instant state updates** — `player.health -= 10` assumes no latency. Networked: needs authority check + RPC.
-3. **No rollback design** — physics, inventory, crafting all assume single-truth. Networked: needs server reconciliation.
-4. **ISaveable attached to clients** — save data must be server-authoritative, not per-client.
+1. **Singletons everywhere** - `GameManager.Instance.AddMoney()` assumes one authority. Networked: who is the authority?
+2. **Instant state updates** - `player.health -= 10` assumes no latency. Networked: needs authority check + RPC.
+3. **No rollback design** - physics, inventory, crafting all assume single-truth. Networked: needs server reconciliation.
+4. **ISaveable attached to clients** - save data must be server-authoritative, not per-client.
 
 Retrofitting = touching EVERY system that has state. Effectively rebuilds the game.
 
@@ -51,7 +51,7 @@ Retrofitting = touching EVERY system that has state. Effectively rebuilds the ga
 Stack: Unity 6000.3.5f1 + URP + FishNet + ServiceLocator + GameEventSO + ISaveable + NetworkBehaviour
 
 Listen-server model: host runs server + client simultaneously.
-Solo players: run as host-of-1 (same code path as multiplayer — zero branch).
+Solo players: run as host-of-1 (same code path as multiplayer - zero branch).
 ```
 
 `NetworkBehaviour` extends `MonoBehaviour`. All gameplay systems inherit from it. `[ServerRpc]` / `[ClientRpc]` annotations handle authority.
@@ -69,6 +69,6 @@ Solo players: run as host-of-1 (same code path as multiplayer — zero branch).
 
 ## Cross-project lesson
 
-If multiplayer appears ANYWHERE in a project's roadmap — even "maybe in year 2" — design for it from MVP. The cost of retrofitting grows super-linearly with codebase size.
+If multiplayer appears ANYWHERE in a project's roadmap - even "maybe in year 2" - design for it from MVP. The cost of retrofitting grows super-linearly with codebase size.
 
 See also: [[parallel-architecture-pattern]], [[cross-project-stack-reuse]], [[chunk-based-world-loading]]

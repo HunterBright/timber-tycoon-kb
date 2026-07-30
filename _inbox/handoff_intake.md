@@ -1,5 +1,5 @@
 ---
-title: Handoff Intake — 2026-05-17
+title: Handoff Intake - 2026-05-17
 type: note
 status: draft
 confidence: low
@@ -11,7 +11,7 @@ applies_to: []
 source: ''
 ---
 
-# Handoff Intake — 2026-05-17
+# Handoff Intake - 2026-05-17
 
 ## Section 1: KB folder tree
 
@@ -124,7 +124,7 @@ status: draft
 applies_to: []
 ---
 
-# <Title — specific, searchable>
+# <Title - specific, searchable>
 
 ## Problem
 What happened. Concrete symptoms.
@@ -237,7 +237,7 @@ What to do instead. Link to pattern if applicable.
 
 ## Section 3: Existing KB entries
 
-### CLAUDE.md — 1043 bytes
+### CLAUDE.md - 1043 bytes
 
 ```md
 # KB-local Claude Code instructions
@@ -248,10 +248,10 @@ When Claude Code reads files inside this knowledge base, treat them as authorita
 - KB entries describe transferable wisdom, not current project state
 
 ## Status field semantics
-- draft — in _inbox/, not yet reviewed
-- validated — Hunter-approved, safe to follow
-- superseded — newer entry exists, see "supersedes:" field
-- deprecated — no longer valid (e.g. Unity API change)
+- draft - in _inbox/, not yet reviewed
+- validated - Hunter-approved, safe to follow
+- superseded - newer entry exists, see "supersedes:" field
+- deprecated - no longer valid (e.g. Unity API change)
 
 ## Entry naming
 - Lowercase, hyphen-separated, descriptive
@@ -262,37 +262,37 @@ When Claude Code reads files inside this knowledge base, treat them as authorita
 KB is transferable cross-project knowledge. Project memory (~/.claude/projects/<project>/memory/) is per-project, machine-local state. Don't confuse them. If unsure where something belongs, default to project memory and let Hunter promote to KB during review.
 ```
 
-### MOC.md — 1931 bytes
+### MOC.md - 1931 bytes
 
 ```md
-# Map of Content — Knowledge Base
+# Map of Content - Knowledge Base
 
 Entry point. Browse by category or use full-text search.
 
 ## Categories
 
 ### Engine (Unity/Blender/URP)
-- engine/lessons/ — bugs solved, gotchas captured
-- engine/patterns/ — validated workflows
-- engine/decisions/ — ADRs with trade-offs
-- engine/anti-patterns/ — what NOT to do, with reasons
+- engine/lessons/ - bugs solved, gotchas captured
+- engine/patterns/ - validated workflows
+- engine/decisions/ - ADRs with trade-offs
+- engine/anti-patterns/ - what NOT to do, with reasons
 
 ### Genre
-- genre/tycoon/ — Timber Tycoon learnings
-- genre/survival/ — future project
-- genre/roguelike/ — future project
-- genre/pvp-multiplayer/ — future project
+- genre/tycoon/ - Timber Tycoon learnings
+- genre/survival/ - future project
+- genre/roguelike/ - future project
+- genre/pvp-multiplayer/ - future project
 
 ### Workflow
-- workflow/claude-code/ — agents, hooks, skills, prompts, KB protocol
-- workflow/mcp-tools/ — Coplay, Blender, ElevenLabs MCP
-- workflow/asset-pipeline/ — Tripo → Blender → Unity
-- workflow/3d-models/ — modeling, UV, bake conventions
+- workflow/claude-code/ - agents, hooks, skills, prompts, KB protocol
+- workflow/mcp-tools/ - Coplay, Blender, ElevenLabs MCP
+- workflow/asset-pipeline/ - Tripo → Blender → Unity
+- workflow/3d-models/ - modeling, UV, bake conventions
 
 ### Projects (indexes only, no content)
 - projects/timber-tycoon.md
 
-## TODO — Seed extraction (post-demo)
+## TODO - Seed extraction (post-demo)
 
 Extract these from TT memory (C:\Users\<user>\.claude\projects\D--Unity-Timber-Tycoon\memory\):
 
@@ -320,7 +320,7 @@ Extract these from TT memory (C:\Users\<user>\.claude\projects\D--Unity-Timber-T
 See _inbox/ for pending drafts.
 ```
 
-### README.md — 1716 bytes
+### README.md - 1716 bytes
 
 ```md
 # Hunter's Knowledge Base
@@ -330,7 +330,7 @@ Survives projects. Grows with each session.
 
 ## What lives here vs. what lives in memory
 
-**KB (this folder)** — transferable cross-project wisdom:
+**KB (this folder)** - transferable cross-project wisdom:
 - Unity/Blender bugs and gotchas (engine-level)
 - Validated workflow patterns (asset pipeline, Claude Code conventions)
 - Architecture Decision Records with trade-offs
@@ -345,17 +345,17 @@ Survives projects. Grows with each session.
 Different scope, different lifetime, different storage. Both intentional.
 
 ## Structure
-- engine/ — Unity/Blender/URP wisdom (transferable across all projects)
-- genre/ — Genre-specific patterns (tycoon, survival, roguelike, pvp)
-- workflow/ — Meta-tooling: Claude Code, MCP, asset pipeline
-- projects/ — Per-project indexes (links only, no content)
-- _inbox/ — Drafts awaiting weekly review (Claude writes here)
-- _archive/ — Superseded entries (kept for history)
-- templates/ — Entry templates (lesson/pattern/decision/anti-pattern)
+- engine/ - Unity/Blender/URP wisdom (transferable across all projects)
+- genre/ - Genre-specific patterns (tycoon, survival, roguelike, pvp)
+- workflow/ - Meta-tooling: Claude Code, MCP, asset pipeline
+- projects/ - Per-project indexes (links only, no content)
+- _inbox/ - Drafts awaiting weekly review (Claude writes here)
+- _archive/ - Superseded entries (kept for history)
+- templates/ - Entry templates (lesson/pattern/decision/anti-pattern)
 
 ## Workflow
 1. During sessions, Claude Code auto-writes drafts to _inbox/
-2. Sunday evening: /kb-review — batch approve/edit/reject drafts
+2. Sunday evening: /kb-review - batch approve/edit/reject drafts
 3. New projects: junction kb\ → this folder, instant access
 
 ## How Claude Code uses this
@@ -365,7 +365,7 @@ Global CLAUDE.md at C:\Users\<user>\.claude\CLAUDE.md instructs Claude to:
 - Not interrupt flow with "should I save?" prompts
 ```
 
-### projects\timber-tycoon.md — 559 bytes
+### projects\timber-tycoon.md - 559 bytes
 
 ```md
 ---
@@ -375,12 +375,12 @@ status: active
 demo: pending
 ---
 
-# Timber Tycoon — Project Index
+# Timber Tycoon - Project Index
 
 Single-player FPP tycoon, Unity 6000.3.5f1 / URP 17.3.
 
 ## Active KB entries
-(Empty — seed pending post-demo extraction)
+(Empty - seed pending post-demo extraction)
 
 ## TT-specific memory
 Lives outside KB at:
@@ -389,13 +389,13 @@ C:\Users\<user>\.claude\projects\D--Unity-Timber-Tycoon\memory\
 Reason: project-specific feedback (colors, positions, design decisions) is not transferable and stays in user-scoped Claude Code memory.
 
 ## Extraction TODO (post-demo)
-See MOC.md → "TODO — Seed extraction".
+See MOC.md → "TODO - Seed extraction".
 ```
 
-### _inbox\README.md — 613 bytes
+### _inbox\README.md - 613 bytes
 
 ```md
-# Inbox — Pending drafts
+# Inbox - Pending drafts
 
 Claude Code writes draft entries here during sessions. Hunter reviews weekly.
 
@@ -410,18 +410,18 @@ Run /kb-review or say "review KB inbox":
 3. Claude applies decisions, moves files to target folders
 
 ## Don't manually move files from here
-Let Claude handle the move during review — it preserves git history and updates indexes.
+Let Claude handle the move during review - it preserves git history and updates indexes.
 ```
 
-engine/ subfolders (anti-patterns/, decisions/, lessons/, patterns/): no .md files — only .gitkeep
-genre/ subfolders (tycoon/, survival/, roguelike/, pvp-multiplayer/ each with decisions/, lessons/, patterns/): no .md files — only .gitkeep
-workflow/ subfolders (3d-models/, asset-pipeline/, claude-code/, mcp-tools/): no .md files — only .gitkeep
-_archive/: no .md files — only .gitkeep
+engine/ subfolders (anti-patterns/, decisions/, lessons/, patterns/): no .md files - only .gitkeep
+genre/ subfolders (tycoon/, survival/, roguelike/, pvp-multiplayer/ each with decisions/, lessons/, patterns/): no .md files - only .gitkeep
+workflow/ subfolders (3d-models/, asset-pipeline/, claude-code/, mcp-tools/): no .md files - only .gitkeep
+_archive/: no .md files - only .gitkeep
 
 ## Section 4: Global CLAUDE.md
 
 ```md
-# Global Claude Code instructions — Hunter
+# Global Claude Code instructions - Hunter
 
 Loaded for ALL Hunter's projects. Project-level CLAUDE.md (e.g. D:\Unity\Timber_Tycoon\CLAUDE.md) takes precedence on conflicts.
 
@@ -430,25 +430,25 @@ Creative director, non-programmer. Works in Unity (currently 6000.3.5f1 / URP 17
 
 ## Knowledge Base protocol
 
-KB lives at D:\Hunter\KnowledgeBase\. In projects, mounted as junction at <project-root>\kb\ (NOT inside .claude\ — kept separate from per-project git-tracked config).
+KB lives at D:\Hunter\KnowledgeBase\. In projects, mounted as junction at <project-root>\kb\ (NOT inside .claude\ - kept separate from per-project git-tracked config).
 
 ### Reading the KB
 At start of sessions in projects with kb\ junction:
-1. Don't read everything — would be context bloat
+1. Don't read everything - would be context bloat
 2. Identify task domain: Unity/Blender? Asset pipeline? Genre-specific?
 3. Read kb\MOC.md only if task is non-trivial AND likely to have prior art
 4. Read specific entries on demand based on task keywords
 
 ### Writing drafts to kb\_inbox\
 
-**Triggers — write a draft when:**
+**Triggers - write a draft when:**
 1. A bug took >30 min to diagnose AND root cause is transferable (engine-level, not project-specific)
-2. Hunter says "this is the same problem as before" / "we already solved this" — meta-signal that knowledge wasn't captured
+2. Hunter says "this is the same problem as before" / "we already solved this" - meta-signal that knowledge wasn't captured
 3. A workflow was validated and could repeat in future projects
 4. A design decision was made with explicit trade-offs (good ADR candidate)
 5. An anti-pattern was discovered: "we tried X, doesn't work because Y"
 
-**Anti-triggers — do NOT write a draft for:**
+**Anti-triggers - do NOT write a draft for:**
 - Project-specific state (colors, positions, asset names, design preferences) → these go to project memory instead
 - Trivial fixes (typos, missing imports, path errors)
 - Pure creative decisions without technical reasoning
@@ -460,7 +460,7 @@ At start of sessions in projects with kb\ junction:
 
 Filename: kb\_inbox\YYYYMMDD-HHMM-<topic-slug>.md (use current timestamp + descriptive slug)
 
-Use templates from kb\templates\ — pick lesson / pattern / decision / anti-pattern based on content type.
+Use templates from kb\templates\ - pick lesson / pattern / decision / anti-pattern based on content type.
 
 Front-matter required:
 - type: lesson | pattern | decision | anti-pattern
@@ -505,68 +505,68 @@ When in doubt where something belongs: project memory by default, promote to KB 
 ## Important
 - Project CLAUDE.md takes precedence on conflicts
 - Don't modify validated KB entries without explicit Hunter approval
-- Archive (don't delete) superseded entries — move to _archive\ with status: superseded and add supersedes: field pointing to new entry
+- Archive (don't delete) superseded entries - move to _archive\ with status: superseded and add supersedes: field pointing to new entry
 ```
 
 ## Section 5: Project-level CLAUDE.md
 
-Path checked: D:\Unity\Timber_Tycoon\CLAUDE.md — EXISTS
+Path checked: D:\Unity\Timber_Tycoon\CLAUDE.md - EXISTS
 
 ```md
-# Timber Tycoon — Kontekst Projektu
+# Timber Tycoon - Kontekst Projektu
 
 ## Przegląd
 Single-player FPP tycoon o tartaku. Gracz wycina drzewa, przetwarza drewno, sprzedaje produkty, rozbudowuje tartak.
 - **Unity 6000.3.5f1**, URP 17.3, New Input System 1.17
 - **Pipeline**: Hunter (reżyser/decyzje) → Claude Code (implementacja) → MCP (Coplay, Blender, ElevenLabs)
-- **Plan**: `Docs/TIMBER_TYCOON_FINAL_PLAN.md` — jedyne źródło prawdy o scope
+- **Plan**: `Docs/TIMBER_TYCOON_FINAL_PLAN.md` - jedyne źródło prawdy o scope
 - **Postęp**: @.claude/skills/progress-tracker/SKILL.md
 - **Mapa**: @.claude/skills/map-environment/SKILL.md
 - **Modele 3D**: @.claude/skills/3d-models-assets/SKILL.md
-- **Unity API**: ładowany jako plugin — `claude --plugin-dir ./unity-claude-skills`
+- **Unity API**: ładowany jako plugin - `claude --plugin-dir ./unity-claude-skills`
 
-## Hunter — kontekst użytkownika
+## Hunter - kontekst użytkownika
 
-Hunter nie programuje i nie tworzy gier technicznie. Jest creative directorem — decyduje CO ma być zrobione, WIZUALNIE i FUNKCJONALNIE. Implementację technicznie deleguje do Claude Code.
+Hunter nie programuje i nie tworzy gier technicznie. Jest creative directorem - decyduje CO ma być zrobione, WIZUALNIE i FUNKCJONALNIE. Implementację technicznie deleguje do Claude Code.
 
 Konsekwencje:
-- Wyjaśniaj łopatologicznie — bez żargonu programistycznego, chyba że nazwiesz system zaimplementowany w projekcie (`ServiceLocator`, `GameEventSO`)
-- Nie zakładaj, że Hunter rozpozna bug w kodzie — TY masz go znaleźć i opisać
-- Przy propozycjach technicznych — zawsze tłumacz DLACZEGO, nie tylko CO
+- Wyjaśniaj łopatologicznie - bez żargonu programistycznego, chyba że nazwiesz system zaimplementowany w projekcie (`ServiceLocator`, `GameEventSO`)
+- Nie zakładaj, że Hunter rozpozna bug w kodzie - TY masz go znaleźć i opisać
+- Przy propozycjach technicznych - zawsze tłumacz DLACZEGO, nie tylko CO
 - Hunter ocenia wyniki na podstawie efektu wizualnego/gameplay, nie elegancji kodu
 
 Pełny protokół współpracy: `.claude/skills/hunter-communication-style.md`
 
 ---
 
-## Workflow obowiązkowy — 3 poziomy analizy przed implementacją
+## Workflow obowiązkowy - 3 poziomy analizy przed implementacją
 
 **Każde zadanie od Huntera klasyfikuj do jednego z 3 poziomów PRZED rozpoczęciem pracy. Jeśli niepewny, który poziom pasuje → zawsze wybierz wyższy (bezpieczniejszy).**
 
-### Poziom 1 — PEŁNA ANALIZA + AKCEPT (obowiązkowa)
+### Poziom 1 - PEŁNA ANALIZA + AKCEPT (obowiązkowa)
 
 **Kiedy stosuj:**
 - Refaktor istniejącego systemu
 - Zmiany dotykające 3+ plików
 - Zmiany architektoniczne (nowy wzorzec, nowy manager, zmiana istniejącego wzorca)
 - Dotknięcie hardcoded constraints: pozycja tartaku (177.9, 7.62, -88.71), klif, wodospad, performance budget, forward axis auta (-transform.right), scale inconsistency Spruce_Log/Birch_Log
-- Zmiany dotykające zapisu (ISaveable) — migracja save'ów
+- Zmiany dotykające zapisu (ISaveable) - migracja save'ów
 - Zadania w Plan Mode (Shift+Tab)
 - Pytania informacyjne: "co myślisz", "jak byś to zrobił", "co polecasz", "jak najlepiej", "mam dylemat", "nie wiem czy"
 
 **Co robisz:**
 1. **Analiza** (co widzisz jako problem/zadanie, jaki jest kontekst w grze, jakie systemy się łączą)
 2. **Opcje** (2-3 możliwe rozwiązania z pros/cons każdego w kontekście Timber Tycoon)
-3. **Rekomendacja** (które rozwiązanie wybierasz i dlaczego — połącz z istniejącą architekturą)
+3. **Rekomendacja** (które rozwiązanie wybierasz i dlaczego - połącz z istniejącą architekturą)
 4. **Pytanie akceptacyjne** ("Czy akceptujesz rozwiązanie X, czy chcesz żebym wrócił do Y/Z?")
-5. **STOP** — czekaj na akcept Huntera. NIE implementuj.
+5. **STOP** - czekaj na akcept Huntera. NIE implementuj.
 6. Jeśli Hunter zgłosi uwagi → ponów krok 1-4 z uwzględnieniem jego uwag, przedstaw za/przeciw jego sugestii, zarekomenduj ulepszone rozwiązanie.
 7. Dopiero po "ok/tak/zatwierdzam/rób" → implementuj.
 
-### Poziom 2 — KRÓTKIE UZASADNIENIE + AKCEPT (1-2 zdania)
+### Poziom 2 - KRÓTKIE UZASADNIENIE + AKCEPT (1-2 zdania)
 
 **Kiedy stosuj:**
-- Nowy feature addytywny, który pasuje do istniejącego wzorca (np. nowy typ drzewa — pełni wzór Spruce/Birch/Oak/Maple)
+- Nowy feature addytywny, który pasuje do istniejącego wzorca (np. nowy typ drzewa - pełni wzór Spruce/Birch/Oak/Maple)
 - Nowy plik kodu zgodny z architekturą (ISaveable + GameEventSO + ServiceLocator)
 - Zmiana wielu parametrów jednego ScriptableObject
 - Nowy prefab według ustalonego pipeline (model → bake → FBX → Unity)
@@ -576,7 +576,7 @@ Pełny protokół współpracy: `.claude/skills/hunter-communication-style.md`
 2. **Pytanie akceptacyjne** ("Potwierdzasz?")
 3. Po akcept → implementuj.
 
-### Poziom 3 — OD RAZU IMPLEMENTACJA (bez analizy)
+### Poziom 3 - OD RAZU IMPLEMENTACJA (bez analizy)
 
 **Kiedy stosuj:**
 - Zmiana jednej wartości w istniejącym SO (color, speed, capacity, amount)
@@ -586,17 +586,17 @@ Pełny protokół współpracy: `.claude/skills/hunter-communication-style.md`
 - Przesunięcie obiektu na scenie o zadaną wartość (bez zmiany architektury)
 
 **Co robisz:**
-Implementuj od razu. Po zakończeniu — krótki raport co zostało zmienione.
+Implementuj od razu. Po zakończeniu - krótki raport co zostało zmienione.
 
 ---
 
-## Zasady — BEZWZGLĘDNE (nigdy nie naruszaj niezależnie od poziomu)
+## Zasady - BEZWZGLĘDNE (nigdy nie naruszaj niezależnie od poziomu)
 
 - **ZAWSZE backup sceny** PRZED modyfikacjami scen
-- **NIGDY save_scene w Play Mode** — niszczy obiekty permanentnie
-- **NIGDY editorowe skrypty w Play Mode** — DestroyImmediate = utrata danych
+- **NIGDY save_scene w Play Mode** - niszczy obiekty permanentnie
+- **NIGDY editorowe skrypty w Play Mode** - DestroyImmediate = utrata danych
 - **NIGDY nie implementuj nic spoza planu** (`Docs/TIMBER_TYCOON_FINAL_PLAN.md`) bez potwierdzenia Huntera
-- **Gameplay values ZAWSZE w ScriptableObjects** — zero magic numbers w kodzie
+- **Gameplay values ZAWSZE w ScriptableObjects** - zero magic numbers w kodzie
 - **Performance**: max 2M verts, 500 draw calls (target: GTX 1050 / RX 560+, 60 FPS minimum)
 - **Git**: conventional commits, LFS dla binarnych
 
@@ -604,14 +604,14 @@ Implementuj od razu. Po zakończeniu — krótki raport co zostało zmienione.
 
 ## Kluczowe systemy
 
-### Drzewa — multi-type via ScriptableObject
-- **TreeTypeData** (SO w Core/): definiuje typ — prefaby (adult, stump, trunk, log, sapling), modele wzrostu
+### Drzewa - multi-type via ScriptableObject
+- **TreeTypeData** (SO w Core/): definiuje typ - prefaby (adult, stump, trunk, log, sapling), modele wzrostu
 - Gotowe: **Spruce**, **Birch**, **Oak**, **Maple**. Planowane: Acacia, Mahogany
 - Cykl: ścięcie → pniak + kłody + sadzonka → wykopanie pniaka → PlantingSpot → sadzenie → GrowingTree (4 etapy) → dorosłe
-- Sadzonka niesie `treeTypeData` — PlantingSpot uniwersalny, typ zależy od sadzonki
-- **Kłody NIGDY nie są sprzedawane** — zawsze przetwarzane na produkty
+- Sadzonka niesie `treeTypeData` - PlantingSpot uniwersalny, typ zależy od sadzonki
+- **Kłody NIGDY nie są sprzedawane** - zawsze przetwarzane na produkty
 
-### Magazyn — StorageRack system (2026-04-10 refactor)
+### Magazyn - StorageRack system (2026-04-10 refactor)
 - **StorageRack** MonoBehaviour per instancja z UUID, **StorageRackRegistry** singleton, **StorageManager** fasada
 - Każdy rack = osobna pula, mix (ProductType × WoodSpecies). Pojemności: LogRack=60, FirewoodRack=100, StumpRack=15
 - 10 gatunków w WoodSpecies enum (4 aktywne: Spruce/Birch/Oak/Maple)
@@ -624,7 +624,7 @@ Implementuj od razu. Po zakończeniu — krótki raport co zostało zmienione.
 - **TruckManager**: cargo po (ProductType, WoodSpecies), 3 TruckData SO (24/40/60)
 
 ### Sprzedaż
-- Tavern Manager style — NPC przychodzi, gracz nosi produkty w skrzynce do lady
+- Tavern Manager style - NPC przychodzi, gracz nosi produkty w skrzynce do lady
 - **CustomerManager**: kolejka zamówień, per species matching
 - **EconomyManager**: pieniądze, ISaveable
 - **WorkerManager**: NPC pracownicy, 3 niezależne lady, per-rola dictionary
@@ -637,21 +637,21 @@ Implementuj od razu. Po zakończeniu — krótki raport co zostało zmienione.
 ## Struktura kodu
 ```
 Assets/Project/Scripts/
-├── Core/          — ServiceLocator, GameEventSO, GameState, ISaveable, TreeTypeData, Interactable, QuestManager
-├── Inventory/     — InventorySystem (rejestr magazynowy), StorageZone
-├── Items/         — CarryCrate, SalesCounter, CounterRepair, RecipeData
-├── Machines/      — MachineBase (abstract), Sawmill, Pelletizer, BarkGrinder
-├── Managers/      — Save/Audio/Time/Input/Scene/Localization/Economy/Customer/Physics/Market/Upgrade/Sawmill/Worker/Truck/Planting/Fertilize Manager
-├── Player/        — PlayerController, PlayerInteraction
-├── UI/            — HUD, dialogi, minigry, ustawienia, InventoryPanelUI
-├── Vehicle/       — VehicleController, VehicleCamera, VehicleStorage, VehicleHUD
-└── Warehouse/     — WarehouseManager, UnloadZone, StorageRack, StorageRackRegistry, StorageManager
+├── Core/          - ServiceLocator, GameEventSO, GameState, ISaveable, TreeTypeData, Interactable, QuestManager
+├── Inventory/     - InventorySystem (rejestr magazynowy), StorageZone
+├── Items/         - CarryCrate, SalesCounter, CounterRepair, RecipeData
+├── Machines/      - MachineBase (abstract), Sawmill, Pelletizer, BarkGrinder
+├── Managers/      - Save/Audio/Time/Input/Scene/Localization/Economy/Customer/Physics/Market/Upgrade/Sawmill/Worker/Truck/Planting/Fertilize Manager
+├── Player/        - PlayerController, PlayerInteraction
+├── UI/            - HUD, dialogi, minigry, ustawienia, InventoryPanelUI
+├── Vehicle/       - VehicleController, VehicleCamera, VehicleStorage, VehicleHUD
+└── Warehouse/     - WarehouseManager, UnloadZone, StorageRack, StorageRackRegistry, StorageManager
 ```
 
 ## Konwencje
 
 ### Kod
-- **Brak namespace'ów** — flat global namespace
+- **Brak namespace'ów** - flat global namespace
 - **4 spacje**, braces Allman style
 - Klasy/metody: `PascalCase`, pola: `camelCase`
 - Wzorce: ServiceLocator + GameEventSO + ISaveable + Singleton (równolegle)
@@ -660,7 +660,7 @@ Assets/Project/Scripts/
 ### Assety
 - Materiały: `Mat_NazwaOpisu.mat`
 - Modele: `NazwaObiektu.fbx`
-- Tekstury: `NazwaObiektu_Bake.png` (proceduralne tekstury Blendera NIE eksportują się z FBX — bake do PNG)
+- Tekstury: `NazwaObiektu_Bake.png` (proceduralne tekstury Blendera NIE eksportują się z FBX - bake do PNG)
 - Prefaby: `NazwaObiektu.prefab`
 - SO Items: `Item_Typ_Wariant.asset`
 - Events: `OnNazwaEventu.asset` w ScriptableObjects/Events/
@@ -668,17 +668,17 @@ Assets/Project/Scripts/
 ## Kluczowe decyzje designerskie (nie ruszaj bez rozmowy z Hunterem)
 - Single-player, mapa gotowa (brak proc-gen)
 - Narzędzia niezniszczalne, tempo jednostajne
-- Gracz NIE ma ekwipunku — InventorySystem = rejestr magazynowy
+- Gracz NIE ma ekwipunku - InventorySystem = rejestr magazynowy
 - BEZ: pogody/sezonów, minimapy, random events, difficulty, wildlife
 - VFX minimalne: dym, iskry, splash, monety. BEZ trocin/kurzu/liści
-- Meble odłożone — typy do ustalenia z Hunterem
+- Meble odłożone - typy do ustalenia z Hunterem
 
 ---
 
 ## Higiena kontekstu
 
 ### Kiedy sugerować `/done`
-Sugeruj `/done` dokładnie wtedy, gdy Hunter wyrazi satysfakcję z wyniku zadania — rozpoznaj po frazach typu: "super", "dzięki", "działa", "ok", "zatwierdzam", "gotowe", "idealnie", "dobra", "perfect".
+Sugeruj `/done` dokładnie wtedy, gdy Hunter wyrazi satysfakcję z wyniku zadania - rozpoznaj po frazach typu: "super", "dzięki", "działa", "ok", "zatwierdzam", "gotowe", "idealnie", "dobra", "perfect".
 
 NIE sugeruj `/done`:
 - Po każdej odpowiedzi automatycznie
@@ -690,7 +690,7 @@ NIE sugeruj `/done`:
 - **Kontynuacja tego samego systemu z nowym zadaniem** → sugeruj `/compact Focus on <nazwa systemu>`
 - **Po auto-compact** → PIERWSZA akcja: przeczytaj `.claude/checkpoint.md` jeśli istnieje
 
-### Długa sesja z powtórzeniami — kiedy reagować
+### Długa sesja z powtórzeniami - kiedy reagować
 Gdy w obecnej sesji zauważysz:
 - **5+ razy wracałeś do tego samego pliku/systemu z kolejnymi poprawkami**, LUB
 - **3+ razy cofałeś własne zmiany** (dodałeś coś, potem Hunter poprosił o usunięcie, potem o powrót, itp.)
@@ -714,7 +714,7 @@ Workflow / reference skills (2026-04-24):
 - Update checkpoint.md, pre-/clear, pre-/done → ładuj `checkpoint-protocol`
 - Współpraca z Hunterem, style komunikacji → ładuj `hunter-communication-style`
 
-Gdy niepewny czy ładować konkretny skill — NIE ładuj i poproś Huntera o potwierdzenie.
+Gdy niepewny czy ładować konkretny skill - NIE ładuj i poproś Huntera o potwierdzenie.
 
 ---
 
@@ -724,7 +724,7 @@ Gdy niepewny czy ładować konkretny skill — NIE ładuj i poproś Huntera o po
 - **Teren / mapa / góry / rzeki / drogi** → agent `blender-terrain`
 - **Operacje sceny Unity przez Coplay MCP** → agent `unity-operator`
 
-Formuła delegacji: użyj Task tool z promptem zaczynającym od "Use a subagent to...". NIE wykonuj zadań tych agentów w głównej sesji — zawsze deleguj.
+Formuła delegacji: użyj Task tool z promptem zaczynającym od "Use a subagent to...". NIE wykonuj zadań tych agentów w głównej sesji - zawsze deleguj.
 
 ---
 
@@ -734,18 +734,18 @@ Formuła delegacji: użyj Task tool z promptem zaczynającym od "Use a subagent 
 Dla minigier z guzikami w 3D scenie (zamiast UI overlay):
 - Każdy guzik: osobny GameObject z MeshCollider, nazwy `Button_Green/Red/Yellow`
 - Parent machine root: BoxCollider dla E-interaction (Interactable)
-- **Podczas minigry: WYŁĄCZ root BoxCollider** — inaczej raycast nigdy nie trafi w guziki
+- **Podczas minigry: WYŁĄCZ root BoxCollider** - inaczej raycast nigdy nie trafi w guziki
 - Po minigrze: WŁĄCZ root collider z powrotem (E-interaction restored)
 - Pulse glow: URP/Lit `_EmissionColor` MaterialPropertyBlock (per-instance, nie shared material)
-- Raycast layer: domyślny `Physics.DefaultRaycastLayers` pomija `IgnoreRaycast` (layer 2) — upewnij się że guziki nie są na tej warstwie
+- Raycast layer: domyślny `Physics.DefaultRaycastLayers` pomija `IgnoreRaycast` (layer 2) - upewnij się że guziki nie są na tej warstwie
 
 ### Camera lock pattern (minigry, 2026-04-28)
-- Zapisz `playerCamera.transform.position` i `.rotation` w world coords (NIE local — local breakuje po cycle reuse bo parent może się ruszyć)
+- Zapisz `playerCamera.transform.position` i `.rotation` w world coords (NIE local - local breakuje po cycle reuse bo parent może się ruszyć)
 - Lerp do `CameraMinigameTarget` (pusty GameObject, dziecko maszyny, pozycjonowany ręcznie przez Huntera)
 - Po minigrze: przywróć world coords bezpośrednio, następnie `SetParent(savedCameraParent)`
 
 ### Legacy code conflict po refactorze (lesson, 2026-04-28)
-Po dużych zmianach architektonicznych — zawsze sprawdź czy nie zostawiłeś conflicting legacy code:
+Po dużych zmianach architektonicznych - zawsze sprawdź czy nie zostawiłeś conflicting legacy code:
 - Szukaj `Spawn`, `Destroy`, `Force`, `Init` methods w starych klasach które mogą robić to samo co nowy system
 - Sprawdź flagi debug (`testMode`, `autoStart`) które mogą aktywować legacy code w Play Mode
 - **Case study**: `ChipperMachine.SpawnStump` (legacy physics spawn) + `ChipperMinigameUI.SpawnStumpForPhase1` (kinematic) = dwa pniaki, jeden spada z fizyki, trudne do debugowania
@@ -754,12 +754,12 @@ Po dużych zmianach architektonicznych — zawsze sprawdź czy nie zostawiłeś 
 
 ## Active sprint
 
-### Sprint Lvl 3: PlankMaker — IN PROGRESS
+### Sprint Lvl 3: PlankMaker - IN PROGRESS
 
 **Day 1 status (work in progress):**
 - ✅ Code skeleton: PlankMakerMachine.cs + PlankMakerMinigameUI.cs (compile clean)
 - ✅ Architecture: ProductType enum reused, no new ItemSO
-- ⏸️ Asset pipeline: PAUSED — Tripo model needs mechanical redesign
+- ⏸️ Asset pipeline: PAUSED - Tripo model needs mechanical redesign
 - ❌ Scene setup: deferred (needs model)
 - ❌ Smoke test: deferred (needs scene)
 
@@ -779,10 +779,10 @@ Po dużych zmianach architektonicznych — zawsze sprawdź czy nie zostawiłeś 
 
 ---
 
-## Automatyzacja (po akcept Huntera — dotyczy tylko Poziomu 1-2)
+## Automatyzacja (po akcept Huntera - dotyczy tylko Poziomu 1-2)
 
 Po zaakceptowaniu zadania implementacyjnego przez Huntera:
-- Sam wybieraj narzędzia MCP/skills/agentów — nie pytaj którą metodą
+- Sam wybieraj narzędzia MCP/skills/agentów - nie pytaj którą metodą
 - Nowy asset → pełny pipeline: model → tekstury bake → FBX export → Unity import → prefab → kod integrujący
 - Nowy system C# → automatycznie dodaj ISaveable + GameEventSO + integrację z ServiceLocator
 - Nie przerywaj w środku pełnej implementacji żeby dopytać o szczegóły techniczne (chyba że trafisz na sprzeczne wymagania lub krytyczną niejednoznaczność, która może popsuć system)
@@ -803,7 +803,7 @@ user-invocable: true
 allowed-tools: Read, Write
 ---
 
-Context checkpoint — preserve important state before compacting.
+Context checkpoint - preserve important state before compacting.
 
 ## Step 1: Identify What to Preserve
 
@@ -818,7 +818,7 @@ Review the current conversation and identify:
 Write the checkpoint to `.claude/checkpoint.md`, overwriting any previous checkpoint:
 
 ```markdown
-# Checkpoint — <YYYY-MM-DD> — <system/topic name>
+# Checkpoint - <YYYY-MM-DD> - <system/topic name>
 
 ## Context sesji
 <1-2 sentences describing what was worked on>
@@ -890,7 +890,7 @@ mkdir -p Assets/_Backup_<YYYY-MM-DD>/
 cp Assets/Demo_Scene.unity "Assets/_Backup_<YYYY-MM-DD>/Demo_Scene_<HHMM>.unity"
 ```
 
-Use today's actual date (YYYY-MM-DD format) and current time (HHMM format, 24-hour). NEVER overwrite an existing backup — if the filename already exists, increment minute by 1 until unique.
+Use today's actual date (YYYY-MM-DD format) and current time (HHMM format, 24-hour). NEVER overwrite an existing backup - if the filename already exists, increment minute by 1 until unique.
 
 ## Step 4: Git Commit (only if files were modified)
 
@@ -913,7 +913,7 @@ Choose ONE recommendation based on what Hunter said about the next task:
 → Tell Hunter: "Sugeruję `/compact Focus on <nazwa systemu> changes` żeby odchudzić kontekst, ale zachować istotne info."
 
 **If next task is UNRELATED** (different system, different area):
-→ Tell Hunter: "Sugeruję `/clear` — następne zadanie dotyczy innego systemu i świeży kontekst da lepsze wyniki."
+→ Tell Hunter: "Sugeruję `/clear` - następne zadanie dotyczy innego systemu i świeży kontekst da lepsze wyniki."
 
 **If current session has 5+ iterations on the same file/system** (regardless of next task):
 → Tell Hunter: "Ta sesja jest już długa i obciążona wieloma iteracjami. Zdecydowanie `/clear` przed kolejnym zadaniem."
@@ -934,10 +934,10 @@ No SKILL.md files found under C:\Users\<user>\.claude\skills\
 ```md
 ---
 name: 3d-models-assets
-description: Szczegóły modeli 3D — pojazd, drzewa (4 gatunki), narzędzia, tartak, lada, firewood, carry crate, storage rack. Używaj gdy pracujesz nad modelami 3D, materiałami, prefabami, teksturami lub pipeline'em Blender→Unity.
+description: Szczegóły modeli 3D - pojazd, drzewa (4 gatunki), narzędzia, tartak, lada, firewood, carry crate, storage rack. Używaj gdy pracujesz nad modelami 3D, materiałami, prefabami, teksturami lub pipeline'em Blender→Unity.
 ---
 
-# Modele 3D — Szczegóły
+# Modele 3D - Szczegóły
 
 ## Pojazd (Kei Truck) ✅
 - Blend: `Assets/Models/Cars/Car1_KeiTruck.blend`
@@ -960,7 +960,7 @@ description: Szczegóły modeli 3D — pojazd, drzewa (4 gatunki), narzędzia, t
 - **Bootstrap**: `NPCVehicleTestBootstrap` spawnuje z CarVariants, MPB `_BaseColor` nadpisuje Mat_Body przy spawnie. `bodyMaterialName = "Mat_Body"`
 - Editor scripts: `SetupNPCPickup01Materials.cs` (tworzy/konfiguruje materiały + remap FBX), `SetupNPCCarVariants.cs` (wypełnia SO pulą i hookuje bootstrap)
 
-## Drzewa — 4 gatunki ✅
+## Drzewa - 4 gatunki ✅
 Każdy gatunek ma pełny cykl: modele (Adult/Stump/Trunk/Log/Sapling × 4 rozmiary), TreeTypeData SO, prefaby, Item_Log/Plank, Recipe_Sawmill, Firewood FBX+prefab+materiały, drzewa na scenie.
 
 | Gatunek | Bark | Korona | Uwagi |
@@ -992,12 +992,12 @@ Każdy gatunek ma pełny cykl: modele (Adult/Stump/Trunk/Log/Sapling × 4 rozmia
 
 ## Tartak (Sawmill) ✅
 - `Assets/Models/Sawmill.fbx` (416v, 292f), 23×17m
-- Pozycja: (177.9, 7.62, -88.71) — NIE ZMIENIAĆ
+- Pozycja: (177.9, 7.62, -88.71) - NIE ZMIENIAĆ
 - Mat_Sawmill (VertexColorLit, Brightness=0.35)
 - Layout: maszyny NW | magazyn NE | meble SW | lada SE
 
 ## Lada (Counters) ✅
-- `Assets/Models/Counters.fbx` — Counter_Fixed (152v) + Counter_Broken (80v)
+- `Assets/Models/Counters.fbx` - Counter_Fixed (152v) + Counter_Broken (80v)
 - CounterRepair.cs przełącza widoczność (hold E)
 
 ## Firewood ✅ (2026-04-11 unifikacja)
@@ -1019,7 +1019,7 @@ Każdy gatunek ma pełny cykl: modele (Adult/Stump/Trunk/Log/Sapling × 4 rozmia
 - FBX: `Assets/Models/Environment/StumpRack.fbx` (636v, 19 meshów + 3 empties)
 - Wymiary: 1.6m × 1.2m × 0.9m
 - 10 pniaków (4+3+3): Fill_1 w rogach, Fill_2 w środku, Fill_3 na górze
-- 3 vertex rings per pniak (root flare + collar + top cut) — naturalna sylwetka
+- 3 vertex rings per pniak (root flare + collar + top cut) - naturalna sylwetka
 - Gatunki: Oak=2, Birch=3, Spruce=3, Maple=2 (size_scale 0.80-1.00)
 - **1 materiał per mesh** (wzorzec LogRack v2)
 - 9 materiałów: 4× bark + 4× cross-section + 1× baked frame (`StumpRack_Frame_Diffuse.png` 512×512)
@@ -1034,7 +1034,7 @@ Każdy gatunek ma pełny cykl: modele (Adult/Stump/Trunk/Log/Sapling × 4 rozmia
 - Podział: flood-fill BFS po krawędziach → 3 izolowane wyspy. Frame = NAJMNIEJSZA wyspa (88v).
 - Unity materiał: `Mat_Shredder_VertexColor` (Custom/VertexColorLit, _Brightness=1.0)
 - Pozycja w scenie: (175, 8, -108), rot Y=180
-- Animacja: `TEST_ShaftRotation.cs` — Vector3.forward (Blender Y → Unity Z), Space.Self, 180°/s, wały ku środkowi
+- Animacja: `TEST_ShaftRotation.cs` - Vector3.forward (Blender Y → Unity Z), Space.Self, 180°/s, wały ku środkowi
 - Setup: `Assets/Editor/SetupShredderAll.cs` (menu: Timber Tycoon/Setup Shredder All)
 
 ## BagRack ✅ (2026-04-20)
@@ -1053,16 +1053,16 @@ Każdy gatunek ma pełny cykl: modele (Adult/Stump/Trunk/Log/Sapling × 4 rozmia
 
 ## PelletBag ✅ (2026-05-15)
 - Worek peletu 15kg, low-poly bag shape z gusset fin na górze
-- Build script: `Assets/Art/BlenderScripts/build_pelletbag.py` (v8 — manual atlas, no Cycles bake)
+- Build script: `Assets/Art/BlenderScripts/build_pelletbag.py` (v8 - manual atlas, no Cycles bake)
 - FBX: `Assets/Models/Storage/PelletBag.fbx` (206v, 202f, 24 KB)
 - Wymiary: 0.30W × 0.18D × 0.41H m, pivot na DOLE (origin Z=0 w Blenderze)
-- **Atlas podejście**: numpy composite — label PNG (Tripo) w lewych 75% (0..0.75 U), body solid off-white w prawym-dolnym (0.875, 0.25), accent tan w prawym-górnym (0.875, 0.75)
-- Label PNG: `Assets/Textures/Pellets/T_PelletBag_Label.png` (Tripo AI — drzewko + pellets + "15")
+- **Atlas podejście**: numpy composite - label PNG (Tripo) w lewych 75% (0..0.75 U), body solid off-white w prawym-dolnym (0.875, 0.25), accent tan w prawym-górnym (0.875, 0.75)
+- Label PNG: `Assets/Textures/Pellets/T_PelletBag_Label.png` (Tripo AI - drzewko + pellets + "15")
 - Atlas PNG: `Assets/Textures/Pellets/T_PelletBag_Atlas.png` (1024×1024 sRGB, BC7 w Unity)
 - Materiał Unity: `Assets/Models/Storage/Materials/M_PelletBag_Baked.mat` (URP/Lit, single slot)
 - Prefab: `Assets/Project/Prefabs/BagOfPellet.prefab` (1 mat slot)
 - Accent strefa: Z=0.33-0.36 w Blenderze (wąski band przy górze worka)
-- **UWAGA**: bag X columns w PelletRack: ±0.700 (vs BagRack SlotAnchor ±0.747 — diff 4.7cm)
+- **UWAGA**: bag X columns w PelletRack: ±0.700 (vs BagRack SlotAnchor ±0.747 - diff 4.7cm)
 
 ## PelletRack_Placeholder ✅ (2026-05-15)
 - Scena: `Tartak_Area/PelletRack_Placeholder` (177.0, 8.0, -98.0), rot Y=0, scale (1,1,1)
@@ -1071,18 +1071,18 @@ Każdy gatunek ma pełny cykl: modele (Adult/Stump/Trunk/Log/Sapling × 4 rozmia
   - FBX-owned Fill_N i SlotAnchor_N_M stripped przy setupie
   - Shelf Y locals (identyczne z BagRack): 0.15 / 0.90 / 1.65
   - SlotAnchor surface Y: 0.175 / 0.925 / 1.675
-- **Fill groups** (row-based — każdy = 1 półka):
+- **Fill groups** (row-based - każdy = 1 półka):
   - Fill_1 = dolna półka (Y=0.175): 3× BagOfPellet na X=−0.7/0/+0.7
   - Fill_2 = środkowa półka (Y=0.925): 3× BagOfPellet na X=−0.7/0/+0.7
   - Fill_3 = górna półka (Y=1.675): 3× BagOfPellet na X=−0.7/0/+0.7
-- Fill groups domyślnie INACTIVE — StorageRack aktywuje w runtime
+- Fill groups domyślnie INACTIVE - StorageRack aktywuje w runtime
 
 ## LogRack v2 ✅ (2026-04-12)
 - Log Bunk z koziołkami (A-frame supports), 3 pary pochylonych słupków
 - FBX: `Assets/Models/Environment/LogRack.fbx` (700v, 21 meshów + 3 empties)
 - Wymiary: 2.2m × 1.07m × 0.90m (długość × szerokość × wysokość)
-- 3 fill levels (Fill_1: 7, Fill_2: 6, Fill_3: 5 kłód) — hexagonalne układanie
-- **1 materiał per mesh** — eliminuje reordering slotów w Unity
+- 3 fill levels (Fill_1: 7, Fill_2: 6, Fill_3: 5 kłód) - hexagonalne układanie
+- **1 materiał per mesh** - eliminuje reordering slotów w Unity
 - Struktura: Fill_X → Fill_X_BarkSpecies + Fill_X_CrossSpecies (osobne meshe per gatunek × typ)
 - 9 materiałów: 4× bark (Spruce/Birch/Oak/Maple) + 4× cross-section + 1× baked frame
 - Baked frame texture: `LogRack_Frame_Diffuse.png` (512×512, Cycles procedural noise)
@@ -1111,12 +1111,12 @@ Każdy gatunek ma pełny cykl: modele (Adult/Stump/Trunk/Log/Sapling × 4 rozmia
 - Setup: `Assets/Editor/SetupPlankRackFull.cs` (menu: Timber Tycoon/Setup PlankRack Full Integration)
 - StorageRack: family=Plank, maxCapacity=60, fillLevel1/2/3 wired do Fill_1/2/3
 
-## Pelletizer 🔨 (2026-05-05 — textury baked, FBX pending)
+## Pelletizer 🔨 (2026-05-05 - textury baked, FBX pending)
 - Blend: `_BlenderOutputs/Pelletizer/Pelletizer_Source_WIP.blend`
 - FBX: nie wyeksportowany jeszcze
 - Hierarchia (30 mesh'y + 1 empty root): Pelletizer_Root → Body, Hopper, Collar, Base, Motor + children (Fins, FanCover, Shaft, TerminalBox, Coupling), DiePlate, Rollers×3, Arms×3, Spindle, Flanges×4, Chute, Panel, Buttons×3, Motor_Mount
 - **Motor_Mount** (2026-05-05): cuboid 0.20×0.30×0.0811m, zastąpił Foot_L/R. Siedzi dokładnie między Base top (Z=0.05) a cylinder ring (Z=0.1311)
-- **Materiały — 10 aktywnych** (wszystkie procedural → baked 1024×1024 PNG):
+- **Materiały - 10 aktywnych** (wszystkie procedural → baked 1024×1024 PNG):
   - `BodyPaint_Red`: slate blue cynkowany (#1E2733), 11 mesh'y. R=0.70, M=0.30
   - `Galvanized`: jasny szary (#9CA0A3 z rdzą), 4 mesh'e. R=0.55, M=0.65
   - `Bed_Rollers`: ciemny żelazny, 4 mesh'e. R=0.50, M=0.70
@@ -1250,42 +1250,42 @@ to implement it.]
 ```md
 ---
 name: checkpoint-protocol
-description: Checkpoint.md maintenance — kiedy update, co zawsze ma być, pre-/clear checklist, anti-patterns. Używaj gdy aktualizujesz checkpoint lub przed /clear, /compact, /done.
+description: Checkpoint.md maintenance - kiedy update, co zawsze ma być, pre-/clear checklist, anti-patterns. Używaj gdy aktualizujesz checkpoint lub przed /clear, /compact, /done.
 ---
 
-# Checkpoint Protocol — Timber Tycoon
+# Checkpoint Protocol - Timber Tycoon
 
 `checkpoint.md` = kontrakt między sesjami. Pierwsza rzecz którą nowa sesja czyta. Jeśli nie jest aktualny → nowa sesja startuje z błędnym obrazem projektu.
 
 ## Kiedy update'ować
 
-- **Po zakończeniu sprint'u** — commit sprint'a + update checkpoint w tym samym batch'u
-- **Przed `/compact`** — upewnij się że current state jest zapisany
-- **Przed `/clear`** — KRYTYCZNE: po /clear context znika bezpowrotnie
-- **Przed `/done`** — last chance zapisać closing state sesji
-- **Po istotnej decyzji architekturalnej** — żeby następna sesja ją znała
-- **Po housekeeping** — .gitignore change, folder delete, plugin install/removal
+- **Po zakończeniu sprint'u** - commit sprint'a + update checkpoint w tym samym batch'u
+- **Przed `/compact`** - upewnij się że current state jest zapisany
+- **Przed `/clear`** - KRYTYCZNE: po /clear context znika bezpowrotnie
+- **Przed `/done`** - last chance zapisać closing state sesji
+- **Po istotnej decyzji architekturalnej** - żeby następna sesja ją znała
+- **Po housekeeping** - .gitignore change, folder delete, plugin install/removal
 
 **NIE update:**
 - Po każdym małym commit'cie (overkill)
 - Gdy zmieniasz jeden log message lub trywialny parametr
 
-## Struktura checkpoint.md — wymagane sekcje
+## Struktura checkpoint.md - wymagane sekcje
 
 W tej kolejności:
 
-1. **Header** — status + data + session summary (1-2 linie)
-2. **Session results** — co zrobione w tej sesji (lista sprintów/tasków)
-3. **Commits** — hashes + opisy (chronologicznie, najnowsze na górze)
-4. **Current project state** — aktualny stan systemów (single source of truth, liczba skryptów, etc.)
-5. **Known minor issues** — drobne problemy, benign warnings
-6. **Pending** — co do zrobienia następnym razem (priorytetyzowane)
-7. **Architectural decisions** — decyzje "don't revisit" (np. StorageManager jedyny authority, NPC vehicle-only)
-8. **Files to read first next session** — priority order
+1. **Header** - status + data + session summary (1-2 linie)
+2. **Session results** - co zrobione w tej sesji (lista sprintów/tasków)
+3. **Commits** - hashes + opisy (chronologicznie, najnowsze na górze)
+4. **Current project state** - aktualny stan systemów (single source of truth, liczba skryptów, etc.)
+5. **Known minor issues** - drobne problemy, benign warnings
+6. **Pending** - co do zrobienia następnym razem (priorytetyzowane)
+7. **Architectural decisions** - decyzje "don't revisit" (np. StorageManager jedyny authority, NPC vehicle-only)
+8. **Files to read first next session** - priority order
 
 ## Co ZAWSZE ma być
 
-- **Commit hashes** dla każdej zamkniętej pracy: `abc1234` — opis
+- **Commit hashes** dla każdej zamkniętej pracy: `abc1234` - opis
 - **Stan systemu** z liczbami: `StorageManager = single source, scripts: 163 → 151`
 - **Kluczowe API** używane często (StorageManager.GetAmount, AddToStorage, etc.)
 - **Cross-references** do innych docs (REFACTOR_PROGRESS, SYSTEMS_MAP, SCRIPTS_INVENTORY)
@@ -1294,10 +1294,10 @@ W tej kolejności:
 ## Co NIE ma być
 
 - Historii rozmów ("wczoraj mieliśmy problem z...")
-- Rozważań "co zrobić" — te należą do sekcji Pending
+- Rozważań "co zrobić" - te należą do sekcji Pending
 - Draft'ów niezatwierdzonych zmian
-- Duplikacji treści z docs/ plików — checkpoint to summary, nie pełna dokumentacja
-- **Outdated instructions** — jeśli akcja wykonana, USUŃ ją lub oznacz RESOLVED
+- Duplikacji treści z docs/ plików - checkpoint to summary, nie pełna dokumentacja
+- **Outdated instructions** - jeśli akcja wykonana, USUŃ ją lub oznacz RESOLVED
 
 ## Pre-/clear checklist
 
@@ -1316,43 +1316,43 @@ Przed `/clear` zweryfikuj WSZYSTKIE punkty:
 
 **Pozostawienie outdated action items:**
 ```
-❌ "Missing script — ACTION REQUIRED by Hunter"  (po tym jak Hunter już to zrobił)
+❌ "Missing script - ACTION REQUIRED by Hunter"  (po tym jak Hunter już to zrobił)
 ✅ "Missing script: RESOLVED (Hunter removed component 2026-04-24)"
 ```
 
 **Generic pending bez priorytetu:**
 ```
-❌ "Sprint A — do zrobienia kiedyś"
-✅ "Sprint A (~2-3 sesje) — Upgrade Shop + Worker Scheduler + Day-End Tick. Wymaga UX decisions od Huntera."
+❌ "Sprint A - do zrobienia kiedyś"
+✅ "Sprint A (~2-3 sesje) - Upgrade Shop + Worker Scheduler + Day-End Tick. Wymaga UX decisions od Huntera."
 ```
 
 **Historyczne szczegóły zamiast decyzji:**
 ```
 ❌ "Długo dyskutowaliśmy o ścieżce A vs B, ostatecznie wybraliśmy B bo..."
-✅ "Decyzja: Ścieżka B — delete unity-dev-toolkit (Dev-GOM, experimental, no license)"
+✅ "Decyzja: Ścieżka B - delete unity-dev-toolkit (Dev-GOM, experimental, no license)"
 ```
 
 **Brak commit hashes:**
 ```
-❌ "(pending) — housekeeping commit"
-✅ "`1ca687a` — chore: housekeeping (.gitignore + checkpoint + progress-tracker)"
+❌ "(pending) - housekeeping commit"
+✅ "`1ca687a` - chore: housekeeping (.gitignore + checkpoint + progress-tracker)"
 ```
 
 ## Update workflow
 
-1. Read `checkpoint.md` (pełne — nie skip)
+1. Read `checkpoint.md` (pełne - nie skip)
 2. Identify sections do zmiany
 3. Edits:
    - **Prepend** do "Session results" jeśli nowa sesja
    - **Update in-place** sekcje z przestarzałymi info
    - **Append** do Pending jeśli nowe items
    - **Remove** outdated action items / RESOLVED issues
-4. Verify cross-references — pliki wspomniane istnieją na dysku
+4. Verify cross-references - pliki wspomniane istnieją na dysku
 5. Commit:
 
 ```bash
 git add checkpoint.md
-git commit -m "docs: update checkpoint — [summary of what changed]"
+git commit -m "docs: update checkpoint - [summary of what changed]"
 ```
 
 ## Relationship to other docs
@@ -1364,13 +1364,13 @@ git commit -m "docs: update checkpoint — [summary of what changed]"
 | `Docs/SCRIPTS_INVENTORY.md` | SNAPSHOT scripts count/locations | gdy liczba skryptów się zmienia |
 | `Docs/SYSTEMS_MAP.md` | ARCHITECTURE reference | gdy nowy system dodany |
 
-Checkpoint **references** te pliki — NIE duplikuje ich treści.
+Checkpoint **references** te pliki - NIE duplikuje ich treści.
 
 ## Powiązane skills
 
-- `hunter-communication-style` — collaboration model section jest core checkpoint'u
-- `timber-migration-pattern` — każdy sprint ma commit hash do udokumentowania
-- `timber-delete-safety` — każdy delete sprint = osobna sekcja w REFACTOR_PROGRESS
+- `hunter-communication-style` - collaboration model section jest core checkpoint'u
+- `timber-migration-pattern` - każdy sprint ma commit hash do udokumentowania
+- `timber-delete-safety` - każdy delete sprint = osobna sekcja w REFACTOR_PROGRESS
 ```
 
 ### D:\Unity\Timber_Tycoon\.claude\skills\map-environment\SKILL.md
@@ -1378,35 +1378,35 @@ Checkpoint **references** te pliki — NIE duplikuje ich treści.
 ```md
 ---
 name: map-environment
-description: Szczegóły mapy Timber Tycoon — teren, góry, rzeka, klif, wodospad, jaskinia, most, drogi, shadery, setup scripty. Używaj gdy pracujesz nad mapą, środowiskiem, terenem, modelami environment lub ich shaderami.
+description: Szczegóły mapy Timber Tycoon - teren, góry, rzeka, klif, wodospad, jaskinia, most, drogi, shadery, setup scripty. Używaj gdy pracujesz nad mapą, środowiskiem, terenem, modelami environment lub ich shaderami.
 ---
 
-# Mapa — Szczegóły Środowiska
+# Mapa - Szczegóły Środowiska
 
 ## Architektura mapy
-- Teren, góry, klif, jaskinia, most — osobne FBX/obiekty (NIE wbudowane w teren)
+- Teren, góry, klif, jaskinia, most - osobne FBX/obiekty (NIE wbudowane w teren)
 - Eksport: `FBX_SCALE_ALL` + `bake_space_transform=True` → Unity scale (1,1,1)
 - Agenty Blender: `.claude/agents/blender-terrain.md`, `.claude/agents/blender-modeler.md`
 - Plik Blendera: `Assets/Models/Environment/Terrain.blend`
 
 ## Pozycjonowanie mapy
-- LowPolyTerrain na (0,0,0) scale (1,1,1) — bakowane współrzędne z Terrain.blend
+- LowPolyTerrain na (0,0,0) scale (1,1,1) - bakowane współrzędne z Terrain.blend
 - Wszystkie obiekty mapy na bakowanych pozycjach z FBX
-- Tartak (Sawmill): pozycja (177.9, 7.62, -88.71), rotation Y=0 — NIE ZMIENIAĆ
+- Tartak (Sawmill): pozycja (177.9, 7.62, -88.71), rotation Y=0 - NIE ZMIENIAĆ
 - Setup scripty: `RebuildFullMap.cs` (master) → uruchamia wszystkie poniższe
 - **Prędkość gracza (tymczasowo ×10):** walkSpeed: 5→50, runSpeed: 8→80
 
 ## Skrypty setup mapy
-1. RebuildFullMap.cs — master
-2. PlaceMountains.cs — góry przednie
-3. SetupBackdropAndCover.cs — góry tylne + zakrycie rzeki
-4. SetupRiver.cs — rzeka + RiverZone
-5. SetupCliff.cs — klif z wodospadem
-6. SetupRiverCave.cs — jaskinia rzeki
-7. SetupWaterfall.cs — wodospad
-8. SetupBridge.cs — most
-9. SetupSawmill.cs — tartak
-10. SetupRoads.cs — drogi z teksturami
+1. RebuildFullMap.cs - master
+2. PlaceMountains.cs - góry przednie
+3. SetupBackdropAndCover.cs - góry tylne + zakrycie rzeki
+4. SetupRiver.cs - rzeka + RiverZone
+5. SetupCliff.cs - klif z wodospadem
+6. SetupRiverCave.cs - jaskinia rzeki
+7. SetupWaterfall.cs - wodospad
+8. SetupBridge.cs - most
+9. SetupSawmill.cs - tartak
+10. SetupRoads.cs - drogi z teksturami
 
 ## Obiekty mapy (wszystkie ✅)
 
@@ -1423,18 +1423,18 @@ description: Szczegóły mapy Timber Tycoon — teren, góry, rzeka, klif, wodos
 **Drogi**: Roads.fbx (4 obiekty: Road_Sawmill_Bridge v2 dwupasmowa 6m + Road_Logging_Dirt + Road_Center_Dirt + Road_CenterLine), shader Custom/RoadTextured + Mat_Road_CenterLine. Wszystkie drogi face-copy topology z terrainu +2cm offset. Teren lokalnie obniżony pod drogami. Roads.blend zapisany (2026-04-13)
 **Tartak**: Sawmill.fbx (416v), 23×17m, Mat_Sawmill (VertexColorLit, Brightness=0.35)
 
-## Drogi — W TOKU (3/6-8)
-- Gotowe: Road_Sawmill_Bridge v2 (żwir 6m dwupasmowa + linia środkowa), Road_Logging_Dirt (polna 3.5m), Road_Center_Dirt (polna 3.5m) — wszystkie z conformity do terrainu (face-copy +2cm)
+## Drogi - W TOKU (3/6-8)
+- Gotowe: Road_Sawmill_Bridge v2 (żwir 6m dwupasmowa + linia środkowa), Road_Logging_Dirt (polna 3.5m), Road_Center_Dirt (polna 3.5m) - wszystkie z conformity do terrainu (face-copy +2cm)
 - Brakuje: droga asfaltowa (miasto), ścieżka leśna (nad rzeką)
 
 ## Shadery custom
-- `Custom/LowPolyWater` — animowane fale, flow, fresnel, piana (rzeka)
-- `Custom/Waterfall` — vertex colors + animacja (fale vertex + scrolling foam), Cull Off
-- `Custom/VertexColorLit` — vertex colors + oświetlenie, Cull Off, BEZ animacji (budynki)
-- `Custom/RoadTextured` — world-space XZ projekcja + normal map + vertex color blend
-- `Custom/RockTriplanar` — triplanar projection dla skał
-- `Custom/MountainLayered` — 5-warstwowy shader gór wewnętrznych
-- `Custom/TerrainTextured` — tekstury terenu
+- `Custom/LowPolyWater` - animowane fale, flow, fresnel, piana (rzeka)
+- `Custom/Waterfall` - vertex colors + animacja (fale vertex + scrolling foam), Cull Off
+- `Custom/VertexColorLit` - vertex colors + oświetlenie, Cull Off, BEZ animacji (budynki)
+- `Custom/RoadTextured` - world-space XZ projekcja + normal map + vertex color blend
+- `Custom/RockTriplanar` - triplanar projection dla skał
+- `Custom/MountainLayered` - 5-warstwowy shader gór wewnętrznych
+- `Custom/TerrainTextured` - tekstury terenu
 
 ## Oświetlenie
 - Day/Night Cycle v2
@@ -1451,22 +1451,22 @@ description: Szczegóły mapy Timber Tycoon — teren, góry, rzeka, klif, wodos
 ```md
 ---
 name: progress-tracker
-description: Status postępu Timber Tycoon — fazy 1-4, co zrobione, co w toku, co następne. Używaj gdy sprawdzasz postęp, planujesz kolejne zadania, lub aktualizujesz status po zakończeniu pracy.
+description: Status postępu Timber Tycoon - fazy 1-4, co zrobione, co w toku, co następne. Używaj gdy sprawdzasz postęp, planujesz kolejne zadania, lub aktualizujesz status po zakończeniu pracy.
 ---
 
-# Timber Tycoon — Postęp
+# Timber Tycoon - Postęp
 
-## Faza 1 — KOMPLETNA ✅
+## Faza 1 - KOMPLETNA ✅
 10 systemów: ServiceLocator, GameEventSO, GameStateMachine, InputManager, SaveManager, AudioManager, SceneTransitionManager, LocalizationManager, TimeManager, PhysicsOptimizer
 
-## Faza 2 — KOMPLETNA ✅
+## Faza 2 - KOMPLETNA ✅
 14 systemów upgraded z ISaveable + GameEventSO (ChoppableTree, GrowingTree, VehicleController, VehicleStorage, MachineBase, InventorySystem, ~~WarehouseManager~~ [USUNIĘTY 2026-04-24 → zastąpiony StorageManager], QuestManager, CounterRepair, PlayerController, PlayerInteraction, AudioManager, LocalizationManager, ToolManager)
 
-## Faza 3 — PRAWIE KOMPLETNA (~95%)
+## Faza 3 - PRAWIE KOMPLETNA (~95%)
 - ✅ Carry System, Narzędzia, Processing Chain (MachineController + MachineOutputCalculator)
 - ✅ Chopping Block: minigierka SwingArc, output BasicFirewood
 - ✅ Storage system NOWY (2026-04-10): StorageRack/Registry/Manager per species. LogRack=60, FirewoodRack=100, StumpRack=15. 4 aktywne gatunki (Spruce/Birch/Oak/Maple)
-- ✅ StorageManager = jedyna authority (2026-04-24): WarehouseManager USUNIĘTY. Sprint C1+C2+C3 — wszystkie callsites zmigrowane. InventoryPanelUI (Tab) pokazuje live dane z SM, zero duplikatów (StorageFamilyHelper.ProductAcceptsSpecies).
+- ✅ StorageManager = jedyna authority (2026-04-24): WarehouseManager USUNIĘTY. Sprint C1+C2+C3 - wszystkie callsites zmigrowane. InventoryPanelUI (Tab) pokazuje live dane z SM, zero duplikatów (StorageFamilyHelper.ProductAcceptsSpecies).
 - ✅ Firewood unifikacja (2026-04-11): species-agnostic, 3 modele Basic/Fine/Premium
 - ✅ FirewoodRack v2 (2026-04-11): U-shape 168v, 3 fill warstwy
 - ✅ StumpRack v2 (2026-04-12): per-species bark/cross-section, 10 pniaków (4+3+3), 636v, 1 mat/mesh
@@ -1478,12 +1478,12 @@ description: Status postępu Timber Tycoon — fazy 1-4, co zrobione, co w toku,
 - ✅ PlantingManager + FertilizeManager + PlantingSlot (3 stage, auto-fertilize, double sapling)
 - ✅ Tutorial (33): 9 questów, QuestManager + QuestUI, ISaveable
 - ✅ Dialogue System (32): DialogueSO + DialogueUI (typewriter, lokalizacja)
-- ⏸️ Dynamic Market: kod gotowy, WYŁĄCZONY — demo statyczne ceny
+- ⏸️ Dynamic Market: kod gotowy, WYŁĄCZONY - demo statyczne ceny
 - ⏸️ Land Expansion (29): odłożone
 - ⏸️ NPC Workers + Pathfinding (30): logika gotowa, brak timingu/animacji/ruchu
 - ⏸️ Automation (31): odłożone na Early Access
 
-## Faza 4 — UI i polish — KOMPLETNA ✅
+## Faza 4 - UI i polish - KOMPLETNA ✅
 - ✅ HUD (34): pieniądze + dzień/czas
 - ✅ Notification Queue (35): 3 typy, max 5 stackowanych
 - ✅ Tooltip System (36): dwuliniowy, 8 subklas
@@ -1508,7 +1508,7 @@ description: Status postępu Timber Tycoon — fazy 1-4, co zrobione, co w toku,
 - ⬜ SFX UI: klik, powiadomienie, quest, upgrade, dialog (5)
 - ⬜ SFX naprawa: młotek loop, gotowe (2)
 - ⬜ SFX magazyn: kłoda na regał, zabranie (2)
-- ⬜ Muzyka (Suno) — odłożone
+- ⬜ Muzyka (Suno) - odłożone
 
 ## Środowisko / Polish
 - ✅ Day/Night Cycle v2
@@ -1522,12 +1522,12 @@ description: Status postępu Timber Tycoon — fazy 1-4, co zrobione, co w toku,
 - ✅ Klif z wodospadem + jaskinia
 - ✅ Rzeka semi-eliptyczna + wodospad + tunel
 - ✅ Most łukowy
-- 🔨 Drogi — 3/6-8 gotowe (brakuje: asfaltowa miasto, ścieżka leśna)
+- 🔨 Drogi - 3/6-8 gotowe (brakuje: asfaltowa miasto, ścieżka leśna)
   - ✅ Road_Sawmill_Bridge v2 (2026-04-13): 6m dwupasmowa, face-copy terrainu, linia środkowa
   - ✅ Road_Logging_Dirt + Road_Center_Dirt conformity (2026-04-13): terrain+2cm, 0 pokes, endcap przesunięty żeby nie nachodziły na gravel
   - ✅ Road_Parking_Branch v9 + Parking_Lot (2026-04-14): smooth cubic bezier quarter-arc, shared-vertex junction z Road_Sawmill_Bridge (+4 verts) i Parking_Lot (+5 verts), apron 1m po bokach, 385v/324f. Wyeksportowany do Roads.fbx z Road_Sawmill_Bridge v2, Mat_Road_Gravel + MeshCollider, warstwa Road (layer 6).
 
-## Faza 5 — NPC Customers Traffic (PHASE1_NPC_CUSTOMERS.md)
+## Faza 5 - NPC Customers Traffic (PHASE1_NPC_CUSTOMERS.md)
 - ✅ Road layer (2026-04-14): nowa warstwa Road (index 6) w TagManager
 - ✅ Infrastruktura waypointów (2026-04-14): TrafficWaypoints z EntryPath (13 main + 5 branch) + ExitPath (5 branch + 13 main) + ParkEntry/ExitYield + 12 ParkingSlots (P00_W..P05_E, 6 par W+E). ParkingManager w Services, Tier1 SO (2 sloty).
 - ✅ Parking slots redistribution (2026-04-16)
@@ -1544,17 +1544,17 @@ description: Status postępu Timber Tycoon — fazy 1-4, co zrobione, co w toku,
 - ✅ NPCPedestrian + CounterManager + SpawnManager (2026-04-20)
 - ⬜ Faza 3: yield wewnętrzny cross-lane
 
-## Sprint Lvl 3 — PlankMaker ✅ COMPLETE (2026-04-30)
+## Sprint Lvl 3 - PlankMaker ✅ COMPLETE (2026-04-30)
 ## PelletBag / PelletRack ✅ (2026-05-15)
 ## Shredder / Szreder ✅ (2026-04-20)
-## Pelletizer — minigra ✅ WaitForRed phase (2026-05-15)
-## Sprint A — Upgrade Shop UI (W TOKU 🔨)
-## Sprint C — GrowingTree Persistence ✅ (2026-05-16)
+## Pelletizer - minigra ✅ WaitForRed phase (2026-05-15)
+## Sprint A - Upgrade Shop UI (W TOKU 🔨)
+## Sprint C - GrowingTree Persistence ✅ (2026-05-16)
 
 ## Drzewa / Assety
 - ✅ Spruce, Birch, Oak, Maple: pełny cykl
 - ✅ GrowingTreeOak.prefab + GrowingTreeMaple.prefab (2026-05-17)
-- ⬜ Acacia, Mahogany — po demo
+- ⬜ Acacia, Mahogany - po demo
 ```
 
 ### D:\Unity\Timber_Tycoon\.claude\skills\storage-manager-api\SKILL.md
@@ -1562,16 +1562,16 @@ description: Status postępu Timber Tycoon — fazy 1-4, co zrobione, co w toku,
 ```md
 ---
 name: storage-manager-api
-description: StorageManager API — GetAmount/AddToStorage/RemoveFromStorage + StorageFamilyHelper + ActiveLogSpecies pattern. Używaj gdy piszesz kod czytający lub modyfikujący magazyn.
+description: StorageManager API - GetAmount/AddToStorage/RemoveFromStorage + StorageFamilyHelper + ActiveLogSpecies pattern. Używaj gdy piszesz kod czytający lub modyfikujący magazyn.
 ---
 
-# StorageManager API — Timber Tycoon
+# StorageManager API - Timber Tycoon
 
 Single source of truth for inventory storage. Jedyne API do czytania/pisania stanu magazynu.
 
 ## Core API
 
-- `StorageManager.Instance` — singleton, może być null podczas transition/shutdown
+- `StorageManager.Instance` - singleton, może być null podczas transition/shutdown
 - `GetAmount(ProductType product, WoodSpecies species)` → `int`
   - Zwraca sumę ze wszystkich racków dla danej pary (product, species)
   - Dla species-agnostic: zawsze `WoodSpecies.None`
@@ -1580,27 +1580,27 @@ Single source of truth for inventory storage. Jedyne API do czytania/pisania sta
 - `RemoveFromStorage(ProductType product, WoodSpecies species, int amount)` → `int`
   - Zwraca ilość FAKTYCZNIE usuniętą. Zero = nic nie było.
 
-## NIE UŻYWAJ — Metody które nie istnieją
+## NIE UŻYWAJ - Metody które nie istnieją
 
-- `GetCount()` — NIE ISTNIEJE. Używaj `GetAmount()`
-- `GetAllRawMaterials()` — NIE ISTNIEJE (legacy `WarehouseManager`, usunięty Sprint C3)
-- `GetAllProducts()` — NIE ISTNIEJE (legacy `WarehouseManager`)
-- `HasProduct()` / `HasEnough()` — NIE ISTNIEJE. Użyj `GetAmount() > 0`
-- Bezpośredni dostęp do racków z pominięciem StorageManager — **NIGDY**
+- `GetCount()` - NIE ISTNIEJE. Używaj `GetAmount()`
+- `GetAllRawMaterials()` - NIE ISTNIEJE (legacy `WarehouseManager`, usunięty Sprint C3)
+- `GetAllProducts()` - NIE ISTNIEJE (legacy `WarehouseManager`)
+- `HasProduct()` / `HasEnough()` - NIE ISTNIEJE. Użyj `GetAmount() > 0`
+- Bezpośredni dostęp do racków z pominięciem StorageManager - **NIGDY**
 
 ## Species-agnostic vs species-typed
 
 Przed iteracją gatunków sprawdź: `StorageFamilyHelper.ProductAcceptsSpecies(ProductType pt)`
 
-**Species-agnostic** (`ProductAcceptsSpecies = false`) — czytaj/pisz wyłącznie z `WoodSpecies.None`:
+**Species-agnostic** (`ProductAcceptsSpecies = false`) - czytaj/pisz wyłącznie z `WoodSpecies.None`:
 - `Firewood_Regular`, `Firewood_Fine`, `Firewood_Premium`
 - `BagOfChips`, `WoodChips`, `Bark`, `Pellet`, `Fertilizer`, `Furniture`
 
-**Species-typed** (`ProductAcceptsSpecies = true`) — każda para (product, species) to osobny bucket:
+**Species-typed** (`ProductAcceptsSpecies = true`) - każda para (product, species) to osobny bucket:
 - `Log`, `Stump`, `Plank`
 - Iteruj przez `ActiveLogSpecies[]`, pomijaj `WoodSpecies.None`
 
-## ActiveLogSpecies — wzorzec iteracji
+## ActiveLogSpecies - wzorzec iteracji
 
 ```csharp
 private static readonly WoodSpecies[] ActiveLogSpecies =
@@ -1630,12 +1630,12 @@ foreach (var sp in ActiveLogSpecies)
 Dodanie nowego gatunku (Acacia, Mahogany) = dodaj do `ActiveLogSpecies[]`.
 Wzorzec zaimplementowany w: `ChoppingBlock.cs`
 
-## Null safety — obowiązkowy wzorzec
+## Null safety - obowiązkowy wzorzec
 
 ```csharp
 if (StorageManager.Instance == null)
 {
-    Debug.LogWarning("[NazwaKlasy] StorageManager.Instance null — operation skipped");
+    Debug.LogWarning("[NazwaKlasy] StorageManager.Instance null - operation skipped");
     return;
 }
 ```
@@ -1645,12 +1645,12 @@ if (StorageManager.Instance == null)
 - shutdown
 - wczesnej inicjalizacji (przed `Services.Register<StorageManager>()`)
 
-## Pliki — poprawne użycie jako referencja
+## Pliki - poprawne użycie jako referencja
 
-- `Assets/Project/Scripts/Warehouse/UnloadZone.cs` — `AddToStorage` (pattern rozładunku)
-- `Assets/Project/Scripts/Chipper/ChipperMachine.cs` — `GetAmount` + `RemoveFromStorage`
-- `Assets/Project/Scripts/ChoppingBlock.cs` — `ActiveLogSpecies` iteration
-- `Assets/Project/Scripts/UI/InventoryPanelUI.cs` — `StorageFamilyHelper` branching
+- `Assets/Project/Scripts/Warehouse/UnloadZone.cs` - `AddToStorage` (pattern rozładunku)
+- `Assets/Project/Scripts/Chipper/ChipperMachine.cs` - `GetAmount` + `RemoveFromStorage`
+- `Assets/Project/Scripts/ChoppingBlock.cs` - `ActiveLogSpecies` iteration
+- `Assets/Project/Scripts/UI/InventoryPanelUI.cs` - `StorageFamilyHelper` branching
 ```
 
 ### D:\Unity\Timber_Tycoon\.claude\skills\timber-delete-safety\SKILL.md
@@ -1658,25 +1658,25 @@ if (StorageManager.Instance == null)
 ```md
 ---
 name: timber-delete-safety
-description: Delete safety — grep project-wide, caller categorization, scene attachment check, compile verify. Używaj przed usunięciem dowolnego pliku .cs, klasy, metody, komponentu lub GameObject.
+description: Delete safety - grep project-wide, caller categorization, scene attachment check, compile verify. Używaj przed usunięciem dowolnego pliku .cs, klasy, metody, komponentu lub GameObject.
 ---
 
-# Delete Safety — Timber Tycoon
+# Delete Safety - Timber Tycoon
 
 Żaden delete nie przechodzi bez wszystkich 4 kroków weryfikacji.
 
 ## Zasada fundamentalna
 
 - **Zero delete bez pełnej weryfikacji**
-- Delete to akcja jednorazowa — git restore działa, ale nieprzemyślany delete + follow-up commity to godziny debug'u
+- Delete to akcja jednorazowa - git restore działa, ale nieprzemyślany delete + follow-up commity to godziny debug'u
 - Koszt recon'u (5-10 min) << koszt naprawy po zepsutym delete (godziny)
 - **Jeśli niepewny kategoryzacji callera → STOP, zapytaj Huntera**
 
-## Obowiązkowy workflow — 4 kroki
+## Obowiązkowy workflow - 4 kroki
 
 Wykonaj WSZYSTKIE 4 kroki w kolejności. Nie skracaj.
 
-### Krok 1 — Grep project-wide
+### Krok 1 - Grep project-wide
 
 ```bash
 # Klasa / MonoBehaviour
@@ -1691,7 +1691,7 @@ grep -r "NazwaStałej" Assets/Project/Scripts/
 
 Zapisz każde trafienie: plik + linia + kontekst wywołania.
 
-### Krok 2 — Kategoryzacja callerów
+### Krok 2 - Kategoryzacja callerów
 
 Dla każdego trafienia z Kroku 1:
 
@@ -1699,14 +1699,14 @@ Dla każdego trafienia z Kroku 1:
 |-----------|-----------|---------------|
 | **Aktywny** | Wywoływany na głównych ścieżkach gameplay | Blokuje delete |
 | **Dead code** | Zero external callerów, nigdy nie wywoływany | Safe |
-| **Editor tool** | `[MenuItem]`, `GameObject.Find("...")` — compile-safe | Safe |
+| **Editor tool** | `[MenuItem]`, `GameObject.Find("...")` - compile-safe | Safe |
 | **Komentarz** | Wzmianka w komentarzu / XML docs | Safe |
 
 **Decyzja:**
 - Wszystkie trafienia = Dead / Editor / Komentarz → **proceed**
-- Jakikolwiek Aktywny → **STOP** — najpierw migracja lub usunięcie callera, potem delete
+- Jakikolwiek Aktywny → **STOP** - najpierw migracja lub usunięcie callera, potem delete
 
-### Krok 3 — Scene attachment check (MonoBehaviour only)
+### Krok 3 - Scene attachment check (MonoBehaviour only)
 
 Dla każdej klasy dziedziczącej `MonoBehaviour` sprawdź attachment w scenie.
 
@@ -1719,10 +1719,10 @@ W Unity:
 
 Jeśli attached → Hunter usuwa component ręcznie → Ctrl+S → dopiero potem delete .cs.
 
-**NIE pomijaj** tego kroku — pominięcie = missing script warning trwale w scenie.
+**NIE pomijaj** tego kroku - pominięcie = missing script warning trwale w scenie.
 Szczegóły workflow: skill `unity-scene-rules` sekcja "Scene attachment check".
 
-### Krok 4 — Compile check po delete
+### Krok 4 - Compile check po delete
 
 ```bash
 git rm NazwaKlasy.cs NazwaKlasy.cs.meta
@@ -1732,7 +1732,7 @@ Następnie w Unity (lub przez MCP `check_compile_errors`):
 - Zero errors → safe, kontynuuj
 - Jakikolwiek error → **`git restore NazwaKlasy.cs`** natychmiast, przeanalizuj przyczynę
 
-## Raport pre-delete — format dla Huntera
+## Raport pre-delete - format dla Huntera
 
 Przed zatwierdzeniem, przedstaw tabelę:
 
@@ -1744,7 +1744,7 @@ Przed zatwierdzeniem, przedstaw tabelę:
 
 Tabela musi być kompletna dla wszystkich plików w scope sprint'u.
 
-## Dead code detection — sygnały
+## Dead code detection - sygnały
 
 - Metody bez external callerów (grep zwraca tylko definicję)
 - Klasy z `// TODO: remove in Sprint X` (po zakończonym sprincie)
@@ -1757,12 +1757,12 @@ Tabela musi być kompletna dla wszystkich plików w scope sprint'u.
 
 Wzorzec użyty w: B-light (6 dead files), C3 (WarehouseManager), C4-lite (5 legacy files).
 
-1. **Recon** — grep wszystkich plików w scope, raport tabelaryczny
-2. **Plan** — kategoryzacja per-plik, decyzje, tabela pre-delete
-3. **Hunter approval** — czeka na akceptację planu, NIE proceed bez
-4. **Execute** — per-plik: `git rm` → compile check → next
-5. **Smoke test** — quick gameplay check po wszystkich delete
-6. **Commit** — jeden commit z opisem co i dlaczego
+1. **Recon** - grep wszystkich plików w scope, raport tabelaryczny
+2. **Plan** - kategoryzacja per-plik, decyzje, tabela pre-delete
+3. **Hunter approval** - czeka na akceptację planu, NIE proceed bez
+4. **Execute** - per-plik: `git rm` → compile check → next
+5. **Smoke test** - quick gameplay check po wszystkich delete
+6. **Commit** - jeden commit z opisem co i dlaczego
 
 ## Rollback
 
@@ -1773,12 +1773,12 @@ git restore .               # cofnij wszystko niestagowane
 git reset --hard HEAD~1     # cofnij ostatni commit (NIEODWRACALNE dla niekomitowanych zmian)
 ```
 
-**`git reset --hard` na już-pushed commit = wymagany force push — NIGDY bez zgody Huntera.**
+**`git reset --hard` na już-pushed commit = wymagany force push - NIGDY bez zgody Huntera.**
 
 ## Powiązane skills
 
-- `unity-scene-rules` — pełny workflow scene attachment check
-- `hunter-communication-style` — reguła "ask before irreversible actions"
+- `unity-scene-rules` - pełny workflow scene attachment check
+- `hunter-communication-style` - reguła "ask before irreversible actions"
 ```
 
 ### D:\Unity\Timber_Tycoon\.claude\skills\timber-migration-pattern\SKILL.md
@@ -1786,10 +1786,10 @@ git reset --hard HEAD~1     # cofnij ostatni commit (NIEODWRACALNE dla niekomito
 ```md
 ---
 name: timber-migration-pattern
-description: Migration pattern Timber Tycoon — recon → plan → implementation → smoke test. Primary + fallback → remove fallback. Używaj gdy migrujesz kod z jednego systemu (np. WarehouseManager) do innego (np. StorageManager).
+description: Migration pattern Timber Tycoon - recon → plan → implementation → smoke test. Primary + fallback → remove fallback. Używaj gdy migrujesz kod z jednego systemu (np. WarehouseManager) do innego (np. StorageManager).
 ---
 
-# Migration Pattern — Timber Tycoon
+# Migration Pattern - Timber Tycoon
 
 4-fazowy workflow, sprawdzony 4x dzisiaj (UnloadZone, ChipperMachine, ChoppingBlock, InventoryPanelUI). Obowiązkowy dla każdej migracji systemowej.
 
@@ -1798,20 +1798,20 @@ description: Migration pattern Timber Tycoon — recon → plan → implementati
 - Migracja = przeniesienie kodu z **StarySystem** do **NowySystem**
 - **Nigdy jednym krokiem.** Zawsze etapy z możliwością rollback'u między nimi
 - Pattern "Primary + fallback → remove fallback" = continuous working state przez całą migrację
-- Unique log suffix `[#{counter}]` w każdej pętli loggingowej — defeat Unity Console Collapse
+- Unique log suffix `[#{counter}]` w każdej pętli loggingowej - defeat Unity Console Collapse
 
 ## 4-fazowy workflow
 
-### Faza 1 — Recon
+### Faza 1 - Recon
 
 Cel: zrozumieć scope przed napisaniem zmian.
 
 1. Grep project-wide wszystkich callerów StarySystem
 2. Kategoryzacja każdego call site:
-   - **READ** — czyta stan (`GetAmount`, `GetAllRawMaterials`)
-   - **WRITE** — modyfikuje stan (`AddRawMaterial`, `RemoveRawMaterial`)
-   - **TYPE REF** — tylko deklaracja zmiennej/pola, bez wywołania
-3. Sprawdź czy NowySystem ma "secondary mirror" (dual-write) — jeśli tak, Faza 3 = promotion do primary
+   - **READ** - czyta stan (`GetAmount`, `GetAllRawMaterials`)
+   - **WRITE** - modyfikuje stan (`AddRawMaterial`, `RemoveRawMaterial`)
+   - **TYPE REF** - tylko deklaracja zmiennej/pola, bez wywołania
+3. Sprawdź czy NowySystem ma "secondary mirror" (dual-write) - jeśli tak, Faza 3 = promotion do primary
 4. Identyfikuj blockery:
    - API mismatch (StarySystem ma metodę której NowySystem nie ma)
    - Save compatibility (stare save'y tylko w StarySystem)
@@ -1819,7 +1819,7 @@ Cel: zrozumieć scope przed napisaniem zmian.
 
 **Output Fazy 1:** tabelaryczny raport + rekomendacja scope'u dla Huntera.
 
-### Faza 2 — Plan
+### Faza 2 - Plan
 
 Cel: konkretny step-by-step plan zanim tknięte linie kodu.
 
@@ -1832,7 +1832,7 @@ Elementy planu:
 
 **Hunter approval OBOWIĄZKOWY przed Fazą 3.** NIE proceed bez.
 
-### Faza 3 — Implementation
+### Faza 3 - Implementation
 
 Cel: wykonać plan. Bez improwizacji.
 
@@ -1847,40 +1847,40 @@ Jeśli podczas implementacji pojawi się decyzja nie zawarta w planie → **STOP
 
 **NIE** modyfikuj kodu poza scope'em planu. Scope creep = rollback risk.
 
-### Faza 4 — Smoke test
+### Faza 4 - Smoke test
 
 Cel: potwierdzenie że migracja nie zepsuła gameplay.
 
 - Compile zero errors
 - Zero nowych console warnings (poza planned expected ones)
-- **Pełny tutorial regression** — nie tylko unit test migrowanego komponentu
+- **Pełny tutorial regression** - nie tylko unit test migrowanego komponentu
 - `InventoryPanelUI` (Tab) pokazuje oczekiwane dane
 - Sprzedaż NPC działa end-to-end
 
 **Pełny tutorial jest KRYTYCZNY.** Unit test migrowanego modułu nie wystarczy.
 
-## Primary + Fallback — wzorzec przejściowy
+## Primary + Fallback - wzorzec przejściowy
 
-**Etap A — Dual-write (secondary mirror):**
+**Etap A - Dual-write (secondary mirror):**
 ```csharp
 // Primary
 StarySystem.Instance.AddX(key, 1);
-// Secondary mirror — TODO remove after migration
+// Secondary mirror - TODO remove after migration
 if (NowySystem.Instance != null)
     NowySystem.Instance.AddY(product, species, 1);
 ```
 
-**Etap B — Promote NowySystem do primary, StarySystem do fallback:**
+**Etap B - Promote NowySystem do primary, StarySystem do fallback:**
 ```csharp
 // Primary
 NowySystem.Instance.AddY(product, species, 1);
-// Fallback (legacy) — TODO remove in Sprint X
+// Fallback (legacy) - TODO remove in Sprint X
 if (StarySystem.Instance != null)
     StarySystem.Instance.AddX(key, 1);
 ```
 
-**Etap C — Remove fallback**
-**Etap D — Delete StarySystem.cs** (patrz: `timber-delete-safety`)
+**Etap C - Remove fallback**
+**Etap D - Delete StarySystem.cs** (patrz: `timber-delete-safety`)
 
 ## Sprint absorption rule
 
@@ -1888,7 +1888,7 @@ Jeśli Faza 1 recon odkryje compile blocker w innym planowanym sprincie:
 - **Absorb** mniejszy sprint do obecnego
 - Udokumentuj w commit message: `"(absorbed Sprint X: reason)"`
 
-## Unique log suffix — OBOWIĄZKOWY dla pętli
+## Unique log suffix - OBOWIĄZKOWY dla pętli
 
 ```csharp
 // ❌ ZŁE
@@ -1898,7 +1898,7 @@ Debug.Log($"[UnloadZone] Unloaded 1x {pt} ({sp}) to StorageManager");
 Debug.Log($"[UnloadZone] Unloaded 1x {pt} ({sp}) to StorageManager [#{++unloadCount}]");
 ```
 
-## Historia migracji — referencje
+## Historia migracji - referencje
 
 | Sprint | StarySystem | NowySystem | Pattern |
 |--------|-------------|------------|---------|
@@ -1909,10 +1909,10 @@ Debug.Log($"[UnloadZone] Unloaded 1x {pt} ({sp}) to StorageManager [#{++unloadCo
 
 ## Powiązane skills
 
-- `timber-delete-safety` — Etap D workflow
-- `unity-scene-rules` — jeśli migracja dotyka scene-attached components
-- `storage-manager-api` — API cheat sheet dla StorageManager
-- `hunter-communication-style` — Hunter approval obowiązkowy przed Fazą 3
+- `timber-delete-safety` - Etap D workflow
+- `unity-scene-rules` - jeśli migracja dotyka scene-attached components
+- `storage-manager-api` - API cheat sheet dla StorageManager
+- `hunter-communication-style` - Hunter approval obowiązkowy przed Fazą 3
 ```
 
 ### D:\Unity\Timber_Tycoon\.claude\skills\unity-scene-rules\SKILL.md
@@ -1920,22 +1920,22 @@ Debug.Log($"[UnloadZone] Unloaded 1x {pt} ({sp}) to StorageManager [#{++unloadCo
 ```md
 ---
 name: unity-scene-rules
-description: Unity scene files Timber Tycoon — aktywna scena, format binary vs YAML, missing script handling, scene attachment check. Używaj gdy modyfikujesz lub analizujesz scenę.
+description: Unity scene files Timber Tycoon - aktywna scena, format binary vs YAML, missing script handling, scene attachment check. Używaj gdy modyfikujesz lub analizujesz scenę.
 ---
 
-# Unity Scene Rules — Timber Tycoon
+# Unity Scene Rules - Timber Tycoon
 
-Jedna aktywna scena, format binarny — edycja tylko przez Unity Editor.
+Jedna aktywna scena, format binarny - edycja tylko przez Unity Editor.
 
 ## Aktywna scena
 
 - **Ścieżka:** `Assets/Demo_Scene.unity`
 - **Format:** BINARY (Unity 6000.3.5f1 native serialization)
-- **NIE edytuj tekstem** — str_replace, sed, Write tool spowodują corruption sceny
+- **NIE edytuj tekstem** - str_replace, sed, Write tool spowodują corruption sceny
 - Modyfikacje: WYŁĄCZNIE manualnie w Unity Editor przez Huntera
-- **Nie ma innych scen w projekcie** — `Assets/Scenes/` folder usunięty (legacy Phase 1 duplikat).
+- **Nie ma innych scen w projekcie** - `Assets/Scenes/` folder usunięty (legacy Phase 1 duplikat).
 
-## Format — binary vs YAML
+## Format - binary vs YAML
 
 - **Domyślnie Unity 6: BINARY** (aktywna scena TT jest binarna)
 - YAML scenes: tylko przy `ProjectSettings/EditorSettings Force Text`
@@ -1943,7 +1943,7 @@ Jedna aktywna scena, format binarny — edycja tylko przez Unity Editor.
 - YAML: zaczyna się od `%YAML 1.1` lub `--- !u!`
 - Prefabs (`.prefab`): zawsze YAML
 
-## Modyfikacje sceny — workflow
+## Modyfikacje sceny - workflow
 
 1. Napisz instrukcję dla Huntera:
 ```
@@ -1967,7 +1967,7 @@ Naprawa (Hunter manual):
 3. Inspector → prawy klik `Missing (Mono Script)` → Remove Component
 4. Ctrl+S → commit
 
-## Scene attachment check — przed każdym delete .cs
+## Scene attachment check - przed każdym delete .cs
 
 1. Instrukcja dla Huntera:
 ```
@@ -2022,7 +2022,7 @@ nothing to commit, working tree clean
 ### git remote -v (D:\Hunter\KnowledgeBase)
 
 ```
-(no output — no remote configured)
+(no output - no remote configured)
 ```
 
 ## Section 9: Toolchain inventory

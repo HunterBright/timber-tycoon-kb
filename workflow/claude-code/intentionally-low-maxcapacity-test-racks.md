@@ -28,7 +28,7 @@ name: intentionally-low-maxcapacity-test-racks
 During development, use LOW maxCapacity values on test racks to hit edge cases quickly. Mark all low values with a comment so they don't ship.
 
 ```csharp
-// INTENTIONALLY LOW for testing — production: Plank=50, Bark=30
+// INTENTIONALLY LOW for testing - production: Plank=50, Bark=30
 LogRack.maxCapacity = 5;    // production: 60
 PlankRack.maxCapacity = 4;  // production: 50
 BarkRack.maxCapacity = 2;   // production: 30

@@ -25,7 +25,7 @@ Games where the player enters and exits a vehicle, and the camera should switch 
 
 ## Steps
 
-**Enter vehicle — attach VehicleCamera:**
+**Enter vehicle - attach VehicleCamera:**
 ```csharp
 // Called from VehicleInteractable.OnInteract()
 var vehicleCam = playerCamera.gameObject.AddComponent<VehicleCamera>();
@@ -43,7 +43,7 @@ void Update() {
     // Zoom
     currentDist = Mathf.Clamp(
         currentDist - Input.GetAxis("Mouse ScrollWheel") * scrollSensitivity,
-        minDist, maxDist); // 4–15m range
+        minDist, maxDist); // 4-15m range
 
     // Follow (smooth Lerp)
     Vector3 goalPos = target.position
@@ -53,7 +53,7 @@ void Update() {
 }
 ```
 
-**Exit vehicle — remove VehicleCamera:**
+**Exit vehicle - remove VehicleCamera:**
 ```csharp
 Destroy(playerCamera.GetComponent<VehicleCamera>());
 // Reset camera to player first-person state (see [[vehicle-enter-exit-choreography]])
@@ -66,7 +66,7 @@ Destroy(playerCamera.GetComponent<VehicleCamera>());
 
 ## Trade-offs
 - Pitch clamped -45° to +85°: cannot look straight down or fully upward (prevent gimbal flip). Adjust clamps if your camera needs more range
-- `Lerp` follow: at low `followSpeed`, camera lags noticeably behind fast vehicle — tune per vehicle speed
+- `Lerp` follow: at low `followSpeed`, camera lags noticeably behind fast vehicle - tune per vehicle speed
 - `LookAt`: camera always looks at vehicle center. For large vehicles, `lookAtHeightOffset` should point at driver seat height, not wheel level
 
 ## Variants

@@ -1,5 +1,5 @@
 ---
-title: Building Progression — Instant Spawn Post-Purchase
+title: Building Progression - Instant Spawn Post-Purchase
 type: decision
 status: draft
 confidence: medium
@@ -15,13 +15,13 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: Building expansions appear INSTANTLY post-purchase (1.5s fade-in only). Realistic construction time rejected — tycoons reward decisions immediately. "I bought it, it's there."
+description: Building expansions appear INSTANTLY post-purchase (1.5s fade-in only). Realistic construction time rejected - tycoons reward decisions immediately. "I bought it, it's there."
 severity: high
 suggested-category: genre/tycoon/decisions
 name: building-progression-instant-spawn
 ---
 
-# Building Progression — Instant Spawn Post-Purchase
+# Building Progression - Instant Spawn Post-Purchase
 
 ## Decision
 
@@ -37,7 +37,7 @@ name: building-progression-instant-spawn
 ## Why instant wins
 
 **Realistic construction fails for tycoons:**
-- Interrupts the core gameplay loop — player must wait instead of play
+- Interrupts the core gameplay loop - player must wait instead of play
 - Players save-scum to skip construction anyway (reveals they don't want to wait)
 - "Realism" is not TT's aesthetic (low-poly, stylized, arcade-ish)
 - Decision→reward gap should be short in tycoons (Tavern Manager, Supermarket Sim, Farmer's Dynasty all instant)
@@ -50,9 +50,9 @@ name: building-progression-instant-spawn
 
 ## Sawmill wing order
 
-1. **Strefa 1** — visible at game start (default)
-2. **Strefa 2** — right wing, unlocked mid-game (~level 5 upgrade)
-3. **Strefa 3** — left wing, unlocked late-game (~level 10 upgrade)
+1. **Strefa 1** - visible at game start (default)
+2. **Strefa 2** - right wing, unlocked mid-game (~level 5 upgrade)
+3. **Strefa 3** - left wing, unlocked late-game (~level 10 upgrade)
 
 ## Consequences
 

@@ -1,5 +1,5 @@
 ---
-title: Audio Strategy — Minimal Music + Heavy Ambient + Voice Bites
+title: Audio Strategy - Minimal Music + Heavy Ambient + Voice Bites
 type: decision
 status: draft
 confidence: medium
@@ -16,13 +16,13 @@ tags:
 applies_to:
 - unity-projects
 source: ''
-description: Valheim-style audio strategy — minimal music (key moments only), heavy ambient (wind, footsteps, environment), ElevenLabs-generated voice bites in native language. Atmospheric > music-saturated.
+description: Valheim-style audio strategy - minimal music (key moments only), heavy ambient (wind, footsteps, environment), ElevenLabs-generated voice bites in native language. Atmospheric > music-saturated.
 severity: medium
 suggested-category: genre/cross-genre/decisions
 name: audio-strategy-minimal-music-heavy-ambient
 ---
 
-# Audio Strategy — Minimal Music + Heavy Ambient + Voice Bites
+# Audio Strategy - Minimal Music + Heavy Ambient + Voice Bites
 
 ## Decision
 
@@ -30,7 +30,7 @@ name: audio-strategy-minimal-music-heavy-ambient
 
 ## Strategy breakdown
 
-### Music (LOW priority — key moments only)
+### Music (LOW priority - key moments only)
 Inspired by Valheim: silence makes music land harder. Music only at:
 - Main menu
 - Major building completion (igloo finished, permanent shelter built)
@@ -40,11 +40,11 @@ Inspired by Valheim: silence makes music land harder. Music only at:
 
 Between music moments: pure ambient. No looping background music.
 
-### Ambient (HIGH priority — primary audio)
+### Ambient (HIGH priority - primary audio)
 The ambient IS the soundtrack:
 
 **Eskimo Simulator ambients:**
-- Wind intensity (dynamic — scales with storm severity)
+- Wind intensity (dynamic - scales with storm severity)
 - Snow footstep layers (per depth: packed surface vs. deep powder)
 - Cracking thin ice warning
 - Qulliq (oil lamp) flame flicker
@@ -53,7 +53,7 @@ The ambient IS the soundtrack:
 
 **TT application:** sawmill ambient over music. Ambient river + birds + distant saw + wood creaking = more immersive than music loop.
 
-### Voice (MEDIUM priority — authenticity layer)
+### Voice (MEDIUM priority - authenticity layer)
 ElevenLabs-generated. Use native languages for cultural authenticity:
 - Eskimo Simulator: Inuktitut for Inuit NPC greetings/reactions
 - Timber Tycoon: Polish customer exclamations (already in-region, reinforces setting)
@@ -72,7 +72,7 @@ ElevenLabs-generated. Use native languages for cultural authenticity:
 
 ## Why ambient-priority wins over music-priority
 
-Music-saturated games feel "video gamey." Ambient-priority games feel atmospheric and place-specific. If you're in an arctic blizzard, you should HEAR the blizzard — not hear an orchestral swell that happens to be playing.
+Music-saturated games feel "video gamey." Ambient-priority games feel atmospheric and place-specific. If you're in an arctic blizzard, you should HEAR the blizzard - not hear an orchestral swell that happens to be playing.
 
 The music that does exist hits harder because of the contrast. Valheim players remember the moment the combat music kicked in. That moment wouldn't land if combat music played constantly.
 

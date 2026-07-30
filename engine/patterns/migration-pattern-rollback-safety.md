@@ -26,7 +26,7 @@ Any refactor that moves state or logic from one system to another (e.g., `Sawmil
 
 **Concrete example: SawmillManager.CurrentReputation → ReputationManager**
 
-**Sprint 4a (backend only — "the scary part"):**
+**Sprint 4a (backend only - "the scary part"):**
 1. Create `ReputationManager` singleton with ISaveable
 2. Move data: reputation int, level lookup
 3. Move state transitions: `OnSale` → increments reputation
@@ -35,7 +35,7 @@ Any refactor that moves state or logic from one system to another (e.g., `Sawmil
 6. Smoke test: sell product → `ReputationManager.Current` increments, `SawmillManager.CurrentReputation` returns same value via shim
 7. **Commit.** System works. Old callers work. Rollback possible.
 
-**Sprint 4b (UI consumers — "the boring part"):**
+**Sprint 4b (UI consumers - "the boring part"):**
 1. Update HUD widget to read from `ReputationManager`
 2. Update kiosk UI to read from `ReputationManager`
 3. Remove `[Obsolete]` shim after `grep` confirms zero remaining callers
@@ -48,7 +48,7 @@ Any refactor that moves state or logic from one system to another (e.g., `Sawmil
 public int CurrentReputation => ReputationManager.Instance.Current;
 ```
 
-**Before removing deprecated code** — must pass the before-delete checklist (see [[before-delete-legacy-class-checklist]]):
+**Before removing deprecated code** - must pass the before-delete checklist (see [[before-delete-legacy-class-checklist]]):
 ```bash
 grep -r "CurrentReputation" Assets/ --include="*.cs"
 # Must return 0 matches before deletion
@@ -58,7 +58,7 @@ grep -r "CurrentReputation" Assets/ --include="*.cs"
 Each sprint produces a working, committable state. If 4b introduces a bug, 4a remains a known-good commit. No big-bang = no "everything broke at once" debugging sessions.
 
 ## Trade-offs
-- Shim maintenance: `[Obsolete]` shim must match new API's behavior exactly. If new API has different semantics (returns float instead of int), shim can't perfectly bridge — document the difference
+- Shim maintenance: `[Obsolete]` shim must match new API's behavior exactly. If new API has different semantics (returns float instead of int), shim can't perfectly bridge - document the difference
 - Two-sprint cost: takes longer than one big commit. Justified for any migration touching ISaveable (save format changes = user data at risk)
 - Sprint 4a is "scary": it touches save data if reputation was previously saved in SawmillManager. Verify ISaveable key migration carefully (old key → reads as 0 → new key saves correctly)
 

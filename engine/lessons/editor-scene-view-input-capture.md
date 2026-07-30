@@ -27,7 +27,7 @@ suggested-category: engine/lessons
 Custom editor tools that want to capture mouse clicks in Scene View select the underlying object instead of running tool logic. "I click to add a waypoint, Unity selects the terrain instead."
 
 ## Root cause
-Default Unity behavior: LMB in Scene View selects whatever is under the cursor. Editor tools must explicitly claim control via `HandleUtility.AddDefaultControl` AND consume the event via `e.Use()` — both are required.
+Default Unity behavior: LMB in Scene View selects whatever is under the cursor. Editor tools must explicitly claim control via `HandleUtility.AddDefaultControl` AND consume the event via `e.Use()` - both are required.
 
 ## Solution
 Required pattern in `OnSceneGUI`:
@@ -52,7 +52,7 @@ Without `AddDefaultControl` in Layout: Unity's picking system grabs the event fi
 ESC / right-click to exit drawing mode also needs `e.Use()`.
 
 ## What didn't work
-Only calling `AddDefaultControl` without `e.Use()` — object still gets selected. Only calling `e.Use()` without Layout handling — event arrives late.
+Only calling `AddDefaultControl` without `e.Use()` - object still gets selected. Only calling `e.Use()` without Layout handling - event arrives late.
 
 ## Transferability
 The "obvious in hindsight" trap for any first-time Unity editor tool author. Required pattern for ANY editor tool that intercepts mouse clicks in Scene View: road tools, placement tools, spline editors, custom gizmo tools.

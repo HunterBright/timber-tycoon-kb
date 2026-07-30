@@ -1,5 +1,5 @@
 ---
-title: Debris Cleanup — Single-Click Drop Materials Visual
+title: Debris Cleanup - Single-Click Drop Materials Visual
 type: pattern
 status: draft
 confidence: medium
@@ -17,10 +17,10 @@ source: ''
 suggested-category: genre/tycoon/patterns
 ---
 
-# Debris Cleanup — Single-Click Drop Materials Visual
+# Debris Cleanup - Single-Click Drop Materials Visual
 
 ## When to use
-Tycoon games with a tutorial cleanup task that introduces interaction. The first gameplay moment must feel immediate and rewarding — not frustrating. Use when you need a visible "I did something" payoff with zero friction.
+Tycoon games with a tutorial cleanup task that introduces interaction. The first gameplay moment must feel immediate and rewarding - not frustrating. Use when you need a visible "I did something" payoff with zero friction.
 
 ## Steps
 
@@ -54,7 +54,7 @@ public class DebrisCollectible : MonoBehaviour, IInteractable {
 First interaction teaches the E-to-interact convention. Material reward (plank appearing on ground) immediately makes the player feel productive. Quest tracker reinforces that each pile matters. Zero chance of failing = confidence building before harder mechanics.
 
 ## Trade-offs
-- No challenge: entirely skill-free. Intentional — tutorial must not gate players on execution.
+- No challenge: entirely skill-free. Intentional - tutorial must not gate players on execution.
 - Plank physics: if plank drops with physics and bounces away, player may not find it. Either: use kinematic spawn + place directly in inventory, or spawn nearby with short physics burst + sleep.
 - 6 piles: too few = anticlimactic, too many = tedious before game starts. 6 is calibrated for ~90 seconds of early engagement.
 

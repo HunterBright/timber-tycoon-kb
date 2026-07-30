@@ -85,12 +85,12 @@ public class SalesCounter : MonoBehaviour {
 Pre-allocated pool = zero Instantiate/Destroy calls at runtime. All memory is allocated upfront. FIFO queue ensures customers are served in arrival order (fair) and counter never serves 2 customers simultaneously.
 
 ## Trade-offs
-- Pool exhausted: `Get()` returns null → spawner skips that spawn. Acceptable — better than unlimited allocation. Log a warning in debug builds
+- Pool exhausted: `Get()` returns null → spawner skips that spawn. Acceptable - better than unlimited allocation. Log a warning in debug builds
 - Recycle bug: if `ResetState()` doesn't clear all state, recycled NPC carries ghost data from previous use. Always write an explicit reset method
 - Pool size constant: at high Reputation, 8 may not be enough. Make it a runtime-adjustable parameter
 
 ## Variants
 - **Unity ObjectPool<T>** (since Unity 2021): built-in pool with event callbacks. Prefer this for new projects
-- **Separate pools per NPC type:** `regularPool`, `contractorPool`, `vipPool` — more memory, zero type confusion
+- **Separate pools per NPC type:** `regularPool`, `contractorPool`, `vipPool` - more memory, zero type confusion
 
 See also: [[pipeline-style-npc-spawn]], [[initial-fill-on-load]]

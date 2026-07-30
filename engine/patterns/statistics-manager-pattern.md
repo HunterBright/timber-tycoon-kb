@@ -25,7 +25,7 @@ Any game where players should be able to review their activity (playtime, produc
 
 ## Steps
 
-**StatisticsManager — tracked stats + event journal:**
+**StatisticsManager - tracked stats + event journal:**
 ```csharp
 public class StatisticsManager : MonoBehaviour, ISaveable {
     // 11 lifetime counters
@@ -46,7 +46,7 @@ public class StatisticsManager : MonoBehaviour, ISaveable {
 }
 ```
 
-**Hooks — increment from gameplay code via events:**
+**Hooks - increment from gameplay code via events:**
 ```csharp
 // ChoppableTree raises OnTreeCut → StatisticsManager subscribes
 void OnEnable() => onTreeCut.Register(OnTreeCut);
@@ -77,10 +77,10 @@ Access from PauseMenuUI → Statistics button.
 
 **ISaveable:** all stats + journal entries serialized to JSON, restored on load.
 
-**Achievement / end-of-demo hooks:** `OnTreesCutReached(milestone)`, `OnDayReached(day)` — raise via StatisticsManager for achievement triggers.
+**Achievement / end-of-demo hooks:** `OnTreesCutReached(milestone)`, `OnDayReached(day)` - raise via StatisticsManager for achievement triggers.
 
 ## Why this works
-Statistics use already-existing GameEventSO channels — no new events needed. Queue with fixed max size prevents memory growth. Journal provides a "what did I do today" read for players.
+Statistics use already-existing GameEventSO channels - no new events needed. Queue with fixed max size prevents memory growth. Journal provides a "what did I do today" read for players.
 
 ## Trade-offs
 - Journal cap at 200: at 1 entry per action, 200 entries covers ~10-20 minutes of play. Increase cap if journal is core UX
@@ -88,7 +88,7 @@ Statistics use already-existing GameEventSO channels — no new events needed. Q
 - String journal entries: lightweight but can't be filtered by type. Use an `EventRecord` struct (enum type + value) for filterable/categorized journal
 
 ## Variants
-- **Achievement system:** StatisticsManager triggers achievements by monitoring counter thresholds — add `CheckAchievements()` call on each increment
+- **Achievement system:** StatisticsManager triggers achievements by monitoring counter thresholds - add `CheckAchievements()` call on each increment
 - **Periodic summaries:** raise `OnDayChanged` → log "Day X summary: cut N trees, earned M gold" in journal automatically
 
 See also: [[isaveable-contract]], [[game-event-so-event-channel]]

@@ -27,8 +27,8 @@ Any game with diegetic UI interaction points (shop, upgrade station, quest board
 **Cube placeholder setup:**
 1. Create → 3D Object → Cube → rename to `UpgradeKiosk_Placeholder`
 2. Position at intended location (e.g., near sales counter)
-3. Remove default MeshRenderer's default material — assign a visible placeholder material
-4. Add `BoxCollider` (already has one by default — keep it as raycast target)
+3. Remove default MeshRenderer's default material - assign a visible placeholder material
+4. Add `BoxCollider` (already has one by default - keep it as raycast target)
 5. Add `KioskInteractable` script (IInteractable)
 
 **KioskInteractable script:**
@@ -64,7 +64,7 @@ void Update() {
 ```
 
 ## Why this works
-`IInteractable` interface separates the interaction logic from the mesh representation. Cube has a BoxCollider — the raycasting system can find it immediately. Art replacement is purely a visual swap, behavior unchanged.
+`IInteractable` interface separates the interaction logic from the mesh representation. Cube has a BoxCollider - the raycasting system can find it immediately. Art replacement is purely a visual swap, behavior unchanged.
 
 ## Trade-offs
 - Cube placeholder is visible in screenshots: use a colored, semi-transparent material to signal "work in progress," or hide with a camera layer in demo builds

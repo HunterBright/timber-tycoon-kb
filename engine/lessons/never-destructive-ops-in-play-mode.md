@@ -27,7 +27,7 @@ Calling `save_scene` (via Coplay MCP or editor scripts) while Unity is in Play M
 
 ## Root cause
 - Unity Play Mode is sandboxed: runtime state does NOT persist unless explicitly saved
-- `save_scene` in Play Mode saves the CURRENT runtime scene — including runtime-generated objects, destroyed objects, modified transforms — as if it were the designer's intended scene
+- `save_scene` in Play Mode saves the CURRENT runtime scene - including runtime-generated objects, destroyed objects, modified transforms - as if it were the designer's intended scene
 - `DestroyImmediate` in Play Mode destroys both the runtime instance AND the underlying prefab reference in the asset database
 
 ## Solution
