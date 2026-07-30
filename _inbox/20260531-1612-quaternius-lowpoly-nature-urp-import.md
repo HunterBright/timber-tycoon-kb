@@ -1,0 +1,47 @@
+---
+type: lesson
+project: timber-tycoon
+suggested-category: assets/lessons
+tags: [unity, urp, quaternius, megakit, foliage, vertex-color, shader, fbx-import, alpha]
+date: 2026-05-31
+status: draft
+---
+
+# Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP
+
+Established empirically while importing the free MegaKit (CC0). Likely applies to other
+Quaternius low-poly nature/asset packs.
+
+## Pack layout
+Ships parallel folders: `FBX (Unity)`, `FBX`, `OBJ`, `glTF`, `Textures`. Use **only**
+`FBX (Unity)` + `Textures`; the rest are duplicates for other engines. (Watch Windows paths
+with `[brackets]` — PowerShell treats them as wildcards; use `-LiteralPath`.)
+
+## Materials: NO magenta in URP (Unity 6)
+Unity 6 + active URP imports the FBX-embedded materials **as URP/Lit automatically**, already
+bound to the correct textures by name. So the classic "Standard → magenta in URP" does NOT
+happen for this pack. Always **probe 3 models first** to confirm before bulk-importing 60+.
+Texture binding: foliage materials reference the `_C` ("colored") texture variants as albedo
+(e.g. `Leaves_NormalTree_C`); the non-`_C` versions are masks/AO, not the albedo.
+
+## The two traps (cost the most time)
+1. **Foliage is SOLID low-poly geometry, not alpha cards.** The diffuse PNGs carry an alpha
+   channel but `alphaIsTransparency = FALSE` (and some, e.g. `Grass`, have no alpha at all).
+   That alpha is junk/near-zero. If you enable alpha-clipping (`clip(alpha - 0.5)`), **all
+   foliage vanishes**. → Render foliage **opaque, double-sided (Cull Off); do NOT alpha-clip.**
+2. **Vertex colors are grayscale AO shading** (r=g=b), present on most flora (e.g. grass
+   `0.0–1.0`, fern `0.02–0.98`), but some meshes are uniform white (unaffected). URP/Lit
+   **ignores** vertex colors → foliage looks flat/pale. Multiply `albedo = texture * vertexColor`
+   in a custom lit shader to restore the baked shading. Because the vcolor is grayscale it only
+   darkens — it never re-tints, so a re-textured model (e.g. red→green bush) stays the new color.
+
+## Recommended setup
+- Share materials **by texture**, not per model (SRP-batches well; use the model importer's
+  `AddRemap(SourceAssetIdentifier(typeof(Material), srcName), sharedMat)` + `SaveAndReimport`).
+  AddRemap was reliable here in Unity 6 (despite its historical flakiness).
+- Foliage → a hand-written URP lit shader (texture × vertex color, Cull Off, opaque, no clip).
+  Keep an `_AlphaClipEnable` toggle (default off) for genuine alpha-card packs.
+- Opaque props (rocks, pebbles, mushrooms) → plain URP/Lit. Set `*_Normal.png` to NormalMap
+  import type.
+- Vert cost (this pack): bushes ~2300 v, mushrooms ~1180, grass ~450, flowers ~314,
+  pebbles ~123. Bushes dominate — keep them sparse.

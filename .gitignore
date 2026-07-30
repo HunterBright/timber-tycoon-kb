@@ -11,8 +11,11 @@ Thumbs.db
 *.bak
 *~
 
-# Transient/scratch — never commit content
-_inbox/
+# _inbox/ — TRACKED since 2026-07-30.
+# Reason: 278 drafts (two months of captured lessons) existed only on one local disk,
+# with no backup, on a drive that had a firmware failure on 2026-07-30.
+# Drafts are knowledge, not scratch. They are versioned; promotion to a category
+# folder is still a human decision.
 
 # Audit reports — keep local
 KB_SECURITY_AUDIT.md
