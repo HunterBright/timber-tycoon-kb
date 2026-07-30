@@ -1,13 +1,26 @@
 ---
+title: Swapping an FBX-instance GameObject silently drops its scene-side functionality
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, fbx, model-swap, colliders, pickup, interactable, import-scale, mesh-bounds]
-severity: medium
-time_lost: "~1 session of back-and-forth"
-date: 2026-06-03
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-06-03'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- fbx
+- model-swap
+- colliders
+- pickup
+- interactable
+- import-scale
+- mesh-bounds
+applies_to:
+- unity
+source: ''
+severity: medium
+time_lost: ~1 session of back-and-forth
+suggested-category: engine/lessons
 ---
 
 # Swapping an FBX-instance GameObject silently drops its scene-side functionality

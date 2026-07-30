@@ -1,13 +1,24 @@
 ---
+title: Convex MeshCollider na skorupie połyka jej wnętrze - promienie nigdy nie trafią w części w środku
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, physics, meshcollider, convex, raycast, minigame]
-severity: high
-time_lost: "playtest + ~2h diagnozy"
-date: 2026-07-13
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- meshcollider
+- convex
+- raycast
+- minigame
+applies_to:
+- unity
+source: ''
+severity: high
+time_lost: playtest + ~2h diagnozy
+suggested-category: engine/lessons
 ---
 
 # Convex MeshCollider na skorupie połyka jej wnętrze - promienie nigdy nie trafią w części w środku
@@ -57,5 +68,5 @@ Dotyczy każdej gry, w której gracz celuje promieniem w części złożonego ob
 Druga, szersza lekcja: gdy część systemu jest **nieosiągalna z definicji**, a system wymaga jej „ukończenia", powstaje softlock albo cichy sufit wyniku. Warto mieć automatyczny audyt, który to wykrywa (u nas: test wypisujący tabelę wszystkich 66 części 10 modeli).
 
 ## Related
-- [[runtime-meshcollider-needs-readable-mesh-in-builds]]
-- [[probe-visibility-by-rotating-rays-not-the-object]]
+- [[20260713-1425-runtime-meshcollider-needs-readable-mesh-in-builds]]
+- [[20260713-1430-probe-visibility-by-rotating-rays-not-the-object]]

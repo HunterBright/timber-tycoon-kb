@@ -1,13 +1,29 @@
 ---
+title: Stylized PBR water looks great in editor but grey in-game — the day/night cycle drives lighting only at runtime
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [urp, water-shader, day-night-cycle, ambient, reflection-probe, editor-vs-runtime, pbr, stylized-water]
-severity: medium
-time_lost: "~1h (two misleading editor previews before diagnosing)"
-date: 2026-06-27
 status: draft
-applies_to: [unity, urp, water, lighting]
+confidence: low
+verified: ''
+date: '2026-06-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- urp
+- water-shader
+- day-night-cycle
+- ambient
+- reflection-probe
+- editor-vs-runtime
+- pbr
+- stylized-water
+applies_to:
+- unity
+- urp
+- water
+- lighting
+source: ''
+severity: medium
+time_lost: ~1h (two misleading editor previews before diagnosing)
+suggested-category: engine/lessons
 ---
 
 # Stylized PBR water looks great in editor but grey in-game — the day/night cycle drives lighting only at runtime

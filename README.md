@@ -1,3 +1,16 @@
+---
+title: Hunter's Knowledge Base
+type: index
+status: draft
+confidence: medium
+verified: ''
+date: ''
+project: Kerf - Sawmill Tycoon
+tags: []
+applies_to: []
+source: ''
+---
+
 # Hunter's Knowledge Base
 
 Long-term, cross-project knowledge base for Unity solo dev work.

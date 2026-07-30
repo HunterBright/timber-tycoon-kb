@@ -1,11 +1,21 @@
 ---
+title: Pomiar proporcji z renderu klamie trzy razy, zanim zacznie mowic prawde
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: pipeline/lessons
-tags: [image-analysis, measurement, validation, false-green, character-reference]
-date: 2026-07-25
-severity: medium
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- image-analysis
+- measurement
+- validation
+- false-green
+- character-reference
+applies_to: []
+source: ''
+severity: medium
+suggested-category: pipeline/lessons
 ---
 
 # Pomiar proporcji z renderu klamie trzy razy, zanim zacznie mowic prawde
@@ -49,6 +59,6 @@ Dwie niezalezne metody pomiaru daja przedzial, w ktorym lezy prawda: metoda
 "czubek->broda z koloru skory" **zaniza** ja. Kiedy obie zgadzaja sie co do kolejnosci
 kandydatow, wybor jest bezpieczny, nawet jesli sama liczba jest niepewna.
 
-Patrz tez: [[feedback-probe-must-be-able-to-fail]] — kontrola, ktora nie potrafi
+Patrz tez: [[feedback_probe_must_be_able_to_fail]] — kontrola, ktora nie potrafi
 zawiesc, jest bezwartosciowa. Tu kontrole przerwaly prace dwa razy i za kazdym razem
 wskazaly prawdziwa przyczyne.

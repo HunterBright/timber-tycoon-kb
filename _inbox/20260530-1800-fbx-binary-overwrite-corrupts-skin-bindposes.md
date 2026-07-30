@@ -1,10 +1,23 @@
 ---
+title: Never binary-overwrite a skinned FBX under an existing .meta — it desyncs bindposes
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, fbx, skinned-mesh, bindposes, mixamo, generic-animation, humanoid, diagnosis]
-date: 2026-05-30
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-30'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- fbx
+- skinned-mesh
+- bindposes
+- mixamo
+- generic-animation
+- humanoid
+- diagnosis
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Never binary-overwrite a skinned FBX under an existing .meta — it desyncs bindposes

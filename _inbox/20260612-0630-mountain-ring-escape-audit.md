@@ -1,10 +1,21 @@
 ---
+title: Programmatic escape audit for mountain-ring map boundaries
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, collision, level-design, mesh-sampling, map-boundary, editor-script]
-date: 2026-06-12
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-12'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- collision
+- level-design
+- mesh-sampling
+- map-boundary
+- editor-script
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Programmatic escape audit for mountain-ring map boundaries

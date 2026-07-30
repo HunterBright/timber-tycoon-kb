@@ -1,10 +1,21 @@
 ---
+title: Świeżość builda Unity sprawdzaj po DLL z kodem gry, nie po .exe
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, build, batchmode, verification, windows, powershell]
-date: 2026-07-19
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-19'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- build
+- batchmode
+- verification
+- windows
+- powershell
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Świeżość builda Unity sprawdzaj po DLL z kodem gry, nie po .exe

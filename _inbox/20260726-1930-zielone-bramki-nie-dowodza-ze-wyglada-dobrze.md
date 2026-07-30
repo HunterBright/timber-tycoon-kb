@@ -1,10 +1,20 @@
 ---
+title: Zielona tablica bramek nie dowodzi, ze cos wyglada dobrze
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/anti-patterns
-tags: [testy, bramki, geometria, ocena-wizualna, agenci]
-date: 2026-07-26
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- testy
+- bramki
+- geometria
+- ocena-wizualna
+- agenci
+applies_to: []
+source: ''
+suggested-category: workflow/anti-patterns
 ---
 
 # Zielona tablica bramek nie dowodzi, ze cos wyglada dobrze

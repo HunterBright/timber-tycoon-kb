@@ -1,7 +1,14 @@
 ---
+title: Timber Tycoon — Project Index
 type: project-index
-project: timber-tycoon
-status: active
+status: verified
+confidence: high
+verified: ''
+date: ''
+project: Kerf - Sawmill Tycoon
+tags: []
+applies_to: []
+source: ''
 demo: pending
 ---
 

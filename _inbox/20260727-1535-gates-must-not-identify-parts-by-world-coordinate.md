@@ -1,13 +1,25 @@
 ---
+title: A geometry gate that identifies body parts by raw world coordinate is a gate on credit
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/anti-patterns
-tags: [testing, procedural-mesh, gates, false-green, geometry]
-severity: high
-time_lost: "~40 min, twice"
-date: 2026-07-27
 status: draft
-applies_to: [procedural-geometry, automated-testing, any-engine]
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- testing
+- procedural-mesh
+- gates
+- false-green
+- geometry
+applies_to:
+- procedural-geometry
+- automated-testing
+- any-engine
+source: ''
+severity: high
+time_lost: ~40 min, twice
+suggested-category: engine/anti-patterns
 ---
 
 # A geometry gate that identifies body parts by raw world coordinate is a gate on credit
@@ -77,4 +89,4 @@ property of today's implementation will stop testing, not start failing, when
 the implementation changes.*
 
 ## Related
-- [[loop-matching-ties-in-procedural-stitching]]
+- [[20260727-1520-loop-matching-ties-in-procedural-stitching]]

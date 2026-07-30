@@ -1,10 +1,21 @@
 ---
+title: Wavy dark lines in EEVEE preview renders = shadow acne, not geometry
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [blender, eevee, rendering, shadow-acne, debugging, preview-renders]
-date: 2026-06-12
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-12'
+project: Timber_Tycoon
+tags:
+- blender
+- eevee
+- rendering
+- shadow-acne
+- debugging
+- preview-renders
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Wavy dark lines in EEVEE preview renders = shadow acne, not geometry

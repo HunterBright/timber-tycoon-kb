@@ -1,10 +1,22 @@
 ---
+title: Conform a mesh terrain to a path by sampling its centreline per-axis (not a fixed scan line, not a single plane)
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, terrain, mesh-editing, raycast, road, leveling, editor-script]
-date: 2026-06-09
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-09'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- terrain
+- mesh-editing
+- raycast
+- road
+- leveling
+- editor-script
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Conform a mesh terrain to a path by sampling its centreline per-axis (not a fixed scan line, not a single plane)

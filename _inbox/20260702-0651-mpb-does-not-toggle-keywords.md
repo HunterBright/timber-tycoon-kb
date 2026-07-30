@@ -1,11 +1,21 @@
 ---
+title: 'Lekcja: MaterialPropertyBlock NIE włącza keywordów shadera (emisja niewidoczna)'
 type: lesson
-project: Timber Tycoon
+status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- material-property-block
+- emission
+- shader-keywords
+applies_to: []
+source: ''
 severity: medium
 suggested-category: engine/lessons
-tags: [unity, urp, material-property-block, emission, shader-keywords]
-date: 2026-07-02
-status: draft
 ---
 
 # Lekcja: MaterialPropertyBlock NIE włącza keywordów shadera (emisja niewidoczna)

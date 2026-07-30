@@ -1,10 +1,22 @@
 ---
+title: Typography + Accessibility Stack
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, ui, typography, accessibility, textmeshpro, font, sdf]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ui
+- typography
+- accessibility
+- textmeshpro
+- font
+- sdf
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Typography + Accessibility Stack

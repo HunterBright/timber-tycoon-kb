@@ -1,11 +1,22 @@
 ---
+title: Terrain Skirt Against the See-Through Gap
 type: lesson
-project: timber-tycoon
-suggested-category: workflow/3d-models
-tags: [blender, modeling, terrain, skirt, seethrough-gap, low-poly]
-severity: medium
-date: 2026-05-29
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-29'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- modeling
+- terrain
+- skirt
+- seethrough-gap
+- low-poly
+applies_to: []
+source: ''
+severity: medium
+suggested-category: workflow/3d-models
 ---
 
 # Terrain Skirt Against the See-Through Gap

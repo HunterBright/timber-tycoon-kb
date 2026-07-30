@@ -1,11 +1,22 @@
 ---
+title: Lazy-create singleton wołany z OnDestroy tworzy obiekty przy zamykaniu sceny
 type: anti-pattern
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, singleton, lazy-init, ondestroy, teardown, ui]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Timber_Tycoon
+tags:
+- unity
+- singleton
+- lazy-init
+- ondestroy
+- teardown
+- ui
+applies_to: []
+source: ''
 severity: low
+suggested-category: engine/lessons
 ---
 
 # Lazy-create singleton wołany z OnDestroy tworzy obiekty przy zamykaniu sceny

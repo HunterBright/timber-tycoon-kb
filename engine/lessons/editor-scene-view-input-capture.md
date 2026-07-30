@@ -1,13 +1,24 @@
 ---
+title: Editor Scene View Input Capture Pattern
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, editor, scene-view, input, handle-utility, road-tool]
-severity: high
-time_lost: "~45 min"
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- editor
+- scene-view
+- input
+- handle-utility
+- road-tool
+applies_to:
+- unity-projects
+source: ''
+severity: high
+time_lost: ~45 min
+suggested-category: engine/lessons
 ---
 
 # Editor Scene View Input Capture Pattern

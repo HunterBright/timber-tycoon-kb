@@ -1,10 +1,21 @@
 ---
+title: NPC Parking PD Controller
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, npc, parking, pd-controller, vehicle, physics]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- npc
+- parking
+- pd-controller
+- vehicle
+- physics
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # NPC Parking PD Controller

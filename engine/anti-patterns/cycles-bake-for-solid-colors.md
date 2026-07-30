@@ -1,16 +1,25 @@
 ---
-name: cycles-bake-for-solid-colors-antipattern
+title: 'ANTI-PATTERN: Cycles Bake for Solid Color Regions'
+type: anti-pattern
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- baking
+- uv
+- anti-pattern
+- static-props
+applies_to:
+- blender-pipelines
+source: ''
 description: Smart UV Project + Cycles bake for solid color regions fails — black output, blurred edges, ghost UV islands. Use numpy atlas + manual UV instead.
-metadata:
-  type: anti-pattern
-  project: timber-tycoon
-  suggested-category: engine/anti-patterns
-  tags: [blender, baking, uv, anti-pattern, static-props]
-  severity: high
-  time_lost: 3h (PelletBag debugging)
-  date: 2026-05-17
-  status: draft
-  applies_to: [blender-pipelines]
+severity: high
+time_lost: 3h (PelletBag debugging)
+suggested-category: engine/anti-patterns
+name: cycles-bake-for-solid-colors-antipattern
 ---
 
 # ANTI-PATTERN: Cycles Bake for Solid Color Regions

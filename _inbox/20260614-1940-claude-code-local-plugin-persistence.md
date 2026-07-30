@@ -1,11 +1,22 @@
 ---
+title: Loading a LOCAL Claude Code plugin permanently (marketplace, not --plugin-dir)
 type: lesson
-project: Timber Tycoon
-suggested-category: tooling/lessons
-tags: [claude-code, plugins, marketplace, settings, local-plugin, gotcha]
-date: 2026-06-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- plugins
+- marketplace
+- settings
+- local-plugin
+- gotcha
+applies_to: []
+source: ''
 severity: medium
+suggested-category: tooling/lessons
 ---
 
 # Loading a LOCAL Claude Code plugin permanently (marketplace, not --plugin-dir)

@@ -1,15 +1,23 @@
 ---
-name: three-level-analysis-system
+title: Three-Level Analysis System
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- analysis
+- workflow
+- decision-process
+applies_to:
+- claude-code-projects
+source: ''
 description: Tasks classified by analysis depth — Level 1 (full analysis + accept, architectural), Level 2 (brief justification + accept, additive), Level 3 (immediate, single-value). Prevents over-thinking simple and under-thinking complex.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [claude-code, analysis, workflow, decision-process]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [claude-code-projects]
+severity: medium
+suggested-category: workflow/claude-code
+name: three-level-analysis-system
 ---
 
 # Three-Level Analysis System
@@ -64,4 +72,4 @@ Level 1: allocate full attention (read all related files, check architecture doc
 Level 2: 1-2 file reads max.
 Level 3: implement in one move.
 
-See also: [[clear-vs-compact-decision-rules]], [[context-degradation-threshold]], [[quad-backtick-claude-code-prompt-format]]
+See also: [[clear-vs-compact-decision-rules]], [[context-degradation-threshold]], [[quad-backtick-prompt-format]]

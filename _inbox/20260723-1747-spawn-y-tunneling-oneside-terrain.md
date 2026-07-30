@@ -1,10 +1,22 @@
 ---
+title: Spawn na Y rodzica + jednostronny teren zerowej grubości + Discrete = obiekty pod mapą
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, physics, tunneling, ccd, terrain, spawn, discrete]
-date: 2026-07-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- tunneling
+- ccd
+- terrain
+- spawn
+- discrete
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Spawn na Y rodzica + jednostronny teren zerowej grubości + Discrete = obiekty pod mapą

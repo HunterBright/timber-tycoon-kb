@@ -1,10 +1,21 @@
 ---
+title: 'Camera Lock: Save → Lerp → Restore'
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, camera, lerp, minigame, restore, cinematic]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- camera
+- lerp
+- minigame
+- restore
+- cinematic
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Camera Lock: Save → Lerp → Restore

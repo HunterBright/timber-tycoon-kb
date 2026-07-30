@@ -1,13 +1,25 @@
 ---
+title: Resources.Load w inicjalizatorze pola statycznego psuje cały start UI (TypeInitializationException zapadkowana)
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, static-constructor, resources-load, type-initializer, ui-bootstrap, startup-crash, lifecycle]
-severity: high
-time_lost: "~25 min (mylące: błąd w klasie, której nie zmienialiśmy)"
-date: 2026-06-23
 status: draft
-applies_to: [unity-runtime-init]
+confidence: low
+verified: ''
+date: '2026-06-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- static-constructor
+- resources-load
+- type-initializer
+- ui-bootstrap
+- startup-crash
+- lifecycle
+applies_to:
+- unity-runtime-init
+source: ''
+severity: high
+time_lost: '~25 min (mylące: błąd w klasie, której nie zmienialiśmy)'
+suggested-category: engine/lessons
 ---
 
 # Resources.Load w inicjalizatorze pola statycznego psuje cały start UI (TypeInitializationException zapadkowana)

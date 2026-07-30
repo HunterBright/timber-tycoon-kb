@@ -1,10 +1,20 @@
 ---
+title: Central consumed-ID registry for scene-object persistence
 type: pattern
-project: Timber_Tycoon
-suggested-category: engine/patterns
-tags: [unity, save-system, persistence, scene-objects, registry]
-date: 2026-06-11
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-11'
+project: Timber_Tycoon
+tags:
+- unity
+- save-system
+- persistence
+- scene-objects
+- registry
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Central consumed-ID registry for scene-object persistence

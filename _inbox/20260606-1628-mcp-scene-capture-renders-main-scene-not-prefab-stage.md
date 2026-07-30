@@ -1,11 +1,24 @@
 ---
+title: MCP Scene-Capture Renders the Active Scene, Not an Open Prefab Stage
 type: lesson
-project: timber-tycoon
-suggested-category: workflow/unity-mcp
-tags: [unity, mcp, coplay, scene-capture, prefab-stage, screenshot, qa, scene-view]
-severity: low
-date: 2026-06-06
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-06'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- mcp
+- coplay
+- scene-capture
+- prefab-stage
+- screenshot
+- qa
+- scene-view
+applies_to: []
+source: ''
+severity: low
+suggested-category: workflow/unity-mcp
 ---
 
 # MCP Scene-Capture Renders the Active Scene, Not an Open Prefab Stage
@@ -42,4 +55,4 @@ Any Unity project using Coplay/Unity MCP for visual QA of a model/prefab: asset 
 
 ## Related
 - [[fbx-export-standard-settings-blender-to-unity]]
-- [[in-place-fbx-overwrite-static-vs-rigged]]
+- [[20260606-1632-in-place-fbx-overwrite-static-vs-rigged]]

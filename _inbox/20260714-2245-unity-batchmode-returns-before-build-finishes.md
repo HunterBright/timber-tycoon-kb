@@ -1,10 +1,21 @@
 ---
+title: Unity w trybie wsadowym WRACA, zanim build się skończy - i sonda daje fałszywe zielone światło
 type: lesson
-project: Timber Tycoon
-suggested-category: workflow/lessons
-tags: [unity, build, batchmode, ci, verification, false-green]
-date: 2026-07-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- build
+- batchmode
+- ci
+- verification
+- false-green
+applies_to: []
+source: ''
+suggested-category: workflow/lessons
 ---
 
 # Unity w trybie wsadowym WRACA, zanim build się skończy - i sonda daje fałszywe zielone światło
@@ -81,6 +92,6 @@ Dodatkowo, trzy zasady, które zamieniają "ufam" na "wiem":
 
 ## Powiązane
 
-To jest dokładnie ta sama rodzina, co [[probe-must-be-able-to-fail]]: narzędzie weryfikujące, które
+To jest dokładnie ta sama rodzina, co [[gate-must-have-provable-failure-mode]]: narzędzie weryfikujące, które
 nie umie zawieść (albo weryfikuje nie to, co myślisz), jest gorsze niż jego brak - bo produkuje
 fałszywe poczucie bezpieczeństwa.

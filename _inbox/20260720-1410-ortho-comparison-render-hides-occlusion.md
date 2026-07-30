@@ -1,13 +1,26 @@
 ---
+title: Rzut prostokątny w ujęciu porównawczym potrafi pokazać kilka obiektów nałożonych na siebie i wyglądać jak jeden poprawny obiekt
 type: lesson
-project: Timber Tycoon
-suggested-category: blender/lessons
-tags: [blender, render, review-artifact, orthographic, occlusion, false-evidence]
-severity: high
-time_lost: "1 cykl renderu + 1 sesja z niezauważonym błędem"
-date: 2026-07-20
 status: draft
-applies_to: [blender, comparison-renders, asset-review-pipelines]
+confidence: low
+verified: ''
+date: '2026-07-20'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- render
+- review-artifact
+- orthographic
+- occlusion
+- false-evidence
+applies_to:
+- blender
+- comparison-renders
+- asset-review-pipelines
+source: ''
+severity: high
+time_lost: 1 cykl renderu + 1 sesja z niezauważonym błędem
+suggested-category: blender/lessons
 ---
 
 # Rzut prostokątny w ujęciu porównawczym potrafi pokazać kilka obiektów nałożonych na siebie i wyglądać jak jeden poprawny obiekt

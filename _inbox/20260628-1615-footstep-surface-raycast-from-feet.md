@@ -1,10 +1,22 @@
 ---
+title: 'Detekcja nawierzchni pod graczem: strzelaj raycastem OD STÓP, nie od środka postaci'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, footsteps, raycast, physics, meshcollider, surface-detection, character-controller]
-date: 2026-06-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- footsteps
+- raycast
+- physics
+- meshcollider
+- surface-detection
+- character-controller
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Detekcja nawierzchni pod graczem: strzelaj raycastem OD STÓP, nie od środka postaci

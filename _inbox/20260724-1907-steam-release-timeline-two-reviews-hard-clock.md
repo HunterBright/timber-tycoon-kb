@@ -1,10 +1,23 @@
 ---
+title: 'Wydanie gry na Steam: sekwencyjne recenzje + twardy zegar Coming Soon'
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/release
-tags: [steam, steamworks, release, publishing, coming-soon, steampipe, pricing, timeline]
-date: 2026-07-24
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-24'
+project: Kerf - Sawmill Tycoon
+tags:
+- steam
+- steamworks
+- release
+- publishing
+- coming-soon
+- steampipe
+- pricing
+- timeline
+applies_to: []
+source: ''
+suggested-category: workflow/release
 ---
 
 # Wydanie gry na Steam: sekwencyjne recenzje + twardy zegar Coming Soon

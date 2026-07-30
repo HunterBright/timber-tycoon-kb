@@ -1,10 +1,21 @@
 ---
+title: 'Sondy edytorowe przez MCP: zwracaj raport jako Result (string), nie przez Debug.Log'
 type: pattern
-project: Timber_Tycoon
-suggested-category: workflow/patterns
-tags: [unity, mcp, coplay, editor-scripting, diagnostics, play-mode]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Timber_Tycoon
+tags:
+- unity
+- mcp
+- coplay
+- editor-scripting
+- diagnostics
+- play-mode
+applies_to: []
+source: ''
+suggested-category: workflow/patterns
 ---
 
 # Sondy edytorowe przez MCP: zwracaj raport jako Result (string), nie przez Debug.Log

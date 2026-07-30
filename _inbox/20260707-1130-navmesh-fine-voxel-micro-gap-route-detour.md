@@ -1,13 +1,26 @@
 ---
+title: Za drobny voxel NavMesh tworzy mikro-dziure, ktora ROZSPAJA trase i wymusza wielki objazd
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, navmesh, ai-navigation, navmeshsurface, voxelsize, pathfinding, regression, git-lfs, diagnosis]
-severity: medium
-time_lost: "duga (wielogodzinna) diagnoza z wieloma falszywymi tropami"
-date: 2026-07-07
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-07'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- navmesh
+- ai-navigation
+- navmeshsurface
+- voxelsize
+- pathfinding
+- regression
+- git-lfs
+- diagnosis
 applies_to: []
+source: ''
+severity: medium
+time_lost: duga (wielogodzinna) diagnoza z wieloma falszywymi tropami
+suggested-category: engine/lessons
 ---
 
 # Za drobny voxel NavMesh tworzy mikro-dziure, ktora ROZSPAJA trase i wymusza wielki objazd

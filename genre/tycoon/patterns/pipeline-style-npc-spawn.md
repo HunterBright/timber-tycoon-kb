@@ -1,10 +1,20 @@
 ---
+title: Pipeline-Style NPC Spawn (OnPurchaseComplete Trigger)
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, npc, spawn, pipeline, event-driven]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- npc
+- spawn
+- pipeline
+- event-driven
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Pipeline-Style NPC Spawn (OnPurchaseComplete Trigger)

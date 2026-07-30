@@ -1,10 +1,21 @@
 ---
+title: Nie stawiaj pipeline'u assetow na modelu AI z licencja "Community", nie czytajac pierwszej linii LICENSE
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/anti-patterns
-tags: [ai-assets, licencje, hunyuan3d, pipeline, steam, prawo]
-date: 2026-07-25
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- ai-assets
+- licencje
+- hunyuan3d
+- pipeline
+- steam
+- prawo
+applies_to: []
+source: ''
+suggested-category: workflow/anti-patterns
 ---
 
 # Nie stawiaj pipeline'u assetow na modelu AI z licencja "Community", nie czytajac pierwszej linii LICENSE

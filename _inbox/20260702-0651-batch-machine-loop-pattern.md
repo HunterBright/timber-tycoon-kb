@@ -1,10 +1,22 @@
 ---
+title: 'Wzorzec: pętla serii maszyny z minigrą (batch-machine loop)'
 type: pattern
-project: Timber Tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, minigame, loop, batch, count-picker, camera-lock, ux]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- minigame
+- loop
+- batch
+- count-picker
+- camera-lock
+- ux
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Wzorzec: pętla serii maszyny z minigrą (batch-machine loop)

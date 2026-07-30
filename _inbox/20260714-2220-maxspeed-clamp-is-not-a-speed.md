@@ -1,10 +1,22 @@
 ---
+title: maxSpeed to KLAMRA, nie prędkość - pojazd i tak stanie na (napęd / tłumienie)
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, physics, rigidbody, vehicle, drag, upgrades, balance]
-date: 2026-07-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- rigidbody
+- vehicle
+- drag
+- upgrades
+- balance
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # maxSpeed to KLAMRA, nie prędkość - pojazd i tak stanie na (napęd / tłumienie)

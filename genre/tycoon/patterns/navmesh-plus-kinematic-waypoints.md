@@ -1,10 +1,21 @@
 ---
+title: NavMesh + Kinematic Waypoints Hybrid
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, navmesh, npc, pedestrians, vehicles, hybrid]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- navmesh
+- npc
+- pedestrians
+- vehicles
+- hybrid
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # NavMesh + Kinematic Waypoints Hybrid

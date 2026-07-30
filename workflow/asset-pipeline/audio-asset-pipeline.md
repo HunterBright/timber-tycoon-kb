@@ -1,15 +1,25 @@
 ---
-name: audio-asset-pipeline-elevenlabs-suno
+title: Audio Asset Pipeline (ElevenLabs + Suno + FFmpeg)
+type: pattern
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- elevenlabs
+- suno
+- ffmpeg
+- audio
+- pipeline
+applies_to:
+- unity-projects
+- claude-code-projects
+source: ''
 description: Audio pipeline — ElevenLabs MCP for SFX + voice, Suno (manual) for music, FFmpeg normalize all to -16 LUFS. WAV for production, OGG for runtime. Naming conventions per channel.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: workflow/asset-pipeline
-  tags: [elevenlabs, suno, ffmpeg, audio, pipeline]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects, claude-code-projects]
+severity: medium
+suggested-category: workflow/asset-pipeline
+name: audio-asset-pipeline-elevenlabs-suno
 ---
 
 # Audio Asset Pipeline (ElevenLabs + Suno + FFmpeg)

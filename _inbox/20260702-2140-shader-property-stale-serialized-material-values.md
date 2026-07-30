@@ -1,10 +1,21 @@
 ---
+title: Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, shader, material, serialization, urp, backwards-compatibility]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Timber_Tycoon
+tags:
+- unity
+- shader
+- material
+- serialization
+- urp
+- backwards-compatibility
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach

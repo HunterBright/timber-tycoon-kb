@@ -1,10 +1,22 @@
 ---
+title: A delayed-completion coroutine that still reads input double-fires without a single-shot latch
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, coroutine, input, minigame, state-management, race-condition, resource-accounting]
-date: 2026-06-15
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-15'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- coroutine
+- input
+- minigame
+- state-management
+- race-condition
+- resource-accounting
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # A delayed-completion coroutine that still reads input double-fires without a single-shot latch

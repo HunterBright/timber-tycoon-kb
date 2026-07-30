@@ -1,13 +1,30 @@
 ---
+title: Tripo / AI-generated meshes import as "polygon soup" — see-through holes under single-sided rendering are a winding problem caused by UNWELDED verts, not interior faces
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, tripo, fbx, normals, mesh-cleanup, holes, unity, single-sided, ai-generated-mesh]
-severity: high
-time_lost: "~1 session of diagnosis across multiple renders"
-date: 2026-05-31
 status: draft
-applies_to: [blender, unity, tripo, ai-mesh-pipeline]
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- tripo
+- fbx
+- normals
+- mesh-cleanup
+- holes
+- unity
+- single-sided
+- ai-generated-mesh
+applies_to:
+- blender
+- unity
+- tripo
+- ai-mesh-pipeline
+source: ''
+severity: high
+time_lost: ~1 session of diagnosis across multiple renders
+suggested-category: engine/lessons
 ---
 
 # Tripo / AI-generated meshes import as "polygon soup" — see-through holes under single-sided rendering are a winding problem caused by UNWELDED verts, not interior faces
@@ -35,5 +52,5 @@ Verify with a render that MIRRORS Unity culling: SOLID shading + `space.shading.
 Applies to ANY pipeline ingesting AI-generated / photogrammetry / marketplace meshes (Tripo, Hunyuan3D, Rodin, scanned assets) into Blender → Unity. The "merge-then-recalc, verify with backface-culled magenta render" recipe is engine-agnostic. The >50%-verts-merged signal is a reliable tell that you received polygon soup rather than clean topology.
 
 ## Related
-- [[fbx-mesh-only-verification-scan-class-names]]
-- [[humanoid-orientation-from-armature-not-bbox]]
+- [[20260531-0934-fbx-mesh-only-verification-scan-class-names]]
+- [[20260531-0934-humanoid-orientation-from-armature-not-bbox]]

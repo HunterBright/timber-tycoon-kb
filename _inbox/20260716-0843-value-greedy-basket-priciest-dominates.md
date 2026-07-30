@@ -1,10 +1,20 @@
 ---
+title: Koszyk dobijany do kwoty "krokiem najblizej celu" = najdrozszy produkt dominuje kazde zamowienie
 type: pattern
-project: Timber_Tycoon
-suggested-category: genre/tycoon
-tags: [economy, order-generation, weighted-random, game-balance, tycoon]
-date: 2026-07-16
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-16'
+project: Timber_Tycoon
+tags:
+- economy
+- order-generation
+- weighted-random
+- game-balance
+- tycoon
+applies_to: []
+source: ''
+suggested-category: genre/tycoon
 ---
 
 # Koszyk dobijany do kwoty "krokiem najblizej celu" = najdrozszy produkt dominuje kazde zamowienie

@@ -1,10 +1,22 @@
 ---
+title: Resources.GetBuiltinResource zwraca NULL dla sprite'ów UI (builtin-EXTRA) — pasek Filled rysuje się jako pełny quad
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, ugui, image, fillamount, sprite, builtin-resources, runtime]
-date: 2026-06-12
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-12'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ugui
+- image
+- fillamount
+- sprite
+- builtin-resources
+- runtime
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Resources.GetBuiltinResource zwraca NULL dla sprite'ów UI (builtin-EXTRA) — pasek Filled rysuje się jako pełny quad

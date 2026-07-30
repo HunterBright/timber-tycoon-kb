@@ -1,10 +1,22 @@
 ---
+title: Mixamo "Without Skin" (motion-only) FBX psuje retarget Humanoid - uzyj "With Skin"
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, mixamo, animation, humanoid, retargeting, avatar, fbx]
-date: 2026-07-05
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-05'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- mixamo
+- animation
+- humanoid
+- retargeting
+- avatar
+- fbx
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Mixamo "Without Skin" (motion-only) FBX psuje retarget Humanoid - uzyj "With Skin"

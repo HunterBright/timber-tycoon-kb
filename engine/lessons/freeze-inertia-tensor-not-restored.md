@@ -1,11 +1,22 @@
 ---
+title: FreezeAll + automaticInertiaTensor=false Zeroes the Inertia Tensor
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, rigidbody, physics, inertia-tensor, vehicle, npc]
-severity: high
-date: 2026-05-22
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- rigidbody
+- physics
+- inertia-tensor
+- vehicle
+- npc
+applies_to: []
+source: ''
+severity: high
+suggested-category: engine/lessons
 ---
 
 # FreezeAll + automaticInertiaTensor=false Zeroes the Inertia Tensor

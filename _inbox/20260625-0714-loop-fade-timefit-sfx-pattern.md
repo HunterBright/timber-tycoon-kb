@@ -1,10 +1,23 @@
 ---
+title: 'Dopasowanie SFX o stałej długości do akcji o zmiennej długości: pętla + wygaszenie'
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, audio, sfx, looping, fade, minigame, pooling, soundbank]
-date: 2026-06-25
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- audio
+- sfx
+- looping
+- fade
+- minigame
+- pooling
+- soundbank
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Dopasowanie SFX o stałej długości do akcji o zmiennej długości: pętla + wygaszenie

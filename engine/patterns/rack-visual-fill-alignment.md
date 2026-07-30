@@ -1,10 +1,20 @@
 ---
+title: Rack Visual Fill Alignment Pattern
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, prefabs, racks, fill-visualization, alignment]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- prefabs
+- racks
+- fill-visualization
+- alignment
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Rack Visual Fill Alignment Pattern

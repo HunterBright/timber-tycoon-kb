@@ -1,10 +1,22 @@
 ---
+title: transform.position to PIVOT, nie geometria - kotwice wizualne licz z bounds
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, pivot, bounds, transform, anchoring, vfx, diagnostics]
-date: 2026-07-18
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-18'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- pivot
+- bounds
+- transform
+- anchoring
+- vfx
+- diagnostics
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # transform.position to PIVOT, nie geometria - kotwice wizualne licz z bounds

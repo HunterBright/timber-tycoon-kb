@@ -1,10 +1,22 @@
 ---
+title: Operator `?.` NIE chroni referencji Unity — brakujący asset SO wybucha NRE w środku kanału eventowego
 type: anti-pattern
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, scriptableobject, fake-null, null-conditional, events, nre, missing-asset]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Timber_Tycoon
+tags:
+- unity
+- scriptableobject
+- fake-null
+- null-conditional
+- events
+- nre
+- missing-asset
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Operator `?.` NIE chroni referencji Unity — brakujący asset SO wybucha NRE w środku kanału eventowego

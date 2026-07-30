@@ -1,10 +1,24 @@
 ---
+title: 'NPC chodza po "niewidzialnych gorkach": bake NavMesh z propsow + za gruby voxel nad niskopoly terenem'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, navmesh, ai-navigation, navmeshsurface, layermask, voxelsize, low-poly-terrain, pathfinding, colliders]
-date: 2026-07-06
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-06'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- navmesh
+- ai-navigation
+- navmeshsurface
+- layermask
+- voxelsize
+- low-poly-terrain
+- pathfinding
+- colliders
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # NPC chodza po "niewidzialnych gorkach": bake NavMesh z propsow + za gruby voxel nad niskopoly terenem

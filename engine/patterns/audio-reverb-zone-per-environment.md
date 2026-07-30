@@ -1,10 +1,20 @@
 ---
+title: AudioReverbZone per Environment
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, audio, reverb, environment, ambient]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- audio
+- reverb
+- environment
+- ambient
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # AudioReverbZone per Environment

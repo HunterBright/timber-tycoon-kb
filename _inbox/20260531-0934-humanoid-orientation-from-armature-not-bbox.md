@@ -1,13 +1,28 @@
 ---
+title: Determine a humanoid's up/forward axis from ARMATURE bone landmarks, not from bounding-box max-spread — a T-pose arm span can beat true height
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, orientation, armature, mixamo, humanoid, t-pose, bounding-box, diagnostics]
-severity: low
-time_lost: "minimal — avoided a wrong camera aim / wrong region mapping"
-date: 2026-05-31
 status: draft
-applies_to: [blender, rigging, character-pipeline]
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- orientation
+- armature
+- mixamo
+- humanoid
+- t-pose
+- bounding-box
+- diagnostics
+applies_to:
+- blender
+- rigging
+- character-pipeline
+source: ''
+severity: low
+time_lost: minimal — avoided a wrong camera aim / wrong region mapping
+suggested-category: engine/lessons
 ---
 
 # Determine a humanoid's up/forward axis from ARMATURE bone landmarks, not from bounding-box max-spread — a T-pose arm span can beat true height
@@ -34,4 +49,4 @@ Use bone segment positions to aim diagnostic cameras and to label defect locatio
 Any character/rig diagnostic in Blender across projects. Whenever an armature exists, prefer bone landmarks for anatomy/orientation; reserve bbox heuristics for prop meshes with no rig. The parent-rotation vs local-dimensions gotcha applies to all FBX-imported hierarchies.
 
 ## Related
-- [[tripo-polygon-soup-inverted-winding-fix]]
+- [[20260531-0934-tripo-polygon-soup-inverted-winding-fix]]

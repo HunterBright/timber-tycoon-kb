@@ -1,10 +1,21 @@
 ---
+title: Unity CLI + com.unity.pipeline jako most agenta do żywego edytora
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/tooling
-tags: [unity, cli, mcp, agent-tooling, automation, build-verification]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- cli
+- mcp
+- agent-tooling
+- automation
+- build-verification
+applies_to: []
+source: ''
+suggested-category: workflow/tooling
 ---
 
 # Unity CLI + com.unity.pipeline jako most agenta do żywego edytora

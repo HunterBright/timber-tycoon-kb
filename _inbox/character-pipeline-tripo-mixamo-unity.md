@@ -1,11 +1,25 @@
 ---
-name: character-pipeline-tripo-mixamo-unity
+title: 'Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)'
 type: pattern
-project: timber-tycoon
-suggested-category: workflow/asset-pipeline
-tags: [tripo, mixamo, unity, blender, character, rigging, generic-animation, npc, pipeline]
-date: 2026-05-31
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- tripo
+- mixamo
+- unity
+- blender
+- character
+- rigging
+- generic-animation
+- npc
+- pipeline
+applies_to: []
+source: ''
+suggested-category: workflow/asset-pipeline
+name: character-pipeline-tripo-mixamo-unity
 ---
 
 # Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)

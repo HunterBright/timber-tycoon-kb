@@ -1,11 +1,24 @@
 ---
-name: discriminating-clip-vs-rig-vs-skin-humanoid-defect
+title: Discriminating CLIP vs RIG vs SKIN for a one-sided humanoid animation defect
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, mixamo, humanoid-retargeting, animation, skinned-mesh, diagnosis, SampleAnimation, x-bot]
-date: 2026-05-31
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- mixamo
+- humanoid-retargeting
+- animation
+- skinned-mesh
+- diagnosis
+- SampleAnimation
+- x-bot
+applies_to: []
+source: ''
+suggested-category: engine/patterns
+name: discriminating-clip-vs-rig-vs-skin-humanoid-defect
 ---
 
 # Discriminating CLIP vs RIG vs SKIN for a one-sided humanoid animation defect

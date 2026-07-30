@@ -1,10 +1,20 @@
 ---
+title: Initial Fill on Load (Don't Serialize NPC State)
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, npc, save-load, initial-state, lifecycle]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- npc
+- save-load
+- initial-state
+- lifecycle
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Initial Fill on Load (Don't Serialize NPC State)

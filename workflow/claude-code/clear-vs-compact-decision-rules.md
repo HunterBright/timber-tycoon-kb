@@ -1,15 +1,23 @@
 ---
-name: clear-vs-compact-decision-rules
+title: /clear vs /compact — Decision Rules
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- context-management
+- clear
+- compact
+applies_to:
+- claude-code-projects
+source: ''
 description: /clear = full reset (switching topics). /compact = compress current context (continue same task). 2 terminals max parallel. Decision rules for when to use each.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [claude-code, context-management, clear, compact]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [claude-code-projects]
+severity: medium
+suggested-category: workflow/claude-code
+name: clear-vs-compact-decision-rules
 ---
 
 # /clear vs /compact — Decision Rules

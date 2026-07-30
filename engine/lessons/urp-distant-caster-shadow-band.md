@@ -1,10 +1,24 @@
 ---
+title: '"Dark band that follows the player" = terrain self-shadow leaking onto near-coplanar road meshes'
 type: lesson
-project: Timber Tycoon
+status: verified
+confidence: high
+verified: ''
+date: '2026-06-11'
+project: Kerf - Sawmill Tycoon
+tags:
+- urp
+- shadows
+- shadow-acne
+- terrain
+- roads
+- coplanar-meshes
+- shadow-distance
+- diagnostics
+- day-night
+applies_to: []
+source: ''
 suggested-category: engine/lessons
-tags: [urp, shadows, shadow-acne, terrain, roads, coplanar-meshes, shadow-distance, diagnostics, day-night]
-date: 2026-06-11
-status: validated
 ---
 
 # "Dark band that follows the player" = terrain self-shadow leaking onto near-coplanar road meshes

@@ -1,13 +1,28 @@
 ---
+title: 'Verifying an FBX is "mesh-only" before Mixamo: scan for the real CLASS names, not substrings — `AnimStack` matches the header property `ActiveAnimStackName`'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [fbx, blender-export, mixamo, verification, binary-scan, false-positive, rigging]
-severity: medium
-time_lost: "~5 min (caught a false positive before reporting)"
-date: 2026-05-31
 status: draft
-applies_to: [blender, fbx, mixamo, unity]
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- fbx
+- blender-export
+- mixamo
+- verification
+- binary-scan
+- false-positive
+- rigging
+applies_to:
+- blender
+- fbx
+- mixamo
+- unity
+source: ''
+severity: medium
+time_lost: ~5 min (caught a false positive before reporting)
+suggested-category: engine/lessons
 ---
 
 # Verifying an FBX is "mesh-only" before Mixamo: scan for the real CLASS names, not substrings — `AnimStack` matches the header property `ActiveAnimStackName`
@@ -36,4 +51,4 @@ Blender export args that produce a clean static FBX for Mixamo: `object_types={'
 Any Blender→FBX→Mixamo (or →Unity) verification workflow. The class-name-vs-substring distinction generalises to inspecting any binary FBX without importing it (useful when re-importing would pollute / disconnect a live MCP scene).
 
 ## Related
-- [[tripo-polygon-soup-inverted-winding-fix]]
+- [[20260531-0934-tripo-polygon-soup-inverted-winding-fix]]

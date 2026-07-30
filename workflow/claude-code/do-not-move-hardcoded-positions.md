@@ -1,15 +1,25 @@
 ---
-name: do-not-move-hardcoded-positions
+title: '"DO NOT MOVE" Hardcoded Positions Convention'
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- scene
+- positions
+- convention
+- level-design
+applies_to:
+- unity-projects
+- claude-code-projects
+source: ''
 description: Scene objects with designer-tuned positions get // DO NOT MOVE comment. Code agents must respect this — never auto-adjust marked positions. Applied to cliff, waterfall, sawmill, bridge.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [claude-code, scene, positions, convention, level-design]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects, claude-code-projects]
+severity: medium
+suggested-category: workflow/claude-code
+name: do-not-move-hardcoded-positions
 ---
 
 # "DO NOT MOVE" Hardcoded Positions Convention
@@ -56,4 +66,4 @@ These objects were positioned by eye — the exact float coordinates are the des
 
 "Code regenerated the map and now my cliff is in the river." Always happens because the regeneration script doesn't know which positions are sacred. The comment is the signal.
 
-See also: [[backup-scene-before-modify]], [[scene-attachment-check-before-deleting-monobehaviour]]
+See also: [[backup-scene-before-modify]], [[scene-attachment-check-before-deleting]]

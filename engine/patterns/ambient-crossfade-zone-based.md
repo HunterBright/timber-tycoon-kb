@@ -1,10 +1,20 @@
 ---
+title: Ambient Crossfade Zone-Based Pattern
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, audio, ambient, crossfade, zones]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- audio
+- ambient
+- crossfade
+- zones
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Ambient Crossfade Zone-Based Pattern

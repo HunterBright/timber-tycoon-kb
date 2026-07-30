@@ -1,10 +1,20 @@
 ---
+title: 'Storage Migration: Primary New + Legacy Fallback'
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, refactoring, migration, save-compat, technical-debt]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- refactoring
+- migration
+- save-compat
+- technical-debt
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Storage Migration: Primary New + Legacy Fallback
@@ -36,4 +46,4 @@ Hard migration breaks old saves and requires all callsites to be perfect on day 
 ## Variants
 Same pattern for: database schema migrations, API versioning (v1 fallback while v2 rolls out), config file format changes.
 
-See also: [[before-delete-legacy-class-checklist]], [[reputation-backend-migration-rollback-safety]]
+See also: [[before-delete-legacy-class-checklist]], [[migration-pattern-rollback-safety]]

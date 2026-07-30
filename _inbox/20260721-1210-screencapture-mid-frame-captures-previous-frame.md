@@ -1,13 +1,27 @@
 ---
+title: ScreenCapture.CaptureScreenshotAsTexture w ciele korutyny lapie POPRZEDNIA klatke
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, screenshot, screencapture, coroutine, ui, verification, probe]
-severity: high
-time_lost: "~1 build cycle (~8 min) + would have shipped an unverified UI"
-date: 2026-07-21
 status: draft
-applies_to: [unity-6, unity-2021+, any-unity-version]
+confidence: low
+verified: ''
+date: '2026-07-21'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- screenshot
+- screencapture
+- coroutine
+- ui
+- verification
+- probe
+applies_to:
+- unity-6
+- unity-2021+
+- any-unity-version
+source: ''
+severity: high
+time_lost: ~1 build cycle (~8 min) + would have shipped an unverified UI
+suggested-category: engine/lessons
 ---
 
 # ScreenCapture.CaptureScreenshotAsTexture w ciele korutyny lapie POPRZEDNIA klatke
@@ -76,5 +90,5 @@ sprawdza, produkuje falszywe poczucie bezpieczenstwa - i to tym skuteczniej, im 
 wiarygodnie dowod wyglada.
 
 ## Related
-- [[probe-must-be-able-to-fail]]
-- [[ui-fit-check-measuring-rect-instead-of-text]]
+- [[gate-must-have-provable-failure-mode]]
+- [[20260721-1215-ui-fit-check-measuring-rect-instead-of-text]]

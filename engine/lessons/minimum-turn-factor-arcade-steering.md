@@ -1,13 +1,24 @@
 ---
+title: Minimum turnFactor 0.3 for Low-Speed Arcade Steering
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, vehicle, physics, arcade, steering, npc]
-severity: medium
-time_lost: ""
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- vehicle
+- physics
+- arcade
+- steering
+- npc
+applies_to:
+- unity-projects
+source: ''
+severity: medium
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # Minimum turnFactor 0.3 for Low-Speed Arcade Steering

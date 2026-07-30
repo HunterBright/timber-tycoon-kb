@@ -1,13 +1,26 @@
 ---
+title: Measure the reference from pixels, then gate against the measurement
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/patterns
-tags: [reference, proportions, measurement, art-direction, low-poly, silhouette]
-severity: medium
-time_lost: ""
-date: 2026-07-27
 status: draft
-applies_to: [3d-art, procedural-characters, any-engine]
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- reference
+- proportions
+- measurement
+- art-direction
+- low-poly
+- silhouette
+applies_to:
+- 3d-art
+- procedural-characters
+- any-engine
+source: ''
+severity: medium
+suggested-category: workflow/patterns
+time_lost: ''
 ---
 
 # Measure the reference from pixels, then gate against the measurement
@@ -72,4 +85,4 @@ not make the sliders illegal.
   thumb*, not the palm plate.
 
 ## Related
-- [[gates-must-not-identify-parts-by-world-coordinate]]
+- [[20260727-1535-gates-must-not-identify-parts-by-world-coordinate]]

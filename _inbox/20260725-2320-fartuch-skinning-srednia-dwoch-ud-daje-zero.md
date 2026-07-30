@@ -1,11 +1,25 @@
 ---
+title: Fartuch ważony po połowie na oba uda NIE RUSZA SIĘ przy chodzie
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [rigging, skinning, cloth, apron, skirt, character, blender, unity, walk-cycle]
-date: 2026-07-25
-severity: high
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- rigging
+- skinning
+- cloth
+- apron
+- skirt
+- character
+- blender
+- unity
+- walk-cycle
+applies_to: []
+source: ''
+severity: high
+suggested-category: engine/lessons
 ---
 
 # Fartuch ważony po połowie na oba uda NIE RUSZA SIĘ przy chodzie
@@ -70,4 +84,4 @@ mu było ufać**. Dopisany tryb dowodowy: ta sama procedura na fartuchu ważonym
 na biodrach musi zgłosić przebicie. Wynik: z wagami +14 mm, bez nich -88 mm,
 różnica 102 mm. Dopiero to dowodzi, że test mierzy ważenie, a nie kształt.
 
-Patrz też: [[feedback-probe-must-be-able-to-fail]].
+Patrz też: [[feedback_probe_must_be_able_to_fail]].

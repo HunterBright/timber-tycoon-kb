@@ -1,10 +1,22 @@
 ---
+title: 'Reverse-parking: orientation on the entry stub (forward-tail)'
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, npc, parking, kinematic, waypoints, orientation, fbx-forward-axis]
-date: 2026-05-22
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- npc
+- parking
+- kinematic
+- waypoints
+- orientation
+- fbx-forward-axis
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Reverse-parking: orientation on the entry stub (forward-tail)

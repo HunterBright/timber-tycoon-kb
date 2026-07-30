@@ -1,13 +1,26 @@
 ---
+title: Zero-thickness surfaces make voxel remesh amputate parts of a model
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [blender, remesh, voxel, solidify, generative-3d, trellis, mesh-repair]
-severity: high
-time_lost: "~4 h across two sessions"
-date: 2026-07-26
 status: draft
-applies_to: [blender-5.x, any-photogrammetry-or-ai-mesh-cleanup]
+confidence: low
+verified: ''
+date: '2026-07-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- remesh
+- voxel
+- solidify
+- generative-3d
+- trellis
+- mesh-repair
+applies_to:
+- blender-5.x
+- any-photogrammetry-or-ai-mesh-cleanup
+source: ''
+severity: high
+time_lost: ~4 h across two sessions
+suggested-category: engine/lessons
 ---
 
 # Zero-thickness surfaces make voxel remesh amputate parts of a model

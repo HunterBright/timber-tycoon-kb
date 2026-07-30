@@ -1,11 +1,21 @@
 ---
+title: Dynamic Rigidbody → Primitive or Convex Collider, Never Non-Convex Mesh
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, physics, rigidbody, meshcollider, collider]
-severity: high
-date: 2026-05-28
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- rigidbody
+- meshcollider
+- collider
+applies_to: []
+source: ''
+severity: high
+suggested-category: engine/lessons
 ---
 
 # Dynamic Rigidbody → Primitive or Convex Collider, Never Non-Convex Mesh

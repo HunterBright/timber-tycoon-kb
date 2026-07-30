@@ -1,10 +1,21 @@
 ---
+title: Collider z GetComponentInChildren&lt;MeshFilter&gt; na wielosiatkowym FBX = collider z fragmentu modelu
 type: anti-pattern
-project: Timber_Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, collider, meshcollider, fbx, prefab-generator, physics]
-date: 2026-07-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-10'
+project: Timber_Tycoon
+tags:
+- unity
+- collider
+- meshcollider
+- fbx
+- prefab-generator
+- physics
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Collider z GetComponentInChildren&lt;MeshFilter&gt; na wielosiatkowym FBX = collider z fragmentu modelu

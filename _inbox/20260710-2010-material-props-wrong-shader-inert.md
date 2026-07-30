@@ -1,10 +1,20 @@
 ---
+title: Ustawianie właściwości materiału bez sprawdzenia SHADERA = ciche nic + ryzyko nadpisania
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, materials, shader, urp, editor-scripts]
-date: 2026-07-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- materials
+- shader
+- urp
+- editor-scripts
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Ustawianie właściwości materiału bez sprawdzenia SHADERA = ciche nic + ryzyko nadpisania

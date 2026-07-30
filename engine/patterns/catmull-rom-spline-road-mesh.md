@@ -1,10 +1,20 @@
 ---
+title: Catmull-Rom Spline + Quad Strip Mesh for Roads
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, road, mesh-generation, spline, catmull-rom]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- road
+- mesh-generation
+- spline
+- catmull-rom
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Catmull-Rom Spline + Quad Strip Mesh for Roads
@@ -57,10 +67,10 @@ Catmull-Rom produces smooth curves through all control points, not just toward t
 ## Trade-offs
 - Spline resolution vs. polygon count: `splineResolution = 10` between waypoints means a 100-waypoint road = 1000 quads = 4000 verts — acceptable
 - Sharp turns: Catmull-Rom doesn't guarantee perpendicular quads at high curvature. Clamp maximum turn rate between waypoints
-- Terrain interaction: road mesh must be elevated above terrain to avoid z-fighting (see [[flatten-terrain-under-road-smoothstep]])
+- Terrain interaction: road mesh must be elevated above terrain to avoid z-fighting (see [[flatten-terrain-under-road]])
 
 ## Variants
 - **Bezier spline:** more control over tangents, but waypoints don't sit on the curve
 - **Static FBX roads:** model in Blender, export, import. More work per iteration, better for final polished roads
 
-See also: [[flatten-terrain-under-road-smoothstep]], [[mesh-collider-on-roads-stackable]]
+See also: [[flatten-terrain-under-road]], [[mesh-collider-on-roads-stackable]]

@@ -1,15 +1,24 @@
 ---
-name: intentionally-low-maxcapacity-test-racks
+title: Intentionally Low maxCapacity for Test Racks
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- testing
+- iteration
+- capacity
+- debug
+applies_to:
+- unity-projects
+source: ''
 description: During development, set LOW maxCapacity (Plank=10, Bark=4) to hit "rack full" edge cases in 30 seconds. Mark with comment "INTENTIONALLY LOW for testing". Revert before shipping.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [unity, testing, iteration, capacity, debug]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: medium
+suggested-category: workflow/claude-code
+name: intentionally-low-maxcapacity-test-racks
 ---
 
 # Intentionally Low maxCapacity for Test Racks

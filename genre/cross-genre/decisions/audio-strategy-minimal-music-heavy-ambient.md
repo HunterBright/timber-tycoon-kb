@@ -1,15 +1,25 @@
 ---
-name: audio-strategy-minimal-music-heavy-ambient
+title: Audio Strategy — Minimal Music + Heavy Ambient + Voice Bites
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: eskimo-simulator
+tags:
+- game-design
+- audio
+- music
+- ambient
+- voice
+- cross-genre
+applies_to:
+- unity-projects
+source: ''
 description: Valheim-style audio strategy — minimal music (key moments only), heavy ambient (wind, footsteps, environment), ElevenLabs-generated voice bites in native language. Atmospheric > music-saturated.
-metadata:
-  type: decision
-  project: eskimo-simulator
-  suggested-category: genre/cross-genre/decisions
-  tags: [game-design, audio, music, ambient, voice, cross-genre]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: medium
+suggested-category: genre/cross-genre/decisions
+name: audio-strategy-minimal-music-heavy-ambient
 ---
 
 # Audio Strategy — Minimal Music + Heavy Ambient + Voice Bites

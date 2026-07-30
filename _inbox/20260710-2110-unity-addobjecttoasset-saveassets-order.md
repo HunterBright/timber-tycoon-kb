@@ -1,11 +1,21 @@
 ---
+title: AddObjectToAsset wymaga SaveAssets() PRZED ImportAsset(), inaczej sub-asset znika
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, editor-scripting, assetdatabase, prefab, sub-asset]
-date: 2026-07-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-10'
+project: Timber_Tycoon
+tags:
+- unity
+- editor-scripting
+- assetdatabase
+- prefab
+- sub-asset
+applies_to: []
+source: ''
 severity: medium
+suggested-category: engine/lessons
 ---
 
 # AddObjectToAsset wymaga SaveAssets() PRZED ImportAsset(), inaczej sub-asset znika

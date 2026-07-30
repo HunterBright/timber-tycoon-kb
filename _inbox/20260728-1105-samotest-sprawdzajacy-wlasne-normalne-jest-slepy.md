@@ -1,10 +1,22 @@
 ---
+title: Samotest sprawdzajacy WLASNE normalne jest slepy na odwrocona scianke
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, mesh, normals, winding, testing, self-test, geometry]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- mesh
+- normals
+- winding
+- testing
+- self-test
+- geometry
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Samotest sprawdzajacy WLASNE normalne jest slepy na odwrocona scianke

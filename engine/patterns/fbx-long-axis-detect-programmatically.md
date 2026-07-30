@@ -1,10 +1,22 @@
 ---
+title: Don't assume an FBX mesh's axis — detect the longest axis programmatically from bounds
 type: pattern
+status: verified
+confidence: high
+verified: ''
+date: '2026-06-11'
 project: Timber_Tycoon
+tags:
+- unity
+- blender
+- fbx
+- axis
+- viewmodel
+- bounds
+- orientation
+applies_to: []
+source: ''
 suggested-category: engine/patterns
-tags: [unity, blender, fbx, axis, viewmodel, bounds, orientation]
-date: 2026-06-11
-status: validated
 ---
 
 # Don't assume an FBX mesh's axis — detect the longest axis programmatically from bounds

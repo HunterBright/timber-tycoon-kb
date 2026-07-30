@@ -1,10 +1,23 @@
 ---
+title: Stacked carry system — camera viewmodel + LIFO + species-agnostic prefab refs
 type: pattern
+status: verified
+confidence: high
+verified: ''
+date: '2026-06-11'
 project: Timber_Tycoon
+tags:
+- unity
+- carry-system
+- viewmodel
+- camera
+- lifo
+- prefab
+- fpp
+- species-agnostic
+applies_to: []
+source: ''
 suggested-category: engine/patterns
-tags: [unity, carry-system, viewmodel, camera, lifo, prefab, fpp, species-agnostic]
-date: 2026-06-11
-status: validated
 ---
 
 # Stacked carry system — camera viewmodel + LIFO + species-agnostic prefab refs

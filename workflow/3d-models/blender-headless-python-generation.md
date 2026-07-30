@@ -1,15 +1,25 @@
 ---
-name: blender-headless-python-generation
+title: Blender Headless Python Script Generation
+type: pattern
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- python
+- headless
+- automation
+- generation
+applies_to:
+- blender-pipelines
+- claude-code-projects
+source: ''
 description: Generate 3D assets via blender.exe --background --python script.py. Script creates geometry, assigns materials, saves .blend, exports FBX, renders preview. Deterministic + version-controllable.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: workflow/3d-models
-  tags: [blender, python, headless, automation, generation]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [blender-pipelines, claude-code-projects]
+severity: high
+suggested-category: workflow/3d-models
+name: blender-headless-python-generation
 ---
 
 # Blender Headless Python Script Generation
@@ -56,7 +66,7 @@ frame.data.materials.append(mat)
 # 5. Save .blend
 bpy.ops.wm.save_as_mainfile(filepath="D:/..._BlenderOutputs/Frame/Frame.blend")
 
-# 6. Export FBX (standard settings — see [[fbx-export-standard-settings]] if it exists)
+# 6. Export FBX (standard settings — see [[fbx-export-standard-settings-blender-to-unity]] if it exists)
 bpy.ops.export_scene.fbx(
     filepath="D:/.../Frame.fbx",
     use_selection=False,
@@ -91,4 +101,4 @@ bpy.ops.render.render(write_still=True)
 
 Blender Python API changes between major versions. Scripts target Blender 5.0+. Verify `bpy.app.version` at script start if cross-version compatibility is needed.
 
-See also: [[procedural-textures-cycles-commercial]], [[zero-floating-zero-flickering-mandate]], [[iterative-checkpoint-workflow-generated-assets]]
+See also: [[procedural-textures-cycles-commercial]], [[zero-floating-zero-flickering-mandate]], [[iterative-checkpoint-workflow]]

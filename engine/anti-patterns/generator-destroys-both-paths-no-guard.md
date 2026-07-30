@@ -1,11 +1,21 @@
 ---
+title: 'ANTI-PATTERN: Generator Destroys Both Paths With No Guard'
 type: anti-pattern
-project: timber-tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, editor-tooling, waypoints, codegen, npc-parking]
-severity: medium
-date: 2026-05-22
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- editor-tooling
+- waypoints
+- codegen
+- npc-parking
+applies_to: []
+source: ''
+severity: medium
+suggested-category: engine/anti-patterns
 ---
 
 # ANTI-PATTERN: Generator Destroys Both Paths With No Guard

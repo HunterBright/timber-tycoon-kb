@@ -1,15 +1,23 @@
 ---
-name: mcp-wildcard-permissions-format
+title: MCP Wildcard Permissions Format
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- mcp
+- permissions
+- configuration
+applies_to:
+- claude-code-projects
+source: ''
 description: MCP permissions in .claude/settings.json use double-underscore format mcp__{server}__* (wildcard) or mcp__{server}__{tool} (specific). Wrong format = server silently fails to connect.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/mcp-tools
-  tags: [claude-code, mcp, permissions, configuration]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [claude-code-projects]
+severity: high
+suggested-category: workflow/mcp-tools
+name: mcp-wildcard-permissions-format
 ---
 
 # MCP Wildcard Permissions Format

@@ -1,10 +1,22 @@
 ---
+title: Jednostronne kartki listowia na URP/Lit wychodza CZARNE
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, urp, shader, foliage, alpha-cutout, normals, backface]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- shader
+- foliage
+- alpha-cutout
+- normals
+- backface
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Jednostronne kartki listowia na URP/Lit wychodza CZARNE

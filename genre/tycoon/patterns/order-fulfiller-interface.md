@@ -1,10 +1,21 @@
 ---
+title: OrderFulfiller Interface (Player vs NPC, Player Always Faster)
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, interface, order-fulfillment, player, npc, asymmetry]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- interface
+- order-fulfillment
+- player
+- npc
+- asymmetry
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # OrderFulfiller Interface (Player vs NPC, Player Always Faster)

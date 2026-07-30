@@ -1,10 +1,22 @@
 ---
+title: Blender-MCP Interactive Remodel Loop (GUID-Preserving In-Place Replace)
 type: pattern
-project: timber-tycoon
-suggested-category: workflow/asset-pipeline
-tags: [blender, blender-mcp, unity, fbx, guid, prefab, pipeline]
-date: 2026-05-29
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-29'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- blender-mcp
+- unity
+- fbx
+- guid
+- prefab
+- pipeline
+applies_to: []
+source: ''
+suggested-category: workflow/asset-pipeline
 ---
 
 # Blender-MCP Interactive Remodel Loop (GUID-Preserving In-Place Replace)

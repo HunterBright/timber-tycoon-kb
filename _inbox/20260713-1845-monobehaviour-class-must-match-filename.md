@@ -1,13 +1,25 @@
 ---
+title: Klasa MonoBehaviour dołożona przez AddComponent MUSI leżeć w pliku o swojej nazwie — inaczej scena psuje build
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, monobehaviour, monoscript, serialization, missing-script, scene-corruption, build-crash]
-severity: critical
-time_lost: "~2h (crash buildu -> sekcja zwlok obiektu -> odtworzenie)"
-date: 2026-07-13
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- monobehaviour
+- monoscript
+- serialization
+- missing-script
+- scene-corruption
+- build-crash
+applies_to:
+- unity
+source: ''
+severity: critical
+time_lost: ~2h (crash buildu -> sekcja zwlok obiektu -> odtworzenie)
+suggested-category: engine/anti-patterns
 ---
 
 # Klasa MonoBehaviour dołożona przez AddComponent MUSI leżeć w pliku o swojej nazwie — inaczej scena psuje build
@@ -108,5 +120,5 @@ Reguła nadrzędna: **jeśli scena jest binarna, jej uszkodzenia nie widać w co
 w buildzie.** Tym bardziej trzeba budować wcześnie.
 
 ## Related
-- [[runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it]]
-- [[build-early-never-built-project-hides-editor-only-bugs]]
+- [[20260713-1830-runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it]]
+- [[20260713-1900-build-early-never-built-project-hides-editor-only-bugs]]

@@ -1,13 +1,27 @@
 ---
+title: Least-squares loop matching is ill-conditioned when the bridge is long
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [procedural-mesh, topology, stitching, floating-point, determinism, rigging]
-severity: high
-time_lost: "~1h to diagnose, would have cost days later"
-date: 2026-07-27
 status: draft
-applies_to: [blender, python, procedural-geometry, any-engine]
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- procedural-mesh
+- topology
+- stitching
+- floating-point
+- determinism
+- rigging
+applies_to:
+- blender
+- python
+- procedural-geometry
+- any-engine
+source: ''
+severity: high
+time_lost: ~1h to diagnose, would have cost days later
+suggested-category: engine/lessons
 ---
 
 # Least-squares loop matching is ill-conditioned when the bridge is long
@@ -80,4 +94,4 @@ mesh-integrity checks and only surfaces much later, when skinning or UVs stop
 transferring between variants.
 
 ## Related
-- [[procedural-mesh-gates-must-not-identify-parts-by-world-coordinate]]
+- [[20260727-1535-gates-must-not-identify-parts-by-world-coordinate]]

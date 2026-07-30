@@ -1,13 +1,23 @@
 ---
+title: NEVER save_scene or DestroyImmediate in Play Mode
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, play-mode, scene-safety, data-loss, claude-code]
-severity: high
-time_lost: "hours (scene rebuild)"
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- play-mode
+- scene-safety
+- data-loss
+- claude-code
+applies_to:
+- unity-projects
+source: ''
+severity: high
+time_lost: hours (scene rebuild)
+suggested-category: engine/lessons
 ---
 
 # NEVER save_scene or DestroyImmediate in Play Mode

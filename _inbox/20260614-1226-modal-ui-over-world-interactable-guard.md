@@ -1,10 +1,22 @@
 ---
+title: Modal UI opened from a world-space interactable must guard the interaction handler
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, fpp, interaction, modal-ui, raycast, input, ui-event-system]
-date: 2026-06-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- fpp
+- interaction
+- modal-ui
+- raycast
+- input
+- ui-event-system
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Modal UI opened from a world-space interactable must guard the interaction handler

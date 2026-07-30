@@ -1,10 +1,20 @@
 ---
+title: Trunk Fall Physics Config
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, physics, rigidbody, tree-cutting, fallen-trunk]
-date: 2026-05-28
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- rigidbody
+- tree-cutting
+- fallen-trunk
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Trunk Fall Physics Config

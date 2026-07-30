@@ -1,13 +1,22 @@
 ---
+title: Read Actual Code Before Hypothesizing
 type: lesson
-project: timber-tycoon
-suggested-category: workflow/claude-code
-tags: [claude-code, debugging, workflow, anti-pattern-of-thought]
-severity: high
-time_lost: "entire debugging sessions"
-date: 2026-05-17
 status: draft
-applies_to: ["claude-code-projects"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- debugging
+- workflow
+- anti-pattern-of-thought
+applies_to:
+- claude-code-projects
+source: ''
+severity: high
+time_lost: entire debugging sessions
+suggested-category: workflow/claude-code
 ---
 
 # Read Actual Code Before Hypothesizing

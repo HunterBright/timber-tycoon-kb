@@ -1,10 +1,22 @@
 ---
+title: Don't commit timestamped Unity scene/asset backups into git-LFS
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: workflow/anti-patterns
-tags: [git, git-lfs, unity, storage, quota, backups, gitignore]
-date: 2026-06-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- git
+- git-lfs
+- unity
+- storage
+- quota
+- backups
+- gitignore
+applies_to: []
+source: ''
+suggested-category: workflow/anti-patterns
 ---
 
 # Don't commit timestamped Unity scene/asset backups into git-LFS

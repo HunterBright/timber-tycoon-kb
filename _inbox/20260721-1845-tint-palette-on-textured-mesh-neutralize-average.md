@@ -1,10 +1,21 @@
 ---
+title: 'Paleta kolorow na TEKSTUROWANEJ siatce: dziel tint przez sredni kolor tekstury'
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, urp, materialpropertyblock, texture, color-palette, variants]
-date: 2026-07-21
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-21'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- materialpropertyblock
+- texture
+- color-palette
+- variants
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Paleta kolorow na TEKSTUROWANEJ siatce: dziel tint przez sredni kolor tekstury
@@ -54,4 +65,4 @@ przestrajac palety, a zmiana jest weryfikowalna liczbowo, nie "na oko".
   sredniej jasnosci dwoch kolorow skrajnych - to maksymalizuje najgorszy przypadek.
 
 ## Related
-- [[linerenderer-flat-on-surface-invisible]]
+- [[20260721-1830-linerenderer-flat-on-surface-invisible]]

@@ -1,10 +1,22 @@
 ---
+title: 'Wzorzec audytu prześwitów w siatkach: render 3-przebiegowy > heurystyki geometryczne'
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, blender, audit, mesh, normals, rendering, pipeline]
-date: 2026-07-19
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-19'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- blender
+- audit
+- mesh
+- normals
+- rendering
+- pipeline
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Wzorzec audytu prześwitów w siatkach: render 3-przebiegowy > heurystyki geometryczne

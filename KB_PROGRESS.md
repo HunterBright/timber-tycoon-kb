@@ -1,3 +1,16 @@
+---
+title: KB Build Progress
+type: note
+status: draft
+confidence: medium
+verified: ''
+date: ''
+project: Kerf - Sawmill Tycoon
+tags: []
+applies_to: []
+source: ''
+---
+
 # KB Build Progress
 
 Started: 2026-05-17

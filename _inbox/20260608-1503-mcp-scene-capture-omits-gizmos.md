@@ -1,10 +1,23 @@
 ---
+title: MCP scene-capture tools render geometry only — they do NOT show editor gizmos / Handles.Label
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, mcp, coplay, gizmos, handles, screenshot, scene-view, editor-tooling]
-date: 2026-06-08
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-08'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- mcp
+- coplay
+- gizmos
+- handles
+- screenshot
+- scene-view
+- editor-tooling
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # MCP scene-capture tools render geometry only — they do NOT show editor gizmos / Handles.Label

@@ -1,13 +1,27 @@
 ---
+title: 'Szkielet z auto-rigu AI ma inne proporcje niz siatka: postac w grze skladasie w harmonijke'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, humanoid, rig, ai-assets, retargeting, blender, sonda]
-severity: high
-time_lost: "~3 h"
-date: 2026-07-25
 status: draft
-applies_to: [unity-6, humanoid-avatar, ai-generated-characters]
+confidence: low
+verified: ''
+date: '2026-07-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- humanoid
+- rig
+- ai-assets
+- retargeting
+- blender
+- sonda
+applies_to:
+- unity-6
+- humanoid-avatar
+- ai-generated-characters
+source: ''
+severity: high
+time_lost: ~3 h
+suggested-category: engine/lessons
 ---
 
 # Szkielet z auto-rigu AI ma inne proporcje niz siatka: postac w grze skladasie w harmonijke
@@ -73,4 +87,4 @@ z wysokoscia w bind pose. Ponizej ~80% = szkielet nie pasuje do siatki. Ten jede
 zlapalby caly problem w 30 sekund zamiast w 3 godziny.
 
 ## Related
-- [[ai-model-community-license-excludes-eu]] (ten sam potok assetow, strona prawna)
+- [[20260725-0625-ai-model-community-license-excludes-eu]] (ten sam potok assetow, strona prawna)

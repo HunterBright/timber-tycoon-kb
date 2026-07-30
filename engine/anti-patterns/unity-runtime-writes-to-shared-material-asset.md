@@ -1,10 +1,21 @@
 ---
+title: 'Anti-pattern: runtime writes to a shared material ASSET'
 type: anti-pattern
-project: Timber Tycoon
+status: verified
+confidence: high
+verified: ''
+date: '2026-06-11'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- materials
+- serialization
+- git
+- day-night-cycle
+- materialpropertyblock
+applies_to: []
+source: ''
 suggested-category: engine/anti-patterns
-tags: [unity, materials, serialization, git, day-night-cycle, materialpropertyblock]
-date: 2026-06-11
-status: validated
 ---
 
 # Anti-pattern: runtime writes to a shared material ASSET

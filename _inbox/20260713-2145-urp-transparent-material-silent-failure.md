@@ -1,10 +1,22 @@
 ---
+title: 'URP: źle skonfigurowany materiał przezroczysty to CICHA porażka, której wykrywacz magenty nie widzi'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, urp, materials, transparency, build-verification, silent-failure, shader-stripping]
-date: 2026-07-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- materials
+- transparency
+- build-verification
+- silent-failure
+- shader-stripping
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # URP: źle skonfigurowany materiał przezroczysty to CICHA porażka, której wykrywacz magenty nie widzi
@@ -48,4 +60,4 @@ Dodatkowo: **`_Surface`/`_ZWrite`/`_Blend` w pliku `.mat` są BEZWŁADNE dla wł
 
 - Gotowy shader Unity (URP/Unlit) wpięty w materiał-asset ma **krótszy łańcuch zależności** niż własny shader: nie trzeba go dopisywać do Always Included Shaders ani pilnować, żeby jakiś materiał go używał. Własny shader, którego nie używa żaden materiał, **wypada z buildu** i `Shader.Find` zwraca null (patrz [[shader-stripping-always-included]]).
 - Materiał wpięty w ScriptableObject leżący w `Resources/` jest wciągany do buildu razem z shaderem — automatycznie, przez graf zależności. To wystarcza; nie trzeba `Shader.Find`.
-- [[editor-cannot-simulate-build]]
+- [[build-is-the-only-truth-editor-lies]]

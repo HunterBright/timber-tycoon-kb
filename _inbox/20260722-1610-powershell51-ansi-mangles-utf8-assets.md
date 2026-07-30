@@ -1,10 +1,22 @@
 ---
+title: Skrypt PowerShell 5.1 psuje polskie znaki przy masowej edycji plików assetów
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: workflow/anti-patterns
-tags: [powershell, encoding, utf-8, unity, scriptableobject, automation, batch-edit]
-date: 2026-07-22
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- powershell
+- encoding
+- utf-8
+- unity
+- scriptableobject
+- automation
+- batch-edit
+applies_to: []
+source: ''
+suggested-category: workflow/anti-patterns
 ---
 
 # Skrypt PowerShell 5.1 psuje polskie znaki przy masowej edycji plików assetów

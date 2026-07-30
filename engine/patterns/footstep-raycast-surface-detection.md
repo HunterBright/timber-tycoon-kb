@@ -1,10 +1,21 @@
 ---
+title: Footstep Raycast Surface Detection
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, audio, footstep, raycast, terrain, sfx]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- audio
+- footstep
+- raycast
+- terrain
+- sfx
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Footstep Raycast Surface Detection

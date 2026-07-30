@@ -1,10 +1,20 @@
 ---
+title: Visualization Ratio (Inventory to Visual Stack)
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, visualization, inventory, ratio, scale]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- visualization
+- inventory
+- ratio
+- scale
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Visualization Ratio (Inventory to Visual Stack)

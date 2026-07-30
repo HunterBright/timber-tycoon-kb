@@ -1,10 +1,20 @@
 ---
+title: ReputationLevels.asset Data-Driven Progression
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, scriptableobject, progression, data-driven, reputation]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- scriptableobject
+- progression
+- data-driven
+- reputation
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # ReputationLevels.asset Data-Driven Progression

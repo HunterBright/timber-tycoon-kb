@@ -1,10 +1,21 @@
 ---
+title: 'Baking flat UI sprites in Blender: ortho frame width = ortho_scale × 2'
 type: lesson
-project: Timber Tycoon
-suggested-category: blender/lessons
-tags: [blender, ui-sprite, bake, orthographic-camera, headless-render, 9-slice]
-date: 2026-06-18
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-18'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- ui-sprite
+- bake
+- orthographic-camera
+- headless-render
+- 9-slice
+applies_to: []
+source: ''
+suggested-category: blender/lessons
 ---
 
 # Baking flat UI sprites in Blender: ortho frame width = ortho_scale × 2

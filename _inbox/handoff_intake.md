@@ -1,3 +1,16 @@
+---
+title: Handoff Intake — 2026-05-17
+type: note
+status: draft
+confidence: low
+verified: ''
+date: ''
+project: Kerf - Sawmill Tycoon
+tags: []
+applies_to: []
+source: ''
+---
+
 # Handoff Intake — 2026-05-17
 
 ## Section 1: KB folder tree

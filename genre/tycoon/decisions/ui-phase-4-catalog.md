@@ -1,15 +1,24 @@
 ---
+title: UI Phase 4 Catalog (12 Systems)
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- ui
+- roadmap
+- scope
+- phase-4
+applies_to:
+- unity-projects
+source: ''
+description: 'UI Phase 4 — 12 systems catalog for post-MVP UX completion: HUD, Notification Queue, Tooltips, Cursor, Confirmation Dialogs, Visual Feedback, Typography, Icons, Statistics, Settings, Accessibility, Credits.'
+severity: medium
+suggested-category: genre/tycoon/decisions
 name: ui-phase-4-catalog
-description: UI Phase 4 — 12 systems catalog for post-MVP UX completion: HUD, Notification Queue, Tooltips, Cursor, Confirmation Dialogs, Visual Feedback, Typography, Icons, Statistics, Settings, Accessibility, Credits.
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, ui, roadmap, scope, phase-4]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
 ---
 
 # UI Phase 4 Catalog (12 Systems)

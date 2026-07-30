@@ -1,10 +1,21 @@
 ---
+title: Menu glowne jako nakladka w jednej scenie (bez sceny menu)
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, main-menu, single-scene, timescale, test-automation, bootstrap]
-date: 2026-07-17
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- main-menu
+- single-scene
+- timescale
+- test-automation
+- bootstrap
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Menu glowne jako nakladka w jednej scenie (bez sceny menu)

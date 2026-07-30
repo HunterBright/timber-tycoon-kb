@@ -1,11 +1,22 @@
 ---
+title: Obracający się obiekt symetryczny wygląda na nieruchomy
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, vfx, animation, perception, aliasing, game-feel]
-date: 2026-07-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- vfx
+- animation
+- perception
+- aliasing
+- game-feel
+applies_to: []
+source: ''
 severity: medium
+suggested-category: engine/lessons
 ---
 
 # Obracający się obiekt symetryczny wygląda na nieruchomy

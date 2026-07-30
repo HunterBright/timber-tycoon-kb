@@ -1,10 +1,20 @@
 ---
+title: Shared Mesh + Materials Reference Pattern
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, prefabs, references, placeholders, debug]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- prefabs
+- references
+- placeholders
+- debug
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Shared Mesh + Materials Reference Pattern

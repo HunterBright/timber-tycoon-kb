@@ -1,10 +1,22 @@
 ---
+title: 'Plaskie tekstury dla modelu z generatora 3D: tozsamosc elementu bierz z REFERENCJI, nie z koloru'
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: pipeline/patterns
-tags: [blender, tekstury, generatory-3d, retopologia, bake, referencje, numpy]
-date: 2026-07-25
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- tekstury
+- generatory-3d
+- retopologia
+- bake
+- referencje
+- numpy
+applies_to: []
+source: ''
+suggested-category: pipeline/patterns
 ---
 
 # Plaskie tekstury dla modelu z generatora 3D: tozsamosc elementu bierz z REFERENCJI, nie z koloru

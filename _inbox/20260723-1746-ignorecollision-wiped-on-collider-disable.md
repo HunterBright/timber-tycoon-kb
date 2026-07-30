@@ -1,10 +1,20 @@
 ---
+title: Physics.IgnoreCollision znika przy wyłączeniu collidera - dla przełączanych colliderów używaj par warstw
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, physics, ignorecollision, layers, charactercontroller]
-date: 2026-07-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- ignorecollision
+- layers
+- charactercontroller
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Physics.IgnoreCollision znika przy wyłączeniu collidera - dla przełączanych colliderów używaj par warstw

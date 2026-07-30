@@ -1,11 +1,22 @@
 ---
+title: Brakujący klucz w assecie NIE oznacza zera - zmierz, zanim "naprawisz"
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, serialization, scriptableobject, debugging, measurement, build-probe]
-date: 2026-07-22
-severity: medium
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- serialization
+- scriptableobject
+- debugging
+- measurement
+- build-probe
+applies_to: []
+source: ''
+severity: medium
+suggested-category: engine/lessons
 ---
 
 # Brakujący klucz w assecie NIE oznacza zera - zmierz, zanim "naprawisz"

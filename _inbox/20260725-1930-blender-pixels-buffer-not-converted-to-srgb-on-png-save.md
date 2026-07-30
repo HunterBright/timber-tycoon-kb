@@ -1,11 +1,24 @@
 ---
+title: Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [blender, python, color-management, srgb, gamma, texture, palette, unity]
-date: 2026-07-25
-severity: high
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- python
+- color-management
+- srgb
+- gamma
+- texture
+- palette
+- unity
+applies_to: []
+source: ''
+severity: high
+suggested-category: engine/lessons
 ---
 
 # Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG
@@ -56,5 +69,5 @@ W tym projekcie kolejne etapy (koszula, kamizelka, spodnie, fartuch sprzedawcy) 
 tej samej palety - gdyby ktos wygenerowal ja "po staremu", Unity dostaloby przyciemnione
 kolory calej postaci.
 
-Patrz tez: [[feedback-probe-must-be-able-to-fail]],
-[[project-worker-texture-painted-2026-07-25]] (pulapka nr 2: wypiek do 8-bit psuje wspolrzedne).
+Patrz tez: [[feedback_probe_must_be_able_to_fail]],
+[[project_worker_texture_painted_2026-07-25]] (pulapka nr 2: wypiek do 8-bit psuje wspolrzedne).

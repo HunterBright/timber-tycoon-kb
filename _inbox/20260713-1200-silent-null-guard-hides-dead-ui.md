@@ -1,11 +1,22 @@
 ---
+title: Fabryka, która po cichu zwraca obiekt bez wymaganego dziecka
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, ui, factory, null-guard, silent-failure, testing]
-date: 2026-07-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ui
+- factory
+- null-guard
+- silent-failure
+- testing
+applies_to: []
+source: ''
 severity: high
+suggested-category: engine/anti-patterns
 ---
 
 # Fabryka, która po cichu zwraca obiekt bez wymaganego dziecka

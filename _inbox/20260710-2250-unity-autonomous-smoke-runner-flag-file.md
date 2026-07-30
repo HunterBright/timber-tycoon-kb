@@ -1,10 +1,22 @@
 ---
+title: 'Autonomiczny runner smoke testów w Unity: plik-flaga + plik wyników'
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, testing, smoke-tests, autonomous, mcp, coplay, play-mode]
-date: 2026-07-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- testing
+- smoke-tests
+- autonomous
+- mcp
+- coplay
+- play-mode
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Autonomiczny runner smoke testów w Unity: plik-flaga + plik wyników

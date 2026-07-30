@@ -1,11 +1,25 @@
 ---
+title: FBX with parent EMPTIES imports tipped 90° when exported with bake_space_transform=True
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, fbx, unity, axis-conversion, bake_space_transform, empties, hierarchy, import, orientation]
-date: 2026-06-29
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-29'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- fbx
+- unity
+- axis-conversion
+- bake_space_transform
+- empties
+- hierarchy
+- import
+- orientation
+applies_to: []
+source: ''
 severity: high
+suggested-category: engine/lessons
 ---
 
 # FBX with parent EMPTIES imports tipped 90° when exported with bake_space_transform=True

@@ -1,10 +1,21 @@
 ---
+title: Convex MeshCollider for Irregular Clickable Objects
 type: pattern
-project: timber-tycoon
+status: verified
+confidence: high
+verified: ''
+date: '2026-05-29'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- collider
+- meshcollider
+- raycast
+- minigame
+- prefab
+applies_to: []
+source: ''
 suggested-category: engine/patterns
-tags: [unity, collider, meshcollider, raycast, minigame, prefab]
-date: 2026-05-29
-status: validated
 ---
 
 # Convex MeshCollider for Irregular Clickable Objects

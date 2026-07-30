@@ -1,10 +1,21 @@
 ---
+title: Minigra zużywa surowiec na STARCIE, a przerwanie go zwraca
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: genre/anti-patterns
-tags: [economy, minigame, exploit, balance, abort, refund]
-date: 2026-07-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- economy
+- minigame
+- exploit
+- balance
+- abort
+- refund
+applies_to: []
+source: ''
+suggested-category: genre/anti-patterns
 ---
 
 # Minigra zużywa surowiec na STARCIE, a przerwanie go zwraca

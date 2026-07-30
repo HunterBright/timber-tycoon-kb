@@ -1,11 +1,23 @@
 ---
+title: Coplay execute_script nie kompiluje plików z `using TMPro;`
 type: lesson
-project: Timber Tycoon
+status: draft
+confidence: low
+verified: ''
+date: '2026-07-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- coplay
+- mcp
+- execute_script
+- tmpro
+- roslyn
+- editor-scripting
+applies_to: []
+source: ''
 severity: medium
 suggested-category: engine/lessons
-tags: [unity, coplay, mcp, execute_script, tmpro, roslyn, editor-scripting]
-date: 2026-07-10
-status: draft
 ---
 
 # Coplay execute_script nie kompiluje plików z `using TMPro;`

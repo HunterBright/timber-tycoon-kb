@@ -1,10 +1,21 @@
 ---
+title: 'Coplay set_property: Color fields need comma-separated r,g,b,a — JSON silently writes white'
 type: lesson
-project: Timber Tycoon
-suggested-category: workflow/mcp-tools
-tags: [coplay, mcp, set_property, color, unity, silent-failure]
-date: 2026-06-11
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-11'
+project: Kerf - Sawmill Tycoon
+tags:
+- coplay
+- mcp
+- set_property
+- color
+- unity
+- silent-failure
+applies_to: []
+source: ''
+suggested-category: workflow/mcp-tools
 ---
 
 # Coplay set_property: Color fields need comma-separated r,g,b,a — JSON silently writes white

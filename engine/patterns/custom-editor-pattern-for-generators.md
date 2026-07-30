@@ -1,10 +1,21 @@
 ---
+title: Custom Editor Pattern for Generators
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, editor, custom-editor, generator, terrain, ui]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- editor
+- custom-editor
+- generator
+- terrain
+- ui
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Custom Editor Pattern for Generators

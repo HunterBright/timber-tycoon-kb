@@ -1,10 +1,23 @@
 ---
+title: Pivot/geometry direction of an FBX must match what a procedural placement tool assumes
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, blender, fbx, pivot, procedural-placement, editor-tooling, fence, off-by-one]
-date: 2026-06-26
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- blender
+- fbx
+- pivot
+- procedural-placement
+- editor-tooling
+- fence
+- off-by-one
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Pivot/geometry direction of an FBX must match what a procedural placement tool assumes

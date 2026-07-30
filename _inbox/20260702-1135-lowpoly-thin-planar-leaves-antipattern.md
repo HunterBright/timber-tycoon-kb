@@ -1,10 +1,20 @@
 ---
+title: 'Anty-pattern: cienkie płaskie „soczewki" jako liście low-poly'
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [blender, low-poly, foliage, trees, modeling]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- low-poly
+- foliage
+- trees
+- modeling
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Anty-pattern: cienkie płaskie „soczewki" jako liście low-poly

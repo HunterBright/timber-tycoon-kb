@@ -1,10 +1,21 @@
 ---
+title: Balansowanie ekonomii progresu metodą „dwóch zegarów" + koperty przychodu
 type: pattern
-project: Timber Tycoon
-suggested-category: game-design/patterns
-tags: [economy, balancing, progression, tycoon, simulation, pacing]
-date: 2026-07-04
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-04'
+project: Kerf - Sawmill Tycoon
+tags:
+- economy
+- balancing
+- progression
+- tycoon
+- simulation
+- pacing
+applies_to: []
+source: ''
+suggested-category: game-design/patterns
 ---
 
 # Balansowanie ekonomii progresu metodą „dwóch zegarów" + koperty przychodu

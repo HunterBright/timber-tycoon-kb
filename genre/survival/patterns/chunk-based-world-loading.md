@@ -1,10 +1,20 @@
 ---
+title: Chunk-Based World Loading (Eskimo Simulator)
 type: pattern
-project: eskimo-simulator
-suggested-category: genre/survival/patterns
-tags: [unity, world-streaming, chunks, survival, eskimo]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: eskimo-simulator
+tags:
+- unity
+- world-streaming
+- chunks
+- survival
+- eskimo
+applies_to: []
+source: ''
+suggested-category: genre/survival/patterns
 ---
 
 # Chunk-Based World Loading (Eskimo Simulator)
@@ -68,4 +78,4 @@ public class ChunkStreamingManager : NetworkBehaviour {
 ## Variants
 - **Hub-and-spoke without streaming:** small central hub + 6 distinct zones loaded on-demand (scene transition, loading screen). Simpler, less seamless. Valid for zone-boundary game design.
 
-See also: [[multiplayer-from-mvp-decision]], [[cross-project-stack-reuse]]
+See also: [[multiplayer-from-mvp-not-retrofit]], [[cross-project-stack-reuse]]

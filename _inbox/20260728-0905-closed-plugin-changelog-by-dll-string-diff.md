@@ -1,10 +1,20 @@
 ---
+title: 'Wtyczka bez changelogu: różnica ciągów znaków w DLL zamiast zgadywania'
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/tooling
-tags: [dependency-management, closed-source, changelog, upgrade-decision, mcp]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- dependency-management
+- closed-source
+- changelog
+- upgrade-decision
+- mcp
+applies_to: []
+source: ''
+suggested-category: workflow/tooling
 ---
 
 # Wtyczka bez changelogu: różnica ciągów znaków w DLL zamiast zgadywania

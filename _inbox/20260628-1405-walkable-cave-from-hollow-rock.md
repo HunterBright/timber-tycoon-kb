@@ -1,10 +1,22 @@
 ---
+title: Walkable cave from a hollow low-poly rock (don't carve the model)
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, environment, cave, meshcollider, map-boundary, level-design, raycast]
-date: 2026-06-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- environment
+- cave
+- meshcollider
+- map-boundary
+- level-design
+- raycast
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Walkable cave from a hollow low-poly rock (don't carve the model)

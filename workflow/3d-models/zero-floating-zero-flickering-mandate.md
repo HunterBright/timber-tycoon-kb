@@ -1,15 +1,24 @@
 ---
+title: ZERO Floating / ZERO Flickering Mandate
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- modeling
+- quality
+- z-fighting
+- mandate
+applies_to:
+- blender-pipelines
+source: ''
+description: 'Hunter''s mandate for ALL generated assets: ZERO visible gaps between adjacent surfaces, ZERO Z-fighting. Physical connection required. Check per checkpoint render before proceeding.'
+severity: high
+suggested-category: workflow/3d-models
 name: zero-floating-zero-flickering-mandate
-description: Hunter's mandate for ALL generated assets: ZERO visible gaps between adjacent surfaces, ZERO Z-fighting. Physical connection required. Check per checkpoint render before proceeding.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/3d-models
-  tags: [blender, modeling, quality, z-fighting, mandate]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [blender-pipelines]
 ---
 
 # ZERO Floating / ZERO Flickering Mandate
@@ -63,10 +72,10 @@ assert abs(pillar_top_z - beam_bottom_z) < 0.001, \
 
 ## Per-checkpoint visual check
 
-Each [[iterative-checkpoint-workflow-generated-assets]] render must include close-up inspection of all surface joints. If a gap or flicker appears in the preview → fix before proceeding to next checkpoint.
+Each [[iterative-checkpoint-workflow]] render must include close-up inspection of all surface joints. If a gap or flicker appears in the preview → fix before proceeding to next checkpoint.
 
 ## Consequences
 
 Floating gaps: player notices "looks cheap and unfinished." Z-fighting: player notices "this is glitchy." Both shipped = refunds and bad reviews. Mandate prevents.
 
-See also: [[blender-headless-python-generation]], [[iterative-checkpoint-workflow-generated-assets]], [[procedural-textures-cycles-commercial]]
+See also: [[blender-headless-python-generation]], [[iterative-checkpoint-workflow]], [[procedural-textures-cycles-commercial]]

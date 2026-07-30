@@ -1,10 +1,22 @@
 ---
+title: CharacterController.velocity „zamraża się" gdy przestajesz wołać Move() → audio sterowane ruchem przecieka
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, charactercontroller, audio, footsteps, velocity, minigame, input-lock]
-date: 2026-06-25
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- charactercontroller
+- audio
+- footsteps
+- velocity
+- minigame
+- input-lock
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # CharacterController.velocity „zamraża się" gdy przestajesz wołać Move() → audio sterowane ruchem przecieka

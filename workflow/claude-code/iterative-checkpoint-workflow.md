@@ -1,15 +1,25 @@
 ---
-name: iterative-checkpoint-workflow-generated-assets
+title: Iterative Checkpoint Workflow for Generated Assets
+type: pattern
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- workflow
+- generated-assets
+- checkpoints
+- blender
+applies_to:
+- claude-code-projects
+- blender-pipelines
+source: ''
 description: Complex assets generated in checkpoints — partial asset → multi-angle preview → Hunter approval → next checkpoint. No jump-ahead. Error caught early = cheap. Caught late = redo everything.
-metadata:
-  type: pattern
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [claude-code, workflow, generated-assets, checkpoints, blender]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [claude-code-projects, blender-pipelines]
+severity: medium
+suggested-category: workflow/claude-code
+name: iterative-checkpoint-workflow-generated-assets
 ---
 
 # Iterative Checkpoint Workflow for Generated Assets
@@ -44,7 +54,7 @@ Per-checkpoint cost: 5-15 min. Catching an error at checkpoint 2 costs 15 min to
 
 ## ZERO floating mandate
 
-At each checkpoint, verify the ZERO floating mandate (see [[zero-floating-origin-mandate]] if it exists): no mesh vertices, no empties, no objects floating in space with non-zero Y. Checkpoint is the moment to catch this, not after all geometry is assembled.
+At each checkpoint, verify the ZERO floating mandate (see [[zero-floating-zero-flickering-mandate]] if it exists): no mesh vertices, no empties, no objects floating in space with non-zero Y. Checkpoint is the moment to catch this, not after all geometry is assembled.
 
 ## Preview specification
 
@@ -64,4 +74,4 @@ render_to_file("checkpoint_front.png")
 - Requires Hunter to be present at each checkpoint — can't run fully autonomously
 - Worth it: reduces total rework time by 60-80% on complex assets
 
-See also: [[quad-backtick-claude-code-prompt-format]], [[three-level-analysis-system]]
+See also: [[quad-backtick-prompt-format]], [[three-level-analysis-system]]

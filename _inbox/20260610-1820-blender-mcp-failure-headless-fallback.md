@@ -1,10 +1,22 @@
 ---
+title: blender-mcp bridge failure modes + headless CLI fallback
 type: pattern
-project: Timber Tycoon
-suggested-category: workflow
-tags: [blender, blender-mcp, headless, cli, fallback, debugging, bake]
-date: 2026-06-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- blender-mcp
+- headless
+- cli
+- fallback
+- debugging
+- bake
+applies_to: []
+source: ''
+suggested-category: workflow
 ---
 
 # blender-mcp bridge failure modes + headless CLI fallback

@@ -1,10 +1,23 @@
 ---
+title: Normalize Inconsistent Asset-Pack Scale at the Source (ModelImporter.globalScale)
 type: lesson
-project: timber-tycoon
-suggested-category: assets/lessons
-tags: [unity, fbx, modelimporter, scale, normalization, asset-pack, scatter, globalScale]
-date: 2026-05-31
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- fbx
+- modelimporter
+- scale
+- normalization
+- asset-pack
+- scatter
+- globalScale
+applies_to: []
+source: ''
+suggested-category: assets/lessons
 ---
 
 # Normalize Inconsistent Asset-Pack Scale at the Source (ModelImporter.globalScale)

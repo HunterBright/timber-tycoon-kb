@@ -1,12 +1,25 @@
 ---
+title: Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, urp, lighting, day-night, reflections, reflection-probe, specular, materials]
+status: verified
+confidence: high
+verified: ''
+date: '2026-06-11'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- lighting
+- day-night
+- reflections
+- reflection-probe
+- specular
+- materials
+applies_to: []
+source: ''
 severity: medium
-time_lost: "~2 months masked by a leftover light; diagnosis itself <1h once night was truly dark"
-date: 2026-06-11
-status: validated
+time_lost: ~2 months masked by a leftover light; diagnosis itself <1h once night was truly dark
+suggested-category: engine/lessons
 ---
 
 # Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)
@@ -34,6 +47,6 @@ The reflection (GI specular) term in URP/Lit is **independent of albedo**: diele
 A "fix" light that merely brightens the scene can mask a lighting-model bug for months. When a legacy light is removed and an old artifact "returns" (user: "znowu"), suspect the artifact was always there and the light was an accidental mask — check what albedo-independent terms (specular, reflections, emission) survive in the dark.
 
 ## See also
-[[urp-shadow-cascade-tuning]], [[rotating-directional-light-black-terrain]], [[unity-runtime-writes-to-shared-material-asset]]
+[[urp-shadow-cascade-tuning]], [[rotating-directional-light-day-night]], [[unity-runtime-writes-to-shared-material-asset]]
 
 CLAUDE.md pattern: "Legacy code conflict po refactorze" (MoonLight = legacy leftover of the pre-rewrite day/night system).

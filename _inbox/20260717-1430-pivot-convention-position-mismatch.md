@@ -1,10 +1,22 @@
 ---
+title: Pozycja zapisana dla jednego pivota psuje sie cicho przy podmianie assetu z innym pivotem
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [pivot, placeholder, position, ground-snap, raycast, npc, unity]
-date: 2026-07-17
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-17'
+project: Timber_Tycoon
+tags:
+- pivot
+- placeholder
+- position
+- ground-snap
+- raycast
+- npc
+- unity
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Pozycja zapisana dla jednego pivota psuje sie cicho przy podmianie assetu z innym pivotem

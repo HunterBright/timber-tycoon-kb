@@ -1,10 +1,22 @@
 ---
+title: 'Scrolling/flow shaders: visual motion runs OPPOSITE to the flow vector'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [shader, urp, water, uv-scroll, flow, sign-convention, vertex-displacement]
-date: 2026-06-05
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-05'
+project: Kerf - Sawmill Tycoon
+tags:
+- shader
+- urp
+- water
+- uv-scroll
+- flow
+- sign-convention
+- vertex-displacement
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Scrolling/flow shaders: visual motion runs OPPOSITE to the flow vector

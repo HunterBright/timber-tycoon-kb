@@ -1,10 +1,20 @@
 ---
+title: CrateManager Tier Progression
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, crate, tier, upgrade, inventory]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- crate
+- tier
+- upgrade
+- inventory
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # CrateManager Tier Progression

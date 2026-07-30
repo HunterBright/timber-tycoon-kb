@@ -1,13 +1,25 @@
 ---
+title: Nowy walidator uruchom najpierw na ZATWIERDZONYM artefakcie; jeśli tam zapala się na czerwono, błędny jest walidator, nie artefakt
 type: lesson
-project: Timber Tycoon
-suggested-category: process/lessons
-tags: [validation, regression-guard, calibration, golden-artifact, code-review]
-severity: high
-time_lost: "0 - złapane przed implementacją, ale kosztowałoby dzień"
-date: 2026-07-20
 status: draft
-applies_to: [any-project-with-generated-assets, validators, regression-guards]
+confidence: low
+verified: ''
+date: '2026-07-20'
+project: Kerf - Sawmill Tycoon
+tags:
+- validation
+- regression-guard
+- calibration
+- golden-artifact
+- code-review
+applies_to:
+- any-project-with-generated-assets
+- validators
+- regression-guards
+source: ''
+severity: high
+time_lost: 0 - złapane przed implementacją, ale kosztowałoby dzień
+suggested-category: process/lessons
 ---
 
 # Nowy walidator uruchom najpierw na ZATWIERDZONYM artefakcie; jeśli tam zapala się na czerwono, błędny jest walidator, nie artefakt
@@ -85,7 +97,7 @@ zatwierdzonych artefaktach z sensownym zapasem, to zmierzony zapas jest gotowym,
 uzasadnionym progiem - i najlepszym komentarzem, jaki można przy nim zostawić.
 
 ## Related
-- [[ortho-comparison-render-hides-occlusion]] - ten sam motyw: dowód, który wygląda
+- [[20260720-1410-ortho-comparison-render-hides-occlusion]] - ten sam motyw: dowód, który wygląda
   wiarygodnie, a nie dowodzi tego, co obiecuje
 - Zasada projektowa Timber Tycoon: "sonda musi umieć zawieść" - ta lekcja jest jej
   brakującą drugą połową: sonda musi też umieć NIE zawieść bez powodu

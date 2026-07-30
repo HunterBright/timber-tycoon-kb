@@ -1,13 +1,24 @@
 ---
+title: Persistence of a runtime-spawned object must be owned by its longest-living relative, never by a transient sibling
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, save-load, isaveable, runtime-spawn, object-lifetime, persistence-ownership]
-severity: high
-time_lost: "~3 sessions of iteration"
-date: 2026-06-14
 status: draft
-applies_to: [unity-save-systems]
+confidence: low
+verified: ''
+date: '2026-06-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- save-load
+- isaveable
+- runtime-spawn
+- object-lifetime
+- persistence-ownership
+applies_to:
+- unity-save-systems
+source: ''
+severity: high
+time_lost: ~3 sessions of iteration
+suggested-category: engine/lessons
 ---
 
 # Persistence of a runtime-spawned object must be owned by its longest-living relative, never by a transient sibling

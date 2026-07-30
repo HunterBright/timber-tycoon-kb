@@ -1,10 +1,21 @@
 ---
+title: Gate a content pool by runtime availability, not explicit unlock flags
 type: pattern
-project: Timber Tycoon
-suggested-category: design/patterns
-tags: [economy, gating, content-pool, emergent-design, tycoon, npc-orders]
-date: 2026-06-07
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-07'
+project: Kerf - Sawmill Tycoon
+tags:
+- economy
+- gating
+- content-pool
+- emergent-design
+- tycoon
+- npc-orders
+applies_to: []
+source: ''
+suggested-category: design/patterns
 ---
 
 # Gate a content pool by runtime availability, not explicit unlock flags

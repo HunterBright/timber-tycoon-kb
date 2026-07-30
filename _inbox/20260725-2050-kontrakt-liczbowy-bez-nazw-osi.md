@@ -1,10 +1,21 @@
 ---
+title: Wspolny kontrakt liczbowy dla kilku agentow, ktory nie nazywa osi
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/anti-patterns
-tags: [multi-agent, blender, asset-pipeline, kontrakt, low-poly, szwy]
-date: 2026-07-25
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- multi-agent
+- blender
+- asset-pipeline
+- kontrakt
+- low-poly
+- szwy
+applies_to: []
+source: ''
+suggested-category: workflow/anti-patterns
 ---
 
 # Wspolny kontrakt liczbowy dla kilku agentow, ktory nie nazywa osi

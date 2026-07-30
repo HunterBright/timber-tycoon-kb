@@ -1,10 +1,20 @@
 ---
+title: Jeden suwak sterujacy dwiema roznymi rzeczami
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/anti-patterns
-tags: [proceduralne-generowanie, api-narzedzi, suwaki, blender, ux-narzedziowy]
-date: 2026-07-27
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- proceduralne-generowanie
+- api-narzedzi
+- suwaki
+- blender
+- ux-narzedziowy
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Jeden suwak sterujacy dwiema roznymi rzeczami

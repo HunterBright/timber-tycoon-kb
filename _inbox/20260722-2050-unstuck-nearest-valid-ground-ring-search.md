@@ -1,10 +1,22 @@
 ---
+title: 'Unstuck / reset: szukaj najbliższego POPRAWNEGO gruntu zamiast teleportu do bazy'
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/patterns
-tags: [unity, physics, vehicle, respawn, unstuck, raycast, level-design]
-date: 2026-07-22
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- vehicle
+- respawn
+- unstuck
+- raycast
+- level-design
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Unstuck / reset: szukaj najbliższego POPRAWNEGO gruntu zamiast teleportu do bazy

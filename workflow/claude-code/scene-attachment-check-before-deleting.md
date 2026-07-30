@@ -1,15 +1,24 @@
 ---
-name: scene-attachment-check-before-deleting-monobehaviour
+title: Scene Attachment Check Before Deleting MonoBehaviour
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- unity
+- scene-safety
+- deletion
+applies_to:
+- unity-projects
+- claude-code-projects
+source: ''
 description: Before deleting a MonoBehaviour script, grep all scenes + prefabs + assets for references. Deleting in-use scripts leaves "missing script" errors requiring manual cleanup.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [claude-code, unity, scene-safety, deletion]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects, claude-code-projects]
+severity: medium
+suggested-category: workflow/claude-code
+name: scene-attachment-check-before-deleting-monobehaviour
 ---
 
 # Scene Attachment Check Before Deleting MonoBehaviour

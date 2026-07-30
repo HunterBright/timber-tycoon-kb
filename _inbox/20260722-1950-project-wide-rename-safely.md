@@ -1,11 +1,24 @@
 ---
+title: Zmiana nazwy w calym projekcie bez psucia zapisow i kodowania plikow
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/patterns
-tags: [rebranding, rename, refactor, encoding, unity, editor-menus, save-data]
-date: 2026-07-22
 status: draft
-applies_to: [any-project, unity]
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- rebranding
+- rename
+- refactor
+- encoding
+- unity
+- editor-menus
+- save-data
+applies_to:
+- any-project
+- unity
+source: ''
+suggested-category: workflow/patterns
 ---
 
 # Zmiana nazwy w calym projekcie bez psucia zapisow i kodowania plikow
@@ -71,4 +84,4 @@ i po musi byc identyczna. Wariant z podkreslnikiem i bez spacji to zwykle wlasni
 swiadectwem, a nie tekstem marketingowym - przepisany klamie o tym, co wtedy istnialo.
 
 ## Related
-- [[build-only-bugs-editor-lies]] - zmiana atrybutow to zmiana kodu, wiec konczy sie buildem
+- [[build-is-the-only-truth-editor-lies]] - zmiana atrybutow to zmiana kodu, wiec konczy sie buildem

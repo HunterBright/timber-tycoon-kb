@@ -1,242 +1,263 @@
-# Map of Content — Knowledge Base
+---
+title: Mapa tresci bazy wiedzy
+type: index
+status: verified
+confidence: high
+date: '2026-07-30'
+project: GameDevOS
+tags:
+- indeks
+---
 
-Entry point. Browse by category or use full-text search.
+# Mapa tresci bazy wiedzy
 
-## Categories
+Wszystkie odnosniki prowadza do notatek w tym vaulcie.
+Poprzednia wersja tej mapy kierowala na adresy GitHuba, wiec kazde
+klikniecie wyprowadzalo z Obsidiana do przegladarki - patrz `_archive/`.
 
-### Engine (Unity/Blender/URP)
-- engine/lessons/ — bugs solved, gotchas captured
-- engine/patterns/ — validated workflows
-- engine/decisions/ — ADRs with trade-offs
-- engine/anti-patterns/ — what NOT to do, with reasons
+Legenda statusu: `[OK]` sprawdzone dowodem, `[szkic]` zapisane ale nieprzejrzane,
+`[do odtworzenia]` hipoteza wymagajaca reprodukcji, `[zastapione]`, `[odrzucone]`.
 
-### Genre
-- genre/tycoon/ — Timber Tycoon learnings
-- genre/survival/ — future project
-- genre/roguelike/ — future project
-- genre/pvp-multiplayer/ — future project
+## Silnik - lekcje (25)
 
-### Workflow
-- workflow/claude-code/ — agents, hooks, skills, prompts, KB protocol
-- workflow/mcp-tools/ — Coplay, Blender, ElevenLabs MCP
-- workflow/asset-pipeline/ — Tripo → Blender → Unity
-- workflow/3d-models/ — modeling, UV, bake conventions
+Bledy rozwiazane i pulapki zlapane w Unity i Blenderze.
 
-### Projects (indexes only, no content)
-- projects/timber-tycoon.md
+- [[urp-distant-caster-shadow-band|"Dark band that follows the player" = terrain self-shadow leaking onto near-coplanar road meshes]] [OK]
+- [[bake-space-transform-linked-duplicates-rotation-bug|bake_space_transform + Linked Duplicates = 90° Rotation Injection]] [szkic]
+- [[capsule-collider-direction-axis|CapsuleCollider Direction Axis Cheatsheet]] [szkic]
+- [[cylindric-beams-visual-contrast|Cylindric vs Rectangular Beams for Visual Contrast]] [szkic]
+- [[debugging-search-first-trust-render-check-upstream|Debugging methodology: search-first, trust the render, check for upstream sabotage]] [OK]
+- [[desaturated-colors-for-low-poly|Desaturated Colors for Low-Poly Aesthetic]] [szkic]
+- [[dynamic-rigidbody-no-nonconvex-meshcollider|Dynamic Rigidbody → Primitive or Convex Collider, Never Non-Convex Mesh]] [szkic]
+- [[editor-scene-view-input-capture|Editor Scene View Input Capture Pattern]] [szkic]
+- [[fbx-export-standard-settings-blender-to-unity|FBX Export Standard Settings (Blender → Unity)]] [szkic]
+- [[forward-axis-blender-fbx-quirk|Forward Axis = -transform.right (Blender FBX Quirk)]] [szkic]
+- [[freeze-inertia-tensor-not-restored|FreezeAll + automaticInertiaTensor=false Zeroes the Inertia Tensor]] [szkic]
+- [[mesh-exporter-obj-pitfalls|MeshExporter OBJ Pitfalls (3 Critical Bugs)]] [szkic]
+- [[minimum-turn-factor-arcade-steering|Minimum turnFactor 0.3 for Low-Speed Arcade Steering]] [szkic]
+- [[never-destructive-ops-in-play-mode|NEVER save_scene or DestroyImmediate in Play Mode]] [szkic]
+- [[playmode-asset-pollution-vs-disk|Play-Mode in-memory edits pollute on-disk assets — and a "fix" can produce zero git diff]] [OK]
+- [[procedural-textures-need-bake|Procedural Textures Must Be Baked Before FBX Export]] [szkic]
+- [[runtime-vs-editor-script-separation|Runtime vs Editor Script Separation (Assembly Boundary)]] [szkic]
+- [[scene-view-ab-false-positive-game-view-ground-truth|Scene View A/B screenshots gave a false-positive diagnosis — verify in the GAME view with the live camera]] [OK]
+- [[scriptableobject-playmode-persistence|ScriptableObject changes in Play Mode DO persist after exit]] [OK]
+- [[self-collision-compound-colliders-ignore|Self-Collision Compound BoxColliders → Physics.IgnoreCollision]] [szkic]
+- [[separate-objects-mapping-rule|Separate-Objects Mapping Rule (Heightmap Limitations)]] [szkic]
+- [[stale-reflection-probe-night-whitening|Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)]] [OK]
+- [[tag-assignment-code-vs-inspector|Tag Assignment: Code vs Inspector for Runtime-Spawned Objects]] [szkic]
+- [[urp-shadow-cascade-tuning|URP Shadow Cascade Tuning for Low-Poly Terrain]] [szkic]
+- [[vertex-color-gamma-correction-blender-to-unity|Vertex Color Gamma Correction Blender → Unity]] [szkic]
 
-## TODO — Seed extraction (post-demo)
+## Silnik - wzorce (59)
 
-Extract these from TT memory (C:\Users\<user>\.claude\projects\D--Unity-Timber-Tycoon\memory\):
+Sprawdzone sposoby robienia rzeczy.
 
-**To engine/lessons/:**
-- feedback_bake_space_transform_empties.md → Blender empty + shared mesh rotation bug
-- feedback_fbx_importer_remap_unreliable.md → Unity FBX material remap workaround
-- feedback_one_mat_per_mesh.md → Material slot reordering rule
-- feedback_blender_no_factory_reset.md → Blender API gotcha
-- feedback_blender_material_preview.md → Post-task EEVEE restore pattern
+- [[four-phase-weighted-smoothstep-day-night|4-Phase Weighted Smoothstep Day/Night Transition]] [szkic]
+- [[ambient-crossfade-zone-based|Ambient Crossfade Zone-Based Pattern]] [szkic]
+- [[architectural-naming-convention|Architectural Elements Naming Convention]] [szkic]
+- [[asset-origin-bottom-center-convention|Asset Origin at Bottom-Center Convention]] [szkic]
+- [[audio-mixer-snapshots-per-game-state|Audio Mixer Snapshots per Game State]] [szkic]
+- [[audio-occlusion-lpf-volume|Audio Occlusion Pattern (LPF + Volume)]] [szkic]
+- [[audio-manager-mixer-architecture|AudioManager + Mixer Architecture (5 Channels + 10-Source Pool)]] [szkic]
+- [[audio-reverb-zone-per-environment|AudioReverbZone per Environment]] [szkic]
+- [[awake-init-for-isaveable-with-dependencies|Awake-Init for ISaveable with Dependencies]] [szkic]
+- [[migration-pattern-rollback-safety|Backend Migration Pattern with Rollback Safety]] [szkic]
+- [[before-delete-legacy-class-checklist|Before-Delete Legacy Class Checklist]] [szkic]
+- [[camera-lock-save-lerp-restore|Camera Lock: Save → Lerp → Restore]] [szkic]
+- [[catmull-rom-spline-road-mesh|Catmull-Rom Spline + Quad Strip Mesh for Roads]] [szkic]
+- [[choppable-tree-multi-type-naming-convention|ChoppableTree Multi-Type Naming Convention]] [szkic]
+- [[cliff-waterfall-hidden-cave|Cliff + Waterfall Hidden Cave Pattern]] [szkic]
+- [[collider-distribution-rule|Collider Distribution Rule (Architecture)]] [szkic]
+- [[mesh-collider-convex-for-clickable-minigame-objects|Convex MeshCollider for Irregular Clickable Objects]] [OK]
+- [[crate-manager-tier-progression|CrateManager Tier Progression]] [szkic]
+- [[custom-editor-pattern-for-generators|Custom Editor Pattern for Generators]] [szkic]
+- [[dictionary-warehouse-registry|Dictionary<ProductType, int> Warehouse Registry]] [szkic]
+- [[diegetic-3d-button-raycast|Diegetic 3D Button Raycast Pattern]] [szkic]
+- [[fbx-long-axis-detect-programmatically|Don't assume an FBX mesh's axis — detect the longest axis programmatically from bounds]] [OK]
+- [[flatten-terrain-under-road|Flatten Terrain Under Road (Smoothstep Blend)]] [szkic]
+- [[footstep-raycast-surface-detection|Footstep Raycast Surface Detection]] [szkic]
+- [[game-event-so-event-channel|GameEventSO ScriptableObject Event Channel]] [szkic]
+- [[game-state-machine-pattern|GameStateMachine Pattern]] [szkic]
+- [[get-or-add-component-pattern|GetOrAddComponent Extension Method]] [szkic]
+- [[global-router-storage-pattern|GLOBAL_ROUTER Pattern (StorageManager.AddToStorage)]] [szkic]
+- [[isaveable-contract|ISaveable Contract]] [szkic]
+- [[kiosk-interactable-cube-placeholder|KioskInteractable + Cube Placeholder Pattern]] [szkic]
+- [[material-property-block-runtime-color-variants|MaterialPropertyBlock for Runtime Color Variants]] [szkic]
+- [[mesh-collider-on-roads-stackable|MeshCollider on Roads = Stackable]] [szkic]
+- [[mountains-hierarchy-front-and-backdrop|Mountains Hierarchy — Front Ring + Backdrop Double-Sided]] [szkic]
+- [[parallel-architecture-pattern|Parallel Architecture Pattern (Locator + Events + ISaveable + Singleton)]] [szkic]
+- [[procedural-skybox-sun-moon-trick|Procedural Skybox Sun/Moon Trick]] [szkic]
+- [[quest-highlight-pattern|Quest Highlight Pattern (Quest-Flag Mechanism)]] [szkic]
+- [[rack-visual-fill-alignment|Rack Visual Fill Alignment Pattern]] [szkic]
+- [[reputation-levels-data-driven|ReputationLevels.asset Data-Driven Progression]] [szkic]
+- [[river-mesh-semi-ellipse-cross-section|River Mesh Semi-Elliptical Cross-Section]] [szkic]
+- [[scriptable-object-runtime-injection|ScriptableObject Runtime Injection Pattern]] [szkic]
+- [[shared-mesh-and-materials-reference|Shared Mesh + Materials Reference Pattern]] [szkic]
+- [[single-material-atlas-for-static-props|Single-Material Atlas for Static Props]] [szkic]
+- [[sliding-head-bandsaw-mouse-drag-tempo-minigame|Sliding Head Bandsaw — Mouse Drag Tempo Minigame]] [szkic]
+- [[so-propagation-chain-via-parameters|SO Propagation Chain via Parameter Passing]] [szkic]
+- [[stacked-carry-system-camera-viewmodel|Stacked carry system — camera viewmodel + LIFO + species-agnostic prefab refs]] [OK]
+- [[statistics-manager-pattern|StatisticsManager Pattern]] [szkic]
+- [[storage-activation-gating-upgrade|Storage Activation Gating via Upgrade Purchase]] [szkic]
+- [[storage-migration-primary-plus-legacy-fallback|Storage Migration: Primary New + Legacy Fallback]] [szkic]
+- [[storage-rack-registry-auto-register|StorageRackRegistry Singleton + Auto-Registration via OnEnable]] [szkic]
+- [[tool-viewmodel-child-of-camera-pattern|Tool Viewmodel as Child of Camera]] [szkic]
+- [[tree-stump-state-machine-enums|TreeState + StumpState Enums State Machine]] [szkic]
+- [[trunk-fall-physics-config|Trunk Fall Physics Config]] [szkic]
+- [[typography-accessibility-stack|Typography + Accessibility Stack]] [szkic]
+- [[universal-camera-lock-canmove-flag|Universal Camera Lock — canMove Flag]] [szkic]
+- [[vehicle-enter-exit-choreography|Vehicle Enter/Exit Choreography Sequence]] [szkic]
+- [[vehicle-interaction-zones-as-triggers|Vehicle Interaction Zones as Triggers]] [szkic]
+- [[vehicle-camera-runtime-attach-detach|VehicleCamera Third-Person Orbit (Runtime Attach/Detach)]] [szkic]
+- [[vfx-performance-budget|VFX Performance Budget]] [szkic]
+- [[vfx-trigger-pattern|VFX Trigger Pattern via GameEventSO]] [szkic]
 
-**To workflow/asset-pipeline/:**
-- feedback_interactive_material_workflow.md → bmesh selection workflow
-- feedback_blender_tripo_editing.md → Tripo model editing rules
-- feedback_firewood_reference.md → UV/geometry template pattern
+## Silnik - anty-wzorce (10)
 
-**To engine/patterns/ (extract from tt-CLAUDE.md):**
-- Diegetic 3D button raycast
-- Camera lock pattern for minigames
+Co NIE dziala i dlaczego.
 
-**To engine/anti-patterns/ (extract from tt-CLAUDE.md):**
-- Legacy code conflict after refactor
-- Smart UV Project + Cycles bake for solid colors
+- [[cycles-bake-for-solid-colors|ANTI-PATTERN: Cycles Bake for Solid Color Regions]] [szkic]
+- [[generator-destroys-both-paths-no-guard|ANTI-PATTERN: Generator Destroys Both Paths With No Guard]] [szkic]
+- [[legacy-code-conflict-after-refactor|ANTI-PATTERN: Legacy Code Conflict After Refactor]] [szkic]
+- [[rotating-directional-light-day-night|ANTI-PATTERN: Rotating Directional Light for Day/Night Cycle]] [szkic]
+- [[unity-runtime-writes-to-shared-material-asset|Anti-pattern: runtime writes to a shared material ASSET]] [OK]
+- [[scene-files-binary-never-edit|ANTI-PATTERN: Scene Files Are Binary — Never Edit as Text]] [szkic]
+- [[script-overrides-prefab-inspector-values|ANTI-PATTERN: Script Overrides Prefab Inspector Values]] [szkic]
+- [[low-poly-water-side-wave|ANTI-PATTERN: sin(X) + sin(Z) Water Shader = Side Waves]] [szkic]
+- [[snap-freeze-instead-of-fixing-physics-cause|ANTI-PATTERN: Snap/Freeze to Mask a Physics Bug Instead of Fixing the Cause]] [szkic]
+- [[race-condition-start-vs-instantiate-parameter|ANTI-PATTERN: Start() Reads SO Before Parent Sets It]] [szkic]
 
-## Inbox status
-See _inbox/ for pending drafts.
+## Tycoon - wzorce (21)
+
+Wzorce specyficzne dla gatunku.
+
+- [[carry-capacity-progression-sprint|Carry Capacity Progression + Sprint Advantage]] [szkic]
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] [szkic]
+- [[debris-cleanup-single-click-drop|Debris Cleanup — Single-Click Drop Materials Visual]] [szkic]
+- [[initial-fill-on-load|Initial Fill on Load (Don't Serialize NPC State)]] [szkic]
+- [[minecraft-style-lighting|Minecraft-Style Lighting (Static Overhead + Decorative Sun)]] [szkic]
+- [[multi-step-quest-checklist|Multi-Step Quest Checklist Pattern]] [szkic]
+- [[navmesh-plus-kinematic-waypoints|NavMesh + Kinematic Waypoints Hybrid]] [szkic]
+- [[npc-parking-pd-controller|NPC Parking PD Controller]] [szkic]
+- [[object-pooling-npcs-fifo-queue|Object Pooling for NPCs + FIFO Customer Queue]] [szkic]
+- [[order-fulfiller-interface|OrderFulfiller Interface (Player vs NPC, Player Always Faster)]] [szkic]
+- [[pipeline-style-npc-spawn|Pipeline-Style NPC Spawn (OnPurchaseComplete Trigger)]] [szkic]
+- [[reverse-parking-entry-stub-orientation|Reverse-parking: orientation on the entry stub (forward-tail)]] [szkic]
+- [[storage-rack-family-system|StorageRack Family System]] [szkic]
+- [[tool-wheel-ux-pattern|ToolWheel UX Pattern]] [szkic]
+- [[top-down-minigame-stump-digging|Top-Down Camera Minigame (Stump Digging)]] [szkic]
+- [[visualization-ratio|Visualization Ratio (Inventory to Visual Stack)]] [szkic]
+- [[water-zone-gameplay-component|WaterZone Gameplay Component]] [szkic]
+- [[wing-snap-points-modular-fade-in|Wing Snap-Points Modular Instant Fade-In]] [szkic]
+- [[worker-output-quality-distribution|Worker Output Quality Distribution]] [szkic]
+- [[worker-simulate-work-cycle|Worker Simulate Work Cycle (No NavMesh/AI)]] [szkic]
+- [[worker-data-instance-split|WorkerData (SO Blueprint) + WorkerInstance (Runtime) Split]] [szkic]
+
+## Tycoon - decyzje (12)
+
+Decyzje projektowe Kerf.
+
+- [[building-progression-instant-spawn|Building Progression — Instant Spawn Post-Purchase]] [szkic]
+- [[loading-station-decision|LoadingStation Decision — Manual Walk Early, Station Late]] [szkic]
+- [[planting-spot-universal-not-typed|PlantingSpot Universal (Not Typed by Species)]] [szkic]
+- [[player-built-vs-purchased-dichotomy|Player-Built vs. Purchased Dichotomy]] [szkic]
+- [[quantity-not-quality-principle|Quantity-Not-Quality Design Principle]] [szkic]
+- [[rack-architecture-decision|Rack Architecture Decision (3 Options)]] [szkic]
+- [[sales-flow-decision-hybrid|Sales Flow Decision — Hybrid D (Player + NPC Side by Side)]] [szkic]
+- [[tier-system-foundation|Tier System Foundation — Trees, Products, Machines (SOURCE OF TRUTH)]] [szkic]
+- [[tool-tier-replacement-not-inventory|Tool Tier Replacement — NOT Multiple Tiers in Inventory]] [szkic]
+- [[ui-phase-4-catalog|UI Phase 4 Catalog (12 Systems)]] [szkic]
+- [[vfx-wycofane-decision|VFX Wycofane — Sawdust, Kurz, Liście Cut from MVP]] [szkic]
+- [[zero-code-changes-philosophy|Zero-Code-Changes Philosophy]] [szkic]
+
+## Survival - wzorce (1)
+
+Pod przyszly projekt.
+
+- [[chunk-based-world-loading|Chunk-Based World Loading (Eskimo Simulator)]] [szkic]
+
+## Survival - decyzje (1)
+
+- [[multiplayer-from-mvp-not-retrofit|Multiplayer from MVP — Not Retrofit]] [szkic]
+
+## Miedzy gatunkami - decyzje (1)
+
+- [[audio-strategy-minimal-music-heavy-ambient|Audio Strategy — Minimal Music + Heavy Ambient + Voice Bites]] [szkic]
+
+## Workflow - jakosc i weryfikacja (2)
+
+Zasady, na ktorych stoi caly system bramek.
+
+- [[gate-must-have-provable-failure-mode|Bramka bez udowodnionego trybu porazki niczego nie pilnuje]] [OK]
+- [[build-is-the-only-truth-editor-lies|Edytora nie da sie oszukac, zeby udawal build]] [OK]
+
+## Workflow - Claude Code (14)
+
+Agenci, hooki, skille, protokoly.
+
+- [[do-not-move-hardcoded-positions|"DO NOT MOVE" Hardcoded Positions Convention]] [szkic]
+- [[clear-vs-compact-decision-rules|/clear vs /compact — Decision Rules]] [szkic]
+- [[backup-scene-before-modify|Backup Scene Before Structural Modification]] [szkic]
+- [[console-collapse-loop-suffix|Console Collapse + Loop Suffix Convention]] [szkic]
+- [[context-degradation-threshold|Context Degradation Threshold (20-40% Remaining)]] [szkic]
+- [[cross-project-stack-reuse|Cross-Project Stack Consistency (TT → Eskimo)]] [szkic]
+- [[intentionally-low-maxcapacity-test-racks|Intentionally Low maxCapacity for Test Racks]] [szkic]
+- [[iterative-checkpoint-workflow|Iterative Checkpoint Workflow for Generated Assets]] [szkic]
+- [[quad-backtick-prompt-format|Quad-Backtick Claude Code Prompt Format]] [szkic]
+- [[read-actual-code-before-hypothesizing|Read Actual Code Before Hypothesizing]] [szkic]
+- [[scene-attachment-check-before-deleting|Scene Attachment Check Before Deleting MonoBehaviour]] [szkic]
+- [[stop-hook-infinite-loop-risk|Stop Hook Infinite Loop Risk]] [szkic]
+- [[three-level-analysis-system|Three-Level Analysis System]] [szkic]
+- [[universal-cleanup-post-migration|Universal Cleanup Post-Migration]] [szkic]
+
+## Workflow - narzedzia MCP (2)
+
+Coplay, Blender, ElevenLabs.
+
+- [[mcp-wildcard-permissions-format|MCP Wildcard Permissions Format]] [szkic]
+- [[skill-loading-on-demand-vs-reference|Skill Loading: @Reference vs On-Demand]] [szkic]
+
+## Workflow - pipeline assetow (5)
+
+Tripo, Blender, Unity.
+
+- [[audio-asset-pipeline|Audio Asset Pipeline (ElevenLabs + Suno + FFmpeg)]] [szkic]
+- [[polybrush-iteration-rule|Polybrush Iteration Rule — No Return to Generator]] [szkic]
+- [[polybrush-settings-low-poly|Polybrush Settings for Low-Poly Terrain]] [szkic]
+- [[tripo-asymmetric-floating-retopo|Tripo Asymmetric / Floating Elements — Blender Retopo]] [szkic]
+- [[tripo-cleanup-pipeline|Tripo Cleanup Pipeline]] [szkic]
+
+## Workflow - modele 3D (5)
+
+Modelowanie, UV, wypalanie.
+
+- [[blender-headless-python-generation|Blender Headless Python Script Generation]] [szkic]
+- [[procedural-textures-cycles-commercial|Procedural Textures in Blender Cycles (Commercial Release Rationale)]] [szkic]
+- [[tripo-organic-vs-blender-geometric-decision|Tripo (organic) vs Blender MCP (geometric) — Pipeline Routing Decision]] [szkic]
+- [[tripo-vocab-firewood-wedge|Tripo Vocab: Firewood = Wedge-Shaped Piece]] [szkic]
+- [[zero-floating-zero-flickering-mandate|ZERO Floating / ZERO Flickering Mandate]] [szkic]
+
+## Projekty (1)
+
+Indeksy projektowe.
+
+- [[timber-tycoon|Timber Tycoon — Project Index]] [OK]
+
+## Pozostale (6)
+
+- [[KB_BUILD_PACKAGE|KB Build Package — Timber Tycoon Knowledge Base]] [szkic] (`_archive`)
+- [[MOC-stary-linki-github-2026-07-30|Map of Content — Knowledge Base]] [szkic] (`_archive`)
+- [[anti-pattern|<What NOT to do>]] [szkic] (`templates`)
+- [[decision|<Decision title>]] [szkic] (`templates`)
+- [[lesson|<Title — specific, searchable>]] [szkic] (`templates`)
+- [[pattern|<Pattern name>]] [szkic] (`templates`)
+
+## Skrzynka wejsciowa (281)
+
+Drafty czekajace na weryfikacje. Nie sa indeksowane tutaj pojedynczo -
+kolejka do przegladu jest w [[PRZEGLAD-INBOXU]].
 
 ---
 
-## Generated entries (KB_BUILD_PACKAGE 2026-05-17)
-
-141 entries created across 8 batches. Links use path relative to `<kb-root>\`.
-
-### Engine
-
-#### Lessons (technical know-how, gotchas)
-- [Procedural textures must be baked before FBX export](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/procedural-textures-need-bake.md)
-- [bake_space_transform + linked duplicates = 90° rotation bug](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/bake-space-transform-linked-duplicates-rotation-bug.md)
-- [FBX export standard settings (Blender → Unity)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/fbx-export-standard-settings-blender-to-unity.md)
-- [Asset origin at bottom-center convention](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/asset-origin-bottom-center-convention.md)
-- [MeshExporter OBJ pitfalls (3 critical bugs)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/mesh-exporter-obj-pitfalls.md)
-- [URP shadow cascade tuning for low-poly terrain](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/urp-shadow-cascade-tuning.md)
-- [NEVER save_scene or DestroyImmediate in Play Mode](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/never-destructive-ops-in-play-mode.md)
-- [Forward axis = -transform.right (Blender FBX quirk)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/forward-axis-blender-fbx-quirk.md)
-- [FreezeAll + automaticInertiaTensor=false zeroes inertia tensor (not restored on unfreeze)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/freeze-inertia-tensor-not-restored.md)
-- [Self-collision compound BoxColliders → Physics.IgnoreCollision](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/self-collision-compound-colliders-ignore.md)
-- [Minimum turnFactor 0.3 for low-speed arcade steering](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/minimum-turn-factor-arcade-steering.md)
-- [Vertex color gamma correction Blender → Unity](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/vertex-color-gamma-correction-blender-to-unity.md)
-- [Desaturated colors for low-poly aesthetic](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/desaturated-colors-for-low-poly.md)
-- [Separate-objects mapping rule (heightmap limitations)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/separate-objects-mapping-rule.md)
-- [Runtime vs Editor script separation](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/runtime-vs-editor-script-separation.md)
-- [Editor Scene View input capture](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/editor-scene-view-input-capture.md)
-- [CapsuleCollider direction axis cheatsheet](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/capsule-collider-direction-axis.md)
-- [Cylindric vs rectangular beams visual contrast](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/cylindric-beams-visual-contrast.md)
-- [Read actual code before hypothesizing (debugging discipline)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/read-actual-code-before-hypothesizing.md)
-- [Tag assignment: code vs Inspector](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/tag-assignment-code-vs-inspector.md)
-- [Stale skybox reflections whiten PBR materials at night](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/stale-reflection-probe-night-whitening.md)
-- ["Dark band that follows the player" = terrain self-shadow on near-coplanar roads](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/urp-distant-caster-shadow-band.md)
-- [ScriptableObject changes in Play Mode DO persist after exit](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/scriptableobject-playmode-persistence.md)
-- [Play-Mode in-memory edits pollute on-disk assets (zero-git-diff trap)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/playmode-asset-pollution-vs-disk.md)
-- [Debugging methodology: search-first, trust the render, check upstream](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/debugging-search-first-trust-render-check-upstream.md)
-- [Scene View A/B false positive — Game view with live camera is ground truth](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/lessons/scene-view-ab-false-positive-game-view-ground-truth.md)
-
-#### Patterns (reusable techniques)
-- [Vehicle interaction zones as triggers](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/vehicle-interaction-zones-as-triggers.md)
-- [Awake-init for ISaveable with dependencies](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/awake-init-for-isaveable-with-dependencies.md)
-- [GetOrAddComponent extension method](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/get-or-add-component-pattern.md)
-- [Storage migration: Primary new + Legacy fallback](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/storage-migration-primary-plus-legacy-fallback.md)
-- [Before-delete legacy class checklist](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/before-delete-legacy-class-checklist.md)
-- [Diegetic 3D button raycast pattern](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/diegetic-3d-button-raycast.md)
-- [Camera lock: save → lerp → restore](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/camera-lock-save-lerp-restore.md)
-- [Sliding head bandsaw mouse-drag tempo minigame](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/sliding-head-bandsaw-mouse-drag-tempo-minigame.md)
-- [MaterialPropertyBlock for runtime color variants](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/material-property-block-runtime-color-variants.md)
-- [Quest highlight pattern](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/quest-highlight-pattern.md)
-- [River mesh semi-elliptical cross-section](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/river-mesh-semi-ellipse-cross-section.md)
-- [4-phase weighted smoothstep day/night transition](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/four-phase-weighted-smoothstep-day-night.md)
-- [Procedural skybox sun/moon trick](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/procedural-skybox-sun-moon-trick.md)
-- [Custom Editor pattern for generators](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/custom-editor-pattern-for-generators.md)
-- [Tool viewmodel as child of camera](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/tool-viewmodel-child-of-camera-pattern.md)
-- [AudioManager + Mixer architecture](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/audio-manager-mixer-architecture.md)
-- [Parallel architecture pattern](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/parallel-architecture-pattern.md)
-- [GameEventSO event channel pattern](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/game-event-so-event-channel.md)
-- [ISaveable contract](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/isaveable-contract.md)
-- [GameStateMachine pattern](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/game-state-machine-pattern.md)
-- [VFX performance budget](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/vfx-performance-budget.md)
-- [VFX trigger pattern via GameEventSO](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/vfx-trigger-pattern.md)
-- [Mountains hierarchy (front + backdrop)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/mountains-hierarchy-front-and-backdrop.md)
-- [Cliff + Waterfall hidden cave](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/cliff-waterfall-hidden-cave.md)
-- [Audio Mixer snapshots per game state](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/audio-mixer-snapshots-per-game-state.md)
-- [Footstep raycast surface detection](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/footstep-raycast-surface-detection.md)
-- [Audio occlusion (raycast + LPF + volume)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/audio-occlusion-lpf-volume.md)
-- [AudioReverbZone per environment](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/audio-reverb-zone-per-environment.md)
-- [Ambient crossfade zone-based](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/ambient-crossfade-zone-based.md)
-- [Typography & accessibility stack](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/typography-accessibility-stack.md)
-- [Shared mesh + materials reference](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/shared-mesh-and-materials-reference.md)
-- [Rack visual fill alignment](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/rack-visual-fill-alignment.md)
-- [Catmull-Rom spline road mesh](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/catmull-rom-spline-road-mesh.md)
-- [FlattenTerrainUnderRoad smoothstep](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/flatten-terrain-under-road.md)
-- [MeshCollider on roads (stackable)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/mesh-collider-on-roads-stackable.md)
-- [ScriptableObject runtime injection](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/scriptable-object-runtime-injection.md)
-- [SO propagation chain via parameter passing](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/so-propagation-chain-via-parameters.md)
-- [Trunk fall physics config](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/trunk-fall-physics-config.md)
-- [VehicleCamera runtime attach/detach](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/vehicle-camera-runtime-attach-detach.md)
-- [Vehicle enter/exit choreography](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/vehicle-enter-exit-choreography.md)
-- [Universal camera lock (canMove flag)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/universal-camera-lock-canmove-flag.md)
-- [StatisticsManager pattern](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/statistics-manager-pattern.md)
-- [StorageRackRegistry singleton + auto-register](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/storage-rack-registry-auto-register.md)
-- [GLOBAL_ROUTER storage pattern](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/global-router-storage-pattern.md)
-- [Dictionary warehouse registry](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/dictionary-warehouse-registry.md)
-- [Storage activation gating via upgrade](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/storage-activation-gating-upgrade.md)
-- [CrateManager tier progression](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/crate-manager-tier-progression.md)
-- [Architectural elements naming convention](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/architectural-naming-convention.md)
-- [Collider distribution rule](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/collider-distribution-rule.md)
-- [Migration pattern with rollback safety](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/migration-pattern-rollback-safety.md)
-- [ReputationLevels data-driven progression](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/reputation-levels-data-driven.md)
-- [KioskInteractable + Cube placeholder](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/kiosk-interactable-cube-placeholder.md)
-- [ChoppableTree multi-type naming convention](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/choppable-tree-multi-type-naming-convention.md)
-- [Single-material atlas for static props](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/single-material-atlas-for-static-props.md)
-- [TreeState + StumpState enums](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/tree-stump-state-machine-enums.md)
-- [Detect FBX mesh long axis programmatically from bounds](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/fbx-long-axis-detect-programmatically.md)
-- [Convex MeshCollider for irregular clickable objects](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/mesh-collider-convex-for-clickable-minigame-objects.md)
-- [Stacked carry system — camera viewmodel + LIFO + species-agnostic prefab refs](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/patterns/stacked-carry-system-camera-viewmodel.md)
-
-#### Anti-Patterns (what NOT to do)
-- [Cycles bake for solid colors → black/blurred](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/cycles-bake-for-solid-colors.md)
-- [Scene files are binary, never text-edit](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/scene-files-binary-never-edit.md)
-- [Legacy code conflict after refactor](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/legacy-code-conflict-after-refactor.md)
-- [Rotating Directional Light → black terrain at dawn/dusk](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/rotating-directional-light-day-night.md)
-- [Script overrides prefab Inspector values (CapsuleCollider + DirtClump cases)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/script-overrides-prefab-inspector-values.md)
-- [Low-poly water side-wave anti-pattern](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/low-poly-water-side-wave.md)
-- [Race condition: Start() vs Instantiate parameter](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/race-condition-start-vs-instantiate-parameter.md)
-- [bake_space_transform + linked duplicates rotation bug](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/bake-space-transform-linked-duplicates-rotation-bug.md)
-- [Generator destroys both paths unconditionally (no per-path guard)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/generator-destroys-both-paths-no-guard.md)
-- [Runtime writes to a shared material ASSET (skybox/day-night git noise)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/engine/anti-patterns/unity-runtime-writes-to-shared-material-asset.md)
-
-### Genre
-
-#### Tycoon — Patterns
-- [NPC parking PD controller](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/npc-parking-pd-controller.md)
-- [Pipeline-style NPC spawn](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/pipeline-style-npc-spawn.md)
-- [Initial fill on load](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/initial-fill-on-load.md)
-- [NavMesh + kinematic waypoints hybrid](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/navmesh-plus-kinematic-waypoints.md)
-- [Object pooling NPCs + FIFO queue](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/object-pooling-npcs-fifo-queue.md)
-- [Carry capacity progression + sprint advantage](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/carry-capacity-progression-sprint.md)
-- [Multi-step quest checklist](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/multi-step-quest-checklist.md)
-- [Customer tier system (Regular/Contractor/VIP)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/customer-tier-system.md)
-- [WaterZone gameplay component](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/water-zone-gameplay-component.md)
-- [Minecraft-style lighting](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/minecraft-style-lighting.md)
-- [ToolWheel UX pattern](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/tool-wheel-ux-pattern.md)
-- [WorkerData blueprint + WorkerInstance runtime split](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/worker-data-instance-split.md)
-- [Worker SimulateWorkCycle abstraction (no NavMesh)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/worker-simulate-work-cycle.md)
-- [Worker output quality distribution](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/worker-output-quality-distribution.md)
-- [OrderFulfiller interface (asymmetric player vs NPC)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/order-fulfiller-interface.md)
-- [Wing snap-points modular fade-in](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/wing-snap-points-modular-fade-in.md)
-- [Debris cleanup single-click drop](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/debris-cleanup-single-click-drop.md)
-- [StorageRack family system](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/storage-rack-family-system.md)
-- [Visualization ratio (10:1 inventory to visual)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/visualization-ratio.md)
-- [Top-down camera minigame (stump digging)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/top-down-minigame-stump-digging.md)
-- [Reverse-parking entry stub orientation (forward-tail)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/patterns/reverse-parking-entry-stub-orientation.md)
-
-#### Tycoon — Decisions
-- [Tier system foundation — trees/products/machines (SOURCE OF TRUTH)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/tier-system-foundation.md)
-- [Quantity-not-quality design principle](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/quantity-not-quality-principle.md)
-- [Sales flow: hybrid player + NPC worker](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/sales-flow-decision-hybrid.md)
-- [Tool tier replacement (not multiple in inventory)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/tool-tier-replacement-not-inventory.md)
-- [VFX wycofane (sawdust/kurz/liście cut from MVP)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/vfx-wycofane-decision.md)
-- [Building progression instant spawn (Tavern Manager style)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/building-progression-instant-spawn.md)
-- [Player-built vs purchased dichotomy](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/player-built-vs-purchased-dichotomy.md)
-- [UI Phase 4 catalog roadmap](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/ui-phase-4-catalog.md)
-- [Rack architecture decision (3 options analyzed)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/rack-architecture-decision.md)
-- [PlantingSpot universal-not-typed design](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/planting-spot-universal-not-typed.md)
-- [Zero code changes per species philosophy](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/zero-code-changes-philosophy.md)
-- [LoadingStation: walking vs centralized (QoL upgrade)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/tycoon/decisions/loading-station-decision.md)
-
-#### Survival (Eskimo Simulator)
-- [Chunk-based world loading](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/survival/patterns/chunk-based-world-loading.md)
-- [Multiplayer-from-MVP (not retrofit)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/survival/decisions/multiplayer-from-mvp-not-retrofit.md)
-
-#### Cross-Genre
-- [Audio strategy: minimal music + heavy ambient + voice bites](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/genre/cross-genre/decisions/audio-strategy-minimal-music-heavy-ambient.md)
-
-### Workflow
-
-#### Claude Code
-- [Scene attachment check before deleting MonoBehaviour](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/scene-attachment-check-before-deleting.md)
-- [Backup scene before modify](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/backup-scene-before-modify.md)
-- [Context degradation threshold (20-40%)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/context-degradation-threshold.md)
-- [Console Collapse + unique loop suffix](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/console-collapse-loop-suffix.md)
-- [Stop hook infinite loop risk](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/stop-hook-infinite-loop-risk.md)
-- [/clear vs /compact decision rules](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/clear-vs-compact-decision-rules.md)
-- [3-level analysis system](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/three-level-analysis-system.md)
-- [Quad-backtick prompt format](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/quad-backtick-prompt-format.md)
-- [DO NOT MOVE hardcoded positions](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/do-not-move-hardcoded-positions.md)
-- [Intentionally LOW maxCapacity for test racks](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/intentionally-low-maxcapacity-test-racks.md)
-- [Universal cleanup post-migration](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/universal-cleanup-post-migration.md)
-- [Cross-project stack reuse (Eskimo identical)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/cross-project-stack-reuse.md)
-- [Iterative checkpoint workflow](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/claude-code/iterative-checkpoint-workflow.md)
-
-#### MCP Tools
-- [MCP wildcard permissions format](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/mcp-tools/mcp-wildcard-permissions-format.md)
-- [Skill loading on-demand vs @ reference](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/mcp-tools/skill-loading-on-demand-vs-reference.md)
-
-#### 3D Models
-- [Tripo vocab: firewood is wedge-shaped](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/3d-models/tripo-vocab-firewood-wedge.md)
-- [Procedural textures in Blender Cycles (commercial)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/3d-models/procedural-textures-cycles-commercial.md)
-- [Blender headless Python generation](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/3d-models/blender-headless-python-generation.md)
-- [ZERO floating / ZERO flickering mandate](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/3d-models/zero-floating-zero-flickering-mandate.md)
-- [Tripo (organic) vs Blender MCP (geometric) — pipeline routing](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/3d-models/tripo-organic-vs-blender-geometric-decision.md)
-
-#### Asset Pipeline
-- [Tripo cleanup pipeline](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/asset-pipeline/tripo-cleanup-pipeline.md)
-- [Tripo asymmetric / floating retopo](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/asset-pipeline/tripo-asymmetric-floating-retopo.md)
-- [Audio pipeline: ElevenLabs + Suno + FFmpeg](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/asset-pipeline/audio-asset-pipeline.md)
-- [Polybrush iteration rule (no return to regen)](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/asset-pipeline/polybrush-iteration-rule.md)
-- [Polybrush settings for low-poly](https://raw.githubusercontent.com/HunterBright/timber-tycoon-kb/master/workflow/asset-pipeline/polybrush-settings-low-poly.md)
+Zaindeksowano 165 wpisow uporzadkowanych. Mapa jest generowana skryptem
+`tools/kb_audit.py --write-moc` - nie edytuj jej recznie, bo zmiany przepadna.

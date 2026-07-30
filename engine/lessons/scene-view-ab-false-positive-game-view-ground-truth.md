@@ -1,11 +1,24 @@
 ---
+title: Scene View A/B screenshots gave a false-positive diagnosis — verify in the GAME view with the live camera
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, debugging, scene-view, game-view, shadows, screenshots, mcp, methodology]
+status: verified
+confidence: high
+verified: ''
+date: '2026-06-11'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- debugging
+- scene-view
+- game-view
+- shadows
+- screenshots
+- mcp
+- methodology
+applies_to: []
+source: ''
 severity: high
-date: 2026-06-11
-status: validated
+suggested-category: engine/lessons
 ---
 
 # Scene View A/B screenshots gave a false-positive diagnosis — verify in the GAME view with the live camera

@@ -1,13 +1,25 @@
 ---
+title: Test losujacy jeden element z puli o rozmiarze 1 udaje pelne pokrycie
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [testing, smoke-test, coverage, flaky-tests, random-sampling]
-severity: high
-time_lost: "0 h teraz, ale bez tego kazdy przyszly zly eksport modelu przechodzilby w wiekszosci buildow"
-date: 2026-07-20
 status: draft
-applies_to: [unity, ci, smoke-tests]
+confidence: low
+verified: ''
+date: '2026-07-20'
+project: Kerf - Sawmill Tycoon
+tags:
+- testing
+- smoke-test
+- coverage
+- flaky-tests
+- random-sampling
+applies_to:
+- unity
+- ci
+- smoke-tests
+source: ''
+severity: high
+time_lost: 0 h teraz, ale bez tego kazdy przyszly zly eksport modelu przechodzilby w wiekszosci buildow
+suggested-category: engine/lessons
 ---
 
 # Test losujacy jeden element z puli o rozmiarze 1 udaje pelne pokrycie
@@ -76,5 +88,5 @@ udokumentowana jako probka.
 
 ## Related
 
-- [[walidator-spelniony-przez-konstrukcje]] - falszywa pewnosc po stronie mierzonej wielkosci.
+- [[20260720-1306-walidator-spelniony-przez-konstrukcje]] - falszywa pewnosc po stronie mierzonej wielkosci.
 - Zasada projektowa Timber Tycoon: "test wszystkich X = WSZYSTKIE instancje".

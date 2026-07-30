@@ -1,15 +1,22 @@
 ---
-name: context-degradation-threshold
+title: Context Degradation Threshold (20-40% Remaining)
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- context-window
+- prompt-strategy
+applies_to:
+- claude-code-projects
+source: ''
 description: Claude Code performance degrades visibly at 20-40% context remaining. Above 40% = full capability. Below 20% = unreliable output. Plan /clear before entering the danger zone.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [claude-code, context-window, prompt-strategy]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [claude-code-projects]
+severity: high
+suggested-category: workflow/claude-code
+name: context-degradation-threshold
 ---
 
 # Context Degradation Threshold (20-40% Remaining)

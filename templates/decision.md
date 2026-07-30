@@ -1,11 +1,16 @@
 ---
+title: <Decision title>
 type: decision
-project: <project-name>
-suggested-category: engine/decisions
-tags: []
-date: YYYY-MM-DD
 status: draft
-supersedes: ""
+confidence: medium
+verified: ''
+date: YYYY-MM-DD
+project: <project-name>
+tags: []
+applies_to: []
+source: ''
+suggested-category: engine/decisions
+supersedes: ''
 ---
 
 # <Decision title>

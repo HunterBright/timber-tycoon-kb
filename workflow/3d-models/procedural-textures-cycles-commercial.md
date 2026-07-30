@@ -1,15 +1,24 @@
 ---
-name: procedural-textures-cycles-commercial
+title: Procedural Textures in Blender Cycles (Commercial Release Rationale)
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- cycles
+- procedural
+- commercial
+- licensing
+applies_to:
+- blender-pipelines
+source: ''
 description: For commercial release, use procedural textures (Wave + Voronoi + Noise → baked PNG) — zero external image files = zero licensing concerns. All TT materials are procedural.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/3d-models
-  tags: [blender, cycles, procedural, commercial, licensing]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [blender-pipelines]
+severity: high
+suggested-category: workflow/3d-models
+name: procedural-textures-cycles-commercial
 ---
 
 # Procedural Textures in Blender Cycles (Commercial Release Rationale)

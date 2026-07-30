@@ -1,13 +1,25 @@
 ---
+title: Test porownujacy instancje MIEDZY SOBA jest slepy na blad wspolny (common-mode)
 type: lesson
-project: Timber Tycoon
-suggested-category: testing/lessons
-tags: [testing, smoke-test, build-gate, false-green, measurement, unity]
-severity: high
-time_lost: "~2h (bug zyl w buildzie mimo zielonej sondy)"
-date: 2026-07-22
 status: draft
-applies_to: [unity, any-automated-test]
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- testing
+- smoke-test
+- build-gate
+- false-green
+- measurement
+- unity
+applies_to:
+- unity
+- any-automated-test
+source: ''
+severity: high
+time_lost: ~2h (bug zyl w buildzie mimo zielonej sondy)
+suggested-category: testing/lessons
 ---
 
 # Test porownujacy instancje MIEDZY SOBA jest slepy na blad wspolny (common-mode)
@@ -49,5 +61,5 @@ baseline) sa strukturalnie slepe na dryf calego zbioru. Pytanie kontrolne przy p
 Jesli nie - brakuje kotwicy w zewnetrznym zrodle prawdy.
 
 ## Related
-- [[probe-check-must-have-provable-failure-mode]]
+- [[gate-must-have-provable-failure-mode]]
 - 20260722-1652-npc-foot-grounding-raycast-vs-navmesh-baseoffset.md

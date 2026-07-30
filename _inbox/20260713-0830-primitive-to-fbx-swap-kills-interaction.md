@@ -1,11 +1,23 @@
 ---
+title: Podmiana prymitywu Unity na model FBX po cichu zabija interakcję
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, colliders, interaction, raycast, fbx-import, smoke-tests, regression]
-date: 2026-07-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- colliders
+- interaction
+- raycast
+- fbx-import
+- smoke-tests
+- regression
+applies_to: []
+source: ''
 severity: high
+suggested-category: engine/lessons
 ---
 
 # Podmiana prymitywu Unity na model FBX po cichu zabija interakcję

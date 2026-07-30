@@ -1,13 +1,24 @@
 ---
+title: Generator obraz-do-3D karmi sie JEDNYM obrazkiem, a nie kompletem widokow
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [3d-generation, trellis, image-to-3d, asset-pipeline, reference-art]
-severity: medium
-time_lost: "20 min recon (uniknieto ~1 h generowania widokow na marne)"
-date: 2026-07-26
 status: draft
-applies_to: [TRELLIS.2, image-to-3D]
+confidence: low
+verified: ''
+date: '2026-07-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- 3d-generation
+- trellis
+- image-to-3d
+- asset-pipeline
+- reference-art
+applies_to:
+- TRELLIS.2
+- image-to-3D
+source: ''
+severity: medium
+time_lost: 20 min recon (uniknieto ~1 h generowania widokow na marne)
+suggested-category: engine/lessons
 ---
 
 # Generator obraz-do-3D karmi sie JEDNYM obrazkiem, a nie kompletem widokow

@@ -1,12 +1,24 @@
 ---
+title: 'Wysokosc stop NPC: szacunek z plikow i obrys siatki KLAMIA - prawde mowia kosci stop mierzone w buildzie'
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, animation, generic-rig, measurement, mixamo, skinnedmeshrenderer, bounds]
-severity: medium
-time_lost: "3 iteracje pomiarowe w jednej sesji (szacunek FK -> obrys siatki -> kosci)"
-date: 2026-07-16
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-16'
+project: Timber_Tycoon
+tags:
+- unity
+- animation
+- generic-rig
+- measurement
+- mixamo
+- skinnedmeshrenderer
+- bounds
+applies_to: []
+source: ''
+severity: medium
+time_lost: 3 iteracje pomiarowe w jednej sesji (szacunek FK -> obrys siatki -> kosci)
+suggested-category: engine/lessons
 ---
 
 # Wysokosc stop NPC: szacunek z plikow i obrys siatki KLAMIA - prawde mowia kosci stop mierzone w buildzie
@@ -50,4 +62,4 @@ sygnaly pomiarowe od razu - rozjazd miedzy nimi wykryl artefakt, ktory pojedyncz
 sprzedalby jako fakt.
 
 ## Related
-- [[dual-owner-persistence-duplication]] (ta sama sesja)
+- [[20260716-0843-dual-owner-persistence-duplication]] (ta sama sesja)

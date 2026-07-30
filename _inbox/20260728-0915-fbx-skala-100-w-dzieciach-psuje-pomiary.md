@@ -1,10 +1,23 @@
 ---
+title: 'FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, blender, fbx, import, scale, mesh, measurement, editor-script]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- blender
+- fbx
+- import
+- scale
+- mesh
+- measurement
+- editor-script
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu

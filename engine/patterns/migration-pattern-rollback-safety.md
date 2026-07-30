@@ -1,10 +1,20 @@
 ---
+title: Backend Migration Pattern with Rollback Safety
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, refactoring, migration, rollback, architecture]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- refactoring
+- migration
+- rollback
+- architecture
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Backend Migration Pattern with Rollback Safety

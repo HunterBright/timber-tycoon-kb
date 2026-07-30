@@ -1,13 +1,25 @@
 ---
+title: Projekt, który nigdy nie był budowany, hoduje całą klasę uśpionych błędów
 type: lesson
-project: Timber Tycoon
-suggested-category: workflow/lessons
-tags: [unity, build, ci, verification, editor-only-api, shader-find, technical-debt]
-severity: high
-time_lost: "3 bugi blokujace, wszystkie wyszly w ciagu 1h pierwszego buildu"
-date: 2026-07-13
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- build
+- ci
+- verification
+- editor-only-api
+- shader-find
+- technical-debt
+applies_to:
+- unity
+source: ''
+severity: high
+time_lost: 3 bugi blokujace, wszystkie wyszly w ciagu 1h pierwszego buildu
+suggested-category: workflow/lessons
 ---
 
 # Projekt, który nigdy nie był budowany, hoduje całą klasę uśpionych błędów
@@ -95,7 +107,7 @@ Daje maszynowo sprawdzalny werdykt **z prawdziwego builda, bez grania** — i na
 Próba **udowodnienia buildowych błędów bez buildu**. Dla siatek istnieje pozorna droga na skróty
 (`Mesh.UploadMeshData(true)` — oficjalny sposób zwolnienia kopii siatki z pamięci procesora), ale
 **w Edytorze to nic nie robi**: dane zostają, collider cookuje się normalnie. Szczegóły →
-[[runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it]].
+[[20260713-1830-runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it]].
 
 Wniosek ogólny: **jeśli klasa błędów definiuje się przez różnicę Edytor↔build, to Edytor z definicji
 nie może być jej dowodem.** Nie szukaj obejść — zbuduj.
@@ -109,5 +121,5 @@ Im więcej narzędzi edytorowych ma projekt (skrypty setupu sceny, generatory as
 Reguła kciuka: **„działa u mnie w Edytorze" nie jest twierdzeniem o grze — to twierdzenie o Edytorze.**
 
 ## Related
-- [[runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it]]
-- [[monobehaviour-class-must-match-filename]]
+- [[20260713-1830-runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it]]
+- [[20260713-1845-monobehaviour-class-must-match-filename]]

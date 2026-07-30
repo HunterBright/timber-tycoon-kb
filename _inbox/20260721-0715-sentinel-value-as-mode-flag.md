@@ -1,10 +1,21 @@
 ---
+title: 'Sentinel value: wnioskowanie TRYBU z mierzonej liczby zamiast jawnej flagi'
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, state-machine, floating-point, animation, vehicles, code-smell]
-date: 2026-07-21
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-21'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- state-machine
+- floating-point
+- animation
+- vehicles
+- code-smell
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Sentinel value: wnioskowanie TRYBU z mierzonej liczby zamiast jawnej flagi
@@ -83,5 +94,5 @@ jak oszczędność, a nie jak decyzja.
 
 ## Related
 
-- [[frame-time-epsilon-guard-breaks-at-high-fps]] - drugi mechanizm tej samej awarii
-- [[measure-in-build-not-in-simulation]]
+- [[20260721-0725-frame-time-epsilon-guard-breaks-at-high-fps]] - drugi mechanizm tej samej awarii
+- [[build-is-the-only-truth-editor-lies]]

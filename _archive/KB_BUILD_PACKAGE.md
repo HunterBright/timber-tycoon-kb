@@ -1,3 +1,16 @@
+---
+title: KB Build Package — Timber Tycoon Knowledge Base
+type: note
+status: draft
+confidence: medium
+verified: ''
+date: ''
+project: Kerf - Sawmill Tycoon
+tags: []
+applies_to: []
+source: ''
+---
+
 > NOTE: tier/quality claims in this aggregate are superseded by genre/tycoon/decisions/tier-system-foundation.md (regenerate to refresh).
 
 # KB Build Package — Timber Tycoon Knowledge Base

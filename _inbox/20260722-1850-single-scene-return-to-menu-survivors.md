@@ -1,13 +1,27 @@
 ---
+title: 'Powrot do menu glownego w grze jednoscenowej: co przezywa przeladowanie sceny'
 type: lesson
-project: Kerf - Sawmill Tycoon (Timber Tycoon)
-suggested-category: engine/lessons
-tags: [unity, scene-reload, dontdestroyonload, static-events, main-menu, single-scene, build-only-bugs]
-severity: high
-time_lost: "~2h (rozpoznanie + budowa sprzatania i sondy)"
-date: 2026-07-22
 status: draft
-applies_to: [unity-6, unity-2021+, any-single-scene-game]
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon (Timber Tycoon)
+tags:
+- unity
+- scene-reload
+- dontdestroyonload
+- static-events
+- main-menu
+- single-scene
+- build-only-bugs
+applies_to:
+- unity-6
+- unity-2021+
+- any-single-scene-game
+source: ''
+severity: high
+time_lost: ~2h (rozpoznanie + budowa sprzatania i sondy)
+suggested-category: engine/lessons
 ---
 
 # Powrot do menu glownego w grze jednoscenowej: co przezywa przeladowanie sceny
@@ -112,5 +126,5 @@ nakladke, albo (b) wraca do menu przez przeladowanie sceny. Zdarzenia statyczne 
 (`RuntimeInitializeOnLoadMethod` raz na proces, `sceneLoaded` po `Awake`) sa uniwersalne.
 
 ## Related
-- [[build-only-bugs-editor-lies]] - ta sama rodzina "dziala w Edytorze, pada w buildzie"
-- [[probe-must-be-able-to-fail]] - kazde nowe sprawdzenie potrzebuje udowodnionego trybu porazki
+- [[build-is-the-only-truth-editor-lies]] - ta sama rodzina "dziala w Edytorze, pada w buildzie"
+- [[gate-must-have-provable-failure-mode]] - kazde nowe sprawdzenie potrzebuje udowodnionego trybu porazki

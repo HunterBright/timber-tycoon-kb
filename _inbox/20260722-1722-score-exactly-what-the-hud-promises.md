@@ -1,13 +1,24 @@
 ---
+title: Punktuj DOKLADNIE te wielkosc, ktora pokazujesz graczowi
 type: lesson
-project: Timber Tycoon
-suggested-category: gamedesign/lessons
-tags: [game-feel, scoring, hud, feedback, minigame, player-trust]
-severity: medium
-time_lost: "~1 tydzien zycia bledu w grze (wprowadzony przy polerowaniu, znaleziony przy przegladzie)"
-date: 2026-07-22
 status: draft
-applies_to: [any-game-with-scored-input]
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-feel
+- scoring
+- hud
+- feedback
+- minigame
+- player-trust
+applies_to:
+- any-game-with-scored-input
+source: ''
+severity: medium
+time_lost: ~1 tydzien zycia bledu w grze (wprowadzony przy polerowaniu, znaleziony przy przegladzie)
+suggested-category: gamedesign/lessons
 ---
 
 # Punktuj DOKLADNIE te wielkosc, ktora pokazujesz graczowi
@@ -60,4 +71,4 @@ nich sprawdzac formule wyniku, nawet gdy sie jej nie dotyka.
 
 ## Related
 - 20260722-1652-relative-only-test-blind-to-common-mode-error.md
-- [[probe-check-must-have-provable-failure-mode]]
+- [[gate-must-have-provable-failure-mode]]

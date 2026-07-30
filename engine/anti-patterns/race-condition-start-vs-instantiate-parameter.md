@@ -1,10 +1,20 @@
 ---
+title: 'ANTI-PATTERN: Start() Reads SO Before Parent Sets It'
 type: anti-pattern
-project: timber-tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, lifecycle, race-condition, instantiate, scriptableobject]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- lifecycle
+- race-condition
+- instantiate
+- scriptableobject
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # ANTI-PATTERN: Start() Reads SO Before Parent Sets It

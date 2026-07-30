@@ -1,13 +1,23 @@
 ---
+title: Hardcoded bounds in a (possibly dead) generator are NOT the map's real size — use the live scene
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, scene, terrain, dead-code, bounds, source-of-truth]
-severity: medium
-time_lost: "avoided — caught during recon"
-date: 2026-06-22
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- scene
+- terrain
+- dead-code
+- bounds
+- source-of-truth
 applies_to: []
+source: ''
+severity: medium
+time_lost: avoided — caught during recon
+suggested-category: engine/lessons
 ---
 
 # Hardcoded bounds in a (possibly dead) generator are NOT the map's real size — use the live scene

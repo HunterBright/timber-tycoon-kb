@@ -1,10 +1,21 @@
 ---
+title: 'Prop niesiony przez NPC: blokada pionu w LateUpdate + render osi propa zamiast zgadywania'
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, npc, animation, prop-attachment, lateupdate, diagnostics]
-date: 2026-07-17
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- npc
+- animation
+- prop-attachment
+- lateupdate
+- diagnostics
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Prop niesiony przez NPC: blokada pionu w LateUpdate + render osi propa zamiast zgadywania

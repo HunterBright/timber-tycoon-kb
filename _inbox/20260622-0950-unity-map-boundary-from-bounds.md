@@ -1,10 +1,22 @@
 ---
+title: Invisible map boundary from live Renderer.bounds + foot-only gap via IgnoreCollision
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, level-design, colliders, characize-controller, rigidbody, map-boundary, physics]
-date: 2026-06-22
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- level-design
+- colliders
+- characize-controller
+- rigidbody
+- map-boundary
+- physics
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Invisible map boundary from live Renderer.bounds + foot-only gap via IgnoreCollision

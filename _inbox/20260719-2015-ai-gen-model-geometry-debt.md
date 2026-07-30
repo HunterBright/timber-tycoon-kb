@@ -1,10 +1,23 @@
 ---
+title: 'Modele generowane przez AI (Tripo/Hunyuan): dług geometryczny - czasem taniej zbudować od zera'
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: pipeline/anti-patterns
-tags: [blender, tripo, ai-generated, mesh, cleanup, non-manifold, asset-debt, rebuild-vs-patch]
-date: 2026-07-19
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-19'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- tripo
+- ai-generated
+- mesh
+- cleanup
+- non-manifold
+- asset-debt
+- rebuild-vs-patch
+applies_to: []
+source: ''
+suggested-category: pipeline/anti-patterns
 ---
 
 # Modele generowane przez AI (Tripo/Hunyuan): dług geometryczny - czasem taniej zbudować od zera
@@ -42,4 +55,4 @@ topologii, więc defekty są rozsiane i nie kończą się.
 
 ## Powiązane
 Materiał dwustronny (_Cull:0) leczy prześwit CIENKIEJ SKORUPY, ale NIE domyka brakującej
-ścianki - to dwa różne defekty. Patrz [[paper-shell-culling-seethrough]].
+ścianki - to dwa różne defekty. Patrz [[20260719-1605-paper-shell-culling-seethrough]].

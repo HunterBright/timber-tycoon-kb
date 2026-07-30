@@ -1,11 +1,23 @@
 ---
+title: '"Wszystko za jasne" po podmianie modelu: dwa niezależne błędy gamma dające ten sam objaw'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, urp, gamma, przestrzen-liniowa, vertex-color, materialpropertyblock, blender-fbx]
-date: 2026-07-20
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-20'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- gamma
+- przestrzen-liniowa
+- vertex-color
+- materialpropertyblock
+- blender-fbx
+applies_to: []
+source: ''
 severity: high
+suggested-category: engine/lessons
 ---
 
 # "Wszystko za jasne" po podmianie modelu: dwa niezależne błędy gamma dające ten sam objaw

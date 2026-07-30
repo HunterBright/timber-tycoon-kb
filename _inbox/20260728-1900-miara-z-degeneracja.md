@@ -1,10 +1,21 @@
 ---
+title: Miara optymalizowana samotnie znajduje rozwiazanie zdegenerowane
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: process/anti-patterns
-tags: [miary, optymalizacja, dopasowanie, 3d, bramki, pomiar]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- miary
+- optymalizacja
+- dopasowanie
+- 3d
+- bramki
+- pomiar
+applies_to: []
+source: ''
+suggested-category: process/anti-patterns
 ---
 
 # Miara optymalizowana samotnie znajduje rozwiazanie zdegenerowane

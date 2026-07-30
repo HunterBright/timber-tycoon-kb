@@ -1,10 +1,21 @@
 ---
+title: 'Anty-wzorzec: szczeliny powietrza jako ochrona przed z-fightingiem (lewitujące propy)'
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: blender/lessons
-tags: [blender, props, z-fighting, low-poly, modeling, qa]
-date: 2026-07-11
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-11'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- props
+- z-fighting
+- low-poly
+- modeling
+- qa
+applies_to: []
+source: ''
+suggested-category: blender/lessons
 ---
 
 # Anty-wzorzec: szczeliny powietrza jako ochrona przed z-fightingiem (lewitujące propy)

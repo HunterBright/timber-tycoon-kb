@@ -1,13 +1,23 @@
 ---
+title: 'Tag Assignment: Code vs Inspector for Runtime-Spawned Objects'
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, tags, comparetag, prefabs, runtime-spawning]
-severity: medium
-time_lost: "~10 min"
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- tags
+- comparetag
+- prefabs
+- runtime-spawning
+applies_to:
+- unity-projects
+source: ''
+severity: medium
+time_lost: ~10 min
+suggested-category: engine/lessons
 ---
 
 # Tag Assignment: Code vs Inspector for Runtime-Spawned Objects

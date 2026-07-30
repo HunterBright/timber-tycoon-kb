@@ -1,15 +1,24 @@
 ---
+title: VFX Wycofane — Sawdust, Kurz, Liście Cut from MVP
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- vfx
+- scope
+- deferred
+- decision-record
+applies_to:
+- unity-projects
+source: ''
+description: 'Sawdust, tree-fall dust, and seasonal leaves VFX cut from MVP. Scope cut with explicit rationale — retained: vehicle exhaust, sawmill smoke, splash, gold coin sale.'
+severity: medium
+suggested-category: genre/tycoon/decisions
 name: vfx-wycofane-decision
-description: Sawdust, tree-fall dust, and seasonal leaves VFX cut from MVP. Scope cut with explicit rationale — retained: vehicle exhaust, sawmill smoke, splash, gold coin sale.
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, vfx, scope, deferred, decision-record]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
 ---
 
 # VFX Wycofane — Sawdust, Kurz, Liście Cut from MVP

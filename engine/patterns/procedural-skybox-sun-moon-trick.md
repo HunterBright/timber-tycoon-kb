@@ -1,10 +1,21 @@
 ---
+title: Procedural Skybox Sun/Moon Trick
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, urp, shader, skybox, sun-moon, procedural]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- shader
+- skybox
+- sun-moon
+- procedural
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Procedural Skybox Sun/Moon Trick

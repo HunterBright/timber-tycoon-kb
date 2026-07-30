@@ -1,15 +1,24 @@
 ---
-name: scene-files-binary-never-text-edit
+title: 'ANTI-PATTERN: Scene Files Are Binary — Never Edit as Text'
+type: anti-pattern
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- scene
+- yaml
+- prefab
+- missing-script
+applies_to:
+- unity-projects
+source: ''
 description: Unity .unity and .prefab files look like YAML but contain internal GUIDs — text editing breaks scene. Recovery via Inspector Remove Component.
-metadata:
-  type: anti-pattern
-  project: timber-tycoon
-  suggested-category: engine/anti-patterns
-  tags: [unity, scene, yaml, prefab, missing-script]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+suggested-category: engine/anti-patterns
+name: scene-files-binary-never-text-edit
 ---
 
 # ANTI-PATTERN: Scene Files Are Binary — Never Edit as Text

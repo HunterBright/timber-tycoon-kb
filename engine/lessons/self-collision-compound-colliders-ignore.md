@@ -1,13 +1,24 @@
 ---
+title: Self-Collision Compound BoxColliders → Physics.IgnoreCollision
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, physics, colliders, compound, rigidbody, vehicle]
-severity: high
-time_lost: "~40 min"
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- colliders
+- compound
+- rigidbody
+- vehicle
+applies_to:
+- unity-projects
+source: ''
+severity: high
+time_lost: ~40 min
+suggested-category: engine/lessons
 ---
 
 # Self-Collision Compound BoxColliders → Physics.IgnoreCollision

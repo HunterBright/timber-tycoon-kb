@@ -1,10 +1,21 @@
 ---
+title: Top-Down Camera Minigame (Stump Digging)
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, minigame, camera, top-down, stump, mechanic]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- minigame
+- camera
+- top-down
+- stump
+- mechanic
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Top-Down Camera Minigame (Stump Digging)

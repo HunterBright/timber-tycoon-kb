@@ -1,15 +1,25 @@
 ---
-name: quantity-not-quality-design-principle
+title: Quantity-Not-Quality Design Principle
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- tycoon
+- minigame
+- quality
+- quantity
+- progression
+applies_to:
+- unity-projects
+source: ''
 description: TT minigames affect output QUANTITY not QUALITY — species/machine tier determines quality, player skill determines how many items per cycle
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, tycoon, minigame, quality, quantity, progression]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+suggested-category: genre/tycoon/decisions
+name: quantity-not-quality-design-principle
 ---
 
 # Quantity-Not-Quality Design Principle

@@ -1,11 +1,22 @@
 ---
+title: Probe the real heightfield before scripting terrain edits — assumed profiles drift
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, terrain, heightfield, dry-run, verification, workflow]
-date: 2026-06-26
-severity: medium
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- terrain
+- heightfield
+- dry-run
+- verification
+- workflow
+applies_to: []
+source: ''
+severity: medium
+suggested-category: engine/lessons
 ---
 
 # Probe the real heightfield before scripting terrain edits — assumed profiles drift

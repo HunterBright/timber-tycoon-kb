@@ -1,10 +1,22 @@
 ---
+title: Dodawanie kolizji do propów rysowanych GPU instancingiem
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, gpu-instancing, physics, meshcollider, RenderMeshInstanced, performance, decor]
-date: 2026-06-25
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- gpu-instancing
+- physics
+- meshcollider
+- RenderMeshInstanced
+- performance
+- decor
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Dodawanie kolizji do propów rysowanych GPU instancingiem

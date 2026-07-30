@@ -1,13 +1,27 @@
 ---
+title: PowerShell nie czeka na Unity.exe ani na exe gry - kontrola swiezosci builda strzela za wczesnie
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, build, batchmode, powershell, ci, automation, false-green]
-severity: high
-time_lost: "~10 min (ale klasa bledu: falszywy zielony build)"
-date: 2026-07-26
 status: draft
-applies_to: [unity, windows, powershell]
+confidence: low
+verified: ''
+date: '2026-07-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- build
+- batchmode
+- powershell
+- ci
+- automation
+- false-green
+applies_to:
+- unity
+- windows
+- powershell
+source: ''
+severity: high
+time_lost: '~10 min (ale klasa bledu: falszywy zielony build)'
+suggested-category: engine/lessons
 ---
 
 # PowerShell nie czeka na Unity.exe ani na exe gry - kontrola swiezosci builda strzela za wczesnie
@@ -89,5 +103,5 @@ Klasa bledu jest gorsza niz zwykla awaria: daje **falszywy zielony**. Skrypt
 melduje sukces, mierzac stan sprzed swojej wlasnej pracy.
 
 ## Related
-- [[weryfikacja-w-buildzie-edytor-klamie]]
-- [[sonda-musi-umiec-zawiesc]]
+- [[build-is-the-only-truth-editor-lies]]
+- [[gate-must-have-provable-failure-mode]]

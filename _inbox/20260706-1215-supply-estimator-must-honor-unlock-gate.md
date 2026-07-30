@@ -1,10 +1,21 @@
 ---
+title: Estymator podaży/dostepnosci MUSI respektowac te sama bramke odblokowan co produkcja
 type: lesson
-project: Timber Tycoon
-suggested-category: gameplay-systems/lessons
-tags: [economy, unlock-gating, reputation, demand-supply, anti-softlock, order-generation]
-date: 2026-07-06
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-06'
+project: Kerf - Sawmill Tycoon
+tags:
+- economy
+- unlock-gating
+- reputation
+- demand-supply
+- anti-softlock
+- order-generation
+applies_to: []
+source: ''
+suggested-category: gameplay-systems/lessons
 ---
 
 # Estymator podaży/dostepnosci MUSI respektowac te sama bramke odblokowan co produkcja

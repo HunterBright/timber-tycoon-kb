@@ -1,10 +1,20 @@
 ---
+title: ScriptableObject Runtime Injection Pattern
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, scriptableobject, runtime, runtime-injection, extension-by-data]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- scriptableobject
+- runtime
+- runtime-injection
+- extension-by-data
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # ScriptableObject Runtime Injection Pattern

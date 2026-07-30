@@ -1,10 +1,21 @@
 ---
+title: Naprawa suwaka, ktory po cichu klamal, uniewaznia CALE wczesniejsze strojenie
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [proceduralne, narzedzia, suwaki, blender, ux-narzedzi, regresja-wizualna]
-date: 2026-07-27
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- proceduralne
+- narzedzia
+- suwaki
+- blender
+- ux-narzedzi
+- regresja-wizualna
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Naprawa suwaka, ktory po cichu klamal, uniewaznia CALE wczesniejsze strojenie

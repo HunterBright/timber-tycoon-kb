@@ -1,13 +1,23 @@
 ---
+title: Runtime vs Editor Script Separation (Assembly Boundary)
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, editor-script, runtime, assemblies, road-tool]
-severity: high
-time_lost: ""
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- editor-script
+- runtime
+- assemblies
+- road-tool
+applies_to:
+- unity-projects
+source: ''
+severity: high
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # Runtime vs Editor Script Separation (Assembly Boundary)

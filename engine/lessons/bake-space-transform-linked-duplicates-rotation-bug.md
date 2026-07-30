@@ -1,13 +1,24 @@
 ---
+title: bake_space_transform + Linked Duplicates = 90° Rotation Injection
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [blender, fbx, export, rotation, linked-duplicates]
-severity: high
-time_lost: "~1 session"
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects", "blender-pipelines"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- fbx
+- export
+- rotation
+- linked-duplicates
+applies_to:
+- unity-projects
+- blender-pipelines
+source: ''
+severity: high
+time_lost: ~1 session
+suggested-category: engine/lessons
 ---
 
 # bake_space_transform + Linked Duplicates = 90° Rotation Injection

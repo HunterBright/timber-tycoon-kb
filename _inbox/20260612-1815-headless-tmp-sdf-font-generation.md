@@ -1,10 +1,24 @@
 ---
+title: 'Headless TMP setup: import Essentials + generate SDF font asset from editor script'
 type: pattern
-project: Timber_Tycoon
-suggested-category: engine/patterns
-tags: [unity, textmeshpro, tmp, font, sdf, editor-script, headless, automation, localization]
-date: 2026-06-12
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-12'
+project: Timber_Tycoon
+tags:
+- unity
+- textmeshpro
+- tmp
+- font
+- sdf
+- editor-script
+- headless
+- automation
+- localization
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Headless TMP setup: import Essentials + generate SDF font asset from editor script

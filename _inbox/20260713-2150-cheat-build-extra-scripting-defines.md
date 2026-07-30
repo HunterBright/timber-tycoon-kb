@@ -1,10 +1,21 @@
 ---
+title: Build z cheatami przez `extraScriptingDefines` — zamiast „odblokuj i pamiętaj cofnąć"
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, build, debug-keys, cheats, scripting-defines, release-safety]
-date: 2026-07-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- build
+- debug-keys
+- cheats
+- scripting-defines
+- release-safety
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Build z cheatami przez `extraScriptingDefines` — zamiast „odblokuj i pamiętaj cofnąć"
@@ -57,4 +68,4 @@ Bez tego „chyba się nie skompilował do gry" jest przypuszczeniem, a nie fakt
 
 ## Powiązane
 
-- [[editor-cannot-simulate-build]] — ten sam nawyk: dowodem jest zbudowany plik `.exe`, nie Edytor.
+- [[build-is-the-only-truth-editor-lies]] — ten sam nawyk: dowodem jest zbudowany plik `.exe`, nie Edytor.

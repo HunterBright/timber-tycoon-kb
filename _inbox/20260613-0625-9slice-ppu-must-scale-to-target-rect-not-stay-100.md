@@ -1,12 +1,26 @@
 ---
+title: A large 9-slice sprite at PixelsPerUnit=100 breaks because its fixed corners exceed the panel
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, ugui, ui, 9-slice, sprite, pixels-per-unit, import, image-sliced]
+status: draft
+confidence: low
+verified: ''
+date: '2026-06-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ugui
+- ui
+- 9-slice
+- sprite
+- pixels-per-unit
+- import
+- image-sliced
+applies_to:
+- unity-ugui
+source: ''
 severity: medium
-time_lost: "~1 iteration (caught from in-game screenshot)"
-date: 2026-06-13
-applies_to: [unity-ugui]
+time_lost: ~1 iteration (caught from in-game screenshot)
+suggested-category: engine/lessons
 ---
 
 # A large 9-slice sprite at PixelsPerUnit=100 breaks because its fixed corners exceed the panel
@@ -52,5 +66,5 @@ normal-sized runtime panels. Heuristic: a sprite with borders summing to B px ne
 the SMALLEST panel that shares the sprite (at N=300 here, any panel ≥~470 px wide is safe).
 
 ## Related
-- [[dim-scrim-must-not-reuse-9slice-panel-factory]] — sibling fix from the same reskin: the
+- [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory]] — sibling fix from the same reskin: the
   full-screen dim must not reuse the panel factory once a transparent 9-slice sprite exists.

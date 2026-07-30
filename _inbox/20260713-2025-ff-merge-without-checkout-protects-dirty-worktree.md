@@ -1,10 +1,21 @@
 ---
+title: 'Pattern: przewiniecie galezi BEZ checkoutu (`git fetch . src:dst`)'
 type: pattern
-project: Timber Tycoon
-suggested-category: workflow/patterns
-tags: [git, unity, merge, fast-forward, worktree, workflow]
-date: 2026-07-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- git
+- unity
+- merge
+- fast-forward
+- worktree
+- workflow
+applies_to: []
+source: ''
+suggested-category: workflow/patterns
 ---
 
 # Pattern: przewiniecie galezi BEZ checkoutu (`git fetch . src:dst`)

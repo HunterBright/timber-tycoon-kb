@@ -1,13 +1,26 @@
 ---
+title: LineRenderer lezacy plasko na powierzchni znika, bo material jest jednostronny
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, urp, linerenderer, backface-culling, material, editor-vs-runtime, bakemesh]
-severity: medium
-time_lost: "~40 min"
-date: 2026-07-21
 status: draft
-applies_to: [unity6, urp]
+confidence: low
+verified: ''
+date: '2026-07-21'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- linerenderer
+- backface-culling
+- material
+- editor-vs-runtime
+- bakemesh
+applies_to:
+- unity6
+- urp
+source: ''
+severity: medium
+time_lost: ~40 min
+suggested-category: engine/lessons
 ---
 
 # LineRenderer lezacy plasko na powierzchni znika, bo material jest jednostronny

@@ -1,10 +1,21 @@
 ---
+title: Procedural Unity scene-building via unity-mcp RunCommand
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, unity-mcp, runcommand, procedural-placement, editor-scripting, physics-layers]
-date: 2026-06-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- unity-mcp
+- runcommand
+- procedural-placement
+- editor-scripting
+- physics-layers
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Procedural Unity scene-building via unity-mcp RunCommand

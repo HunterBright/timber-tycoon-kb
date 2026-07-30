@@ -1,13 +1,24 @@
 ---
+title: Single masked Physics.Raycast for "look-at to interact" gets eaten by a non-interactable collider on a masked layer
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, raycast, interaction, layermask, physics, fpp]
-severity: medium
-time_lost: ""
-date: 2026-07-07
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-07-07'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- raycast
+- interaction
+- layermask
+- physics
+- fpp
+applies_to:
+- unity
+source: ''
+severity: medium
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # Single masked Physics.Raycast for "look-at to interact" gets eaten by a non-interactable collider on a masked layer

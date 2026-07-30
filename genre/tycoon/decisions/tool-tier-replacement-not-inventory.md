@@ -1,15 +1,24 @@
 ---
-name: tool-tier-replacement-decision
+title: Tool Tier Replacement — NOT Multiple Tiers in Inventory
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- tool
+- tier
+- upgrade
+- inventory
+applies_to:
+- unity-projects
+source: ''
 description: Tool upgrade (Axe T1→T2→T3) permanently REPLACES previous tier. Player never carries multiple tool tiers. Eliminates inventory bloat and "which axe?" decision fatigue.
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, tool, tier, upgrade, inventory]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+suggested-category: genre/tycoon/decisions
+name: tool-tier-replacement-decision
 ---
 
 # Tool Tier Replacement — NOT Multiple Tiers in Inventory

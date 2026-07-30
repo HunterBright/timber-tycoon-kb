@@ -1,11 +1,26 @@
 ---
+title: Crooked foot under Unity Humanoid = auto-rig copied the foot bind pose instead of mirroring it
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, humanoid, rig, mixamo, blender, bind-pose, retargeting, npc, tripo, auto-rig]
-date: 2026-05-31
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- humanoid
+- rig
+- mixamo
+- blender
+- bind-pose
+- retargeting
+- npc
+- tripo
+- auto-rig
+applies_to: []
+source: ''
 severity: medium
+suggested-category: engine/lessons
 ---
 
 # Crooked foot under Unity Humanoid = auto-rig copied the foot bind pose instead of mirroring it

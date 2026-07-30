@@ -1,15 +1,23 @@
 ---
+title: Quad-Backtick Claude Code Prompt Format
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- prompt-format
+- syntax
+- convention
+applies_to:
+- claude-code-projects
+source: ''
+description: Hunter's standard prompt format — wrapped in 4 backticks, starts with
+severity: high
+suggested-category: workflow/claude-code
 name: quad-backtick-claude-code-prompt-format
-description: Hunter's standard prompt format — wrapped in 4 backticks, starts with # TASK, uses Find/Replace blocks for exact edits, ends with scope boundary. /clear decision is a SEPARATE block.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [claude-code, prompt-format, syntax, convention]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [claude-code-projects]
 ---
 
 # Quad-Backtick Claude Code Prompt Format
@@ -76,4 +84,4 @@ Without this, Code may "helpfully" edit related files that weren't part of the t
 
 Consistency = reliable parsing. Code handles this format without ambiguity. Variations in format = variations in how Code interprets the task. One canonical format → fewer parse errors → fewer wrong edits.
 
-See also: [[three-level-analysis-system]], [[clear-vs-compact-decision-rules]], [[iterative-checkpoint-workflow-generated-assets]]
+See also: [[three-level-analysis-system]], [[clear-vs-compact-decision-rules]], [[iterative-checkpoint-workflow]]

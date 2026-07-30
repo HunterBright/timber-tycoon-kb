@@ -1,15 +1,24 @@
 ---
+title: Tripo Asymmetric / Floating Elements — Blender Retopo
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- tripo
+- blender
+- retopo
+- asymmetry
+- cleanup
+applies_to:
+- blender-pipelines
+source: ''
+description: 'Tripo generates asymmetric models (left/right different) and floating elements. Fixes in Blender: Mirror modifier for symmetry, Snap + Merge by Distance for floating pieces.'
+severity: medium
+suggested-category: workflow/asset-pipeline
 name: tripo-asymmetric-floating-retopo
-description: Tripo generates asymmetric models (left/right different) and floating elements. Fixes in Blender: Mirror modifier for symmetry, Snap + Merge by Distance for floating pieces.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/asset-pipeline
-  tags: [tripo, blender, retopo, asymmetry, cleanup]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [blender-pipelines]
 ---
 
 # Tripo Asymmetric / Floating Elements — Blender Retopo

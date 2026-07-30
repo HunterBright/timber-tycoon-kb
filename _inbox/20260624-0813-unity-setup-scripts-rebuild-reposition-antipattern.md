@@ -1,10 +1,22 @@
 ---
+title: Edytorowe skrypty „Setup X" które DestroyImmediate + Instantiate + ustawiają pozycję = niszczące — nie używaj ich do drobnych poprawek
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, editor-scripts, scene, prefab, idempotency, destructive, colliders]
-date: 2026-06-24
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-24'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- editor-scripts
+- scene
+- prefab
+- idempotency
+- destructive
+- colliders
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Edytorowe skrypty „Setup X" które DestroyImmediate + Instantiate + ustawiają pozycję = niszczące — nie używaj ich do drobnych poprawek

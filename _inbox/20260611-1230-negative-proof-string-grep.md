@@ -1,10 +1,21 @@
 ---
+title: 'Anti-pattern: dowodzenie "handler nie istnieje" grepem po stringu ID'
 type: anti-pattern
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [diagnosis, grep, unlock-system, data-driven, negative-proof, unity]
-date: 2026-06-11
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-11'
+project: Timber_Tycoon
+tags:
+- diagnosis
+- grep
+- unlock-system
+- data-driven
+- negative-proof
+- unity
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Anti-pattern: dowodzenie "handler nie istnieje" grepem po stringu ID

@@ -1,13 +1,28 @@
 ---
+title: 'Humanoid: sloty OPCJONALNE zwracaja null na poprawnym awatarze - fallback po nazwach nie moze byc pod jednym `!isHuman`'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, humanoid, avatar, rig, bones, getbonetransform, mixamo, gate, false-green]
-severity: medium
-time_lost: "~25 min analizy (wylapane PRZED implementacja)"
-date: 2026-07-26
 status: draft
-applies_to: [unity, humanoid-rig]
+confidence: low
+verified: ''
+date: '2026-07-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- humanoid
+- avatar
+- rig
+- bones
+- getbonetransform
+- mixamo
+- gate
+- false-green
+applies_to:
+- unity
+- humanoid-rig
+source: ''
+severity: medium
+time_lost: ~25 min analizy (wylapane PRZED implementacja)
+suggested-category: engine/lessons
 ---
 
 # Humanoid: sloty OPCJONALNE zwracaja null na poprawnym awatarze - fallback po nazwach nie moze byc pod jednym `!isHuman`
@@ -88,4 +103,4 @@ zasobow" psuje sie zawsze, gdy grupa ma czlonkow wymaganych i opcjonalnych.
 
 ## Related
 - [[discriminating-clip-vs-rig-vs-skin-humanoid-defect]]
-- [[sonda-musi-umiec-zawiesc]]
+- [[gate-must-have-provable-failure-mode]]

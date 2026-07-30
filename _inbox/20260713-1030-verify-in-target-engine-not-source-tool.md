@@ -1,11 +1,23 @@
 ---
+title: Weryfikuj asset w silniku DOCELOWYM, nie w narzędziu źródłowym
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, unity, fbx, export, orientation, verification, asset-pipeline]
-date: 2026-07-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- unity
+- fbx
+- export
+- orientation
+- verification
+- asset-pipeline
+applies_to: []
+source: ''
 severity: high
+suggested-category: engine/lessons
 ---
 
 # Weryfikuj asset w silniku DOCELOWYM, nie w narzędziu źródłowym

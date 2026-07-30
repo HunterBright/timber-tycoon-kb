@@ -1,10 +1,23 @@
 ---
+title: Unity 6.5 EntityId (64-bit) gubi precyzję w kanale MCP/JSON - generator dostaje CUDZY asset
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity-mcp, entityid, json, float64, ai-generators, hunyuan, precision, mcp]
-date: 2026-07-17
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-17'
+project: Timber_Tycoon
+tags:
+- unity-mcp
+- entityid
+- json
+- float64
+- ai-generators
+- hunyuan
+- precision
+- mcp
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Unity 6.5 EntityId (64-bit) gubi precyzję w kanale MCP/JSON - generator dostaje CUDZY asset

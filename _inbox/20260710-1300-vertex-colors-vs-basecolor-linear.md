@@ -1,11 +1,22 @@
 ---
+title: Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, urp, linear-color-space, vertex-colors, materials, shader]
-severity: high
-date: 2026-07-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- linear-color-space
+- vertex-colors
+- materials
+- shader
+applies_to: []
+source: ''
+severity: high
+suggested-category: engine/lessons
 ---
 
 # Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ

@@ -1,10 +1,21 @@
 ---
+title: Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: process/lessons
-tags: [bramki, testy, progi, jakosc, iteracja, pomiar]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- bramki
+- testy
+- progi
+- jakosc
+- iteracja
+- pomiar
+applies_to: []
+source: ''
+suggested-category: process/lessons
 ---
 
 # Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke

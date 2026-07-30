@@ -1,13 +1,24 @@
 ---
+title: Crashed test run leaves the PREVIOUS report on disk and reads as "my code never got built"
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [testing, build-gate, ci, artifacts, false-negative, diagnostics]
-severity: high
-time_lost: "~15 min"
-date: 2026-07-21
 status: draft
-applies_to: [any test harness that writes a report file at the end of the run]
+confidence: low
+verified: ''
+date: '2026-07-21'
+project: Kerf - Sawmill Tycoon
+tags:
+- testing
+- build-gate
+- ci
+- artifacts
+- false-negative
+- diagnostics
+applies_to:
+- any test harness that writes a report file at the end of the run
+source: ''
+severity: high
+time_lost: ~15 min
+suggested-category: engine/lessons
 ---
 
 # Crashed test run leaves the PREVIOUS report on disk and reads as "my code never got built"
@@ -115,6 +126,6 @@ build a whole wrong theory on top of it, because the artifact looks like fresh e
 freshness assertions (mtime, duration, run id) are worth more than they cost.
 
 ## Related
-- [[probe-checks-need-a-proven-failure-mode]]
+- [[gate-must-have-provable-failure-mode]]
 - Project rule already in CLAUDE.md: read the report FILE, not `$LASTEXITCODE` - this lesson adds
   the missing second half: and check that the file is FRESH.

@@ -1,10 +1,22 @@
 ---
+title: 'Unity 6.5: instance ID w SerializedProperty to teraz EntityId, a rzutowanie na int też jest zakazane'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, unity-6.5, editor-scripting, serializedproperty, entityid, compile-error, safe-mode]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- unity-6.5
+- editor-scripting
+- serializedproperty
+- entityid
+- compile-error
+- safe-mode
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Unity 6.5: instance ID w SerializedProperty to teraz EntityId, a rzutowanie na int też jest zakazane

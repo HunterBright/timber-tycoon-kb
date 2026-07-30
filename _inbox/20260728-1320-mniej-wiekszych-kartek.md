@@ -1,10 +1,21 @@
 ---
+title: Polowa kartek o rozmiarze wiekszym o jedna trzecia wyglada tak samo
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [optymalizacja, alpha-cards, listowie, pomiar, overdraw, proceduralne-generowanie]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- optymalizacja
+- alpha-cards
+- listowie
+- pomiar
+- overdraw
+- proceduralne-generowanie
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Polowa kartek o rozmiarze wiekszym o jedna trzecia wyglada tak samo

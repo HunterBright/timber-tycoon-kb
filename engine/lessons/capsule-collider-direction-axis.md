@@ -1,13 +1,23 @@
 ---
+title: CapsuleCollider Direction Axis Cheatsheet
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, physics, collider, capsule, axis]
-severity: medium
-time_lost: ""
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- collider
+- capsule
+- axis
+applies_to:
+- unity-projects
+source: ''
+severity: medium
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # CapsuleCollider Direction Axis Cheatsheet
@@ -31,7 +41,7 @@ Cheatsheet for TT objects:
 
 To determine the right axis: check which Blender axis is the long axis of the mesh, then apply after FBX axis remap (Blender Y → Unity Z, Blender Z → Unity Y).
 
-Never hardcode collider values from code when the prefab already has a correctly configured CapsuleCollider — see [[script-overrides-prefab-inspector]].
+Never hardcode collider values from code when the prefab already has a correctly configured CapsuleCollider — see [[script-overrides-prefab-inspector-values]].
 
 ## What didn't work
 Default direction=1 (vertical) on a lying fallen trunk — capsule points up, trunk levitates.

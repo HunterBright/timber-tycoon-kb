@@ -1,11 +1,22 @@
 ---
+title: Rebuild-on-event w uGUI zjada kliki + ScrollRect bez Graphica nie scrolluje
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, ugui, ui, rebuild, events, scrollrect]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Timber_Tycoon
+tags:
+- unity
+- ugui
+- ui
+- rebuild
+- events
+- scrollrect
+applies_to: []
+source: ''
 severity: minor
+suggested-category: engine/lessons
 ---
 
 # Rebuild-on-event w uGUI zjada kliki + ScrollRect bez Graphica nie scrolluje

@@ -1,10 +1,21 @@
 ---
+title: Cichy fallback lokalizacji ukrywa nieprzetłumaczoną treść
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, localization, i18n, fallback, testing, probe]
-date: 2026-07-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- localization
+- i18n
+- fallback
+- testing
+- probe
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Cichy fallback lokalizacji ukrywa nieprzetłumaczoną treść

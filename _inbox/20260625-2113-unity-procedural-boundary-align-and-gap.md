@@ -1,10 +1,22 @@
 ---
+title: 'Procedurally generated boundary: align to a visible region + auto-gap at roads'
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, editor-tool, procedural, colliders, layermask, boundary, alignment]
-date: 2026-06-25
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- editor-tool
+- procedural
+- colliders
+- layermask
+- boundary
+- alignment
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Procedurally generated boundary: align to a visible region + auto-gap at roads

@@ -1,10 +1,21 @@
 ---
+title: Kamerę odtwarzaj z regularnej struktury sceny, nie z sylwetki modelu
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [fotogrametria, kamera, punkty-zbiegu, blender, referencje, pomiar]
-date: 2026-07-27
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- fotogrametria
+- kamera
+- punkty-zbiegu
+- blender
+- referencje
+- pomiar
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Kamerę odtwarzaj z regularnej struktury sceny, nie z sylwetki modelu

@@ -1,10 +1,20 @@
 ---
+title: Zanim zaufasz bramce, sprawdz, czy mierzy to, co widac
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [pomiar, kontrola-jakosci, proceduralne-generowanie, bramki, debugowanie]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- pomiar
+- kontrola-jakosci
+- proceduralne-generowanie
+- bramki
+- debugowanie
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Zanim zaufasz bramce, sprawdz, czy mierzy to, co widac

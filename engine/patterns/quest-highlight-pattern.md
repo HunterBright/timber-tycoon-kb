@@ -1,10 +1,20 @@
 ---
+title: Quest Highlight Pattern (Quest-Flag Mechanism)
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, quest, highlight, ui, tutorial]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- quest
+- highlight
+- ui
+- tutorial
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Quest Highlight Pattern (Quest-Flag Mechanism)

@@ -1,13 +1,19 @@
 ---
+title: <Title — specific, searchable>
 type: lesson
-project: <project-name>
-suggested-category: engine/lessons
-tags: [tag1, tag2]
-severity: medium
-time_lost: ""
-date: YYYY-MM-DD
 status: draft
+confidence: medium
+verified: ''
+date: YYYY-MM-DD
+project: <project-name>
+tags:
+- tag1
+- tag2
 applies_to: []
+source: ''
+severity: medium
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # <Title — specific, searchable>

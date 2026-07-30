@@ -1,10 +1,21 @@
 ---
+title: Zawieszone statyczne flagi modalne blokuja interakcje na stale
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, coroutines, statics, ui, input-blocking, self-heal]
-date: 2026-07-09
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-09'
+project: Timber_Tycoon
+tags:
+- unity
+- coroutines
+- statics
+- ui
+- input-blocking
+- self-heal
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Zawieszone statyczne flagi modalne blokuja interakcje na stale

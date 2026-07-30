@@ -1,10 +1,21 @@
 ---
+title: Kanoniczny hash wyniku jako dowod neutralnosci refaktoru generatora
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [refactoring, procedural-generation, regression, hashing, blender, asset-pipeline]
-date: 2026-07-20
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-20'
+project: Kerf - Sawmill Tycoon
+tags:
+- refactoring
+- procedural-generation
+- regression
+- hashing
+- blender
+- asset-pipeline
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Kanoniczny hash wyniku jako dowod neutralnosci refaktoru generatora
@@ -77,5 +88,5 @@ ktore nie maja czego regresowac. Stary wariant zostaje przy literalach.
 
 ## Related
 
-- [[walidator-spelniony-przez-konstrukcje]] - hash odpowiada "czy sie zmienilo", walidatory
+- [[20260720-1306-walidator-spelniony-przez-konstrukcje]] - hash odpowiada "czy sie zmienilo", walidatory
   odpowiadaja "czy jest poprawne". Potrzebne oba; hash nie zastapi walidatorow.

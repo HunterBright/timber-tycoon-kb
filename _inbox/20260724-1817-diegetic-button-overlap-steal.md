@@ -1,10 +1,22 @@
 ---
+title: Powiekszone collidery klikania ciasnych guzikow 3D + wybor "pierwsze trafione pudelko" = sasiad kradnie klik
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, raycast, minigame, diegetic-ui, collider, input, picking]
-date: 2026-07-24
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-24'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- raycast
+- minigame
+- diegetic-ui
+- collider
+- input
+- picking
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Powiekszone collidery klikania ciasnych guzikow 3D + wybor "pierwsze trafione pudelko" = sasiad kradnie klik

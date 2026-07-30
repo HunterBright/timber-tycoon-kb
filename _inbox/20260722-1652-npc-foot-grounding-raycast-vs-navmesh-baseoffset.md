@@ -1,10 +1,23 @@
 ---
+title: Przyklejanie stop NPC do gruntu raycastem zamiast stalej korekty NavMeshAgent.baseOffset
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, navmesh, navmeshagent, baseoffset, npc, animation, grounding, skinnedmesh]
-date: 2026-07-22
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- navmesh
+- navmeshagent
+- baseoffset
+- npc
+- animation
+- grounding
+- skinnedmesh
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Przyklejanie stop NPC do gruntu raycastem zamiast stalej korekty NavMeshAgent.baseOffset

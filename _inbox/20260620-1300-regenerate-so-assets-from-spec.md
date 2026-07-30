@@ -1,10 +1,21 @@
 ---
+title: Regeneruj assety ScriptableObject z kodowego "spec" zamiast ręcznie edytować YAML/GUID
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, scriptableobject, editor-scripting, assetdatabase, data-pipeline, codegen]
-date: 2026-06-20
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-20'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- scriptableobject
+- editor-scripting
+- assetdatabase
+- data-pipeline
+- codegen
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Regeneruj assety ScriptableObject z kodowego "spec" zamiast ręcznie edytować YAML/GUID

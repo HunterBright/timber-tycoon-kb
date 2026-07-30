@@ -1,10 +1,20 @@
 ---
+title: Losowanie zamówień ważone podażą wymaga PODŁOGI wag
 type: pattern
-project: Timber Tycoon
-suggested-category: gamedesign/patterns
-tags: [economy, orders, weighted-random, self-regulation, tycoon]
-date: 2026-07-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- economy
+- orders
+- weighted-random
+- self-regulation
+- tycoon
+applies_to: []
+source: ''
+suggested-category: gamedesign/patterns
 ---
 
 # Losowanie zamówień ważone podażą wymaga PODŁOGI wag

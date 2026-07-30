@@ -1,15 +1,23 @@
 ---
-name: tripo-firewood-log-vocab
+title: 'Tripo Vocab: Firewood = Wedge-Shaped Piece'
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- tripo
+- ai-3d
+- prompt-engineering
+- vocabulary
+applies_to:
+- blender-pipelines
+source: ''
 description: Tripo AI interprets "firewood log" as full tree trunk. For TT firewood pieces, use "wedge-shaped piece of wood, triangular cross section, quarter of a log." Vocab table for common mistakes.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/3d-models
-  tags: [tripo, ai-3d, prompt-engineering, vocabulary]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [blender-pipelines]
+severity: medium
+suggested-category: workflow/3d-models
+name: tripo-firewood-log-vocab
 ---
 
 # Tripo Vocab: Firewood = Wedge-Shaped Piece
@@ -46,4 +54,4 @@ Correct vocab = ~80% first-try success rate. Table pays for itself in first 5 us
 
 Tripo trained on common usage. When your concept is niche, abstract, or industry-specific: don't use the common name. Describe the VISUAL SHAPE first, then add context. "What does it look like?" > "What is it called?"
 
-See also: [[tripo-cleanup-pipeline]], [[tripo-asymmetric-floating-retopo]], [[iterative-checkpoint-workflow-generated-assets]]
+See also: [[tripo-cleanup-pipeline]], [[tripo-asymmetric-floating-retopo]], [[iterative-checkpoint-workflow]]

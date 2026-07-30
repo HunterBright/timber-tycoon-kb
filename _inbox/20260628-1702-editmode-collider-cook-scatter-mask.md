@@ -1,11 +1,24 @@
 ---
+title: Edit-mode placement that excludes geometry via physics fails for non-convex runtime/embedded MeshColliders
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, editor-tooling, physics, meshcollider, procedural-scatter, raycast, edit-mode, occupancy-mask]
-date: 2026-06-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- editor-tooling
+- physics
+- meshcollider
+- procedural-scatter
+- raycast
+- edit-mode
+- occupancy-mask
+applies_to: []
+source: ''
 severity: high
+suggested-category: engine/lessons
 ---
 
 # Edit-mode placement that excludes geometry via physics fails for non-convex runtime/embedded MeshColliders

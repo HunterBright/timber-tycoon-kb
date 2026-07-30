@@ -1,10 +1,20 @@
 ---
+title: Fixing a baked-in Solidify applied in the wrong direction
 type: pattern
-project: Timber_Tycoon
-suggested-category: engine/patterns
-tags: [blender, solidify, mesh-repair, modeling, clearance]
-date: 2026-06-12
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-12'
+project: Timber_Tycoon
+tags:
+- blender
+- solidify
+- mesh-repair
+- modeling
+- clearance
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Fixing a baked-in Solidify applied in the wrong direction

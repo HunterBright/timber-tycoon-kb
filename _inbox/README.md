@@ -1,3 +1,16 @@
+---
+title: Inbox — Pending drafts
+type: index
+status: draft
+confidence: low
+verified: ''
+date: ''
+project: Kerf - Sawmill Tycoon
+tags: []
+applies_to: []
+source: ''
+---
+
 # Inbox — Pending drafts
 
 Claude Code writes draft entries here during sessions. Hunter reviews weekly.

@@ -1,15 +1,23 @@
 ---
+title: Rack Architecture Decision (3 Options)
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- storage
+- architecture
+- decision-record
+applies_to:
+- unity-projects
+source: ''
+description: 'Storage racks: 3 options analyzed — shared BagRack with capacity upgrades, dedicated rack per product, visual-only swap. Decision open; recommendation is Option B (dedicated racks).'
+severity: medium
+suggested-category: genre/tycoon/decisions
 name: rack-architecture-decision
-description: Storage racks: 3 options analyzed — shared BagRack with capacity upgrades, dedicated rack per product, visual-only swap. Decision open; recommendation is Option B (dedicated racks).
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, storage, architecture, decision-record]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
 ---
 
 # Rack Architecture Decision (3 Options)

@@ -1,13 +1,25 @@
 ---
+title: uGUI toast/plaque with a fixed LayoutElement.preferredHeight clips multi-line and localized text
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, ugui, layoutelement, contentsizefitter, tmp, localization, auto-height]
-severity: low
-time_lost: ""
-date: 2026-07-07
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-07-07'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ugui
+- layoutelement
+- contentsizefitter
+- tmp
+- localization
+- auto-height
+applies_to:
+- unity
+source: ''
+severity: low
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # uGUI toast/plaque with a fixed LayoutElement.preferredHeight clips multi-line and localized text

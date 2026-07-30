@@ -1,10 +1,21 @@
 ---
+title: Wing Snap-Points Modular Instant Fade-In
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, building, modular, snap-points, fade, expansion]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- building
+- modular
+- snap-points
+- fade
+- expansion
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Wing Snap-Points Modular Instant Fade-In

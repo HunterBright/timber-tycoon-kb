@@ -1,10 +1,20 @@
 ---
+title: MeshCollider on Roads = Stackable
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, road, collider, stacking, raycast]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- road
+- collider
+- stacking
+- raycast
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # MeshCollider on Roads = Stackable
@@ -55,4 +65,4 @@ MeshCollider makes roads part of the raycast-able physics scene. Waypoint tool r
 - **Terrain collider only**: skip road MeshColliders, just elevate waypoints manually. Simpler but no stacking support
 - **NavMesh baking**: roads naturally become part of NavMesh walkable area when they have MeshColliders + correct layer — NPC pathfinding bonus
 
-See also: [[catmull-rom-spline-road-mesh]], [[flatten-terrain-under-road-smoothstep]]
+See also: [[catmull-rom-spline-road-mesh]], [[flatten-terrain-under-road]]

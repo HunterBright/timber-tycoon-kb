@@ -1,10 +1,22 @@
 ---
+title: Build Unity na macOS z maszyny Windows (bez Maca)
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/patterns
-tags: [unity, macos, build, cross-compile, unity-hub, headless, gatekeeper]
-date: 2026-07-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- macos
+- build
+- cross-compile
+- unity-hub
+- headless
+- gatekeeper
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Build Unity na macOS z maszyny Windows (bez Maca)

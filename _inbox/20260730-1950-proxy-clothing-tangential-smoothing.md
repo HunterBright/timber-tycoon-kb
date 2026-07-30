@@ -1,10 +1,23 @@
 ---
+title: 'Ubrania proxy na low-poly ciele: wygładzanie styczne zamiast laplasjanu'
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: blender/patterns
-tags: [blender, clothing, proxy, laplacian, smoothing, low-poly, shrinkage, rigging]
-date: 2026-07-30
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-30'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- clothing
+- proxy
+- laplacian
+- smoothing
+- low-poly
+- shrinkage
+- rigging
+applies_to: []
+source: ''
+suggested-category: blender/patterns
 ---
 
 # Ubrania proxy na low-poly ciele: wygładzanie styczne zamiast laplasjanu

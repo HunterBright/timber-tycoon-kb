@@ -1,10 +1,20 @@
 ---
+title: AudioManager + Mixer Architecture (5 Channels + 10-Source Pool)
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, audio, audio-mixer, singleton, performance]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- audio
+- audio-mixer
+- singleton
+- performance
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # AudioManager + Mixer Architecture (5 Channels + 10-Source Pool)

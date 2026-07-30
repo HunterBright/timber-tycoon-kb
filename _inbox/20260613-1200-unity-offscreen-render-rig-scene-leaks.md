@@ -1,10 +1,24 @@
 ---
+title: An "isolated" offscreen render rig still inherits the open scene's lights AND skybox reflection
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, urp, render-to-texture, icon-baking, thumbnail, lighting, determinism, reflection-probe, culling-mask]
-date: 2026-06-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- render-to-texture
+- icon-baking
+- thumbnail
+- lighting
+- determinism
+- reflection-probe
+- culling-mask
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # An "isolated" offscreen render rig still inherits the open scene's lights AND skybox reflection

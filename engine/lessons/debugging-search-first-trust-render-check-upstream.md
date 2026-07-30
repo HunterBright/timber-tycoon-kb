@@ -1,12 +1,23 @@
 ---
-name: debugging-search-first-trust-render-check-upstream
+title: 'Debugging methodology: search-first, trust the render, check for upstream sabotage'
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [debugging, methodology, web-search, ground-truth, root-cause, process]
+status: verified
+confidence: high
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- debugging
+- methodology
+- web-search
+- ground-truth
+- root-cause
+- process
+applies_to: []
+source: ''
 severity: high
-date: 2026-05-31
-status: validated
+suggested-category: engine/lessons
+name: debugging-search-first-trust-render-check-upstream
 ---
 
 # Debugging methodology: search-first, trust the render, check for upstream sabotage

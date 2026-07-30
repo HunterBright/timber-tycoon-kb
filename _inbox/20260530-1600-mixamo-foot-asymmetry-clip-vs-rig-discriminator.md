@@ -1,10 +1,22 @@
 ---
+title: Discriminating CLIP vs RIG vs SKIN for a one-sided humanoid animation defect
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, mixamo, humanoid-retargeting, animation, avatar-calibration, SampleAnimation, diagnosis]
-date: 2026-05-30
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-30'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- mixamo
+- humanoid-retargeting
+- animation
+- avatar-calibration
+- SampleAnimation
+- diagnosis
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Discriminating CLIP vs RIG vs SKIN for a one-sided humanoid animation defect

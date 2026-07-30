@@ -1,10 +1,21 @@
 ---
+title: 4-Phase Weighted Smoothstep Day/Night Transition
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, urp, shader, day-night, smoothstep, weighted]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- shader
+- day-night
+- smoothstep
+- weighted
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # 4-Phase Weighted Smoothstep Day/Night Transition

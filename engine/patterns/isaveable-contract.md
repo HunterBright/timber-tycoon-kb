@@ -1,10 +1,20 @@
 ---
+title: ISaveable Contract
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, save-system, isaveable, persistence, json]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- save-system
+- isaveable
+- persistence
+- json
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # ISaveable Contract

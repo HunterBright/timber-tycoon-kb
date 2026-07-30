@@ -1,11 +1,23 @@
 ---
+title: 'Twitch IRC po WebSocket: jedna paczka = jedna komenda (i jak cichy klient to ukryl)'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: integrations/lessons
-tags: [twitch, irc, websocket, chat, integration, silent-failure, false-positive]
-date: 2026-07-24
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-24'
+project: Kerf - Sawmill Tycoon
+tags:
+- twitch
+- irc
+- websocket
+- chat
+- integration
+- silent-failure
+- false-positive
+applies_to: []
+source: ''
 severity: critical
+suggested-category: integrations/lessons
 ---
 
 # Twitch IRC po WebSocket: jedna paczka = jedna komenda (i jak cichy klient to ukryl)

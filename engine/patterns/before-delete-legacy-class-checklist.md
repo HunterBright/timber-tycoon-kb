@@ -1,10 +1,19 @@
 ---
+title: Before-Delete Legacy Class Checklist
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [refactoring, deletion, checklist, technical-debt]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- refactoring
+- deletion
+- checklist
+- technical-debt
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Before-Delete Legacy Class Checklist

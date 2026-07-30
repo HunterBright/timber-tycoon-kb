@@ -1,15 +1,26 @@
 ---
-name: tier-system-foundation
+title: Tier System Foundation — Trees, Products, Machines (SOURCE OF TRUTH)
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-06-07'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- tiers
+- economy
+- trees
+- machines
+- products
+- source-of-truth
+applies_to:
+- unity-projects
+source: ''
 description: SOURCE OF TRUTH for Timber Tycoon tiers. Trees have 3 tiers (T1/T2/T3, 10 species). Most products are NOT tier-graded (1 species = 1 SKU, no Basic/Fine/Premium planks). Firewood is the ONLY graded product and its tier comes from the TREE tier. Machine tier = a GATE on tree tiers, NOT a quality cap. Corrects errors in quantity-not-quality-principle.md and customer-tier-system.md.
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, tiers, economy, trees, machines, products, source-of-truth]
-  severity: high
-  date: 2026-06-07
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+suggested-category: genre/tycoon/decisions
+name: tier-system-foundation
 ---
 
 # Tier System Foundation — Trees, Products, Machines (SOURCE OF TRUTH)

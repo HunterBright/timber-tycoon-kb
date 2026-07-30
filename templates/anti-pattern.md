@@ -1,10 +1,15 @@
 ---
+title: <What NOT to do>
 type: anti-pattern
-project: <project-name>
-suggested-category: engine/anti-patterns
-tags: []
-date: YYYY-MM-DD
 status: draft
+confidence: medium
+verified: ''
+date: YYYY-MM-DD
+project: <project-name>
+tags: []
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # <What NOT to do>

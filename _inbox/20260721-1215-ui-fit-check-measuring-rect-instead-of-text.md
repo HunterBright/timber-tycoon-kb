@@ -1,10 +1,22 @@
 ---
+title: Sprawdzanie "czy tekst sie miesci" przez pomiar RectTransform
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, ui, textmeshpro, testing, probe, layout, tautology]
-date: 2026-07-21
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-21'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ui
+- textmeshpro
+- testing
+- probe
+- layout
+- tautology
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Sprawdzanie "czy tekst sie miesci" przez pomiar RectTransform
@@ -70,5 +82,5 @@ Kazdy element z osobna moze miescic sie i w oknie, i we wlasnym polu, a mimo to 
 lezec na przycisku.
 
 ## Related
-- [[probe-must-be-able-to-fail]]
-- [[screencapture-mid-frame-captures-previous-frame]]
+- [[gate-must-have-provable-failure-mode]]
+- [[20260721-1210-screencapture-mid-frame-captures-previous-frame]]

@@ -1,10 +1,24 @@
 ---
+title: Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP
 type: lesson
-project: timber-tycoon
-suggested-category: assets/lessons
-tags: [unity, urp, quaternius, megakit, foliage, vertex-color, shader, fbx-import, alpha]
-date: 2026-05-31
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- quaternius
+- megakit
+- foliage
+- vertex-color
+- shader
+- fbx-import
+- alpha
+applies_to: []
+source: ''
+suggested-category: assets/lessons
 ---
 
 # Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP

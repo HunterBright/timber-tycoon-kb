@@ -1,10 +1,23 @@
 ---
+title: Collider z materiałem `null` NIE ma zerowego tarcia - ma DOMYŚLNE 0.6
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, physics, physicsmaterial, friction, editor-only, assetdatabase, silent-failure, vehicle]
-date: 2026-07-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- physicsmaterial
+- friction
+- editor-only
+- assetdatabase
+- silent-failure
+- vehicle
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Collider z materiałem `null` NIE ma zerowego tarcia - ma DOMYŚLNE 0.6
@@ -103,7 +116,7 @@ rodziną błędów. Użyj `sharedMaterial`, nie `material` (to drugie tworzy ins
 
 ## Powiązane
 
-[[if-unity-editor-fixes-the-build-and-kills-the-game]] - to jest jego bliźniak. Ta sama łatka
+[[20260714-2320-if-unity-editor-fixes-the-build-and-kills-the-game]] - to jest jego bliźniak. Ta sama łatka
 `#if UNITY_EDITOR` zabiła w tym samym pliku DWIE rzeczy: powstawanie auta (naprawione rano)
 i tarcie kół (naprawione wieczorem). **Gdy zakładasz taką bramkę, przejdź CAŁY plik i sprawdź
 KAŻDĄ zmienną, która może zostać `null` w buildzie** - nie tylko tę, na której wywalał się

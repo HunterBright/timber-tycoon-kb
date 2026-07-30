@@ -1,10 +1,24 @@
 ---
+title: Renderowanie CJK + cyrylicy w grze Unity (TextMeshPro + legacy UI.Text)
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, localization, fonts, textmeshpro, cjk, cyrillic, ui-text, noto, i18n]
-date: 2026-06-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- localization
+- fonts
+- textmeshpro
+- cjk
+- cyrillic
+- ui-text
+- noto
+- i18n
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Renderowanie CJK + cyrylicy w grze Unity (TextMeshPro + legacy UI.Text)

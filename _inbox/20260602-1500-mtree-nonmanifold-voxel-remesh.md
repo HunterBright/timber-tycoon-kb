@@ -1,11 +1,25 @@
 ---
+title: 'Reducing MTree (Modular Tree) meshes to low-poly: Decimate & Quadriflow refuse, Voxel remesh works'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, mtree, modular-tree, decimate, quadriflow, voxel-remesh, low-poly, non-manifold, retopo]
-date: 2026-06-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-02'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- mtree
+- modular-tree
+- decimate
+- quadriflow
+- voxel-remesh
+- low-poly
+- non-manifold
+- retopo
+applies_to: []
+source: ''
 severity: medium
+suggested-category: engine/lessons
 ---
 
 # Reducing MTree (Modular Tree) meshes to low-poly: Decimate & Quadriflow refuse, Voxel remesh works

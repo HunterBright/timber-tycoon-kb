@@ -1,11 +1,22 @@
 ---
+title: Editor-driven Play Mode test automation — three engine quirks that break naive harnesses
 type: lesson
+status: draft
+confidence: low
+verified: ''
+date: '2026-06-11'
 project: Timber_Tycoon
+tags:
+- unity
+- editor-scripting
+- playmode
+- automation
+- testing
+- domain-reload
+applies_to: []
+source: ''
 severity: medium
 suggested-category: engine/lessons
-tags: [unity, editor-scripting, playmode, automation, testing, domain-reload]
-date: 2026-06-11
-status: draft
 ---
 
 # Editor-driven Play Mode test automation — three engine quirks that break naive harnesses

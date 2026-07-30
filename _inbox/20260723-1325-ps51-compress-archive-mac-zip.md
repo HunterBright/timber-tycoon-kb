@@ -1,10 +1,21 @@
 ---
+title: Compress-Archive (PS 5.1) do paczek dla macOS
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: tooling/anti-patterns
-tags: [powershell, zip, macos, packaging, compress-archive, bsdtar]
-date: 2026-07-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- powershell
+- zip
+- macos
+- packaging
+- compress-archive
+- bsdtar
+applies_to: []
+source: ''
+suggested-category: tooling/anti-patterns
 ---
 
 # Compress-Archive (PS 5.1) do paczek dla macOS

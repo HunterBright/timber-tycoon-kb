@@ -1,10 +1,22 @@
 ---
+title: A UGUI `Image` with `type = Filled` but no sprite ignores `fillAmount`
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, ugui, ui, image, fillamount, progress-bar, urp]
-date: 2026-06-07
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-07'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ugui
+- ui
+- image
+- fillamount
+- progress-bar
+- urp
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # A UGUI `Image` with `type = Filled` but no sprite ignores `fillAmount`

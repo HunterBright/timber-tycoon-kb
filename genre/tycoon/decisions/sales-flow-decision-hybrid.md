@@ -1,15 +1,23 @@
 ---
-name: sales-flow-decision-hybrid-d
+title: Sales Flow Decision — Hybrid D (Player + NPC Side by Side)
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- sales
+- customer-flow
+- decision-record
+applies_to:
+- unity-projects
+source: ''
 description: Sales flow decision — 4 options (player-only, auto-NPC, mixed, hybrid) analyzed, chose D hybrid. Player + NPC worker serve queue simultaneously. Foundational for all worker design.
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, sales, customer-flow, decision-record]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: medium
+suggested-category: genre/tycoon/decisions
+name: sales-flow-decision-hybrid-d
 ---
 
 # Sales Flow Decision — Hybrid D (Player + NPC Side by Side)

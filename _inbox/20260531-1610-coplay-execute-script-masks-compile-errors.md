@@ -1,10 +1,23 @@
 ---
+title: Coplay `execute_script` Hides Compile Errors — Use Unity-Compiled Editor Scripts Instead
 type: anti-pattern
-project: timber-tycoon
-suggested-category: tooling/anti-patterns
-tags: [unity, coplay, mcp, execute_script, editor-script, compile-error, roslyn, workflow]
-date: 2026-05-31
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- coplay
+- mcp
+- execute_script
+- editor-script
+- compile-error
+- roslyn
+- workflow
+applies_to: []
+source: ''
+suggested-category: tooling/anti-patterns
 ---
 
 # Coplay `execute_script` Hides Compile Errors — Use Unity-Compiled Editor Scripts Instead

@@ -1,10 +1,21 @@
 ---
+title: Vehicle Enter/Exit Choreography Sequence
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, vehicle, enter, exit, choreography, sequence]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- vehicle
+- enter
+- exit
+- choreography
+- sequence
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Vehicle Enter/Exit Choreography Sequence

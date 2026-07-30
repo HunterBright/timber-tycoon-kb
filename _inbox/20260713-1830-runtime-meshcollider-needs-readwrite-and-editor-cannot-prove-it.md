@@ -1,13 +1,26 @@
 ---
+title: Runtime MeshCollider wymaga Read/Write Enabled — a Edytor NIE JEST w stanie tego udowodnić
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, build, meshcollider, isreadable, read-write-enabled, physx, editor-vs-build, verification]
-severity: high
-time_lost: "~6h (audyt + 2 buildy + diagnoza fałszywego planu awaryjnego)"
-date: 2026-07-13
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- build
+- meshcollider
+- isreadable
+- read-write-enabled
+- physx
+- editor-vs-build
+- verification
+applies_to:
+- unity
+source: ''
+severity: high
+time_lost: ~6h (audyt + 2 buildy + diagnoza fałszywego planu awaryjnego)
+suggested-category: engine/lessons
 ---
 
 # Runtime MeshCollider wymaga Read/Write Enabled — a Edytor NIE JEST w stanie tego udowodnić
@@ -124,5 +137,5 @@ Najszersza lekcja: **projekt, który nigdy nie był budowany, hoduje całą klas
 Buduj wcześnie, choćby raz.
 
 ## Related
-- [[monobehaviour-class-must-match-filename]]
-- [[build-early-never-built-project-hides-editor-only-bugs]]
+- [[20260713-1845-monobehaviour-class-must-match-filename]]
+- [[20260713-1900-build-early-never-built-project-hides-editor-only-bugs]]

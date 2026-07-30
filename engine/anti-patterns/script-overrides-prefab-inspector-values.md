@@ -1,10 +1,20 @@
 ---
+title: 'ANTI-PATTERN: Script Overrides Prefab Inspector Values'
 type: anti-pattern
-project: timber-tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, prefabs, inspector, scripts, debugging]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- prefabs
+- inspector
+- scripts
+- debugging
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # ANTI-PATTERN: Script Overrides Prefab Inspector Values

@@ -1,10 +1,20 @@
 ---
+title: Worker Simulate Work Cycle (No NavMesh/AI)
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [game-design, tycoon, npc-worker, simulation, abstraction]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- tycoon
+- npc-worker
+- simulation
+- abstraction
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Worker Simulate Work Cycle (No NavMesh/AI)
@@ -71,4 +81,4 @@ Pure simulation: worker exists as data (WorkerInstance), not as scene object. No
 - **Hybrid:** worker has "home" station + NavMesh walk animation between station and storage rack. Limited to ~3 workers before performance penalty. Use for hero workers (named characters, visible gameplay events).
 - **Cinematic simulation:** workers only animate during a "production event" cutscene triggered every N cycles — boss-level workers feel more alive without constant animation cost.
 
-See also: [[worker-data-instance-split]], [[worker-output-quality-distribution]], [[quantity-not-quality-design-principle]]
+See also: [[worker-data-instance-split]], [[worker-output-quality-distribution]], [[quantity-not-quality-principle]]

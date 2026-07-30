@@ -1,10 +1,22 @@
 ---
+title: 'Anti-pattern: dopasowywanie stylu do OPISU stylu zamiast do prawdziwych assetów z gry'
 type: anti-pattern
-project: Timber_Tycoon
-suggested-category: workflow/anti-patterns
-tags: [art-style, character, blender, procedural, hunyuan, asset-pipeline, qa]
-date: 2026-07-17
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-17'
+project: Timber_Tycoon
+tags:
+- art-style
+- character
+- blender
+- procedural
+- hunyuan
+- asset-pipeline
+- qa
+applies_to: []
+source: ''
+suggested-category: workflow/anti-patterns
 ---
 
 # Anti-pattern: dopasowywanie stylu do OPISU stylu zamiast do prawdziwych assetów z gry

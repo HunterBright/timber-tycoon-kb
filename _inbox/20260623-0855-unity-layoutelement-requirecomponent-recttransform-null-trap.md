@@ -1,13 +1,27 @@
 ---
+title: AddComponent<RectTransform>() zwraca null po wcześniejszym AddComponent komponentu z [RequireComponent(RectTransform)]
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, ui, recttransform, layoutelement, requirecomponent, addcomponent, null, awake, startup-softlock]
-severity: high
-time_lost: "~20 min (zlokalizowane szybko przez log Unity)"
-date: 2026-06-23
 status: draft
-applies_to: [unity-ui-runtime-construction]
+confidence: low
+verified: ''
+date: '2026-06-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ui
+- recttransform
+- layoutelement
+- requirecomponent
+- addcomponent
+- None
+- awake
+- startup-softlock
+applies_to:
+- unity-ui-runtime-construction
+source: ''
+severity: high
+time_lost: ~20 min (zlokalizowane szybko przez log Unity)
+suggested-category: engine/lessons
 ---
 
 # AddComponent<RectTransform>() zwraca null po wcześniejszym AddComponent komponentu z [RequireComponent(RectTransform)]

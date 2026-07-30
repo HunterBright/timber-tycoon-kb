@@ -1,10 +1,22 @@
 ---
+title: Windows PowerShell 5.1 czyta `.ps1` jako ANSI — literały Unicode w skrypcie się sypią
 type: lesson
-project: Timber Tycoon
-suggested-category: tooling/lessons
-tags: [powershell, encoding, utf8, unicode, scripting, localization, batch-edit]
-date: 2026-06-24
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-24'
+project: Kerf - Sawmill Tycoon
+tags:
+- powershell
+- encoding
+- utf8
+- unicode
+- scripting
+- localization
+- batch-edit
+applies_to: []
+source: ''
+suggested-category: tooling/lessons
 ---
 
 # Windows PowerShell 5.1 czyta `.ps1` jako ANSI — literały Unicode w skrypcie się sypią

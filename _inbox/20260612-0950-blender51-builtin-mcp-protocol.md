@@ -1,10 +1,21 @@
 ---
+title: Blender 5.1 ma wbudowane rozszerzenie MCP — niekompatybilne ze starym blender-mcp
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, mcp, blender-5.1, socket, protocol, bridge]
-date: 2026-06-12
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-12'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- mcp
+- blender-5.1
+- socket
+- protocol
+- bridge
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Blender 5.1 ma wbudowane rozszerzenie MCP — niekompatybilne ze starym blender-mcp

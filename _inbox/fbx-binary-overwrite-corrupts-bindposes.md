@@ -1,12 +1,27 @@
 ---
-name: fbx-binary-overwrite-corrupts-bindposes
+title: FBX binary-overwrite under a stale .meta corrupts skinned-mesh bindposes (mesh collapses to T-pose while bones animate)
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, fbx, skinned-mesh, bindposes, meta, guid, mixamo, rigging, asset-import, generic-animation]
-severity: high
-date: 2026-05-31
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- fbx
+- skinned-mesh
+- bindposes
+- meta
+- guid
+- mixamo
+- rigging
+- asset-import
+- generic-animation
+applies_to: []
+source: ''
+severity: high
+suggested-category: engine/lessons
+name: fbx-binary-overwrite-corrupts-bindposes
 ---
 
 # FBX binary-overwrite under a stale .meta corrupts skinned-mesh bindposes (mesh collapses to T-pose while bones animate)

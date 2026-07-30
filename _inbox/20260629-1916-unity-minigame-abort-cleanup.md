@@ -1,11 +1,23 @@
 ---
+title: 'Aborting a coroutine-driven minigame: release the active-flag LAST, and StopAllCoroutines'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, coroutines, minigame, state-machine, camera, abort, re-entry]
-date: 2026-06-29
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-29'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- coroutines
+- minigame
+- state-machine
+- camera
+- abort
+- re-entry
+applies_to: []
+source: ''
 severity: high
+suggested-category: engine/lessons
 ---
 
 # Aborting a coroutine-driven minigame: release the active-flag LAST, and StopAllCoroutines

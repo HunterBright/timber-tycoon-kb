@@ -1,13 +1,26 @@
 ---
+title: 'Proceduralne okrągłe sęki w Blenderze: Voronoi F1, nie DISTANCE_TO_EDGE (+ kompensacja proporcji)'
 type: lesson
-project: Timber Tycoon
-suggested-category: blender/lessons
-tags: [blender, procedural-texture, voronoi, wood, baking, ui-sprite]
-severity: low
-time_lost: "~20 min (kilka iteracji renderu)"
-date: 2026-06-15
 status: draft
-applies_to: [blender, eevee, procedural-shading]
+confidence: low
+verified: ''
+date: '2026-06-15'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- procedural-texture
+- voronoi
+- wood
+- baking
+- ui-sprite
+applies_to:
+- blender
+- eevee
+- procedural-shading
+source: ''
+severity: low
+time_lost: ~20 min (kilka iteracji renderu)
+suggested-category: blender/lessons
 ---
 
 # Proceduralne okrągłe sęki w Blenderze: Voronoi F1, nie DISTANCE_TO_EDGE (+ kompensacja proporcji)

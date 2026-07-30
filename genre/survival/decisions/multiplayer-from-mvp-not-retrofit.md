@@ -1,15 +1,24 @@
 ---
-name: multiplayer-from-mvp-decision
+title: Multiplayer from MVP — Not Retrofit
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: eskimo-simulator
+tags:
+- game-design
+- multiplayer
+- architecture
+- networking
+- eskimo
+applies_to:
+- unity-projects
+source: ''
 description: Eskimo Simulator builds MP from MVP using FishNet + NetworkBehaviour from day 1. Retrofitting SP codebase to MP = rewriting most game logic. Even solo play runs as host-of-1.
-metadata:
-  type: decision
-  project: eskimo-simulator
-  suggested-category: genre/survival/decisions
-  tags: [game-design, multiplayer, architecture, networking, eskimo]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+suggested-category: genre/survival/decisions
+name: multiplayer-from-mvp-decision
 ---
 
 # Multiplayer from MVP — Not Retrofit

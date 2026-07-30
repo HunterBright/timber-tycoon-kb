@@ -1,10 +1,22 @@
 ---
+title: Nie zgaduj strony ciała ze znaku osi ani z nazwy kości (.L/.R)
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [blender, rig, bmesh, armature, symmetry, weights, debugging]
-date: 2026-07-30
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-30'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- rig
+- bmesh
+- armature
+- symmetry
+- weights
+- debugging
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Nie zgaduj strony ciała ze znaku osi ani z nazwy kości (.L/.R)

@@ -1,10 +1,21 @@
 ---
+title: 'Blender: image.scale() na file-backed image nie trzyma się podczas bake — użyj images.new()'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, bake, texture, cycles, gotcha, atlas]
-date: 2026-07-04
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-04'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- bake
+- texture
+- cycles
+- gotcha
+- atlas
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Blender: image.scale() na file-backed image nie trzyma się podczas bake — użyj images.new()

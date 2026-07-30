@@ -1,15 +1,25 @@
 ---
-name: cross-project-consistency-stack-reuse
+title: Cross-Project Stack Consistency (TT → Eskimo)
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: eskimo-simulator
+tags:
+- claude-code
+- architecture
+- reuse
+- eskimo
+- multiproject
+applies_to:
+- claude-code-projects
+- unity-projects
+source: ''
 description: Eskimo Simulator uses identical core stack to TT (Unity 6000.3.5f1 + URP + ServiceLocator + GameEventSO + ISaveable). Known toolchain = transferable skills, same workflow, faster Eskimo MVP.
-metadata:
-  type: lesson
-  project: eskimo-simulator
-  suggested-category: workflow/claude-code
-  tags: [claude-code, architecture, reuse, eskimo, multiproject]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [claude-code-projects, unity-projects]
+severity: medium
+suggested-category: workflow/claude-code
+name: cross-project-consistency-stack-reuse
 ---
 
 # Cross-Project Stack Consistency (TT → Eskimo)
@@ -57,4 +67,4 @@ These extend the stack, they don't replace it. ServiceLocator still works. GameE
 
 Locked to Unity 6000.3.5f1 until Eskimo ships. No experimenting with Unreal, no Unity 7 migration mid-project. Stable toolchain > latest toolchain.
 
-See also: [[parallel-architecture-pattern]], [[multiplayer-from-mvp-decision]], [[game-state-machine-pattern]]
+See also: [[parallel-architecture-pattern]], [[multiplayer-from-mvp-not-retrofit]], [[game-state-machine-pattern]]

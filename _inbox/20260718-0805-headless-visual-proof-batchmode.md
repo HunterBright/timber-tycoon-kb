@@ -1,10 +1,21 @@
 ---
+title: Dowod wizualny z Unity batchmode (bez otwierania Edytora)
 type: pattern
-project: Timber Tycoon
-suggested-category: workflow/patterns
-tags: [unity, batchmode, screenshot, verification, headless, editor-scripts]
-date: 2026-07-18
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-18'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- batchmode
+- screenshot
+- verification
+- headless
+- editor-scripts
+applies_to: []
+source: ''
+suggested-category: workflow/patterns
 ---
 
 # Dowod wizualny z Unity batchmode (bez otwierania Edytora)

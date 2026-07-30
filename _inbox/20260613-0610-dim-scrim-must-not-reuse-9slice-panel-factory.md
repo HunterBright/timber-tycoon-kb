@@ -1,10 +1,24 @@
 ---
+title: Don't build a full-screen dim/scrim by reusing your skinnable panel factory
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, ugui, ui, 9-slice, sprite, skinning, modal, overlay, alpha]
-date: 2026-06-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ugui
+- ui
+- 9-slice
+- sprite
+- skinning
+- modal
+- overlay
+- alpha
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Don't build a full-screen dim/scrim by reusing your skinnable panel factory

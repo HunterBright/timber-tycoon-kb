@@ -1,10 +1,22 @@
 ---
+title: CharacterController + cienki jednostronny teren-siatka = gracz pod mapą (i jak się przed tym bronić)
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, charactercontroller, physics, depenetration, terrain, safety-net, kill-plane]
-date: 2026-07-16
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-16'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- charactercontroller
+- physics
+- depenetration
+- terrain
+- safety-net
+- kill-plane
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # CharacterController + cienki jednostronny teren-siatka = gracz pod mapą (i jak się przed tym bronić)

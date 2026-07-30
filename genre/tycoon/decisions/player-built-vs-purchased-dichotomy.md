@@ -1,15 +1,23 @@
 ---
-name: player-built-vs-purchased-dichotomy
+title: Player-Built vs. Purchased Dichotomy
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- building
+- player-agency
+- scope
+applies_to:
+- unity-projects
+source: ''
 description: Only ONE thing is "built" by player (Counter_Broken → Fixed repair). Everything else (wings, machines, kiosks) is purchased and instantly appears. Limits scope, focuses meaning.
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, building, player-agency, scope]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+suggested-category: genre/tycoon/decisions
+name: player-built-vs-purchased-dichotomy
 ---
 
 # Player-Built vs. Purchased Dichotomy

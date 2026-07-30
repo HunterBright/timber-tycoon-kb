@@ -1,10 +1,23 @@
 ---
+title: Don't apply a baked-atlas texture to a mesh whose UVs were authored for a different atlas
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, materials, textures, uv, baked-texture, atlas, blender, urp]
-date: 2026-06-06
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-06'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- materials
+- textures
+- uv
+- baked-texture
+- atlas
+- blender
+- urp
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Don't apply a baked-atlas texture to a mesh whose UVs were authored for a different atlas

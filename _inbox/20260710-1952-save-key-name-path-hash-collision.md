@@ -1,11 +1,21 @@
 ---
+title: Klucz zapisu z hasha ścieżki NAZW = kolizja przy duplikatach obiektów
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, save-system, hash, collision, isaveable]
-date: 2026-07-10
-severity: high
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- save-system
+- hash
+- collision
+- isaveable
+applies_to: []
+source: ''
+severity: high
+suggested-category: engine/lessons
 ---
 
 # Klucz zapisu z hasha ścieżki NAZW = kolizja przy duplikatach obiektów

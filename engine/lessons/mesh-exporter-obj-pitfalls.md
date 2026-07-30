@@ -1,13 +1,24 @@
 ---
+title: MeshExporter OBJ Pitfalls (3 Critical Bugs)
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, editor-script, obj-export, locale, face-winding, precision]
-severity: high
-time_lost: "~4 hours"
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- editor-script
+- obj-export
+- locale
+- face-winding
+- precision
+applies_to:
+- unity-projects
+source: ''
+severity: high
+time_lost: ~4 hours
+suggested-category: engine/lessons
 ---
 
 # MeshExporter OBJ Pitfalls (3 Critical Bugs)

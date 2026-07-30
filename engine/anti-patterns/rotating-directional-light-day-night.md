@@ -1,16 +1,25 @@
 ---
-name: rotating-directional-light-black-terrain
+title: 'ANTI-PATTERN: Rotating Directional Light for Day/Night Cycle'
+type: anti-pattern
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- lighting
+- day-night
+- directional-light
+- ambient
+applies_to:
+- unity-projects
+source: ''
 description: Rotating Directional Light for day/night cycle — at dawn/dusk goes BLACK, at night lights from below. Use static overhead light + skybox-driven ambient instead.
-metadata:
-  type: anti-pattern
-  project: timber-tycoon
-  suggested-category: engine/anti-patterns
-  tags: [unity, lighting, day-night, directional-light, ambient]
-  severity: high
-  time_lost: 2d (iterated on rotation-based system before switching approach)
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+time_lost: 2d (iterated on rotation-based system before switching approach)
+suggested-category: engine/anti-patterns
+name: rotating-directional-light-black-terrain
 ---
 
 # ANTI-PATTERN: Rotating Directional Light for Day/Night Cycle

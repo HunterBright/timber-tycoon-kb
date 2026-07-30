@@ -1,13 +1,25 @@
 ---
+title: '"Wszystkie assety gotowe" ≠ grywalne — zawsze prześledź ŚCIEŻKĘ ZDOBYCIA, nie tylko obecność danych'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [content-pipeline, gameplay-reachability, economy, verification, dead-code]
-severity: high
-time_lost: ""
-date: 2026-07-04
 status: draft
-applies_to: [unity, tycoon, any-content-game]
+confidence: low
+verified: ''
+date: '2026-07-04'
+project: Kerf - Sawmill Tycoon
+tags:
+- content-pipeline
+- gameplay-reachability
+- economy
+- verification
+- dead-code
+applies_to:
+- unity
+- tycoon
+- any-content-game
+source: ''
+severity: high
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # "Wszystkie assety gotowe" ≠ grywalne — zawsze prześledź ŚCIEŻKĘ ZDOBYCIA, nie tylko obecność danych

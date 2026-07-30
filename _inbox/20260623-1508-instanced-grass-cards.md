@@ -1,10 +1,23 @@
 ---
+title: 'Performant stylized grass: textured cards + GPU instancing (no GameObjects)'
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, urp, grass, gpu-instancing, foliage, performance, rendering, low-poly]
-date: 2026-06-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- grass
+- gpu-instancing
+- foliage
+- performance
+- rendering
+- low-poly
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Performant stylized grass: textured cards + GPU instancing (no GameObjects)

@@ -1,10 +1,22 @@
 ---
+title: One-shot input flag on a persistent singleton bleeds across re-entries
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, singleton, state-management, input, minigame, refactor, persistent-monobehaviour]
-date: 2026-06-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- singleton
+- state-management
+- input
+- minigame
+- refactor
+- persistent-monobehaviour
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # One-shot input flag on a persistent singleton bleeds across re-entries

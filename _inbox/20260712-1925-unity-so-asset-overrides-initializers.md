@@ -1,10 +1,21 @@
 ---
+title: ScriptableObject .asset serializuje wartosci i WYGRYWA nad inicjalizatorami pol w C#
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, scriptableobject, serialization, config, gotcha, tuning]
-date: 2026-07-12
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-12'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- scriptableobject
+- serialization
+- config
+- gotcha
+- tuning
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # ScriptableObject .asset serializuje wartosci i WYGRYWA nad inicjalizatorami pol w C#

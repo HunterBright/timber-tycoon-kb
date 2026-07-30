@@ -1,11 +1,21 @@
 ---
+title: 'ANTI-PATTERN: Snap/Freeze to Mask a Physics Bug Instead of Fixing the Cause'
 type: anti-pattern
-project: timber-tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, physics, rigidbody, debugging, process]
-severity: high
-date: 2026-05-28
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- rigidbody
+- debugging
+- process
+applies_to: []
+source: ''
+severity: high
+suggested-category: engine/anti-patterns
 ---
 
 # ANTI-PATTERN: Snap/Freeze to Mask a Physics Bug Instead of Fixing the Cause

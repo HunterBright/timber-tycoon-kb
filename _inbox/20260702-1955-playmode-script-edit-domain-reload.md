@@ -1,11 +1,22 @@
 ---
+title: Edycja skryptów w trakcie Play Mode zabija statyczne rejestry (domain reload w locie)
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, play-mode, domain-reload, service-locator, editor-workflow, mcp]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Timber_Tycoon
+tags:
+- unity
+- play-mode
+- domain-reload
+- service-locator
+- editor-workflow
+- mcp
+applies_to: []
+source: ''
 severity: medium
+suggested-category: engine/lessons
 ---
 
 # Edycja skryptów w trakcie Play Mode zabija statyczne rejestry (domain reload w locie)

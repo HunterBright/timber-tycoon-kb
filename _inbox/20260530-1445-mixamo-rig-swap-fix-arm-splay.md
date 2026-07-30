@@ -1,10 +1,22 @@
 ---
+title: Swapping a Blender-rigged humanoid for a Mixamo rig without breaking prefab/SO references
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, mixamo, humanoid-avatar, fbx-import, arm-splay, prefab-guid, retargeting]
-date: 2026-05-30
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-30'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- mixamo
+- humanoid-avatar
+- fbx-import
+- arm-splay
+- prefab-guid
+- retargeting
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Swapping a Blender-rigged humanoid for a Mixamo rig without breaking prefab/SO references

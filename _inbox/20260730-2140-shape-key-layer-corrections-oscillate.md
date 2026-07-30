@@ -1,10 +1,22 @@
 ---
+title: Poprawki anty-przebiciowe w danych POJEDYNCZEGO klucza kształtu oscylują
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: blender/lessons
-tags: [blender, shape-keys, clothing, layers, sliders, convergence, oscillation]
-date: 2026-07-30
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-30'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- shape-keys
+- clothing
+- layers
+- sliders
+- convergence
+- oscillation
+applies_to: []
+source: ''
+suggested-category: blender/lessons
 ---
 
 # Poprawki anty-przebiciowe w danych POJEDYNCZEGO klucza kształtu oscylują

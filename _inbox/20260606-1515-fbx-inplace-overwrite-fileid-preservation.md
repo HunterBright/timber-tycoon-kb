@@ -1,13 +1,26 @@
 ---
+title: Overwriting an FBX in place preserves prefab-variant references only if object NAMES are unchanged
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, fbx, prefab-variant, fileid, reimport, blender-export, material-remap]
-severity: high
-time_lost: ""
-date: 2026-06-06
 status: draft
-applies_to: [unity, blender]
+confidence: low
+verified: ''
+date: '2026-06-06'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- fbx
+- prefab-variant
+- fileid
+- reimport
+- blender-export
+- material-remap
+applies_to:
+- unity
+- blender
+source: ''
+severity: high
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # Overwriting an FBX in place preserves prefab-variant references only if object NAMES are unchanged

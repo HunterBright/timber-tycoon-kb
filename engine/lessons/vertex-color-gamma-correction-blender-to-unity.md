@@ -1,13 +1,25 @@
 ---
+title: Vertex Color Gamma Correction Blender → Unity
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [blender, unity, vertex-colors, gamma, srgb, linear]
-severity: high
-time_lost: ""
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects", "blender-pipelines"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- unity
+- vertex-colors
+- gamma
+- srgb
+- linear
+applies_to:
+- unity-projects
+- blender-pipelines
+source: ''
+severity: high
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # Vertex Color Gamma Correction Blender → Unity

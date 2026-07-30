@@ -1,10 +1,25 @@
 ---
+title: 'Rigi z generatorów AI (Hunyuan): osie kości rozjechane z frontem modelu = wykrzywiona stopa w retargecie; lek = przeszczep szkieletu w Blenderze'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, blender, rigging, humanoid, retarget, hunyuan, ai-generated-models, mixamo, generic, skeleton-transplant]
-date: 2026-07-17
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- blender
+- rigging
+- humanoid
+- retarget
+- hunyuan
+- ai-generated-models
+- mixamo
+- generic
+- skeleton-transplant
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Rigi z generatorów AI (Hunyuan): osie kości rozjechane z frontem modelu = wykrzywiona stopa w retargecie; lek = przeszczep szkieletu w Blenderze

@@ -1,15 +1,23 @@
 ---
-name: loading-station-vs-walking-decision
+title: LoadingStation Decision — Manual Walk Early, Station Late
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- qol
+- progression
+- loading
+applies_to:
+- unity-projects
+source: ''
 description: Loading crate — walk to each rack manually early game (engagement), centralized LoadingStation as lvl 8 upgrade (QoL reward). Manual walk is gameplay; convenience is earned.
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, qol, progression, loading]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: medium
+suggested-category: genre/tycoon/decisions
+name: loading-station-vs-walking-decision
 ---
 
 # LoadingStation Decision — Manual Walk Early, Station Late

@@ -1,11 +1,24 @@
 ---
+title: Blender LINIOWE Base Color wpisane wprost w Unity Color property = ~1 gamma za ciemno (projekt Linear)
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, unity, color-space, linear, srgb, material, gamma, shader]
-date: 2026-07-05
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-05'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- unity
+- color-space
+- linear
+- srgb
+- material
+- gamma
+- shader
+applies_to: []
+source: ''
 severity: medium
+suggested-category: engine/lessons
 ---
 
 # Blender LINIOWE Base Color wpisane wprost w Unity Color property = ~1 gamma za ciemno (projekt Linear)

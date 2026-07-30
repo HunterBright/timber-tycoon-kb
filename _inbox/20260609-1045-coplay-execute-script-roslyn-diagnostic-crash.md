@@ -1,13 +1,26 @@
 ---
+title: Coplay execute_script crashes opaquely on ANY C# compiler diagnostic (incl. a plain compile error)
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [coplay, mcp, unity, execute_script, roslyn, editor-scripting, csharp]
-severity: medium
-time_lost: "~30 min"
-date: 2026-06-09
 status: draft
-applies_to: [coplay-mcp, unity-editor-tooling]
+confidence: low
+verified: ''
+date: '2026-06-09'
+project: Kerf - Sawmill Tycoon
+tags:
+- coplay
+- mcp
+- unity
+- execute_script
+- roslyn
+- editor-scripting
+- csharp
+applies_to:
+- coplay-mcp
+- unity-editor-tooling
+source: ''
+severity: medium
+time_lost: ~30 min
+suggested-category: engine/lessons
 ---
 
 # Coplay execute_script crashes opaquely on ANY C# compiler diagnostic (incl. a plain compile error)

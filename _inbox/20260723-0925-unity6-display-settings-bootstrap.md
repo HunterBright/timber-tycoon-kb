@@ -1,10 +1,23 @@
 ---
+title: 'Globalne ustawienia ekranu w Unity 6: natywna rozdzielczosc @ cap Hz od pierwszej klatki'
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/patterns
-tags: [unity6, display, resolution, refresh-rate, fps-cap, vsync, settings, bootstrap]
-date: 2026-07-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity6
+- display
+- resolution
+- refresh-rate
+- fps-cap
+- vsync
+- settings
+- bootstrap
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Globalne ustawienia ekranu w Unity 6: natywna rozdzielczosc @ cap Hz od pierwszej klatki

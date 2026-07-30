@@ -1,10 +1,20 @@
 ---
+title: Flaga runtime "-redproof" zamiast drugiego builda do czerwonego dowodu sondy
 type: pattern
-project: Timber Tycoon
-suggested-category: workflow/patterns
-tags: [testing, build-probe, falsifiability, red-proof, command-line]
-date: 2026-07-16
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-16'
+project: Kerf - Sawmill Tycoon
+tags:
+- testing
+- build-probe
+- falsifiability
+- red-proof
+- command-line
+applies_to: []
+source: ''
+suggested-category: workflow/patterns
 ---
 
 # Flaga runtime "-redproof" zamiast drugiego builda do czerwonego dowodu sondy

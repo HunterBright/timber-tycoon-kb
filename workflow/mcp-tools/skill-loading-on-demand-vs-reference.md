@@ -1,15 +1,23 @@
 ---
-name: skill-loading-on-demand-vs-reference
+title: 'Skill Loading: @Reference vs On-Demand'
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- skills
+- context-budget
+- on-demand
+applies_to:
+- claude-code-projects
+source: ''
 description: Skills via @reference (loaded immediately, costs context upfront) vs on-demand (Code searches when relevant, saves context budget). Use @ for small/always-needed, on-demand for large/episodic.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/mcp-tools
-  tags: [claude-code, skills, context-budget, on-demand]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [claude-code-projects]
+severity: medium
+suggested-category: workflow/mcp-tools
+name: skill-loading-on-demand-vs-reference
 ---
 
 # Skill Loading: @Reference vs On-Demand

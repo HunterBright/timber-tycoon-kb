@@ -1,10 +1,22 @@
 ---
+title: Coplay execute_script crashes on ANY compile diagnostic — compile via Unity + reflection trigger instead
 type: lesson
-project: Timber Tycoon
-suggested-category: tooling/lessons
-tags: [coplay, mcp, execute_script, roslyn, unity-editor, workaround, claude-code]
-date: 2026-06-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- coplay
+- mcp
+- execute_script
+- roslyn
+- unity-editor
+- workaround
+- claude-code
+applies_to: []
+source: ''
+suggested-category: tooling/lessons
 ---
 
 # Coplay execute_script crashes on ANY compile diagnostic — compile via Unity + reflection trigger instead

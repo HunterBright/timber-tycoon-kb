@@ -1,10 +1,20 @@
 ---
+title: 'Referencja a kopia: gdzie przebiega granica przy odtwarzaniu cudzego modelu'
 type: decision
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/decisions
-tags: [prawo-autorskie, referencje, assety, modele-3d, wspolpraca]
-date: 2026-07-27
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- prawo-autorskie
+- referencje
+- assety
+- modele-3d
+- wspolpraca
+applies_to: []
+source: ''
+suggested-category: workflow/decisions
 ---
 
 # Referencja a kopia: gdzie przebiega granica przy odtwarzaniu cudzego modelu

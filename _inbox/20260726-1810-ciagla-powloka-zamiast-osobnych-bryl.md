@@ -1,10 +1,21 @@
 ---
+title: '"Zle przyklejone konczyny" to nie blad ustawienia, tylko blad architektury'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: blender/lessons
-tags: [blender, postac, topologia, low-poly, cieniowanie, proceduralne]
-date: 2026-07-26
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- postac
+- topologia
+- low-poly
+- cieniowanie
+- proceduralne
+applies_to: []
+source: ''
+suggested-category: blender/lessons
 ---
 
 # "Zle przyklejone konczyny" to nie blad ustawienia, tylko blad architektury

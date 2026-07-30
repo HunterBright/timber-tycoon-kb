@@ -1,10 +1,21 @@
 ---
+title: 'Anty-wzorzec: test, ktory nie ma jak zawiesc (silnik "naprawia" mierzona wielkosc)'
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, tmp, testing, build-smoke, false-green, ellipsis]
-date: 2026-07-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- tmp
+- testing
+- build-smoke
+- false-green
+- ellipsis
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Anty-wzorzec: test, ktory nie ma jak zawiesc (silnik "naprawia" mierzona wielkosc)

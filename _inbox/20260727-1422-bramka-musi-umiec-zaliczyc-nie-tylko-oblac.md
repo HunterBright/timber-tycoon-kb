@@ -1,10 +1,20 @@
 ---
+title: Bramka musi mieć udowodniony tryb ZALICZENIA, nie tylko PORAŻKI
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/lessons
-tags: [testy, bramki, kontrola-jakosci, referencja, generatory-proceduralne]
-date: 2026-07-27
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- testy
+- bramki
+- kontrola-jakosci
+- referencja
+- generatory-proceduralne
+applies_to: []
+source: ''
+suggested-category: workflow/lessons
 ---
 
 # Bramka musi mieć udowodniony tryb ZALICZENIA, nie tylko PORAŻKI

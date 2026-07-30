@@ -1,10 +1,22 @@
 ---
+title: 'Wzorzec: worek wsypuje kawałki do maszyny (bag-pour choreography)'
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, choreography, pour, prop-animation, coroutine, low-poly, machine]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- choreography
+- pour
+- prop-animation
+- coroutine
+- low-poly
+- machine
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Wzorzec: worek wsypuje kawałki do maszyny (bag-pour choreography)

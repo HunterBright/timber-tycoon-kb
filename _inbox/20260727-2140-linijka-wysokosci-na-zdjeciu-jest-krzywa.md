@@ -1,10 +1,21 @@
 ---
+title: '"Ile procent kadru, tyle procent wysokości" to nieprawda, gdy obiektyw patrzy z góry'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [pomiar, perspektywa, kamera, referencje, obraz, proporcje]
-date: 2026-07-27
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- pomiar
+- perspektywa
+- kamera
+- referencje
+- obraz
+- proporcje
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # "Ile procent kadru, tyle procent wysokości" to nieprawda, gdy obiektyw patrzy z góry

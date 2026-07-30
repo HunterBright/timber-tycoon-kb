@@ -1,10 +1,22 @@
 ---
+title: 'Rodzina assetów współdzieląca teksturę: wybierz strategię (atlas vs kafel) PRZED budową'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, textures, uv, atlas, tileable, asset-family, low-poly]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- textures
+- uv
+- atlas
+- tileable
+- asset-family
+- low-poly
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Rodzina assetów współdzieląca teksturę: wybierz strategię (atlas vs kafel) PRZED budową

@@ -1,10 +1,22 @@
 ---
+title: Sprawdzanie referencji assetu w BINARNEJ scenie Unity (grep nie wystarcza)
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, scene, binary-serialization, asset-deletion, references, mcp, editor-script]
-date: 2026-07-05
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-05'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- scene
+- binary-serialization
+- asset-deletion
+- references
+- mcp
+- editor-script
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Sprawdzanie referencji assetu w BINARNEJ scenie Unity (grep nie wystarcza)

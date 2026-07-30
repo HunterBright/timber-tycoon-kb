@@ -1,10 +1,21 @@
 ---
+title: In-place load osieroca obiekty-satelity (dziura po wczytaniu stała na dorosłym drzewie)
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, save-load, in-place-load, ownership, orphans, reconciliation]
-date: 2026-07-16
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-16'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- save-load
+- in-place-load
+- ownership
+- orphans
+- reconciliation
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # In-place load osieroca obiekty-satelity (dziura po wczytaniu stała na dorosłym drzewie)

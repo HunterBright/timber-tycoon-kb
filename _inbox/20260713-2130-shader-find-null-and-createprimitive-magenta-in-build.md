@@ -1,13 +1,26 @@
 ---
+title: 'Magenta w buildzie: Shader.Find zwraca null, a CreatePrimitive daje material, którego build nie ma'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, urp, shader-find, always-included-shaders, createprimitive, magenta, build, shader-stripping]
-severity: high
-time_lost: "~1h (diagnoza + fix + weryfikacja w buildzie)"
-date: 2026-07-13
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- shader-find
+- always-included-shaders
+- createprimitive
+- magenta
+- build
+- shader-stripping
+applies_to:
+- unity
+source: ''
+severity: high
+time_lost: ~1h (diagnoza + fix + weryfikacja w buildzie)
+suggested-category: engine/lessons
 ---
 
 # Magenta w buildzie: Shader.Find zwraca null, a CreatePrimitive daje material, którego build nie ma
@@ -115,5 +128,5 @@ Ta sama zasada dotyczy `Resources.Load` po nazwie i wszystkiego, co szuka assetu
 tylko to, do czego prowadzi łańcuch referencji.
 
 ## Related
-- [[build-early-never-built-project-hides-editor-only-bugs]]
-- [[runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it]]
+- [[20260713-1900-build-early-never-built-project-hides-editor-only-bugs]]
+- [[20260713-1830-runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it]]

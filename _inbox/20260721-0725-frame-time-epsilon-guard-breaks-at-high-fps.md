@@ -1,13 +1,24 @@
 ---
+title: Bezpiecznik `Time.deltaTime > 0.001f` cicho zeruje sygnał, gdy build chodzi szybciej niż 1000 FPS
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, frame-rate, time-deltatime, diagnostics, build-verification, floating-point]
-severity: high
-time_lost: "~2 h (w tym 20 agentów analizy, ktora dala zla odpowiedz)"
-date: 2026-07-21
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-07-21'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- frame-rate
+- time-deltatime
+- diagnostics
+- build-verification
+- floating-point
+applies_to:
+- unity
+source: ''
+severity: high
+time_lost: ~2 h (w tym 20 agentów analizy, ktora dala zla odpowiedz)
+suggested-category: engine/lessons
 ---
 
 # Bezpiecznik `Time.deltaTime > 0.001f` cicho zeruje sygnał, gdy build chodzi szybciej niż 1000 FPS
@@ -32,7 +43,7 @@ liczba niemożliwa** - prosta scena na mocnym GPU bez vsync ją przekracza. Pomi
 
 Zero samo w sobie nie bolało - bolało to, że dalej w łańcuchu **tryb rysowania kół był wnioskowany
 z tej liczby** (`speedOverride != 0f`), więc przez 93% klatek system uznawał, że manewr nie trwa.
-Patrz [[sentinel-value-as-mode-flag]].
+Patrz [[20260721-0715-sentinel-value-as-mode-flag]].
 
 ## Solution
 
@@ -96,5 +107,5 @@ możliwy przebieg, albo (lepiej) statystyki liczone bez limitu, a limitowany tyl
 
 ## Related
 
-- [[sentinel-value-as-mode-flag]] - antywzorzec, który zamienił to zero w widoczny błąd
-- [[measure-in-build-not-in-simulation]]
+- [[20260721-0715-sentinel-value-as-mode-flag]] - antywzorzec, który zamienił to zero w widoczny błąd
+- [[build-is-the-only-truth-editor-lies]]

@@ -1,15 +1,24 @@
 ---
+title: Backup Scene Before Structural Modification
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- unity
+- backup
+- scene-safety
+applies_to:
+- unity-projects
+- claude-code-projects
+source: ''
+description: 'Before any structural scene modification, copy scene file to Assets/_Backup_{YYYY-MM-DD}/. Date-stamped per session. Three safety nets: git + scene backup + Unity undo.'
+severity: medium
+suggested-category: workflow/claude-code
 name: backup-scene-before-modify
-description: Before any structural scene modification, copy scene file to Assets/_Backup_{YYYY-MM-DD}/. Date-stamped per session. Three safety nets: git + scene backup + Unity undo.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [claude-code, unity, backup, scene-safety]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects, claude-code-projects]
 ---
 
 # Backup Scene Before Structural Modification
@@ -59,4 +68,4 @@ Get-ChildItem "Assets" -Filter "_Backup_*" -Directory |
     Remove-Item -Recurse -Force
 ```
 
-See also: [[scene-attachment-check-before-deleting-monobehaviour]], [[scene-files-binary-never-edit]]
+See also: [[scene-attachment-check-before-deleting]], [[scene-files-binary-never-edit]]

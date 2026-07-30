@@ -1,10 +1,23 @@
 ---
+title: 'Unity 6.5: bezpieczna migracja `MaterialLocation.External` + guard w AI-Assistant Run Command'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, unity-6.5, fbx, material-import, asset-pipeline, mcp, lightmapping, apv]
-date: 2026-06-26
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- unity-6.5
+- fbx
+- material-import
+- asset-pipeline
+- mcp
+- lightmapping
+- apv
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Unity 6.5: bezpieczna migracja `MaterialLocation.External` + guard w AI-Assistant Run Command

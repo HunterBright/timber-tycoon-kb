@@ -1,10 +1,22 @@
 ---
+title: Blender-rendered 9-slice-ready UI sprites (3D panel → ortho render → Unity Sliced sprite)
 type: pattern
-project: Timber Tycoon
-suggested-category: workflow/asset-pipeline
-tags: [blender, ui, 9-slice, sprite, unity, render-to-sprite, low-poly]
-date: 2026-06-12
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-12'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- ui
+- 9-slice
+- sprite
+- unity
+- render-to-sprite
+- low-poly
+applies_to: []
+source: ''
+suggested-category: workflow/asset-pipeline
 ---
 
 # Blender-rendered 9-slice-ready UI sprites (3D panel → ortho render → Unity Sliced sprite)

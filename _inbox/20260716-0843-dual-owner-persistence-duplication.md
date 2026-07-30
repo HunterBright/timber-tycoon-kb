@@ -1,10 +1,20 @@
 ---
+title: Dwoch wlascicieli trwalosci jednego obiektu w save (rejestr + rekonstrukcja stanu)
 type: anti-pattern
-project: Timber_Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, save-system, persistence, duplication, single-owner]
-date: 2026-07-16
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-16'
+project: Timber_Tycoon
+tags:
+- unity
+- save-system
+- persistence
+- duplication
+- single-owner
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Dwoch wlascicieli trwalosci jednego obiektu w save (rejestr + rekonstrukcja stanu)

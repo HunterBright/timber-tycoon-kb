@@ -1,10 +1,21 @@
 ---
+title: Zamówienie losowane OD KWOTY w dół - cennik przestaje cokolwiek znaczyć
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: genre/anti-patterns
-tags: [economy, tycoon, pricing, orders, progression, design]
-date: 2026-07-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- economy
+- tycoon
+- pricing
+- orders
+- progression
+- design
+applies_to: []
+source: ''
+suggested-category: genre/anti-patterns
 ---
 
 # Zamówienie losowane OD KWOTY w dół - cennik przestaje cokolwiek znaczyć

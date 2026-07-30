@@ -1,10 +1,24 @@
 ---
+title: Curved/meandering water flow via a baked flow map (arc-length V + per-vertex tangent)
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, shader, water, river, flow-map, uv, vertex-color, meander, centerline]
-date: 2026-06-06
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-06'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- shader
+- water
+- river
+- flow-map
+- uv
+- vertex-color
+- meander
+- centerline
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Curved/meandering water flow via a baked flow map (arc-length V + per-vertex tangent)

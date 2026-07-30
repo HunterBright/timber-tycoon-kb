@@ -1,10 +1,21 @@
 ---
+title: Cliff + Waterfall Hidden Cave Pattern
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, level-design, secret, waterfall, cave, player-discovery]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- level-design
+- secret
+- waterfall
+- cave
+- player-discovery
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Cliff + Waterfall Hidden Cave Pattern
@@ -30,7 +41,7 @@ Any map with a waterfall or curtain effect where you want a "free" exploration m
 
 **Player discovery flow:** approach cliff → walk into waterfall (visual pass-through) → find cave interior → "Oh, there's a secret here."
 
-**Position:** both pieces are manually positioned by designer and hardcoded. See [[project-cliff-position]] (project memory) for exact Unity coordinates.
+**Position:** both pieces are manually positioned by designer and hardcoded. See [[project_cliff_position]] (project memory) for exact Unity coordinates.
 
 ## Why this works
 The waterfall is purely visual — mesh without collision. Player physically can't be blocked. Cave is hidden from all approach angles. Cost: 2 meshes, 1 shader, 0 scripts.

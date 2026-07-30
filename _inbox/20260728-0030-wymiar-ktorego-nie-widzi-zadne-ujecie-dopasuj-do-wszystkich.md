@@ -1,10 +1,21 @@
 ---
+title: Wymiar, którego nie widzi żadne ujęcie, mierzy się dopasowaniem do wszystkich naraz
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/patterns
-tags: [pomiar, kamery, fotogrametria, sylwetka, dopasowanie, blender]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- pomiar
+- kamery
+- fotogrametria
+- sylwetka
+- dopasowanie
+- blender
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Wymiar, którego nie widzi żadne ujęcie, mierzy się dopasowaniem do wszystkich naraz

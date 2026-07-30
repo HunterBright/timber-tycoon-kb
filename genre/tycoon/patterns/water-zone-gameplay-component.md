@@ -1,10 +1,20 @@
 ---
+title: WaterZone Gameplay Component
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, water, wading, slowdown, gameplay-zone]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- water
+- wading
+- slowdown
+- gameplay-zone
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # WaterZone Gameplay Component

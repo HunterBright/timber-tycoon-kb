@@ -1,15 +1,24 @@
 ---
+title: Tripo Cleanup Pipeline
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- tripo
+- blender
+- cleanup
+- decimation
+- retopo
+applies_to:
+- blender-pipelines
+source: ''
+description: 'Tripo AI generates models with inner faces, broken UVs, 8k+ tris. Standard cleanup: inner faces → UV rework → bake → decimate to 5k tris → FBX export. 30-60 min per asset.'
+severity: medium
+suggested-category: workflow/asset-pipeline
 name: tripo-cleanup-pipeline
-description: Tripo AI generates models with inner faces, broken UVs, 8k+ tris. Standard cleanup: inner faces → UV rework → bake → decimate to 5k tris → FBX export. 30-60 min per asset.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/asset-pipeline
-  tags: [tripo, blender, cleanup, decimation, retopo]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [blender-pipelines]
 ---
 
 # Tripo Cleanup Pipeline

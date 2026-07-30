@@ -1,10 +1,21 @@
 ---
+title: 'Anty-wzorzec: pula spawnera wskazuje surowy FBX zamiast prefabu-wrappera'
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, prefab, spawner, scriptableobject, fbx, override]
-date: 2026-07-19
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-19'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- prefab
+- spawner
+- scriptableobject
+- fbx
+- override
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Anty-wzorzec: pula spawnera wskazuje surowy FBX zamiast prefabu-wrappera

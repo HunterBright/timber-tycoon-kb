@@ -1,10 +1,20 @@
 ---
+title: Architectural Elements Naming Convention
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, blender, naming, architecture, prefabs]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- blender
+- naming
+- architecture
+- prefabs
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Architectural Elements Naming Convention

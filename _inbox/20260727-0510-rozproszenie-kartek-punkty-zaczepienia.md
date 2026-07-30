@@ -1,10 +1,21 @@
 ---
+title: 'Rozsypywanie kartek po szkielecie: licz NOSNIKI, nie kartki'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [proceduralne-generowanie, blender, alpha-cards, listowie, optymalizacja, pomiar]
-date: 2026-07-27
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- proceduralne-generowanie
+- blender
+- alpha-cards
+- listowie
+- optymalizacja
+- pomiar
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Rozsypywanie kartek po szkielecie: licz NOSNIKI, nie kartki

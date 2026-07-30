@@ -1,10 +1,23 @@
 ---
+title: Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [blender, mixamo, fbx, rigging, mcp, auto-rig, mesh-export, tripo]
-date: 2026-05-31
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- mixamo
+- fbx
+- rigging
+- mcp
+- auto-rig
+- mesh-export
+- tripo
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig

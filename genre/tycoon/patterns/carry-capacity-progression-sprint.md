@@ -1,10 +1,21 @@
 ---
+title: Carry Capacity Progression + Sprint Advantage
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [game-design, tycoon, progression, carry, sprint, npc]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- tycoon
+- progression
+- carry
+- sprint
+- npc
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Carry Capacity Progression + Sprint Advantage
@@ -53,4 +64,4 @@ Sprint + capacity creates a clear player advantage throughout the game. Even at 
 - **Species-specific carry limits:** heavy logs weigh more. Add variety, adds complexity. Rejected for TT (cognitive load too high)
 - **Vehicle carry**: truck carries 24-60 logs (see TruckData SO). Separate system — player drive the truck, not carry the logs.
 
-See also: [[quantity-not-quality-design-principle]], [[order-fulfiller-interface]]
+See also: [[quantity-not-quality-principle]], [[order-fulfiller-interface]]

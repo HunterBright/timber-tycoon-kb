@@ -1,13 +1,24 @@
 ---
+title: Separate-Objects Mapping Rule (Heightmap Limitations)
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, terrain, heightmap, cliffs, caves, level-design]
-severity: high
-time_lost: ""
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- terrain
+- heightmap
+- cliffs
+- caves
+- level-design
+applies_to:
+- unity-projects
+source: ''
+severity: high
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # Separate-Objects Mapping Rule (Heightmap Limitations)

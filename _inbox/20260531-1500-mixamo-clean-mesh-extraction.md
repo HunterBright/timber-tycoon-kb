@@ -1,10 +1,21 @@
 ---
+title: Extract a clean mesh-only FBX from a rigged source for Mixamo re-rig
 type: pattern
-project: Timber Tycoon
-suggested-category: workflow/asset-pipeline
-tags: [blender, mixamo, rigging, fbx-export, character, mcp]
-date: 2026-05-31
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- mixamo
+- rigging
+- fbx-export
+- character
+- mcp
+applies_to: []
+source: ''
+suggested-category: workflow/asset-pipeline
 ---
 
 # Extract a clean mesh-only FBX from a rigged source for Mixamo re-rig

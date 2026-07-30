@@ -1,10 +1,21 @@
 ---
+title: Parallel Architecture Pattern (Locator + Events + ISaveable + Singleton)
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, architecture, service-locator, scriptableobject, isaveable, migration]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- architecture
+- service-locator
+- scriptableobject
+- isaveable
+- migration
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Parallel Architecture Pattern (Locator + Events + ISaveable + Singleton)

@@ -1,13 +1,23 @@
 ---
+title: Cylindric vs Rectangular Beams for Visual Contrast
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [blender, low-poly, modeling, architecture, visual-design]
-severity: medium
-time_lost: ""
-date: 2026-05-17
 status: draft
-applies_to: ["blender-pipelines"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- low-poly
+- modeling
+- architecture
+- visual-design
+applies_to:
+- blender-pipelines
+source: ''
+severity: medium
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # Cylindric vs Rectangular Beams for Visual Contrast

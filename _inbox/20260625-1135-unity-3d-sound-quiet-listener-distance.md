@@ -1,13 +1,25 @@
 ---
+title: Dźwięk 3D jest za cichy nie przez głośność, tylko przez odległość kamery (AudioListener) od źródła
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, audio, audiosource, spatialblend, 3d-sound, rolloff, audiolistener]
-severity: medium
-time_lost: "~2 iteracje play-test/diagnoza"
-date: 2026-06-25
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-06-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- audio
+- audiosource
+- spatialblend
+- 3d-sound
+- rolloff
+- audiolistener
+applies_to:
+- unity
+source: ''
+severity: medium
+time_lost: ~2 iteracje play-test/diagnoza
+suggested-category: engine/lessons
 ---
 
 # Dźwięk 3D jest za cichy nie przez głośność, tylko przez odległość kamery (AudioListener) od źródła

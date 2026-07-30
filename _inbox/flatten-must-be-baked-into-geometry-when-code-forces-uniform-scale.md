@@ -1,11 +1,23 @@
 ---
+title: Flatten Must Be Baked Into Geometry When Code Forces Uniform Scale
 type: lesson
-project: timber-tycoon
-suggested-category: workflow/3d-models
-tags: [blender, unity, scale, geometry, fbx, axis, spawn-rotation]
-severity: medium
-date: 2026-05-29
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-29'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- unity
+- scale
+- geometry
+- fbx
+- axis
+- spawn-rotation
+applies_to: []
+source: ''
+severity: medium
+suggested-category: workflow/3d-models
 ---
 
 # Flatten Must Be Baked Into Geometry When Code Forces Uniform Scale

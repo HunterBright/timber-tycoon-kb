@@ -1,13 +1,25 @@
 ---
+title: Mixamo nie ma animacji „obsługi maszyny / pracy fizycznej" — użyj busy-idle + animacji maszyny; dla noszenia jest „Carrying"
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [mixamo, animation, npc, unity, generic-rig, animator-override]
-severity: medium
-time_lost: "~2h (kilka rund pobierania złych klipów + tuning)"
-date: 2026-07-04
 status: draft
-applies_to: [unity, mixamo]
+confidence: low
+verified: ''
+date: '2026-07-04'
+project: Kerf - Sawmill Tycoon
+tags:
+- mixamo
+- animation
+- npc
+- unity
+- generic-rig
+- animator-override
+applies_to:
+- unity
+- mixamo
+source: ''
+severity: medium
+time_lost: ~2h (kilka rund pobierania złych klipów + tuning)
+suggested-category: engine/lessons
 ---
 
 # Mixamo nie ma animacji „obsługi maszyny / pracy fizycznej" — użyj busy-idle + animacji maszyny; dla noszenia jest „Carrying"

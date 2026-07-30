@@ -1,11 +1,26 @@
 ---
+title: 'In-Place FBX Overwrite: Safe for Static Meshes, Dangerous for Rigged'
 type: lesson
-project: timber-tycoon
-suggested-category: workflow/3d-models
-tags: [unity, fbx, reimport, meta, guid, prefab, fileIdsGeneration, materials, static-mesh, rigged-mesh]
-severity: medium
-date: 2026-06-06
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-06'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- fbx
+- reimport
+- meta
+- guid
+- prefab
+- fileIdsGeneration
+- materials
+- static-mesh
+- rigged-mesh
+applies_to: []
+source: ''
+severity: medium
+suggested-category: workflow/3d-models
 ---
 
 # In-Place FBX Overwrite: Safe for Static Meshes, Dangerous for Rigged
@@ -36,4 +51,4 @@ Any Blender→Unity re-export iteration loop on static props (machines, furnitur
 
 ## Related
 - [[fbx-export-standard-settings-blender-to-unity]]
-- [[mcp-scene-capture-renders-main-scene-not-prefab-stage]]
+- [[20260606-1628-mcp-scene-capture-renders-main-scene-not-prefab-stage]]

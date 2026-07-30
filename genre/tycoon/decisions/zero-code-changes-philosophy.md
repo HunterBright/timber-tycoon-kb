@@ -1,15 +1,23 @@
 ---
-name: zero-code-changes-philosophy
+title: Zero-Code-Changes Philosophy
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- content-scaling
+- philosophy
+- scriptableobject
+applies_to:
+- unity-projects
+source: ''
 description: Adding a new tree species (or product, worker role, NPC type) = create ScriptableObject + assign models = done. Zero code changes. Foundational TT philosophy for content scaling.
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, content-scaling, philosophy, scriptableobject]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+suggested-category: genre/tycoon/decisions
+name: zero-code-changes-philosophy
 ---
 
 # Zero-Code-Changes Philosophy

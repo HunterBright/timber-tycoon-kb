@@ -1,13 +1,26 @@
 ---
+title: MTree (modular_tree) crown_shape crashes the native C++ core — use a Ramp node into Length instead
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, modular-tree, mtree, crash, procedural-trees, crown-shape, ramp-node]
-severity: high
-time_lost: "~60min"
-date: 2026-06-02
 status: draft
-applies_to: [blender-5.1, modular_tree-extension]
+confidence: low
+verified: ''
+date: '2026-06-02'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- modular-tree
+- mtree
+- crash
+- procedural-trees
+- crown-shape
+- ramp-node
+applies_to:
+- blender-5.1
+- modular_tree-extension
+source: ''
+severity: high
+time_lost: ~60min
+suggested-category: engine/lessons
 ---
 
 # MTree (modular_tree) crown_shape crashes the native C++ core — use a Ramp node into Length instead

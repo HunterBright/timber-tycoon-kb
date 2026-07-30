@@ -1,13 +1,24 @@
 ---
+title: MeshCollider tworzony w runtime działa w Edytorze i cicho pada w buildzie (isReadable)
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, meshcollider, build, isReadable, works-on-my-machine, physics]
-severity: high
-time_lost: "0 (złapane w recenzji przed buildem)"
-date: 2026-07-13
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- meshcollider
+- build
+- isReadable
+- works-on-my-machine
+- physics
+applies_to:
+- unity
+source: ''
+severity: high
+time_lost: 0 (złapane w recenzji przed buildem)
+suggested-category: engine/lessons
 ---
 
 # MeshCollider tworzony w runtime działa w Edytorze i cicho pada w buildzie (isReadable)
@@ -56,4 +67,4 @@ i dla każdego trafienia sprawdzić `isReadable` w `.meta` modelu, z którego bi
 Szersza reguła: **wszystko, co w Edytorze bierze dane z assetu „bo są pod ręką", w buildzie może ich nie zastać.** Pierwszy build to nie formalność - to osobny test.
 
 ## Related
-- [[convex-meshcollider-swallows-hollow-interiors]]
+- [[20260713-1420-convex-meshcollider-swallows-hollow-interiors]]

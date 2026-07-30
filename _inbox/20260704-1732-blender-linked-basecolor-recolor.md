@@ -1,10 +1,22 @@
 ---
+title: Recoloring a Blender material whose Base Color is LINKED does nothing via default_value
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, materials, principled-bsdf, procedural, recolor, python, node-links]
-date: 2026-07-04
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-04'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- materials
+- principled-bsdf
+- procedural
+- recolor
+- python
+- node-links
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Recoloring a Blender material whose Base Color is LINKED does nothing via default_value

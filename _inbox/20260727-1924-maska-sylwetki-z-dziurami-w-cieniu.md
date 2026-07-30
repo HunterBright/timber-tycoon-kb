@@ -1,10 +1,21 @@
 ---
+title: Maska sylwetki może mieć dziury w środku — i przez lata tego nie widać
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [maska, sylwetka, progowanie, obraz, referencje, blender]
-date: 2026-07-27
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- maska
+- sylwetka
+- progowanie
+- obraz
+- referencje
+- blender
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Maska sylwetki może mieć dziury w środku — i przez lata tego nie widać

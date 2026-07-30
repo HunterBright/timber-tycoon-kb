@@ -1,13 +1,25 @@
 ---
+title: 'Dwa serwery MCP na porcie 9876: "Incomplete JSON response" to konflikt protokolu, nie zawieszony Blender'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/lessons
-tags: [mcp, blender, tooling, sockets, diagnosis]
-severity: high
-time_lost: "~40 min"
-date: 2026-07-25
 status: draft
-applies_to: [blender-5.x, blender-mcp, claude-code]
+confidence: low
+verified: ''
+date: '2026-07-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- mcp
+- blender
+- tooling
+- sockets
+- diagnosis
+applies_to:
+- blender-5.x
+- blender-mcp
+- claude-code
+source: ''
+severity: high
+time_lost: ~40 min
+suggested-category: workflow/lessons
 ---
 
 # Dwa serwery MCP na porcie 9876: "Incomplete JSON response" to konflikt protokolu, nie zawieszony Blender
@@ -59,5 +71,5 @@ a jest rozjazdem protokolu (ramkowanie: NUL-terminated vs newline vs czysty JSON
 Zasada ogolna: **najpierw kto trzyma port, potem surowe bajty, na koncu hipotezy o watkach.**
 
 ## Related
-- [[blender51-mcp-bridge]] (projektowy mostek `_TempEditor/blender_exec.ps1` uzywa wlasnie
+- [[project_blender51_mcp_bridge]] (projektowy mostek `_TempEditor/blender_exec.ps1` uzywa wlasnie
   protokolu NUL-terminated na 9876)

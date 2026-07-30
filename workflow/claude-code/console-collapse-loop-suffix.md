@@ -1,15 +1,24 @@
 ---
-name: console-collapse-loop-suffix
+title: Console Collapse + Loop Suffix Convention
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- debug-log
+- console
+- collapse
+- claude-code
+applies_to:
+- unity-projects
+source: ''
 description: Unity Console Collapse mode merges identical log strings. In loops, add unique [#{i}] suffix per iteration — all logs visible even with Collapse ON.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [unity, debug-log, console, collapse, claude-code]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+suggested-category: workflow/claude-code
+name: console-collapse-loop-suffix
 ---
 
 # Console Collapse + Loop Suffix Convention

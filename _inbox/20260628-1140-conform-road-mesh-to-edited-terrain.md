@@ -1,13 +1,26 @@
 ---
+title: Conforming an existing road/decal mesh to terrain that was edited later
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, terrain, road, meshcollider, raycast, drape, mesh-subdivision, trigger]
-severity: medium
-time_lost: "~1h diagnosis (false-positive measurements)"
-date: 2026-06-28
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-06-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- terrain
+- road
+- meshcollider
+- raycast
+- drape
+- mesh-subdivision
+- trigger
+applies_to:
+- unity
+source: ''
+severity: medium
+time_lost: ~1h diagnosis (false-positive measurements)
+suggested-category: engine/lessons
 ---
 
 # Conforming an existing road/decal mesh to terrain that was edited later

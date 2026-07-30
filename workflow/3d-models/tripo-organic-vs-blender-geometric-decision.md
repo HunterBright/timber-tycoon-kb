@@ -1,10 +1,19 @@
 ---
+title: Tripo (organic) vs Blender MCP (geometric) — Pipeline Routing Decision
 type: decision
-project: timber-tycoon
-suggested-category: workflow/3d-models
-tags: [tripo, blender-mcp, asset-pipeline, decision-record]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- tripo
+- blender-mcp
+- asset-pipeline
+- decision-record
+applies_to: []
+source: ''
+suggested-category: workflow/3d-models
 ---
 
 # Tripo (organic) vs Blender MCP (geometric) — Pipeline Routing Decision

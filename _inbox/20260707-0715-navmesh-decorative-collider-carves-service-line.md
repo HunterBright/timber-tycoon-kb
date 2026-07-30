@@ -1,13 +1,26 @@
 ---
+title: Dekoracyjny prop z colliderem na linii chodzenia wycina dziure w NavMesh i wypycha NPC do srodka budynku
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, navmesh, ai-navigation, navmeshsurface, navmeshmodifier, ignorefrombuild, pathfinding, colliders, props]
-severity: medium
-time_lost: ""
-date: 2026-07-07
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-07'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- navmesh
+- ai-navigation
+- navmeshsurface
+- navmeshmodifier
+- ignorefrombuild
+- pathfinding
+- colliders
+- props
 applies_to: []
+source: ''
+severity: medium
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # Dekoracyjny prop z colliderem na linii chodzenia wycina dziure w NavMesh i wypycha NPC do srodka budynku

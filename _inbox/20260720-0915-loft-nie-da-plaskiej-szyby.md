@@ -1,10 +1,21 @@
 ---
+title: Malowanie szyby kolorem na powierzchni z loftu nigdy nie da płaskiej tafli
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: blender/anti-patterns
-tags: [blender, proceduralne-modelowanie, low-poly, loft, pojazdy, vertex-color]
-date: 2026-07-20
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-20'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- proceduralne-modelowanie
+- low-poly
+- loft
+- pojazdy
+- vertex-color
+applies_to: []
+source: ''
+suggested-category: blender/anti-patterns
 ---
 
 # Malowanie szyby kolorem na powierzchni z loftu nigdy nie da płaskiej tafli

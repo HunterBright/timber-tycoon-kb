@@ -1,10 +1,22 @@
 ---
+title: 'Anti-pattern: binarna scena Unity w Git LFS = nieodwracalny, rosnacy bez konca bloat'
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, git, git-lfs, scene, serialization, repo-hygiene, gitattributes]
-date: 2026-07-13
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- git
+- git-lfs
+- scene
+- serialization
+- repo-hygiene
+- gitattributes
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Anti-pattern: binarna scena Unity w Git LFS = nieodwracalny, rosnacy bez konca bloat

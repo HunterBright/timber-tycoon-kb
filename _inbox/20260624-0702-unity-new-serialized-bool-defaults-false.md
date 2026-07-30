@@ -1,10 +1,21 @@
 ---
+title: Nowe pole `bool` na istniejących assetach deserializuje się do `false`, nie do inicjalizatora C#
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, serialization, scriptableobject, backward-compat, save-migration, default-values]
-date: 2026-06-24
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-24'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- serialization
+- scriptableobject
+- backward-compat
+- save-migration
+- default-values
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Nowe pole `bool` na istniejących assetach deserializuje się do `false`, nie do inicjalizatora C#

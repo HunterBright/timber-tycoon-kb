@@ -1,10 +1,21 @@
 ---
+title: Czytnik obrazu sprawdzaj renderem własnego modelu, nie obrazkiem, który sam sobie narysowałeś
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/patterns
-tags: [testy, pomiar, obraz, render, blender, kontrola]
-date: 2026-07-27
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-27'
+project: Kerf - Sawmill Tycoon
+tags:
+- testy
+- pomiar
+- obraz
+- render
+- blender
+- kontrola
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Czytnik obrazu sprawdzaj renderem własnego modelu, nie obrazkiem, który sam sobie narysowałeś

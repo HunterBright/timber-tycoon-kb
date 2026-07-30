@@ -1,10 +1,20 @@
 ---
+title: GameEventSO ScriptableObject Event Channel
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, scriptableobject, events, messaging, decoupled]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- scriptableobject
+- events
+- messaging
+- decoupled
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # GameEventSO ScriptableObject Event Channel

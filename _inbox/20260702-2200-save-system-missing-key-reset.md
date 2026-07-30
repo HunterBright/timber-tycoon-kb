@@ -1,11 +1,21 @@
 ---
+title: Nowy ISaveable + stary save = przeciek żywego stanu (reset przy braku klucza)
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, save-system, isaveable, backward-compat, load]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Timber_Tycoon
+tags:
+- unity
+- save-system
+- isaveable
+- backward-compat
+- load
+applies_to: []
+source: ''
 severity: major
+suggested-category: engine/lessons
 ---
 
 # Nowy ISaveable + stary save = przeciek żywego stanu (reset przy braku klucza)

@@ -1,10 +1,24 @@
 ---
+title: 'TextMeshPro: czytelność na teksturowanym tle (drewno) + warstwy modali'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, ui, textmeshpro, tmp, legibility, outline, material, canvas, modal]
-date: 2026-06-17
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ui
+- textmeshpro
+- tmp
+- legibility
+- outline
+- material
+- canvas
+- modal
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # TextMeshPro: czytelność na teksturowanym tle (drewno) + warstwy modali

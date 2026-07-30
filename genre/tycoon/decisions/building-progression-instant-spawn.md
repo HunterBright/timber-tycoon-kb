@@ -1,15 +1,24 @@
 ---
-name: building-progression-instant-spawn
+title: Building Progression — Instant Spawn Post-Purchase
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- building
+- progression
+- instant
+- tavern-manager
+applies_to:
+- unity-projects
+source: ''
 description: Building expansions appear INSTANTLY post-purchase (1.5s fade-in only). Realistic construction time rejected — tycoons reward decisions immediately. "I bought it, it's there."
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, building, progression, instant, tavern-manager]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+suggested-category: genre/tycoon/decisions
+name: building-progression-instant-spawn
 ---
 
 # Building Progression — Instant Spawn Post-Purchase

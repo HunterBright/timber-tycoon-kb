@@ -1,10 +1,20 @@
 ---
+title: ToolWheel UX Pattern
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, ui, tool-wheel, fps, controls]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ui
+- tool-wheel
+- fps
+- controls
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # ToolWheel UX Pattern

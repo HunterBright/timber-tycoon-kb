@@ -1,10 +1,23 @@
 ---
+title: Dźwięk słychać tylko z jednej strony → najpierw sprawdź balans kanałów ŹRÓDŁA
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, audio, stereo, mono, force-to-mono, audioclip, ffmpeg, diagnosis]
-date: 2026-06-26
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- audio
+- stereo
+- mono
+- force-to-mono
+- audioclip
+- ffmpeg
+- diagnosis
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Dźwięk słychać tylko z jednej strony → najpierw sprawdź balans kanałów ŹRÓDŁA

@@ -1,10 +1,20 @@
 ---
+title: 'ANTI-PATTERN: sin(X) + sin(Z) Water Shader = Side Waves'
 type: anti-pattern
-project: timber-tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, urp, shader, water, vertex-displacement]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- shader
+- water
+- vertex-displacement
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # ANTI-PATTERN: sin(X) + sin(Z) Water Shader = Side Waves

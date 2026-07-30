@@ -1,10 +1,22 @@
 ---
+title: Czasteczki "dzialaja, ale ich nie widac" - trzy niezalezne przyczyny przy wodzie
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, particles, shuriken, transparency, sorting, water, urp]
-date: 2026-07-18
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-18'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- particles
+- shuriken
+- transparency
+- sorting
+- water
+- urp
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Czasteczki "dzialaja, ale ich nie widac" - trzy niezalezne przyczyny przy wodzie

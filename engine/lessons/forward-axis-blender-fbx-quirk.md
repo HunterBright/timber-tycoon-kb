@@ -1,13 +1,25 @@
 ---
+title: Forward Axis = -transform.right (Blender FBX Quirk)
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [unity, blender, fbx, transform, vehicle, forward-axis]
-severity: high
-time_lost: "multiple debugging sessions"
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects", "blender-pipelines"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- blender
+- fbx
+- transform
+- vehicle
+- forward-axis
+applies_to:
+- unity-projects
+- blender-pipelines
+source: ''
+severity: high
+time_lost: multiple debugging sessions
+suggested-category: engine/lessons
 ---
 
 # Forward Axis = -transform.right (Blender FBX Quirk)

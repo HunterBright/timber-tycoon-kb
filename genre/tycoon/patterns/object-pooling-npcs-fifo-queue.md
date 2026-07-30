@@ -1,10 +1,20 @@
 ---
+title: Object Pooling for NPCs + FIFO Customer Queue
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, npc, object-pool, performance, fifo]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- npc
+- object-pool
+- performance
+- fifo
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Object Pooling for NPCs + FIFO Customer Queue

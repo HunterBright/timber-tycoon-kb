@@ -1,10 +1,22 @@
 ---
+title: 'Pętla dźwiękowa: zmierz styk, przenikaj ogon w początek, dopisz próg do sondy'
 type: pattern
-project: Timber Tycoon
-suggested-category: workflow/asset-pipeline
-tags: [audio, loop, crossfade, ffmpeg, sfx, measurement, build-probe]
-date: 2026-07-22
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- audio
+- loop
+- crossfade
+- ffmpeg
+- sfx
+- measurement
+- build-probe
+applies_to: []
+source: ''
+suggested-category: workflow/asset-pipeline
 ---
 
 # Pętla dźwiękowa: zmierz styk, przenikaj ogon w początek, dopisz próg do sondy

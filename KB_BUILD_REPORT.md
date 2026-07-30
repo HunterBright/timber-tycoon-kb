@@ -1,3 +1,16 @@
+---
+title: KB Build Report
+type: note
+status: draft
+confidence: medium
+verified: ''
+date: ''
+project: Kerf - Sawmill Tycoon
+tags: []
+applies_to: []
+source: ''
+---
+
 # KB Build Report
 
 Started: 2026-05-17 (session began from KB_BUILD_PACKAGE.md, autonomous execution)

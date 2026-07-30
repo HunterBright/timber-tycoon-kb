@@ -1,10 +1,23 @@
 ---
+title: Reproducible Editor Flora Scatter onto a Mesh Terrain
 type: pattern
-project: timber-tycoon
-suggested-category: tooling/patterns
-tags: [unity, editor-tool, scatter, raycast, terrain, foliage, procedural, placement]
-date: 2026-05-31
 status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- editor-tool
+- scatter
+- raycast
+- terrain
+- foliage
+- procedural
+- placement
+applies_to: []
+source: ''
+suggested-category: tooling/patterns
 ---
 
 # Reproducible Editor Flora Scatter onto a Mesh Terrain

@@ -1,11 +1,23 @@
 ---
+title: 'Sonda widoczności: obracaj PROMIENIE, nie obiekt'
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, raycast, occlusion, visibility, physics, minigame, ux]
-date: 2026-07-13
 status: draft
-applies_to: [unity]
+confidence: low
+verified: ''
+date: '2026-07-13'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- raycast
+- occlusion
+- visibility
+- physics
+- minigame
+- ux
+applies_to:
+- unity
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Sonda widoczności: obracaj PROMIENIE, nie obiekt
@@ -61,4 +73,4 @@ Montaż / demontaż / malowanie / naprawa / inspekcja obiektów złożonych z cz
 Pętla `Collider.Raycast` po N colliderach × M promieni. Rząd wielkości: 12 kątów × 25 promieni × 10 colliderów ≈ 3 tys. zapytań ≈ kilka ms - mieści się w klatce. Wariant „siatka na każdą część osobno × każdy kąt" (60 tys. zapytań) **nie mieści się** - to 30-120 ms, czyli widoczne szarpnięcie. Jeśli potrzeba więcej: osobna warstwa dla części + `Physics.Raycast` z maską (jedno zapytanie natywne zamiast pętli po colliderach) tnie koszt o rząd wielkości.
 
 ## Related
-- [[convex-meshcollider-swallows-hollow-interiors]]
+- [[20260713-1420-convex-meshcollider-swallows-hollow-interiors]]

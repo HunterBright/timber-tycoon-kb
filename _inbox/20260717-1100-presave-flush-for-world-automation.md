@@ -1,10 +1,22 @@
 ---
+title: Pre-save flush dla systemow automatyzacji mutujacych zapisywany swiat
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, save-system, automation, npc, coroutine, timescale, race-condition]
-date: 2026-07-17
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- save-system
+- automation
+- npc
+- coroutine
+- timescale
+- race-condition
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Pre-save flush dla systemow automatyzacji mutujacych zapisywany swiat

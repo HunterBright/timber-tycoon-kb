@@ -1,10 +1,21 @@
 ---
+title: 'Rendery kontrolne do akceptacji kolorów: wyłącz AgX, użyj view transform „Standard"'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, render, color-management, agx, review, low-poly]
-date: 2026-07-02
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-02'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- render
+- color-management
+- agx
+- review
+- low-poly
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Rendery kontrolne do akceptacji kolorów: wyłącz AgX, użyj view transform „Standard"

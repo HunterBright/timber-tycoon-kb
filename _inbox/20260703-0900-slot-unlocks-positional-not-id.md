@@ -1,11 +1,22 @@
 ---
+title: Numer w id odblokowania ≠ pozycja slotu (sloty kupowane w dowolnej kolejności)
 type: anti-pattern
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, unlocks, data-driven, bitmask, save-system, economy]
-date: 2026-07-03
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-03'
+project: Timber_Tycoon
+tags:
+- unity
+- unlocks
+- data-driven
+- bitmask
+- save-system
+- economy
+applies_to: []
+source: ''
 severity: major
+suggested-category: engine/lessons
 ---
 
 # Numer w id odblokowania ≠ pozycja slotu (sloty kupowane w dowolnej kolejności)

@@ -1,10 +1,22 @@
 ---
+title: Console buttons FRAME a skill minigame (they're flow-control, not the mechanic)
 type: pattern
-project: Timber Tycoon
-suggested-category: genre/tycoon/patterns
-tags: [tycoon, minigame, diegetic-ui, machine, raycast, camera-lock, design-reconciliation]
-date: 2026-06-29
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-29'
+project: Kerf - Sawmill Tycoon
+tags:
+- tycoon
+- minigame
+- diegetic-ui
+- machine
+- raycast
+- camera-lock
+- design-reconciliation
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Console buttons FRAME a skill minigame (they're flow-control, not the mechanic)

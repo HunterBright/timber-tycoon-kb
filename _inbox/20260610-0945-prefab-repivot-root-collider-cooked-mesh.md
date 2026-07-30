@@ -1,10 +1,22 @@
 ---
+title: 'Re-pivoting a prefab: a root MeshCollider with an embedded cooked mesh does NOT follow child-transform shifts'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, prefab, pivot, meshcollider, embedded-mesh, re-pivot, asset-pipeline]
-date: 2026-06-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- prefab
+- pivot
+- meshcollider
+- embedded-mesh
+- re-pivot
+- asset-pipeline
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Re-pivoting a prefab: a root MeshCollider with an embedded cooked mesh does NOT follow child-transform shifts

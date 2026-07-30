@@ -1,15 +1,24 @@
 ---
-name: polybrush-settings-low-poly
+title: Polybrush Settings for Low-Poly Terrain
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- polybrush
+- terrain
+- settings
+- low-poly
+applies_to:
+- unity-projects
+source: ''
 description: Polybrush settings for TT low-poly terrain — Outer Radius 40, Sculpt Power 30, Falloff linear, Strength 1.0. Default settings produce sharp bumps incompatible with low-poly style.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/asset-pipeline
-  tags: [unity, polybrush, terrain, settings, low-poly]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: medium
+suggested-category: workflow/asset-pipeline
+name: polybrush-settings-low-poly
 ---
 
 # Polybrush Settings for Low-Poly Terrain

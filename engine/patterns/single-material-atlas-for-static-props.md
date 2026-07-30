@@ -1,10 +1,21 @@
 ---
+title: Single-Material Atlas for Static Props
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [blender, materials, atlas, static-props, unity, slot-order]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- materials
+- atlas
+- static-props
+- unity
+- slot-order
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Single-Material Atlas for Static Props

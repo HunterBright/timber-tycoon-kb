@@ -1,10 +1,21 @@
 ---
+title: Centralny zarządca kursora z refcountem właścicieli (zamiast rozproszonych Cursor.lockState)
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, cursor, ui, input, esc, refcount]
-date: 2026-07-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- cursor
+- ui
+- input
+- esc
+- refcount
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Centralny zarządca kursora z refcountem właścicieli (zamiast rozproszonych Cursor.lockState)

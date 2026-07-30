@@ -1,15 +1,24 @@
 ---
-name: polybrush-iteration-rule
+title: Polybrush Iteration Rule — No Return to Generator
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- polybrush
+- terrain
+- iteration
+- workflow
+applies_to:
+- unity-projects
+source: ''
 description: After exporting terrain mesh from generator and starting Polybrush sculpting, NEVER return to the generator. Regen overwrites the mesh asset and destroys all Polybrush work. No undo.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/asset-pipeline
-  tags: [unity, polybrush, terrain, iteration, workflow]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: high
+suggested-category: workflow/asset-pipeline
+name: polybrush-iteration-rule
 ---
 
 # Polybrush Iteration Rule — No Return to Generator

@@ -1,10 +1,20 @@
 ---
+title: Multi-Step Quest Checklist Pattern
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, quest, ui, tutorial, multi-step]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- quest
+- ui
+- tutorial
+- multi-step
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Multi-Step Quest Checklist Pattern

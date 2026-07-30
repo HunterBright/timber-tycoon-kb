@@ -1,11 +1,24 @@
 ---
+title: Binary-overwriting an FBX under its existing .meta corrupts skinned-mesh bindposes (T-pose collapse)
 type: lesson
-tags: [unity, fbx, skinnedmesh, bindposes, meta, mixamo, rigging, asset-import]
+status: draft
+confidence: low
+verified: ''
+date: '2026-05-31'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- fbx
+- skinnedmesh
+- bindposes
+- meta
+- mixamo
+- rigging
+- asset-import
+applies_to: []
+source: ''
 severity: high
 suggested-category: engine/lessons
-project: Timber Tycoon
-date: 2026-05-31
-status: draft
 ---
 
 # Binary-overwriting an FBX under its existing .meta corrupts skinned-mesh bindposes (T-pose collapse)

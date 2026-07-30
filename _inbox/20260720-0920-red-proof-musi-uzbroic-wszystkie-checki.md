@@ -1,11 +1,22 @@
 ---
+title: Dźwignia psująca jeden check może wyłączyć drugi - i jego tryb porażki zostaje nieudowodniony
 type: lesson
-project: Timber Tycoon
-suggested-category: testowanie/lessons
-tags: [testy, sonda, red-proof, dowod-porazki, progi, kalibracja]
-date: 2026-07-20
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-20'
+project: Kerf - Sawmill Tycoon
+tags:
+- testy
+- sonda
+- red-proof
+- dowod-porazki
+- progi
+- kalibracja
+applies_to: []
+source: ''
 severity: medium
+suggested-category: testowanie/lessons
 ---
 
 # Dźwignia psująca jeden check może wyłączyć drugi - i jego tryb porażki zostaje nieudowodniony

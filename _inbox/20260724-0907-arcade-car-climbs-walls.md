@@ -1,11 +1,24 @@
 ---
+title: Arkadowe auto na Rigidbody wspina sie po scianach i odlatuje w niebo
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, physics, rigidbody, vehicle, arcade-car, raycast, ground-check, slope]
-date: 2026-07-24
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-24'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- rigidbody
+- vehicle
+- arcade-car
+- raycast
+- ground-check
+- slope
+applies_to: []
+source: ''
 severity: critical
+suggested-category: engine/lessons
 ---
 
 # Arkadowe auto na Rigidbody wspina sie po scianach i odlatuje w niebo

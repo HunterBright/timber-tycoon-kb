@@ -1,10 +1,20 @@
 ---
+title: Gdy rezyser mowi "wyglada zle", zmierz cos, co juz zaakceptowal
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/patterns
-tags: [proporcje, kalibracja, pomiar, modele-3d, feedback]
-date: 2026-07-26
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- proporcje
+- kalibracja
+- pomiar
+- modele-3d
+- feedback
+applies_to: []
+source: ''
+suggested-category: workflow/patterns
 ---
 
 # Gdy rezyser mowi "wyglada zle", zmierz cos, co juz zaakceptowal

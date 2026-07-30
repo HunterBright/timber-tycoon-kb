@@ -1,10 +1,20 @@
 ---
+title: ScriptableObject changes in Play Mode DO persist after exit
 type: lesson
+status: verified
+confidence: high
+verified: ''
+date: '2026-06-11'
 project: Timber_Tycoon
+tags:
+- unity
+- scriptableobject
+- play-mode
+- testing
+- gotcha
+applies_to: []
+source: ''
 suggested-category: engine/lessons
-tags: [unity, scriptableobject, play-mode, testing, gotcha]
-date: 2026-06-11
-status: validated
 ---
 
 # ScriptableObject changes in Play Mode DO persist after exit

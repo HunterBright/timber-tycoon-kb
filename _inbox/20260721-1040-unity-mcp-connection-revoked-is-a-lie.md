@@ -1,13 +1,26 @@
 ---
+title: Unity MCP "Connection revoked" is a misleading error - the real causes are capacity limit and missing AI entitlement
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, mcp, unity-ai, licensing, entitlements, diagnostics, misleading-error]
-severity: high
-time_lost: "~40 min"
-date: 2026-07-21
 status: draft
-applies_to: [unity-6000.5, com.unity.ai.assistant]
+confidence: low
+verified: ''
+date: '2026-07-21'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- mcp
+- unity-ai
+- licensing
+- entitlements
+- diagnostics
+- misleading-error
+applies_to:
+- unity-6000.5
+- com.unity.ai.assistant
+source: ''
+severity: high
+time_lost: ~40 min
+suggested-category: engine/lessons
 ---
 
 # Unity MCP "Connection revoked" is a misleading error - the real causes are capacity limit and missing AI entitlement
@@ -88,4 +101,4 @@ Second, transferable planning point: **entitlement-gated tooling can disappear b
 local change**. Tool availability recorded in project notes needs a date and a re-check, not a permanent claim.
 
 ## Related
-- [[project-unity-mcp-tooling-notes-2026-07-17]] (recorded "unity-mcp works, Coplay 401"; the first half expired within four days)
+- [[project_unity_mcp_tooling_notes_2026-07-17]] (recorded "unity-mcp works, Coplay 401"; the first half expired within four days)

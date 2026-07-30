@@ -1,13 +1,27 @@
 ---
+title: AddComponent<Canvas> dokłada RectTransform - kolejny AddComponent<RectTransform> rzuca wyjątkiem i po cichu urywa budowę UI w Awake
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, ugui, canvas, recttransform, addcomponent, awake, silent-failure]
-severity: high
-time_lost: "~20 min"
-date: 2026-07-22
 status: draft
-applies_to: [unity-6, ugui, code-built-ui]
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ugui
+- canvas
+- recttransform
+- addcomponent
+- awake
+- silent-failure
+applies_to:
+- unity-6
+- ugui
+- code-built-ui
+source: ''
+severity: high
+time_lost: ~20 min
+suggested-category: engine/lessons
 ---
 
 # AddComponent<Canvas> dokłada RectTransform - kolejny AddComponent<RectTransform> rzuca wyjątkiem i po cichu urywa budowę UI w Awake
@@ -81,4 +95,4 @@ obiekt zostaje w stanie w połowie zbudowanym i kłamie o swoim stanie. Predykat
 `IsOpen => obiekt.activeSelf` zamieniają wtedy błąd budowy w trwałą, mylącą odpowiedź.
 
 ## Related
-- [[probe-checks-must-name-the-culprit-not-just-fail]] (jeszcze nie istnieje)
+- [[gate-must-have-provable-failure-mode]] (jeszcze nie istnieje)

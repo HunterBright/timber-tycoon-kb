@@ -1,11 +1,22 @@
 ---
+title: Low-poly lake shore looks jagged (serrated) — submerge the rim + widen the water, don't densify
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, terrain, water, lowpoly, vertex-color, shoreline]
-date: 2026-06-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- terrain
+- water
+- lowpoly
+- vertex-color
+- shoreline
+applies_to: []
+source: ''
 severity: medium
+suggested-category: engine/lessons
 ---
 
 # Low-poly lake shore looks jagged (serrated) — submerge the rim + widen the water, don't densify

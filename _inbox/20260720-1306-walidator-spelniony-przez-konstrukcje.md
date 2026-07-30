@@ -1,10 +1,20 @@
 ---
+title: Walidator, ktory jest spelniony automatycznie przez konstrukcje
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [validation, testing, geometry, procedural-generation, false-confidence]
-date: 2026-07-20
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-20'
+project: Kerf - Sawmill Tycoon
+tags:
+- validation
+- testing
+- geometry
+- procedural-generation
+- false-confidence
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Walidator, ktory jest spelniony automatycznie przez konstrukcje
@@ -65,5 +75,5 @@ tam, gdzie mogla wejsc cicha regresja psujaca kluczowa ceche modelu.
 
 ## Related
 
-- [[pula-jednoelementowa-udaje-pelne-pokrycie]] - ten sam gatunek falszywej pewnosci, tylko
+- [[20260720-1308-pula-jednoelementowa-udaje-pelne-pokrycie]] - ten sam gatunek falszywej pewnosci, tylko
   po stronie doboru probki zamiast po stronie mierzonej wielkosci.

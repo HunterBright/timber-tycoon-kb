@@ -1,10 +1,22 @@
 ---
+title: Play-Mode in-memory edits pollute on-disk assets — and a "fix" can produce zero git diff
 type: lesson
-project: Timber Tycoon
+status: verified
+confidence: high
+verified: ''
+date: '2026-06-08'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- play-mode
+- git
+- scene
+- materials
+- day-night-cycle
+- save-hygiene
+applies_to: []
+source: ''
 suggested-category: engine/lessons
-tags: [unity, play-mode, git, scene, materials, day-night-cycle, save-hygiene]
-date: 2026-06-08
-status: validated
 ---
 
 # Play-Mode in-memory edits pollute on-disk assets — and a "fix" can produce zero git diff

@@ -1,10 +1,20 @@
 ---
+title: Flatten Terrain Under Road (Smoothstep Blend)
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, road, terrain, mesh-modification, smoothstep]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- road
+- terrain
+- mesh-modification
+- smoothstep
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Flatten Terrain Under Road (Smoothstep Blend)

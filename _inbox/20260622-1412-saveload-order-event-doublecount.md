@@ -1,11 +1,23 @@
 ---
+title: 'Lekcja: licznik liczący PRZYROSTY z eventu magazynu fałszywie nalicza przy wczytaniu zapisu'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [save-system, ISaveable, load-order, dontdestroyonload, events, race-condition, unity]
-date: 2026-06-22
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- save-system
+- ISaveable
+- load-order
+- dontdestroyonload
+- events
+- race-condition
+- unity
+applies_to: []
+source: ''
 severity: high
+suggested-category: engine/lessons
 ---
 
 # Lekcja: licznik liczący PRZYROSTY z eventu magazynu fałszywie nalicza przy wczytaniu zapisu

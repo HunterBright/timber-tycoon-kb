@@ -1,10 +1,24 @@
 ---
+title: Aktualizacja major Unity → wyjście z Safe Mode + sprzątanie deprecacji
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, upgrade, deprecation, safe-mode, api-migration, cs0619, cs0618, textmeshpro, find-objects]
-date: 2026-06-26
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- upgrade
+- deprecation
+- safe-mode
+- api-migration
+- cs0619
+- cs0618
+- textmeshpro
+- find-objects
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Aktualizacja major Unity → wyjście z Safe Mode + sprzątanie deprecacji

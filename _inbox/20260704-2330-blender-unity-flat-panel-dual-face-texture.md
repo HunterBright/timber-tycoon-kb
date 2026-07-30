@@ -1,11 +1,24 @@
 ---
+title: Blender flat panel textured on one face renders BLANK in Unity (axis-flip picks the wrong face)
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [blender, unity, fbx, uv, texture, forward-axis, flat-panel, low-poly]
-date: 2026-07-04
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-04'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- unity
+- fbx
+- uv
+- texture
+- forward-axis
+- flat-panel
+- low-poly
+applies_to: []
+source: ''
 severity: medium
+suggested-category: engine/lessons
 ---
 
 # Blender flat panel textured on one face renders BLANK in Unity (axis-flip picks the wrong face)

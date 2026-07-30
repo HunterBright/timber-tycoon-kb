@@ -1,10 +1,21 @@
 ---
+title: 'Lekcja: okno UI rosnace pod tresc - clamp do ekranu NIE zmniejsza tresci'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, ugui, layout, canvas-scaler, ultrawide, modal]
-date: 2026-07-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ugui
+- layout
+- canvas-scaler
+- ultrawide
+- modal
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Lekcja: okno UI rosnace pod tresc - clamp do ekranu NIE zmniejsza tresci

@@ -1,10 +1,24 @@
 ---
+title: 'Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment'
 type: pattern
-project: Timber Tycoon
-suggested-category: engine/patterns
-tags: [unity, blender, terrain, heightfield, roads, bridge, conform, bvh, low-poly]
-date: 2026-06-26
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- blender
+- terrain
+- heightfield
+- roads
+- bridge
+- conform
+- bvh
+- low-poly
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment

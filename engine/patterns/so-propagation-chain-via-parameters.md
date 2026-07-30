@@ -1,10 +1,19 @@
 ---
+title: SO Propagation Chain via Parameter Passing
 type: pattern
-project: timber-tycoon
-suggested-category: engine/patterns
-tags: [unity, scriptableobject, propagation, parameter-passing]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- scriptableobject
+- propagation
+- parameter-passing
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # SO Propagation Chain via Parameter Passing

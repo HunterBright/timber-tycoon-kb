@@ -1,11 +1,22 @@
 ---
+title: '"Works for product A, dead for product B" = per-instance setup divergence, not code'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, interaction, raycast, scene-setup, data-driven, debugging]
-date: 2026-06-10
-severity: medium
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-10'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- interaction
+- raycast
+- scene-setup
+- data-driven
+- debugging
+applies_to: []
+source: ''
+severity: medium
+suggested-category: engine/lessons
 ---
 
 # "Works for product A, dead for product B" = per-instance setup divergence, not code

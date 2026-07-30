@@ -1,10 +1,15 @@
 ---
+title: <Pattern name>
 type: pattern
-project: <project-name>
-suggested-category: workflow/asset-pipeline
-tags: []
-date: YYYY-MM-DD
 status: draft
+confidence: medium
+verified: ''
+date: YYYY-MM-DD
+project: <project-name>
+tags: []
+applies_to: []
+source: ''
+suggested-category: workflow/asset-pipeline
 ---
 
 # <Pattern name>

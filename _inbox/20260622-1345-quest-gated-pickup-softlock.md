@@ -1,10 +1,22 @@
 ---
+title: 'Anti-pattern: pickup zużywa się bezwarunkowo, ale nadaje zdolność za bramką fazy questa'
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [quest, softlock, pickup, inventory, state-machine, unity, gating]
-date: 2026-06-22
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- quest
+- softlock
+- pickup
+- inventory
+- state-machine
+- unity
+- gating
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Anti-pattern: pickup zużywa się bezwarunkowo, ale nadaje zdolność za bramką fazy questa

@@ -1,10 +1,20 @@
 ---
+title: Triage feedbacku testera w parze z telemetria i logiem
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: workflow/patterns
-tags: [playtest, telemetry, triage, logging, tester-feedback]
-date: 2026-07-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- playtest
+- telemetry
+- triage
+- logging
+- tester-feedback
+applies_to: []
+source: ''
+suggested-category: workflow/patterns
 ---
 
 # Triage feedbacku testera w parze z telemetria i logiem

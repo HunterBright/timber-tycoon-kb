@@ -1,13 +1,27 @@
 ---
+title: MeshCollider na siatce bez Read/Write = TWARDY natywny crash builda przy odsloniecie (nie w Edytorze)
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, meshcollider, read-write-enabled, build-vs-editor, native-crash, physx, setactive]
-severity: high
-time_lost: "~1h diagnoza + zlapanie 2 kolejnych instancji"
-date: 2026-07-15
 status: draft
-applies_to: [unity-6, physx, standalone-build]
+confidence: low
+verified: ''
+date: '2026-07-15'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- meshcollider
+- read-write-enabled
+- build-vs-editor
+- native-crash
+- physx
+- setactive
+applies_to:
+- unity-6
+- physx
+- standalone-build
+source: ''
+severity: high
+time_lost: ~1h diagnoza + zlapanie 2 kolejnych instancji
+suggested-category: engine/lessons
 ---
 
 # MeshCollider na siatce bez Read/Write = TWARDY natywny crash builda przy odsloniecie (nie w Edytorze)

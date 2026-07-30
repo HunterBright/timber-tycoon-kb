@@ -1,15 +1,23 @@
 ---
-name: stop-hook-infinite-loop-risk
+title: Stop Hook Infinite Loop Risk
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- hooks
+- configuration
+- infinite-loop
+applies_to:
+- claude-code-projects
+source: ''
 description: Claude Code Stop hook (auto-continue on context full) was tested and removed. Caused infinite loops on stuck tasks. Manual /continue is safer — human evaluates progress each cycle.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [claude-code, hooks, configuration, infinite-loop]
-  severity: high
-  date: 2026-05-17
-  status: draft
-  applies_to: [claude-code-projects]
+severity: high
+suggested-category: workflow/claude-code
+name: stop-hook-infinite-loop-risk
 ---
 
 # Stop Hook Infinite Loop Risk

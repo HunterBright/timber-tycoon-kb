@@ -1,15 +1,25 @@
 ---
+title: Universal Cleanup Post-Migration
+type: lesson
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- claude-code
+- cleanup
+- debug-code
+- migration
+- technical-debt
+applies_to:
+- unity-projects
+- claude-code-projects
+source: ''
+description: 'After replacing debug shortcuts with real interactions, remove the debug code. Sprint-end checklist: grep for #if UNITY_EDITOR and // TODO debug, review each, remove if obsolete.'
+severity: medium
+suggested-category: workflow/claude-code
 name: universal-cleanup-post-migration
-description: After replacing debug shortcuts with real interactions, remove the debug code. Sprint-end checklist: grep for #if UNITY_EDITOR and // TODO debug, review each, remove if obsolete.
-metadata:
-  type: lesson
-  project: timber-tycoon
-  suggested-category: workflow/claude-code
-  tags: [claude-code, cleanup, debug-code, migration, technical-debt]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects, claude-code-projects]
 ---
 
 # Universal Cleanup Post-Migration

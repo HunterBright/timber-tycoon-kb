@@ -1,10 +1,22 @@
 ---
+title: 'Prześwity w modelach low-poly: najpierw sprawdź _Cull materiału, nie geometrię'
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, urp, materials, backface-culling, low-poly, see-through, vehicles]
-date: 2026-07-19
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-19'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- urp
+- materials
+- backface-culling
+- low-poly
+- see-through
+- vehicles
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Prześwity w modelach low-poly: najpierw sprawdź _Cull materiału, nie geometrię

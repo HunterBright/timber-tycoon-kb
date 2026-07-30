@@ -1,10 +1,22 @@
 ---
+title: 'Tryb "fotograf" w buildzie: marketingowe screenshoty bez Edytora'
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/patterns
-tags: [unity, marketing, screenshots, automation, steam, command-line, build]
-date: 2026-07-24
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-24'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- marketing
+- screenshots
+- automation
+- steam
+- command-line
+- build
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Tryb "fotograf" w buildzie: marketingowe screenshoty bez Edytora

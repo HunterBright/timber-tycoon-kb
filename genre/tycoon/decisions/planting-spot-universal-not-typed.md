@@ -1,15 +1,23 @@
 ---
-name: planting-spot-universal-not-typed
+title: PlantingSpot Universal (Not Typed by Species)
+type: decision
+status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- planting
+- tree
+- decision-record
+applies_to:
+- unity-projects
+source: ''
 description: PlantingSpot is species-neutral. Original design typed spots (only same species can be replanted). Revised to any sapling in any spot. More fun, enables biome-shift gameplay.
-metadata:
-  type: decision
-  project: timber-tycoon
-  suggested-category: genre/tycoon/decisions
-  tags: [game-design, planting, tree, decision-record]
-  severity: medium
-  date: 2026-05-17
-  status: draft
-  applies_to: [unity-projects]
+severity: medium
+suggested-category: genre/tycoon/decisions
+name: planting-spot-universal-not-typed
 ---
 
 # PlantingSpot Universal (Not Typed by Species)

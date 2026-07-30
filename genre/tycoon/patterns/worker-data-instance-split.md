@@ -1,10 +1,20 @@
 ---
+title: WorkerData (SO Blueprint) + WorkerInstance (Runtime) Split
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, scriptableobject, worker, blueprint, runtime]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- scriptableobject
+- worker
+- blueprint
+- runtime
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # WorkerData (SO Blueprint) + WorkerInstance (Runtime) Split

@@ -1,10 +1,21 @@
 ---
+title: Generator obrazkow nie da sie zmusic opisem do proporcji figury (7,5 glowy)
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: pipeline/anti-patterns
-tags: [ai-image, comfyui, qwen-image, character-reference, proportions, prompt-engineering]
-date: 2026-07-25
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-25'
+project: Kerf - Sawmill Tycoon
+tags:
+- ai-image
+- comfyui
+- qwen-image
+- character-reference
+- proportions
+- prompt-engineering
+applies_to: []
+source: ''
+suggested-category: pipeline/anti-patterns
 ---
 
 # Generator obrazkow nie da sie zmusic opisem do proporcji figury (7,5 glowy)

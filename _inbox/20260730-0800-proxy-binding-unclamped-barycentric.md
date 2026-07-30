@@ -1,10 +1,21 @@
 ---
+title: 'Transfer morfa przez proxy: przycięte barycentryki RWĄ siatkę, rzut na płaszczyznę + wygładzenie działa'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [blender, proxy-mesh, shape-keys, makehuman, binding, morph-transfer]
-date: 2026-07-30
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-30'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- proxy-mesh
+- shape-keys
+- makehuman
+- binding
+- morph-transfer
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Transfer morfa przez proxy: przycięte barycentryki RWĄ siatkę, rzut na płaszczyznę + wygładzenie działa

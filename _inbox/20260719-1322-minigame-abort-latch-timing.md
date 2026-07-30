@@ -1,10 +1,21 @@
 ---
+title: Zatrzask "punkt bez odwrotu" ustawiany przy wejsciu w faze zamiast przy akcji gracza
 type: anti-pattern
-project: Timber_Tycoon
-suggested-category: engine/anti-patterns
-tags: [minigame, abort, exploit, game-economy, state-machine, unity]
-date: 2026-07-19
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-19'
+project: Timber_Tycoon
+tags:
+- minigame
+- abort
+- exploit
+- game-economy
+- state-machine
+- unity
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Zatrzask "punkt bez odwrotu" ustawiany przy wejsciu w faze zamiast przy akcji gracza

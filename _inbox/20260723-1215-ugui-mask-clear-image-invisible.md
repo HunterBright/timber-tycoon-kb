@@ -1,10 +1,23 @@
 ---
+title: 'uGUI: Mask z obrazkiem Color.clear = NIEWIDZIALNA zawartosc (a transformy klamia, ze wszystko gra)'
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, ugui, mask, rectmask2d, dropdown, scrollrect, cullTransparentMesh, ui-w-kodzie]
-date: 2026-07-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ugui
+- mask
+- rectmask2d
+- dropdown
+- scrollrect
+- cullTransparentMesh
+- ui-w-kodzie
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # uGUI: Mask z obrazkiem Color.clear = NIEWIDZIALNA zawartosc (a transformy klamia, ze wszystko gra)

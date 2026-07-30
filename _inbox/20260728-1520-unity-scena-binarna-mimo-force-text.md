@@ -1,10 +1,22 @@
 ---
+title: Scena zostaje BINARNA mimo Force Text, a dwa oczywiste lekarstwa nie działają
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, serialization, scene, yaml, force-text, assetdatabase, git-lfs]
-date: 2026-07-28
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-28'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- serialization
+- scene
+- yaml
+- force-text
+- assetdatabase
+- git-lfs
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # Scena zostaje BINARNA mimo Force Text, a dwa oczywiste lekarstwa nie działają

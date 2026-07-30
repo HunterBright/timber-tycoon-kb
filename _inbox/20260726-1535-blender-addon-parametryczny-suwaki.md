@@ -1,10 +1,22 @@
 ---
+title: 'Parametryczny dodatek do Blendera: trzy pulapki, ktore kosztuja godzine kazda'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: tooling/lessons
-tags: [blender, addon, python, parametric, ui, bpy-props, timers]
-date: 2026-07-26
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-26'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- addon
+- python
+- parametric
+- ui
+- bpy-props
+- timers
+applies_to: []
+source: ''
+suggested-category: tooling/lessons
 ---
 
 # Parametryczny dodatek do Blendera: trzy pulapki, ktore kosztuja godzine kazda

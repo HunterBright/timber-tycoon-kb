@@ -1,13 +1,28 @@
 ---
+title: Load "w miejscu" bez czyszczenia = respawnowane obiekty stackuja sie z kazdym wczytaniem
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, save-load, in-place-load, respawn, duplication, scene-reload, isaveable, idempotency]
-severity: high
-time_lost: "~1h diagnoza (log + 3 systemy trwalosci)"
-date: 2026-07-15
 status: draft
-applies_to: [unity, save-system, runtime-spawned-objects]
+confidence: low
+verified: ''
+date: '2026-07-15'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- save-load
+- in-place-load
+- respawn
+- duplication
+- scene-reload
+- isaveable
+- idempotency
+applies_to:
+- unity
+- save-system
+- runtime-spawned-objects
+source: ''
+severity: high
+time_lost: ~1h diagnoza (log + 3 systemy trwalosci)
+suggested-category: engine/lessons
 ---
 
 # Load "w miejscu" bez czyszczenia = respawnowane obiekty stackuja sie z kazdym wczytaniem

@@ -1,10 +1,21 @@
 ---
+title: Worker Output Quality Distribution
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [game-design, tycoon, worker, quality, distribution, progression]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- tycoon
+- worker
+- quality
+- distribution
+- progression
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Worker Output Quality Distribution
@@ -54,4 +65,4 @@ var quality = worker.perfectQuality ? OutputQuality.Perfect : worker.GetOutputQu
 - **Flat average:** worker always produces 2 outputs (no RNG). Simpler, predictable but less interesting.
 - **Skill-leveled workers:** each individual worker has a hidden "skill" float that improves over time (like Stardew NPC friendships) — adds progression, adds save complexity.
 
-See also: [[worker-data-instance-split]], [[worker-simulate-work-cycle]], [[quantity-not-quality-design-principle]]
+See also: [[worker-data-instance-split]], [[worker-simulate-work-cycle]], [[quantity-not-quality-principle]]

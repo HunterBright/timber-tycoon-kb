@@ -1,10 +1,20 @@
 ---
+title: Customer Tier System (Regular / Contractor / VIP)
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [game-design, tycoon, customer, tier, progression]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- game-design
+- tycoon
+- customer
+- tier
+- progression
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Customer Tier System (Regular / Contractor / VIP)

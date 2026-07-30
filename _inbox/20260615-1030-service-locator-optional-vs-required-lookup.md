@@ -1,10 +1,22 @@
 ---
+title: A service locator's Get() must distinguish OPTIONAL from REQUIRED lookups, or it false-alarms at start/teardown
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, service-locator, singleton, lifecycle, logging, initialization-order, false-positive]
-date: 2026-06-15
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-15'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- service-locator
+- singleton
+- lifecycle
+- logging
+- initialization-order
+- false-positive
+applies_to: []
+source: ''
+suggested-category: engine/lessons
 ---
 
 # A service locator's Get() must distinguish OPTIONAL from REQUIRED lookups, or it false-alarms at start/teardown

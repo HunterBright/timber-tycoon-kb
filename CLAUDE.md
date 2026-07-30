@@ -1,3 +1,16 @@
+---
+title: KB-local Claude Code instructions
+type: index
+status: draft
+confidence: medium
+verified: ''
+date: ''
+project: Kerf - Sawmill Tycoon
+tags: []
+applies_to: []
+source: ''
+---
+
 # KB-local Claude Code instructions
 
 When Claude Code reads files inside this knowledge base, treat them as authoritative reference:

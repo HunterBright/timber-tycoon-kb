@@ -1,10 +1,22 @@
 ---
+title: '`#if UNITY_EDITOR` naprawia build i po cichu zabija system'
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, build, editor-only, assetdatabase, prefabutility, silent-failure, ifdef]
-date: 2026-07-14
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-14'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- build
+- editor-only
+- assetdatabase
+- prefabutility
+- silent-failure
+- ifdef
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # `#if UNITY_EDITOR` naprawia build i po cichu zabija system

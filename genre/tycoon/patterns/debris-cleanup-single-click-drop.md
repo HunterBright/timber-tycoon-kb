@@ -1,10 +1,20 @@
 ---
+title: Debris Cleanup — Single-Click Drop Materials Visual
 type: pattern
-project: timber-tycoon
-suggested-category: genre/tycoon/patterns
-tags: [unity, tutorial, debris, cleanup, visual-progression]
-date: 2026-05-17
 status: draft
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- tutorial
+- debris
+- cleanup
+- visual-progression
+applies_to: []
+source: ''
+suggested-category: genre/tycoon/patterns
 ---
 
 # Debris Cleanup — Single-Click Drop Materials Visual

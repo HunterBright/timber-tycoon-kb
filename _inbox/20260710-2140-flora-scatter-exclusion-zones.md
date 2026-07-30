@@ -1,11 +1,22 @@
 ---
+title: Proceduralny rozsiew dekoracji musi wykluczac pozycje obiektow interaktywnych
 type: lesson
-project: Timber_Tycoon
-suggested-category: engine/lessons
-tags: [unity, procedural, scatter, flora, gpu-instancing, level-design]
-date: 2026-07-10
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-10'
+project: Timber_Tycoon
+tags:
+- unity
+- procedural
+- scatter
+- flora
+- gpu-instancing
+- level-design
+applies_to: []
+source: ''
 severity: low
+suggested-category: engine/lessons
 ---
 
 # Proceduralny rozsiew dekoracji musi wykluczac pozycje obiektow interaktywnych

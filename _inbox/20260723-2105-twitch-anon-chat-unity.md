@@ -1,10 +1,24 @@
 ---
+title: Anonimowy odczyt czatu Twitch w Unity (zero kont, kluczy i kosztow)
 type: pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/patterns
-tags: [twitch, chat, irc, websocket, streaming, networking, threading, unity, mono]
-date: 2026-07-23
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-23'
+project: Kerf - Sawmill Tycoon
+tags:
+- twitch
+- chat
+- irc
+- websocket
+- streaming
+- networking
+- threading
+- unity
+- mono
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Anonimowy odczyt czatu Twitch w Unity (zero kont, kluczy i kosztow)

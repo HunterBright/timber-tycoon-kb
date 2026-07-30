@@ -1,10 +1,20 @@
 ---
+title: Jednorazowa migracja zapisu MUSI być bramkowana wersją schematu, nie obecnością/brakiem migrowanego wpisu
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [save-system, migration, versioning, unity, isaveable]
-date: 2026-07-12
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-12'
+project: Kerf - Sawmill Tycoon
+tags:
+- save-system
+- migration
+- versioning
+- unity
+- isaveable
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # Jednorazowa migracja zapisu MUSI być bramkowana wersją schematu, nie obecnością/brakiem migrowanego wpisu

@@ -1,10 +1,23 @@
 ---
+title: Batch FBX import with pre-authored .meta files + prefab build in temp additive scene
 type: pattern
-project: Timber_Tycoon
-suggested-category: engine/patterns
-tags: [unity, fbx, import, meta, prefab, batch, editor-scripting, mixamo]
-date: 2026-06-12
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-12'
+project: Timber_Tycoon
+tags:
+- unity
+- fbx
+- import
+- meta
+- prefab
+- batch
+- editor-scripting
+- mixamo
+applies_to: []
+source: ''
+suggested-category: engine/patterns
 ---
 
 # Batch FBX import with pre-authored .meta files + prefab build in temp additive scene

@@ -1,13 +1,24 @@
 ---
+title: Desaturated Colors for Low-Poly Aesthetic
 type: lesson
-project: timber-tycoon
-suggested-category: engine/lessons
-tags: [color, low-poly, aesthetic, terrain, immersion]
-severity: medium
-time_lost: ""
-date: 2026-05-17
 status: draft
-applies_to: ["unity-projects", "blender-pipelines"]
+confidence: medium
+verified: ''
+date: '2026-05-17'
+project: Kerf - Sawmill Tycoon
+tags:
+- color
+- low-poly
+- aesthetic
+- terrain
+- immersion
+applies_to:
+- unity-projects
+- blender-pipelines
+source: ''
+severity: medium
+suggested-category: engine/lessons
+time_lost: ''
 ---
 
 # Desaturated Colors for Low-Poly Aesthetic

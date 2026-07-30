@@ -1,11 +1,23 @@
 ---
+title: 9-slice Image na obiekcie layoutu zaniża ContentSizeFitter (panel rośnie do sumy borderów)
 type: lesson
-project: Timber Tycoon
-suggested-category: engine/lessons
-tags: [unity, ugui, contentsizefitter, 9-slice, layout, hud, code-built-ui]
-date: 2026-06-16
 status: draft
+confidence: low
+verified: ''
+date: '2026-06-16'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- ugui
+- contentsizefitter
+- 9-slice
+- layout
+- hud
+- code-built-ui
+applies_to: []
+source: ''
 severity: medium
+suggested-category: engine/lessons
 ---
 
 # 9-slice Image na obiekcie layoutu zaniża ContentSizeFitter (panel rośnie do sumy borderów)

@@ -1,13 +1,25 @@
 ---
+title: '"Czy jestem pod wodą?" - promień w GÓRĘ nic nie zobaczy (backface)'
 type: lesson
-project: Kerf - Sawmill Tycoon
-suggested-category: engine/lessons
-tags: [unity, physics, raycast, backface, water, meshcollider, layers]
-severity: medium
-time_lost: "~30 min"
-date: 2026-07-22
 status: draft
-applies_to: [unity-6]
+confidence: low
+verified: ''
+date: '2026-07-22'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- physics
+- raycast
+- backface
+- water
+- meshcollider
+- layers
+applies_to:
+- unity-6
+source: ''
+severity: medium
+time_lost: ~30 min
+suggested-category: engine/lessons
 ---
 
 # "Czy jestem pod wodą?" - promień w GÓRĘ nic nie zobaczy (backface)
@@ -46,4 +58,4 @@ Każda gra z wodą, mgłą, sufitem jaskini albo jednostronną kurtyną, gdzie k
 "co jest nade mną". Wzorzec "mierz z góry w dół i porównaj wysokości" jest uniwersalny.
 
 ## Related
-- [[unstuck-nearest-valid-ground-ring-search]]
+- [[20260722-2050-unstuck-nearest-valid-ground-ring-search]]

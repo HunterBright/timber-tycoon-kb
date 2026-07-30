@@ -1,10 +1,21 @@
 ---
+title: Mesh.materials.clear() zeruje material_index na ściankach
 type: anti-pattern
-project: Kerf - Sawmill Tycoon
-suggested-category: blender/lessons
-tags: [blender, python, materials, material_index, mesh, gotcha]
-date: 2026-07-30
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-30'
+project: Kerf - Sawmill Tycoon
+tags:
+- blender
+- python
+- materials
+- material_index
+- mesh
+- gotcha
+applies_to: []
+source: ''
+suggested-category: blender/lessons
 ---
 
 # Mesh.materials.clear() zeruje material_index na ściankach

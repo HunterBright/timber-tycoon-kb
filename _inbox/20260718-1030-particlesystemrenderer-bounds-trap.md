@@ -1,10 +1,21 @@
 ---
+title: GetComponentsInChildren<Renderer> + Encapsulate(bounds) psuje sie po dodaniu czasteczek
 type: anti-pattern
-project: Timber Tycoon
-suggested-category: engine/anti-patterns
-tags: [unity, particles, renderer, bounds, getcomponentsinchildren, regression]
-date: 2026-07-18
 status: draft
+confidence: low
+verified: ''
+date: '2026-07-18'
+project: Kerf - Sawmill Tycoon
+tags:
+- unity
+- particles
+- renderer
+- bounds
+- getcomponentsinchildren
+- regression
+applies_to: []
+source: ''
+suggested-category: engine/anti-patterns
 ---
 
 # GetComponentsInChildren<Renderer> + Encapsulate(bounds) psuje sie po dodaniu czasteczek
