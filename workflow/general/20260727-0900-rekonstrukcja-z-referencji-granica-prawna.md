@@ -21,12 +21,13 @@ promoted: '2026-07-30'
 
 ## Kontekst
 
-Reżyser znalazł komercyjny model bazowy postaci (3 dolary, licencja obejmująca użycie
-komercyjne) i poprosił o odwzorowanie go na podstawie sześciu podglądów w widoku
-krawędziowym, bez kupowania. Uzasadnił to przekonaniem, że "odwzorowanie w 99% nie
-podlega prawu autorskiemu, bo nie jest kopią 1:1".
+Sytuacja, która wraca w każdym projekcie korzystającym z gotowych assetów: istnieje tani
+komercyjny model bazowy (rząd wielkości kilku dolarów, licencja obejmująca użycie komercyjne),
+a obok niego pokusa odtworzenia go z publicznych podglądów w widoku krawędziowym zamiast
+kupienia. Argument, który się przy tym pojawia, brzmi zwykle: "odwzorowanie w 99% nie podlega
+prawu autorskiemu, bo nie jest kopią 1:1".
 
-## Sprostowanie, które trzeba było zrobić
+## Sprostowanie, które trzeba zrobić
 
 **Nie istnieje próg procentowy.** Liczy się istotne podobieństwo do chronionego
 wyrazu. Im bliżej oryginału, tym MOCNIEJSZY dowód, że powstał utwór zależny -
@@ -60,11 +61,12 @@ Powstaje zbieżność, którą łatwo pokazać:
 Realnie z podglądów da się odtworzyć 80-90% sylwetki - co jest dokładnie tym
 poziomem, który mieści się w "inspiracji".
 
-## Decyzja
+## Decyzja, która zamyka sprawę
 
-Reżyser wybrał drogę uczenia się z podglądów bez kupowania. To jest legalne i to
-jest wykonalne. Zapisano granicę w dokumencie przekazania, żeby kolejna sesja
-(albo agent) nie przekroczyła jej przez przypadek, celując w "jak najwierniej".
+Uczenie się z podglądów bez kupowania jest legalne i wykonalne, o ile celem jest zrozumienie
+konstrukcji, a nie wynik nieodróżnialny od oryginału. Granicę trzeba zapisać w dokumencie
+przekazania, żeby kolejna sesja (albo agent) nie przekroczyła jej przez przypadek,
+celując w "jak najwierniej".
 
 ## Wniosek przenośny
 
