@@ -71,8 +71,8 @@ i zakrywać HUD.
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
 - [[20260612-1815-headless-tmp-sdf-font-generation|Headless TMP setup: import Essentials + generate SDF font asset from editor script]] - wspolne: tmp, textmeshpro
-- [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory|Don't build a full-screen dim/scrim by reusing your skinnable panel factory]] - wspolne: modal, ui
 - [[20260731-1605-okno-modalne-trzymajace-uchwyt-do-przedmiotu-z-rak-gracza|Okno modalne trzymajace uchwyt do przedmiotu z rak gracza kasuje towar]] - wspolne: modal, ui
+- [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory|Don't build a full-screen dim/scrim by reusing your skinnable panel factory]] - wspolne: modal, ui
 - [[20260721-1215-ui-fit-check-measuring-rect-instead-of-text|Sprawdzanie "czy tekst sie miesci" przez pomiar RectTransform]] - wspolne: textmeshpro, ui
 - [[typography-accessibility-stack|Typography + Accessibility Stack]] - wspolne: textmeshpro, ui
 <!-- /POWIAZANE:auto -->

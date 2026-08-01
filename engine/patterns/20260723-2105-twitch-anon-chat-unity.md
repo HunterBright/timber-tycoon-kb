@@ -65,5 +65,5 @@ gwarantowanego SLA (mechanizm nieoficjalny).
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260724-1120-twitch-wss-one-frame-one-command|Twitch IRC po WebSocket: jedna paczka = jedna komenda (i jak cichy klient to ukryl)]] - wspolne: twitch, chat, irc
+- [[20260724-1120-twitch-wss-one-frame-one-command|Twitch IRC po WebSocket: jedna paczka = jedna komenda (i jak cichy klient to ukryl)]] - wspolne: chat, irc, twitch
 <!-- /POWIAZANE:auto -->

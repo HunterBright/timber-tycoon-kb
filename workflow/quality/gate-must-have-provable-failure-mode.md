@@ -104,7 +104,7 @@ Zielone swiatlo z takiego testu jest gorsze niz brak testu, bo daje falszywa pew
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260720-0920-red-proof-musi-uzbroic-wszystkie-checki|Dźwignia psująca jeden check może wyłączyć drugi - i jego tryb porażki zostaje nieudowodniony]] - wspolne: red-proof, testy, sonda
+- [[20260720-0920-red-proof-musi-uzbroic-wszystkie-checki|Dźwignia psująca jeden check może wyłączyć drugi - i jego tryb porażki zostaje nieudowodniony]] - wspolne: red-proof, sonda, testy
 - [[20260731-0025-sedzia-na-artefaktach-lapie-bledy-wlasnego-narzedzia|Sedzia oceniajacy artefakty lapie bledy w narzedziu, ktore te artefakty produkuje]] - wspolne: metodologia, walidacja, qa
 - [[build-is-the-only-truth-editor-lies|Edytora nie da sie oszukac, zeby udawal build]] - wspolne: metodologia, sonda, qa
 - [[SEDZIA|Sędzia jakości - na czym go zbudowaliśmy]] - wspolne: walidacja, qa

@@ -77,5 +77,5 @@ Zasady:
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260723-2105-twitch-anon-chat-unity|Anonimowy odczyt czatu Twitch w Unity (zero kont, kluczy i kosztow)]] - wspolne: twitch, chat, irc
+- [[20260723-2105-twitch-anon-chat-unity|Anonimowy odczyt czatu Twitch w Unity (zero kont, kluczy i kosztow)]] - wspolne: chat, irc, twitch
 <!-- /POWIAZANE:auto -->

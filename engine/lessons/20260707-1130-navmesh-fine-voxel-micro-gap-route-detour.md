@@ -83,6 +83,6 @@ nie tylko na "jakosci".
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260706-1520-navmesh-raised-collider-invisible-bump|NPC chodza po "niewidzialnych gorkach": bake NavMesh z propsow + za gruby voxel nad niskopoly terenem]] - wspolne: voxelsize, ai-navigation, pathfinding
-- [[20260707-0715-navmesh-decorative-collider-carves-service-line|Dekoracyjny prop z colliderem na linii chodzenia wycina dziure w NavMesh i wypycha NPC do srodka budynku]] - wspolne: ai-navigation, pathfinding, navmeshsurface
+- [[20260706-1520-navmesh-raised-collider-invisible-bump|NPC chodza po "niewidzialnych gorkach": bake NavMesh z propsow + za gruby voxel nad niskopoly terenem]] - wspolne: voxelsize, ai-navigation, navmeshsurface
+- [[20260707-0715-navmesh-decorative-collider-carves-service-line|Dekoracyjny prop z colliderem na linii chodzenia wycina dziure w NavMesh i wypycha NPC do srodka budynku]] - wspolne: ai-navigation, navmeshsurface, pathfinding
 <!-- /POWIAZANE:auto -->

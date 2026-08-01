@@ -58,7 +58,7 @@ Any Blender→Unity re-export iteration loop on static props (machines, furnitur
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[fbx-binary-overwrite-corrupts-bindposes|FBX binary-overwrite under a stale .meta corrupts skinned-mesh bindposes (mesh collapses to T-pose while bones animate)]] - wspolne: meta, guid, fbx
+- [[fbx-binary-overwrite-corrupts-bindposes|FBX binary-overwrite under a stale .meta corrupts skinned-mesh bindposes (mesh collapses to T-pose while bones animate)]] - wspolne: guid, meta, fbx
 - [[20260612-1340-unity-batch-fbx-import-meta-mirroring|Batch FBX import with pre-authored .meta files + prefab build in temp additive scene]] - wspolne: meta, prefab, fbx
 - [[blender-mcp-interactive-remodel-loop|Blender-MCP Interactive Remodel Loop (GUID-Preserving In-Place Replace)]] - wspolne: guid, prefab, fbx
 - [[20260606-1515-fbx-inplace-overwrite-fileid-preservation|Overwriting an FBX in place preserves prefab-variant references only if object NAMES are unchanged]] - wspolne: reimport, fbx

@@ -85,6 +85,6 @@ przesuwaniem.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260706-1520-navmesh-raised-collider-invisible-bump|NPC chodza po "niewidzialnych gorkach": bake NavMesh z propsow + za gruby voxel nad niskopoly terenem]] - wspolne: ai-navigation, pathfinding, navmeshsurface
-- [[20260707-1130-navmesh-fine-voxel-micro-gap-route-detour|Za drobny voxel NavMesh tworzy mikro-dziure, ktora ROZSPAJA trase i wymusza wielki objazd]] - wspolne: ai-navigation, pathfinding, navmeshsurface
+- [[20260706-1520-navmesh-raised-collider-invisible-bump|NPC chodza po "niewidzialnych gorkach": bake NavMesh z propsow + za gruby voxel nad niskopoly terenem]] - wspolne: ai-navigation, navmeshsurface, pathfinding
+- [[20260707-1130-navmesh-fine-voxel-micro-gap-route-detour|Za drobny voxel NavMesh tworzy mikro-dziure, ktora ROZSPAJA trase i wymusza wielki objazd]] - wspolne: ai-navigation, navmeshsurface, pathfinding
 <!-- /POWIAZANE:auto -->

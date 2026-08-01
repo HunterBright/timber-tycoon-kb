@@ -51,5 +51,5 @@ Zapis wynikowych plików: `[System.IO.File]::WriteAllText($p, $txt, (New-Object 
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260722-1610-powershell51-ansi-mangles-utf8-assets|Skrypt PowerShell 5.1 psuje polskie znaki przy masowej edycji plików assetów]] - wspolne: utf-8, batch-edit, encoding
+- [[20260722-1610-powershell51-ansi-mangles-utf8-assets|Skrypt PowerShell 5.1 psuje polskie znaki przy masowej edycji plików assetów]] - wspolne: batch-edit, utf-8, encoding
 <!-- /POWIAZANE:auto -->

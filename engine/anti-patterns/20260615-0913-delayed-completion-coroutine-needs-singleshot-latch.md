@@ -102,6 +102,6 @@ logs.
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
 - [[20260614-1343-singleton-oneshot-flag-bleed|One-shot input flag on a persistent singleton bleeds across re-entries]] - wspolne: state-management, input, minigame
-- [[20260717-1100-presave-flush-for-world-automation|Pre-save flush dla systemow automatyzacji mutujacych zapisywany swiat]] - wspolne: race-condition, coroutine
+- [[20260717-1100-presave-flush-for-world-automation|Pre-save flush dla systemow automatyzacji mutujacych zapisywany swiat]] - wspolne: coroutine, race-condition
 - [[20260724-1817-diegetic-button-overlap-steal|Powiekszone collidery klikania ciasnych guzikow 3D + wybor "pierwsze trafione pudelko" = sasiad kradnie klik]] - wspolne: input, minigame
 <!-- /POWIAZANE:auto -->

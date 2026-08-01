@@ -53,8 +53,8 @@ See also: [[before-delete-legacy-class-checklist]], [[migration-pattern-rollback
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[migration-pattern-rollback-safety|Backend Migration Pattern with Rollback Safety]] - wspolne: migration, refactoring
 - [[before-delete-legacy-class-checklist|Before-Delete Legacy Class Checklist]] - wspolne: technical-debt, refactoring
+- [[migration-pattern-rollback-safety|Backend Migration Pattern with Rollback Safety]] - wspolne: migration, refactoring
 - [[universal-cleanup-post-migration|Universal Cleanup Post-Migration]] - wspolne: migration, technical-debt
 - [[legacy-code-conflict-after-refactor|ANTI-PATTERN: Legacy Code Conflict After Refactor]] - wspolne: technical-debt, refactoring
 <!-- /POWIAZANE:auto -->

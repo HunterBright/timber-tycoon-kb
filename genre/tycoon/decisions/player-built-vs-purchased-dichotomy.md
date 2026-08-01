@@ -71,7 +71,7 @@ See also: [[building-progression-instant-spawn]], [[debris-cleanup-single-click-
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[building-progression-instant-spawn|Building Progression - Instant Spawn Post-Purchase]] - wspolne: building, game-design
 - [[ui-phase-4-catalog|UI Phase 4 Catalog (12 Systems)]] - wspolne: scope, game-design
 - [[vfx-wycofane-decision|VFX Wycofane - Sawdust, Kurz, Liście Cut from MVP]] - wspolne: scope, game-design
-- [[building-progression-instant-spawn|Building Progression - Instant Spawn Post-Purchase]] - wspolne: building, game-design
 <!-- /POWIAZANE:auto -->

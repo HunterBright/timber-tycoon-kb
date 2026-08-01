@@ -75,6 +75,6 @@ jest obowiązkowa, bo recenzja diffa jej nie zastąpi.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260624-0702-powershell5-ps1-ansi-unicode-data-file|Windows PowerShell 5.1 czyta `.ps1` jako ANSI - literały Unicode w skrypcie się sypią]] - wspolne: utf-8, batch-edit, encoding
+- [[20260624-0702-powershell5-ps1-ansi-unicode-data-file|Windows PowerShell 5.1 czyta `.ps1` jako ANSI - literały Unicode w skrypcie się sypią]] - wspolne: batch-edit, utf-8, encoding
 - [[20260726-1415-powershell-nie-czeka-na-unity-batchmode|PowerShell nie czeka na Unity.exe ani na exe gry - kontrola swiezosci builda strzela za wczesnie]] - wspolne: powershell, automation
 <!-- /POWIAZANE:auto -->

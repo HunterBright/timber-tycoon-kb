@@ -80,5 +80,5 @@ ogólnym wzorcem odporności bootstrapu UI.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260722-1130-canvas-addcomponent-kills-buildui-silently|AddComponent<Canvas> dokłada RectTransform - kolejny AddComponent<RectTransform> rzuca wyjątkiem i po cichu urywa budowę UI w Awake]] - wspolne: recttransform, addcomponent, awake
+- [[20260722-1130-canvas-addcomponent-kills-buildui-silently|AddComponent<Canvas> dokłada RectTransform - kolejny AddComponent<RectTransform> rzuca wyjątkiem i po cichu urywa budowę UI w Awake]] - wspolne: addcomponent, recttransform, awake
 <!-- /POWIAZANE:auto -->

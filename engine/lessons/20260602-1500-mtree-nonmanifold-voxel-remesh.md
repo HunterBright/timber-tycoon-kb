@@ -77,7 +77,7 @@ general escape hatch.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260602-1730-mtree-crown-shape-crashes-native-core|MTree (modular_tree) crown_shape crashes the native C++ core - use a Ramp node into Length instead]] - wspolne: mtree, modular-tree, blender
+- [[20260602-1730-mtree-crown-shape-crashes-native-core|MTree (modular_tree) crown_shape crashes the native C++ core - use a Ramp node into Length instead]] - wspolne: modular-tree, mtree, blender
 - [[tripo-asymmetric-floating-retopo|Tripo Asymmetric / Floating Elements - Blender Retopo]] - wspolne: retopo, blender
 - [[tripo-cleanup-pipeline|Tripo Cleanup Pipeline]] - wspolne: retopo, blender
 - [[20260719-2015-ai-gen-model-geometry-debt|Modele generowane przez AI (Tripo/Hunyuan): dług geometryczny - czasem taniej zbudować od zera]] - wspolne: non-manifold, blender

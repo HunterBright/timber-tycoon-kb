@@ -75,7 +75,7 @@ nie uruchamiala pelnej procedury.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[SEDZIA|Sędzia jakości - na czym go zbudowaliśmy]] - wspolne: sedzia, artefakty, walidacja
+- [[SEDZIA|Sędzia jakości - na czym go zbudowaliśmy]] - wspolne: artefakty, sedzia, walidacja
 - [[gate-must-have-provable-failure-mode|Bramka bez udowodnionego trybu porazki niczego nie pilnuje]] - wspolne: metodologia, walidacja, qa
 - [[build-is-the-only-truth-editor-lies|Edytora nie da sie oszukac, zeby udawal build]] - wspolne: metodologia, qa
 <!-- /POWIAZANE:auto -->

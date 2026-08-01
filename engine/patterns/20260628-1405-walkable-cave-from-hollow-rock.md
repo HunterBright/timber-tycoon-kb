@@ -76,9 +76,9 @@ triplanar material makes the flat floor blend into the faceted walls.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[cliff-waterfall-hidden-cave|Cliff + Waterfall Hidden Cave Pattern]] - wspolne: cave, level-design
 - [[20260612-0630-mountain-ring-escape-audit|Programmatic escape audit for mountain-ring map boundaries]] - wspolne: map-boundary, level-design
 - [[20260622-0950-unity-map-boundary-from-bounds|Invisible map boundary from live Renderer.bounds + foot-only gap via IgnoreCollision]] - wspolne: map-boundary, level-design
+- [[cliff-waterfall-hidden-cave|Cliff + Waterfall Hidden Cave Pattern]] - wspolne: cave, level-design
 - [[separate-objects-mapping-rule|Separate-Objects Mapping Rule (Heightmap Limitations)]] - wspolne: cave, level-design
 - [[20260722-2050-unstuck-nearest-valid-ground-ring-search|Unstuck / reset: szukaj najbliższego POPRAWNEGO gruntu zamiast teleportu do bazy]] - wspolne: level-design, raycast
 - [[mesh-collider-convex-for-clickable-minigame-objects|Convex MeshCollider for Irregular Clickable Objects]] - wspolne: meshcollider, raycast
