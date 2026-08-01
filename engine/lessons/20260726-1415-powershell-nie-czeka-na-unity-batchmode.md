@@ -114,6 +114,7 @@ melduje sukces, mierzac stan sprzed swojej wlasnej pracy.
 - [[20260714-2245-unity-batchmode-returns-before-build-finishes|Unity w trybie wsadowym WRACA, zanim build się skończy - i sonda daje fałszywe zielone światło]] - wspolne: batchmode, ci, false-green
 - [[20260719-1210-unity-build-freshness-check-dll-not-exe|Świeżość builda Unity sprawdzaj po DLL z kodem gry, nie po .exe]] - wspolne: batchmode, powershell, build
 - [[20260713-1900-build-early-never-built-project-hides-editor-only-bugs|Projekt, który nigdy nie był budowany, hoduje całą klasę uśpionych błędów]] - wspolne: ci, build
+- [[20260801-0945-funkcja-powershell-zwraca-wszystko-wiec-bramka-zawsze-przechodzi|Funkcja PowerShella zwraca WSZYSTKO, wiec sprawdzenie jej wyniku zawsze wychodzi na prawde]] - wspolne: powershell, false-green
 - [[20260722-1610-powershell51-ansi-mangles-utf8-assets|Skrypt PowerShell 5.1 psuje polskie znaki przy masowej edycji plików assetów]] - wspolne: powershell, automation
 - [[20260724-1545-unity-photoshoot-mode-cmdline|Tryb "fotograf" w buildzie: marketingowe screenshoty bez Edytora]] - wspolne: automation, build
 <!-- /POWIAZANE:auto -->

@@ -70,5 +70,5 @@ być poprawne, a przypisania puste.
 - [[20260606-0930-baked-atlas-texture-foreign-uvs|Don't apply a baked-atlas texture to a mesh whose UVs were authored for a different atlas]] - wspolne: materials, blender
 - [[20260704-1322-blender-file-image-scale-bake-revert|Blender: image.scale() na file-backed image nie trzyma się podczas bake - użyj images.new()]] - wspolne: gotcha, blender
 - [[20260725-1930-blender-pixels-buffer-not-converted-to-srgb-on-png-save|Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG]] - wspolne: python, blender
-- [[20260726-1535-blender-addon-parametryczny-suwaki|Parametryczny dodatek do Blendera: trzy pulapki, ktore kosztuja godzine kazda]] - wspolne: python, blender
+- [[20260728-0915-fbx-skala-100-w-dzieciach-psuje-pomiary|FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu]] - wspolne: mesh, blender
 <!-- /POWIAZANE:auto -->
