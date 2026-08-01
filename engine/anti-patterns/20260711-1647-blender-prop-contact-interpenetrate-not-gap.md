@@ -66,5 +66,5 @@ iteracja 2 po feedbacku Huntera. Wszystkie poprawki = zamiana szczelin na przeni
 - [[cylindric-beams-visual-contrast|Cylindric vs Rectangular Beams for Visual Contrast]] - wspolne: modeling, low-poly, blender
 - [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: modeling, low-poly, blender
 - [[20260717-1115-style-match-real-assets-not-description|Anti-pattern: dopasowywanie stylu do OPISU stylu zamiast do prawdziwych assetów z gry]] - wspolne: qa, blender
-- [[20260720-0915-loft-nie-da-plaskiej-szyby|Malowanie szyby kolorem na powierzchni z loftu nigdy nie da płaskiej tafli]] - wspolne: low-poly, blender
+- [[20260612-1530-fix-baked-solidify-wrong-direction|Fixing a baked-in Solidify applied in the wrong direction]] - wspolne: modeling, blender
 <!-- /POWIAZANE:auto -->

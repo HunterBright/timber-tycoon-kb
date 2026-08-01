@@ -122,3 +122,13 @@ Dlatego warto zapisywac historie edycji jako dowod wkladu tworczego.
 
 - [[MAPA-LOW-POLY]]
 - [[STAN-RYNKU]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260801-0825-licencja-marki-nie-jest-licencja-produktu|Licencja marki nie jest licencja produktu]] - wspolne: ue, licencje
+- [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue|TRELLIS.2 jako generator 3D bez blokady licencyjnej w UE]] - wspolne: ue, licencje
+- [[20260725-0625-ai-model-community-license-excludes-eu|Nie stawiaj pipeline'u assetow na modelu AI z licencja "Community", nie czytajac pierwszej linii LICENSE]] - wspolne: prawo, licencje
+<!-- /POWIAZANE:auto -->

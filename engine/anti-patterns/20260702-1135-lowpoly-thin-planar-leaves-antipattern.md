@@ -48,6 +48,6 @@ oglądu z co najmniej dwóch kątów.
 - [[cylindric-beams-visual-contrast|Cylindric vs Rectangular Beams for Visual Contrast]] - wspolne: modeling, low-poly, blender
 - [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: modeling, low-poly, blender
 - [[20260623-1508-instanced-grass-cards|Performant stylized grass: textured cards + GPU instancing (no GameObjects)]] - wspolne: foliage, low-poly
-- [[20260720-0915-loft-nie-da-plaskiej-szyby|Malowanie szyby kolorem na powierzchni z loftu nigdy nie da płaskiej tafli]] - wspolne: low-poly, blender
 - [[20260612-1530-fix-baked-solidify-wrong-direction|Fixing a baked-in Solidify applied in the wrong direction]] - wspolne: modeling, blender
+- [[zero-floating-zero-flickering-mandate|ZERO Floating / ZERO Flickering Mandate]] - wspolne: modeling, blender
 <!-- /POWIAZANE:auto -->

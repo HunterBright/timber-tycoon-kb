@@ -62,6 +62,6 @@ mocna poszlaka wspólnego eksportu, ale rozstrzyga sygnatura.
 - [[river-mesh-semi-ellipse-cross-section|River Mesh Semi-Elliptical Cross-Section]] - wspolne: mesh, blender
 - [[20260612-1200-eevee-shadow-acne-wavy-lines|Wavy dark lines in EEVEE preview renders = shadow acne, not geometry]] - wspolne: rendering, blender
 - [[20260531-0934-tripo-polygon-soup-inverted-winding-fix|Tripo / AI-generated meshes import as "polygon soup" - see-through holes under single-sided rendering are a winding problem caused by UNWELDED verts, not interior faces]] - wspolne: normals, blender
-- [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue|TRELLIS.2 jako generator 3D bez blokady licencyjnej w UE]] - wspolne: pipeline, blender
-- [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: pipeline, blender
+- [[20260730-1710-blender-materials-clear-resets-face-indices|Mesh.materials.clear() zeruje material_index na ściankach]] - wspolne: mesh, blender
+- [[20260728-0915-fbx-skala-100-w-dzieciach-psuje-pomiary|FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu]] - wspolne: mesh, blender
 <!-- /POWIAZANE:auto -->

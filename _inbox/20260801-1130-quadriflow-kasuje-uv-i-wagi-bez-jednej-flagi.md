@@ -100,3 +100,16 @@ kazdego modelu.
 
 - [[MAPA-PIPELINE-BLENDER-UNITY]]
 - [[MAPA-LOW-POLY]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue|TRELLIS.2 jako generator 3D bez blokady licencyjnej w UE]] - wspolne: pipeline, low-poly, blender
+- [[20260725-1830-plaskie-tekstury-z-plam-referencji|Plaskie tekstury dla modelu z generatora 3D: tozsamosc elementu bierz z REFERENCJI, nie z koloru]] - wspolne: retopologia, blender
+- [[20260731-1050-rowne-krawedzie-ubran-bisect-plane|20260731-1050-rowne-krawedzie-ubran-bisect-plane]] - wspolne: low-poly, blender
+- [[20260719-1605-mesh-seethrough-audit-pattern|Wzorzec audytu prześwitów w siatkach: render 3-przebiegowy > heurystyki geometryczne]] - wspolne: pipeline, blender
+- [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: pipeline, blender
+- [[blender-mcp-interactive-remodel-loop|Blender-MCP Interactive Remodel Loop (GUID-Preserving In-Place Replace)]] - wspolne: pipeline, blender
+<!-- /POWIAZANE:auto -->

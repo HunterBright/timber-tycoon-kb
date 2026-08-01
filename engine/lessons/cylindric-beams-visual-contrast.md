@@ -56,6 +56,6 @@ Visual contrast principle applies to any architectural modeling: differentiate s
 - [[20260702-1135-lowpoly-thin-planar-leaves-antipattern|Anty-pattern: cienkie płaskie „soczewki" jako liście low-poly]] - wspolne: modeling, low-poly, blender
 - [[20260711-1647-blender-prop-contact-interpenetrate-not-gap|Anty-wzorzec: szczeliny powietrza jako ochrona przed z-fightingiem (lewitujące propy)]] - wspolne: modeling, low-poly, blender
 - [[zero-floating-zero-flickering-mandate|ZERO Floating / ZERO Flickering Mandate]] - wspolne: modeling, blender
+- [[20260612-1530-fix-baked-solidify-wrong-direction|Fixing a baked-in Solidify applied in the wrong direction]] - wspolne: modeling, blender
 - [[20260602-1500-mtree-nonmanifold-voxel-remesh|Reducing MTree (Modular Tree) meshes to low-poly: Decimate & Quadriflow refuse, Voxel remesh works]] - wspolne: low-poly, blender
-- [[20260702-1130-blender-review-render-color-fidelity|Rendery kontrolne do akceptacji kolorów: wyłącz AgX, użyj view transform „Standard"]] - wspolne: low-poly, blender
 <!-- /POWIAZANE:auto -->
