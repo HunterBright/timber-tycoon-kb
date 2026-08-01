@@ -1,8 +1,8 @@
 ---
-title: Forward Axis = -transform.right (Blender FBX Quirk)
+title: Nasze auta maja przod wzdluz osi bocznej - to nie jest wina eksportu FBX
 type: lesson
-status: needs-reproduction
-confidence: low
+status: verified
+confidence: high
 verified: '2026-08-01'
 date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
@@ -16,7 +16,7 @@ tags:
 applies_to:
 - unity-projects
 - blender-pipelines
-source: ''
+source: 'kod eksportera Blendera io_scene_fbx + bpy_extras.io_utils.axis_conversion, weryfikacja 2026-08-01'
 severity: high
 time_lost: multiple debugging sessions
 suggested-category: engine/lessons
@@ -77,3 +77,29 @@ Any Blender-authored vehicle, character, or directional prop exported via FBX wi
 - [[20260713-1030-verify-in-target-engine-not-source-tool|Weryfikuj asset w silniku DOCELOWYM, nie w narzędziu źródłowym]] - wspolne: fbx, blender
 - [[20260728-0915-fbx-skala-100-w-dzieciach-psuje-pomiary|FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu]] - wspolne: fbx, blender
 <!-- /POWIAZANE:auto -->
+
+---
+
+## SPROSTOWANIE 2026-08-01 (weryfikacja zrodlem)
+
+**Objaw opisany wyzej jest prawdziwy. Podana przyczyna byla falszywa.**
+
+Ten wpis twierdzil, ze wine ponosi eksport FBX z Blendera. Sprawdzenie w kodzie
+eksportera (`io_scene_fbx` + `bpy_extras.io_utils.axis_conversion`) pokazuje,
+ze przeliczenie osi to **obrot wokol osi bok-bok** z ukladu gora=Z, przod=Y
+na uklad gora=Y, przod=-Z. Taki obrot **nie rusza osi bocznej**: co w Blenderze
+bylo w bok, w Unity dalej jest w bok. Eksport fizycznie nie moze zamienic
+"przodu" na "bok".
+
+**Prawdziwa przyczyna:** nasze modele aut zostaly narysowane w Blenderze
+dziobem wzdluz osi bocznej.
+
+**Co z tego wynika praktycznie.** Obejscie `ForwardAxis => -transform.right`
+dziala dla ISTNIEJACYCH modeli i zostaje. Ale zdanie "kazdy pojazd z Blendera
+bedzie mial ten problem" bylo grozne: **model narysowany poprawnie pojedzie
+bokiem wlasnie przez ta poprawke.**
+
+Zasada na przyszlosc: **przy kazdym nowym modelu sprawdz kierunek, nie zakladaj.**
+
+Zrodla: [eksporter FBX Blendera](https://github.com/blender/blender/blob/main/scripts/addons_core/io_scene_fbx/__init__.py),
+[axis_conversion](https://github.com/blender/blender/blob/main/scripts/modules/bpy_extras/io_utils.py)

@@ -58,7 +58,7 @@ zanim się zrozumie, że to wybór ściany przez flip osi.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[forward-axis-blender-fbx-quirk|Forward Axis = -transform.right (Blender FBX Quirk)]] - wspolne: forward-axis, fbx, blender
+- [[forward-axis-blender-fbx-quirk|Nasze auta maja przod wzdluz osi bocznej - to nie jest wina eksportu FBX]] - wspolne: forward-axis, fbx, blender
 - [[20260702-1400-bark-atlas-vs-tile-strategy|Rodzina assetów współdzieląca teksturę: wybierz strategię (atlas vs kafel) PRZED budową]] - wspolne: uv, low-poly, blender
 - [[20260704-1322-blender-file-image-scale-bake-revert|Blender: image.scale() na file-backed image nie trzyma się podczas bake - użyj images.new()]] - wspolne: texture, blender
 - [[20260725-1930-blender-pixels-buffer-not-converted-to-srgb-on-png-save|Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG]] - wspolne: texture, blender
