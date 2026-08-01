@@ -1,9 +1,9 @@
 ---
 title: Forward Axis = -transform.right (Blender FBX Quirk)
 type: lesson
-status: draft
-confidence: medium
-verified: ''
+status: needs-reproduction
+confidence: low
+verified: '2026-08-01'
 date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -50,6 +50,15 @@ Using `transform.forward` directly - car drives sideways.
 
 ## Transferability
 Any Blender-authored vehicle, character, or directional prop exported via FBX will have this quirk unless the Blender artist explicitly rotates the root object 90° in Y before export. Document this as a project convention; every new vehicle developer needs to know.
+
+> **Weryfikacja 2026-08-01: objaw prawdziwy, ale podana przyczyna jest sprzeczna ze zrodlem.**
+> Eksporter FBX Blendera liczy przeliczenie osi jako `axis_conversion(from_forward='Y',
+> from_up='Z', to_forward='-Z', to_up='Y')`, czyli obrot wokol osi X - os boczna jest
+> niezmiennikiem tego obrotu, wiec eksport nie moze zamienic osi "do przodu" na boczna;
+> przod modelu musi byc narysowany wzdluz osi X juz w Blenderze
+> ([kod eksportera](https://github.com/blender/blender/blob/main/scripts/addons_core/io_scene_fbx/__init__.py),
+> [axis_conversion](https://github.com/blender/blender/blob/main/scripts/modules/bpy_extras/io_utils.py)).
+> Wniosek "kazdy pojazd z Blendera bedzie mial ten problem" nie ma podstaw.
 
 ## Related
 - [FBX export standard settings](fbx-export-standard-settings-blender-to-unity.md)

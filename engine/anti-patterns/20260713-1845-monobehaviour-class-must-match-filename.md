@@ -1,9 +1,9 @@
 ---
 title: Klasa MonoBehaviour dołożona przez AddComponent MUSI leżeć w pliku o swojej nazwie - inaczej scena psuje build
 type: anti-pattern
-status: active
-confidence: medium
-verified: ''
+status: verified
+confidence: high
+verified: '2026-08-01'
 date: '2026-07-13'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -16,7 +16,7 @@ tags:
 - build-crash
 applies_to:
 - unity
-source: ''
+source: 'https://docs.unity3d.com/6000.3/Documentation/Manual/naming-scripts.html'
 severity: critical
 time_lost: ~2h (crash buildu -> sekcja zwlok obiektu -> odtworzenie)
 promoted: '2026-07-30'

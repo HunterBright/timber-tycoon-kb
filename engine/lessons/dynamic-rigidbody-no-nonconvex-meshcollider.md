@@ -1,9 +1,9 @@
 ---
 title: Dynamic Rigidbody → Primitive or Convex Collider, Never Non-Convex Mesh
 type: lesson
-status: draft
-confidence: medium
-verified: ''
+status: verified
+confidence: high
+verified: '2026-08-01'
 date: '2026-05-28'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -13,7 +13,7 @@ tags:
 - meshcollider
 - collider
 applies_to: []
-source: ''
+source: 'https://docs.unity3d.com/6000.3/Documentation/Manual/rigidbody-configure-colliders.html'
 severity: high
 suggested-category: engine/lessons
 ---

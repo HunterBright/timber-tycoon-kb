@@ -1,9 +1,9 @@
 ---
 title: CapsuleCollider Direction Axis Cheatsheet
 type: lesson
-status: draft
-confidence: medium
-verified: ''
+status: verified
+confidence: high
+verified: '2026-08-01'
 date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -14,7 +14,7 @@ tags:
 - axis
 applies_to:
 - unity-projects
-source: ''
+source: 'https://docs.unity3d.com/6000.3/Documentation/ScriptReference/CapsuleCollider-direction.html (przypisanie 0/1/2 do X/Y/Z potwierdzone; wartosc domyslna 1 NIE jest tam podana)'
 severity: medium
 suggested-category: engine/lessons
 time_lost: ''

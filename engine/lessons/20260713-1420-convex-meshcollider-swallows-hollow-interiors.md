@@ -1,9 +1,9 @@
 ---
 title: Convex MeshCollider na skorupie połyka jej wnętrze - promienie nigdy nie trafią w części w środku
 type: lesson
-status: active
-confidence: medium
-verified: ''
+status: verified
+confidence: high
+verified: '2026-08-01'
 date: '2026-07-13'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -15,7 +15,7 @@ tags:
 - minigame
 applies_to:
 - unity
-source: ''
+source: 'https://docs.unity3d.com/6000.3/Documentation/ScriptReference/MeshCollider-convex.html'
 severity: high
 time_lost: playtest + ~2h diagnozy
 promoted: '2026-07-30'

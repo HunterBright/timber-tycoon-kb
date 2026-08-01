@@ -1,9 +1,9 @@
 ---
 title: Nie stawiaj pipeline'u assetow na modelu AI z licencja "Community", nie czytajac pierwszej linii LICENSE
 type: anti-pattern
-status: active
-confidence: medium
-verified: ''
+status: verified
+confidence: high
+verified: '2026-08-01'
 date: '2026-07-25'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -14,7 +14,7 @@ tags:
 - steam
 - prawo
 applies_to: []
-source: ''
+source: 'https://huggingface.co/tencent/Hunyuan3D-2/raw/main/LICENSE'
 promoted: '2026-07-30'
 ---
 

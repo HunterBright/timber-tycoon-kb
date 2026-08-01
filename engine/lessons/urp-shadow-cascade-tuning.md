@@ -1,9 +1,9 @@
 ---
 title: URP Shadow Cascade Tuning for Low-Poly Terrain
 type: lesson
-status: draft
-confidence: medium
-verified: ''
+status: needs-reproduction
+confidence: low
+verified: '2026-08-01'
 date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -42,6 +42,14 @@ Default settings (4 cascades, 50m) - visible artifact lines across roads.
 
 ## Transferability
 Any URP project with flat or gently sloping terrain (racing, farming sim, city builder, tycoon, walking sim) will benefit from 2-cascade tuning. 4 cascades are designed for games with complex height variation; flat terrain amplifies cascade boundary artifacts.
+
+> **Weryfikacja 2026-08-01: podane wartosci domyslne sa sprzeczne ze zrodlem.**
+> W kodzie zasobu URP domyslnie `m_ShadowCascadeCount = 1` (nie 4) i `m_CascadeBorder = 0.2`
+> (nie 4); zgadza sie tylko `m_ShadowDistance = 50`. Dokumentacja opisuje "Last Border"
+> jako szerokosc pasa wygaszania cienia przy koncu zasiegu, a nie granice miedzy kaskadami
+> ([kod zasobu URP](https://github.com/Unity-Technologies/Graphics/blob/master/Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs),
+> [opis zasobu URP](https://docs.unity3d.com/6000.3/Documentation/Manual/urp/universalrp-asset.html)).
+> Wartosc 4 pochodzi prawdopodobnie z gotowego szablonu projektu URP, nie z ustawienia domyslnego.
 
 ## Related
 - [4-phase weighted smoothstep day/night](../patterns/four-phase-weighted-smoothstep-day-night.md)

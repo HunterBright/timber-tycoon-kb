@@ -1,9 +1,9 @@
 ---
 title: Operator `?.` NIE chroni referencji Unity - brakujący asset SO wybucha NRE w środku kanału eventowego
 type: anti-pattern
-status: active
-confidence: medium
-verified: ''
+status: verified
+confidence: high
+verified: '2026-08-01'
 date: '2026-07-02'
 project: Timber_Tycoon
 tags:
@@ -15,7 +15,7 @@ tags:
 - nre
 - missing-asset
 applies_to: []
-source: ''
+source: 'https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0008.md'
 promoted: '2026-07-30'
 ---
 

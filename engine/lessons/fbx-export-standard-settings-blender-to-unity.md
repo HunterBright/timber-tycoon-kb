@@ -68,6 +68,14 @@ Various combinations of axis settings without `FBX_SCALE_ALL` produce scale=100 
 ## Transferability
 These 7 settings are the standard Blender → Unity FBX baseline. Any project using this pipeline should lock these settings and never deviate unless there's a documented reason.
 
+> **Weryfikacja 2026-08-01: zrodlo ostrzega przed jednym ustawieniem z tej listy.**
+> Blender opisuje `bake_space_transform` w kodzie eksportera doslownie jako
+> "WARNING! experimental option, use at own risk, known to be broken with
+> armatures/animations" i ma je domyslnie **wylaczone**; nasz standard wlacza je
+> bezwarunkowo, mimo ze wpis [[20260629-1145-blender-empties-bake-space-transform-double-axis]]
+> juz wykazal, ze przy hierarchii z pustymi obiektami trzeba je wylaczyc
+> ([kod eksportera FBX](https://github.com/blender/blender/blob/main/scripts/addons_core/io_scene_fbx/__init__.py)).
+
 ## Related
 - [bake_space_transform rotation bug](bake-space-transform-linked-duplicates-rotation-bug.md)
 - [Procedural textures must be baked](procedural-textures-need-bake.md)

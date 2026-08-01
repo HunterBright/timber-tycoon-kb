@@ -53,6 +53,23 @@ nie tylko techniczna.
 - **Jakość siatki jest deklaracją, nie faktem.** Opisy "topologia w większości
   czworokątna, około 50 tys. trójkątów, gotowe pod rigowanie" pochodzą ze stron
   promujących narzędzie. Niezależnego testu brak.
+- **Sprostowanie z 2026-08-01, wieczór: to była nie tylko niezweryfikowana
+  deklaracja, ale wprost nieprawda.** Karta modelu samego Microsoftu mówi
+  o *"arbitrary topology, non-manifold geometry"*, czyli o czymś przeciwnym niż
+  "topologia w większości czworokątna". Ta druga fraza pochodzi ze stron
+  trzecich promujących narzędzie. Wszystkie generatory oparte na polach ukrytych
+  (TRELLIS, Hunyuan3D, TripoSG, Step1X-3D, Direct3D, InstantMesh) dają
+  **trójkątną zupę bez pętli krawędzi**. Przyznaje to praca przeglądowa, której
+  współautorem jest szef zespołu Hunyuan3D: *"Geometry generation often produces
+  dense triangle soups with irregular connectivity"*.
+  Wniosek praktyczny: **krok retopologii jest obowiązkowy przy każdym z nich**,
+  a nie tylko przy tych gorszych. Źródło:
+  https://huggingface.co/microsoft/TRELLIS.2-4B oraz https://arxiv.org/html/2604.23629v2
+- **Pułapka licencyjna wykryta 2026-08-01:** TRELLIS.2 opcjonalnie instaluje
+  podmoduły `nvdiffrast` i `nvdiffrec`, których licencja **nie jest MIT, tylko
+  niekomercyjna**. Służą wyłącznie do podglądu, nie do generowania siatki.
+  Do zastosowań komercyjnych po prostu ich nie instalować. Gotowe paczki
+  ComfyUI dołączają je domyślnie.
 - 50 tys. trójkątów to **nie jest low poly**. Krok redukcji jest obowiązkowy,
   nie opcjonalny.
 - Model wydany w grudniu 2025 - dojrzały, ale nie najnowszy. Warto sprawdzać,

@@ -15,7 +15,7 @@ tags:
 - physics
 applies_to:
 - unity
-source: ''
+source: 'https://docs.unity3d.com/6000.3/Documentation/ScriptReference/Mesh-isReadable.html (weryfikacja 2026-08-01: dokumentacja potwierdza mechanizm - przy isReadable=false Unity usuwa siatke z pamieci procesora, a odczyt jej danych rzuca blad - ale NIE opisuje wprost przypadku collidera dokladanego w runtime; do odtworzenia u nas)'
 severity: high
 time_lost: 0 (złapane w recenzji przed buildem)
 promoted: '2026-07-30'
