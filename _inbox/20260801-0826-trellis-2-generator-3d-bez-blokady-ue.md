@@ -27,7 +27,7 @@ który przechodzi obie bramki naraz: działa lokalnie i ma czyste MIT.
 ## Kroki
 
 1. **Zweryfikuj licencję u źródła**, zanim cokolwiek pobierzesz - zgodnie
-   z [[licencja-marki-nie-jest-licencja-produktu]].
+   z [[20260801-0825-licencja-marki-nie-jest-licencja-produktu]].
    Sprawdzone 2026-08-01: `microsoft/TRELLIS.2/LICENSE` to czyste MIT,
    bez klauzul o zakresie użycia i bez ograniczeń terytorialnych.
 2. Pobierz wagi lokalnie (4 mld parametrów,
@@ -79,7 +79,7 @@ w sprawdzony wzorzec albo skreśla go w całości. Do tego czasu
 `confidence: medium` jest uczciwe.
 
 ## Powiązane
-- [[licencja-marki-nie-jest-licencja-produktu]]
+- [[20260801-0825-licencja-marki-nie-jest-licencja-produktu]]
 - [[MAPA-LOW-POLY]]
 - [[MAPA-PIPELINE-BLENDER-UNITY]]
 

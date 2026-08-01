@@ -95,7 +95,7 @@ o tę pomyłkę.
 
 ## Powiązane
 - [[MAPA-LOW-POLY]]
-- [[trellis-2-generator-3d-bez-blokady-ue]]
+- [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue]]
 
 <!-- POWIAZANE:auto -->
 ## Powiazane
