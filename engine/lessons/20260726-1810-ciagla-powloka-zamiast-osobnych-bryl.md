@@ -83,3 +83,16 @@ wystarczyly, zeby postawic diagnoze wszystkich trzech uwag naraz:
 Gdy krytyka dotyczy MIEJSCA STYKU dwoch czesci, sprawdz najpierw, czy te czesci sa
 w ogole jedna powierzchnia. Jesli nie, zadna korekta polozenia nie pomoze i cala
 runda poprawek pojdzie w bloto.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-1309-naprawiony-suwak-uniewaznia-strojenie|Naprawa suwaka, ktory po cichu klamal, uniewaznia CALE wczesniejsze strojenie]] - wspolne: proceduralne, blender
+- [[20260731-2200-slepa-dzwignia-debugger-bramek|20260731-2200-slepa-dzwignia-debugger-bramek]] - wspolne: proceduralne, blender
+- [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: proceduralne, blender
+- [[20260602-1500-mtree-nonmanifold-voxel-remesh|Reducing MTree (Modular Tree) meshes to low-poly: Decimate & Quadriflow refuse, Voxel remesh works]] - wspolne: low-poly, blender
+- [[20260702-1130-blender-review-render-color-fidelity|Rendery kontrolne do akceptacji kolorów: wyłącz AgX, użyj view transform „Standard"]] - wspolne: low-poly, blender
+- [[20260702-1400-bark-atlas-vs-tile-strategy|Rodzina assetów współdzieląca teksturę: wybierz strategię (atlas vs kafel) PRZED budową]] - wspolne: low-poly, blender
+<!-- /POWIAZANE:auto -->

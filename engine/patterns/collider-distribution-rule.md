@@ -8,7 +8,7 @@ date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
 - unity
-- colliders
+- collider
 - performance
 - architecture
 - level-design
@@ -67,3 +67,11 @@ Physics engine iterates all colliders in the broad-phase per frame. Fewer collid
 - **Trigger zones:** doorways with Trigger colliders for zone detection (entering sawmill triggers ambient change, etc.)
 
 See also: [[architectural-naming-convention]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260622-0950-unity-map-boundary-from-bounds|Invisible map boundary from live Renderer.bounds + foot-only gap via IgnoreCollision]] - wspolne: level-design, collider
+<!-- /POWIAZANE:auto -->

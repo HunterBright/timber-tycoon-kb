@@ -36,3 +36,13 @@ Scene state = sandbox in Play Mode. Asset state (SO, materials, meshes) = live a
 
 ## See also
 [[unity-runtime-writes-to-shared-material-asset]], [[playmode-asset-pollution-vs-disk]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260712-1925-unity-so-asset-overrides-initializers|ScriptableObject .asset serializuje wartosci i WYGRYWA nad inicjalizatorami pol w C#]] - wspolne: gotcha, scriptableobject
+- [[20260611-2055-editor-playmode-test-harness-quirks|Editor-driven Play Mode test automation - three engine quirks that break naive harnesses]] - wspolne: play-mode, testing
+- [[20260710-2250-unity-autonomous-smoke-runner-flag-file|Autonomiczny runner smoke testów w Unity: plik-flaga + plik wyników]] - wspolne: play-mode, testing
+<!-- /POWIAZANE:auto -->

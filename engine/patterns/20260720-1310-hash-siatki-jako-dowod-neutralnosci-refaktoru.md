@@ -90,3 +90,13 @@ ktore nie maja czego regresowac. Stary wariant zostaje przy literalach.
 
 - [[20260720-1306-walidator-spelniony-przez-konstrukcje]] - hash odpowiada "czy sie zmienilo", walidatory
   odpowiadaja "czy jest poprawne". Potrzebne oba; hash nie zastapi walidatorow.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260713-1030-verify-in-target-engine-not-source-tool|Weryfikuj asset w silniku DOCELOWYM, nie w narzędziu źródłowym]] - wspolne: asset-pipeline, blender
+- [[20260725-2050-kontrakt-liczbowy-bez-nazw-osi|Wspolny kontrakt liczbowy dla kilku agentow, ktory nie nazywa osi]] - wspolne: asset-pipeline, blender
+- [[20260717-1115-style-match-real-assets-not-description|Anti-pattern: dopasowywanie stylu do OPISU stylu zamiast do prawdziwych assetów z gry]] - wspolne: asset-pipeline, blender
+<!-- /POWIAZANE:auto -->

@@ -68,3 +68,11 @@ These extend the stack, they don't replace it. ServiceLocator still works. GameE
 Locked to Unity 6000.3.5f1 until Eskimo ships. No experimenting with Unreal, no Unity 7 migration mid-project. Stable toolchain > latest toolchain.
 
 See also: [[parallel-architecture-pattern]], [[multiplayer-from-mvp-not-retrofit]], [[game-state-machine-pattern]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[multiplayer-from-mvp-not-retrofit|Multiplayer from MVP - Not Retrofit]] - wspolne: eskimo, architecture
+<!-- /POWIAZANE:auto -->

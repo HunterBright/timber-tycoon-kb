@@ -77,3 +77,11 @@ Each channel is a ScriptableObject asset - assigned in the Inspector, not found 
 - VFX/audio hooks via `VFXTrigger.cs` / `AudioManager` subscribing to these channels (see [[vfx-trigger-pattern]])
 
 See also: [[parallel-architecture-pattern]], [[isaveable-contract]], [[vfx-trigger-pattern]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260702-1610-fake-null-so-null-conditional-trap|Operator `?.` NIE chroni referencji Unity - brakujący asset SO wybucha NRE w środku kanału eventowego]] - wspolne: events, scriptableobject
+<!-- /POWIAZANE:auto -->

@@ -121,3 +121,16 @@ rodziną błędów. Użyj `sharedMaterial`, nie `material` (to drugie tworzy ins
 i tarcie kół (naprawione wieczorem). **Gdy zakładasz taką bramkę, przejdź CAŁY plik i sprawdź
 KAŻDĄ zmienną, która może zostać `null` w buildzie** - nie tylko tę, na której wywalał się
 kompilator.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260714-2320-if-unity-editor-fixes-the-build-and-kills-the-game|`#if UNITY_EDITOR` naprawia build i po cichu zabija system]] - wspolne: editor-only, assetdatabase, silent-failure
+- [[20260714-2220-maxspeed-clamp-is-not-a-speed|maxSpeed to KLAMRA, nie prędkość - pojazd i tak stanie na (napęd / tłumienie)]] - wspolne: vehicle, physics
+- [[20260724-0907-arcade-car-climbs-walls|Arkadowe auto na Rigidbody wspina sie po scianach i odlatuje w niebo]] - wspolne: vehicle, physics
+- [[freeze-inertia-tensor-not-restored|FreezeAll + automaticInertiaTensor=false Zeroes the Inertia Tensor]] - wspolne: vehicle, physics
+- [[minimum-turn-factor-arcade-steering|Minimum turnFactor 0.3 for Low-Speed Arcade Steering]] - wspolne: vehicle, physics
+- [[self-collision-compound-colliders-ignore|Self-Collision Compound BoxColliders → Physics.IgnoreCollision]] - wspolne: vehicle, physics
+<!-- /POWIAZANE:auto -->

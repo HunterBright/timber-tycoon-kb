@@ -66,3 +66,12 @@ AudioReverbZone is Unity built-in, zero code needed. Listener location determine
 - **Occlusion combination**: pair with `AudioOcclusionChecker` (see [[audio-occlusion-lpf-volume]]) for full spatial audio treatment
 
 See also: [[ambient-crossfade-zone-based]], [[footstep-raycast-surface-detection]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[ambient-crossfade-zone-based|Ambient Crossfade Zone-Based Pattern]] - wspolne: ambient, audio
+- [[audio-strategy-minimal-music-heavy-ambient|Audio Strategy - Minimal Music + Heavy Ambient + Voice Bites]] - wspolne: ambient, audio
+<!-- /POWIAZANE:auto -->

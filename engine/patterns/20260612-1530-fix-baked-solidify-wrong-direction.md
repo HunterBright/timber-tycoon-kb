@@ -36,3 +36,16 @@ Solidify is reversible as long as the source shell survives. Topology and UVs co
 
 ## Verification trick for clearance
 Vertex-in-volume checks miss intersections when one mesh has long faces spanning the other's z-range (vertices only at the ends). Check per-vertex of the *moving* part against the analytic wall profile r(z) instead: `min over verts of (r_wall(v.z) - r_xy(v))` - positive everywhere = clears.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260726-1120-zero-thickness-surfaces-break-voxel-remesh|Zero-thickness surfaces make voxel remesh amputate parts of a model]] - wspolne: mesh-repair, solidify, blender
+- [[20260702-1135-lowpoly-thin-planar-leaves-antipattern|Anty-pattern: cienkie płaskie „soczewki" jako liście low-poly]] - wspolne: modeling, blender
+- [[20260711-1647-blender-prop-contact-interpenetrate-not-gap|Anty-wzorzec: szczeliny powietrza jako ochrona przed z-fightingiem (lewitujące propy)]] - wspolne: modeling, blender
+- [[cylindric-beams-visual-contrast|Cylindric vs Rectangular Beams for Visual Contrast]] - wspolne: modeling, blender
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: modeling, blender
+- [[zero-floating-zero-flickering-mandate|ZERO Floating / ZERO Flickering Mandate]] - wspolne: modeling, blender
+<!-- /POWIAZANE:auto -->

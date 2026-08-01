@@ -45,3 +45,16 @@ materiałach. Geometria obu zdrowa.
 3. `normalImportMode: Import` (Unity używa normalnych z FBX) przepuszcza odwrócone
    normalne 1:1 - ale odwrócona NORMALNA psuje tylko cieniowanie; o cullingu decyduje
    kolejność wierzchołków (winding). W Blenderze oba wynikają z orientacji ścianki.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260721-1830-linerenderer-flat-on-surface-invisible|LineRenderer lezacy plasko na powierzchni znika, bo material jest jednostronny]] - wspolne: backface-culling, materials, urp
+- [[20260702-2140-shader-property-stale-serialized-material-values|Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach]] - wspolne: materials, urp
+- [[20260710-1300-vertex-colors-vs-basecolor-linear|Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ]] - wspolne: materials, urp
+- [[20260713-2145-urp-transparent-material-silent-failure|URP: źle skonfigurowany materiał przezroczysty to CICHA porażka, której wykrywacz magenty nie widzi]] - wspolne: materials, urp
+- [[procedural-textures-need-bake|Procedural Textures Must Be Baked Before FBX Export]] - wspolne: materials, urp
+- [[stale-reflection-probe-night-whitening|Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)]] - wspolne: materials, urp
+<!-- /POWIAZANE:auto -->

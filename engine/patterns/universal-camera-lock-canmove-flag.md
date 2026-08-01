@@ -77,3 +77,13 @@ Single flag, single location. Toggling `canMove` at the PlayerController level m
 - **CursorLockMode:** combine with Unity's cursor lock to also hide/show cursor on minigame enter/exit
 
 See also: [[camera-lock-save-lerp-restore]], [[game-state-machine-pattern]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[camera-lock-save-lerp-restore|Camera Lock: Save → Lerp → Restore]] - wspolne: camera, minigame
+- [[top-down-minigame-stump-digging|Top-Down Camera Minigame (Stump Digging)]] - wspolne: camera, minigame
+- [[20260629-1916-unity-minigame-abort-cleanup|Aborting a coroutine-driven minigame: release the active-flag LAST, and StopAllCoroutines]] - wspolne: camera, minigame
+<!-- /POWIAZANE:auto -->

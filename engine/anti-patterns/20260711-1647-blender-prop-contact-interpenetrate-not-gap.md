@@ -55,3 +55,16 @@ a psuje wiarygodność sceny (grawitacja przestaje działać).
 Model stolarni (warsztat + lakiernia) budowany parametrycznym skryptem bmesh,
 iteracja 2 po feedbacku Huntera. Wszystkie poprawki = zamiana szczelin na przenikania
 + przechyły; audyty z-fight nadal PASS.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[zero-floating-zero-flickering-mandate|ZERO Floating / ZERO Flickering Mandate]] - wspolne: z-fighting, modeling, blender
+- [[20260702-1135-lowpoly-thin-planar-leaves-antipattern|Anty-pattern: cienkie płaskie „soczewki" jako liście low-poly]] - wspolne: modeling, low-poly, blender
+- [[cylindric-beams-visual-contrast|Cylindric vs Rectangular Beams for Visual Contrast]] - wspolne: modeling, low-poly, blender
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: modeling, low-poly, blender
+- [[20260717-1115-style-match-real-assets-not-description|Anti-pattern: dopasowywanie stylu do OPISU stylu zamiast do prawdziwych assetów z gry]] - wspolne: qa, blender
+- [[20260720-0915-loft-nie-da-plaskiej-szyby|Malowanie szyby kolorem na powierzchni z loftu nigdy nie da płaskiej tafli]] - wspolne: low-poly, blender
+<!-- /POWIAZANE:auto -->

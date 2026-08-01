@@ -46,3 +46,16 @@ Any arcade vehicle game with speed-dependent steering. The 0.3 floor is a tuned 
 ## Related
 - [Forward axis quirk](forward-axis-blender-fbx-quirk.md)
 - [NPC parking PD controller](../../genre/tycoon/patterns/npc-parking-pd-controller.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[freeze-inertia-tensor-not-restored|FreezeAll + automaticInertiaTensor=false Zeroes the Inertia Tensor]] - wspolne: vehicle, npc, physics
+- [[npc-parking-pd-controller|NPC Parking PD Controller]] - wspolne: vehicle, npc, physics
+- [[20260714-2220-maxspeed-clamp-is-not-a-speed|maxSpeed to KLAMRA, nie prędkość - pojazd i tak stanie na (napęd / tłumienie)]] - wspolne: vehicle, physics
+- [[20260714-2350-null-physics-material-silently-becomes-default-friction|Collider z materiałem `null` NIE ma zerowego tarcia - ma DOMYŚLNE 0.6]] - wspolne: vehicle, physics
+- [[20260724-0907-arcade-car-climbs-walls|Arkadowe auto na Rigidbody wspina sie po scianach i odlatuje w niebo]] - wspolne: vehicle, physics
+- [[self-collision-compound-colliders-ignore|Self-Collision Compound BoxColliders → Physics.IgnoreCollision]] - wspolne: vehicle, physics
+<!-- /POWIAZANE:auto -->

@@ -70,3 +70,16 @@ Dotyczy kazdego rozsypywania instancji po szkielecie albo powierzchni: listowie,
 trawa, gruz, naloty, dekale, tlum NPC na sciezkach. Wszedzie tam, gdzie "wiecej
 instancji" wydaje sie oczywistym lekarstwem na rzadki wyglad, a naprawde trzeba
 dolozyc miejsc, na ktorych moga usiasc.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260728-1320-mniej-wiekszych-kartek|Polowa kartek o rozmiarze wiekszym o jedna trzecia wyglada tak samo]] - wspolne: alpha-cards, listowie, optymalizacja
+- [[20260728-1140-miernik-ktory-klamie-inaczej|Zanim zaufasz bramce, sprawdz, czy mierzy to, co widac]] - wspolne: proceduralne-generowanie, pomiar
+- [[20260728-1900-miara-z-degeneracja|Miara optymalizowana samotnie znajduje rozwiazanie zdegenerowane]] - wspolne: optymalizacja, pomiar
+- [[20260727-1921-kamera-z-siatki-podlogi-nie-z-sylwetki|Kamerę odtwarzaj z regularnej struktury sceny, nie z sylwetki modelu]] - wspolne: pomiar, blender
+- [[20260727-2320-sylwetka-nie-rozdziela-czesci-ktore-sie-stykaja|Sylwetka nie rozdziela dwóch rzeczy, które się stykają - i milczy o tym]] - wspolne: pomiar, blender
+- [[20260727-0525-jeden-suwak-dwie-role|Jeden suwak sterujacy dwiema roznymi rzeczami]] - wspolne: proceduralne-generowanie, blender
+<!-- /POWIAZANE:auto -->

@@ -49,3 +49,12 @@ zachowanie sprzed zmiany.
 - Dopisać pole do wszystkich assetów (skrypt/migracja) - pewne, ale pracochłonne i wymaga reimportu.
 - Użyć `OnAfterDeserialize`/wersjonowania do uzupełnienia - cięższe.
 - Najtańsze i najbezpieczniejsze: dobrać semantykę tak, by `default(T)` był poprawnym defaultem.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260712-1925-unity-so-asset-overrides-initializers|ScriptableObject .asset serializuje wartosci i WYGRYWA nad inicjalizatorami pol w C#]] - wspolne: serialization, scriptableobject
+- [[20260722-1625-measure-before-fixing-serialization-hunch|Brakujący klucz w assecie NIE oznacza zera - zmierz, zanim "naprawisz"]] - wspolne: serialization, scriptableobject
+<!-- /POWIAZANE:auto -->

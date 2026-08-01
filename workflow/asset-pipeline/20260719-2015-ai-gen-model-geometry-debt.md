@@ -56,3 +56,16 @@ topologii, więc defekty są rozsiane i nie kończą się.
 ## Powiązane
 Materiał dwustronny (_Cull:0) leczy prześwit CIENKIEJ SKORUPY, ale NIE domyka brakującej
 ścianki - to dwa różne defekty. Patrz [[20260719-1605-paper-shell-culling-seethrough]].
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[tripo-asymmetric-floating-retopo|Tripo Asymmetric / Floating Elements - Blender Retopo]] - wspolne: cleanup, tripo, blender
+- [[tripo-cleanup-pipeline|Tripo Cleanup Pipeline]] - wspolne: cleanup, tripo, blender
+- [[20260602-1500-mtree-nonmanifold-voxel-remesh|Reducing MTree (Modular Tree) meshes to low-poly: Decimate & Quadriflow refuse, Voxel remesh works]] - wspolne: non-manifold, blender
+- [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: tripo, blender
+- [[20260730-1710-blender-materials-clear-resets-face-indices|Mesh.materials.clear() zeruje material_index na ściankach]] - wspolne: mesh, blender
+- [[20260728-0915-fbx-skala-100-w-dzieciach-psuje-pomiary|FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu]] - wspolne: mesh, blender
+<!-- /POWIAZANE:auto -->

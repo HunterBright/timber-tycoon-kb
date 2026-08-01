@@ -10,7 +10,7 @@ tags:
 - unity
 - fbx
 - model-swap
-- colliders
+- collider
 - pickup
 - interactable
 - import-scale
@@ -78,3 +78,11 @@ imported size against a reference are engine-level, genre-independent.
 
 ## Related
 - FBX Export Standard Settings (existing KB entry - the correct export scale options)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260710-2115-collider-from-first-meshfilter-antipattern|Collider z GetComponentInChildren&lt;MeshFilter&gt; na wielosiatkowym FBX = collider z fragmentu modelu]] - wspolne: collider, fbx
+<!-- /POWIAZANE:auto -->

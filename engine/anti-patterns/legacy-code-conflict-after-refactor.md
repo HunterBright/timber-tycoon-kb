@@ -67,3 +67,12 @@ After refactor, check for leftover `testMode`, `autoStart`, `debugSpawn` boolean
 
 ## See also
 [[before-delete-legacy-class-checklist]], [[migration-pattern-rollback-safety]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[before-delete-legacy-class-checklist|Before-Delete Legacy Class Checklist]] - wspolne: technical-debt, refactoring
+- [[storage-migration-primary-plus-legacy-fallback|Storage Migration: Primary New + Legacy Fallback]] - wspolne: technical-debt, refactoring
+<!-- /POWIAZANE:auto -->

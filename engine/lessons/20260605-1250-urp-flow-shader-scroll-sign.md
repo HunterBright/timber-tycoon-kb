@@ -67,3 +67,16 @@ to drive flow from a **channel-following UV channel** instead of world XYZ:
   same U makes `_SideWaveDamping`/edge-fade localise to the banks as intended.
 - Keep the old world-vector property declared-but-unused so the runtime setter component
   doesn't error; document that it no longer steers direction.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[low-poly-water-side-wave|ANTI-PATTERN: sin(X) + sin(Z) Water Shader = Side Waves]] - wspolne: vertex-displacement, water, shader
+- [[20260718-0800-particle-visibility-water-sorting|Czasteczki "dzialaja, ale ich nie widac" - trzy niezalezne przyczyny przy wodzie]] - wspolne: water, urp
+- [[20260531-1612-quaternius-lowpoly-nature-urp-import|Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP]] - wspolne: shader, urp
+- [[20260702-2140-shader-property-stale-serialized-material-values|Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach]] - wspolne: shader, urp
+- [[20260710-1300-vertex-colors-vs-basecolor-linear|Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ]] - wspolne: shader, urp
+- [[20260728-0910-urp-jednostronne-kartki-listowia-czarne|Jednostronne kartki listowia na URP/Lit wychodza CZARNE]] - wspolne: shader, urp
+<!-- /POWIAZANE:auto -->

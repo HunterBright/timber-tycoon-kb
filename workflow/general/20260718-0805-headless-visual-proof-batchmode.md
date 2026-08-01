@@ -12,7 +12,7 @@ tags:
 - screenshot
 - verification
 - headless
-- editor-scripts
+- editor-script
 applies_to: []
 source: ''
 promoted: '2026-07-30'
@@ -38,3 +38,14 @@ czlowiekowi; czlowiek dostaje gotowe zrzuty zamiast "wierz mi, dziala".
 ## Uwagi
 - Unity.exe na Windows wraca NATYCHMIAST - uruchamiac przez Start-Process -Wait i sprawdzac exit code.
 - Kazdy przebieg to pelny start Unity (~90 s) - laczyc kroki fazy w jeden -executeMethod.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260612-1815-headless-tmp-sdf-font-generation|Headless TMP setup: import Essentials + generate SDF font asset from editor script]] - wspolne: headless, editor-script
+- [[20260719-1210-unity-build-freshness-check-dll-not-exe|Świeżość builda Unity sprawdzaj po DLL z kodem gry, nie po .exe]] - wspolne: batchmode, verification
+- [[20260714-2245-unity-batchmode-returns-before-build-finishes|Unity w trybie wsadowym WRACA, zanim build się skończy - i sonda daje fałszywe zielone światło]] - wspolne: batchmode, verification
+- [[20260721-1210-screencapture-mid-frame-captures-previous-frame|ScreenCapture.CaptureScreenshotAsTexture w ciele korutyny lapie POPRZEDNIA klatke]] - wspolne: screenshot, verification
+<!-- /POWIAZANE:auto -->

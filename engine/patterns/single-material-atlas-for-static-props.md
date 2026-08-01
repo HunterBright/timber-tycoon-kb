@@ -43,3 +43,16 @@ Explicit UV mapping per face in Python is more setup work than Smart UV Project 
 ## Variants
 - [Cycles bake for solid colors anti-pattern](../anti-patterns/cycles-bake-for-solid-colors.md) - what NOT to do instead
 - For hero assets with complex shading: multi-material is fine IF the slot order is locked via FBX importer remap scripts
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260606-0930-baked-atlas-texture-foreign-uvs|Don't apply a baked-atlas texture to a mesh whose UVs were authored for a different atlas]] - wspolne: atlas, materials, blender
+- [[cycles-bake-for-solid-colors|ANTI-PATTERN: Cycles Bake for Solid Color Regions]] - wspolne: static-props, blender
+- [[20260702-1400-bark-atlas-vs-tile-strategy|Rodzina assetów współdzieląca teksturę: wybierz strategię (atlas vs kafel) PRZED budową]] - wspolne: atlas, blender
+- [[20260704-1322-blender-file-image-scale-bake-revert|Blender: image.scale() na file-backed image nie trzyma się podczas bake - użyj images.new()]] - wspolne: atlas, blender
+- [[20260730-1710-blender-materials-clear-resets-face-indices|Mesh.materials.clear() zeruje material_index na ściankach]] - wspolne: materials, blender
+- [[20260704-1732-blender-linked-basecolor-recolor|Recoloring a Blender material whose Base Color is LINKED does nothing via default_value]] - wspolne: materials, blender
+<!-- /POWIAZANE:auto -->

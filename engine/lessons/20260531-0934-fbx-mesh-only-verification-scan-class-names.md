@@ -52,3 +52,16 @@ Any Blender→FBX→Mixamo (or →Unity) verification workflow. The class-name-v
 
 ## Related
 - [[20260531-0934-tripo-polygon-soup-inverted-winding-fix]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[fbx-binary-overwrite-corrupts-bindposes|FBX binary-overwrite under a stale .meta corrupts skinned-mesh bindposes (mesh collapses to T-pose while bones animate)]] - wspolne: rigging, mixamo, fbx
+- [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: rigging, mixamo, fbx
+- [[20260606-1515-fbx-inplace-overwrite-fileid-preservation|Overwriting an FBX in place preserves prefab-variant references only if object NAMES are unchanged]] - wspolne: blender-export, fbx
+- [[20260717-0010-generated-rig-bone-axis-defect-skeleton-transplant|Rigi z generatorów AI (Hunyuan): osie kości rozjechane z frontem modelu = wykrzywiona stopa w retargecie; lek = przeszczep szkieletu w Blenderze]] - wspolne: rigging, mixamo
+- [[20260713-1030-verify-in-target-engine-not-source-tool|Weryfikuj asset w silniku DOCELOWYM, nie w narzędziu źródłowym]] - wspolne: verification, fbx
+- [[20260705-1745-mixamo-motion-only-vs-withskin-retarget|Mixamo "Without Skin" (motion-only) FBX psuje retarget Humanoid - uzyj "With Skin"]] - wspolne: mixamo, fbx
+<!-- /POWIAZANE:auto -->

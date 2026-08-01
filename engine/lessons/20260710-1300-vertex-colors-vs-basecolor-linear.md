@@ -10,7 +10,7 @@ tags:
 - unity
 - urp
 - linear-color-space
-- vertex-colors
+- vertex-color
 - materials
 - shader
 applies_to: []
@@ -52,3 +52,16 @@ sklonowany shader + ta sama jasność = nadal 2x ciemniej -> jedyną różnicą 
 ## Kiedy pamiętać
 Każde "dopasuj flat-color material do obiektu z vertex colors" (i odwrotnie) w projekcie
 Linear. Także przy porównywaniu kolorów UI (sRGB) z kolorami świata.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260531-1612-quaternius-lowpoly-nature-urp-import|Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP]] - wspolne: vertex-color, shader, urp
+- [[20260702-2140-shader-property-stale-serialized-material-values|Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach]] - wspolne: shader, materials, urp
+- [[20260710-2010-material-props-wrong-shader-inert|Ustawianie właściwości materiału bez sprawdzenia SHADERA = ciche nic + ryzyko nadpisania]] - wspolne: shader, materials, urp
+- [[20260720-0940-dwa-niezalezne-bledy-gamma-w-jednym-modelu|"Wszystko za jasne" po podmianie modelu: dwa niezależne błędy gamma dające ten sam objaw]] - wspolne: vertex-color, urp
+- [[20260705-0840-blender-linear-color-into-unity-srgb-material|Blender LINIOWE Base Color wpisane wprost w Unity Color property = ~1 gamma za ciemno (projekt Linear)]] - wspolne: shader, materials
+- [[20260605-1250-urp-flow-shader-scroll-sign|Scrolling/flow shaders: visual motion runs OPPOSITE to the flow vector]] - wspolne: shader, urp
+<!-- /POWIAZANE:auto -->

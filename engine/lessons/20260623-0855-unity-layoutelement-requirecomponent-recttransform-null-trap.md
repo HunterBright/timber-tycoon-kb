@@ -74,3 +74,11 @@ ogólnym wzorcem odporności bootstrapu UI.
 
 ## Related
 - [[20260623-0840-unity-cjk-cyrillic-fonts-tmp-and-legacy-text]] (ta sama funkcja lokalizacji)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1130-canvas-addcomponent-kills-buildui-silently|AddComponent<Canvas> dokłada RectTransform - kolejny AddComponent<RectTransform> rzuca wyjątkiem i po cichu urywa budowę UI w Awake]] - wspolne: recttransform, addcomponent, awake
+<!-- /POWIAZANE:auto -->

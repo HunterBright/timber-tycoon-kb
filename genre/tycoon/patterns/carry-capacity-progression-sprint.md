@@ -65,3 +65,16 @@ Sprint + capacity creates a clear player advantage throughout the game. Even at 
 - **Vehicle carry**: truck carries 24-60 logs (see TruckData SO). Separate system - player drive the truck, not carry the logs.
 
 See also: [[quantity-not-quality-principle]], [[order-fulfiller-interface]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] - wspolne: progression, tycoon, game-design
+- [[worker-output-quality-distribution|Worker Output Quality Distribution]] - wspolne: progression, tycoon, game-design
+- [[quantity-not-quality-principle|Quantity-Not-Quality Design Principle]] - wspolne: progression, tycoon, game-design
+- [[20260704-2030-tycoon-economy-two-clock-balancing|Balansowanie ekonomii progresu metodą „dwóch zegarów" + koperty przychodu]] - wspolne: progression, tycoon
+- [[worker-simulate-work-cycle|Worker Simulate Work Cycle (No NavMesh/AI)]] - wspolne: tycoon, game-design
+- [[20260714-2215-order-value-topdown-makes-prices-meaningless|Zamówienie losowane OD KWOTY w dół - cennik przestaje cokolwiek znaczyć]] - wspolne: progression, tycoon
+<!-- /POWIAZANE:auto -->

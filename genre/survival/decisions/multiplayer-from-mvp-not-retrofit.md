@@ -72,3 +72,12 @@ Solo players: run as host-of-1 (same code path as multiplayer - zero branch).
 If multiplayer appears ANYWHERE in a project's roadmap - even "maybe in year 2" - design for it from MVP. The cost of retrofitting grows super-linearly with codebase size.
 
 See also: [[parallel-architecture-pattern]], [[cross-project-stack-reuse]], [[chunk-based-world-loading]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[cross-project-stack-reuse|Cross-Project Stack Consistency (TT → Eskimo)]] - wspolne: eskimo, architecture
+- [[rack-architecture-decision|Rack Architecture Decision (3 Options)]] - wspolne: architecture, game-design
+<!-- /POWIAZANE:auto -->

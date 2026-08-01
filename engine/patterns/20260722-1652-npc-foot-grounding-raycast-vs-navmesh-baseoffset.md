@@ -72,3 +72,14 @@ chwili i w kazdym miejscu, wiec jest odporna takze na przyszle modele i przepiec
   z liczba NPC; niepotrzebne, dopoki but jest bryla sztywna wzgledem kosci.
 - Postacie bez NavMeshAgenta (CharacterController): ta sama petla, tylko korekta idzie w
   pozycje Y zamiast w baseOffset.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[discriminating-clip-vs-rig-vs-skin-humanoid-defect|Discriminating CLIP vs RIG vs SKIN for a one-sided humanoid animation defect]] - wspolne: skinnedmesh, animation
+- [[20260717-0800-npc-carried-prop-upright-lock-and-axis-render|Prop niesiony przez NPC: blokada pionu w LateUpdate + render osi propa zamiast zgadywania]] - wspolne: animation, npc
+- [[navmesh-plus-kinematic-waypoints|NavMesh + Kinematic Waypoints Hybrid]] - wspolne: navmesh, npc
+- [[20260704-1045-mixamo-npc-work-carry-animations|Mixamo nie ma animacji „obsługi maszyny / pracy fizycznej" - użyj busy-idle + animacji maszyny; dla noszenia jest „Carrying"]] - wspolne: animation, npc
+<!-- /POWIAZANE:auto -->

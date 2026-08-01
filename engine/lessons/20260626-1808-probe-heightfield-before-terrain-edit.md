@@ -35,3 +35,16 @@ Earlier height "measurements" were approximate / taken at points that don't coin
 
 ## Transferable to
 Any procedural terrain/heightfield edit (Blender or Unity Terrain), road/asset conforming, abutment grading - wherever a script moves vertices based on assumed heights.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260626-1807-bridge-abutment-seam-fix|Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment]] - wspolne: heightfield, terrain, blender
+- [[polybrush-iteration-rule|Polybrush Iteration Rule - No Return to Generator]] - wspolne: workflow, terrain
+- [[20260713-1030-verify-in-target-engine-not-source-tool|Weryfikuj asset w silniku DOCELOWYM, nie w narzędziu źródłowym]] - wspolne: verification, blender
+- [[20260730-2350-layer-clearance-height-over-body|Luz między warstwami ubrań: mierz WYSOKOŚĆ NAD CIAŁEM, nie odległość do najbliższej ścianki]] - wspolne: heightfield, blender
+- [[iterative-checkpoint-workflow|Iterative Checkpoint Workflow for Generated Assets]] - wspolne: workflow, blender
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: terrain, blender
+<!-- /POWIAZANE:auto -->

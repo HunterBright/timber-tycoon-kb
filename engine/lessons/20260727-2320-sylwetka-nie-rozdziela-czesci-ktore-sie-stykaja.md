@@ -10,7 +10,7 @@ tags:
 - pomiar
 - sylwetka
 - obraz
-- referencje
+- referencja
 - modelowanie
 - blender
 applies_to: []
@@ -68,3 +68,16 @@ Bardziej ogólnie: przecięcie rzutów (visual hull) i pomiar obrysu widzą tylk
 to, co zmienia kontur. Wgłębienia (oczodół, usta, szew między palcami) i
 elementy przylegające (ucho) są dla nich niewidzialne. Do jednych i drugich
 potrzeba innego źródła - u nas: narysowanych krawędzi.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-1924-maska-sylwetki-z-dziurami-w-cieniu|Maska sylwetki może mieć dziury w środku - i przez lata tego nie widać]] - wspolne: sylwetka, obraz, referencja
+- [[20260727-2140-linijka-wysokosci-na-zdjeciu-jest-krzywa|"Ile procent kadru, tyle procent wysokości" to nieprawda, gdy obiektyw patrzy z góry]] - wspolne: obraz, referencja, pomiar
+- [[20260727-1921-kamera-z-siatki-podlogi-nie-z-sylwetki|Kamerę odtwarzaj z regularnej struktury sceny, nie z sylwetki modelu]] - wspolne: referencja, pomiar, blender
+- [[20260728-0030-wymiar-ktorego-nie-widzi-zadne-ujecie-dopasuj-do-wszystkich|Wymiar, którego nie widzi żadne ujęcie, mierzy się dopasowaniem do wszystkich naraz]] - wspolne: sylwetka, pomiar, blender
+- [[20260727-2145-sprawdzaj-czytnik-obrazu-renderem-wlasnego-modelu|Czytnik obrazu sprawdzaj renderem własnego modelu, nie obrazkiem, który sam sobie narysowałeś]] - wspolne: obraz, pomiar, blender
+- [[20260727-0510-rozproszenie-kartek-punkty-zaczepienia|Rozsypywanie kartek po szkielecie: licz NOSNIKI, nie kartki]] - wspolne: pomiar, blender
+<!-- /POWIAZANE:auto -->

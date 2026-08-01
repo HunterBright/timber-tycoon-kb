@@ -71,3 +71,11 @@ Zasady:
   (2 znaki z 1 bajtu) i pelna paczka daje bajty+1 znakow -> ArgumentException.
 - Unity UI: obiekt parentowany do canvasu MUSI dostac RectTransform (rozciagniety na canvas),
   inaczej kotwice dzieci licza sie od SRODKA ekranu, nie od rogu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260723-2105-twitch-anon-chat-unity|Anonimowy odczyt czatu Twitch w Unity (zero kont, kluczy i kosztow)]] - wspolne: twitch, chat, irc
+<!-- /POWIAZANE:auto -->

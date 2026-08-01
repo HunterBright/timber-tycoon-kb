@@ -90,3 +90,12 @@ udokumentowana jako probka.
 
 - [[20260720-1306-walidator-spelniony-przez-konstrukcje]] - falszywa pewnosc po stronie mierzonej wielkosci.
 - Zasada projektowa Timber Tycoon: "test wszystkich X = WSZYSTKIE instancje".
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1652-relative-only-test-blind-to-common-mode-error|Test porownujacy instancje MIEDZY SOBA jest slepy na blad wspolny (common-mode)]] - wspolne: smoke-test, testing
+- [[20260710-2250-unity-autonomous-smoke-runner-flag-file|Autonomiczny runner smoke testów w Unity: plik-flaga + plik wyników]] - wspolne: smoke-test, testing
+<!-- /POWIAZANE:auto -->

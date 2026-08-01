@@ -10,7 +10,7 @@ tags:
 - unity
 - editor-tool
 - procedural
-- colliders
+- collider
 - layermask
 - boundary
 - alignment
@@ -43,3 +43,12 @@ Visuals and colliders were separate GameObjects (collider = a box, visual = the 
 
 ## When to reuse
 Any "enclose/mark this visual area" editor tool; any generated boundary that must respect crossing paths. Detecting an existing layer beats geometric path-intersection math.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260531-1614-editor-flora-scatter-patterns|Reproducible Editor Flora Scatter onto a Mesh Terrain]] - wspolne: editor-tool, procedural
+- [[20260706-1520-navmesh-raised-collider-invisible-bump|NPC chodza po "niewidzialnych gorkach": bake NavMesh z propsow + za gruby voxel nad niskopoly terenem]] - wspolne: layermask, collider
+<!-- /POWIAZANE:auto -->

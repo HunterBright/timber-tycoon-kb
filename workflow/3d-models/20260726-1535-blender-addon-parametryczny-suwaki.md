@@ -128,3 +128,15 @@ wolajacy `importlib.reload`. Wtedy reinstalacji wymaga tylko zmiana samego panel
 Gdy narzedzie ma trafic do osoby nietechnicznej, interfejs musi przezyc awarie
 tego, co obsluguje. Panel, ktory znika przy bledzie, jest gorszy od panelu, ktory
 mowi "geometria sie nie wczytala" i zostawia suwaki na miejscu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[blender-headless-python-generation|Blender Headless Python Script Generation]] - wspolne: python, blender
+- [[20260704-1732-blender-linked-basecolor-recolor|Recoloring a Blender material whose Base Color is LINKED does nothing via default_value]] - wspolne: python, blender
+- [[20260725-1930-blender-pixels-buffer-not-converted-to-srgb-on-png-save|Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG]] - wspolne: python, blender
+- [[20260730-1710-blender-materials-clear-resets-face-indices|Mesh.materials.clear() zeruje material_index na ściankach]] - wspolne: python, blender
+- [[20260612-1845-blender-9slice-ui-sprites|Blender-rendered 9-slice-ready UI sprites (3D panel → ortho render → Unity Sliced sprite)]] - wspolne: ui, blender
+<!-- /POWIAZANE:auto -->

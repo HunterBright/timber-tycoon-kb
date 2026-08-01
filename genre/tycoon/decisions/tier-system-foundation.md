@@ -8,9 +8,9 @@ date: '2026-06-07'
 project: Kerf - Sawmill Tycoon
 tags:
 - game-design
-- tiers
+- tier
 - economy
-- trees
+- tree
 - machines
 - products
 - source-of-truth
@@ -78,3 +78,13 @@ Mulch is made from Bark. It is BOTH sellable AND a consumable: applying it to a 
 - [[customer-tier-system]] (corrected by this entry)
 - [[storage-rack-family-system]] (Plank rack maxDistinctStacks must cover species count)
 - [[reputation-levels-data-driven]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[planting-spot-universal-not-typed|PlantingSpot Universal (Not Typed by Species)]] - wspolne: tree, game-design
+- [[tool-tier-replacement-not-inventory|Tool Tier Replacement - NOT Multiple Tiers in Inventory]] - wspolne: tier, game-design
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] - wspolne: tier, game-design
+<!-- /POWIAZANE:auto -->

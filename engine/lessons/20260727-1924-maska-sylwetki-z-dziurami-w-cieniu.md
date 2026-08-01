@@ -7,11 +7,11 @@ verified: ''
 date: '2026-07-27'
 project: Kerf - Sawmill Tycoon
 tags:
-- maska
+- mask
 - sylwetka
 - progowanie
 - obraz
-- referencje
+- referencja
 - blender
 applies_to: []
 source: ''
@@ -67,3 +67,16 @@ warto robić zawsze, profilaktycznie - kosztuje nic i niczego nie psuje.
 Szerszy wniosek: gdy kontrola przechodzi latami, a nowe użycie tych samych
 danych natychmiast pada, to zwykle nie nowe użycie jest zepsute, tylko stara
 kontrola patrzyła za wąsko.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-2320-sylwetka-nie-rozdziela-czesci-ktore-sie-stykaja|Sylwetka nie rozdziela dwóch rzeczy, które się stykają - i milczy o tym]] - wspolne: sylwetka, obraz, referencja
+- [[20260727-2140-linijka-wysokosci-na-zdjeciu-jest-krzywa|"Ile procent kadru, tyle procent wysokości" to nieprawda, gdy obiektyw patrzy z góry]] - wspolne: obraz, referencja
+- [[20260727-1921-kamera-z-siatki-podlogi-nie-z-sylwetki|Kamerę odtwarzaj z regularnej struktury sceny, nie z sylwetki modelu]] - wspolne: referencja, blender
+- [[20260728-0030-wymiar-ktorego-nie-widzi-zadne-ujecie-dopasuj-do-wszystkich|Wymiar, którego nie widzi żadne ujęcie, mierzy się dopasowaniem do wszystkich naraz]] - wspolne: sylwetka, blender
+- [[20260727-2145-sprawdzaj-czytnik-obrazu-renderem-wlasnego-modelu|Czytnik obrazu sprawdzaj renderem własnego modelu, nie obrazkiem, który sam sobie narysowałeś]] - wspolne: obraz, blender
+- [[20260725-1830-plaskie-tekstury-z-plam-referencji|Plaskie tekstury dla modelu z generatora 3D: tozsamosc elementu bierz z REFERENCJI, nie z koloru]] - wspolne: referencja, blender
+<!-- /POWIAZANE:auto -->

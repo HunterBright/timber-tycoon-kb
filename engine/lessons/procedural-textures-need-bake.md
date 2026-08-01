@@ -46,3 +46,16 @@ Any pipeline that takes models from Blender to a game engine via FBX or GLTF wil
 ## Related
 - [bake_space_transform + linked duplicates rotation bug](bake-space-transform-linked-duplicates-rotation-bug.md)
 - [FBX export standard settings](fbx-export-standard-settings-blender-to-unity.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260615-2045-blender-voronoi-round-knots|Proceduralne okrągłe sęki w Blenderze: Voronoi F1, nie DISTANCE_TO_EDGE (+ kompensacja proporcji)]] - wspolne: baking, blender
+- [[20260606-0930-baked-atlas-texture-foreign-uvs|Don't apply a baked-atlas texture to a mesh whose UVs were authored for a different atlas]] - wspolne: materials, urp, blender
+- [[20260702-2140-shader-property-stale-serialized-material-values|Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach]] - wspolne: materials, urp
+- [[20260710-1300-vertex-colors-vs-basecolor-linear|Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ]] - wspolne: materials, urp
+- [[20260713-2145-urp-transparent-material-silent-failure|URP: źle skonfigurowany materiał przezroczysty to CICHA porażka, której wykrywacz magenty nie widzi]] - wspolne: materials, urp
+- [[20260719-1605-paper-shell-culling-seethrough|Prześwity w modelach low-poly: najpierw sprawdź _Cull materiału, nie geometrię]] - wspolne: materials, urp
+<!-- /POWIAZANE:auto -->

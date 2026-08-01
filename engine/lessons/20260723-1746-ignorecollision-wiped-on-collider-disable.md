@@ -46,3 +46,13 @@ wołająca `IgnoreLayerCollision` - przeżywa restarty edytora, działa w buildz
 Gdy collidery żyją stabilnie (nigdy nie są wyłączane), a wyjątek jest naprawdę punktowy -
 np. piesi NPC z poolingu, gdzie `IgnoreCollision` i tak jest nakładane od nowa w każdym
 `Init()` (pooling = dezaktywacja = i tak by znikło).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260628-1615-footstep-surface-raycast-from-feet|Detekcja nawierzchni pod graczem: strzelaj raycastem OD STÓP, nie od środka postaci]] - wspolne: charactercontroller, physics
+- [[20260716-1812-charactercontroller-depenetration-thin-mesh-terrain|CharacterController + cienki jednostronny teren-siatka = gracz pod mapą (i jak się przed tym bronić)]] - wspolne: charactercontroller, physics
+- [[20260722-2055-raycast-w-gore-nie-widzi-tafli-wody|"Czy jestem pod wodą?" - promień w GÓRĘ nic nie zobaczy (backface)]] - wspolne: layers, physics
+<!-- /POWIAZANE:auto -->

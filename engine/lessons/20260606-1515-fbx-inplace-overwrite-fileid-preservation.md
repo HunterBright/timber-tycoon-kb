@@ -83,3 +83,12 @@ required-id cross-check is a reusable pre-flight for any in-place model overwrit
   armatures must NOT be overwritten in place (collapses bindposes); this lesson is the
   STATIC-prop counterpart where in-place overwrite IS safe
 - feedback_bake_space_transform_empties (project memory) - related Blender→Unity export quirk
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260531-0934-fbx-mesh-only-verification-scan-class-names|Verifying an FBX is "mesh-only" before Mixamo: scan for the real CLASS names, not substrings - `AnimStack` matches the header property `ActiveAnimStackName`]] - wspolne: blender-export, fbx
+- [[20260606-1632-in-place-fbx-overwrite-static-vs-rigged|In-Place FBX Overwrite: Safe for Static Meshes, Dangerous for Rigged]] - wspolne: reimport, fbx
+<!-- /POWIAZANE:auto -->

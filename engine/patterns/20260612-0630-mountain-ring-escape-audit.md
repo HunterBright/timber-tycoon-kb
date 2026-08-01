@@ -41,3 +41,12 @@ Editor script that audits the whole ring in seconds instead of hours of play-tes
 
 ## Result in Timber Tycoon
 24 of 29 ring mountains had climbable inner low slopes (many near 0-20°). Conclusion: AI-generated mountains have gentle aprons; an invisible wall ring is usually needed regardless - the audit tells you whether and where.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260622-0950-unity-map-boundary-from-bounds|Invisible map boundary from live Renderer.bounds + foot-only gap via IgnoreCollision]] - wspolne: map-boundary, level-design
+- [[20260628-1405-walkable-cave-from-hollow-rock|Walkable cave from a hollow low-poly rock (don't carve the model)]] - wspolne: map-boundary, level-design
+<!-- /POWIAZANE:auto -->

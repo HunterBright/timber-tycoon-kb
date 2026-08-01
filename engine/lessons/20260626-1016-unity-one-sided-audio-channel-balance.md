@@ -47,3 +47,12 @@ Często z pipeline'u przetwarzania, nie z nagrania. U nas warianty `_Loud` powst
 
 ## Anti-pattern
 Rzucić się na „panorama/listener" i stroić spatialBlend/panStereo, gdy plik źródłowy ma martwy kanał. Najpierw zmierz balans kanałów klipu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1145-loop-seam-measure-and-crossfade|Pętla dźwiękowa: zmierz styk, przenikaj ogon w początek, dopisz próg do sondy]] - wspolne: ffmpeg, audio
+- [[audio-asset-pipeline|Audio Asset Pipeline (ElevenLabs + Suno + FFmpeg)]] - wspolne: ffmpeg, audio
+<!-- /POWIAZANE:auto -->

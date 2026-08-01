@@ -14,7 +14,7 @@ tags:
 - navmeshmodifier
 - ignorefrombuild
 - pathfinding
-- colliders
+- collider
 - props
 applies_to: []
 source: ''
@@ -79,3 +79,12 @@ przesuwaniem.
 - [[20260706-1520-navmesh-raised-collider-invisible-bump]] - ten sam system: bake-all-colliders,
   voxel nad niskopoly terenem, NotWalkable na niska lade. Tu doklejam trzeci przypadek: ignoreFromBuild
   dla dekoracji na linii chodzenia.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260706-1520-navmesh-raised-collider-invisible-bump|NPC chodza po "niewidzialnych gorkach": bake NavMesh z propsow + za gruby voxel nad niskopoly terenem]] - wspolne: ai-navigation, pathfinding, navmeshsurface
+- [[20260707-1130-navmesh-fine-voxel-micro-gap-route-detour|Za drobny voxel NavMesh tworzy mikro-dziure, ktora ROZSPAJA trase i wymusza wielki objazd]] - wspolne: ai-navigation, pathfinding, navmeshsurface
+<!-- /POWIAZANE:auto -->

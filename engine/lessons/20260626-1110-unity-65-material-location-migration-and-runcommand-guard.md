@@ -48,3 +48,12 @@ Most `unity-mcp Unity_RunCommand` = wbudowany **Unity AI Assistant** (namespace 
 - Flaga `mightNeedRebaking: 1` na komponencie `ProbeVolume` w pliku sceny **może zostać `1`**, jeśli APV faktycznie nie jest zainicjowane (`ProbeReferenceVolume.instance.isInitialized == False`). Goły obiekt „Adaptive Probe Volume" w hierarchii ≠ aktywne APV. Wtedy flaga jest martwa (zero ostrzeżenia, zero wpływu na render) - nie warto jej gonić; realne APV to osobna konfiguracja (baking set).
 - Diagnostyka bez zgadywania: `SceneManager.GetActiveScene().isDirty`, `Lightmapping.lightingDataAsset`, `ProbeReferenceVolume.instance.isInitialized`.
 - Lightmapy zapisują się jako pliki OD RAZU przy bake, ale przypisania w scenie + flagi utrwala dopiero `Ctrl+S` - jeśli scena = isDirty po bake, przypomnij o zapisie (Edit Mode!).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260713-1030-verify-in-target-engine-not-source-tool|Weryfikuj asset w silniku DOCELOWYM, nie w narzędziu źródłowym]] - wspolne: asset-pipeline, fbx
+- [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: mcp, fbx
+<!-- /POWIAZANE:auto -->

@@ -82,3 +82,13 @@ Top-down gives full spatial awareness of the stump. Click-targets are large enou
 - **Timed version:** points appear one at a time with a 2s window per point. Miss = point disappears and must wait for it to return. Adds timing pressure.
 
 See also: [[quantity-not-quality-principle]], [[sliding-head-bandsaw-mouse-drag-tempo-minigame]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[camera-lock-save-lerp-restore|Camera Lock: Save → Lerp → Restore]] - wspolne: camera, minigame
+- [[universal-camera-lock-canmove-flag|Universal Camera Lock - canMove Flag]] - wspolne: camera, minigame
+- [[20260629-1916-unity-minigame-abort-cleanup|Aborting a coroutine-driven minigame: release the active-flag LAST, and StopAllCoroutines]] - wspolne: camera, minigame
+<!-- /POWIAZANE:auto -->

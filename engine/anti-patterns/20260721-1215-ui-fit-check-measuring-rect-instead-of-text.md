@@ -84,3 +84,15 @@ lezec na przycisku.
 ## Related
 - [[gate-must-have-provable-failure-mode]]
 - [[20260721-1210-screencapture-mid-frame-captures-previous-frame]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260723-2140-silent-loc-fallback-antipattern|Cichy fallback lokalizacji ukrywa nieprzetłumaczoną treść]] - wspolne: probe, testing
+- [[20260721-1210-screencapture-mid-frame-captures-previous-frame|ScreenCapture.CaptureScreenshotAsTexture w ciele korutyny lapie POPRZEDNIA klatke]] - wspolne: probe, ui
+- [[20260713-1200-silent-null-guard-hides-dead-ui|Fabryka, która po cichu zwraca obiekt bez wymaganego dziecka]] - wspolne: testing, ui
+- [[20260617-1210-tmp-text-legibility-on-textured-bg|TextMeshPro: czytelność na teksturowanym tle (drewno) + warstwy modali]] - wspolne: textmeshpro, ui
+- [[typography-accessibility-stack|Typography + Accessibility Stack]] - wspolne: textmeshpro, ui
+<!-- /POWIAZANE:auto -->

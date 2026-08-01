@@ -46,3 +46,14 @@ Any URP project with flat or gently sloping terrain (racing, farming sim, city b
 ## Related
 - [4-phase weighted smoothstep day/night](../patterns/four-phase-weighted-smoothstep-day-night.md)
 - [Minecraft-style lighting](../../genre/tycoon/patterns/minecraft-style-lighting.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[urp-distant-caster-shadow-band|"Dark band that follows the player" = terrain self-shadow leaking onto near-coplanar road meshes]] - wspolne: shadows, urp
+- [[20260613-1200-unity-offscreen-render-rig-scene-leaks|An "isolated" offscreen render rig still inherits the open scene's lights AND skybox reflection]] - wspolne: lighting, urp
+- [[stale-reflection-probe-night-whitening|Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)]] - wspolne: lighting, urp
+- [[20260623-1508-instanced-grass-cards|Performant stylized grass: textured cards + GPU instancing (no GameObjects)]] - wspolne: performance, urp
+<!-- /POWIAZANE:auto -->

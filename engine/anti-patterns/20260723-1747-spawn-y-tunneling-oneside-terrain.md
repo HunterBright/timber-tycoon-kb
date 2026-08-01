@@ -49,3 +49,11 @@ tylko ta, której XZ trafi na niekorzystne zbocze.
 "Obiekt czasem wpada pod teren" to prawie nigdy "collider nakłada się za późno".
 Sprawdź w tej kolejności: (1) Y spawnu vs realny grunt pod XZ, (2) tryb wykrywania kolizji
 i prędkość spadku vs grubość collidera, (3) czy cokolwiek zamraża/teleportuje ciało w locie.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260716-1812-charactercontroller-depenetration-thin-mesh-terrain|CharacterController + cienki jednostronny teren-siatka = gracz pod mapą (i jak się przed tym bronić)]] - wspolne: terrain, physics
+<!-- /POWIAZANE:auto -->

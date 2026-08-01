@@ -42,3 +42,11 @@ Requires objects to be marked as tutorial targets (Inspector or code). Worth it 
 Same pattern for: NPC highlight during customer tutorial, machine highlight during "first use" quest, counter highlight during "repair counter" quest.
 
 See also: [[multi-step-quest-checklist]] for quests with multiple highlight steps.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[multi-step-quest-checklist|Multi-Step Quest Checklist Pattern]] - wspolne: quest, tutorial, ui
+<!-- /POWIAZANE:auto -->

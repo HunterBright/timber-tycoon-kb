@@ -71,3 +71,16 @@ was kept.
 Any imported/generated organic mesh that won't decimate (scanned meshes, boolean unions,
 sapling/tree generators, sculpts with non-manifold edges). Voxel-remesh → Collapse is the
 general escape hatch.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260602-1730-mtree-crown-shape-crashes-native-core|MTree (modular_tree) crown_shape crashes the native C++ core - use a Ramp node into Length instead]] - wspolne: mtree, modular-tree, blender
+- [[tripo-asymmetric-floating-retopo|Tripo Asymmetric / Floating Elements - Blender Retopo]] - wspolne: retopo, blender
+- [[tripo-cleanup-pipeline|Tripo Cleanup Pipeline]] - wspolne: retopo, blender
+- [[20260719-2015-ai-gen-model-geometry-debt|Modele generowane przez AI (Tripo/Hunyuan): dług geometryczny - czasem taniej zbudować od zera]] - wspolne: non-manifold, blender
+- [[20260702-1130-blender-review-render-color-fidelity|Rendery kontrolne do akceptacji kolorów: wyłącz AgX, użyj view transform „Standard"]] - wspolne: low-poly, blender
+- [[20260702-1400-bark-atlas-vs-tile-strategy|Rodzina assetów współdzieląca teksturę: wybierz strategię (atlas vs kafel) PRZED budową]] - wspolne: low-poly, blender
+<!-- /POWIAZANE:auto -->

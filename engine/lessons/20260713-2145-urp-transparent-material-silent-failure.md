@@ -58,6 +58,19 @@ Dodatkowo: **`_Surface`/`_ZWrite`/`_Blend` w pliku `.mat` są BEZWŁADNE dla wł
 
 ## Powiązane
 
-- Gotowy shader Unity (URP/Unlit) wpięty w materiał-asset ma **krótszy łańcuch zależności** niż własny shader: nie trzeba go dopisywać do Always Included Shaders ani pilnować, żeby jakiś materiał go używał. Własny shader, którego nie używa żaden materiał, **wypada z buildu** i `Shader.Find` zwraca null (patrz [[shader-stripping-always-included]]).
+- Gotowy shader Unity (URP/Unlit) wpięty w materiał-asset ma **krótszy łańcuch zależności** niż własny shader: nie trzeba go dopisywać do Always Included Shaders ani pilnować, żeby jakiś materiał go używał. Własny shader, którego nie używa żaden materiał, **wypada z buildu** i `Shader.Find` zwraca null (patrz shader stripping always included).
 - Materiał wpięty w ScriptableObject leżący w `Resources/` jest wciągany do buildu razem z shaderem - automatycznie, przez graf zależności. To wystarcza; nie trzeba `Shader.Find`.
 - [[build-is-the-only-truth-editor-lies]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260713-2130-shader-find-null-and-createprimitive-magenta-in-build|Magenta w buildzie: Shader.Find zwraca null, a CreatePrimitive daje material, którego build nie ma]] - wspolne: shader-stripping, urp
+- [[20260718-0800-particle-visibility-water-sorting|Czasteczki "dzialaja, ale ich nie widac" - trzy niezalezne przyczyny przy wodzie]] - wspolne: transparency, urp
+- [[20260702-2140-shader-property-stale-serialized-material-values|Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach]] - wspolne: materials, urp
+- [[20260710-1300-vertex-colors-vs-basecolor-linear|Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ]] - wspolne: materials, urp
+- [[20260719-1605-paper-shell-culling-seethrough|Prześwity w modelach low-poly: najpierw sprawdź _Cull materiału, nie geometrię]] - wspolne: materials, urp
+- [[20260721-1830-linerenderer-flat-on-surface-invisible|LineRenderer lezacy plasko na powierzchni znika, bo material jest jednostronny]] - wspolne: materials, urp
+<!-- /POWIAZANE:auto -->

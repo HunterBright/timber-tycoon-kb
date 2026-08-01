@@ -85,3 +85,11 @@ Without this, Code may "helpfully" edit related files that weren't part of the t
 Consistency = reliable parsing. Code handles this format without ambiguity. Variations in format = variations in how Code interprets the task. One canonical format → fewer parse errors → fewer wrong edits.
 
 See also: [[three-level-analysis-system]], [[clear-vs-compact-decision-rules]], [[iterative-checkpoint-workflow]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[do-not-move-hardcoded-positions|"DO NOT MOVE" Hardcoded Positions Convention]] - wspolne: convention, claude-code
+<!-- /POWIAZANE:auto -->

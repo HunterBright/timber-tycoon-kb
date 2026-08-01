@@ -50,3 +50,16 @@ Render grass as **textured alpha-clipped CARDS** (a few crossed quads) drawn in 
 
 ## Don't instance everything
 Bushes/flowers/trees stayed as ordinary GameObjects (few hundred) - SRP Batcher handles them. Only the tens-of-thousands element (grass) needs this. If accents also balloon, give their shader the same instancing treatment.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260625-1841-unity-collision-for-gpu-instanced-props|Dodawanie kolizji do propów rysowanych GPU instancingiem]] - wspolne: gpu-instancing, performance
+- [[20260702-1135-lowpoly-thin-planar-leaves-antipattern|Anty-pattern: cienkie płaskie „soczewki" jako liście low-poly]] - wspolne: foliage, low-poly
+- [[20260531-1612-quaternius-lowpoly-nature-urp-import|Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP]] - wspolne: foliage, urp
+- [[20260728-0910-urp-jednostronne-kartki-listowia-czarne|Jednostronne kartki listowia na URP/Lit wychodza CZARNE]] - wspolne: foliage, urp
+- [[urp-shadow-cascade-tuning|URP Shadow Cascade Tuning for Low-Poly Terrain]] - wspolne: performance, urp
+- [[20260719-1605-paper-shell-culling-seethrough|Prześwity w modelach low-poly: najpierw sprawdź _Cull materiału, nie geometrię]] - wspolne: low-poly, urp
+<!-- /POWIAZANE:auto -->

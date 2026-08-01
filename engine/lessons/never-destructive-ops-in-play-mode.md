@@ -45,3 +45,12 @@ Hard rule for every Unity project. Any CI/CD automation or AI agent that modifie
 ## Related
 - [Backup scene before modify](../../workflow/claude-code/backup-scene-before-modify.md)
 - [Scene files are binary, never text-edit](../anti-patterns/scene-files-binary-never-edit.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[backup-scene-before-modify|Backup Scene Before Structural Modification]] - wspolne: scene-safety, claude-code
+- [[scene-attachment-check-before-deleting|Scene Attachment Check Before Deleting MonoBehaviour]] - wspolne: scene-safety, claude-code
+<!-- /POWIAZANE:auto -->

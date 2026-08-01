@@ -11,7 +11,7 @@ tags:
 - shadows
 - shadow-acne
 - terrain
-- roads
+- road
 - coplanar-meshes
 - shadow-distance
 - diagnostics
@@ -65,3 +65,16 @@ lower mesh shouldn't cast, or the gap must exceed the far-cascade depth error.
 
 ## See also
 [[scene-view-ab-false-positive-game-view-ground-truth]], [[urp-shadow-cascade-tuning]], [[debugging-search-first-trust-render-check-upstream]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[urp-shadow-cascade-tuning|URP Shadow Cascade Tuning for Low-Poly Terrain]] - wspolne: shadows, urp
+- [[20260628-1140-conform-road-mesh-to-edited-terrain|Conforming an existing road/decal mesh to terrain that was edited later]] - wspolne: road, terrain
+- [[stale-reflection-probe-night-whitening|Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)]] - wspolne: day-night, urp
+- [[20260609-0830-conform-terrain-to-path-via-per-x-centerline-profile|Conform a mesh terrain to a path by sampling its centreline per-axis (not a fixed scan line, not a single plane)]] - wspolne: road, terrain
+- [[20260626-1807-bridge-abutment-seam-fix|Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment]] - wspolne: road, terrain
+- [[flatten-terrain-under-road|Flatten Terrain Under Road (Smoothstep Blend)]] - wspolne: road, terrain
+<!-- /POWIAZANE:auto -->

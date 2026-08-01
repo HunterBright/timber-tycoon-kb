@@ -50,3 +50,16 @@ A "fix" light that merely brightens the scene can mask a lighting-model bug for 
 [[urp-shadow-cascade-tuning]], [[rotating-directional-light-day-night]], [[unity-runtime-writes-to-shared-material-asset]]
 
 CLAUDE.md pattern: "Legacy code conflict po refactorze" (MoonLight = legacy leftover of the pre-rewrite day/night system).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260613-1200-unity-offscreen-render-rig-scene-leaks|An "isolated" offscreen render rig still inherits the open scene's lights AND skybox reflection]] - wspolne: reflection-probe, lighting, urp
+- [[20260627-1040-daynight-editor-preview-and-pbr-water-sky-grey|Stylized PBR water looks great in editor but grey in-game - the day/night cycle drives lighting only at runtime]] - wspolne: reflection-probe, urp
+- [[rotating-directional-light-day-night|ANTI-PATTERN: Rotating Directional Light for Day/Night Cycle]] - wspolne: lighting, day-night
+- [[minecraft-style-lighting|Minecraft-Style Lighting (Static Overhead + Decorative Sun)]] - wspolne: lighting, day-night
+- [[urp-shadow-cascade-tuning|URP Shadow Cascade Tuning for Low-Poly Terrain]] - wspolne: lighting, urp
+- [[urp-distant-caster-shadow-band|"Dark band that follows the player" = terrain self-shadow leaking onto near-coplanar road meshes]] - wspolne: day-night, urp
+<!-- /POWIAZANE:auto -->

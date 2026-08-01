@@ -46,3 +46,12 @@ Big-bang architecture refactor breaks builds for weeks. Parallel coexistence mea
 Simpler version (smaller projects): just ServiceLocator + ISaveable (skip GameEventSO for direct method calls). Add GameEventSO when teams grow or systems need decoupling.
 
 See also: [[game-event-so-event-channel]], [[isaveable-contract]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[migration-pattern-rollback-safety|Backend Migration Pattern with Rollback Safety]] - wspolne: migration, architecture
+- [[20260712-1820-save-migration-schema-version-gate|Jednorazowa migracja zapisu MUSI być bramkowana wersją schematu, nie obecnością/brakiem migrowanego wpisu]] - wspolne: migration, isaveable
+<!-- /POWIAZANE:auto -->

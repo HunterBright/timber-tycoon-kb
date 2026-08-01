@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - unity
 - marketing
-- screenshots
+- screenshot
 - automation
 - steam
 - command-line
@@ -55,3 +55,11 @@ MonoBehaviour bootstrapowany argumentem wiersza polecen (wzor: sonda build-smoke
 ## Walidacja
 Kerf 2026-07-24: 4 sesje, 16 kadrow 4K, w tym wnetrza hali z NPC z wczytanego
 save'a (poziom 8) i warianty pory dnia. Sonda build-smoke 225/225 po zmianach.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260726-1415-powershell-nie-czeka-na-unity-batchmode|PowerShell nie czeka na Unity.exe ani na exe gry - kontrola swiezosci builda strzela za wczesnie]] - wspolne: automation, build
+<!-- /POWIAZANE:auto -->

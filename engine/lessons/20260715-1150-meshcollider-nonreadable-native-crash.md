@@ -78,3 +78,11 @@ jest niewidoczny az do builda i tylko przy pierwszym cooku collidera.
 ## Related
 - Rodzina "Editor lies" / mesh isReadable w buildzie (naprawa 27 modeli, 2026-07-13)
 - Wzorzec: smoke-test/sonda jako build-smoke pilnujacy przeszlych bledow
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260713-1830-runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it|Runtime MeshCollider wymaga Read/Write Enabled - a Edytor NIE JEST w stanie tego udowodnić]] - wspolne: read-write-enabled, physx, meshcollider
+<!-- /POWIAZANE:auto -->

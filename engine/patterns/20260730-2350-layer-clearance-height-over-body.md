@@ -13,7 +13,7 @@ tags:
 - collision
 - bvh
 - measurement
-- height-field
+- heightfield
 applies_to: []
 source: ''
 promoted: '2026-07-30'
@@ -63,3 +63,15 @@ Poprawki anty-przebiciowe per stan suwaka: TYLKO przesunięcia jednolite
 < 0.5 mm, odkładaj na pełny margines) - gonienie marginesu przez tysiące
 wierzchołków deformowało krawędzie w nawisy, a poprawki w danych
 pojedynczego klucza oscylują na suwakach dwustronnych.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260626-1807-bridge-abutment-seam-fix|Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment]] - wspolne: bvh, heightfield, blender
+- [[20260730-2140-shape-key-layer-corrections-oscillate|Poprawki anty-przebiciowe w danych POJEDYNCZEGO klucza kształtu oscylują]] - wspolne: clothing, layers, blender
+- [[20260730-1950-proxy-clothing-tangential-smoothing|Ubrania proxy na low-poly ciele: wygładzanie styczne zamiast laplasjanu]] - wspolne: clothing, blender
+- [[20260626-1808-probe-heightfield-before-terrain-edit|Probe the real heightfield before scripting terrain edits - assumed profiles drift]] - wspolne: heightfield, blender
+- [[20260728-0915-fbx-skala-100-w-dzieciach-psuje-pomiary|FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu]] - wspolne: measurement, blender
+<!-- /POWIAZANE:auto -->

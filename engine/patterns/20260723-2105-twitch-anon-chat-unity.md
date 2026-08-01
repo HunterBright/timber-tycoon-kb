@@ -59,3 +59,11 @@ ale bez zmuszania streamera do zakladania aplikacji dev, OAuth i utrzymywania se
 Kazda funkcja "czat steruje gra" w grze desktopowej single-player: darmowa, bez logowania,
 bez infrastruktury. NIE nadaje sie, gdy trzeba PISAC na czacie (wymaga OAuth) albo
 gwarantowanego SLA (mechanizm nieoficjalny).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260724-1120-twitch-wss-one-frame-one-command|Twitch IRC po WebSocket: jedna paczka = jedna komenda (i jak cichy klient to ukryl)]] - wspolne: twitch, chat, irc
+<!-- /POWIAZANE:auto -->

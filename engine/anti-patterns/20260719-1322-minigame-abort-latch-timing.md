@@ -59,3 +59,12 @@ z poprzedniej sesji (po jednym perfekcyjnym przejsciu: najlepszy przedmiot za sa
    zwiechniety stan); (c) abort po symulowanym pierwszym kliknieciu = zgodnie z decyzja
    designu (przepadek albo najnizsza jakosc), ale NIGDY pelnowartosciowy produkt.
    Test pisz PRZED fixem i udowodnij FAIL na starym kodzie (red-proof).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260714-2210-minigame-abort-refund-free-reroll|Minigra zużywa surowiec na STARCIE, a przerwanie go zwraca]] - wspolne: exploit, abort, minigame
+- [[20260629-1916-unity-minigame-abort-cleanup|Aborting a coroutine-driven minigame: release the active-flag LAST, and StopAllCoroutines]] - wspolne: abort, state-machine, minigame
+<!-- /POWIAZANE:auto -->

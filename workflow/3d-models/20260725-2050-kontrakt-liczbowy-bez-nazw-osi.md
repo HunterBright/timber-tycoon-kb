@@ -49,3 +49,16 @@ przy skladaniu, jako przekrecony o 90 stopni przekroj na szwie.
 3. Kontrola ma mierzyc SKUTEK dla sasiada (ile mm skory wystaje poza rekaw przy
    obu interpretacjach), a nie tylko zgodnosc z wlasnym zalozeniem. Kontrola,
    ktora sprawdza wlasne zalozenie wzgledem samego siebie, zawsze przechodzi.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260717-1115-style-match-real-assets-not-description|Anti-pattern: dopasowywanie stylu do OPISU stylu zamiast do prawdziwych assetów z gry]] - wspolne: asset-pipeline, blender
+- [[20260713-1030-verify-in-target-engine-not-source-tool|Weryfikuj asset w silniku DOCELOWYM, nie w narzędziu źródłowym]] - wspolne: asset-pipeline, blender
+- [[20260720-1310-hash-siatki-jako-dowod-neutralnosci-refaktoru|Kanoniczny hash wyniku jako dowod neutralnosci refaktoru generatora]] - wspolne: asset-pipeline, blender
+- [[20260612-1845-blender-9slice-ui-sprites|Blender-rendered 9-slice-ready UI sprites (3D panel → ortho render → Unity Sliced sprite)]] - wspolne: low-poly, blender
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: low-poly, blender
+- [[20260702-1135-lowpoly-thin-planar-leaves-antipattern|Anty-pattern: cienkie płaskie „soczewki" jako liście low-poly]] - wspolne: low-poly, blender
+<!-- /POWIAZANE:auto -->

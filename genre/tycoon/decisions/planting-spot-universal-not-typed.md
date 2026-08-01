@@ -68,3 +68,14 @@ The `PickupSapling` carries `TreeTypeData`. `PlantingSpot` reads it at plant tim
 Design constraints should serve gameplay, not realism. "It would be realistic for only spruce to grow in a spruce spot" is a weak argument if it makes the game less fun. Iterate based on what creates interesting player choices, not biological accuracy.
 
 See also: [[scriptable-object-runtime-injection]], [[zero-code-changes-philosophy]], [[so-propagation-chain-via-parameters]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[tier-system-foundation|Tier System Foundation - Trees, Products, Machines (SOURCE OF TRUTH)]] - wspolne: tree, game-design
+- [[rack-architecture-decision|Rack Architecture Decision (3 Options)]] - wspolne: decision-record, game-design
+- [[sales-flow-decision-hybrid|Sales Flow Decision - Hybrid D (Player + NPC Side by Side)]] - wspolne: decision-record, game-design
+- [[vfx-wycofane-decision|VFX Wycofane - Sawdust, Kurz, Liście Cut from MVP]] - wspolne: decision-record, game-design
+<!-- /POWIAZANE:auto -->

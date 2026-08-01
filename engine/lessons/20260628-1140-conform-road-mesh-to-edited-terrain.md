@@ -57,3 +57,16 @@ Fixing the crude *junction* of two hand-made road ribbons by patching (overlay a
 
 ## Related
 - Timber Tycoon project memory: project_road_redrape_2026-06-28, project_dirt_road_regen_2026-06-28
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260609-0830-conform-terrain-to-path-via-per-x-centerline-profile|Conform a mesh terrain to a path by sampling its centreline per-axis (not a fixed scan line, not a single plane)]] - wspolne: road, terrain, raycast
+- [[urp-distant-caster-shadow-band|"Dark band that follows the player" = terrain self-shadow leaking onto near-coplanar road meshes]] - wspolne: road, terrain
+- [[20260628-1615-footstep-surface-raycast-from-feet|Detekcja nawierzchni pod graczem: strzelaj raycastem OD STÓP, nie od środka postaci]] - wspolne: meshcollider, raycast
+- [[20260628-1702-editmode-collider-cook-scatter-mask|Edit-mode placement that excludes geometry via physics fails for non-convex runtime/embedded MeshColliders]] - wspolne: meshcollider, raycast
+- [[20260713-1420-convex-meshcollider-swallows-hollow-interiors|Convex MeshCollider na skorupie połyka jej wnętrze - promienie nigdy nie trafią w części w środku]] - wspolne: meshcollider, raycast
+- [[20260722-2055-raycast-w-gore-nie-widzi-tafli-wody|"Czy jestem pod wodą?" - promień w GÓRĘ nic nie zobaczy (backface)]] - wspolne: meshcollider, raycast
+<!-- /POWIAZANE:auto -->

@@ -65,3 +65,13 @@ na obwodzie przekroju kosc policzkowa rozlozona na jeden punkt daje blizne, a na
 punktow - kosc policzkowa. Ta sama objetosc, inny odbior. Gdy proceduralny detal czyta
 sie jak uszkodzenie, najpierw sprawdz, ile wierzcholkow go niesie, zanim zaczniesz
 zmieniac jego glebokosc.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-1422-bramka-musi-umiec-zaliczyc-nie-tylko-oblac|Bramka musi mieć udowodniony tryb ZALICZENIA, nie tylko PORAŻKI]] - wspolne: testy, bramki
+- [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: testy, bramki
+- [[20260731-0930-bramka-mierzaca-srodek-bryly-oblewa-ksztalty-niesymetryczne|Sprawdzian celujący w środek bryły oblewa kształty, których masa jest przesunięta]] - wspolne: testy, bramki
+<!-- /POWIAZANE:auto -->

@@ -38,3 +38,16 @@ Wtedy piksele renderu odpowiadają wartościom Base Color i można porównywać 
 
 ## Reguła
 Render „czy kolory się zgadzają" ≠ render „czy ładnie wygląda". Do pierwszego zawsze Standard.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260725-1930-blender-pixels-buffer-not-converted-to-srgb-on-png-save|Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG]] - wspolne: color-management, blender
+- [[20260720-1410-ortho-comparison-render-hides-occlusion|Rzut prostokątny w ujęciu porównawczym potrafi pokazać kilka obiektów nałożonych na siebie i wyglądać jak jeden poprawny obiekt]] - wspolne: render, blender
+- [[20260727-2145-sprawdzaj-czytnik-obrazu-renderem-wlasnego-modelu|Czytnik obrazu sprawdzaj renderem własnego modelu, nie obrazkiem, który sam sobie narysowałeś]] - wspolne: render, blender
+- [[20260602-1500-mtree-nonmanifold-voxel-remesh|Reducing MTree (Modular Tree) meshes to low-poly: Decimate & Quadriflow refuse, Voxel remesh works]] - wspolne: low-poly, blender
+- [[20260702-1400-bark-atlas-vs-tile-strategy|Rodzina assetów współdzieląca teksturę: wybierz strategię (atlas vs kafel) PRZED budową]] - wspolne: low-poly, blender
+- [[20260704-2330-blender-unity-flat-panel-dual-face-texture|Blender flat panel textured on one face renders BLANK in Unity (axis-flip picks the wrong face)]] - wspolne: low-poly, blender
+<!-- /POWIAZANE:auto -->

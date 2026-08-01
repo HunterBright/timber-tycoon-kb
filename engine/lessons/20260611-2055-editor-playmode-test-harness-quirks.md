@@ -9,7 +9,7 @@ project: Timber_Tycoon
 tags:
 - unity
 - editor-scripting
-- playmode
+- play-mode
 - automation
 - testing
 - domain-reload
@@ -54,3 +54,14 @@ play after ~15-30 s of unexpected idling.
 - Back up the player's save slot before the run, restore in `Finish()` and in an abort menu item.
 - Each play session is ~5 min wall-clock in a mid-size project (domain reload dominates) -
   budget accordingly.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260702-1955-playmode-script-edit-domain-reload|Edycja skryptów w trakcie Play Mode zabija statyczne rejestry (domain reload w locie)]] - wspolne: domain-reload, play-mode
+- [[scriptableobject-playmode-persistence|ScriptableObject changes in Play Mode DO persist after exit]] - wspolne: play-mode, testing
+- [[20260702-1612-editor-probes-return-result-not-logs|Sondy edytorowe przez MCP: zwracaj raport jako Result (string), nie przez Debug.Log]] - wspolne: play-mode, editor-scripting
+- [[20260710-2250-unity-autonomous-smoke-runner-flag-file|Autonomiczny runner smoke testów w Unity: plik-flaga + plik wyników]] - wspolne: play-mode, testing
+<!-- /POWIAZANE:auto -->

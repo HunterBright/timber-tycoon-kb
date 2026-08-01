@@ -41,3 +41,11 @@ Child-transform re-pivoting only moves things attached to children. Any geometry
 - Snapshot collider `mesh.vertices`/`triangles` before mutation → self-healing fallback (rebuild + `CreateAsset` + re-point) if the sub-asset is lost.
 - No `Undo.RecordObject` for asset edits when the transform half isn't undoable - a half-undoable operation re-splits collider from visuals on Ctrl+Z. Recovery = timestamped file backups.
 - Verify external references first: if other assets reference only the prefab ROOT fileID, in-place editing preserves them; nothing re-keys.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[mesh-collider-convex-for-clickable-minigame-objects|Convex MeshCollider for Irregular Clickable Objects]] - wspolne: meshcollider, prefab
+<!-- /POWIAZANE:auto -->

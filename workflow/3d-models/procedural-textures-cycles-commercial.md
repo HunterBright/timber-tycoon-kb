@@ -83,3 +83,13 @@ Baked PNG is the "source of truth" for Unity - the procedural nodes are just the
 Procedural materials = no embedded PNGs in .blend. A model with 10 procedural materials is ~1-3MB. Same model with baked PNGs embedded would be 10-30MB.
 
 See also: [[blender-headless-python-generation]], [[zero-floating-zero-flickering-mandate]], [[tripo-cleanup-pipeline]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260704-1322-blender-file-image-scale-bake-revert|Blender: image.scale() na file-backed image nie trzyma się podczas bake - użyj images.new()]] - wspolne: cycles, blender
+- [[20260704-1732-blender-linked-basecolor-recolor|Recoloring a Blender material whose Base Color is LINKED does nothing via default_value]] - wspolne: procedural, blender
+- [[20260717-1115-style-match-real-assets-not-description|Anti-pattern: dopasowywanie stylu do OPISU stylu zamiast do prawdziwych assetów z gry]] - wspolne: procedural, blender
+<!-- /POWIAZANE:auto -->

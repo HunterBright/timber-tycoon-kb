@@ -66,3 +66,13 @@ Throughput scaling:
 All subsequent worker architecture assumes hybrid fulfillment. `IOrderFulfiller` interface designed for asymmetric implementations. Never regress to Option A or B without revisiting this ADR.
 
 See also: [[order-fulfiller-interface]], [[customer-tier-system]], [[worker-simulate-work-cycle]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[planting-spot-universal-not-typed|PlantingSpot Universal (Not Typed by Species)]] - wspolne: decision-record, game-design
+- [[rack-architecture-decision|Rack Architecture Decision (3 Options)]] - wspolne: decision-record, game-design
+- [[vfx-wycofane-decision|VFX Wycofane - Sawdust, Kurz, Liście Cut from MVP]] - wspolne: decision-record, game-design
+<!-- /POWIAZANE:auto -->

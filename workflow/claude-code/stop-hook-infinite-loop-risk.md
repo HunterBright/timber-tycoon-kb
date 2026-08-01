@@ -64,3 +64,11 @@ If Stop hook is needed for a specific long-running task:
 - Always have a timeout (wall-clock or iteration count)
 
 See also: [[context-degradation-threshold]], [[clear-vs-compact-decision-rules]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[mcp-wildcard-permissions-format|MCP Wildcard Permissions Format]] - wspolne: configuration, claude-code
+<!-- /POWIAZANE:auto -->

@@ -46,3 +46,12 @@ Jesli rejestr przejmuje trwalosc typu, spawn w rekonstrukcji rodzica trzeba USUN
 samym commicie (grep po nazwach `*_Reconstructed`/`Spawn*` w metodach Reconstruct*).
 Do tego test repro w buildzie: doprowadz stan -> save -> in-place load -> licznik obiektow
 MUSI byc rowny sprzed zapisu (test najpierw CZERWONY na starym kodzie, potem zielony).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260611-2050-consumed-id-registry-save-pattern|Central consumed-ID registry for scene-object persistence]] - wspolne: persistence, save-system
+- [[isaveable-contract|ISaveable Contract]] - wspolne: persistence, save-system
+<!-- /POWIAZANE:auto -->

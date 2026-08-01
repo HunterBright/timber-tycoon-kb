@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - unity
 - level-design
-- colliders
+- collider
 - characize-controller
 - rigidbody
 - map-boundary
@@ -49,3 +49,16 @@ promoted: '2026-07-30'
 - No-gap full ring (fail-safe default if no gap marker/target found).
 - Vehicle-also-allowed gap: just omit the stopper.
 - Dedicated `Boundary` layer (auto-registered in TagManager) so NPC pathfinding/raycasts can mask the wall out.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260612-0630-mountain-ring-escape-audit|Programmatic escape audit for mountain-ring map boundaries]] - wspolne: map-boundary, level-design
+- [[20260628-1405-walkable-cave-from-hollow-rock|Walkable cave from a hollow low-poly rock (don't carve the model)]] - wspolne: map-boundary, level-design
+- [[dynamic-rigidbody-no-nonconvex-meshcollider|Dynamic Rigidbody → Primitive or Convex Collider, Never Non-Convex Mesh]] - wspolne: rigidbody, collider, physics
+- [[self-collision-compound-colliders-ignore|Self-Collision Compound BoxColliders → Physics.IgnoreCollision]] - wspolne: rigidbody, collider, physics
+- [[collider-distribution-rule|Collider Distribution Rule (Architecture)]] - wspolne: level-design, collider
+- [[20260722-2050-unstuck-nearest-valid-ground-ring-search|Unstuck / reset: szukaj najbliższego POPRAWNEGO gruntu zamiast teleportu do bazy]] - wspolne: level-design, physics
+<!-- /POWIAZANE:auto -->

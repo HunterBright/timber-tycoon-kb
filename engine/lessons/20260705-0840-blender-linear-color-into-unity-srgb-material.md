@@ -12,7 +12,7 @@ tags:
 - color-space
 - linear
 - srgb
-- material
+- materials
 - gamma
 - shader
 applies_to: []
@@ -53,3 +53,16 @@ Sprawdź m_ActiveColorSpace w ProjectSettings (1 = Linear).
 ## Koszt gdy pominięte
 Wygląda jak zły model / złe oświetlenie / zła tekstura - łatwo szukać w złym miejscu. Diagnostyka: jeśli
 identyczny shader z BIAŁYM tintem wygląda dobrze, a z kolorowym jest za ciemno, to prawie na pewno to.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[vertex-color-gamma-correction-blender-to-unity|Vertex Color Gamma Correction Blender → Unity]] - wspolne: linear, srgb, gamma
+- [[20260725-1930-blender-pixels-buffer-not-converted-to-srgb-on-png-save|Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG]] - wspolne: srgb, gamma, blender
+- [[20260702-2140-shader-property-stale-serialized-material-values|Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach]] - wspolne: shader, materials
+- [[20260710-1300-vertex-colors-vs-basecolor-linear|Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ]] - wspolne: shader, materials
+- [[20260710-2010-material-props-wrong-shader-inert|Ustawianie właściwości materiału bez sprawdzenia SHADERA = ciche nic + ryzyko nadpisania]] - wspolne: shader, materials
+- [[20260704-1732-blender-linked-basecolor-recolor|Recoloring a Blender material whose Base Color is LINKED does nothing via default_value]] - wspolne: materials, blender
+<!-- /POWIAZANE:auto -->

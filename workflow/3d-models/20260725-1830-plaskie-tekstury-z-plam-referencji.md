@@ -12,7 +12,7 @@ tags:
 - generatory-3d
 - retopologia
 - bake
-- referencje
+- referencja
 - numpy
 applies_to: []
 source: ''
@@ -85,3 +85,16 @@ Skrypt sam przerywal prace, gdy: (a) wzor rzutu nie zgadzal sie z realnie wypiec
 czapka), (c) nie znalazl koloru skory na twarzy. Kazde przerwanie wskazalo prawdziwa przyczyne
 zamiast wypuscic zepsuta teksture. Uklad wspolrzednych i przestrzen koloru referencji nie sa
 zgadywane - skrypt sprawdza wszystkie warianty i wybiera ten, ktory zgadza sie z pomiarem.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260610-1820-blender-mcp-failure-headless-fallback|blender-mcp bridge failure modes + headless CLI fallback]] - wspolne: bake, blender
+- [[20260618-0724-blender-ortho-ui-sprite-bake-framing|Baking flat UI sprites in Blender: ortho frame width = ortho_scale × 2]] - wspolne: bake, blender
+- [[20260704-1322-blender-file-image-scale-bake-revert|Blender: image.scale() na file-backed image nie trzyma się podczas bake - użyj images.new()]] - wspolne: bake, blender
+- [[20260727-1921-kamera-z-siatki-podlogi-nie-z-sylwetki|Kamerę odtwarzaj z regularnej struktury sceny, nie z sylwetki modelu]] - wspolne: referencja, blender
+- [[20260727-1924-maska-sylwetki-z-dziurami-w-cieniu|Maska sylwetki może mieć dziury w środku - i przez lata tego nie widać]] - wspolne: referencja, blender
+- [[20260727-2320-sylwetka-nie-rozdziela-czesci-ktore-sie-stykaja|Sylwetka nie rozdziela dwóch rzeczy, które się stykają - i milczy o tym]] - wspolne: referencja, blender
+<!-- /POWIAZANE:auto -->

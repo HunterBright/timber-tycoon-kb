@@ -70,3 +70,12 @@ This is why the project rule is: **backup scene before any modification** (see [
 
 ## See also
 [[runtime-vs-editor-script-separation]], [[never-destructive-ops-in-play-mode]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260728-1520-unity-scena-binarna-mimo-force-text|Scena zostaje BINARNA mimo Force Text, a dwa oczywiste lekarstwa nie działają]] - wspolne: yaml, scene
+- [[20260624-0813-unity-setup-scripts-rebuild-reposition-antipattern|Edytorowe skrypty „Setup X" które DestroyImmediate + Instantiate + ustawiają pozycję = niszczące - nie używaj ich do drobnych poprawek]] - wspolne: scene, prefab
+<!-- /POWIAZANE:auto -->

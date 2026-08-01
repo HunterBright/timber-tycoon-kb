@@ -91,3 +91,11 @@ Checklist UI makes progress tangible - player can count remaining boxes. Counter
 - **Journal entries (Morrowind style):** rich text per step completion. More narrative, less visual progress indicator.
 
 See also: [[quest-highlight-pattern]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[quest-highlight-pattern|Quest Highlight Pattern (Quest-Flag Mechanism)]] - wspolne: quest, tutorial, ui
+<!-- /POWIAZANE:auto -->

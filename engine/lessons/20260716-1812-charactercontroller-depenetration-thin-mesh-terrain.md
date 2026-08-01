@@ -60,3 +60,13 @@ Ewaluator odzysku = NIEZALEŻNY promień w dół (nie testuj kodu nim samym).
 ratunkowa chroni też przed WSZYSTKIMI przyszłymi bugami tego typu, nie tylko znanym.
 **How to apply:** w każdym projekcie FPP/TPP z CharacterController i customowym terenem-siatką
 dodaj trójwarstwową siatkę ratunkową od pierwszego playtestu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260628-1615-footstep-surface-raycast-from-feet|Detekcja nawierzchni pod graczem: strzelaj raycastem OD STÓP, nie od środka postaci]] - wspolne: charactercontroller, physics
+- [[20260723-1746-ignorecollision-wiped-on-collider-disable|Physics.IgnoreCollision znika przy wyłączeniu collidera - dla przełączanych colliderów używaj par warstw]] - wspolne: charactercontroller, physics
+- [[20260723-1747-spawn-y-tunneling-oneside-terrain|Spawn na Y rodzica + jednostronny teren zerowej grubości + Discrete = obiekty pod mapą]] - wspolne: terrain, physics
+<!-- /POWIAZANE:auto -->

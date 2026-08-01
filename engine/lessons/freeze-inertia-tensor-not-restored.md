@@ -60,3 +60,16 @@ Any Rigidbody that toggles `automaticInertiaTensor=false` and then applies freez
 ## Related
 - [Forward axis = -transform.right (Blender FBX quirk)](forward-axis-blender-fbx-quirk.md)
 - [Self-collision compound BoxColliders](self-collision-compound-colliders-ignore.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260714-2220-maxspeed-clamp-is-not-a-speed|maxSpeed to KLAMRA, nie prędkość - pojazd i tak stanie na (napęd / tłumienie)]] - wspolne: rigidbody, vehicle, physics
+- [[20260724-0907-arcade-car-climbs-walls|Arkadowe auto na Rigidbody wspina sie po scianach i odlatuje w niebo]] - wspolne: rigidbody, vehicle, physics
+- [[self-collision-compound-colliders-ignore|Self-Collision Compound BoxColliders → Physics.IgnoreCollision]] - wspolne: rigidbody, vehicle, physics
+- [[minimum-turn-factor-arcade-steering|Minimum turnFactor 0.3 for Low-Speed Arcade Steering]] - wspolne: vehicle, npc, physics
+- [[npc-parking-pd-controller|NPC Parking PD Controller]] - wspolne: vehicle, npc, physics
+- [[20260728-1110-meshcollider-niewypukly-z-rigidbody-gubi-kolizje|Zderzak z pelnej siatki na obiekcie z fizyka = obiekt znika ze swiata]] - wspolne: rigidbody, physics
+<!-- /POWIAZANE:auto -->

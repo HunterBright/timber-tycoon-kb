@@ -51,3 +51,13 @@ If a `.mat` keeps reappearing as dirty in git after play sessions, diff the actu
 ## See also
 
 [[scriptableobject-playmode-persistence]], [[playmode-asset-pollution-vs-disk]], [[four-phase-weighted-smoothstep-day-night]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[playmode-asset-pollution-vs-disk|Play-Mode in-memory edits pollute on-disk assets - and a "fix" can produce zero git diff]] - wspolne: day-night-cycle, git, materials
+- [[20260713-2020-unity-binary-scene-in-git-lfs-is-irreversible-bloat|Anti-pattern: binarna scena Unity w Git LFS = nieodwracalny, rosnacy bez konca bloat]] - wspolne: git, serialization
+- [[20260702-2140-shader-property-stale-serialized-material-values|Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach]] - wspolne: serialization, materials
+<!-- /POWIAZANE:auto -->

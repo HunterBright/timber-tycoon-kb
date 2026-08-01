@@ -42,3 +42,13 @@ materialy poprawne, zero magenty - a na zrzutach z gry efektu nie widac. 4 itera
 ## Jak diagnozowac
 Nie na oko w Edytorze: ps.Simulate(5f) + tymczasowa kamera + RenderTexture -> PNG w batchmode,
 z 4 stron + zblizenia, plus log particleCount. Kazda hipoteza = jeden zrzut, zero zgadywania.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260713-2145-urp-transparent-material-silent-failure|URP: źle skonfigurowany materiał przezroczysty to CICHA porażka, której wykrywacz magenty nie widzi]] - wspolne: transparency, urp
+- [[20260605-1250-urp-flow-shader-scroll-sign|Scrolling/flow shaders: visual motion runs OPPOSITE to the flow vector]] - wspolne: water, urp
+- [[low-poly-water-side-wave|ANTI-PATTERN: sin(X) + sin(Z) Water Shader = Side Waves]] - wspolne: water, urp
+<!-- /POWIAZANE:auto -->

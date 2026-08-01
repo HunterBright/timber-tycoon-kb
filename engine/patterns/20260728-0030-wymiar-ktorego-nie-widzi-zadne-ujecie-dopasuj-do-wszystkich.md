@@ -8,7 +8,7 @@ date: '2026-07-28'
 project: Kerf - Sawmill Tycoon
 tags:
 - pomiar
-- kamery
+- kamera
 - fotogrametria
 - sylwetka
 - dopasowanie
@@ -79,3 +79,16 @@ skakało bez ładu.
 Objaw tej pomyłki jest charakterystyczny: wynik nie jest losowy, tylko
 **niestabilny między sąsiednimi przekrojami** - dwie sąsiednie wysokości
 dają wyniki różniące się dwukrotnie.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-1921-kamera-z-siatki-podlogi-nie-z-sylwetki|Kamerę odtwarzaj z regularnej struktury sceny, nie z sylwetki modelu]] - wspolne: fotogrametria, kamera, pomiar
+- [[20260727-2320-sylwetka-nie-rozdziela-czesci-ktore-sie-stykaja|Sylwetka nie rozdziela dwóch rzeczy, które się stykają - i milczy o tym]] - wspolne: sylwetka, pomiar, blender
+- [[20260728-1900-miara-z-degeneracja|Miara optymalizowana samotnie znajduje rozwiazanie zdegenerowane]] - wspolne: dopasowanie, pomiar
+- [[20260727-2140-linijka-wysokosci-na-zdjeciu-jest-krzywa|"Ile procent kadru, tyle procent wysokości" to nieprawda, gdy obiektyw patrzy z góry]] - wspolne: kamera, pomiar
+- [[20260727-2145-sprawdzaj-czytnik-obrazu-renderem-wlasnego-modelu|Czytnik obrazu sprawdzaj renderem własnego modelu, nie obrazkiem, który sam sobie narysowałeś]] - wspolne: pomiar, blender
+- [[20260727-1924-maska-sylwetki-z-dziurami-w-cieniu|Maska sylwetki może mieć dziury w środku - i przez lata tego nie widać]] - wspolne: sylwetka, blender
+<!-- /POWIAZANE:auto -->

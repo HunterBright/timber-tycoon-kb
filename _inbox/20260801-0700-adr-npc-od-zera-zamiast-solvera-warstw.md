@@ -60,3 +60,12 @@ Gdy utrzymanie zbieznosci ukladu wymaga coraz wiekszej liczby
 wyjatkow/stref/progow, a werdykt oka dalej mowi "poszarpane" - to sygnal,
 ze walczysz z ARCHITEKTURA, nie z bugami. Zmien reprezentacje problemu
 (tu: warstwy fizyczne -> stroj w siatce), zamiast dokladac mechanizmy.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: ubrania, solver
+- [[20260731-1050-rowne-krawedzie-ubran-bisect-plane|20260731-1050-rowne-krawedzie-ubran-bisect-plane]] - wspolne: ubrania, low-poly
+<!-- /POWIAZANE:auto -->

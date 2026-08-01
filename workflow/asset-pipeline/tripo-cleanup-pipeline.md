@@ -87,3 +87,16 @@ Background props at distance (>20m from player) where player won't notice:
 Full cleanup: 30-60 minutes. Partial (background prop): 10-15 minutes. From-scratch modeling: 3-8 hours. Tripo + cleanup = fastest path to production asset for most TT prop types.
 
 See also: [[tripo-asymmetric-floating-retopo]], [[tripo-vocab-firewood-wedge]], [[blender-headless-python-generation]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[tripo-asymmetric-floating-retopo|Tripo Asymmetric / Floating Elements - Blender Retopo]] - wspolne: retopo, cleanup, tripo
+- [[20260719-2015-ai-gen-model-geometry-debt|Modele generowane przez AI (Tripo/Hunyuan): dług geometryczny - czasem taniej zbudować od zera]] - wspolne: cleanup, tripo, blender
+- [[20260602-1500-mtree-nonmanifold-voxel-remesh|Reducing MTree (Modular Tree) meshes to low-poly: Decimate & Quadriflow refuse, Voxel remesh works]] - wspolne: retopo, blender
+- [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: tripo, blender
+- [[20260531-0934-tripo-polygon-soup-inverted-winding-fix|Tripo / AI-generated meshes import as "polygon soup" - see-through holes under single-sided rendering are a winding problem caused by UNWELDED verts, not interior faces]] - wspolne: tripo, blender
+- [[20260531-1530-unity-humanoid-autorig-mirrored-foot|Crooked foot under Unity Humanoid = auto-rig copied the foot bind pose instead of mirroring it]] - wspolne: tripo, blender
+<!-- /POWIAZANE:auto -->

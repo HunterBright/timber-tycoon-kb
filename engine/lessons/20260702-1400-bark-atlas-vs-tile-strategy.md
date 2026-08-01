@@ -40,3 +40,16 @@ pojedynczego hero-assetu, który nigdy nie odda tekstury nikomu innemu.
 2. Rodzina wariantów (6 gatunków) generowana jednym parametrycznym generatorem = jeden pattern
    w różnych kolorach; użytkownik to widzi natychmiast. Wyróżnik gatunku musi być STRUKTURALNY
    (inne kształty wzoru), nie kolorystyczny.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260606-0930-baked-atlas-texture-foreign-uvs|Don't apply a baked-atlas texture to a mesh whose UVs were authored for a different atlas]] - wspolne: textures, atlas, uv
+- [[20260704-2330-blender-unity-flat-panel-dual-face-texture|Blender flat panel textured on one face renders BLANK in Unity (axis-flip picks the wrong face)]] - wspolne: uv, low-poly, blender
+- [[20260704-1322-blender-file-image-scale-bake-revert|Blender: image.scale() na file-backed image nie trzyma się podczas bake - użyj images.new()]] - wspolne: atlas, blender
+- [[single-material-atlas-for-static-props|Single-Material Atlas for Static Props]] - wspolne: atlas, blender
+- [[cycles-bake-for-solid-colors|ANTI-PATTERN: Cycles Bake for Solid Color Regions]] - wspolne: uv, blender
+- [[20260602-1500-mtree-nonmanifold-voxel-remesh|Reducing MTree (Modular Tree) meshes to low-poly: Decimate & Quadriflow refuse, Voxel remesh works]] - wspolne: low-poly, blender
+<!-- /POWIAZANE:auto -->

@@ -73,3 +73,11 @@ Each agent type uses its appropriate movement system. Pedestrians on NavMesh avo
 - **All waypoints:** pre-script every NPC movement including pedestrians - works for very scripted sequences (parade, cutscene), doesn't scale to dynamic gameplay
 
 See also: [[npc-parking-pd-controller]], [[pipeline-style-npc-spawn]], [[reverse-parking-entry-stub-orientation]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1652-npc-foot-grounding-raycast-vs-navmesh-baseoffset|Przyklejanie stop NPC do gruntu raycastem zamiast stalej korekty NavMeshAgent.baseOffset]] - wspolne: navmesh, npc
+<!-- /POWIAZANE:auto -->

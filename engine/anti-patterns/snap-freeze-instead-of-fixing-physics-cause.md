@@ -52,3 +52,16 @@ If your "settle" code writes transform.position or transform.eulerAngles, or set
 - [[trunk-fall-physics-config]]
 - [[dynamic-rigidbody-no-nonconvex-meshcollider]]
 - [[read-actual-code-before-hypothesizing]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[debugging-search-first-trust-render-check-upstream|Debugging methodology: search-first, trust the render, check for upstream sabotage]] - wspolne: process, debugging
+- [[20260714-2220-maxspeed-clamp-is-not-a-speed|maxSpeed to KLAMRA, nie prędkość - pojazd i tak stanie na (napęd / tłumienie)]] - wspolne: rigidbody, physics
+- [[20260724-0907-arcade-car-climbs-walls|Arkadowe auto na Rigidbody wspina sie po scianach i odlatuje w niebo]] - wspolne: rigidbody, physics
+- [[20260728-1110-meshcollider-niewypukly-z-rigidbody-gubi-kolizje|Zderzak z pelnej siatki na obiekcie z fizyka = obiekt znika ze swiata]] - wspolne: rigidbody, physics
+- [[dynamic-rigidbody-no-nonconvex-meshcollider|Dynamic Rigidbody → Primitive or Convex Collider, Never Non-Convex Mesh]] - wspolne: rigidbody, physics
+- [[freeze-inertia-tensor-not-restored|FreezeAll + automaticInertiaTensor=false Zeroes the Inertia Tensor]] - wspolne: rigidbody, physics
+<!-- /POWIAZANE:auto -->

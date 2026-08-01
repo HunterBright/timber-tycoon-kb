@@ -71,3 +71,11 @@ All temporary code uses one of these explicit markers:
 All markers must be searchable. Never add debug code without a marker.
 
 See also: [[legacy-code-conflict-after-refactor]], [[intentionally-low-maxcapacity-test-racks]], [[before-delete-legacy-class-checklist]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[storage-migration-primary-plus-legacy-fallback|Storage Migration: Primary New + Legacy Fallback]] - wspolne: migration, technical-debt
+<!-- /POWIAZANE:auto -->

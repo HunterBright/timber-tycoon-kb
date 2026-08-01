@@ -61,3 +61,15 @@ Post-demo launch: if community feedback includes "game feels lifeless" or "trees
 Itemize ALL planned VFX. Score each on: gameplay value / dev cost / player noticeability. Cut bottom 50% from MVP. Retained VFX should all have clear gameplay communication function, not just visual flair.
 
 See also: [[vfx-performance-budget]], [[vfx-trigger-pattern]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[player-built-vs-purchased-dichotomy|Player-Built vs. Purchased Dichotomy]] - wspolne: scope, game-design
+- [[ui-phase-4-catalog|UI Phase 4 Catalog (12 Systems)]] - wspolne: scope, game-design
+- [[planting-spot-universal-not-typed|PlantingSpot Universal (Not Typed by Species)]] - wspolne: decision-record, game-design
+- [[rack-architecture-decision|Rack Architecture Decision (3 Options)]] - wspolne: decision-record, game-design
+- [[sales-flow-decision-hybrid|Sales Flow Decision - Hybrid D (Player + NPC Side by Side)]] - wspolne: decision-record, game-design
+<!-- /POWIAZANE:auto -->

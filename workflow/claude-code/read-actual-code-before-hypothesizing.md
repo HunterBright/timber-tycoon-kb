@@ -56,3 +56,12 @@ Applies to any AI-assisted debugging workflow. The pattern is: tool use (read co
 ## Related
 - [3-level analysis system](three-level-analysis-system.md)
 - [Context degradation threshold](context-degradation-threshold.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[three-level-analysis-system|Three-Level Analysis System]] - wspolne: workflow, claude-code
+- [[iterative-checkpoint-workflow|Iterative Checkpoint Workflow for Generated Assets]] - wspolne: workflow, claude-code
+<!-- /POWIAZANE:auto -->

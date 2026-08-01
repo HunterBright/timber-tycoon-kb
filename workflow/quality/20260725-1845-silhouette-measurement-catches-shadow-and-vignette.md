@@ -62,3 +62,11 @@ kandydatow, wybor jest bezpieczny, nawet jesli sama liczba jest niepewna.
 Patrz tez: [[feedback_probe_must_be_able_to_fail]] - kontrola, ktora nie potrafi
 zawiesc, jest bezwartosciowa. Tu kontrole przerwaly prace dwa razy i za kazdym razem
 wskazaly prawdziwa przyczyne.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1652-relative-only-test-blind-to-common-mode-error|Test porownujacy instancje MIEDZY SOBA jest slepy na blad wspolny (common-mode)]] - wspolne: false-green, measurement
+<!-- /POWIAZANE:auto -->

@@ -62,3 +62,16 @@ pewniejsza jest macierz.
 Jesli pomiar z siatki wychodzi rownym rzedem wielkosci obok prawdy (100x, 0,01x),
 to prawie na pewno jest to skala jednostek, a nie blad liczenia. Sprawdz
 `localScale` DZIECI, nie korzenia.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260629-1145-blender-empties-bake-space-transform-double-axis|FBX with parent EMPTIES imports tipped 90° when exported with bake_space_transform=True]] - wspolne: import, fbx, blender
+- [[flatten-must-be-baked-into-geometry-when-code-forces-uniform-scale|Flatten Must Be Baked Into Geometry When Code Forces Uniform Scale]] - wspolne: scale, fbx, blender
+- [[20260531-1705-normalize-assetpack-scale-via-modelimporter|Normalize Inconsistent Asset-Pack Scale at the Source (ModelImporter.globalScale)]] - wspolne: scale, fbx
+- [[20260612-1340-unity-batch-fbx-import-meta-mirroring|Batch FBX import with pre-authored .meta files + prefab build in temp additive scene]] - wspolne: import, fbx
+- [[20260531-0934-tripo-polygon-soup-inverted-winding-fix|Tripo / AI-generated meshes import as "polygon soup" - see-through holes under single-sided rendering are a winding problem caused by UNWELDED verts, not interior faces]] - wspolne: fbx, blender
+- [[20260626-1203-fbx-pivot-direction-vs-procedural-placement|Pivot/geometry direction of an FBX must match what a procedural placement tool assumes]] - wspolne: fbx, blender
+<!-- /POWIAZANE:auto -->

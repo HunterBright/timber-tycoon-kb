@@ -48,3 +48,15 @@ None. This is strictly better than Start-init for ISaveable components. The only
 Same timing issue applies to: components that subscribe to GameEventSOs (subscribe in Awake/OnEnable), components that reference ServiceLocator services (get in Awake after registration).
 
 See also: [[isaveable-contract]], [[race-condition-start-vs-instantiate-parameter]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[isaveable-contract|ISaveable Contract]] - wspolne: isaveable, save-system
+- [[20260712-1820-save-migration-schema-version-gate|Jednorazowa migracja zapisu MUSI być bramkowana wersją schematu, nie obecnością/brakiem migrowanego wpisu]] - wspolne: isaveable, save-system
+- [[20260622-1412-saveload-order-event-doublecount|Lekcja: licznik liczący PRZYROSTY z eventu magazynu fałszywie nalicza przy wczytaniu zapisu]] - wspolne: isaveable, save-system
+- [[20260702-2200-save-system-missing-key-reset|Nowy ISaveable + stary save = przeciek żywego stanu (reset przy braku klucza)]] - wspolne: isaveable, save-system
+- [[20260710-1952-save-key-name-path-hash-collision|Klucz zapisu z hasha ścieżki NAZW = kolizja przy duplikatach obiektów]] - wspolne: isaveable, save-system
+<!-- /POWIAZANE:auto -->

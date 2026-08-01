@@ -10,7 +10,7 @@ tags:
 - unity
 - terrain
 - water
-- lowpoly
+- low-poly
 - vertex-color
 - shoreline
 applies_to: []
@@ -38,3 +38,16 @@ Densifying / Laplacian-smoothing the terrain rim to fix the jaggedness: it chang
 
 ## Preserve
 Wading/interaction colliders usually live on the ORIGINAL meshes (not the merged visible water mesh) - don't touch them. Freeze any bridge/inlet zones during the re-sculpt.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260606-0615-meandering-river-flow-map-baked-tangent|Curved/meandering water flow via a baked flow map (arc-length V + per-vertex tangent)]] - wspolne: vertex-color, water
+- [[desaturated-colors-for-low-poly|Desaturated Colors for Low-Poly Aesthetic]] - wspolne: terrain, low-poly
+- [[20260720-0915-loft-nie-da-plaskiej-szyby|Malowanie szyby kolorem na powierzchni z loftu nigdy nie da płaskiej tafli]] - wspolne: vertex-color, low-poly
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: terrain, low-poly
+- [[polybrush-settings-low-poly|Polybrush Settings for Low-Poly Terrain]] - wspolne: terrain, low-poly
+- [[20260626-1807-bridge-abutment-seam-fix|Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment]] - wspolne: terrain, low-poly
+<!-- /POWIAZANE:auto -->

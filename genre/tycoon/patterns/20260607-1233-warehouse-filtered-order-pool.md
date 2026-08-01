@@ -58,3 +58,14 @@ seeded once by an editor menu (`SetFirewoodOnlyOrderables` / "Set Demo Orderable
 with 8 producible entries (firewood, chips, bark, 4 plank species, pellet bag).
 Pellet/plank orders simply don't appear until those machines run. Reputation value
 lives per-entry in the same seeder.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260704-2030-tycoon-economy-two-clock-balancing|Balansowanie ekonomii progresu metodą „dwóch zegarów" + koperty przychodu]] - wspolne: economy, tycoon
+- [[20260710-1030-supply-weighted-orders-need-floor|Losowanie zamówień ważone podażą wymaga PODŁOGI wag]] - wspolne: economy, tycoon
+- [[20260716-0843-value-greedy-basket-priciest-dominates|Koszyk dobijany do kwoty "krokiem najblizej celu" = najdrozszy produkt dominuje kazde zamowienie]] - wspolne: economy, tycoon
+- [[20260714-2215-order-value-topdown-makes-prices-meaningless|Zamówienie losowane OD KWOTY w dół - cennik przestaje cokolwiek znaczyć]] - wspolne: economy, tycoon
+<!-- /POWIAZANE:auto -->

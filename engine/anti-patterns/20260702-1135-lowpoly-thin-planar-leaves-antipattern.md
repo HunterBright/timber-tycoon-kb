@@ -10,7 +10,7 @@ tags:
 - blender
 - low-poly
 - foliage
-- trees
+- tree
 - modeling
 applies_to: []
 source: ''
@@ -38,3 +38,16 @@ bounding box nie mierzy wizualnej masy.
 ## Reguła
 W low-poly każda bryła listowia musi mieć objętość 3D. Metryki (verts, bbox) nie zastępują
 oglądu z co najmniej dwóch kątów.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260711-1647-blender-prop-contact-interpenetrate-not-gap|Anty-wzorzec: szczeliny powietrza jako ochrona przed z-fightingiem (lewitujące propy)]] - wspolne: modeling, low-poly, blender
+- [[cylindric-beams-visual-contrast|Cylindric vs Rectangular Beams for Visual Contrast]] - wspolne: modeling, low-poly, blender
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: modeling, low-poly, blender
+- [[20260623-1508-instanced-grass-cards|Performant stylized grass: textured cards + GPU instancing (no GameObjects)]] - wspolne: foliage, low-poly
+- [[20260720-0915-loft-nie-da-plaskiej-szyby|Malowanie szyby kolorem na powierzchni z loftu nigdy nie da płaskiej tafli]] - wspolne: low-poly, blender
+- [[20260612-1530-fix-baked-solidify-wrong-direction|Fixing a baked-in Solidify applied in the wrong direction]] - wspolne: modeling, blender
+<!-- /POWIAZANE:auto -->

@@ -120,3 +120,14 @@ SDF font rendering = crisp at any size. Style guide enforced via SO = designers 
 ## Variants
 - **Simpler version**: single font size scale, no registration pattern - just `TMP_Settings` override
 - **High contrast mode**: separate `IHighContrastable` interface, inverts palette for accessibility
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260612-1815-headless-tmp-sdf-font-generation|Headless TMP setup: import Essentials + generate SDF font asset from editor script]] - wspolne: sdf, font, textmeshpro
+- [[20260623-0840-unity-cjk-cyrillic-fonts-tmp-and-legacy-text|Renderowanie CJK + cyrylicy w grze Unity (TextMeshPro + legacy UI.Text)]] - wspolne: font, textmeshpro
+- [[20260721-1215-ui-fit-check-measuring-rect-instead-of-text|Sprawdzanie "czy tekst sie miesci" przez pomiar RectTransform]] - wspolne: textmeshpro, ui
+- [[20260617-1210-tmp-text-legibility-on-textured-bg|TextMeshPro: czytelność na teksturowanym tle (drewno) + warstwy modali]] - wspolne: textmeshpro, ui
+<!-- /POWIAZANE:auto -->

@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - unity
 - physics
-- colliders
+- collider
 - compound
 - rigidbody
 - vehicle
@@ -63,3 +63,16 @@ Any Unity project using compound collider hierarchies on a single Rigidbody - ro
 ## Related
 - [Forward axis quirk](forward-axis-blender-fbx-quirk.md)
 - [Vehicle interaction zones as triggers](../patterns/vehicle-interaction-zones-as-triggers.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260714-2220-maxspeed-clamp-is-not-a-speed|maxSpeed to KLAMRA, nie prędkość - pojazd i tak stanie na (napęd / tłumienie)]] - wspolne: rigidbody, vehicle, physics
+- [[20260724-0907-arcade-car-climbs-walls|Arkadowe auto na Rigidbody wspina sie po scianach i odlatuje w niebo]] - wspolne: rigidbody, vehicle, physics
+- [[freeze-inertia-tensor-not-restored|FreezeAll + automaticInertiaTensor=false Zeroes the Inertia Tensor]] - wspolne: rigidbody, vehicle, physics
+- [[dynamic-rigidbody-no-nonconvex-meshcollider|Dynamic Rigidbody → Primitive or Convex Collider, Never Non-Convex Mesh]] - wspolne: rigidbody, collider, physics
+- [[20260622-0950-unity-map-boundary-from-bounds|Invisible map boundary from live Renderer.bounds + foot-only gap via IgnoreCollision]] - wspolne: rigidbody, collider, physics
+- [[20260728-1110-meshcollider-niewypukly-z-rigidbody-gubi-kolizje|Zderzak z pelnej siatki na obiekcie z fizyka = obiekt znika ze swiata]] - wspolne: rigidbody, physics
+<!-- /POWIAZANE:auto -->

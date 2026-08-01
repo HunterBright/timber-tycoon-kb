@@ -79,3 +79,12 @@ sunLight.transform.rotation = Quaternion.Euler(quantized, yaw, 0f);
 
 ## See also
 [[four-phase-weighted-smoothstep-day-night]], [[procedural-skybox-sun-moon-trick]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[stale-reflection-probe-night-whitening|Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)]] - wspolne: lighting, day-night
+- [[minecraft-style-lighting|Minecraft-Style Lighting (Static Overhead + Decorative Sun)]] - wspolne: lighting, day-night
+<!-- /POWIAZANE:auto -->

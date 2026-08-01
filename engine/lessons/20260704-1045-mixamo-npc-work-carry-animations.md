@@ -69,3 +69,16 @@ animację obiektu, a nie szukaj dosłownej mocap-pracy - jej w Mixamo nie ma.
 ## Related
 - (project) foot-rig: Humanoid auto-map gnie stopy → Generic + mixamorig
 - (pattern) AnimatorOverrideController do podmiany klipów per-rola na wspólnym kontrolerze
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260716-0843-generic-rig-no-retarget-foot-height|Wysokosc stop NPC: szacunek z plikow i obrys siatki KLAMIA - prawde mowia kosci stop mierzone w buildzie]] - wspolne: generic-rig, animation, mixamo
+- [[20260705-1745-mixamo-motion-only-vs-withskin-retarget|Mixamo "Without Skin" (motion-only) FBX psuje retarget Humanoid - uzyj "With Skin"]] - wspolne: animation, mixamo
+- [[20260531-1530-unity-humanoid-autorig-mirrored-foot|Crooked foot under Unity Humanoid = auto-rig copied the foot bind pose instead of mirroring it]] - wspolne: mixamo, npc
+- [[discriminating-clip-vs-rig-vs-skin-humanoid-defect|Discriminating CLIP vs RIG vs SKIN for a one-sided humanoid animation defect]] - wspolne: animation, mixamo
+- [[20260717-0800-npc-carried-prop-upright-lock-and-axis-render|Prop niesiony przez NPC: blokada pionu w LateUpdate + render osi propa zamiast zgadywania]] - wspolne: animation, npc
+- [[20260722-1652-npc-foot-grounding-raycast-vs-navmesh-baseoffset|Przyklejanie stop NPC do gruntu raycastem zamiast stalej korekty NavMeshAgent.baseOffset]] - wspolne: animation, npc
+<!-- /POWIAZANE:auto -->

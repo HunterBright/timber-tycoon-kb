@@ -11,7 +11,7 @@ tags:
 - urp
 - linerenderer
 - backface-culling
-- material
+- materials
 - editor-vs-runtime
 - bakemesh
 applies_to:
@@ -81,3 +81,16 @@ narzedzia edytorowego renderujacego podglad przez `camera.Render()` bez odpalani
 ## Related
 - [[fbx-binary-overwrite-corrupts-bindposes]]
 - [[flatten-must-be-baked-into-geometry-when-code-forces-uniform-scale]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260719-1605-paper-shell-culling-seethrough|Prześwity w modelach low-poly: najpierw sprawdź _Cull materiału, nie geometrię]] - wspolne: backface-culling, materials, urp
+- [[20260627-1040-daynight-editor-preview-and-pbr-water-sky-grey|Stylized PBR water looks great in editor but grey in-game - the day/night cycle drives lighting only at runtime]] - wspolne: editor-vs-runtime, urp
+- [[20260702-2140-shader-property-stale-serialized-material-values|Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach]] - wspolne: materials, urp
+- [[20260710-1300-vertex-colors-vs-basecolor-linear|Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ]] - wspolne: materials, urp
+- [[20260713-2145-urp-transparent-material-silent-failure|URP: źle skonfigurowany materiał przezroczysty to CICHA porażka, której wykrywacz magenty nie widzi]] - wspolne: materials, urp
+- [[procedural-textures-need-bake|Procedural Textures Must Be Baked Before FBX Export]] - wspolne: materials, urp
+<!-- /POWIAZANE:auto -->

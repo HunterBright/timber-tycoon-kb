@@ -9,8 +9,8 @@ project: Kerf - Sawmill Tycoon
 tags:
 - unity
 - vehicle
-- colliders
-- triggers
+- collider
+- trigger
 - interaction
 applies_to: []
 source: ''
@@ -41,3 +41,12 @@ Requires correct layer assignment for raycast filtering. More collider objects t
 Same pattern for: interactable machine panels (solid collider for player collision + trigger for E-interaction), storage rack zones (player triggers deposit animation), water zones (trigger for splash + wading speed reduction).
 
 See also: [[vehicle-enter-exit-choreography]] for the full enter/exit sequence.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260713-0830-primitive-to-fbx-swap-kills-interaction|Podmiana prymitywu Unity na model FBX po cichu zabija interakcję]] - wspolne: interaction, collider
+- [[self-collision-compound-colliders-ignore|Self-Collision Compound BoxColliders → Physics.IgnoreCollision]] - wspolne: vehicle, collider
+<!-- /POWIAZANE:auto -->

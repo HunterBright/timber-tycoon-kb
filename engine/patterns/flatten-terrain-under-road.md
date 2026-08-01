@@ -63,3 +63,14 @@ void FlattenTerrainUnderRoad(Vector3[] terrainVertices, List<Vector3> splinePoin
 - **Static in Blender:** manually conform road topology to terrain in Blender (face-copy, terrain +2cm offset) - TT uses this for static roads in Roads.fbx, more control
 
 See also: [[catmull-rom-spline-road-mesh]], [[mesh-collider-on-roads-stackable]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260609-0830-conform-terrain-to-path-via-per-x-centerline-profile|Conform a mesh terrain to a path by sampling its centreline per-axis (not a fixed scan line, not a single plane)]] - wspolne: road, terrain
+- [[20260626-1807-bridge-abutment-seam-fix|Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment]] - wspolne: road, terrain
+- [[20260628-1140-conform-road-mesh-to-edited-terrain|Conforming an existing road/decal mesh to terrain that was edited later]] - wspolne: road, terrain
+- [[urp-distant-caster-shadow-band|"Dark band that follows the player" = terrain self-shadow leaking onto near-coplanar road meshes]] - wspolne: road, terrain
+<!-- /POWIAZANE:auto -->

@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - unity
 - testing
-- smoke-tests
+- smoke-test
 - autonomous
 - mcp
 - coplay
@@ -51,3 +51,16 @@ dla zewnętrznego orkiestratora bez API Unity. Kasowanie flagi przed startem = a
 
 ## Anti-gotcha
 Nie polegaj na `get_unity_logs` po `stop_game` - wyniki muszą być na dysku zanim Play się skończy.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260702-1612-editor-probes-return-result-not-logs|Sondy edytorowe przez MCP: zwracaj raport jako Result (string), nie przez Debug.Log]] - wspolne: play-mode, coplay, mcp
+- [[20260720-1308-pula-jednoelementowa-udaje-pelne-pokrycie|Test losujacy jeden element z puli o rozmiarze 1 udaje pelne pokrycie]] - wspolne: smoke-test, testing
+- [[20260722-1652-relative-only-test-blind-to-common-mode-error|Test porownujacy instancje MIEDZY SOBA jest slepy na blad wspolny (common-mode)]] - wspolne: smoke-test, testing
+- [[20260611-2055-editor-playmode-test-harness-quirks|Editor-driven Play Mode test automation - three engine quirks that break naive harnesses]] - wspolne: play-mode, testing
+- [[scriptableobject-playmode-persistence|ScriptableObject changes in Play Mode DO persist after exit]] - wspolne: play-mode, testing
+- [[20260702-1955-playmode-script-edit-domain-reload|Edycja skryptów w trakcie Play Mode zabija statyczne rejestry (domain reload w locie)]] - wspolne: play-mode, mcp
+<!-- /POWIAZANE:auto -->

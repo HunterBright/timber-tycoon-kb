@@ -64,3 +64,12 @@ poprawnego dzialania.
 Kazdy system, ktory (a) mutuje obiekty ISaveable wieloklatkowo i (b) moze byc aktywny
 w momencie zapisu (autosave!). Nie dotyczy operacji jednoklatkowych ani czysto
 wizualnych (nie zapisywanych).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260615-0913-delayed-completion-coroutine-needs-singleshot-latch|A delayed-completion coroutine that still reads input double-fires without a single-shot latch]] - wspolne: race-condition, coroutine
+- [[20260622-1412-saveload-order-event-doublecount|Lekcja: licznik liczący PRZYROSTY z eventu magazynu fałszywie nalicza przy wczytaniu zapisu]] - wspolne: race-condition, save-system
+<!-- /POWIAZANE:auto -->

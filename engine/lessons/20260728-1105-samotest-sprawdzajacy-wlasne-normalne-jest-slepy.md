@@ -78,3 +78,13 @@ else             Trojkat(srodek, p2, p1);
 Kontrola szczelnosci (kazda krawedz w dwoch trojkatach) TEZ nie zlapie odwroconej
 scianki - odwrocony trojkat ma te same krawedzie. Szczelnosc i nawiniecie to dwie
 osobne wlasnosci i trzeba sprawdzac obie.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260719-1605-mesh-seethrough-audit-pattern|Wzorzec audytu prześwitów w siatkach: render 3-przebiegowy > heurystyki geometryczne]] - wspolne: normals, mesh
+- [[20260720-1306-walidator-spelniony-przez-konstrukcje|Walidator, ktory jest spelniony automatycznie przez konstrukcje]] - wspolne: geometry, testing
+- [[20260727-1535-gates-must-not-identify-parts-by-world-coordinate|A geometry gate that identifies body parts by raw world coordinate is a gate on credit]] - wspolne: geometry, testing
+<!-- /POWIAZANE:auto -->

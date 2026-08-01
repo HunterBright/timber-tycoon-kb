@@ -149,3 +149,14 @@ ktokolwiek je zacommituje.
 ## Powiazane
 
 - [[fbx-binary-overwrite-corrupts-bindposes]] - inny przypadek "binarka + git = klopot"
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260728-1520-unity-scena-binarna-mimo-force-text|Scena zostaje BINARNA mimo Force Text, a dwa oczywiste lekarstwa nie działają]] - wspolne: git-lfs, scene, serialization
+- [[unity-runtime-writes-to-shared-material-asset|Anti-pattern: runtime writes to a shared material ASSET]] - wspolne: git, serialization
+- [[20260613-1030-dont-lfs-commit-unity-timestamped-backups|Don't commit timestamped Unity scene/asset backups into git-LFS]] - wspolne: git-lfs, git
+- [[playmode-asset-pollution-vs-disk|Play-Mode in-memory edits pollute on-disk assets - and a "fix" can produce zero git diff]] - wspolne: git, scene
+<!-- /POWIAZANE:auto -->

@@ -128,3 +128,11 @@ nakladke, albo (b) wraca do menu przez przeladowanie sceny. Zdarzenia statyczne 
 ## Related
 - [[build-is-the-only-truth-editor-lies]] - ta sama rodzina "dziala w Edytorze, pada w buildzie"
 - [[gate-must-have-provable-failure-mode]] - kazde nowe sprawdzenie potrzebuje udowodnionego trybu porazki
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260717-1620-main-menu-single-scene-overlay|Menu glowne jako nakladka w jednej scenie (bez sceny menu)]] - wspolne: main-menu, single-scene
+<!-- /POWIAZANE:auto -->

@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - powershell
 - encoding
-- utf8
+- utf-8
 - unicode
 - scripting
 - localization
@@ -45,3 +45,11 @@ Zapis wynikowych plików: `[System.IO.File]::WriteAllText($p, $txt, (New-Object 
   przeformatowałby cały plik (utrata grup/wcięć, escapowanie \uXXXX) → ogromny diff.
 - Rób operacje IDEMPOTENTNYMI (sprawdź czy klucz już jest przed wstawieniem) - bezpieczny re-run.
 - Po edycji zweryfikuj parytet/poprawność: policz wystąpienia kluczy i `ConvertFrom-Json` w pętli.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1610-powershell51-ansi-mangles-utf8-assets|Skrypt PowerShell 5.1 psuje polskie znaki przy masowej edycji plików assetów]] - wspolne: utf-8, batch-edit, encoding
+<!-- /POWIAZANE:auto -->

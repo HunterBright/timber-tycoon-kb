@@ -65,4 +65,4 @@ osobny zapis „do zdjęć" i traktować go jak asset, a nie jak plik tymczasowy
 ## Powiązane
 
 - [[build-is-the-only-truth-editor-lies]]
-- [[unity-photoshoot-mode-cmdline]]
+- [[20260724-1545-unity-photoshoot-mode-cmdline]]

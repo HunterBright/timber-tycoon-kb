@@ -40,3 +40,16 @@ Zero code changes for new assets: every future species/prefab orients itself, re
 
 ## See also
 [[forward-axis-blender-fbx-quirk]], [[bake-space-transform-linked-duplicates-rotation-bug]], [[stacked-carry-system-camera-viewmodel]], [[zero-code-changes-philosophy]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[flatten-must-be-baked-into-geometry-when-code-forces-uniform-scale|Flatten Must Be Baked Into Geometry When Code Forces Uniform Scale]] - wspolne: axis, fbx, blender
+- [[20260629-1145-blender-empties-bake-space-transform-double-axis|FBX with parent EMPTIES imports tipped 90° when exported with bake_space_transform=True]] - wspolne: orientation, fbx, blender
+- [[20260713-1030-verify-in-target-engine-not-source-tool|Weryfikuj asset w silniku DOCELOWYM, nie w narzędziu źródłowym]] - wspolne: orientation, fbx, blender
+- [[20260531-0934-humanoid-orientation-from-armature-not-bbox|Determine a humanoid's up/forward axis from ARMATURE bone landmarks, not from bounding-box max-spread - a T-pose arm span can beat true height]] - wspolne: orientation, blender
+- [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: fbx, blender
+- [[blender-mcp-interactive-remodel-loop|Blender-MCP Interactive Remodel Loop (GUID-Preserving In-Place Replace)]] - wspolne: fbx, blender
+<!-- /POWIAZANE:auto -->

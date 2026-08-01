@@ -69,3 +69,12 @@ At-rest Directional Light = consistent shadow angles throughout day/night. Light
 - **Rotating with clamp:** rotate light but clamp to 30°-90° elevation range (above horizon always). Compromise - gets some angle variation without going horizontal.
 
 See also: [[four-phase-weighted-smoothstep-day-night]], [[procedural-skybox-sun-moon-trick]], [[rotating-directional-light-day-night]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[rotating-directional-light-day-night|ANTI-PATTERN: Rotating Directional Light for Day/Night Cycle]] - wspolne: lighting, day-night
+- [[stale-reflection-probe-night-whitening|Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)]] - wspolne: lighting, day-night
+<!-- /POWIAZANE:auto -->

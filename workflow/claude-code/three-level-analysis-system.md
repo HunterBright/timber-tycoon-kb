@@ -73,3 +73,12 @@ Level 2: 1-2 file reads max.
 Level 3: implement in one move.
 
 See also: [[clear-vs-compact-decision-rules]], [[context-degradation-threshold]], [[quad-backtick-prompt-format]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[read-actual-code-before-hypothesizing|Read Actual Code Before Hypothesizing]] - wspolne: workflow, claude-code
+- [[iterative-checkpoint-workflow|Iterative Checkpoint Workflow for Generated Assets]] - wspolne: workflow, claude-code
+<!-- /POWIAZANE:auto -->

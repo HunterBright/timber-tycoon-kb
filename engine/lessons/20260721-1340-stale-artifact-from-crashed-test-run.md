@@ -129,3 +129,11 @@ freshness assertions (mtime, duration, run id) are worth more than they cost.
 - [[gate-must-have-provable-failure-mode]]
 - Project rule already in CLAUDE.md: read the report FILE, not `$LASTEXITCODE` - this lesson adds
   the missing second half: and check that the file is FRESH.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1652-relative-only-test-blind-to-common-mode-error|Test porownujacy instancje MIEDZY SOBA jest slepy na blad wspolny (common-mode)]] - wspolne: build-gate, testing
+<!-- /POWIAZANE:auto -->

@@ -82,3 +82,14 @@ wspólnego ze źródłem.
 - [[feedback_probe_must_be_able_to_fail]] - starsza połowa tej samej zasady:
   każda kontrola musi mieć udowodniony tryb porażki. Ta lekcja dokłada drugą
   połowę: musi mieć też udowodniony tryb zaliczenia.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260728-1140-miernik-ktory-klamie-inaczej|Zanim zaufasz bramce, sprawdz, czy mierzy to, co widac]] - wspolne: kontrola-jakosci, bramki
+- [[20260726-1930-zielone-bramki-nie-dowodza-ze-wyglada-dobrze|Zielona tablica bramek nie dowodzi, ze cos wyglada dobrze]] - wspolne: testy, bramki
+- [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: testy, bramki
+- [[20260731-0930-bramka-mierzaca-srodek-bryly-oblewa-ksztalty-niesymetryczne|Sprawdzian celujący w środek bryły oblewa kształty, których masa jest przesunięta]] - wspolne: testy, bramki
+<!-- /POWIAZANE:auto -->

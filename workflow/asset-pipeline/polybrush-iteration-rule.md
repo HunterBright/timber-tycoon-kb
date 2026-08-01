@@ -58,3 +58,12 @@ Terrain is typically one of the most time-expensive manual assets in TT. The 600
 Before any generator regen: ask "does this scene have Polybrush sculpting?" If yes, create a new temporary scene for the experiment.
 
 See also: [[polybrush-settings-low-poly]], [[backup-scene-before-modify]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[polybrush-settings-low-poly|Polybrush Settings for Low-Poly Terrain]] - wspolne: polybrush, terrain
+- [[20260626-1808-probe-heightfield-before-terrain-edit|Probe the real heightfield before scripting terrain edits - assumed profiles drift]] - wspolne: workflow, terrain
+<!-- /POWIAZANE:auto -->

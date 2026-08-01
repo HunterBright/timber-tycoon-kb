@@ -102,3 +102,11 @@ local change**. Tool availability recorded in project notes needs a date and a r
 
 ## Related
 - [[project_unity_mcp_tooling_notes_2026-07-17]] (recorded "unity-mcp works, Coplay 401"; the first half expired within four days)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260702-1612-editor-probes-return-result-not-logs|Sondy edytorowe przez MCP: zwracaj raport jako Result (string), nie przez Debug.Log]] - wspolne: diagnostics, mcp
+<!-- /POWIAZANE:auto -->

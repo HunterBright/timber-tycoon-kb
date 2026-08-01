@@ -56,3 +56,16 @@ transfer window's dim call was swapped from `CreatePanel(...)` to it. Rule of th
 any flat-to-sprite UI reskin: audit every caller of the panel factory and split out the
 ones that are actually scrims/dimmers *before* assigning the first sprite, because the
 flat-color phase hides the bug.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260613-0625-9slice-ppu-must-scale-to-target-rect-not-stay-100|A large 9-slice sprite at PixelsPerUnit=100 breaks because its fixed corners exceed the panel]] - wspolne: sprite, 9-slice, ugui
+- [[20260612-1845-blender-9slice-ui-sprites|Blender-rendered 9-slice-ready UI sprites (3D panel → ortho render → Unity Sliced sprite)]] - wspolne: sprite, 9-slice, ui
+- [[20260612-1330-getbuiltinresource-extra-null|Resources.GetBuiltinResource zwraca NULL dla sprite'ów UI (builtin-EXTRA) - pasek Filled rysuje się jako pełny quad]] - wspolne: sprite, ugui
+- [[20260714-1250-ugui-okno-rosnace-pod-tresc|Lekcja: okno UI rosnace pod tresc - clamp do ekranu NIE zmniejsza tresci]] - wspolne: modal, ugui
+- [[20260616-1532-unity-9slice-contentsizefitter-pollution|9-slice Image na obiekcie layoutu zaniża ContentSizeFitter (panel rośnie do sumy borderów)]] - wspolne: 9-slice, ugui
+- [[20260607-2016-ugui-filled-image-needs-sprite|A UGUI `Image` with `type = Filled` but no sprite ignores `fillAmount`]] - wspolne: ugui, ui
+<!-- /POWIAZANE:auto -->

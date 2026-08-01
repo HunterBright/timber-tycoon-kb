@@ -37,3 +37,13 @@ For preview renders: aim the key light at the surface at a healthy angle (≥ ~3
 
 ## Why it matters
 Without the programmatic check, the obvious move is rebuilding geometry/UVs that were never broken. Cheap verification first, model surgery last.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260719-1605-mesh-seethrough-audit-pattern|Wzorzec audytu prześwitów w siatkach: render 3-przebiegowy > heurystyki geometryczne]] - wspolne: rendering, blender
+- [[20260730-1217-bone-side-names-vs-axis-sign|Nie zgaduj strony ciała ze znaku osi ani z nazwy kości (.L/.R)]] - wspolne: debugging, blender
+- [[20260610-1820-blender-mcp-failure-headless-fallback|blender-mcp bridge failure modes + headless CLI fallback]] - wspolne: debugging, blender
+<!-- /POWIAZANE:auto -->

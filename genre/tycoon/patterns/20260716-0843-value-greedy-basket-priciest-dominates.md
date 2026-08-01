@@ -44,3 +44,15 @@ byc pochodna wylacznie ceny jednostkowej, bo kazdy nowy najdrozszy produkt przej
 ## Related
 - Docelowa architektura (FAZA 1 reworku): koszyk liczony w SZTUKACH zamiast kwoty -
   usuwa cala klase problemu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260710-1030-supply-weighted-orders-need-floor|Losowanie zamówień ważone podażą wymaga PODŁOGI wag]] - wspolne: weighted-random, economy, tycoon
+- [[20260706-1215-supply-estimator-must-honor-unlock-gate|Estymator podaży/dostepnosci MUSI respektowac te sama bramke odblokowan co produkcja]] - wspolne: order-generation, economy
+- [[20260607-1233-warehouse-filtered-order-pool|Gate a content pool by runtime availability, not explicit unlock flags]] - wspolne: economy, tycoon
+- [[20260704-2030-tycoon-economy-two-clock-balancing|Balansowanie ekonomii progresu metodą „dwóch zegarów" + koperty przychodu]] - wspolne: economy, tycoon
+- [[20260714-2215-order-value-topdown-makes-prices-meaningless|Zamówienie losowane OD KWOTY w dół - cennik przestaje cokolwiek znaczyć]] - wspolne: economy, tycoon
+<!-- /POWIAZANE:auto -->

@@ -10,7 +10,7 @@ tags:
 - pomiar
 - perspektywa
 - kamera
-- referencje
+- referencja
 - obraz
 - proporcje
 applies_to: []
@@ -83,3 +83,16 @@ zakładać liniowość tylko wtedy, gdy oś obiektywu jest pozioma. W każdym in
 przypadku najpierw rozwiąż kamerę, a potem mierz - inaczej kupujesz sobie
 błąd rzędu procenta, który jest niewidoczny dla wszystkich kontroli
 porównujących obraz z obrazem.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-1921-kamera-z-siatki-podlogi-nie-z-sylwetki|Kamerę odtwarzaj z regularnej struktury sceny, nie z sylwetki modelu]] - wspolne: kamera, referencja, pomiar
+- [[20260727-2320-sylwetka-nie-rozdziela-czesci-ktore-sie-stykaja|Sylwetka nie rozdziela dwóch rzeczy, które się stykają - i milczy o tym]] - wspolne: obraz, referencja, pomiar
+- [[20260727-1924-maska-sylwetki-z-dziurami-w-cieniu|Maska sylwetki może mieć dziury w środku - i przez lata tego nie widać]] - wspolne: obraz, referencja
+- [[20260726-2030-mierz-wzorzec-zamiast-zgadywac-proporcje|Gdy rezyser mowi "wyglada zle", zmierz cos, co juz zaakceptowal]] - wspolne: proporcje, pomiar
+- [[20260728-0030-wymiar-ktorego-nie-widzi-zadne-ujecie-dopasuj-do-wszystkich|Wymiar, którego nie widzi żadne ujęcie, mierzy się dopasowaniem do wszystkich naraz]] - wspolne: kamera, pomiar
+- [[20260727-2145-sprawdzaj-czytnik-obrazu-renderem-wlasnego-modelu|Czytnik obrazu sprawdzaj renderem własnego modelu, nie obrazkiem, który sam sobie narysowałeś]] - wspolne: obraz, pomiar
+<!-- /POWIAZANE:auto -->

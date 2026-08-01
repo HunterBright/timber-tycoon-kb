@@ -48,3 +48,12 @@ Any localized uGUI game/app: fixed pixel heights on text-bearing layout children
 - [[20260616-1532-unity-9slice-contentsizefitter-pollution]]
 - [[20260623-0855-unity-layoutelement-requirecomponent-recttransform-null-trap]]
 - [[20260613-0625-9slice-ppu-must-scale-to-target-rect-not-stay-100]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260616-1532-unity-9slice-contentsizefitter-pollution|9-slice Image na obiekcie layoutu zaniża ContentSizeFitter (panel rośnie do sumy borderów)]] - wspolne: contentsizefitter, ugui
+- [[20260612-1815-headless-tmp-sdf-font-generation|Headless TMP setup: import Essentials + generate SDF font asset from editor script]] - wspolne: tmp, localization
+<!-- /POWIAZANE:auto -->

@@ -42,3 +42,11 @@ Tool clips through walls (standard FPS issue). Acceptable for low-poly stylized 
 
 ## Variants
 Same for: flashlight attachment (child of camera), HUD-space elements (child of camera at fixed position), scope overlay (child of camera at z=0.1).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[stacked-carry-system-camera-viewmodel|Stacked carry system - camera viewmodel + LIFO + species-agnostic prefab refs]] - wspolne: viewmodel, camera
+<!-- /POWIAZANE:auto -->

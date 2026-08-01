@@ -15,7 +15,7 @@ tags:
 - voxelsize
 - low-poly-terrain
 - pathfinding
-- colliders
+- collider
 applies_to: []
 source: ''
 promoted: '2026-07-30'
@@ -84,3 +84,13 @@ siatka jest tuz przy nim, znaczy ze NIE jest wyciety.)
 ## Uwaga narzedziowa
 Re-bake z poziomu skryptu: metoda `[MenuItem]` bywa `private` - `execute_script`/refleksja
 zawola tylko `public static`. Zmien na public albo `EditorApplication.ExecuteMenuItem("<menu>")`.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260707-1130-navmesh-fine-voxel-micro-gap-route-detour|Za drobny voxel NavMesh tworzy mikro-dziure, ktora ROZSPAJA trase i wymusza wielki objazd]] - wspolne: voxelsize, ai-navigation, pathfinding
+- [[20260707-0715-navmesh-decorative-collider-carves-service-line|Dekoracyjny prop z colliderem na linii chodzenia wycina dziure w NavMesh i wypycha NPC do srodka budynku]] - wspolne: ai-navigation, pathfinding, navmeshsurface
+- [[20260625-2113-unity-procedural-boundary-align-and-gap|Procedurally generated boundary: align to a visible region + auto-gap at roads]] - wspolne: layermask, collider
+<!-- /POWIAZANE:auto -->

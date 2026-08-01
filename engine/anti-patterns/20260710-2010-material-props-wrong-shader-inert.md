@@ -11,7 +11,7 @@ tags:
 - materials
 - shader
 - urp
-- editor-scripts
+- editor-script
 applies_to: []
 source: ''
 promoted: '2026-07-30'
@@ -43,3 +43,16 @@ tablicy wartości - jedyny zapis, który ZADZIAŁAŁ, i nadpisał zaakceptowaną
 ## Jak wykryto
 Adwersaryjny review diffu (multi-agent) porównał GUID shadera z plikiem .shader
 i wartości LFS blobów przed/po - ręczny playtest mógł tego nie zauważyć od razu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260702-2140-shader-property-stale-serialized-material-values|Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach]] - wspolne: shader, materials, urp
+- [[20260710-1300-vertex-colors-vs-basecolor-linear|Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ]] - wspolne: shader, materials, urp
+- [[low-poly-water-side-wave|ANTI-PATTERN: sin(X) + sin(Z) Water Shader = Side Waves]] - wspolne: shader, urp
+- [[20260606-0930-baked-atlas-texture-foreign-uvs|Don't apply a baked-atlas texture to a mesh whose UVs were authored for a different atlas]] - wspolne: materials, urp
+- [[20260705-0840-blender-linear-color-into-unity-srgb-material|Blender LINIOWE Base Color wpisane wprost w Unity Color property = ~1 gamma za ciemno (projekt Linear)]] - wspolne: shader, materials
+- [[20260531-1612-quaternius-lowpoly-nature-urp-import|Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP]] - wspolne: shader, urp
+<!-- /POWIAZANE:auto -->

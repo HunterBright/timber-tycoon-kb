@@ -41,3 +41,12 @@ Maszyna z minigrą per partia: przerabianie N partii nie może wymagać N pełny
 ## Dlaczego tak
 Parytet UX między maszynami = gracz uczy się raz. Kamera raz na serię usuwa najbardziej
 męczący element (najazd/zjazd). Hold-pierwszy/klik-kolejne czyta się jako "rozruch maszyny".
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260629-1917-diegetic-buttons-frame-minigame|Console buttons FRAME a skill minigame (they're flow-control, not the mechanic)]] - wspolne: camera-lock, minigame
+- [[20260713-1430-probe-visibility-by-rotating-rays-not-the-object|Sonda widoczności: obracaj PROMIENIE, nie obiekt]] - wspolne: ux, minigame
+<!-- /POWIAZANE:auto -->

@@ -66,3 +66,15 @@ With tuned settings (Radius 40, Power 30): vertices move subtly across a wide ar
 Polybrush supports brush presets (toolbar dropdown). Save these settings as "TT Low-Poly Sculpt" and "TT Low-Poly Smooth" to avoid re-entering per session.
 
 See also: [[polybrush-iteration-rule]], [[backup-scene-before-modify]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[polybrush-iteration-rule|Polybrush Iteration Rule - No Return to Generator]] - wspolne: polybrush, terrain
+- [[20260628-1105-lowpoly-lake-shore-jagged-fix|Low-poly lake shore looks jagged (serrated) - submerge the rim + widen the water, don't densify]] - wspolne: terrain, low-poly
+- [[desaturated-colors-for-low-poly|Desaturated Colors for Low-Poly Aesthetic]] - wspolne: terrain, low-poly
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: terrain, low-poly
+- [[20260626-1807-bridge-abutment-seam-fix|Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment]] - wspolne: terrain, low-poly
+<!-- /POWIAZANE:auto -->

@@ -54,3 +54,12 @@ Do this as an **approval-gated** step: measure → propose a target/multiplier t
 scale-comparison render of one model per category next to a known-height reference (the game's
 NPC, or an exact-height pole) → get sign-off → bake → re-scatter. Scaling blind looks wrong;
 the human eye on a side-by-side vs a character is the real check.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260728-0915-fbx-skala-100-w-dzieciach-psuje-pomiary|FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu]] - wspolne: scale, fbx
+- [[flatten-must-be-baked-into-geometry-when-code-forces-uniform-scale|Flatten Must Be Baked Into Geometry When Code Forces Uniform Scale]] - wspolne: scale, fbx
+<!-- /POWIAZANE:auto -->

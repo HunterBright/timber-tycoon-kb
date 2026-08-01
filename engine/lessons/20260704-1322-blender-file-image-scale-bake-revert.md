@@ -51,3 +51,16 @@ Zawsze `assert atlas_img.size == (W, H)` bezpośrednio PO `object.bake`, ZANIM z
 ## Kontekst
 Re-tekstura kompostownika (FertilizerMaker) w Timber Tycoon: podbicie atlasu 1024→2048.
 Pierwszy przebieg dał 1024 mimo `scale()`; drugi przez `images.new(2048)` dał poprawne 2048.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260618-0724-blender-ortho-ui-sprite-bake-framing|Baking flat UI sprites in Blender: ortho frame width = ortho_scale × 2]] - wspolne: bake, blender
+- [[20260702-1400-bark-atlas-vs-tile-strategy|Rodzina assetów współdzieląca teksturę: wybierz strategię (atlas vs kafel) PRZED budową]] - wspolne: atlas, blender
+- [[20260704-2330-blender-unity-flat-panel-dual-face-texture|Blender flat panel textured on one face renders BLANK in Unity (axis-flip picks the wrong face)]] - wspolne: texture, blender
+- [[20260725-1930-blender-pixels-buffer-not-converted-to-srgb-on-png-save|Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG]] - wspolne: texture, blender
+- [[procedural-textures-cycles-commercial|Procedural Textures in Blender Cycles (Commercial Release Rationale)]] - wspolne: cycles, blender
+- [[20260725-1830-plaskie-tekstury-z-plam-referencji|Plaskie tekstury dla modelu z generatora 3D: tozsamosc elementu bierz z REFERENCJI, nie z koloru]] - wspolne: bake, blender
+<!-- /POWIAZANE:auto -->

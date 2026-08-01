@@ -47,3 +47,14 @@ Hard migration breaks old saves and requires all callsites to be perfect on day 
 Same pattern for: database schema migrations, API versioning (v1 fallback while v2 rolls out), config file format changes.
 
 See also: [[before-delete-legacy-class-checklist]], [[migration-pattern-rollback-safety]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[migration-pattern-rollback-safety|Backend Migration Pattern with Rollback Safety]] - wspolne: migration, refactoring
+- [[before-delete-legacy-class-checklist|Before-Delete Legacy Class Checklist]] - wspolne: technical-debt, refactoring
+- [[universal-cleanup-post-migration|Universal Cleanup Post-Migration]] - wspolne: migration, technical-debt
+- [[legacy-code-conflict-after-refactor|ANTI-PATTERN: Legacy Code Conflict After Refactor]] - wspolne: technical-debt, refactoring
+<!-- /POWIAZANE:auto -->

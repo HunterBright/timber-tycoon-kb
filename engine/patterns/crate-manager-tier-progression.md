@@ -84,3 +84,11 @@ Tier upgrade via event subscription = CrateManager is self-updating. Upgrade sho
 - Multiple crates: currently assumes 1 crate per player. For co-op or vehicle-mounted crates, scope CrateManager per vehicle/player entity
 
 See also: [[storage-activation-gating-upgrade]], [[isaveable-contract]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[tool-tier-replacement-not-inventory|Tool Tier Replacement - NOT Multiple Tiers in Inventory]] - wspolne: inventory, tier, upgrade
+<!-- /POWIAZANE:auto -->

@@ -8,11 +8,11 @@ date: '2026-07-13'
 project: Kerf - Sawmill Tycoon
 tags:
 - unity
-- colliders
+- collider
 - interaction
 - raycast
 - fbx-import
-- smoke-tests
+- smoke-test
 - regression
 applies_to: []
 source: ''
@@ -83,3 +83,16 @@ collider, warstwa, `isTrigger`, zasięg, czy coś nie zasłania.
 **"Logika zdrowa, klikalność martwa"** - cała rodzina bugów, w których system działa idealnie,
 ale nie ma jak go uruchomić z poziomu gracza. Testy jednostkowe/integracyjne są na nią ślepe
 z definicji, bo omijają warstwę wejścia.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260610-1345-unity-instance-setup-divergence|"Works for product A, dead for product B" = per-instance setup divergence, not code]] - wspolne: interaction, raycast
+- [[20260614-1226-modal-ui-over-world-interactable-guard|Modal UI opened from a world-space interactable must guard the interaction handler]] - wspolne: interaction, raycast
+- [[20260707-1315-unity-interaction-raycast-blocked-by-noninteractable-collider|Single masked Physics.Raycast for "look-at to interact" gets eaten by a non-interactable collider on a masked layer]] - wspolne: interaction, raycast
+- [[vehicle-interaction-zones-as-triggers|Vehicle Interaction Zones as Triggers]] - wspolne: interaction, collider
+- [[diegetic-3d-button-raycast|Diegetic 3D Button Raycast Pattern]] - wspolne: interaction, raycast
+- [[20260724-1817-diegetic-button-overlap-steal|Powiekszone collidery klikania ciasnych guzikow 3D + wybor "pierwsze trafione pudelko" = sasiad kradnie klik]] - wspolne: collider, raycast
+<!-- /POWIAZANE:auto -->

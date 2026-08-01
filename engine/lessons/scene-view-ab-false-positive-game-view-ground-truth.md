@@ -12,7 +12,7 @@ tags:
 - scene-view
 - game-view
 - shadows
-- screenshots
+- screenshot
 - mcp
 - methodology
 applies_to: []
@@ -40,3 +40,13 @@ For runtime-dependent rendering effects (shadows, LOD, fog, post-processing, any
 
 ## See also
 [[urp-distant-caster-shadow-band]], [[debugging-search-first-trust-render-check-upstream]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260606-1628-mcp-scene-capture-renders-main-scene-not-prefab-stage|MCP Scene-Capture Renders the Active Scene, Not an Open Prefab Stage]] - wspolne: scene-view, screenshot, mcp
+- [[20260608-1503-mcp-scene-capture-omits-gizmos|MCP scene-capture tools render geometry only - they do NOT show editor gizmos / Handles.Label]] - wspolne: scene-view, screenshot, mcp
+- [[debugging-search-first-trust-render-check-upstream|Debugging methodology: search-first, trust the render, check for upstream sabotage]] - wspolne: methodology, debugging
+<!-- /POWIAZANE:auto -->

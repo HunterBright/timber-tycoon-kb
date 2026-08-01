@@ -51,3 +51,13 @@ czy klucz tam jest z inna wartoscia. Klucze nieznane klasie (usuniete pola) sa i
 Refaktor cen mebli: zmiana `qualityMultFine`/`qualityMultMasterwork`/`reputationDivisor` w
 `FurnitureConfig.cs` nie skutkowala - `Resources/FurnitureConfig.asset` mial stare 1.35/1.8/50.
 Fix: reczna edycja YAML assetu. Nowo dodana drabinka cen desek dzialala od razu (brak w YAML).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[scriptableobject-playmode-persistence|ScriptableObject changes in Play Mode DO persist after exit]] - wspolne: gotcha, scriptableobject
+- [[20260624-0702-unity-new-serialized-bool-defaults-false|Nowe pole `bool` na istniejących assetach deserializuje się do `false`, nie do inicjalizatora C#]] - wspolne: serialization, scriptableobject
+- [[20260722-1625-measure-before-fixing-serialization-hunch|Brakujący klucz w assecie NIE oznacza zera - zmierz, zanim "naprawisz"]] - wspolne: serialization, scriptableobject
+<!-- /POWIAZANE:auto -->

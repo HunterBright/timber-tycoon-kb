@@ -86,3 +86,12 @@ i wyjęcie scen z LFS trzeba traktować jako jedną decyzję, nie dwie osobne.
    od „ten konkretny plik jest zapieczony w binarnym".
 4. Sumy SHA256 przed i po operacji, zawsze. Bez nich `SaveScene` zwracające `true`
    wygląda jak sukces.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260713-2020-unity-binary-scene-in-git-lfs-is-irreversible-bloat|Anti-pattern: binarna scena Unity w Git LFS = nieodwracalny, rosnacy bez konca bloat]] - wspolne: git-lfs, scene, serialization
+- [[scene-files-binary-never-edit|ANTI-PATTERN: Scene Files Are Binary - Never Edit as Text]] - wspolne: yaml, scene
+<!-- /POWIAZANE:auto -->

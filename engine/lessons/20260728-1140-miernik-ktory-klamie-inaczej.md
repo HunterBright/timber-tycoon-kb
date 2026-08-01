@@ -77,3 +77,16 @@ mechanizm nie mial czym zakryc konca pnia. Lekarstwem byla PODLOGA na ten zarys,
 z wartoscia domyslna 0 (czyli bez zmian dla wszystkiego, co juz zatwierdzone).
 Defekt zglaszany jako "problem z tym jednym modelem" byl wlasciwoscia calego
 generatora.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-0510-rozproszenie-kartek-punkty-zaczepienia|Rozsypywanie kartek po szkielecie: licz NOSNIKI, nie kartki]] - wspolne: proceduralne-generowanie, pomiar
+- [[20260728-1320-mniej-wiekszych-kartek|Polowa kartek o rozmiarze wiekszym o jedna trzecia wyglada tak samo]] - wspolne: proceduralne-generowanie, pomiar
+- [[20260727-1422-bramka-musi-umiec-zaliczyc-nie-tylko-oblac|Bramka musi mieć udowodniony tryb ZALICZENIA, nie tylko PORAŻKI]] - wspolne: kontrola-jakosci, bramki
+- [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: bramki, pomiar
+- [[20260728-1900-miara-z-degeneracja|Miara optymalizowana samotnie znajduje rozwiazanie zdegenerowane]] - wspolne: bramki, pomiar
+- [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: bramki, pomiar
+<!-- /POWIAZANE:auto -->

@@ -63,3 +63,16 @@ Jesli nie - brakuje kotwicy w zewnetrznym zrodle prawdy.
 ## Related
 - [[gate-must-have-provable-failure-mode]]
 - 20260722-1652-npc-foot-grounding-raycast-vs-navmesh-baseoffset.md
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260725-1845-silhouette-measurement-catches-shadow-and-vignette|Pomiar proporcji z renderu klamie trzy razy, zanim zacznie mowic prawde]] - wspolne: false-green, measurement
+- [[20260721-1340-stale-artifact-from-crashed-test-run|Crashed test run leaves the PREVIOUS report on disk and reads as "my code never got built"]] - wspolne: build-gate, testing
+- [[20260720-1308-pula-jednoelementowa-udaje-pelne-pokrycie|Test losujacy jeden element z puli o rozmiarze 1 udaje pelne pokrycie]] - wspolne: smoke-test, testing
+- [[20260710-2250-unity-autonomous-smoke-runner-flag-file|Autonomiczny runner smoke testów w Unity: plik-flaga + plik wyników]] - wspolne: smoke-test, testing
+- [[20260714-1245-test-bez-trybu-porazki|Anty-wzorzec: test, ktory nie ma jak zawiesc (silnik "naprawia" mierzona wielkosc)]] - wspolne: false-green, testing
+- [[20260727-1535-gates-must-not-identify-parts-by-world-coordinate|A geometry gate that identifies body parts by raw world coordinate is a gate on credit]] - wspolne: false-green, testing
+<!-- /POWIAZANE:auto -->

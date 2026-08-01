@@ -59,3 +59,11 @@ używać przyciętego punktu najbliższego z odsunięciem stycznym. Rzut na pła
 
 `_BlenderScripts/kerf_generator/s2_sylwetki.py` (wersja przed/po w gicie),
 rendery: `_BlenderOutputs/KerfGenerator/S2/` (pierwsza wersja vs druga).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260730-2140-shape-key-layer-corrections-oscillate|Poprawki anty-przebiciowe w danych POJEDYNCZEGO klucza kształtu oscylują]] - wspolne: shape-keys, blender
+<!-- /POWIAZANE:auto -->

@@ -82,3 +82,15 @@ Pure simulation: worker exists as data (WorkerInstance), not as scene object. No
 - **Cinematic simulation:** workers only animate during a "production event" cutscene triggered every N cycles - boss-level workers feel more alive without constant animation cost.
 
 See also: [[worker-data-instance-split]], [[worker-output-quality-distribution]], [[quantity-not-quality-principle]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260704-2030-tycoon-economy-two-clock-balancing|Balansowanie ekonomii progresu metodą „dwóch zegarów" + koperty przychodu]] - wspolne: simulation, tycoon
+- [[carry-capacity-progression-sprint|Carry Capacity Progression + Sprint Advantage]] - wspolne: tycoon, game-design
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] - wspolne: tycoon, game-design
+- [[worker-output-quality-distribution|Worker Output Quality Distribution]] - wspolne: tycoon, game-design
+- [[quantity-not-quality-principle|Quantity-Not-Quality Design Principle]] - wspolne: tycoon, game-design
+<!-- /POWIAZANE:auto -->

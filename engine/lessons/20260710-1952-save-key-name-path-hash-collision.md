@@ -41,3 +41,15 @@ utrata danych jest cicha.
 Sibling index jest stabilny tylko przy stabilnej hierarchii; obiekty tworzone w runtime
 w niedeterministycznej kolejności nadal mogą mieć niestabilne klucze między sesjami.
 GUID to jedyne rozwiązanie w pełni odporne.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260622-1412-saveload-order-event-doublecount|Lekcja: licznik liczący PRZYROSTY z eventu magazynu fałszywie nalicza przy wczytaniu zapisu]] - wspolne: isaveable, save-system
+- [[20260702-2200-save-system-missing-key-reset|Nowy ISaveable + stary save = przeciek żywego stanu (reset przy braku klucza)]] - wspolne: isaveable, save-system
+- [[20260712-1820-save-migration-schema-version-gate|Jednorazowa migracja zapisu MUSI być bramkowana wersją schematu, nie obecnością/brakiem migrowanego wpisu]] - wspolne: isaveable, save-system
+- [[awake-init-for-isaveable-with-dependencies|Awake-Init for ISaveable with Dependencies]] - wspolne: isaveable, save-system
+- [[isaveable-contract|ISaveable Contract]] - wspolne: isaveable, save-system
+<!-- /POWIAZANE:auto -->

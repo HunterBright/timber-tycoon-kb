@@ -8,12 +8,12 @@ date: '2026-06-24'
 project: Kerf - Sawmill Tycoon
 tags:
 - unity
-- editor-scripts
+- editor-script
 - scene
 - prefab
 - idempotency
 - destructive
-- colliders
+- collider
 applies_to: []
 source: ''
 promoted: '2026-07-30'
@@ -51,3 +51,13 @@ NIENISZCZĄCE menu, które znajduje ISTNIEJĄCE obiekty i zmienia tylko docelow�
 ## Sygnał ostrzegawczy
 Jeśli „drobna poprawka" wymaga uruchomienia skryptu z nazwą `Setup*`/`Generate*`/`Rebuild*` -
 zatrzymaj się: prawdopodobnie odbuduje obiekty i zgubi ręczne ustawienia. Zrób osobny mutator in-place.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[scene-files-binary-never-edit|ANTI-PATTERN: Scene Files Are Binary - Never Edit as Text]] - wspolne: scene, prefab
+- [[20260705-2102-binary-scene-reference-check|Sprawdzanie referencji assetu w BINARNEJ scenie Unity (grep nie wystarcza)]] - wspolne: scene, editor-script
+- [[mesh-collider-convex-for-clickable-minigame-objects|Convex MeshCollider for Irregular Clickable Objects]] - wspolne: prefab, collider
+<!-- /POWIAZANE:auto -->

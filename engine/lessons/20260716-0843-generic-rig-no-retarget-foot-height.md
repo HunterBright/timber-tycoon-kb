@@ -63,3 +63,13 @@ sprzedalby jako fakt.
 
 ## Related
 - [[20260716-0843-dual-owner-persistence-duplication]] (ta sama sesja)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260704-1045-mixamo-npc-work-carry-animations|Mixamo nie ma animacji „obsługi maszyny / pracy fizycznej" - użyj busy-idle + animacji maszyny; dla noszenia jest „Carrying"]] - wspolne: generic-rig, animation, mixamo
+- [[20260705-1745-mixamo-motion-only-vs-withskin-retarget|Mixamo "Without Skin" (motion-only) FBX psuje retarget Humanoid - uzyj "With Skin"]] - wspolne: animation, mixamo
+- [[discriminating-clip-vs-rig-vs-skin-humanoid-defect|Discriminating CLIP vs RIG vs SKIN for a one-sided humanoid animation defect]] - wspolne: animation, mixamo
+<!-- /POWIAZANE:auto -->

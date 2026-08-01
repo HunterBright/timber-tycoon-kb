@@ -89,3 +89,12 @@ Player settings UI controls each channel independently.
 -16 LUFS is standard for games (Spotify/streaming standard is -14 LUFS, games slightly quieter to give headroom for sudden loud events). Unnormalized audio = random loud moments breaking immersion.
 
 See also: [[audio-manager-mixer-architecture]], [[audio-strategy-minimal-music-heavy-ambient]], [[audio-mixer-snapshots-per-game-state]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1145-loop-seam-measure-and-crossfade|Pętla dźwiękowa: zmierz styk, przenikaj ogon w początek, dopisz próg do sondy]] - wspolne: ffmpeg, audio
+- [[20260626-1016-unity-one-sided-audio-channel-balance|Dźwięk słychać tylko z jednej strony → najpierw sprawdź balans kanałów ŹRÓDŁA]] - wspolne: ffmpeg, audio
+<!-- /POWIAZANE:auto -->

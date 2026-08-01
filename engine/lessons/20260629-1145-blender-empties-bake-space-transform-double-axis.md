@@ -52,3 +52,16 @@ With `bake_space_transform=False` + empties, the upright orientation is carried 
 
 ## Bonus gotcha (same session, Unity 6.5)
 In the unity-mcp `RunCommand` C# sandbox, `Object.GetInstanceID()` is obsolete and errors out - use **`GetEntityId()`**. Also `System.Collections.Generic.HashSet<>`/`ISet<>` fail to compile there (missing assembly ref) - use `List<>` instead.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260728-0915-fbx-skala-100-w-dzieciach-psuje-pomiary|FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu]] - wspolne: import, fbx, blender
+- [[20260713-1030-verify-in-target-engine-not-source-tool|Weryfikuj asset w silniku DOCELOWYM, nie w narzędziu źródłowym]] - wspolne: orientation, fbx, blender
+- [[fbx-long-axis-detect-programmatically|Don't assume an FBX mesh's axis - detect the longest axis programmatically from bounds]] - wspolne: orientation, fbx, blender
+- [[20260531-0934-humanoid-orientation-from-armature-not-bbox|Determine a humanoid's up/forward axis from ARMATURE bone landmarks, not from bounding-box max-spread - a T-pose arm span can beat true height]] - wspolne: orientation, blender
+- [[20260612-1340-unity-batch-fbx-import-meta-mirroring|Batch FBX import with pre-authored .meta files + prefab build in temp additive scene]] - wspolne: import, fbx
+- [[20260531-0934-tripo-polygon-soup-inverted-winding-fix|Tripo / AI-generated meshes import as "polygon soup" - see-through holes under single-sided rendering are a winding problem caused by UNWELDED verts, not interior faces]] - wspolne: fbx, blender
+<!-- /POWIAZANE:auto -->

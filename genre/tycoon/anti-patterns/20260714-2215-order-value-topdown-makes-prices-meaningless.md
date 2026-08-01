@@ -93,3 +93,16 @@ Gra miała 10 gatunków drewna (deski 16-44 zł), 13 poziomów tartaku i pełny 
 Cennik nie wpływał na nic. Drugi kanał (meble) liczył poprawnie (cena desek x jakość) i przez to
 zarabiał wielokrotnie więcej niż lada - dwa kanały żyły w dwóch różnych światach cenowych i nigdy
 nie dało się ich zestroić. Wykryte dopiero przy pełnym audycie ekonomii, po roku prac.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260710-1030-supply-weighted-orders-need-floor|Losowanie zamówień ważone podażą wymaga PODŁOGI wag]] - wspolne: orders, economy, tycoon
+- [[20260704-2030-tycoon-economy-two-clock-balancing|Balansowanie ekonomii progresu metodą „dwóch zegarów" + koperty przychodu]] - wspolne: progression, economy, tycoon
+- [[quantity-not-quality-principle|Quantity-Not-Quality Design Principle]] - wspolne: progression, tycoon
+- [[carry-capacity-progression-sprint|Carry Capacity Progression + Sprint Advantage]] - wspolne: progression, tycoon
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] - wspolne: progression, tycoon
+- [[worker-output-quality-distribution|Worker Output Quality Distribution]] - wspolne: progression, tycoon
+<!-- /POWIAZANE:auto -->

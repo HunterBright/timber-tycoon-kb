@@ -81,3 +81,12 @@ specifically hunted for cross-entry state bleed). A pure spec-conformance check
 passed - the bug was *in the spec*, latent and unreachable until a sibling feature
 gets wired. Lesson: add a "shared/persistent state bleed" lens when reviewing
 additions to long-lived singletons.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260615-0913-delayed-completion-coroutine-needs-singleshot-latch|A delayed-completion coroutine that still reads input double-fires without a single-shot latch]] - wspolne: state-management, input, minigame
+- [[20260724-1817-diegetic-button-overlap-steal|Powiekszone collidery klikania ciasnych guzikow 3D + wybor "pierwsze trafione pudelko" = sasiad kradnie klik]] - wspolne: input, minigame
+<!-- /POWIAZANE:auto -->

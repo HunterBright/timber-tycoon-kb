@@ -77,3 +77,12 @@ tam, gdzie mogla wejsc cicha regresja psujaca kluczowa ceche modelu.
 
 - [[20260720-1308-pula-jednoelementowa-udaje-pelne-pokrycie]] - ten sam gatunek falszywej pewnosci, tylko
   po stronie doboru probki zamiast po stronie mierzonej wielkosci.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-1535-gates-must-not-identify-parts-by-world-coordinate|A geometry gate that identifies body parts by raw world coordinate is a gate on credit]] - wspolne: geometry, testing
+- [[20260728-1105-samotest-sprawdzajacy-wlasne-normalne-jest-slepy|Samotest sprawdzajacy WLASNE normalne jest slepy na odwrocona scianke]] - wspolne: geometry, testing
+<!-- /POWIAZANE:auto -->

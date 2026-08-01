@@ -59,3 +59,16 @@ name: building-progression-instant-spawn
 Wing prefabs are pre-placed in scene at level design time, inactive until purchased. Zero runtime positioning logic. See [[wing-snap-points-modular-fade-in]] for technical implementation.
 
 See also: [[wing-snap-points-modular-fade-in]], [[player-built-vs-purchased-dichotomy]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[player-built-vs-purchased-dichotomy|Player-Built vs. Purchased Dichotomy]] - wspolne: building, game-design
+- [[loading-station-decision|LoadingStation Decision - Manual Walk Early, Station Late]] - wspolne: progression, game-design
+- [[quantity-not-quality-principle|Quantity-Not-Quality Design Principle]] - wspolne: progression, game-design
+- [[carry-capacity-progression-sprint|Carry Capacity Progression + Sprint Advantage]] - wspolne: progression, game-design
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] - wspolne: progression, game-design
+- [[worker-output-quality-distribution|Worker Output Quality Distribution]] - wspolne: progression, game-design
+<!-- /POWIAZANE:auto -->

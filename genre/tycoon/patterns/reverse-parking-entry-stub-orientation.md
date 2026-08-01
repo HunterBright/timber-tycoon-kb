@@ -62,3 +62,11 @@ Why index, not distance: the stub can be shorter than one frame on a fast stop; 
 
 File: `Assets/Project/Scripts/NPC/Traffic/NPCVehicle.cs` -> `KinematicReverseAlongPath`.
 Diagnostics `[RevDiag START/END]` left in code behind an `if (revDiag)` gate (default `false`) -> resurrect by flipping to `true`.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[npc-parking-pd-controller|NPC Parking PD Controller]] - wspolne: parking, npc
+<!-- /POWIAZANE:auto -->

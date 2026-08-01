@@ -11,7 +11,7 @@ tags:
 - blender
 - terrain
 - heightfield
-- roads
+- road
 - bridge
 - conform
 - bvh
@@ -44,3 +44,16 @@ Road sits at exactly `terrain + offset` everywhere (no float/sink), seam meets t
 - Measure the live conform offset (we found +0.02 m, while old scripts hardcoded +0.08 - the +0.08 was itself a float source).
 - Terrain MeshCollider must re-cook after the mesh changes (reimport, or toggle the collider) or NPC/footstep raycasts and the next BVH read stale geometry.
 - Keep deck geometry FIXED; always fix terrain-to-deck and road-to-terrain, never move an approved deck.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260730-2350-layer-clearance-height-over-body|Luz między warstwami ubrań: mierz WYSOKOŚĆ NAD CIAŁEM, nie odległość do najbliższej ścianki]] - wspolne: bvh, heightfield, blender
+- [[20260626-1808-probe-heightfield-before-terrain-edit|Probe the real heightfield before scripting terrain edits - assumed profiles drift]] - wspolne: heightfield, terrain, blender
+- [[20260609-0830-conform-terrain-to-path-via-per-x-centerline-profile|Conform a mesh terrain to a path by sampling its centreline per-axis (not a fixed scan line, not a single plane)]] - wspolne: road, terrain
+- [[flatten-terrain-under-road|Flatten Terrain Under Road (Smoothstep Blend)]] - wspolne: road, terrain
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: terrain, low-poly, blender
+- [[20260628-1140-conform-road-mesh-to-edited-terrain|Conforming an existing road/decal mesh to terrain that was edited later]] - wspolne: road, terrain
+<!-- /POWIAZANE:auto -->

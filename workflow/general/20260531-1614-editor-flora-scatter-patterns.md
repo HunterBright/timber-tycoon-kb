@@ -60,3 +60,15 @@ and you'd plant flora underwater. **Hard-exclude water by rectangle**, never rel
 - No colliders on scattered instances → they never interfere with subsequent raycasts.
 - Save the scene exactly once, at the very end, in Edit Mode (never in Play Mode); back up the
   `.unity` first.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260625-2113-unity-procedural-boundary-align-and-gap|Procedurally generated boundary: align to a visible region + auto-gap at roads]] - wspolne: editor-tool, procedural
+- [[20260710-2140-flora-scatter-exclusion-zones|Proceduralny rozsiew dekoracji musi wykluczac pozycje obiektow interaktywnych]] - wspolne: scatter, procedural
+- [[20260609-0830-conform-terrain-to-path-via-per-x-centerline-profile|Conform a mesh terrain to a path by sampling its centreline per-axis (not a fixed scan line, not a single plane)]] - wspolne: terrain, raycast
+- [[footstep-raycast-surface-detection|Footstep Raycast Surface Detection]] - wspolne: terrain, raycast
+- [[20260628-1140-conform-road-mesh-to-edited-terrain|Conforming an existing road/decal mesh to terrain that was edited later]] - wspolne: terrain, raycast
+<!-- /POWIAZANE:auto -->

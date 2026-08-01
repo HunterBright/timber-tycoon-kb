@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - game-design
 - ui
-- roadmap
+- roadmapa
 - scope
 - phase-4
 applies_to:
@@ -55,3 +55,12 @@ name: ui-phase-4-catalog
 Before MVP, catalog ALL UI systems you'll need at launch. Score each: required for MVP / required for EA / nice-to-have. Phase 4 = "required for EA, not MVP." Ship MVP without them, complete Phase 4 post-MVP.
 
 See also: [[typography-accessibility-stack]], [[quest-highlight-pattern]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[player-built-vs-purchased-dichotomy|Player-Built vs. Purchased Dichotomy]] - wspolne: scope, game-design
+- [[vfx-wycofane-decision|VFX Wycofane - Sawdust, Kurz, Liście Cut from MVP]] - wspolne: scope, game-design
+<!-- /POWIAZANE:auto -->

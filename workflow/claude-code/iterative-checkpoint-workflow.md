@@ -75,3 +75,13 @@ render_to_file("checkpoint_front.png")
 - Worth it: reduces total rework time by 60-80% on complex assets
 
 See also: [[quad-backtick-prompt-format]], [[three-level-analysis-system]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[read-actual-code-before-hypothesizing|Read Actual Code Before Hypothesizing]] - wspolne: workflow, claude-code
+- [[three-level-analysis-system|Three-Level Analysis System]] - wspolne: workflow, claude-code
+- [[20260626-1808-probe-heightfield-before-terrain-edit|Probe the real heightfield before scripting terrain edits - assumed profiles drift]] - wspolne: workflow, blender
+<!-- /POWIAZANE:auto -->

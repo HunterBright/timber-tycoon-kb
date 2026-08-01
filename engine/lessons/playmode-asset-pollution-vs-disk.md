@@ -61,3 +61,12 @@ objects) during Play Mode, plus any "snapshot working tree" checkpoint-commit wo
 
 ## See also
 [[unity-runtime-writes-to-shared-material-asset]], [[scriptableobject-playmode-persistence]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[unity-runtime-writes-to-shared-material-asset|Anti-pattern: runtime writes to a shared material ASSET]] - wspolne: day-night-cycle, git, materials
+- [[20260713-2020-unity-binary-scene-in-git-lfs-is-irreversible-bloat|Anti-pattern: binarna scena Unity w Git LFS = nieodwracalny, rosnacy bez konca bloat]] - wspolne: git, scene
+<!-- /POWIAZANE:auto -->

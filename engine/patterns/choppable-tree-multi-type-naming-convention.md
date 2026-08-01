@@ -8,7 +8,7 @@ date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
 - unity
-- prefabs
+- prefab
 - naming
 - scriptableobject
 - tree-types
@@ -45,3 +45,12 @@ Requires naming discipline - one misnamed asset breaks the pattern's promise. Co
 
 ## Variants
 Same pattern for: weapon types (`Axe_T1_Prefab`, `Axe_T1_Material`), NPC car variants (`NPCPickup01_Texture_Red`), machine tiers (`Chipper_T1`, `Chipper_T2`).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[architectural-naming-convention|Architectural Elements Naming Convention]] - wspolne: naming, prefab
+- [[20260719-1605-spawn-pool-raw-fbx-bypasses-prefab|Anty-wzorzec: pula spawnera wskazuje surowy FBX zamiast prefabu-wrappera]] - wspolne: prefab, scriptableobject
+<!-- /POWIAZANE:auto -->

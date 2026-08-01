@@ -80,3 +80,16 @@ Timestamped scene backup + MD5 of the FBX **before and after** (proved the binar
 untouched - only `.meta isReadable` flips true→false). One atomic, abort-guarded editor
 script (road-fit/coverage gate first) so nothing is modified unless the path is
 measurable. Edit-Mode-only guard as the script's first line.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260628-1140-conform-road-mesh-to-edited-terrain|Conforming an existing road/decal mesh to terrain that was edited later]] - wspolne: road, terrain, raycast
+- [[20260626-1807-bridge-abutment-seam-fix|Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment]] - wspolne: road, terrain
+- [[flatten-terrain-under-road|Flatten Terrain Under Road (Smoothstep Blend)]] - wspolne: road, terrain
+- [[mesh-collider-on-roads-stackable|MeshCollider on Roads = Stackable]] - wspolne: road, raycast
+- [[footstep-raycast-surface-detection|Footstep Raycast Surface Detection]] - wspolne: terrain, raycast
+- [[urp-distant-caster-shadow-band|"Dark band that follows the player" = terrain self-shadow leaking onto near-coplanar road meshes]] - wspolne: road, terrain
+<!-- /POWIAZANE:auto -->

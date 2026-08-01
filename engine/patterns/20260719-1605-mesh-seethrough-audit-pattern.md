@@ -52,3 +52,16 @@ por. lekcja "sonda musi umieć zawieść").
 Sygnatura per obiekt (nazwa, verts, tris, tris-per-slot, bbox 1e-3, nazwy materiałów)
 liczona z depsgraph .blend vs import FBX; identyczny timestamp pliku .blend i .fbx to
 mocna poszlaka wspólnego eksportu, ale rozstrzyga sygnatura.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260728-1105-samotest-sprawdzajacy-wlasne-normalne-jest-slepy|Samotest sprawdzajacy WLASNE normalne jest slepy na odwrocona scianke]] - wspolne: normals, mesh
+- [[river-mesh-semi-ellipse-cross-section|River Mesh Semi-Elliptical Cross-Section]] - wspolne: mesh, blender
+- [[20260612-1200-eevee-shadow-acne-wavy-lines|Wavy dark lines in EEVEE preview renders = shadow acne, not geometry]] - wspolne: rendering, blender
+- [[20260531-0934-tripo-polygon-soup-inverted-winding-fix|Tripo / AI-generated meshes import as "polygon soup" - see-through holes under single-sided rendering are a winding problem caused by UNWELDED verts, not interior faces]] - wspolne: normals, blender
+- [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: pipeline, blender
+- [[blender-mcp-interactive-remodel-loop|Blender-MCP Interactive Remodel Loop (GUID-Preserving In-Place Replace)]] - wspolne: pipeline, blender
+<!-- /POWIAZANE:auto -->

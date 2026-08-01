@@ -62,3 +62,12 @@ If you already deleted and have missing scripts: see [[scene-files-binary-never-
 Claude Code agents performing refactors that move or merge classes. Add to pre-delete checklist in any migration sprint (see [[before-delete-legacy-class-checklist]]).
 
 See also: [[before-delete-legacy-class-checklist]], [[scene-files-binary-never-edit]], [[backup-scene-before-modify]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[backup-scene-before-modify|Backup Scene Before Structural Modification]] - wspolne: scene-safety, claude-code
+- [[never-destructive-ops-in-play-mode|NEVER save_scene or DestroyImmediate in Play Mode]] - wspolne: scene-safety, claude-code
+<!-- /POWIAZANE:auto -->

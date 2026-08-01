@@ -45,3 +45,15 @@ full PNG dimensions (X 0..width-1, Y 0..height-1).
   consumed by Unity as a horizontal 9-slice button background (border 120/0/120/0).
 - Project gotcha that recurs across UI bakes - promote if it saves re-deriving the
   ×2 framing each time a flat sprite is baked.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260615-2045-blender-voronoi-round-knots|Proceduralne okrągłe sęki w Blenderze: Voronoi F1, nie DISTANCE_TO_EDGE (+ kompensacja proporcji)]] - wspolne: ui-sprite, blender
+- [[20260704-1322-blender-file-image-scale-bake-revert|Blender: image.scale() na file-backed image nie trzyma się podczas bake - użyj images.new()]] - wspolne: bake, blender
+- [[20260725-1830-plaskie-tekstury-z-plam-referencji|Plaskie tekstury dla modelu z generatora 3D: tozsamosc elementu bierz z REFERENCJI, nie z koloru]] - wspolne: bake, blender
+- [[20260610-1820-blender-mcp-failure-headless-fallback|blender-mcp bridge failure modes + headless CLI fallback]] - wspolne: bake, blender
+- [[20260612-1845-blender-9slice-ui-sprites|Blender-rendered 9-slice-ready UI sprites (3D panel → ortho render → Unity Sliced sprite)]] - wspolne: 9-slice, blender
+<!-- /POWIAZANE:auto -->

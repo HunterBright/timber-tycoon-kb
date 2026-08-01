@@ -82,3 +82,11 @@ SO blueprint is a shared reference - modifying it would change ALL workers of th
 - **Generic blueprint pattern:** same SO/instance split applies to buildings, upgrades, items - reuse the pattern across systems.
 
 See also: [[worker-simulate-work-cycle]], [[worker-output-quality-distribution]], [[scriptable-object-runtime-injection]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[scriptable-object-runtime-injection|ScriptableObject Runtime Injection Pattern]] - wspolne: runtime, scriptableobject
+<!-- /POWIAZANE:auto -->

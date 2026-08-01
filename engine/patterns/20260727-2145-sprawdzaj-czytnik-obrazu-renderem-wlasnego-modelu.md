@@ -68,3 +68,16 @@ Wzorzec działa tylko dla wielkości, które umiesz sam wytworzyć. Jeśli
 referencja pokazuje coś, czego nie potrafisz zbudować (u nas: twarz), nie
 zrobisz sobie prawdy - i wtedy trzeba mierzyć zgodność między niezależnymi
 ujęciami zamiast z prawdą.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-2320-sylwetka-nie-rozdziela-czesci-ktore-sie-stykaja|Sylwetka nie rozdziela dwóch rzeczy, które się stykają - i milczy o tym]] - wspolne: obraz, pomiar, blender
+- [[20260727-2140-linijka-wysokosci-na-zdjeciu-jest-krzywa|"Ile procent kadru, tyle procent wysokości" to nieprawda, gdy obiektyw patrzy z góry]] - wspolne: obraz, pomiar
+- [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: testy, pomiar
+- [[20260728-0030-wymiar-ktorego-nie-widzi-zadne-ujecie-dopasuj-do-wszystkich|Wymiar, którego nie widzi żadne ujęcie, mierzy się dopasowaniem do wszystkich naraz]] - wspolne: pomiar, blender
+- [[20260702-1130-blender-review-render-color-fidelity|Rendery kontrolne do akceptacji kolorów: wyłącz AgX, użyj view transform „Standard"]] - wspolne: render, blender
+- [[20260720-1410-ortho-comparison-render-hides-occlusion|Rzut prostokątny w ujęciu porównawczym potrafi pokazać kilka obiektów nałożonych na siebie i wyglądać jak jeden poprawny obiekt]] - wspolne: render, blender
+<!-- /POWIAZANE:auto -->

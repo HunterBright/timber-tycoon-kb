@@ -104,3 +104,11 @@ nie przesuwaj swiata pod kamere. Jedyny wyjatek to obiekty, ktore w swiezej
 scenie w ogole nie istnieja na docelowej pozycji (np. meble, ktore gracz
 dopiero wytwarza) - te stawiamy na ICH przyszlych miejscach (piedestaly wystawy),
 zmierzonych z gry, nie "gdzie pasuje do kadru".
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1850-single-scene-return-to-menu-survivors|Powrot do menu glownego w grze jednoscenowej: co przezywa przeladowanie sceny]] - wspolne: main-menu, single-scene
+<!-- /POWIAZANE:auto -->

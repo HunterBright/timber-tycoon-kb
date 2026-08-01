@@ -51,3 +51,16 @@ Same tool excluded a meandering river and a noisy-outline lake with axis-aligned
 - Editor-time tools must not assume physics colliders are queryable - non-convex runtime/embedded MeshColliders are uncooked in Edit Mode. Read mesh geometry directly for masks/tests.
 - For exclusion around procedurally-built features, reuse the generator's own equations rather than approximating with rectangles.
 - Always add an integrity/audit pass that re-checks the output against the mask and prints expected-zero counts - it turns "looks right" into proof.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260628-1615-footstep-surface-raycast-from-feet|Detekcja nawierzchni pod graczem: strzelaj raycastem OD STÓP, nie od środka postaci]] - wspolne: meshcollider, raycast, physics
+- [[20260713-1420-convex-meshcollider-swallows-hollow-interiors|Convex MeshCollider na skorupie połyka jej wnętrze - promienie nigdy nie trafią w części w środku]] - wspolne: meshcollider, raycast, physics
+- [[20260722-2055-raycast-w-gore-nie-widzi-tafli-wody|"Czy jestem pod wodą?" - promień w GÓRĘ nic nie zobaczy (backface)]] - wspolne: meshcollider, raycast, physics
+- [[20260628-1140-conform-road-mesh-to-edited-terrain|Conforming an existing road/decal mesh to terrain that was edited later]] - wspolne: meshcollider, raycast
+- [[20260713-1425-runtime-meshcollider-needs-readable-mesh-in-builds|MeshCollider tworzony w runtime działa w Edytorze i cicho pada w buildzie (isReadable)]] - wspolne: meshcollider, physics
+- [[20260728-1110-meshcollider-niewypukly-z-rigidbody-gubi-kolizje|Zderzak z pelnej siatki na obiekcie z fizyka = obiekt znika ze swiata]] - wspolne: meshcollider, physics
+<!-- /POWIAZANE:auto -->

@@ -88,3 +88,12 @@ wyjściowej po pełnych obrotach - i dać fałszywy alarm.
 
 Rozwiązanie: **maksimum z wielu próbek** w trakcie całego przejazdu. Koło, które stoi,
 ma to maksimum równe zeru niezależnie od liczby próbek.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[gate-must-have-provable-failure-mode|Bramka bez udowodnionego trybu porazki niczego nie pilnuje]] - wspolne: red-proof, sonda, testy
+- [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: progi, testy
+<!-- /POWIAZANE:auto -->

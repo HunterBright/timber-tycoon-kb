@@ -41,3 +41,16 @@ Zapisy sprzed zmiany (schemaVersion=0, domyslne int przy braku pola = wsteczna k
 
 ## Zasada ogolna
 Kazda migracja "dogrywajaca" stan przy wczytaniu, ktora zmienia domyslne zachowanie, musi byc jednorazowa i gatowana MONOTONICZNIE ROSNACA wersja schematu zapisu - nie stanem, ktory legalna nowa gra tez moze miec. "Czy ten warunek jest prawdziwy takze dla swiezego zapisu z nowym defaultem?" Jesli tak -> potrzebujesz wersji schematu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[parallel-architecture-pattern|Parallel Architecture Pattern (Locator + Events + ISaveable + Singleton)]] - wspolne: migration, isaveable
+- [[20260622-1412-saveload-order-event-doublecount|Lekcja: licznik liczący PRZYROSTY z eventu magazynu fałszywie nalicza przy wczytaniu zapisu]] - wspolne: isaveable, save-system
+- [[20260702-2200-save-system-missing-key-reset|Nowy ISaveable + stary save = przeciek żywego stanu (reset przy braku klucza)]] - wspolne: isaveable, save-system
+- [[20260710-1952-save-key-name-path-hash-collision|Klucz zapisu z hasha ścieżki NAZW = kolizja przy duplikatach obiektów]] - wspolne: isaveable, save-system
+- [[awake-init-for-isaveable-with-dependencies|Awake-Init for ISaveable with Dependencies]] - wspolne: isaveable, save-system
+- [[isaveable-contract|ISaveable Contract]] - wspolne: isaveable, save-system
+<!-- /POWIAZANE:auto -->

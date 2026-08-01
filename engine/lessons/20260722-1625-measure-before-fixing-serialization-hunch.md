@@ -64,3 +64,13 @@ Przyczyna przeciskania się kłód przez teren pozostała nieznana, więc zamias
 powstała siatka bezpieczeństwa: co sekundę zapamiętywane jest miejsce spoczynku każdego
 ciała z fizyką i przy spadku poniżej twardej granicy obiekt wraca. Skutek przestał boleć
 gracza, mimo że przyczyna nadal nie jest zdiagnozowana - to uczciwy stan, byle był nazwany.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1145-loop-seam-measure-and-crossfade|Pętla dźwiękowa: zmierz styk, przenikaj ogon w początek, dopisz próg do sondy]] - wspolne: build-probe, measurement
+- [[20260624-0702-unity-new-serialized-bool-defaults-false|Nowe pole `bool` na istniejących assetach deserializuje się do `false`, nie do inicjalizatora C#]] - wspolne: serialization, scriptableobject
+- [[20260712-1925-unity-so-asset-overrides-initializers|ScriptableObject .asset serializuje wartosci i WYGRYWA nad inicjalizatorami pol w C#]] - wspolne: serialization, scriptableobject
+<!-- /POWIAZANE:auto -->

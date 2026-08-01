@@ -81,3 +81,11 @@ Jeden skrypt tnacy, kilkanascie minut. Zwrocil sie po pierwszym uruchomieniu.
 Automatyczne wykrywanie osi pionowej po "najwiekszym rozmiarze bryly" ZAWODZI
 dla postaci w pozie T: rozpietosc ramion rowna sie wzrostowi i czesto go
 przekracza. Trzeba wymusic os albo wykrywac ja inaczej.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-2140-linijka-wysokosci-na-zdjeciu-jest-krzywa|"Ile procent kadru, tyle procent wysokości" to nieprawda, gdy obiektyw patrzy z góry]] - wspolne: proporcje, pomiar
+<!-- /POWIAZANE:auto -->

@@ -65,3 +65,13 @@ Full lighting isolation needs THREE things saved/restored: (a) scene lights' per
 - Framing many shapes consistently: fit the ortho size to the subject's PROJECTED on-screen
   bounds (camera-space min/max of the 8 AABB corners), one shared padding - not the 3D
   bounding-sphere diagonal (which makes elongated items render tiny).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[stale-reflection-probe-night-whitening|Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)]] - wspolne: reflection-probe, lighting, urp
+- [[20260627-1040-daynight-editor-preview-and-pbr-water-sky-grey|Stylized PBR water looks great in editor but grey in-game - the day/night cycle drives lighting only at runtime]] - wspolne: reflection-probe, urp
+- [[urp-shadow-cascade-tuning|URP Shadow Cascade Tuning for Low-Poly Terrain]] - wspolne: lighting, urp
+<!-- /POWIAZANE:auto -->

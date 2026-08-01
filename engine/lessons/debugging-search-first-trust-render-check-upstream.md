@@ -44,3 +44,12 @@ These are project-agnostic process rules, not Unity facts. Any debugging effort 
 - [[discriminating-clip-vs-rig-vs-skin-humanoid-defect]] (where the metric misled us - still in _inbox, pending promotion)
 - [Read actual code before hypothesizing](../../workflow/claude-code/read-actual-code-before-hypothesizing.md)
 - [[scene-view-ab-false-positive-game-view-ground-truth]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[scene-view-ab-false-positive-game-view-ground-truth|Scene View A/B screenshots gave a false-positive diagnosis - verify in the GAME view with the live camera]] - wspolne: methodology, debugging
+- [[snap-freeze-instead-of-fixing-physics-cause|ANTI-PATTERN: Snap/Freeze to Mask a Physics Bug Instead of Fixing the Cause]] - wspolne: process, debugging
+<!-- /POWIAZANE:auto -->

@@ -85,3 +85,16 @@ PD controller handles any starting approach angle - no "follow a script" sequenc
 - **Ackermann steering:** model turning radius accurately for realistic parking sequences
 
 See also: [[forward-axis-blender-fbx-quirk]], [[pipeline-style-npc-spawn]], [[reverse-parking-entry-stub-orientation]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[reverse-parking-entry-stub-orientation|Reverse-parking: orientation on the entry stub (forward-tail)]] - wspolne: parking, npc
+- [[freeze-inertia-tensor-not-restored|FreezeAll + automaticInertiaTensor=false Zeroes the Inertia Tensor]] - wspolne: vehicle, npc, physics
+- [[minimum-turn-factor-arcade-steering|Minimum turnFactor 0.3 for Low-Speed Arcade Steering]] - wspolne: vehicle, npc, physics
+- [[20260722-2050-unstuck-nearest-valid-ground-ring-search|Unstuck / reset: szukaj najbliższego POPRAWNEGO gruntu zamiast teleportu do bazy]] - wspolne: vehicle, physics
+- [[20260714-2220-maxspeed-clamp-is-not-a-speed|maxSpeed to KLAMRA, nie prędkość - pojazd i tak stanie na (napęd / tłumienie)]] - wspolne: vehicle, physics
+- [[20260714-2350-null-physics-material-silently-becomes-default-friction|Collider z materiałem `null` NIE ma zerowego tarcia - ma DOMYŚLNE 0.6]] - wspolne: vehicle, physics
+<!-- /POWIAZANE:auto -->

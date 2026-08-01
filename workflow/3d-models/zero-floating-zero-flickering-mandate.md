@@ -79,3 +79,15 @@ Each [[iterative-checkpoint-workflow]] render must include close-up inspection o
 Floating gaps: player notices "looks cheap and unfinished." Z-fighting: player notices "this is glitchy." Both shipped = refunds and bad reviews. Mandate prevents.
 
 See also: [[blender-headless-python-generation]], [[iterative-checkpoint-workflow]], [[procedural-textures-cycles-commercial]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260711-1647-blender-prop-contact-interpenetrate-not-gap|Anty-wzorzec: szczeliny powietrza jako ochrona przed z-fightingiem (lewitujące propy)]] - wspolne: z-fighting, modeling, blender
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: modeling, blender
+- [[cylindric-beams-visual-contrast|Cylindric vs Rectangular Beams for Visual Contrast]] - wspolne: modeling, blender
+- [[20260702-1135-lowpoly-thin-planar-leaves-antipattern|Anty-pattern: cienkie płaskie „soczewki" jako liście low-poly]] - wspolne: modeling, blender
+- [[20260612-1530-fix-baked-solidify-wrong-direction|Fixing a baked-in Solidify applied in the wrong direction]] - wspolne: modeling, blender
+<!-- /POWIAZANE:auto -->

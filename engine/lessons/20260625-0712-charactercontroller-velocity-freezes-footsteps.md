@@ -10,7 +10,7 @@ tags:
 - unity
 - charactercontroller
 - audio
-- footsteps
+- footstep
 - velocity
 - minigame
 - input-lock
@@ -56,3 +56,13 @@ stanem jest pewniejszy (kroki i blokada ruchu nie rozjadą się przy dodaniu now
 Każda mechanika czytająca `CharacterController.velocity` poza pętlą, która faktycznie woła `Move()`,
 musi zakładać, że ta wartość może być nieaktualna. Traktuj „czy gracz się rusza" jako stan
 sterowany przez warstwę inputu/sterowania, nie przez surowy odczyt z kontrolera.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260628-1615-footstep-surface-raycast-from-feet|Detekcja nawierzchni pod graczem: strzelaj raycastem OD STÓP, nie od środka postaci]] - wspolne: footstep, charactercontroller
+- [[footstep-raycast-surface-detection|Footstep Raycast Surface Detection]] - wspolne: footstep, audio
+- [[20260625-0714-loop-fade-timefit-sfx-pattern|Dopasowanie SFX o stałej długości do akcji o zmiennej długości: pętla + wygaszenie]] - wspolne: audio, minigame
+<!-- /POWIAZANE:auto -->

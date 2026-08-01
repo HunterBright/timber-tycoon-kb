@@ -42,3 +42,16 @@ Ortho top-down + known ortho_scale makes the render a measurable 2D artifact - w
 ## Variants
 - Same rig renders icons/buttons/frames - new collection, hide others, adjust ortho_scale, keep light identical for kit consistency.
 - For non-rect panels (circular badges) the same rule applies radially: unique features in fixed zones, repeatable low-amp noise in stretch zones.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory|Don't build a full-screen dim/scrim by reusing your skinnable panel factory]] - wspolne: sprite, 9-slice, ui
+- [[20260613-0625-9slice-ppu-must-scale-to-target-rect-not-stay-100|A large 9-slice sprite at PixelsPerUnit=100 breaks because its fixed corners exceed the panel]] - wspolne: sprite, 9-slice, ui
+- [[20260618-0724-blender-ortho-ui-sprite-bake-framing|Baking flat UI sprites in Blender: ortho frame width = ortho_scale × 2]] - wspolne: 9-slice, blender
+- [[20260726-1535-blender-addon-parametryczny-suwaki|Parametryczny dodatek do Blendera: trzy pulapki, ktore kosztuja godzine kazda]] - wspolne: ui, blender
+- [[20260725-2050-kontrakt-liczbowy-bez-nazw-osi|Wspolny kontrakt liczbowy dla kilku agentow, ktory nie nazywa osi]] - wspolne: low-poly, blender
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: low-poly, blender
+<!-- /POWIAZANE:auto -->

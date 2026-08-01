@@ -68,3 +68,16 @@ the SMALLEST panel that shares the sprite (at N=300 here, any panel ≥~470 px w
 ## Related
 - [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory]] - sibling fix from the same reskin: the
   full-screen dim must not reuse the panel factory once a transparent 9-slice sprite exists.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory|Don't build a full-screen dim/scrim by reusing your skinnable panel factory]] - wspolne: sprite, 9-slice, ugui
+- [[20260612-1845-blender-9slice-ui-sprites|Blender-rendered 9-slice-ready UI sprites (3D panel → ortho render → Unity Sliced sprite)]] - wspolne: sprite, 9-slice, ui
+- [[20260616-1532-unity-9slice-contentsizefitter-pollution|9-slice Image na obiekcie layoutu zaniża ContentSizeFitter (panel rośnie do sumy borderów)]] - wspolne: 9-slice, ugui
+- [[20260612-1330-getbuiltinresource-extra-null|Resources.GetBuiltinResource zwraca NULL dla sprite'ów UI (builtin-EXTRA) - pasek Filled rysuje się jako pełny quad]] - wspolne: sprite, ugui
+- [[20260702-2205-ugui-rebuild-eats-clicks|Rebuild-on-event w uGUI zjada kliki + ScrollRect bez Graphica nie scrolluje]] - wspolne: ugui, ui
+- [[20260607-2016-ugui-filled-image-needs-sprite|A UGUI `Image` with `type = Filled` but no sprite ignores `fillAmount`]] - wspolne: ugui, ui
+<!-- /POWIAZANE:auto -->

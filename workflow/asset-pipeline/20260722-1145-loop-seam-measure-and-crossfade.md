@@ -89,3 +89,16 @@ stałą energię - liniowe dałyby słyszalne przygaszenie w połowie przenikani
   fazy, nie tylko głośności.
 - **Gdy nie wolno ruszać pliku**: dwa źródła dźwięku grające naprzemiennie z zakładką w
   silniku. Działa, ale kosztuje drugi kanał i komplikuje sterowanie wysokością dźwięku.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[audio-asset-pipeline|Audio Asset Pipeline (ElevenLabs + Suno + FFmpeg)]] - wspolne: ffmpeg, audio
+- [[ambient-crossfade-zone-based|Ambient Crossfade Zone-Based Pattern]] - wspolne: crossfade, audio
+- [[20260625-0714-loop-fade-timefit-sfx-pattern|Dopasowanie SFX o stałej długości do akcji o zmiennej długości: pętla + wygaszenie]] - wspolne: sfx, audio
+- [[footstep-raycast-surface-detection|Footstep Raycast Surface Detection]] - wspolne: sfx, audio
+- [[20260722-1625-measure-before-fixing-serialization-hunch|Brakujący klucz w assecie NIE oznacza zera - zmierz, zanim "naprawisz"]] - wspolne: build-probe, measurement
+- [[20260626-1016-unity-one-sided-audio-channel-balance|Dźwięk słychać tylko z jednej strony → najpierw sprawdź balans kanałów ŹRÓDŁA]] - wspolne: ffmpeg, audio
+<!-- /POWIAZANE:auto -->

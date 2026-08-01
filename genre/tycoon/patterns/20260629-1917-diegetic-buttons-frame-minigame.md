@@ -67,3 +67,16 @@ with green/red/yellow). Recon dissolved a "decision" that wasn't one.
 ## Evidence
 Timber Tycoon: `PelletizerMinigameUI` (origin), `FertilizerMakerMinigameUI` (Phase 4,
 cloned). Validated in Play Mode by Hunter.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260724-1817-diegetic-button-overlap-steal|Powiekszone collidery klikania ciasnych guzikow 3D + wybor "pierwsze trafione pudelko" = sasiad kradnie klik]] - wspolne: diegetic-ui, minigame, raycast
+- [[20260702-0651-batch-machine-loop-pattern|Wzorzec: pętla serii maszyny z minigrą (batch-machine loop)]] - wspolne: camera-lock, minigame
+- [[quantity-not-quality-principle|Quantity-Not-Quality Design Principle]] - wspolne: tycoon, minigame
+- [[20260713-1430-probe-visibility-by-rotating-rays-not-the-object|Sonda widoczności: obracaj PROMIENIE, nie obiekt]] - wspolne: minigame, raycast
+- [[diegetic-3d-button-raycast|Diegetic 3D Button Raycast Pattern]] - wspolne: minigame, raycast
+- [[mesh-collider-convex-for-clickable-minigame-objects|Convex MeshCollider for Irregular Clickable Objects]] - wspolne: minigame, raycast
+<!-- /POWIAZANE:auto -->

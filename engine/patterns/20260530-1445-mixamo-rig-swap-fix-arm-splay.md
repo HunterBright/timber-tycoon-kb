@@ -74,3 +74,12 @@ Any project importing Mixamo (or any external) humanoid animations onto a custom
 mesh hits this. The two reusable kernels are: (a) **content-overwrite + meta-keep**
 to swap a model while preserving its GUID, and (b) **load/save prefab contents in
 place** to preserve prefab GUID + root fileID so referencing SOs/scenes survive.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260531-1530-unity-humanoid-autorig-mirrored-foot|Crooked foot under Unity Humanoid = auto-rig copied the foot bind pose instead of mirroring it]] - wspolne: retargeting, mixamo
+- [[20260705-1745-mixamo-motion-only-vs-withskin-retarget|Mixamo "Without Skin" (motion-only) FBX psuje retarget Humanoid - uzyj "With Skin"]] - wspolne: retargeting, mixamo
+<!-- /POWIAZANE:auto -->

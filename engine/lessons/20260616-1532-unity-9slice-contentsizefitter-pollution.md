@@ -54,3 +54,14 @@ samym obiekcie co layout root.
 Zamiast polegać na zrzucie ekranu - w Play Mode odpal mały skrypt logujący
 `rectTransform.rect.size` paneli i ich dzieci. Podejrzanie równa liczba (= suma borderów sprite'a)
 wskazuje od razu na ten problem.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260707-1320-unity-ugui-fixed-preferredheight-clips-multiline-localized-text|uGUI toast/plaque with a fixed LayoutElement.preferredHeight clips multi-line and localized text]] - wspolne: contentsizefitter, ugui
+- [[20260714-1250-ugui-okno-rosnace-pod-tresc|Lekcja: okno UI rosnace pod tresc - clamp do ekranu NIE zmniejsza tresci]] - wspolne: layout, ugui
+- [[20260613-0625-9slice-ppu-must-scale-to-target-rect-not-stay-100|A large 9-slice sprite at PixelsPerUnit=100 breaks because its fixed corners exceed the panel]] - wspolne: 9-slice, ugui
+- [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory|Don't build a full-screen dim/scrim by reusing your skinnable panel factory]] - wspolne: 9-slice, ugui
+<!-- /POWIAZANE:auto -->

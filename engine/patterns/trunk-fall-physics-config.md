@@ -77,3 +77,16 @@ Physics settles the trunk naturally - the same way spawned Logs settle in the sa
 - **Ragdoll trunk:** Rigidbody chain per log segment - cinematic but expensive
 
 See also: [[capsule-collider-direction-axis]], [[script-overrides-prefab-inspector-values]], [[dynamic-rigidbody-no-nonconvex-meshcollider]], [[snap-freeze-instead-of-fixing-physics-cause]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260622-0950-unity-map-boundary-from-bounds|Invisible map boundary from live Renderer.bounds + foot-only gap via IgnoreCollision]] - wspolne: rigidbody, physics
+- [[snap-freeze-instead-of-fixing-physics-cause|ANTI-PATTERN: Snap/Freeze to Mask a Physics Bug Instead of Fixing the Cause]] - wspolne: rigidbody, physics
+- [[20260714-2220-maxspeed-clamp-is-not-a-speed|maxSpeed to KLAMRA, nie prędkość - pojazd i tak stanie na (napęd / tłumienie)]] - wspolne: rigidbody, physics
+- [[20260724-0907-arcade-car-climbs-walls|Arkadowe auto na Rigidbody wspina sie po scianach i odlatuje w niebo]] - wspolne: rigidbody, physics
+- [[20260728-1110-meshcollider-niewypukly-z-rigidbody-gubi-kolizje|Zderzak z pelnej siatki na obiekcie z fizyka = obiekt znika ze swiata]] - wspolne: rigidbody, physics
+- [[dynamic-rigidbody-no-nonconvex-meshcollider|Dynamic Rigidbody → Primitive or Convex Collider, Never Non-Convex Mesh]] - wspolne: rigidbody, physics
+<!-- /POWIAZANE:auto -->

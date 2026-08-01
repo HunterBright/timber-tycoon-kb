@@ -72,3 +72,11 @@ into a different object. Each path must give exactly one correct result.
 
 ## Related
 - [[project_tree_save_architecture]] (project memory - the 3-system tree persistence map)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260715-1430-inplace-load-respawn-duplication|Load "w miejscu" bez czyszczenia = respawnowane obiekty stackuja sie z kazdym wczytaniem]] - wspolne: save-load, isaveable
+<!-- /POWIAZANE:auto -->

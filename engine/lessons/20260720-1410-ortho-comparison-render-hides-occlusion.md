@@ -112,3 +112,12 @@ która zdradziłaby nakładanie.
 - [[fbx-binary-overwrite-corrupts-bindposes]]
 - Zasada projektowa Timber Tycoon: "sonda musi umieć zawieść" - ten sam problem
   na poziomie testów, tu przeniesiony na poziom materiału dowodowego dla człowieka
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260702-1130-blender-review-render-color-fidelity|Rendery kontrolne do akceptacji kolorów: wyłącz AgX, użyj view transform „Standard"]] - wspolne: render, blender
+- [[20260727-2145-sprawdzaj-czytnik-obrazu-renderem-wlasnego-modelu|Czytnik obrazu sprawdzaj renderem własnego modelu, nie obrazkiem, który sam sobie narysowałeś]] - wspolne: render, blender
+<!-- /POWIAZANE:auto -->

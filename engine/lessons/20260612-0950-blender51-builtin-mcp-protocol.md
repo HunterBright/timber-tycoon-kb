@@ -42,3 +42,14 @@ Ominąć starego pośrednika i mówić bezpośrednio do wbudowanego serwera prze
 
 ## Konsekwencja
 Narzędzia `mcp__blender-mcp__*` w sesji Claude Code są martwe przy Blenderze 5.1+, dopóki serwer MCP po stronie klienta nie zostanie zaktualizowany do nowego protokołu. Viewport screenshot przez stare narzędzie też nie działa - zamiast tego render do PNG przez `bpy.ops.render.render(write_still=True)` i odczyt pliku.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260725-0620-mcp-port-9876-protocol-collision|Dwa serwery MCP na porcie 9876: "Incomplete JSON response" to konflikt protokolu, nie zawieszony Blender]] - wspolne: socket, mcp, blender
+- [[20260626-1807-bridge-abutment-seam-fix|Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment]] - wspolne: bridge, blender
+- [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: mcp, blender
+- [[20260531-1500-mixamo-clean-mesh-extraction|Extract a clean mesh-only FBX from a rigged source for Mixamo re-rig]] - wspolne: mcp, blender
+<!-- /POWIAZANE:auto -->

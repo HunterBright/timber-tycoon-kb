@@ -50,5 +50,16 @@ Default direction=1 (vertical) on a lying fallen trunk - capsule points up, trun
 Any Unity project with non-vertical capsule shapes. The cheatsheet is universal. The Blender-to-Unity axis remap detail is specific to Blender pipelines.
 
 ## Related
-- [Script overrides prefab Inspector values](../anti-patterns/script-overrides-prefab-inspector.md)
+- [[script-overrides-prefab-inspector-values|Script overrides prefab Inspector values]]
 - [Self-collision compound BoxColliders](self-collision-compound-colliders-ignore.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[dynamic-rigidbody-no-nonconvex-meshcollider|Dynamic Rigidbody → Primitive or Convex Collider, Never Non-Convex Mesh]] - wspolne: collider, physics
+- [[self-collision-compound-colliders-ignore|Self-Collision Compound BoxColliders → Physics.IgnoreCollision]] - wspolne: collider, physics
+- [[20260710-2115-collider-from-first-meshfilter-antipattern|Collider z GetComponentInChildren&lt;MeshFilter&gt; na wielosiatkowym FBX = collider z fragmentu modelu]] - wspolne: collider, physics
+- [[20260622-0950-unity-map-boundary-from-bounds|Invisible map boundary from live Renderer.bounds + foot-only gap via IgnoreCollision]] - wspolne: collider, physics
+<!-- /POWIAZANE:auto -->

@@ -49,3 +49,14 @@ menu drukujące tabelę % szans przy bieżącym stanie gry (u nas: Print Order W
 
 ## Kiedy stosować
 Każda gra z zamówieniami/klientami ważonymi stanem świata (tycoon, shopkeeper).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260716-0843-value-greedy-basket-priciest-dominates|Koszyk dobijany do kwoty "krokiem najblizej celu" = najdrozszy produkt dominuje kazde zamowienie]] - wspolne: weighted-random, tycoon, economy
+- [[20260714-2215-order-value-topdown-makes-prices-meaningless|Zamówienie losowane OD KWOTY w dół - cennik przestaje cokolwiek znaczyć]] - wspolne: orders, tycoon, economy
+- [[20260607-1233-warehouse-filtered-order-pool|Gate a content pool by runtime availability, not explicit unlock flags]] - wspolne: tycoon, economy
+- [[20260704-2030-tycoon-economy-two-clock-balancing|Balansowanie ekonomii progresu metodą „dwóch zegarów" + koperty przychodu]] - wspolne: tycoon, economy
+<!-- /POWIAZANE:auto -->

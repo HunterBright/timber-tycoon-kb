@@ -81,3 +81,13 @@ Two alternating AudioSources allow smooth crossfade without gap. Trigger-based z
 - **Layered ambient**: base ambient (forest) + additive layer (rain during weather) using additional source
 
 See also: [[audio-reverb-zone-per-environment]], [[audio-manager-mixer-architecture]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[audio-reverb-zone-per-environment|AudioReverbZone per Environment]] - wspolne: ambient, audio
+- [[20260722-1145-loop-seam-measure-and-crossfade|Pętla dźwiękowa: zmierz styk, przenikaj ogon w początek, dopisz próg do sondy]] - wspolne: crossfade, audio
+- [[audio-strategy-minimal-music-heavy-ambient|Audio Strategy - Minimal Music + Heavy Ambient + Voice Bites]] - wspolne: ambient, audio
+<!-- /POWIAZANE:auto -->

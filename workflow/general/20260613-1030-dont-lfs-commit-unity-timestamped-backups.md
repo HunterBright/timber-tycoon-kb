@@ -12,7 +12,7 @@ tags:
 - unity
 - storage
 - quota
-- backups
+- backup
 - gitignore
 applies_to: []
 source: ''
@@ -48,3 +48,11 @@ top-25 largest LFS objects). That's the difference between staying free and need
   the problem - cumulative backup storage is. Audit with a per-extension LFS size breakdown periodically.
 - To reclaim storage already in history: a deliberate history rewrite (git-filter-repo / BFG) to strip
   the backup paths - careful, coordinate with any collaborators, separate task.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260713-2020-unity-binary-scene-in-git-lfs-is-irreversible-bloat|Anti-pattern: binarna scena Unity w Git LFS = nieodwracalny, rosnacy bez konca bloat]] - wspolne: git-lfs, git
+<!-- /POWIAZANE:auto -->

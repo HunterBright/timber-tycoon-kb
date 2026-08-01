@@ -2,7 +2,7 @@
 type: lesson
 project: Kerf - Sawmill Tycoon
 suggested-category: workflow/lessons
-tags: [qa, bramki, sondy, dzwignia, testowanie, blender, proceduralne]
+tags: [qa, bramki, sonda, dzwignia, testowanie, blender, proceduralne]
 date: 2026-07-31
 status: draft
 severity: high
@@ -60,3 +60,16 @@ od razu obleje.
 3. **Uczciwość streszczenia dowodów**: sędzia porównuje streszczenie z plikami
    na dysku; pominięty przebieg (nawet bez złej woli) podważa zaufanie do
    całej reszty opisu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: proceduralne, bramki, blender
+- [[build-is-the-only-truth-editor-lies|Edytora nie da sie oszukac, zeby udawal build]] - wspolne: sonda, qa
+- [[gate-must-have-provable-failure-mode|Bramka bez udowodnionego trybu porazki niczego nie pilnuje]] - wspolne: sonda, qa
+- [[20260726-1810-ciagla-powloka-zamiast-osobnych-bryl|"Zle przyklejone konczyny" to nie blad ustawienia, tylko blad architektury]] - wspolne: proceduralne, blender
+- [[20260727-1309-naprawiony-suwak-uniewaznia-strojenie|Naprawa suwaka, ktory po cichu klamal, uniewaznia CALE wczesniejsze strojenie]] - wspolne: proceduralne, blender
+- [[20260731-2115-bramka-ktora-istnieje-ale-nie-odpala-sie-dla-wiekszosci-obiektow|Bramka, ktora istnieje, ale nie odpala sie dla wiekszosci obiektow]] - wspolne: bramki, blender
+<!-- /POWIAZANE:auto -->

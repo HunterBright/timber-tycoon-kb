@@ -43,3 +43,11 @@ Eskimo Simulator - same camera-viewmodel stack for carried fish/ice blocks; the 
 
 ## See also
 [[tool-viewmodel-child-of-camera-pattern]], [[zero-code-changes-philosophy]], [[fbx-long-axis-detect-programmatically]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[tool-viewmodel-child-of-camera-pattern|Tool Viewmodel as Child of Camera]] - wspolne: viewmodel, camera
+<!-- /POWIAZANE:auto -->

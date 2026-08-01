@@ -46,3 +46,11 @@ Slot Inspectora (`public IntGameEventSO onMoneyChanged`) wskazywał **BRAKUJĄCY
 
 ## Reguła
 W polach Unity (MonoBehaviour/ScriptableObject/Component) **nigdy `?.` ani `??`** - zawsze jawne `if (x != null)` (uniowe). `?.` jest bezpieczne tylko dla czystych typów C#.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[game-event-so-event-channel|GameEventSO ScriptableObject Event Channel]] - wspolne: events, scriptableobject
+<!-- /POWIAZANE:auto -->

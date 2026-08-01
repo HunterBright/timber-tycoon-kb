@@ -45,3 +45,14 @@ Applies to any stylized low-poly game targeting "cozy/premium indie" aesthetic. 
 
 ## Related
 - [Vertex color gamma correction](vertex-color-gamma-correction-blender-to-unity.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260628-1105-lowpoly-lake-shore-jagged-fix|Low-poly lake shore looks jagged (serrated) - submerge the rim + widen the water, don't densify]] - wspolne: terrain, low-poly
+- [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: terrain, low-poly
+- [[polybrush-settings-low-poly|Polybrush Settings for Low-Poly Terrain]] - wspolne: terrain, low-poly
+- [[20260626-1807-bridge-abutment-seam-fix|Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment]] - wspolne: terrain, low-poly
+<!-- /POWIAZANE:auto -->

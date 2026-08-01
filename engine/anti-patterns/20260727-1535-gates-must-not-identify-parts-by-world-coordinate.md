@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - testing
 - procedural-mesh
-- gates
+- gate
 - false-green
 - geometry
 applies_to:
@@ -90,3 +90,15 @@ the implementation changes.*
 
 ## Related
 - [[20260727-1520-loop-matching-ties-in-procedural-stitching]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260720-1306-walidator-spelniony-przez-konstrukcje|Walidator, ktory jest spelniony automatycznie przez konstrukcje]] - wspolne: geometry, testing
+- [[20260726-1420-humanoid-sloty-opcjonalne-vs-wymagane|Humanoid: sloty OPCJONALNE zwracaja null na poprawnym awatarze - fallback po nazwach nie moze byc pod jednym `!isHuman`]] - wspolne: gate, false-green
+- [[20260714-1245-test-bez-trybu-porazki|Anty-wzorzec: test, ktory nie ma jak zawiesc (silnik "naprawia" mierzona wielkosc)]] - wspolne: false-green, testing
+- [[20260728-1105-samotest-sprawdzajacy-wlasne-normalne-jest-slepy|Samotest sprawdzajacy WLASNE normalne jest slepy na odwrocona scianke]] - wspolne: geometry, testing
+- [[20260722-1652-relative-only-test-blind-to-common-mode-error|Test porownujacy instancje MIEDZY SOBA jest slepy na blad wspolny (common-mode)]] - wspolne: false-green, testing
+<!-- /POWIAZANE:auto -->

@@ -72,3 +72,12 @@ load nie przeladowuje sceny.
 ## Related
 - Wielosystemowa trwalosc (3 niezalezne systemy zapisu drzew) - zrodlo "luk"
 - Rodzina "Editor lies" / build-smoke jako straznik regresji
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260716-1814-inplace-load-orphaned-satellite-objects|In-place load osieroca obiekty-satelity (dziura po wczytaniu stała na dorosłym drzewie)]] - wspolne: in-place-load, save-load
+- [[20260614-2139-unity-persistence-ownership-runtime-spawned-objects|Persistence of a runtime-spawned object must be owned by its longest-living relative, never by a transient sibling]] - wspolne: save-load, isaveable
+<!-- /POWIAZANE:auto -->

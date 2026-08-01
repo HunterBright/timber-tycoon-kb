@@ -32,3 +32,15 @@ ScrollRect NIE łapie kółka myszy/dragu, jeśli w jego poddrzewie pod kursorem
 
 ## Transfer
 Oba dotyczą każdego uGUI budowanego w kodzie z live-refresh. Checklist do nowych okien: (1) czy eventy tła mogą przebudować UI w trakcie interakcji? (2) czy każdy ScrollRect ma raycast-target pod kursorem?
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260723-1215-ugui-mask-clear-image-invisible|uGUI: Mask z obrazkiem Color.clear = NIEWIDZIALNA zawartosc (a transformy klamia, ze wszystko gra)]] - wspolne: scrollrect, ugui
+- [[20260613-0625-9slice-ppu-must-scale-to-target-rect-not-stay-100|A large 9-slice sprite at PixelsPerUnit=100 breaks because its fixed corners exceed the panel]] - wspolne: ugui, ui
+- [[statistics-manager-pattern|StatisticsManager Pattern]] - wspolne: events, ui
+- [[20260607-2016-ugui-filled-image-needs-sprite|A UGUI `Image` with `type = Filled` but no sprite ignores `fillAmount`]] - wspolne: ugui, ui
+- [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory|Don't build a full-screen dim/scrim by reusing your skinnable panel factory]] - wspolne: ugui, ui
+<!-- /POWIAZANE:auto -->

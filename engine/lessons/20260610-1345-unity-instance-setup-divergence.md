@@ -57,3 +57,14 @@ disabled flag breaks multiple systems at different layers.
 - When commissioning content N of a kind, copy the full component checklist from the
   working instance (or use a setup editor script), not just the data component.
 - A "works for one, dead for the other" bug report should trigger instance-diff first.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260614-1226-modal-ui-over-world-interactable-guard|Modal UI opened from a world-space interactable must guard the interaction handler]] - wspolne: interaction, raycast
+- [[20260707-1315-unity-interaction-raycast-blocked-by-noninteractable-collider|Single masked Physics.Raycast for "look-at to interact" gets eaten by a non-interactable collider on a masked layer]] - wspolne: interaction, raycast
+- [[20260713-0830-primitive-to-fbx-swap-kills-interaction|Podmiana prymitywu Unity na model FBX po cichu zabija interakcję]] - wspolne: interaction, raycast
+- [[diegetic-3d-button-raycast|Diegetic 3D Button Raycast Pattern]] - wspolne: interaction, raycast
+<!-- /POWIAZANE:auto -->

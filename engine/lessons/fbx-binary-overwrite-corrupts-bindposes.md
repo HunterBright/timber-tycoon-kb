@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - unity
 - fbx
-- skinned-mesh
+- skinnedmesh
 - bindposes
 - meta
 - guid
@@ -77,3 +77,16 @@ Ten sam problem zostal zapisany kilka razy. Kopie leza w `_archive/duplicates/` 
 
 - [[20260530-1800-fbx-binary-overwrite-corrupts-skin-bindposes]]
 - [[20260531-0700-fbx-binary-overwrite-corrupts-bindposes]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260606-1632-in-place-fbx-overwrite-static-vs-rigged|In-Place FBX Overwrite: Safe for Static Meshes, Dangerous for Rigged]] - wspolne: meta, guid, fbx
+- [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: generic-animation, rigging, mixamo
+- [[20260531-0934-fbx-mesh-only-verification-scan-class-names|Verifying an FBX is "mesh-only" before Mixamo: scan for the real CLASS names, not substrings - `AnimStack` matches the header property `ActiveAnimStackName`]] - wspolne: rigging, mixamo, fbx
+- [[20260612-1340-unity-batch-fbx-import-meta-mirroring|Batch FBX import with pre-authored .meta files + prefab build in temp additive scene]] - wspolne: meta, mixamo, fbx
+- [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: rigging, mixamo, fbx
+- [[20260717-0010-generated-rig-bone-axis-defect-skeleton-transplant|Rigi z generatorów AI (Hunyuan): osie kości rozjechane z frontem modelu = wykrzywiona stopa w retargecie; lek = przeszczep szkieletu w Blenderze]] - wspolne: rigging, mixamo
+<!-- /POWIAZANE:auto -->

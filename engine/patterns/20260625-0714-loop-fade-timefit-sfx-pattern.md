@@ -59,3 +59,13 @@ Trzy strategie, dobierane wg typu dźwięku:
 - Pętle powtarzalne ustawiaj ciszej niż pojedyncze uderzenia (mniej męczą przy długim słuchaniu).
 - Wspólny gating: dźwięki sterowane ruchem/stanem gracza pytaj o ten sam „czy zajęty", który blokuje
   sterowanie (jedno źródło prawdy) - patrz lekcja o zamrożonej CharacterController.velocity.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[footstep-raycast-surface-detection|Footstep Raycast Surface Detection]] - wspolne: sfx, audio
+- [[20260722-1145-loop-seam-measure-and-crossfade|Pętla dźwiękowa: zmierz styk, przenikaj ogon w początek, dopisz próg do sondy]] - wspolne: sfx, audio
+- [[20260625-0712-charactercontroller-velocity-freezes-footsteps|CharacterController.velocity „zamraża się" gdy przestajesz wołać Move() → audio sterowane ruchem przecieka]] - wspolne: audio, minigame
+<!-- /POWIAZANE:auto -->

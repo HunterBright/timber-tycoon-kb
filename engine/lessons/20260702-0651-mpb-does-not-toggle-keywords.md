@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - unity
 - urp
-- material-property-block
+- materialpropertyblock
 - emission
 - shader-keywords
 applies_to: []
@@ -39,3 +39,12 @@ Keyword musi być włączony NA MATERIALE (asset), a MPB steruje tylko kolorem/i
 ## Zwalidowane
 FertilizerMaker Faza 5: wnętrze bębna (szary/niebieski/złoty/czerwień + gradienty) w 100%
 przez MPB na wcześniej-emissive materiale; potwierdzone w Play Mode 2026-07-02.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260720-0940-dwa-niezalezne-bledy-gamma-w-jednym-modelu|"Wszystko za jasne" po podmianie modelu: dwa niezależne błędy gamma dające ten sam objaw]] - wspolne: materialpropertyblock, urp
+- [[20260721-1845-tint-palette-on-textured-mesh-neutralize-average|Paleta kolorow na TEKSTUROWANEJ siatce: dziel tint przez sredni kolor tekstury]] - wspolne: materialpropertyblock, urp
+<!-- /POWIAZANE:auto -->

@@ -139,3 +139,15 @@ Buduj wcześnie, choćby raz.
 ## Related
 - [[20260713-1845-monobehaviour-class-must-match-filename]]
 - [[20260713-1900-build-early-never-built-project-hides-editor-only-bugs]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260715-1150-meshcollider-nonreadable-native-crash|MeshCollider na siatce bez Read/Write = TWARDY natywny crash builda przy odsloniecie (nie w Edytorze)]] - wspolne: read-write-enabled, physx, meshcollider
+- [[20260713-1425-runtime-meshcollider-needs-readable-mesh-in-builds|MeshCollider tworzony w runtime działa w Edytorze i cicho pada w buildzie (isReadable)]] - wspolne: isreadable, build, meshcollider
+- [[20260719-1210-unity-build-freshness-check-dll-not-exe|Świeżość builda Unity sprawdzaj po DLL z kodem gry, nie po .exe]] - wspolne: verification, build
+- [[20260713-1900-build-early-never-built-project-hides-editor-only-bugs|Projekt, który nigdy nie był budowany, hoduje całą klasę uśpionych błędów]] - wspolne: verification, build
+- [[20260714-2245-unity-batchmode-returns-before-build-finishes|Unity w trybie wsadowym WRACA, zanim build się skończy - i sonda daje fałszywe zielone światło]] - wspolne: verification, build
+<!-- /POWIAZANE:auto -->

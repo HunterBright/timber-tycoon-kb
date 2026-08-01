@@ -96,3 +96,11 @@ obiekt zostaje w stanie w połowie zbudowanym i kłamie o swoim stanie. Predykat
 
 ## Related
 - [[gate-must-have-provable-failure-mode]] (jeszcze nie istnieje)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260623-0855-unity-layoutelement-requirecomponent-recttransform-null-trap|AddComponent<RectTransform>() zwraca null po wcześniejszym AddComponent komponentu z [RequireComponent(RectTransform)]]] - wspolne: recttransform, addcomponent, awake
+<!-- /POWIAZANE:auto -->

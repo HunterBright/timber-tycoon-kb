@@ -11,7 +11,7 @@ tags:
 - terrain
 - heightmap
 - cliffs
-- caves
+- cave
 - level-design
 applies_to:
 - unity-projects
@@ -46,3 +46,12 @@ Any open-world game with interesting terrain features (caves, cliffs, bridges, t
 ## Related
 - [Cliff + Waterfall hidden cave pattern](../patterns/cliff-waterfall-hidden-cave.md)
 - [Mountains hierarchy](../patterns/mountains-hierarchy-front-and-backdrop.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260628-1405-walkable-cave-from-hollow-rock|Walkable cave from a hollow low-poly rock (don't carve the model)]] - wspolne: cave, level-design
+- [[cliff-waterfall-hidden-cave|Cliff + Waterfall Hidden Cave Pattern]] - wspolne: cave, level-design
+<!-- /POWIAZANE:auto -->

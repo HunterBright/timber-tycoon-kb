@@ -76,3 +76,14 @@ Any code-built UGUI `Image` that uses `Filled` / `Sliced` / `Tiled`, or that you
 to animate via `fillAmount`, **must** have a sprite assigned. A bare colored Image only
 works for the `Simple` look (a solid quad). If a "filled" bar appears stuck at full,
 check the Source Image field first - before suspecting the binding or the math.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260612-1330-getbuiltinresource-extra-null|Resources.GetBuiltinResource zwraca NULL dla sprite'ów UI (builtin-EXTRA) - pasek Filled rysuje się jako pełny quad]] - wspolne: fillamount, image, ugui
+- [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory|Don't build a full-screen dim/scrim by reusing your skinnable panel factory]] - wspolne: ugui, ui
+- [[20260613-0625-9slice-ppu-must-scale-to-target-rect-not-stay-100|A large 9-slice sprite at PixelsPerUnit=100 breaks because its fixed corners exceed the panel]] - wspolne: ugui, ui
+- [[20260702-2205-ugui-rebuild-eats-clicks|Rebuild-on-event w uGUI zjada kliki + ScrollRect bez Graphica nie scrolluje]] - wspolne: ugui, ui
+<!-- /POWIAZANE:auto -->

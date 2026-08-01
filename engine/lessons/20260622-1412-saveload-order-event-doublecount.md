@@ -54,3 +54,16 @@ Nie polegaj na fladze „gotowości" ustawianej per-instancja (przeżywa DontDes
 Każdy „lifetime/cumulative counter" karmiony eventem stanu (magazyn, ekwipunek, waluta liczona z delty
 salda) + system zapisu, który przywraca ten stan przez ten sam event → sprawdź zachowanie przy
 WCZYTANIU PO ROZEGRANIU (nie tylko świeży start), zwłaszcza dla starych zapisów bez danych licznika.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260702-2200-save-system-missing-key-reset|Nowy ISaveable + stary save = przeciek żywego stanu (reset przy braku klucza)]] - wspolne: isaveable, save-system
+- [[20260710-1952-save-key-name-path-hash-collision|Klucz zapisu z hasha ścieżki NAZW = kolizja przy duplikatach obiektów]] - wspolne: isaveable, save-system
+- [[20260717-1100-presave-flush-for-world-automation|Pre-save flush dla systemow automatyzacji mutujacych zapisywany swiat]] - wspolne: race-condition, save-system
+- [[statistics-manager-pattern|StatisticsManager Pattern]] - wspolne: events, isaveable
+- [[20260712-1820-save-migration-schema-version-gate|Jednorazowa migracja zapisu MUSI być bramkowana wersją schematu, nie obecnością/brakiem migrowanego wpisu]] - wspolne: isaveable, save-system
+- [[awake-init-for-isaveable-with-dependencies|Awake-Init for ISaveable with Dependencies]] - wspolne: isaveable, save-system
+<!-- /POWIAZANE:auto -->

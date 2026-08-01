@@ -59,3 +59,16 @@ Any Unity + Blender project remodelling existing assets. The GUID-preserving in-
 - [[procedural-textures-cycles-commercial]]
 - [[blender-headless-python-generation]]
 - [[shared-mesh-and-materials-reference]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260606-1632-in-place-fbx-overwrite-static-vs-rigged|In-Place FBX Overwrite: Safe for Static Meshes, Dangerous for Rigged]] - wspolne: guid, prefab, fbx
+- [[20260610-1820-blender-mcp-failure-headless-fallback|blender-mcp bridge failure modes + headless CLI fallback]] - wspolne: blender-mcp, blender
+- [[fbx-binary-overwrite-corrupts-bindposes|FBX binary-overwrite under a stale .meta corrupts skinned-mesh bindposes (mesh collapses to T-pose while bones animate)]] - wspolne: guid, fbx
+- [[20260612-1340-unity-batch-fbx-import-meta-mirroring|Batch FBX import with pre-authored .meta files + prefab build in temp additive scene]] - wspolne: prefab, fbx
+- [[20260719-1605-spawn-pool-raw-fbx-bypasses-prefab|Anty-wzorzec: pula spawnera wskazuje surowy FBX zamiast prefabu-wrappera]] - wspolne: prefab, fbx
+- [[20260719-1605-mesh-seethrough-audit-pattern|Wzorzec audytu prześwitów w siatkach: render 3-przebiegowy > heurystyki geometryczne]] - wspolne: pipeline, blender
+<!-- /POWIAZANE:auto -->

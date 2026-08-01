@@ -84,3 +84,16 @@ Three methods = everything SaveManager needs. FindObjectsOfType scan at start me
 - **WorldSpawnRegistry extension**: dynamically spawned objects (GrowingTree, CollectableLog) register themselves in OnEnable/OnDestroy with WSR, which is the single ISaveable that saves/restores all of them
 
 See also: [[parallel-architecture-pattern]], [[awake-init-for-isaveable-with-dependencies]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260611-2050-consumed-id-registry-save-pattern|Central consumed-ID registry for scene-object persistence]] - wspolne: persistence, save-system
+- [[awake-init-for-isaveable-with-dependencies|Awake-Init for ISaveable with Dependencies]] - wspolne: isaveable, save-system
+- [[20260716-0843-dual-owner-persistence-duplication|Dwoch wlascicieli trwalosci jednego obiektu w save (rejestr + rekonstrukcja stanu)]] - wspolne: persistence, save-system
+- [[20260712-1820-save-migration-schema-version-gate|Jednorazowa migracja zapisu MUSI być bramkowana wersją schematu, nie obecnością/brakiem migrowanego wpisu]] - wspolne: isaveable, save-system
+- [[20260622-1412-saveload-order-event-doublecount|Lekcja: licznik liczący PRZYROSTY z eventu magazynu fałszywie nalicza przy wczytaniu zapisu]] - wspolne: isaveable, save-system
+- [[20260702-2200-save-system-missing-key-reset|Nowy ISaveable + stary save = przeciek żywego stanu (reset przy braku klucza)]] - wspolne: isaveable, save-system
+<!-- /POWIAZANE:auto -->

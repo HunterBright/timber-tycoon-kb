@@ -70,3 +70,15 @@ public class LoadingStation : MonoBehaviour, IInteractable {
 Quality-of-life upgrades are most valued when the player has experienced the friction they eliminate. Don't remove friction too early - let the player feel it, then reward them for progressing past it.
 
 See also: [[crate-manager-tier-progression]], [[storage-activation-gating-upgrade]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[building-progression-instant-spawn|Building Progression - Instant Spawn Post-Purchase]] - wspolne: progression, game-design
+- [[quantity-not-quality-principle|Quantity-Not-Quality Design Principle]] - wspolne: progression, game-design
+- [[carry-capacity-progression-sprint|Carry Capacity Progression + Sprint Advantage]] - wspolne: progression, game-design
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] - wspolne: progression, game-design
+- [[worker-output-quality-distribution|Worker Output Quality Distribution]] - wspolne: progression, game-design
+<!-- /POWIAZANE:auto -->

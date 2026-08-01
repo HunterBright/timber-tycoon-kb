@@ -43,3 +43,11 @@ Requires deliberate origin placement per asset in Blender (can't just click "Ori
 
 ## Variants
 Exception: PelletBag / FertilizerBag use exact label-bottom (bottom of print area), not geometric bottom - matters when bags are stacked on shelves.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260626-1203-fbx-pivot-direction-vs-procedural-placement|Pivot/geometry direction of an FBX must match what a procedural placement tool assumes]] - wspolne: pivot, blender
+<!-- /POWIAZANE:auto -->

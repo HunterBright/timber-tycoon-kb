@@ -53,3 +53,12 @@ wygląda dobrze w idle i psuje się w marszu, a zgadywanie osi propa pali iterac
 **How to apply:** przy doczepianiu propa do kości: (1) render osi propa w rotacji zerowej,
 (2) pozycja jako dziecko kości + rotacja świata w LateUpdate z korektą osi, (3) strojenie
 pozycji przez sampling klipu offline, (4) werdykt wizualny gracza jako zamknięcie.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1652-npc-foot-grounding-raycast-vs-navmesh-baseoffset|Przyklejanie stop NPC do gruntu raycastem zamiast stalej korekty NavMeshAgent.baseOffset]] - wspolne: animation, npc
+- [[20260704-1045-mixamo-npc-work-carry-animations|Mixamo nie ma animacji „obsługi maszyny / pracy fizycznej" - użyj busy-idle + animacji maszyny; dla noszenia jest „Carrying"]] - wspolne: animation, npc
+<!-- /POWIAZANE:auto -->

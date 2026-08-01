@@ -39,3 +39,12 @@ przypisac do komponentu i zapisac prefab (LoadPrefabContents/SaveAsPrefabAsset).
 ## Reguła
 Kazdy AddObjectToAsset musi byc odprowadzony przez SaveAssets() zanim cokolwiek wymusi
 re-import lub odczyt pliku; po imporcie nie ufac starym referencjom C# do sub-assetu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260620-1300-regenerate-so-assets-from-spec|Regeneruj assety ScriptableObject z kodowego "spec" zamiast ręcznie edytować YAML/GUID]] - wspolne: assetdatabase, editor-scripting
+- [[20260612-1340-unity-batch-fbx-import-meta-mirroring|Batch FBX import with pre-authored .meta files + prefab build in temp additive scene]] - wspolne: editor-scripting, prefab
+<!-- /POWIAZANE:auto -->

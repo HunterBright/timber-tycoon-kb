@@ -55,3 +55,14 @@ Option B wins because Timber Tycoon's core appeal is the sawmill as a "place" - 
 If B chosen: plan floor space in sawmill layout (Strefa 2 and 3 expansions should accommodate dedicated racks). Each rack type needs its own FBX model and StorageFamily enum entry.
 
 See also: [[storage-rack-family-system]], [[global-router-storage-pattern]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[planting-spot-universal-not-typed|PlantingSpot Universal (Not Typed by Species)]] - wspolne: decision-record, game-design
+- [[sales-flow-decision-hybrid|Sales Flow Decision - Hybrid D (Player + NPC Side by Side)]] - wspolne: decision-record, game-design
+- [[vfx-wycofane-decision|VFX Wycofane - Sawdust, Kurz, Liście Cut from MVP]] - wspolne: decision-record, game-design
+- [[multiplayer-from-mvp-not-retrofit|Multiplayer from MVP - Not Retrofit]] - wspolne: architecture, game-design
+<!-- /POWIAZANE:auto -->

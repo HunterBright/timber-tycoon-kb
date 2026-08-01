@@ -59,3 +59,15 @@ A modal needs to be added to **both**; freezing the camera alone is not enough.
 
 ## Why transferable
 Applies to any Unity FPP/3D game with raycast-based world interaction + modal/overlay UIs (tycoon, survival, immersive sim, shop-keeper). The "frozen camera leaves the look-target live" interaction is engine-level, not specific to this project's mechanics.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260707-1315-unity-interaction-raycast-blocked-by-noninteractable-collider|Single masked Physics.Raycast for "look-at to interact" gets eaten by a non-interactable collider on a masked layer]] - wspolne: fpp, interaction, raycast
+- [[20260610-1345-unity-instance-setup-divergence|"Works for product A, dead for product B" = per-instance setup divergence, not code]] - wspolne: interaction, raycast
+- [[20260713-0830-primitive-to-fbx-swap-kills-interaction|Podmiana prymitywu Unity na model FBX po cichu zabija interakcję]] - wspolne: interaction, raycast
+- [[20260724-1817-diegetic-button-overlap-steal|Powiekszone collidery klikania ciasnych guzikow 3D + wybor "pierwsze trafione pudelko" = sasiad kradnie klik]] - wspolne: input, raycast
+- [[diegetic-3d-button-raycast|Diegetic 3D Button Raycast Pattern]] - wspolne: interaction, raycast
+<!-- /POWIAZANE:auto -->

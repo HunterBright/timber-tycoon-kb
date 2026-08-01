@@ -37,3 +37,11 @@ oscylują. Strefa martwa (poprawiaj tylko realne wnikania) zapobiega młócce.
 Log pokazuje zbiegniętą pętlę (0 poprawek), a bramka mierzy dokładnie tę
 strefę, którą ruszał post-krok. Sprawdź, co jeszcze dotyka geometrii między
 ostatnim przejściem solvera a pomiarem bramki.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: iteracja, solver
+<!-- /POWIAZANE:auto -->

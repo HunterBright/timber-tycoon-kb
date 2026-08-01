@@ -78,3 +78,11 @@ Pipeline spawn creates a feedback loop: sell more → customers replaced faster 
 - **Demand-driven:** spawn NPCs based on inventory quantity (lots of planks → more customers wanting planks). More complex, higher engagement
 
 See also: [[initial-fill-on-load]], [[object-pooling-npcs-fifo-queue]], [[npc-parking-pd-controller]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: pipeline, npc
+<!-- /POWIAZANE:auto -->

@@ -57,3 +57,16 @@ Jednorazowy skrypt edytorowy w -batchmode: otworz scene (bez zapisu), odtworz lo
 hoveru 1:1, wystrzel promienie z pozycji kamery minigry w kazdy wierzcholek siatki guzika,
 policz SELF / INNY_GUZIK / PUDLO. Twarde liczby zamiast zgadywania; ten sam skrypt
 sluzy potem jako dowod, ze naprawa dziala (i jako red-proof do sondy buildowej).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260629-1917-diegetic-buttons-frame-minigame|Console buttons FRAME a skill minigame (they're flow-control, not the mechanic)]] - wspolne: diegetic-ui, minigame, raycast
+- [[mesh-collider-convex-for-clickable-minigame-objects|Convex MeshCollider for Irregular Clickable Objects]] - wspolne: collider, minigame, raycast
+- [[20260614-1343-singleton-oneshot-flag-bleed|One-shot input flag on a persistent singleton bleeds across re-entries]] - wspolne: input, minigame
+- [[20260615-0913-delayed-completion-coroutine-needs-singleshot-latch|A delayed-completion coroutine that still reads input double-fires without a single-shot latch]] - wspolne: input, minigame
+- [[20260614-1226-modal-ui-over-world-interactable-guard|Modal UI opened from a world-space interactable must guard the interaction handler]] - wspolne: input, raycast
+- [[20260713-0830-primitive-to-fbx-swap-kills-interaction|Podmiana prymitywu Unity na model FBX po cichu zabija interakcję]] - wspolne: collider, raycast
+<!-- /POWIAZANE:auto -->

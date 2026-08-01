@@ -59,3 +59,16 @@ już daje pożądany kształt, więc drugi wystarczy dopasować, zamiast przepro
   albo kręgosłup ≤ FLOOR a top-tier tylko na CEIL / po maksie).
 - **Case Timber Tycoon (2026-07-04):** reputacja +5/zamówienie (382 do L13), pieniądze z widełek 20-295;
   stary kręgosłup 249k = 3,3× przychodu (76k) → przecena do 37,6k. Sim: scratchpad/progress_sim2.py.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260712-0010-per-sku-price-decay-rotation-exploit|Per-SKU price decay przegrywa z rotacja 2 SKU (gdy odnowa wyprzedza tempo produkcji)]] - wspolne: balancing, simulation, economy
+- [[20260714-2215-order-value-topdown-makes-prices-meaningless|Zamówienie losowane OD KWOTY w dół - cennik przestaje cokolwiek znaczyć]] - wspolne: progression, economy, tycoon
+- [[worker-simulate-work-cycle|Worker Simulate Work Cycle (No NavMesh/AI)]] - wspolne: simulation, tycoon
+- [[carry-capacity-progression-sprint|Carry Capacity Progression + Sprint Advantage]] - wspolne: progression, tycoon
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] - wspolne: progression, tycoon
+- [[worker-output-quality-distribution|Worker Output Quality Distribution]] - wspolne: progression, tycoon
+<!-- /POWIAZANE:auto -->

@@ -75,3 +75,16 @@ Przy `m_AutoSyncTransforms: 0` (domyślne w nowszych projektach Unity) po przest
 transformu **trzeba zawołać `Physics.SyncTransforms()`**, zanim cokolwiek się o to miejsce
 zapyta promieniem. Inaczej test sprawdza STARĄ pozycję i świeci na zielono bez związku
 z rzeczywistością.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260724-0907-arcade-car-climbs-walls|Arkadowe auto na Rigidbody wspina sie po scianach i odlatuje w niebo]] - wspolne: vehicle, raycast, physics
+- [[20260628-1405-walkable-cave-from-hollow-rock|Walkable cave from a hollow low-poly rock (don't carve the model)]] - wspolne: level-design, raycast
+- [[20260622-0950-unity-map-boundary-from-bounds|Invisible map boundary from live Renderer.bounds + foot-only gap via IgnoreCollision]] - wspolne: level-design, physics
+- [[20260713-1430-probe-visibility-by-rotating-rays-not-the-object|Sonda widoczności: obracaj PROMIENIE, nie obiekt]] - wspolne: raycast, physics
+- [[npc-parking-pd-controller|NPC Parking PD Controller]] - wspolne: vehicle, physics
+- [[20260714-2220-maxspeed-clamp-is-not-a-speed|maxSpeed to KLAMRA, nie prędkość - pojazd i tak stanie na (napęd / tłumienie)]] - wspolne: vehicle, physics
+<!-- /POWIAZANE:auto -->

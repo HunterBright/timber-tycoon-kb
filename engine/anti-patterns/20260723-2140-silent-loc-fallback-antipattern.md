@@ -52,3 +52,12 @@ Tłumaczenia 14 języków robione fan-outem agentów per język z pakietem termi
 zakotwiczonym w ISTNIEJĄCYM pliku danego języka (wzorce nazw klonowane znak w znak)
 + niezależny recenzent per język - recenzenci realnie łapali kalki i fałszywych
 przyjaciół (de "Tier"=zwierzę, en "Commode", tr "Komodin").
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260623-0840-unity-cjk-cyrillic-fonts-tmp-and-legacy-text|Renderowanie CJK + cyrylicy w grze Unity (TextMeshPro + legacy UI.Text)]] - wspolne: i18n, localization
+- [[20260721-1215-ui-fit-check-measuring-rect-instead-of-text|Sprawdzanie "czy tekst sie miesci" przez pomiar RectTransform]] - wspolne: probe, testing
+<!-- /POWIAZANE:auto -->

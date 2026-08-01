@@ -55,3 +55,12 @@ bool ok = !truncated && needed <= rect.height + tol;
 
 ## Koszt niezauwazenia
 Zielony build-smoke, ktory nie chroni przed niczym - czyli gorzej niz brak testu, bo daje falszywe poczucie bezpieczenstwa. U nas zlapal to dopiero adversarialny przeglad kodu, nie autor.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-1535-gates-must-not-identify-parts-by-world-coordinate|A geometry gate that identifies body parts by raw world coordinate is a gate on credit]] - wspolne: false-green, testing
+- [[20260722-1652-relative-only-test-blind-to-common-mode-error|Test porownujacy instancje MIEDZY SOBA jest slepy na blad wspolny (common-mode)]] - wspolne: false-green, testing
+<!-- /POWIAZANE:auto -->

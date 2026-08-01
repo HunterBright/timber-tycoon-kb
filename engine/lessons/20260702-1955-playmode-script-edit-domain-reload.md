@@ -41,3 +41,13 @@ Nagłe "nie znaleziono serwisu X" w logach mimo wcześniej działających system
 Dotyczy każdego projektu Unity z ServiceLocatorem/statycznymi singletonami i workflow,
 w którym agent/skrypt edytuje kod, gdy edytor jest w Play Mode (domyślne ustawienie
 Script Changes While Playing = Recompile And Continue Playing).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260611-2055-editor-playmode-test-harness-quirks|Editor-driven Play Mode test automation - three engine quirks that break naive harnesses]] - wspolne: domain-reload, play-mode
+- [[20260710-2250-unity-autonomous-smoke-runner-flag-file|Autonomiczny runner smoke testów w Unity: plik-flaga + plik wyników]] - wspolne: play-mode, mcp
+- [[20260702-1612-editor-probes-return-result-not-logs|Sondy edytorowe przez MCP: zwracaj raport jako Result (string), nie przez Debug.Log]] - wspolne: play-mode, mcp
+<!-- /POWIAZANE:auto -->

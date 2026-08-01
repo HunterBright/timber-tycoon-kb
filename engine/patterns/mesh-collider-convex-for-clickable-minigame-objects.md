@@ -72,3 +72,16 @@ Any Unity project with click/tap-to-collect or click-to-interact objects whose m
 - [[script-overrides-prefab-inspector-values]]
 - [[collider-distribution-rule]]
 - [[diegetic-3d-button-raycast]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260713-1420-convex-meshcollider-swallows-hollow-interiors|Convex MeshCollider na skorupie połyka jej wnętrze - promienie nigdy nie trafią w części w środku]] - wspolne: meshcollider, minigame, raycast
+- [[20260724-1817-diegetic-button-overlap-steal|Powiekszone collidery klikania ciasnych guzikow 3D + wybor "pierwsze trafione pudelko" = sasiad kradnie klik]] - wspolne: collider, minigame, raycast
+- [[20260628-1405-walkable-cave-from-hollow-rock|Walkable cave from a hollow low-poly rock (don't carve the model)]] - wspolne: meshcollider, raycast
+- [[mesh-collider-on-roads-stackable|MeshCollider on Roads = Stackable]] - wspolne: collider, raycast
+- [[20260713-1430-probe-visibility-by-rotating-rays-not-the-object|Sonda widoczności: obracaj PROMIENIE, nie obiekt]] - wspolne: minigame, raycast
+- [[diegetic-3d-button-raycast|Diegetic 3D Button Raycast Pattern]] - wspolne: minigame, raycast
+<!-- /POWIAZANE:auto -->

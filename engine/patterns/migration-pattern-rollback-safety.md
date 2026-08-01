@@ -67,3 +67,12 @@ Each sprint produces a working, committable state. If 4b introduces a bug, 4a re
 - **Single-sprint for small migrations:** if migrating a non-ISaveable, non-critical field (e.g., moving a visual variable), one sprint is fine
 
 See also: [[before-delete-legacy-class-checklist]], [[isaveable-contract]], [[storage-migration-primary-plus-legacy-fallback]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[storage-migration-primary-plus-legacy-fallback|Storage Migration: Primary New + Legacy Fallback]] - wspolne: migration, refactoring
+- [[parallel-architecture-pattern|Parallel Architecture Pattern (Locator + Events + ISaveable + Singleton)]] - wspolne: migration, architecture
+<!-- /POWIAZANE:auto -->

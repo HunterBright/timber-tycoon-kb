@@ -37,3 +37,12 @@ Analogicznie: przynaleznosc komponentow do sceny sprawdzaj `GameObjectUtility.Ge
 
 ## Lekcja
 Delete-safety w Unity musi obejmowac scene binarna osobnym torem (editor-script), bo tekstowy grep jest slepy na binarny .unity. Taniej zweryfikowac 5 min skryptem niz debugowac missing-ref po fakcie.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260624-0813-unity-setup-scripts-rebuild-reposition-antipattern|Edytorowe skrypty „Setup X" które DestroyImmediate + Instantiate + ustawiają pozycję = niszczące - nie używaj ich do drobnych poprawek]] - wspolne: scene, editor-script
+- [[20260531-1610-coplay-execute-script-masks-compile-errors|Coplay `execute_script` Hides Compile Errors - Use Unity-Compiled Editor Scripts Instead]] - wspolne: editor-script, mcp
+<!-- /POWIAZANE:auto -->

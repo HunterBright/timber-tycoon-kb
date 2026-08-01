@@ -73,3 +73,13 @@ po szkielecie oplaca sie ciac liczbe i wyrownywac rozmiarem, dopoki pokrycie sto
 zysk siega jednej trzeciej wszystkich trojkatow modelu przy zerowej roznicy
 w wygladzie. Granice wyznacza moment, w ktorym pojedyncza kartka robi sie na tyle
 duza, ze czyta sie jako grudka.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-0510-rozproszenie-kartek-punkty-zaczepienia|Rozsypywanie kartek po szkielecie: licz NOSNIKI, nie kartki]] - wspolne: alpha-cards, listowie, optymalizacja
+- [[20260728-1140-miernik-ktory-klamie-inaczej|Zanim zaufasz bramce, sprawdz, czy mierzy to, co widac]] - wspolne: proceduralne-generowanie, pomiar
+- [[20260728-1900-miara-z-degeneracja|Miara optymalizowana samotnie znajduje rozwiazanie zdegenerowane]] - wspolne: optymalizacja, pomiar
+<!-- /POWIAZANE:auto -->

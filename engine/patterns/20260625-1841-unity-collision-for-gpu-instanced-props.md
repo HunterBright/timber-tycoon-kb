@@ -61,3 +61,16 @@ Dorobić warstwę fizyki OBOK warstwy renderującej, nie ruszając renderowania:
 `InstancedDecorRenderer` rysował 1137 kamieni (Pebble/Rock/Boulder) z blobu - zero kolizji. Dodano
 `InstancedRockColliders` (runtime proxy) dla 363 średnich kamieni+głazów; kamyki celowo do przejścia.
 Wymagało `isReadable: 0→1` na 5 FBX. Wynik: gracz i auto blokują się o kamienie, wizual i FPS bez zmian.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260623-1508-instanced-grass-cards|Performant stylized grass: textured cards + GPU instancing (no GameObjects)]] - wspolne: gpu-instancing, performance
+- [[20260710-2115-collider-from-first-meshfilter-antipattern|Collider z GetComponentInChildren&lt;MeshFilter&gt; na wielosiatkowym FBX = collider z fragmentu modelu]] - wspolne: meshcollider, physics
+- [[20260628-1615-footstep-surface-raycast-from-feet|Detekcja nawierzchni pod graczem: strzelaj raycastem OD STÓP, nie od środka postaci]] - wspolne: meshcollider, physics
+- [[20260628-1702-editmode-collider-cook-scatter-mask|Edit-mode placement that excludes geometry via physics fails for non-convex runtime/embedded MeshColliders]] - wspolne: meshcollider, physics
+- [[20260713-1420-convex-meshcollider-swallows-hollow-interiors|Convex MeshCollider na skorupie połyka jej wnętrze - promienie nigdy nie trafią w części w środku]] - wspolne: meshcollider, physics
+- [[20260713-1425-runtime-meshcollider-needs-readable-mesh-in-builds|MeshCollider tworzony w runtime działa w Edytorze i cicho pada w buildzie (isReadable)]] - wspolne: meshcollider, physics
+<!-- /POWIAZANE:auto -->

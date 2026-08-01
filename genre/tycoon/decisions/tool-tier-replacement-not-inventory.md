@@ -68,3 +68,13 @@ Applies to: Axe, Shovel, future tools. Any tool system in TT follows this patter
 Future projects: same pattern recommended unless inventory management IS the game mechanic (not relevant for tycoons).
 
 See also: [[tool-wheel-ux-pattern]], [[quantity-not-quality-principle]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[crate-manager-tier-progression|CrateManager Tier Progression]] - wspolne: inventory, tier, upgrade
+- [[tier-system-foundation|Tier System Foundation - Trees, Products, Machines (SOURCE OF TRUTH)]] - wspolne: tier, game-design
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] - wspolne: tier, game-design
+<!-- /POWIAZANE:auto -->

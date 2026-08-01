@@ -10,7 +10,7 @@ tags:
 - mcp
 - blender
 - tooling
-- sockets
+- socket
 - diagnosis
 applies_to:
 - blender-5.x
@@ -73,3 +73,13 @@ Zasada ogolna: **najpierw kto trzyma port, potem surowe bajty, na koncu hipotezy
 ## Related
 - [[project_blender51_mcp_bridge]] (projektowy mostek `_TempEditor/blender_exec.ps1` uzywa wlasnie
   protokolu NUL-terminated na 9876)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260612-0950-blender51-builtin-mcp-protocol|Blender 5.1 ma wbudowane rozszerzenie MCP - niekompatybilne ze starym blender-mcp]] - wspolne: socket, mcp, blender
+- [[20260531-1500-mixamo-clean-mesh-extraction|Extract a clean mesh-only FBX from a rigged source for Mixamo re-rig]] - wspolne: mcp, blender
+- [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: mcp, blender
+<!-- /POWIAZANE:auto -->

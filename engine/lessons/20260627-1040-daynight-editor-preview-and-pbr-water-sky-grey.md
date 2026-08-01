@@ -57,3 +57,13 @@ Any Unity/URP project with (a) a script-driven day/night cycle that writes `Rend
 - [[low-poly-water-side-wave]]
 - [[vertex-color-gamma-correction-blender-to-unity]]
 - [[never-destructive-ops-in-play-mode]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260721-1830-linerenderer-flat-on-surface-invisible|LineRenderer lezacy plasko na powierzchni znika, bo material jest jednostronny]] - wspolne: editor-vs-runtime, urp
+- [[20260613-1200-unity-offscreen-render-rig-scene-leaks|An "isolated" offscreen render rig still inherits the open scene's lights AND skybox reflection]] - wspolne: reflection-probe, urp
+- [[stale-reflection-probe-night-whitening|Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)]] - wspolne: reflection-probe, urp
+<!-- /POWIAZANE:auto -->

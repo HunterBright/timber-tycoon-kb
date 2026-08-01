@@ -69,3 +69,12 @@ Get-Content $path -Encoding UTF8 | Select-String -Pattern "displayName" -Context
 Jeśli plik siedzi w Git LFS, `git diff` pokaże tylko `oid` i `size` - masowa edycja tekstu
 jest wtedy NIEWIDOCZNA w przeglądzie zmian. Przy takich plikach kontrola treści po zapisie
 jest obowiązkowa, bo recenzja diffa jej nie zastąpi.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260624-0702-powershell5-ps1-ansi-unicode-data-file|Windows PowerShell 5.1 czyta `.ps1` jako ANSI - literały Unicode w skrypcie się sypią]] - wspolne: utf-8, batch-edit, encoding
+- [[20260726-1415-powershell-nie-czeka-na-unity-batchmode|PowerShell nie czeka na Unity.exe ani na exe gry - kontrola swiezosci builda strzela za wczesnie]] - wspolne: powershell, automation
+<!-- /POWIAZANE:auto -->

@@ -8,9 +8,9 @@ date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
 - unity
-- prefabs
+- prefab
 - references
-- placeholders
+- placeholder
 - debug
 applies_to: []
 source: ''

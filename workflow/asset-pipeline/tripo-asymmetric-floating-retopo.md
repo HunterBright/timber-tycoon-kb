@@ -72,3 +72,16 @@ At TT's quality bar: always fix floating, fix asymmetry on interactive/inspectab
 Tripo's strengths: speed (3 minutes to concept), organic shapes, creative variation. Tripo's known weaknesses: symmetry, physics-accurate attachments, precise dimensions. Manual Blender fixes take 20 minutes and turn "AI slop" into production asset.
 
 See also: [[tripo-cleanup-pipeline]], [[tripo-vocab-firewood-wedge]], [[zero-floating-zero-flickering-mandate]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[tripo-cleanup-pipeline|Tripo Cleanup Pipeline]] - wspolne: retopo, cleanup, tripo
+- [[20260719-2015-ai-gen-model-geometry-debt|Modele generowane przez AI (Tripo/Hunyuan): dług geometryczny - czasem taniej zbudować od zera]] - wspolne: cleanup, tripo, blender
+- [[20260602-1500-mtree-nonmanifold-voxel-remesh|Reducing MTree (Modular Tree) meshes to low-poly: Decimate & Quadriflow refuse, Voxel remesh works]] - wspolne: retopo, blender
+- [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: tripo, blender
+- [[20260531-0934-tripo-polygon-soup-inverted-winding-fix|Tripo / AI-generated meshes import as "polygon soup" - see-through holes under single-sided rendering are a winding problem caused by UNWELDED verts, not interior faces]] - wspolne: tripo, blender
+- [[20260531-1530-unity-humanoid-autorig-mirrored-foot|Crooked foot under Unity Humanoid = auto-rig copied the foot bind pose instead of mirroring it]] - wspolne: tripo, blender
+<!-- /POWIAZANE:auto -->

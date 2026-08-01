@@ -130,3 +130,12 @@ tylko to, do czego prowadzi łańcuch referencji.
 ## Related
 - [[20260713-1900-build-early-never-built-project-hides-editor-only-bugs]]
 - [[20260713-1830-runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260713-2145-urp-transparent-material-silent-failure|URP: źle skonfigurowany materiał przezroczysty to CICHA porażka, której wykrywacz magenty nie widzi]] - wspolne: shader-stripping, urp
+- [[20260713-1900-build-early-never-built-project-hides-editor-only-bugs|Projekt, który nigdy nie był budowany, hoduje całą klasę uśpionych błędów]] - wspolne: shader-find, build
+<!-- /POWIAZANE:auto -->

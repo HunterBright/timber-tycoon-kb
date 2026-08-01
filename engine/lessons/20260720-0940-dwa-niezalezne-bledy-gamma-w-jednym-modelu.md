@@ -98,3 +98,15 @@ Edycja pliku `.cs` i natychmiastowe uruchomienie Unity w trybie wsadowym to **wy
 Unity potrafi wystartować z jeszcze starą skompilowaną wersją. Objaw: skrypt "zadziałał",
 ale efekt jest taki jak przed zmianą. Sprawdzaj datę modyfikacji artefaktu, a nie sam
 kod wyjścia.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[vertex-color-gamma-correction-blender-to-unity|Vertex Color Gamma Correction Blender → Unity]] - wspolne: gamma, vertex-color
+- [[20260702-0651-mpb-does-not-toggle-keywords|Lekcja: MaterialPropertyBlock NIE włącza keywordów shadera (emisja niewidoczna)]] - wspolne: materialpropertyblock, urp
+- [[20260531-1612-quaternius-lowpoly-nature-urp-import|Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP]] - wspolne: vertex-color, urp
+- [[20260710-1300-vertex-colors-vs-basecolor-linear|Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ]] - wspolne: vertex-color, urp
+- [[20260721-1845-tint-palette-on-textured-mesh-neutralize-average|Paleta kolorow na TEKSTUROWANEJ siatce: dziel tint przez sredni kolor tekstury]] - wspolne: materialpropertyblock, urp
+<!-- /POWIAZANE:auto -->

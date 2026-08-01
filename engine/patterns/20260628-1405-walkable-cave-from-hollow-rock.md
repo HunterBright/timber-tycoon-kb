@@ -70,3 +70,16 @@ triplanar material makes the flat floor blend into the faceted walls.
   the slab lead to an off-map area.
 - If the rock is genuinely SOLID (DOWN ray hits immediately, no headroom), this pattern
   doesn't apply - you must carve the model in Blender first.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[cliff-waterfall-hidden-cave|Cliff + Waterfall Hidden Cave Pattern]] - wspolne: cave, level-design
+- [[20260612-0630-mountain-ring-escape-audit|Programmatic escape audit for mountain-ring map boundaries]] - wspolne: map-boundary, level-design
+- [[20260622-0950-unity-map-boundary-from-bounds|Invisible map boundary from live Renderer.bounds + foot-only gap via IgnoreCollision]] - wspolne: map-boundary, level-design
+- [[separate-objects-mapping-rule|Separate-Objects Mapping Rule (Heightmap Limitations)]] - wspolne: cave, level-design
+- [[20260722-2050-unstuck-nearest-valid-ground-ring-search|Unstuck / reset: szukaj najbliższego POPRAWNEGO gruntu zamiast teleportu do bazy]] - wspolne: level-design, raycast
+- [[mesh-collider-convex-for-clickable-minigame-objects|Convex MeshCollider for Irregular Clickable Objects]] - wspolne: meshcollider, raycast
+<!-- /POWIAZANE:auto -->

@@ -11,7 +11,7 @@ tags:
 - mixamo
 - humanoid-retargeting
 - animation
-- skinned-mesh
+- skinnedmesh
 - diagnosis
 - SampleAnimation
 - x-bot
@@ -72,3 +72,15 @@ The "asymmetry" metric itself (toe-direction over 4 samples) was **over-sensitiv
 Ten sam problem zostal zapisany kilka razy. Kopie leza w `_archive/duplicates/` - zajrzyj tam, jesli szukasz obejscia opisanego innymi slowami:
 
 - [[20260530-1600-mixamo-foot-asymmetry-clip-vs-rig-discriminator]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260722-1652-npc-foot-grounding-raycast-vs-navmesh-baseoffset|Przyklejanie stop NPC do gruntu raycastem zamiast stalej korekty NavMeshAgent.baseOffset]] - wspolne: skinnedmesh, animation
+- [[fbx-binary-overwrite-corrupts-bindposes|FBX binary-overwrite under a stale .meta corrupts skinned-mesh bindposes (mesh collapses to T-pose while bones animate)]] - wspolne: skinnedmesh, mixamo
+- [[20260704-1045-mixamo-npc-work-carry-animations|Mixamo nie ma animacji „obsługi maszyny / pracy fizycznej" - użyj busy-idle + animacji maszyny; dla noszenia jest „Carrying"]] - wspolne: animation, mixamo
+- [[20260705-1745-mixamo-motion-only-vs-withskin-retarget|Mixamo "Without Skin" (motion-only) FBX psuje retarget Humanoid - uzyj "With Skin"]] - wspolne: animation, mixamo
+- [[20260716-0843-generic-rig-no-retarget-foot-height|Wysokosc stop NPC: szacunek z plikow i obrys siatki KLAMIA - prawde mowia kosci stop mierzone w buildzie]] - wspolne: animation, mixamo
+<!-- /POWIAZANE:auto -->

@@ -73,3 +73,16 @@ Regular customers early game = manageable orders, player learns systems. VIP unl
 - **Seasonal specials:** VIP orders only during specific in-game events. Adds calendar strategy.
 
 See also: [[pipeline-style-npc-spawn]], [[reputation-levels-data-driven]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[carry-capacity-progression-sprint|Carry Capacity Progression + Sprint Advantage]] - wspolne: progression, tycoon, game-design
+- [[worker-output-quality-distribution|Worker Output Quality Distribution]] - wspolne: progression, tycoon, game-design
+- [[quantity-not-quality-principle|Quantity-Not-Quality Design Principle]] - wspolne: progression, tycoon, game-design
+- [[20260704-2030-tycoon-economy-two-clock-balancing|Balansowanie ekonomii progresu metodą „dwóch zegarów" + koperty przychodu]] - wspolne: progression, tycoon
+- [[worker-simulate-work-cycle|Worker Simulate Work Cycle (No NavMesh/AI)]] - wspolne: tycoon, game-design
+- [[tier-system-foundation|Tier System Foundation - Trees, Products, Machines (SOURCE OF TRUTH)]] - wspolne: tier, game-design
+<!-- /POWIAZANE:auto -->

@@ -65,3 +65,13 @@ Games where "building things manually" IS the core mechanic (e.g., Eskimo Simula
 In tycoons: purchase = agency. Manual build = one special moment per game.
 
 See also: [[building-progression-instant-spawn]], [[debris-cleanup-single-click-drop]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[ui-phase-4-catalog|UI Phase 4 Catalog (12 Systems)]] - wspolne: scope, game-design
+- [[vfx-wycofane-decision|VFX Wycofane - Sawdust, Kurz, Liście Cut from MVP]] - wspolne: scope, game-design
+- [[building-progression-instant-spawn|Building Progression - Instant Spawn Post-Purchase]] - wspolne: building, game-design
+<!-- /POWIAZANE:auto -->

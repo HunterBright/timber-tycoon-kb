@@ -92,3 +92,12 @@ Statistics use already-existing GameEventSO channels - no new events needed. Que
 - **Periodic summaries:** raise `OnDayChanged` → log "Day X summary: cut N trees, earned M gold" in journal automatically
 
 See also: [[isaveable-contract]], [[game-event-so-event-channel]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260622-1412-saveload-order-event-doublecount|Lekcja: licznik liczący PRZYROSTY z eventu magazynu fałszywie nalicza przy wczytaniu zapisu]] - wspolne: events, isaveable
+- [[20260702-2205-ugui-rebuild-eats-clicks|Rebuild-on-event w uGUI zjada kliki + ScrollRect bez Graphica nie scrolluje]] - wspolne: events, ui
+<!-- /POWIAZANE:auto -->

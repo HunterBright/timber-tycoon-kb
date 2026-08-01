@@ -54,3 +54,12 @@ The waterfall is purely visual - mesh without collision. Player physically can't
 ## Variants
 - **Fog density wall:** same principle with a fog plane instead of a waterfall
 - **Dense foliage:** hanging vines with no collider, cave behind them
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260628-1405-walkable-cave-from-hollow-rock|Walkable cave from a hollow low-poly rock (don't carve the model)]] - wspolne: cave, level-design
+- [[separate-objects-mapping-rule|Separate-Objects Mapping Rule (Heightmap Limitations)]] - wspolne: cave, level-design
+<!-- /POWIAZANE:auto -->

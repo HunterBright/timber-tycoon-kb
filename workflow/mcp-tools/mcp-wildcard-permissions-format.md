@@ -75,3 +75,11 @@ Wrong format = MCP server doesn't connect. No error message in console. Tool cal
 Pre-April 2026 TT config used inconsistent formats (single underscore, no prefix). April 2026 audit found several MCP servers silently failing. Fix: standardize all to `mcp__{server}__*`. Restart Claude Code after settings changes.
 
 See also: [[skill-loading-on-demand-vs-reference]], [[stop-hook-infinite-loop-risk]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[stop-hook-infinite-loop-risk|Stop Hook Infinite Loop Risk]] - wspolne: configuration, claude-code
+<!-- /POWIAZANE:auto -->

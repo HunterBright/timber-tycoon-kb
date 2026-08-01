@@ -82,3 +82,12 @@ Najgorzej w stolarni: jakość mnoży wypłatę (x1.25 / x1.5 / x2.0), więc prz
 było najbardziej opłacalnym działaniem w całej grze. Cała ekonomia (łącznie z wcześniejszym pełnym
 rebalansem poziomów 1-13) była strojona na wynikach minimalnych. **Każdy pomiar balansu zrobiony
 przed naprawą tego był bezwartościowy.**
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260719-1322-minigame-abort-latch-timing|Zatrzask "punkt bez odwrotu" ustawiany przy wejsciu w faze zamiast przy akcji gracza]] - wspolne: exploit, abort, minigame
+- [[20260629-1916-unity-minigame-abort-cleanup|Aborting a coroutine-driven minigame: release the active-flag LAST, and StopAllCoroutines]] - wspolne: abort, minigame
+<!-- /POWIAZANE:auto -->

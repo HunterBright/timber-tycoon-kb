@@ -64,3 +64,12 @@ Kiedy tlumaczysz komus dzialanie suwaka i w opisie pojawia sie spojnik "oraz"
 odnoszacy sie do dwoch roznych obiektow ("klada kepki poziomo ORAZ zgniata kartki") -
 to jest ten moment. Opis parametru, ktory potrzebuje dwoch zdan o dwoch roznych
 rzeczach, opisuje dwa parametry.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260727-1309-naprawiony-suwak-uniewaznia-strojenie|Naprawa suwaka, ktory po cichu klamal, uniewaznia CALE wczesniejsze strojenie]] - wspolne: suwaki, blender
+- [[20260727-0510-rozproszenie-kartek-punkty-zaczepienia|Rozsypywanie kartek po szkielecie: licz NOSNIKI, nie kartki]] - wspolne: proceduralne-generowanie, blender
+<!-- /POWIAZANE:auto -->

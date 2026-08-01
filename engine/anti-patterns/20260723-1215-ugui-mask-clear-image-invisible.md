@@ -64,3 +64,11 @@ przezroczystosci i falszywie melduje pustke.
 - tlo listy/panelu widac (rodzic poza maska), zawartosci nie,
 - w hierarchii wszystko aktywne i na miejscu,
 - gdzies w projekcie ktos juz "naprawil" podobne okno przez alpha=0.01.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260702-2205-ugui-rebuild-eats-clicks|Rebuild-on-event w uGUI zjada kliki + ScrollRect bez Graphica nie scrolluje]] - wspolne: scrollrect, ugui
+<!-- /POWIAZANE:auto -->

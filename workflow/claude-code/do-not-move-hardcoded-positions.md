@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - claude-code
 - scene
-- positions
+- position
 - convention
 - level-design
 applies_to:
@@ -67,3 +67,11 @@ These objects were positioned by eye - the exact float coordinates are the desig
 "Code regenerated the map and now my cliff is in the river." Always happens because the regeneration script doesn't know which positions are sacred. The comment is the signal.
 
 See also: [[backup-scene-before-modify]], [[scene-attachment-check-before-deleting]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[quad-backtick-prompt-format|Quad-Backtick Claude Code Prompt Format]] - wspolne: convention, claude-code
+<!-- /POWIAZANE:auto -->

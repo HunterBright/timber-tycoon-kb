@@ -123,3 +123,15 @@ Reguła kciuka: **„działa u mnie w Edytorze" nie jest twierdzeniem o grze - t
 ## Related
 - [[20260713-1830-runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it]]
 - [[20260713-1845-monobehaviour-class-must-match-filename]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260714-2245-unity-batchmode-returns-before-build-finishes|Unity w trybie wsadowym WRACA, zanim build się skończy - i sonda daje fałszywe zielone światło]] - wspolne: ci, verification, build
+- [[20260713-2130-shader-find-null-and-createprimitive-magenta-in-build|Magenta w buildzie: Shader.Find zwraca null, a CreatePrimitive daje material, którego build nie ma]] - wspolne: shader-find, build
+- [[20260726-1415-powershell-nie-czeka-na-unity-batchmode|PowerShell nie czeka na Unity.exe ani na exe gry - kontrola swiezosci builda strzela za wczesnie]] - wspolne: ci, build
+- [[20260713-1830-runtime-meshcollider-needs-readwrite-and-editor-cannot-prove-it|Runtime MeshCollider wymaga Read/Write Enabled - a Edytor NIE JEST w stanie tego udowodnić]] - wspolne: verification, build
+- [[20260719-1210-unity-build-freshness-check-dll-not-exe|Świeżość builda Unity sprawdzaj po DLL z kodem gry, nie po .exe]] - wspolne: verification, build
+<!-- /POWIAZANE:auto -->

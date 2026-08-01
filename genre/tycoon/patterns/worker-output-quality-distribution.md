@@ -66,3 +66,16 @@ var quality = worker.perfectQuality ? OutputQuality.Perfect : worker.GetOutputQu
 - **Skill-leveled workers:** each individual worker has a hidden "skill" float that improves over time (like Stardew NPC friendships) - adds progression, adds save complexity.
 
 See also: [[worker-data-instance-split]], [[worker-simulate-work-cycle]], [[quantity-not-quality-principle]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[quantity-not-quality-principle|Quantity-Not-Quality Design Principle]] - wspolne: quality, progression, tycoon
+- [[carry-capacity-progression-sprint|Carry Capacity Progression + Sprint Advantage]] - wspolne: progression, tycoon, game-design
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] - wspolne: progression, tycoon, game-design
+- [[20260704-2030-tycoon-economy-two-clock-balancing|Balansowanie ekonomii progresu metodą „dwóch zegarów" + koperty przychodu]] - wspolne: progression, tycoon
+- [[worker-simulate-work-cycle|Worker Simulate Work Cycle (No NavMesh/AI)]] - wspolne: tycoon, game-design
+- [[20260714-2215-order-value-topdown-makes-prices-meaningless|Zamówienie losowane OD KWOTY w dół - cennik przestaje cokolwiek znaczyć]] - wspolne: progression, tycoon
+<!-- /POWIAZANE:auto -->

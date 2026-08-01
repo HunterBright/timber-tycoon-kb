@@ -63,3 +63,16 @@ Separates "skill progression" from "content progression." Casual players feel su
 
 ## See also
 [[carry-capacity-progression-sprint]], [[worker-output-quality-distribution]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[worker-output-quality-distribution|Worker Output Quality Distribution]] - wspolne: quality, progression, tycoon
+- [[carry-capacity-progression-sprint|Carry Capacity Progression + Sprint Advantage]] - wspolne: progression, tycoon, game-design
+- [[customer-tier-system|Customer Tier System (Regular / Contractor / VIP)]] - wspolne: progression, tycoon, game-design
+- [[building-progression-instant-spawn|Building Progression - Instant Spawn Post-Purchase]] - wspolne: progression, game-design
+- [[loading-station-decision|LoadingStation Decision - Manual Walk Early, Station Late]] - wspolne: progression, game-design
+- [[20260714-2215-order-value-topdown-makes-prices-meaningless|Zamówienie losowane OD KWOTY w dół - cennik przestaje cokolwiek znaczyć]] - wspolne: progression, tycoon
+<!-- /POWIAZANE:auto -->

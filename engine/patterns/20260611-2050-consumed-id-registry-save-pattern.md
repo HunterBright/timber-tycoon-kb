@@ -52,9 +52,18 @@ fallback, since that attribute fires once per play session, not per scene load):
 ## Result
 Idempotent across arbitrary save/load cycles, no duplicates, exact per-object identity
 ("player took 1 of 2 tools - exactly that one stays gone"). Registry owns the state independent
-of object lifetime - same reasoning as a spawned-object registry ([[worldspawnregistry-style]]
+of object lifetime - same reasoning as a spawned-object registry (worldspawnregistry style
 respawn list), but for *removal* instead of *creation*.
 
 ## Related gotcha fixed alongside
 Registering with the save manager in `OnEnable` races the manager's `Awake` (undefined order) -
 registration silently fails. Register in `Start` (all Awakes are guaranteed done).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[isaveable-contract|ISaveable Contract]] - wspolne: persistence, save-system
+- [[20260716-0843-dual-owner-persistence-duplication|Dwoch wlascicieli trwalosci jednego obiektu w save (rejestr + rekonstrukcja stanu)]] - wspolne: persistence, save-system
+<!-- /POWIAZANE:auto -->

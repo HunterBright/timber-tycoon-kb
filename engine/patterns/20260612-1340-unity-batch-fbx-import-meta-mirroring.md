@@ -37,3 +37,16 @@ The .meta-first approach is deterministic and diff-able; scripting ModelImporter
 
 ## Caveat
 `AnimationClip.apparentSpeed`/`averageSpeed` are 0 for in-place clips - authored locomotion speed is NOT recoverable from clip metadata; plan an empirical measurement (foot-bone displacement) if you need to sync agent speed to animation.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[fbx-binary-overwrite-corrupts-bindposes|FBX binary-overwrite under a stale .meta corrupts skinned-mesh bindposes (mesh collapses to T-pose while bones animate)]] - wspolne: meta, mixamo, fbx
+- [[20260606-1632-in-place-fbx-overwrite-static-vs-rigged|In-Place FBX Overwrite: Safe for Static Meshes, Dangerous for Rigged]] - wspolne: meta, prefab, fbx
+- [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: mixamo, fbx
+- [[20260629-1145-blender-empties-bake-space-transform-double-axis|FBX with parent EMPTIES imports tipped 90° when exported with bake_space_transform=True]] - wspolne: import, fbx
+- [[20260728-0915-fbx-skala-100-w-dzieciach-psuje-pomiary|FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu]] - wspolne: import, fbx
+- [[20260710-2110-unity-addobjecttoasset-saveassets-order|AddObjectToAsset wymaga SaveAssets() PRZED ImportAsset(), inaczej sub-asset znika]] - wspolne: editor-scripting, prefab
+<!-- /POWIAZANE:auto -->

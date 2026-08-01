@@ -49,3 +49,11 @@ runtime musi mieć odpowiedź na pytanie "kto mnie sprząta przy wczytaniu".
 **How to apply:** przy projektowaniu ISaveable dla obiektu spawnującego satelity od razu
 napisz test in-place double-load i wymuś 4 warstwy; testuj ZAWSZE scenariusz "wczytaj w
 trakcie gry", nie tylko "uruchom i wczytaj".
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260715-1430-inplace-load-respawn-duplication|Load "w miejscu" bez czyszczenia = respawnowane obiekty stackuja sie z kazdym wczytaniem]] - wspolne: in-place-load, save-load
+<!-- /POWIAZANE:auto -->

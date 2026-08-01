@@ -54,3 +54,16 @@ Applies to ANY pipeline ingesting AI-generated / photogrammetry / marketplace me
 ## Related
 - [[20260531-0934-fbx-mesh-only-verification-scan-class-names]]
 - [[20260531-0934-humanoid-orientation-from-armature-not-bbox]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: tripo, fbx, blender
+- [[20260531-1530-unity-humanoid-autorig-mirrored-foot|Crooked foot under Unity Humanoid = auto-rig copied the foot bind pose instead of mirroring it]] - wspolne: tripo, blender
+- [[20260719-1605-mesh-seethrough-audit-pattern|Wzorzec audytu prześwitów w siatkach: render 3-przebiegowy > heurystyki geometryczne]] - wspolne: normals, blender
+- [[tripo-asymmetric-floating-retopo|Tripo Asymmetric / Floating Elements - Blender Retopo]] - wspolne: tripo, blender
+- [[tripo-cleanup-pipeline|Tripo Cleanup Pipeline]] - wspolne: tripo, blender
+- [[20260626-1203-fbx-pivot-direction-vs-procedural-placement|Pivot/geometry direction of an FBX must match what a procedural placement tool assumes]] - wspolne: fbx, blender
+<!-- /POWIAZANE:auto -->

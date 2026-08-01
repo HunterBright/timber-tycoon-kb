@@ -75,3 +75,16 @@ jest zgodnością orientacji.
 Gdy narzędzie/agent mówi **"zweryfikowałem, odchylenie zero, żadna korekta nie jest potrzebna"**,
 zapytaj: *zweryfikował względem czego?* Jeśli względem samego siebie - to nie jest weryfikacja,
 tylko potwierdzenie własnej serializacji.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[bake-space-transform-linked-duplicates-rotation-bug|bake_space_transform + Linked Duplicates = 90° Rotation Injection]] - wspolne: export, fbx, blender
+- [[fbx-export-standard-settings-blender-to-unity|FBX Export Standard Settings (Blender → Unity)]] - wspolne: export, fbx, blender
+- [[20260629-1145-blender-empties-bake-space-transform-double-axis|FBX with parent EMPTIES imports tipped 90° when exported with bake_space_transform=True]] - wspolne: orientation, fbx, blender
+- [[fbx-long-axis-detect-programmatically|Don't assume an FBX mesh's axis - detect the longest axis programmatically from bounds]] - wspolne: orientation, fbx, blender
+- [[20260626-1110-unity-65-material-location-migration-and-runcommand-guard|Unity 6.5: bezpieczna migracja `MaterialLocation.External` + guard w AI-Assistant Run Command]] - wspolne: asset-pipeline, fbx
+- [[20260531-0934-fbx-mesh-only-verification-scan-class-names|Verifying an FBX is "mesh-only" before Mixamo: scan for the real CLASS names, not substrings - `AnimStack` matches the header property `ActiveAnimStackName`]] - wspolne: verification, fbx
+<!-- /POWIAZANE:auto -->

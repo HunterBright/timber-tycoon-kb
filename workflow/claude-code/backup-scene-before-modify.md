@@ -69,3 +69,12 @@ Get-ChildItem "Assets" -Filter "_Backup_*" -Directory |
 ```
 
 See also: [[scene-attachment-check-before-deleting]], [[scene-files-binary-never-edit]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[scene-attachment-check-before-deleting|Scene Attachment Check Before Deleting MonoBehaviour]] - wspolne: scene-safety, claude-code
+- [[never-destructive-ops-in-play-mode|NEVER save_scene or DestroyImmediate in Play Mode]] - wspolne: scene-safety, claude-code
+<!-- /POWIAZANE:auto -->

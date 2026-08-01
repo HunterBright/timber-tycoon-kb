@@ -81,3 +81,12 @@ The music that does exist hits harder because of the contrast. Valheim players r
 **Don't write music first.** Write ambient sounds first. Fill the world with ambient detail. Then, in playtesting, notice which moments feel like they're "asking for music." Those are your 5-7 music moments. Write them last.
 
 See also: [[audio-manager-mixer-architecture]], [[ambient-crossfade-zone-based]], [[audio-reverb-zone-per-environment]], [[footstep-raycast-surface-detection]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[ambient-crossfade-zone-based|Ambient Crossfade Zone-Based Pattern]] - wspolne: ambient, audio
+- [[audio-reverb-zone-per-environment|AudioReverbZone per Environment]] - wspolne: ambient, audio
+<!-- /POWIAZANE:auto -->

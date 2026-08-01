@@ -11,7 +11,7 @@ tags:
 - kamera
 - punkty-zbiegu
 - blender
-- referencje
+- referencja
 - pomiar
 applies_to: []
 source: ''
@@ -108,3 +108,16 @@ przerwij z jasnym komunikatem. Cicha zła liczba jest dużo gorsza niż odmowa.
 Wszędzie, gdzie trzeba odtworzyć kamerę ze zrzutów/renderów, a scena zawiera
 cokolwiek regularnego: siatkę podłogi, kafle, cegły, deski, szyny, słupki
 ogrodzenia. Struktura sceny bije dopasowywanie modelu - zawsze.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260728-0030-wymiar-ktorego-nie-widzi-zadne-ujecie-dopasuj-do-wszystkich|Wymiar, którego nie widzi żadne ujęcie, mierzy się dopasowaniem do wszystkich naraz]] - wspolne: fotogrametria, kamera, pomiar
+- [[20260727-2140-linijka-wysokosci-na-zdjeciu-jest-krzywa|"Ile procent kadru, tyle procent wysokości" to nieprawda, gdy obiektyw patrzy z góry]] - wspolne: kamera, referencja, pomiar
+- [[20260727-2320-sylwetka-nie-rozdziela-czesci-ktore-sie-stykaja|Sylwetka nie rozdziela dwóch rzeczy, które się stykają - i milczy o tym]] - wspolne: referencja, pomiar, blender
+- [[20260727-1924-maska-sylwetki-z-dziurami-w-cieniu|Maska sylwetki może mieć dziury w środku - i przez lata tego nie widać]] - wspolne: referencja, blender
+- [[20260727-0510-rozproszenie-kartek-punkty-zaczepienia|Rozsypywanie kartek po szkielecie: licz NOSNIKI, nie kartki]] - wspolne: pomiar, blender
+- [[20260725-1830-plaskie-tekstury-z-plam-referencji|Plaskie tekstury dla modelu z generatora 3D: tozsamosc elementu bierz z REFERENCJI, nie z koloru]] - wspolne: referencja, blender
+<!-- /POWIAZANE:auto -->

@@ -31,3 +31,15 @@ Save manager emituje sygnał po ZAKOŃCZONYM load (np. `public static event Acti
 
 ## Transfer
 Dotyczy każdego projektu Unity z keyed save + load-in-place. Reguła: **dodajesz ISaveable po premierze pierwszych save'ów → OBOWIĄZKOWO ścieżka resetu przy braku klucza.** Test: hire/zmień stan → wczytaj save sprzed feature'a → stan musi wrócić do defaults.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260622-1412-saveload-order-event-doublecount|Lekcja: licznik liczący PRZYROSTY z eventu magazynu fałszywie nalicza przy wczytaniu zapisu]] - wspolne: isaveable, save-system
+- [[20260710-1952-save-key-name-path-hash-collision|Klucz zapisu z hasha ścieżki NAZW = kolizja przy duplikatach obiektów]] - wspolne: isaveable, save-system
+- [[20260712-1820-save-migration-schema-version-gate|Jednorazowa migracja zapisu MUSI być bramkowana wersją schematu, nie obecnością/brakiem migrowanego wpisu]] - wspolne: isaveable, save-system
+- [[awake-init-for-isaveable-with-dependencies|Awake-Init for ISaveable with Dependencies]] - wspolne: isaveable, save-system
+- [[isaveable-contract|ISaveable Contract]] - wspolne: isaveable, save-system
+<!-- /POWIAZANE:auto -->

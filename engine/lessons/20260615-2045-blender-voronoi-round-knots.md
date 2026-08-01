@@ -60,3 +60,13 @@ F1+Distance zamiast DISTANCE_TO_EDGE, plus pre-skalowanie współrzędnych o pro
 ## Related
 - (Timber Tycoon) generator deski: _TempEditor/plank_timingbar_build.py
 - [[project_blender51_mcp_bridge]] - headless render bez żywego mostka MCP
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260618-0724-blender-ortho-ui-sprite-bake-framing|Baking flat UI sprites in Blender: ortho frame width = ortho_scale × 2]] - wspolne: ui-sprite, blender
+- [[procedural-textures-need-bake|Procedural Textures Must Be Baked Before FBX Export]] - wspolne: baking, blender
+- [[cycles-bake-for-solid-colors|ANTI-PATTERN: Cycles Bake for Solid Color Regions]] - wspolne: baking, blender
+<!-- /POWIAZANE:auto -->

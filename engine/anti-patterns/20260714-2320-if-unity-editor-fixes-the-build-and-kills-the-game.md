@@ -120,3 +120,11 @@ nie istniał.
 
 Naprawa błędu kompilacji stworzyła błąd rozgrywki. Naprawa zajęła 15 minut; znalezienie -
 przypadkowy playtest.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260714-2350-null-physics-material-silently-becomes-default-friction|Collider z materiałem `null` NIE ma zerowego tarcia - ma DOMYŚLNE 0.6]] - wspolne: editor-only, assetdatabase, silent-failure
+<!-- /POWIAZANE:auto -->

@@ -41,3 +41,14 @@ NPC off" przez wiele tygodni wyglądała na wdrożoną, a nie działała.
    zespawnowanym w grze/buildzie, nie w podglądzie prefabu (por. "Edytor kłamie").
 3. Przepinając pulę z FBX na prefab, przejrzyj kod spawnera pod kątem zależności od
    nazw materiałów/hierarchii surowego modelu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[choppable-tree-multi-type-naming-convention|ChoppableTree Multi-Type Naming Convention]] - wspolne: prefab, scriptableobject
+- [[20260612-1340-unity-batch-fbx-import-meta-mirroring|Batch FBX import with pre-authored .meta files + prefab build in temp additive scene]] - wspolne: prefab, fbx
+- [[20260606-1632-in-place-fbx-overwrite-static-vs-rigged|In-Place FBX Overwrite: Safe for Static Meshes, Dangerous for Rigged]] - wspolne: prefab, fbx
+- [[blender-mcp-interactive-remodel-loop|Blender-MCP Interactive Remodel Loop (GUID-Preserving In-Place Replace)]] - wspolne: prefab, fbx
+<!-- /POWIAZANE:auto -->

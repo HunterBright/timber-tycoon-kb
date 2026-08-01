@@ -60,3 +60,13 @@ krawędzi spodni). Rąbek koszuli wiszący tuż PONIŻEJ krawędzi spodni
 mierzony względem rantu wygląda jak zanurzony o kilka mm - fałszywe
 poprawki szarpią rąbek w górę. Filtr ścianek źródłowych: zostają tylko
 te z `dot(kierunek_od_ciała, normalna) > 0.3` (było `>= 0`).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260730-2350-layer-clearance-height-over-body|Luz między warstwami ubrań: mierz WYSOKOŚĆ NAD CIAŁEM, nie odległość do najbliższej ścianki]] - wspolne: clothing, layers, blender
+- [[20260730-0800-proxy-binding-unclamped-barycentric|Transfer morfa przez proxy: przycięte barycentryki RWĄ siatkę, rzut na płaszczyznę + wygładzenie działa]] - wspolne: shape-keys, blender
+- [[20260730-1950-proxy-clothing-tangential-smoothing|Ubrania proxy na low-poly ciele: wygładzanie styczne zamiast laplasjanu]] - wspolne: clothing, blender
+<!-- /POWIAZANE:auto -->

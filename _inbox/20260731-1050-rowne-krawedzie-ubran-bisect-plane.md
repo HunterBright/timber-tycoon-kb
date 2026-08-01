@@ -41,3 +41,16 @@ wysokości psuje mapowanie kluczy kształtu.
   niema kasacja 300 wierzchołków wyglądała jak "brak paska" bez śladu.
 - Regiony rozłączne w pionie (karczek nad pasem) muszą ZACHODZIĆ na wspólną
   płaszczyznę cięcia, inaczej fragmenty są osobnymi wyspami.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260801-0700-adr-npc-od-zera-zamiast-solvera-warstw|20260801-0700-adr-npc-od-zera-zamiast-solvera-warstw]] - wspolne: ubrania, low-poly
+- [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: ubrania, blender
+- [[20260730-1217-bone-side-names-vs-axis-sign|Nie zgaduj strony ciała ze znaku osi ani z nazwy kości (.L/.R)]] - wspolne: bmesh, blender
+- [[20260626-1807-bridge-abutment-seam-fix|Two-stage seam fix: terrain edge-loop + road BVH re-drape at a bridge abutment]] - wspolne: low-poly, blender
+- [[20260730-1950-proxy-clothing-tangential-smoothing|Ubrania proxy na low-poly ciele: wygładzanie styczne zamiast laplasjanu]] - wspolne: low-poly, blender
+- [[mountains-hierarchy-front-and-backdrop|Mountains Hierarchy - Front Ring + Backdrop Double-Sided]] - wspolne: low-poly, blender
+<!-- /POWIAZANE:auto -->

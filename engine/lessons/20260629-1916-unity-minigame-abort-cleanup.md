@@ -67,3 +67,15 @@ is unaffected - clear the flag explicitly.
 Timber Tycoon `FertilizerMakerMinigameUI.cs` (Phase 4). Pattern cloned from
 `PelletizerMinigameUI`; same class of fix applies to any of the green/red/yellow machine
 minigames. Validated in Play Mode by Hunter.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260719-1322-minigame-abort-latch-timing|Zatrzask "punkt bez odwrotu" ustawiany przy wejsciu w faze zamiast przy akcji gracza]] - wspolne: abort, state-machine, minigame
+- [[20260714-2210-minigame-abort-refund-free-reroll|Minigra zużywa surowiec na STARCIE, a przerwanie go zwraca]] - wspolne: abort, minigame
+- [[camera-lock-save-lerp-restore|Camera Lock: Save → Lerp → Restore]] - wspolne: camera, minigame
+- [[universal-camera-lock-canmove-flag|Universal Camera Lock - canMove Flag]] - wspolne: camera, minigame
+- [[top-down-minigame-stump-digging|Top-Down Camera Minigame (Stump Digging)]] - wspolne: camera, minigame
+<!-- /POWIAZANE:auto -->

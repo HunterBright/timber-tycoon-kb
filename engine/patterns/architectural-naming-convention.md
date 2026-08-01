@@ -11,7 +11,7 @@ tags:
 - blender
 - naming
 - architecture
-- prefabs
+- prefab
 applies_to: []
 source: ''
 suggested-category: engine/patterns
@@ -66,3 +66,13 @@ Predictable names = Inspector hierarchy is readable at a glance. Scripted setup 
 - **Category prefix:** `B_BeamNorth`, `P_PillarNE` - useful when sorting by category in large hierarchies
 
 See also: [[collider-distribution-rule]], [[choppable-tree-multi-type-naming-convention]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[choppable-tree-multi-type-naming-convention|ChoppableTree Multi-Type Naming Convention]] - wspolne: naming, prefab
+- [[cylindric-beams-visual-contrast|Cylindric vs Rectangular Beams for Visual Contrast]] - wspolne: architecture, blender
+- [[blender-mcp-interactive-remodel-loop|Blender-MCP Interactive Remodel Loop (GUID-Preserving In-Place Replace)]] - wspolne: prefab, blender
+<!-- /POWIAZANE:auto -->

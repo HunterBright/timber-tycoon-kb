@@ -8,12 +8,12 @@ date: '2026-06-28'
 project: Kerf - Sawmill Tycoon
 tags:
 - unity
-- footsteps
+- footstep
 - raycast
 - physics
 - meshcollider
 - surface-detection
-- character-controller
+- charactercontroller
 applies_to: []
 source: ''
 promoted: '2026-07-30'
@@ -47,3 +47,16 @@ Krótki zasięg (≈ `groundCheckDistance`) + start od stóp = bierzesz dokładn
 - **Footstep/nawierzchnia ≠ tekstura wizualna.** Dźwięk zależy od kolidera + znacznika, nie od materiału. Trawa-dekoracja narzucona na drogę nadal da dźwięk drogi.
 - **Non-convex MeshCollider dodany/zmieniony w EDIT MODE się nie „cookuje"** - raycasty go nie trafiają w edytorze; rejestruje się dopiero w Play Mode. Weryfikuj takie kolidery w grze, nie w edycji.
 - Unity 6.5: `Object.GetInstanceID()` jest obsolete → `GetEntityId()`.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260625-0712-charactercontroller-velocity-freezes-footsteps|CharacterController.velocity „zamraża się" gdy przestajesz wołać Move() → audio sterowane ruchem przecieka]] - wspolne: footstep, charactercontroller
+- [[20260628-1702-editmode-collider-cook-scatter-mask|Edit-mode placement that excludes geometry via physics fails for non-convex runtime/embedded MeshColliders]] - wspolne: meshcollider, raycast, physics
+- [[20260713-1420-convex-meshcollider-swallows-hollow-interiors|Convex MeshCollider na skorupie połyka jej wnętrze - promienie nigdy nie trafią w części w środku]] - wspolne: meshcollider, raycast, physics
+- [[20260722-2055-raycast-w-gore-nie-widzi-tafli-wody|"Czy jestem pod wodą?" - promień w GÓRĘ nic nie zobaczy (backface)]] - wspolne: meshcollider, raycast, physics
+- [[20260716-1812-charactercontroller-depenetration-thin-mesh-terrain|CharacterController + cienki jednostronny teren-siatka = gracz pod mapą (i jak się przed tym bronić)]] - wspolne: charactercontroller, physics
+- [[20260723-1746-ignorecollision-wiped-on-collider-disable|Physics.IgnoreCollision znika przy wyłączeniu collidera - dla przełączanych colliderów używaj par warstw]] - wspolne: charactercontroller, physics
+<!-- /POWIAZANE:auto -->

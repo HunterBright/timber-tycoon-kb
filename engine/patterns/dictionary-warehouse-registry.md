@@ -85,3 +85,11 @@ Dictionary separates data from presentation. 1000 logs = 1 `int` in memory, not 
 - Thread safety: Unity runs on a single thread for MonoBehaviours - no concurrent access concerns
 
 See also: [[global-router-storage-pattern]], [[storage-rack-registry-auto-register]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[storage-rack-registry-auto-register|StorageRackRegistry Singleton + Auto-Registration via OnEnable]] - wspolne: registry, storage
+<!-- /POWIAZANE:auto -->

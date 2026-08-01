@@ -55,3 +55,13 @@ Manual implementation (no Cinemachine). For projects with Cinemachine available,
 
 ## Variants
 Same pattern for: dialogue close-ups (lerp to NPC face), tutorial highlights (lerp to relevant machine), inspection mode (rotate around object).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[universal-camera-lock-canmove-flag|Universal Camera Lock - canMove Flag]] - wspolne: camera, minigame
+- [[top-down-minigame-stump-digging|Top-Down Camera Minigame (Stump Digging)]] - wspolne: camera, minigame
+- [[20260629-1916-unity-minigame-abort-cleanup|Aborting a coroutine-driven minigame: release the active-flag LAST, and StopAllCoroutines]] - wspolne: camera, minigame
+<!-- /POWIAZANE:auto -->

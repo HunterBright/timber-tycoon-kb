@@ -10,7 +10,7 @@ tags:
 - unity
 - tags
 - comparetag
-- prefabs
+- prefab
 - runtime-spawning
 applies_to:
 - unity-projects

@@ -75,3 +75,16 @@ low-poly). Both systems then follow the meander exactly.
   the mesh - decouples from mesh topology, lets you reuse one map across LODs.
 - If only the waves matter and no flow texture is assigned, V alone is enough; the tangent is
   only needed once a `_NoiseTex`/flow texture drives visible directional streaks.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[river-mesh-semi-ellipse-cross-section|River Mesh Semi-Elliptical Cross-Section]] - wspolne: river, water
+- [[20260628-1105-lowpoly-lake-shore-jagged-fix|Low-poly lake shore looks jagged (serrated) - submerge the rim + widen the water, don't densify]] - wspolne: vertex-color, water
+- [[20260531-1612-quaternius-lowpoly-nature-urp-import|Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP]] - wspolne: vertex-color, shader
+- [[20260710-1300-vertex-colors-vs-basecolor-linear|Vertex colors vs _BaseColor w Linear color space - ten sam hex renderuje się INACZEJ]] - wspolne: vertex-color, shader
+- [[low-poly-water-side-wave|ANTI-PATTERN: sin(X) + sin(Z) Water Shader = Side Waves]] - wspolne: water, shader
+- [[20260605-1250-urp-flow-shader-scroll-sign|Scrolling/flow shaders: visual motion runs OPPOSITE to the flow vector]] - wspolne: water, shader
+<!-- /POWIAZANE:auto -->

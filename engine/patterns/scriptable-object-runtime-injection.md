@@ -100,3 +100,11 @@ Content scaling. 4 tree species today, 12 tomorrow, same code. New species = dat
 - **Generic SO base:** `TypeDataBase<T>` abstract SO class with common fields - reduces boilerplate across variants
 
 See also: [[so-propagation-chain-via-parameters]], [[race-condition-start-vs-instantiate-parameter]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[worker-data-instance-split|WorkerData (SO Blueprint) + WorkerInstance (Runtime) Split]] - wspolne: runtime, scriptableobject
+<!-- /POWIAZANE:auto -->

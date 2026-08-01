@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - blender
 - unity
-- vertex-colors
+- vertex-color
 - gamma
 - srgb
 - linear
@@ -64,3 +64,14 @@ Any pipeline that carries vertex colors from Blender to Unity (or any sRGB-space
 ## Related
 - [Desaturated colors for low-poly](desaturated-colors-for-low-poly.md)
 - [Procedural textures must be baked](procedural-textures-need-bake.md)
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260705-0840-blender-linear-color-into-unity-srgb-material|Blender LINIOWE Base Color wpisane wprost w Unity Color property = ~1 gamma za ciemno (projekt Linear)]] - wspolne: linear, srgb, gamma
+- [[20260725-1930-blender-pixels-buffer-not-converted-to-srgb-on-png-save|Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG]] - wspolne: srgb, gamma, blender
+- [[20260720-0940-dwa-niezalezne-bledy-gamma-w-jednym-modelu|"Wszystko za jasne" po podmianie modelu: dwa niezależne błędy gamma dające ten sam objaw]] - wspolne: gamma, vertex-color
+- [[20260720-0915-loft-nie-da-plaskiej-szyby|Malowanie szyby kolorem na powierzchni z loftu nigdy nie da płaskiej tafli]] - wspolne: vertex-color, blender
+<!-- /POWIAZANE:auto -->

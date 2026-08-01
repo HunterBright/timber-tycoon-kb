@@ -52,3 +52,13 @@ Pierwsze pytanie przy "pasek Filled zawsze pełny": `Debug.Log(image.sprite == n
 
 ## Kontekst odkrycia
 Timber Tycoon - ReputationHUDWidget (UI budowane w 100% z kodu, bez prefabu). Pierwsza "naprawa" przypisała sprite przez GetBuiltinResource i bug przetrwał commit.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260607-2016-ugui-filled-image-needs-sprite|A UGUI `Image` with `type = Filled` but no sprite ignores `fillAmount`]] - wspolne: fillamount, image, ugui
+- [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory|Don't build a full-screen dim/scrim by reusing your skinnable panel factory]] - wspolne: sprite, ugui
+- [[20260613-0625-9slice-ppu-must-scale-to-target-rect-not-stay-100|A large 9-slice sprite at PixelsPerUnit=100 breaks because its fixed corners exceed the panel]] - wspolne: sprite, ugui
+<!-- /POWIAZANE:auto -->

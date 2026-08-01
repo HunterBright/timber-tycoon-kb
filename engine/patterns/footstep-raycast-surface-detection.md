@@ -69,3 +69,16 @@ Raycast fires downward from just above the player's feet - always hits the exact
 - **Shoe effect per zone:** ambient step sound (reverberation) via `AudioReverbZone` - combine with per-surface clips for layered feel (see [[audio-reverb-zone-per-environment]])
 
 See also: [[audio-manager-mixer-architecture]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260625-0714-loop-fade-timefit-sfx-pattern|Dopasowanie SFX o stałej długości do akcji o zmiennej długości: pętla + wygaszenie]] - wspolne: sfx, audio
+- [[20260722-1145-loop-seam-measure-and-crossfade|Pętla dźwiękowa: zmierz styk, przenikaj ogon w początek, dopisz próg do sondy]] - wspolne: sfx, audio
+- [[20260625-0712-charactercontroller-velocity-freezes-footsteps|CharacterController.velocity „zamraża się" gdy przestajesz wołać Move() → audio sterowane ruchem przecieka]] - wspolne: footstep, audio
+- [[20260628-1615-footstep-surface-raycast-from-feet|Detekcja nawierzchni pod graczem: strzelaj raycastem OD STÓP, nie od środka postaci]] - wspolne: footstep, raycast
+- [[20260609-0830-conform-terrain-to-path-via-per-x-centerline-profile|Conform a mesh terrain to a path by sampling its centreline per-axis (not a fixed scan line, not a single plane)]] - wspolne: terrain, raycast
+- [[20260531-1614-editor-flora-scatter-patterns|Reproducible Editor Flora Scatter onto a Mesh Terrain]] - wspolne: terrain, raycast
+<!-- /POWIAZANE:auto -->

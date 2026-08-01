@@ -77,5 +77,13 @@ remesh and print each component's Z range. Three components with adjacent Z rang
 a zero-thickness bridge, not a modelling mistake.
 
 ## Related
-- [[trellis-shell-has-no-body-underneath]] (if written)
+- trellis shell has no body underneath (if written)
 - Project memory: project_worker_trellis_repair_2026-07-26
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260612-1530-fix-baked-solidify-wrong-direction|Fixing a baked-in Solidify applied in the wrong direction]] - wspolne: mesh-repair, solidify, blender
+<!-- /POWIAZANE:auto -->

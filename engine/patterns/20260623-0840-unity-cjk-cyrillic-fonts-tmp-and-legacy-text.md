@@ -9,7 +9,7 @@ project: Kerf - Sawmill Tycoon
 tags:
 - unity
 - localization
-- fonts
+- font
 - textmeshpro
 - cjk
 - cyrillic
@@ -79,3 +79,13 @@ missing)` → `missing` puste = fallback fizycznie umie narysować te znaki.
   tak potrzebny dodatkowy font). Jeden Noto CJK jest prostszy.
 - Static SDF zamiast Dynamic: trzeba z góry znać wszystkie znaki (przy CJK
   niepraktyczne - tysiące glifów). Dynamic jest właściwym wyborem dla CJK.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260612-1815-headless-tmp-sdf-font-generation|Headless TMP setup: import Essentials + generate SDF font asset from editor script]] - wspolne: font, localization, textmeshpro
+- [[typography-accessibility-stack|Typography + Accessibility Stack]] - wspolne: font, textmeshpro
+- [[20260723-2140-silent-loc-fallback-antipattern|Cichy fallback lokalizacji ukrywa nieprzetłumaczoną treść]] - wspolne: i18n, localization
+<!-- /POWIAZANE:auto -->

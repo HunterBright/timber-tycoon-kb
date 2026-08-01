@@ -49,3 +49,12 @@ Unity stores MonoBehaviour references in scene/prefab YAML as GUID+fileID pairs.
 Same checklist applies to: renaming a class (update all references before renaming), moving a namespace (all `using` statements), removing a method (all callers).
 
 See also: [[storage-migration-primary-plus-legacy-fallback]], [[legacy-code-conflict-after-refactor]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[storage-migration-primary-plus-legacy-fallback|Storage Migration: Primary New + Legacy Fallback]] - wspolne: technical-debt, refactoring
+- [[legacy-code-conflict-after-refactor|ANTI-PATTERN: Legacy Code Conflict After Refactor]] - wspolne: technical-debt, refactoring
+<!-- /POWIAZANE:auto -->

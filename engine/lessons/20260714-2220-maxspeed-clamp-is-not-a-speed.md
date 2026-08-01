@@ -93,3 +93,16 @@ gracz jeździł przez cały rozwój gry, i zepsuje prowadzenie, kolizje i ruch N
 `FindAnyObjectByType<VehicleController>()` przy synchronizacji danych pojazdu potrafi trafić w **auto
 NPC** zamiast w auto gracza (oba mają ten sam komponent). Szukaj auta gracza po tym, co je wyróżnia
 (u nas: pakę - `VehicleStorage`), a nie po typie kontrolera.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260724-0907-arcade-car-climbs-walls|Arkadowe auto na Rigidbody wspina sie po scianach i odlatuje w niebo]] - wspolne: rigidbody, vehicle, physics
+- [[freeze-inertia-tensor-not-restored|FreezeAll + automaticInertiaTensor=false Zeroes the Inertia Tensor]] - wspolne: rigidbody, vehicle, physics
+- [[self-collision-compound-colliders-ignore|Self-Collision Compound BoxColliders → Physics.IgnoreCollision]] - wspolne: rigidbody, vehicle, physics
+- [[20260728-1110-meshcollider-niewypukly-z-rigidbody-gubi-kolizje|Zderzak z pelnej siatki na obiekcie z fizyka = obiekt znika ze swiata]] - wspolne: rigidbody, physics
+- [[dynamic-rigidbody-no-nonconvex-meshcollider|Dynamic Rigidbody → Primitive or Convex Collider, Never Non-Convex Mesh]] - wspolne: rigidbody, physics
+- [[20260714-2350-null-physics-material-silently-becomes-default-friction|Collider z materiałem `null` NIE ma zerowego tarcia - ma DOMYŚLNE 0.6]] - wspolne: vehicle, physics
+<!-- /POWIAZANE:auto -->

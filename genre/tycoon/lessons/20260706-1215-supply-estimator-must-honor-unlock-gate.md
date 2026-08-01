@@ -57,3 +57,11 @@ odblokowan w drugim miejscu - przy zmianie przypisania zasobu do poziomu trzeba 
 - Osobny "anty-softlock"/estymator liczy podaz przez FindObjectsByType i sprawdza tylko stan obiektu.
 - Bramka odblokowan zyje na innym obiekcie (parent/manager) niz liczony zasob.
 - Popyt/podpowiedzi pojawiaja sie dla tresci, ktorej gracz nie moze jeszcze uzyc.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260716-0843-value-greedy-basket-priciest-dominates|Koszyk dobijany do kwoty "krokiem najblizej celu" = najdrozszy produkt dominuje kazde zamowienie]] - wspolne: order-generation, economy
+<!-- /POWIAZANE:auto -->

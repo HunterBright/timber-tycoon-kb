@@ -78,3 +78,11 @@ public enum StorageFamily { Log, Firewood, Stump, Plank, Bark, ChipBag, PelletBa
 - **General pattern**: any "service discoverable by type" uses the same OnEnable/Registry idiom - workstation machines, vendor zones, planting spots
 
 See also: [[global-router-storage-pattern]], [[parallel-architecture-pattern]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[dictionary-warehouse-registry|Dictionary<ProductType, int> Warehouse Registry]] - wspolne: registry, storage
+<!-- /POWIAZANE:auto -->

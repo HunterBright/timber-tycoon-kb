@@ -67,3 +67,11 @@ AssetDatabase.Refresh();
 
 ## Walidacja
 Linia questów Timber Tycoon (13 `ScriptableObject` + kontener `QuestLineData`) zregenerowana czysto jednym skryptem edytorowym: zachowane GUID-y istniejących, nowy `Quest_ReachReputation2.asset` utworzony z poprawnym GUID-em, lista kontenera przebudowana, zweryfikowane przez `Resources.Load` (13 questów, zero null-referencji).
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260710-2110-unity-addobjecttoasset-saveassets-order|AddObjectToAsset wymaga SaveAssets() PRZED ImportAsset(), inaczej sub-asset znika]] - wspolne: assetdatabase, editor-scripting
+<!-- /POWIAZANE:auto -->

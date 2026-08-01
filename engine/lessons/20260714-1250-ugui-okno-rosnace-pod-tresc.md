@@ -63,3 +63,12 @@ Jesli wysokosc panelu zalezy od dlugosci tekstu, ktory zmienia sie przy kazdym k
 - Sufit okna licz z `canvasRT.rect`, nie z zalozonego 1080.
 - Uklad zalezny od danych zmienianych klikiem: tylko rosnie w obrebie sesji okna.
 - Rezerwa pod tekst: mierz worst-case raz, nie stan biezacy co klatke.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260616-1532-unity-9slice-contentsizefitter-pollution|9-slice Image na obiekcie layoutu zaniża ContentSizeFitter (panel rośnie do sumy borderów)]] - wspolne: layout, ugui
+- [[20260613-0610-dim-scrim-must-not-reuse-9slice-panel-factory|Don't build a full-screen dim/scrim by reusing your skinnable panel factory]] - wspolne: modal, ugui
+<!-- /POWIAZANE:auto -->

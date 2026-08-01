@@ -66,3 +66,12 @@ przestrajac palety, a zmiana jest weryfikowalna liczbowo, nie "na oko".
 
 ## Related
 - [[20260721-1830-linerenderer-flat-on-surface-invisible]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260702-0651-mpb-does-not-toggle-keywords|Lekcja: MaterialPropertyBlock NIE włącza keywordów shadera (emisja niewidoczna)]] - wspolne: materialpropertyblock, urp
+- [[20260720-0940-dwa-niezalezne-bledy-gamma-w-jednym-modelu|"Wszystko za jasne" po podmianie modelu: dwa niezależne błędy gamma dające ten sam objaw]] - wspolne: materialpropertyblock, urp
+<!-- /POWIAZANE:auto -->

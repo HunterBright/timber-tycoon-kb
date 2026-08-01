@@ -101,3 +101,11 @@ AssertButtonText(canvas, "Option1Button", "AKCJA_1");
 
 Analogicznie dla świata 3D: „każdy interaktywny obiekt ma collider na właściwej warstwie",
 „collider pokrywa się z modelem".
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260721-1215-ui-fit-check-measuring-rect-instead-of-text|Sprawdzanie "czy tekst sie miesci" przez pomiar RectTransform]] - wspolne: testing, ui
+<!-- /POWIAZANE:auto -->
