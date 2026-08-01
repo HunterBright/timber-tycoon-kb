@@ -1,0 +1,43 @@
+---
+type: pattern
+project: Kerf - Sawmill Tycoon
+suggested-category: engine/patterns
+tags: [blender, bmesh, ubrania, low-poly, bisect_plane, krawedzie]
+date: 2026-07-31
+status: draft
+---
+
+# Równe krawędzie ubrań z kopii siatki: cięcie płaszczyzną zamiast selekcji ścianek
+
+## Problem
+Ubranie budowane jako kopia ścianek ciała (wybór per wierzchołek: wagi kości
++ zakresy wysokości) ma brzegi będące zygzakiem Z NATURY - granica podąża za
+topologią ręcznie rzeźbionego, niesymetrycznego ciała. Rąbki, pasy i mankiety
+wyglądają jak poszarpane. Wygładzanie brzegu (średnia sąsiadów wzdłuż brzegu)
+tylko łagodzi ząbki, nie robi prostej linii; ściąganie brzegu do mediany
+wysokości psuje mapowanie kluczy kształtu.
+
+## Wzorzec
+1. Selekcję ścianek robić Z ZAPASEM (progi ~2-3 cm poza docelową granicę;
+   ścianka przecinająca przyszłe cięcie musi być CAŁA w selekcji, inaczej
+   krawędź ma dziury).
+2. Po skopiowaniu i dogęszczeniu ciąć `bmesh.ops.bisect_plane` na zadanych
+   wysokościach (rąbki, pasy, mankiety) i szerokościach (boki karczka,
+   szelki) - pary symetrycznych płaszczyzn ±x dają symetrię mimo
+   niesymetrycznego ciała.
+3. Po cięciach usunąć ścianki poza regionem testem ŚRODKA ścianki
+   (`calc_center_median`), z wagami z warstwy deform (bisect je
+   interpoluje). Każda granica regionu MUSI pokrywać się z płaszczyzną
+   cięcia - wtedy krawędź jest prosta.
+4. Ciąć PRZED mapowaniem źródeł i offsetem po normalnych - nowe wierzchołki
+   z cięcia leżą na powierzchni ciała jak reszta.
+
+## Ograniczenia (sprawdzone boleśnie)
+- Granice będące KRZYWĄ (obwód szyi) nie dają się zamknąć płaszczyznami |x| -
+  pierścień pęka na łuki, które sprzątanie wysp kasuje. Elementy obwodowe
+  (pasek na szyję, opaski) budować PROCEDURALNIE z pomiaru promienia skóry
+  (funkcja podparcia per kierunek), jak kopułę kasku.
+- Sprzątanie małych wysp loguj per wyspa (liczba wierzchołków + zakres z) -
+  niema kasacja 300 wierzchołków wyglądała jak "brak paska" bez śladu.
+- Regiony rozłączne w pionie (karczek nad pasem) muszą ZACHODZIĆ na wspólną
+  płaszczyznę cięcia, inaczej fragmenty są osobnymi wyspami.
