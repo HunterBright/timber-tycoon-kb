@@ -59,3 +59,11 @@ nie ilosciowa.
 4. Zapisz decyzje (ADR), zeby po pol roku ktos nie postawil tego samego pipeline'u drugi raz.
 
 Uwaga: to odczyt pliku licencji, nie porada prawna. Przy watpliwosciach - prawnik.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue|TRELLIS.2 jako generator 3D bez blokady licencyjnej w UE]] - wspolne: licencje, pipeline
+<!-- /POWIAZANE:auto -->
