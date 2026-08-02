@@ -85,4 +85,5 @@ See also: [[initial-fill-on-load]], [[object-pooling-npcs-fifo-queue]], [[npc-pa
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
 - [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: pipeline, npc
+- [[20260801-1600-generator-obrazow-nie-utrzyma-pozy-ani-anatomii-dloni|Generator obrazow nie utrzyma pozy ani anatomii dloni - to nie jest zadanie dla referencji]] - wspolne: pipeline, npc
 <!-- /POWIAZANE:auto -->

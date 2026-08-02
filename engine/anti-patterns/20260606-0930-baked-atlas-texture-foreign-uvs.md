@@ -49,7 +49,7 @@ Rule of thumb: a baked atlas is bound to one UV layout. Reuse the *material conc
 - [[20260702-1400-bark-atlas-vs-tile-strategy|Rodzina assetów współdzieląca teksturę: wybierz strategię (atlas vs kafel) PRZED budową]] - wspolne: textures, atlas, uv
 - [[single-material-atlas-for-static-props|Single-Material Atlas for Static Props]] - wspolne: atlas, materials, blender
 - [[procedural-textures-need-bake|Procedural Textures Must Be Baked Before FBX Export]] - wspolne: materials, urp, blender
-- [[cycles-bake-for-solid-colors|ANTI-PATTERN: Cycles Bake for Solid Color Regions]] - wspolne: uv, blender
 - [[20260710-2010-material-props-wrong-shader-inert|Ustawianie właściwości materiału bez sprawdzenia SHADERA = ciche nic + ryzyko nadpisania]] - wspolne: materials, urp
-- [[20260704-1322-blender-file-image-scale-bake-revert|Blender: image.scale() na file-backed image nie trzyma się podczas bake - użyj images.new()]] - wspolne: atlas, blender
+- [[cycles-bake-for-solid-colors|ANTI-PATTERN: Cycles Bake for Solid Color Regions]] - wspolne: uv, blender
+- [[20260802-0500-naprawa-twarzy-w-teksturze-generatora|20260802-0500-naprawa-twarzy-w-teksturze-generatora]] - wspolne: uv, blender
 <!-- /POWIAZANE:auto -->

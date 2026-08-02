@@ -80,8 +80,8 @@ Pętla `Collider.Raycast` po N colliderach × M promieni. Rząd wielkości: 12 k
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260702-0651-batch-machine-loop-pattern|Wzorzec: pętla serii maszyny z minigrą (batch-machine loop)]] - wspolne: ux, minigame
 - [[20260713-1420-convex-meshcollider-swallows-hollow-interiors|Convex MeshCollider na skorupie połyka jej wnętrze - promienie nigdy nie trafią w części w środku]] - wspolne: minigame, raycast, physics
+- [[20260702-0651-batch-machine-loop-pattern|Wzorzec: pętla serii maszyny z minigrą (batch-machine loop)]] - wspolne: ux, minigame
 - [[diegetic-3d-button-raycast|Diegetic 3D Button Raycast Pattern]] - wspolne: minigame, raycast
 - [[mesh-collider-convex-for-clickable-minigame-objects|Convex MeshCollider for Irregular Clickable Objects]] - wspolne: minigame, raycast
 - [[20260722-2050-unstuck-nearest-valid-ground-ring-search|Unstuck / reset: szukaj najbliższego POPRAWNEGO gruntu zamiast teleportu do bazy]] - wspolne: raycast, physics

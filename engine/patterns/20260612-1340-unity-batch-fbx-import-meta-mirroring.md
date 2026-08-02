@@ -48,5 +48,5 @@ The .meta-first approach is deterministic and diff-able; scripting ModelImporter
 - [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: mixamo, fbx
 - [[20260629-1145-blender-empties-bake-space-transform-double-axis|FBX with parent EMPTIES imports tipped 90° when exported with bake_space_transform=True]] - wspolne: import, fbx
 - [[20260728-0915-fbx-skala-100-w-dzieciach-psuje-pomiary|FBX z Blendera: przelicznik jednostek siedzi w SKALI DZIECI, nie w korzeniu]] - wspolne: import, fbx
-- [[20260710-2110-unity-addobjecttoasset-saveassets-order|AddObjectToAsset wymaga SaveAssets() PRZED ImportAsset(), inaczej sub-asset znika]] - wspolne: editor-scripting, prefab
+- [[20260802-0210-fbx-blender-unity-obrot-i-tekstury|20260802-0210-fbx-blender-unity-obrot-i-tekstury]] - wspolne: import, fbx
 <!-- /POWIAZANE:auto -->

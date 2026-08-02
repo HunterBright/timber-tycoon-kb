@@ -74,6 +74,6 @@ PelletBag v1-v7 used Smart UV Project + Cycles bake. Result: white label area ba
 - [[single-material-atlas-for-static-props|Single-Material Atlas for Static Props]] - wspolne: static-props, blender
 - [[20260615-2045-blender-voronoi-round-knots|Proceduralne okrągłe sęki w Blenderze: Voronoi F1, nie DISTANCE_TO_EDGE (+ kompensacja proporcji)]] - wspolne: baking, blender
 - [[procedural-textures-need-bake|Procedural Textures Must Be Baked Before FBX Export]] - wspolne: baking, blender
+- [[20260802-0500-naprawa-twarzy-w-teksturze-generatora|20260802-0500-naprawa-twarzy-w-teksturze-generatora]] - wspolne: uv, blender
 - [[20260702-1400-bark-atlas-vs-tile-strategy|Rodzina assetów współdzieląca teksturę: wybierz strategię (atlas vs kafel) PRZED budową]] - wspolne: uv, blender
-- [[20260704-2330-blender-unity-flat-panel-dual-face-texture|Blender flat panel textured on one face renders BLANK in Unity (axis-flip picks the wrong face)]] - wspolne: uv, blender
 <!-- /POWIAZANE:auto -->
