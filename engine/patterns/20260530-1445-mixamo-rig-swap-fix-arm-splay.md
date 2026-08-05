@@ -80,6 +80,7 @@ place** to preserve prefab GUID + root fileID so referencing SOs/scenes survive.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260802-1620-humanoid-retarget-poza-wzorcowa|20260802-1620-humanoid-retarget-poza-wzorcowa]] - wspolne: retargeting, mixamo
 - [[20260531-1530-unity-humanoid-autorig-mirrored-foot|Crooked foot under Unity Humanoid = auto-rig copied the foot bind pose instead of mirroring it]] - wspolne: retargeting, mixamo
 - [[20260705-1745-mixamo-motion-only-vs-withskin-retarget|Mixamo "Without Skin" (motion-only) FBX psuje retarget Humanoid - uzyj "With Skin"]] - wspolne: retargeting, mixamo
 <!-- /POWIAZANE:auto -->

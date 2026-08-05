@@ -90,6 +90,6 @@ scan is a fast, import-free proof that no skeleton leaked into the file.
 - [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: rigging, mixamo, mcp
 - [[20260725-2320-fartuch-skinning-srednia-dwoch-ud-daje-zero|Fartuch ważony po połowie na oba uda NIE RUSZA SIĘ przy chodzie]] - wspolne: character, rigging, blender
 - [[20260717-0010-generated-rig-bone-axis-defect-skeleton-transplant|Rigi z generatorów AI (Hunyuan): osie kości rozjechane z frontem modelu = wykrzywiona stopa w retargecie; lek = przeszczep szkieletu w Blenderze]] - wspolne: rigging, mixamo, blender
+- [[20260802-1620-humanoid-retarget-poza-wzorcowa|20260802-1620-humanoid-retarget-poza-wzorcowa]] - wspolne: rigging, mixamo
 - [[20260531-0934-fbx-mesh-only-verification-scan-class-names|Verifying an FBX is "mesh-only" before Mixamo: scan for the real CLASS names, not substrings - `AnimStack` matches the header property `ActiveAnimStackName`]] - wspolne: rigging, mixamo
-- [[fbx-binary-overwrite-corrupts-bindposes|FBX binary-overwrite under a stale .meta corrupts skinned-mesh bindposes (mesh collapses to T-pose while bones animate)]] - wspolne: rigging, mixamo
 <!-- /POWIAZANE:auto -->

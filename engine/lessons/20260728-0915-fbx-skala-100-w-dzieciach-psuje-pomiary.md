@@ -73,5 +73,5 @@ to prawie na pewno jest to skala jednostek, a nie blad liczenia. Sprawdz
 - [[20260802-0210-fbx-blender-unity-obrot-i-tekstury|20260802-0210-fbx-blender-unity-obrot-i-tekstury]] - wspolne: import, fbx, blender
 - [[20260531-1705-normalize-assetpack-scale-via-modelimporter|Normalize Inconsistent Asset-Pack Scale at the Source (ModelImporter.globalScale)]] - wspolne: scale, fbx
 - [[20260612-1340-unity-batch-fbx-import-meta-mirroring|Batch FBX import with pre-authored .meta files + prefab build in temp additive scene]] - wspolne: import, fbx
-- [[20260531-0934-tripo-polygon-soup-inverted-winding-fix|Tripo / AI-generated meshes import as "polygon soup" - see-through holes under single-sided rendering are a winding problem caused by UNWELDED verts, not interior faces]] - wspolne: fbx, blender
+- [[20260730-1710-blender-materials-clear-resets-face-indices|Mesh.materials.clear() zeruje material_index na ściankach]] - wspolne: mesh, blender
 <!-- /POWIAZANE:auto -->
