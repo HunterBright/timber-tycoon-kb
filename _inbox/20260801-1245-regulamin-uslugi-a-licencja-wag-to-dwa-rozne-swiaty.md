@@ -7,7 +7,7 @@ verified: 2026-08-01
 tags: [licencje, generatory-3d, ai-gen, prawo, weryfikacja, znaki-wodne, low-poly]
 date: 2026-08-01
 project: Kerf - Sawmill Tycoon
-source: 'Tencent HY 3D Global: Terms of Service 2026.02.06, Acceptable Use Policy 2025.12.27, Privacy Policy 2025.12.27 + test 8 modeli 2026-08-01'
+source: 'https://www.tencentcloud.com/document/product/301/9248 , https://intl.cloud.tencent.com/document/product/301/78149 (Tencent HY 3D Global: Terms of Service 2026.02.06, Acceptable Use Policy 2025.12.27, Privacy Policy 2025.12.27 + test 8 modeli 2026-08-01)'
 applies_to: [kazdy generator assetow AI rozwazany do gry komercyjnej]
 severity: high
 time_lost: ok. 6 miesiecy odrzucania narzedzia, ktore bylo dostepne

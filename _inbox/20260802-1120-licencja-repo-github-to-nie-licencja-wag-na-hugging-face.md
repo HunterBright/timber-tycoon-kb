@@ -1,9 +1,9 @@
 ---
 title: Licencja repozytorium GitHub to nie jest licencja wag na Hugging Face
 type: lesson
-status: draft
+status: verified
 confidence: high
-verified: '2026-08-02'
+verified: '2026-08-05'
 date: 2026-08-02
 project: GameDevOS
 tags:
@@ -13,7 +13,7 @@ tags:
 - ai-3d
 - due-diligence
 applies_to: []
-source: 'Zwiad 2026-08-02: nv-tlabs/Kimodo, czpcf/TopoCap, tencent/Hunyuan3D-2.1'
+source: 'https://huggingface.co/api/models/nvidia/Kimodo-SOMA-RP-v1.1 , https://api.github.com/repos/czpcf/TopoCap/license , https://huggingface.co/api/models/tencent/Hunyuan3D-2.1'
 severity: high
 suggested-category: process/lessons
 time_lost: ''

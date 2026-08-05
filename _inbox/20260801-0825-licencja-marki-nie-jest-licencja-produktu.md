@@ -1,9 +1,9 @@
 ---
 title: Licencja marki nie jest licencja produktu
 type: anti-pattern
-status: draft
+status: verified
 confidence: high
-verified: 2026-08-01
+verified: 2026-08-05
 tags: [licencje, ai, generatory-3d, ue, due-diligence]
 date: 2026-08-01
 project: GameDevOS

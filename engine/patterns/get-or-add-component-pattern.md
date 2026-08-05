@@ -43,3 +43,14 @@ Tiny overhead: one extra `GetComponent` call. Always worth it for any setup code
 
 ## Variants
 Same principle as `GetOrCreateChild(name)`, `GetOrAddLayer(tag)` - any "ensure X exists, create if missing" pattern.
+
+<!-- WERYFIKATOR 2026-08-05 -->
+Weryfikacja 2026-08-05: sam pomysl (jedno wywolanie zamiast slepego dokladania komponentu)
+nie budzi zastrzezen, ale przyklad kodu uzywa `??` na obiekcie Unity, czego zabrania
+nasz wlasny wpis [[20260702-1610-fake-null-so-null-conditional-trap]] (status verified):
+"W polach Unity nigdy `?.` ani `??` - zawsze jawne `if (x != null)`". Roznica jest realna
+tylko dla komponentu **zniszczonego, a jeszcze nie sprzatnietego** - wtedy `??` przepuszcza
+martwa skorupe zamiast utworzyc nowy komponent. Zastrzezenie: oficjalna regula analizatora
+Unity (UNT0008) opisuje wprost tylko operator `?.`, nie `??`, wiec sprzecznosc jest
+z nasza wlasna reguła, a nie z litera dokumentacji producenta.
+Zrodlo: https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0008.md

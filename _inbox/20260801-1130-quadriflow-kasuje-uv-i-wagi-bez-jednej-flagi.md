@@ -1,9 +1,9 @@
 ---
 title: QuadriFlow kasuje UV i wagi szkieletu, dopoki nie wlaczysz jednej flagi
 type: lesson
-status: draft
+status: verified
 confidence: high
-verified: '2026-08-01'
+verified: '2026-08-05'
 tags:
 - blender
 - retopologia
@@ -12,7 +12,7 @@ tags:
 - pipeline
 date: '2026-08-01'
 project: GameDevOS
-source: https://docs.blender.org/manual/en/latest/modeling/meshes/retopology.html
+source: https://github.com/blender/blender/blob/main/source/blender/editors/object/object_remesh.cc
 suggested-category: tools/lessons
 applies_to:
 - Blender 5.x

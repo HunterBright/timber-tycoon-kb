@@ -103,3 +103,14 @@ dziala poprawnie.
 
 - [[20260802-1120-licencja-repo-github-to-nie-licencja-wag-na-hugging-face]]
 - [[20260801-1245-regulamin-uslugi-a-licencja-wag-to-dwa-rozne-swiaty]]
+
+<!-- WERYFIKATOR 2026-08-05 -->
+Weryfikacja 2026-08-05: zgloszenie LoHhhha/LATO.2 #2 istnieje, jest otwarte,
+zalozone 2026-07-22, ma trzy komentarze, a oba cytaty zgadzaja sie ze zrodlem.
+Jedno zdanie wpisu jest jednak za mocne: **autor odpowiedzial i podal wskazowki** -
+udostepnil przykladowa siatke modelarska, napisal "Try again with an artist mesh"
+i doprecyzowal, ze dane testowe byly kwantyzowane do siatki 1024. W tym samym
+watku inny uzytkownik zmierzyl na siatce modelarskiej IoU 0,999, co wzmacnia
+teze wpisu (rozjazd bierze sie z rodzaju wejscia), ale przeczy zdaniu
+"autor nie podal przepisu na przygotowanie wejscia".
+Zrodlo: https://api.github.com/repos/LoHhhha/LATO.2/issues/2/comments

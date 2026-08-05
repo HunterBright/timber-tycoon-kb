@@ -67,6 +67,17 @@ MeshCollider makes roads part of the raycast-able physics scene. Waypoint tool r
 
 See also: [[catmull-rom-spline-road-mesh]], [[flatten-terrain-under-road]]
 
+<!-- WERYFIKATOR 2026-08-05 -->
+Weryfikacja 2026-08-05: trzon wpisu zgadza sie z dokumentacja Unity (zderzak z siatki
+uczestniczy w promieniach, a `convex = false` wyklucza uzycie na obiekcie poruszanym
+fizyka). Sprzeczny ze zrodlem jest natomiast wariant o NavMeshu: wypalanie nawigacji
+nie bierze geometrii ze zderzaczy "z automatu". NavMesh Surface ma ustawienie
+"Use Geometry" z dwiema opcjami - "Render Meshes: Use geometry from Render Meshes and
+Terrains" oraz "Physics Colliders: Use geometry from Colliders and Terrains" - i dopiero
+wybor tej drugiej sprawia, ze zderzaki cokolwiek znacza. Sama warstwa tez nie wystarczy:
+o udziale obiektu decyduja "Collect Objects" i "Include Layers".
+Zrodlo: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/NavMeshSurface.html
+
 <!-- POWIAZANE:auto -->
 ## Powiazane
 

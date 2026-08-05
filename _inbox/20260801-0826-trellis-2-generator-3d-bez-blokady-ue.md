@@ -100,6 +100,25 @@ w sprawdzony wzorzec albo skreśla go w całości. Do tego czasu
 - [[MAPA-LOW-POLY]]
 - [[MAPA-PIPELINE-BLENDER-UNITY]]
 
+<!-- WERYFIKATOR 2026-08-05 -->
+Weryfikacja 2026-08-05: bramka licencyjna potwierdzona u zrodla - plik
+`microsoft/TRELLIS.2/LICENSE` to standardowe MIT (copyright Microsoft Corporation),
+bez terytoriow i progow, a karta wag `microsoft/TRELLIS.2-4B` ma `license: mit`,
+`gated: false` i **nie** ma flagi `extra_gated_eu_disallowed`. Potwierdzona takze
+pulapka podmodulu: `nvdiffrast` jest na "Nvidia Source Code License (1-Way
+Commercial)" z klauzula "only may be used or intended for use non-commercially".
+Sprostowanie o topologii opiera sie natomiast na zle odczytanym cytacie: karta
+modelu nie przyznaje, ze wynik jest "arbitrary topology, non-manifold geometry",
+tylko chwali sie, ze reprezentacja **radzi sobie** z taka geometria ("Handles open
+surfaces, non-manifold geometry, and fully-enclosed structures without lossy
+conversion"). Zdanie karty, ktore faktycznie wspiera wniosek o obowiazkowej
+retopologii, brzmi inaczej: "the generated raw meshes may occasionally contain
+small holes or minor topological discontinuities".
+Zrodla: https://raw.githubusercontent.com/microsoft/TRELLIS.2/main/LICENSE ,
+https://huggingface.co/api/models/microsoft/TRELLIS.2-4B ,
+https://huggingface.co/microsoft/TRELLIS.2-4B/raw/main/README.md ,
+https://raw.githubusercontent.com/NVlabs/nvdiffrast/main/LICENSE.txt
+
 <!-- POWIAZANE:auto -->
 ## Powiazane
 

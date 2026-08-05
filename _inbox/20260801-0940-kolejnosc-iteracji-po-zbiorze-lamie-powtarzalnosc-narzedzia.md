@@ -1,14 +1,14 @@
 ---
 title: Narzedzie masowe, ktore iteruje po zbiorze, przepisuje te same pliki w kolko
 type: lesson
-status: draft
+status: verified
 confidence: high
-verified: 2026-08-01
+verified: 2026-08-05
 tags: [automatyzacja, python, determinizm, narzedzia, powtarzalnosc, git]
 date: 2026-08-01
 project: GameDevOS
 suggested-category: workflow/general
-source: budowa automatu dopisujacego sekcje "Powiazane" do 460 notatek, 2026-08-01
+source: 'https://docs.python.org/3/using/cmdline.html#envvar-PYTHONHASHSEED , https://docs.python.org/3/howto/sorting.html (budowa automatu dopisujacego sekcje "Powiazane" do 460 notatek, 2026-08-01)'
 applies_to: [kazdy skrypt masowo edytujacy pliki w repozytorium]
 severity: medium
 time_lost: ok. 20 min

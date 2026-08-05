@@ -1,9 +1,9 @@
 ---
 title: Skrypt masowy puszczony na vaulcie z junctionami siega poza zamierzony zakres
 type: anti-pattern
-status: draft
+status: verified
 confidence: high
-verified: '2026-07-31'
+verified: '2026-08-05'
 date: '2026-07-31'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -12,7 +12,7 @@ tags:
 - windows
 - junction
 - zakres-zmian
-source: wpadka podczas migracji bazy wiedzy do Obsidiana 2026-07-31
+source: 'https://github.com/python/cpython/blob/main/Python/fileutils.c (wpadka podczas migracji bazy wiedzy do Obsidiana 2026-07-31)'
 severity: medium
 ---
 

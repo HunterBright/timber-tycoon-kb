@@ -1,9 +1,9 @@
 ---
 title: Licencja modelu AI to trzy osobne dokumenty i wystarczy, ze jeden zabroni
 type: anti-pattern
-status: draft
+status: verified
 confidence: high
-verified: '2026-08-01'
+verified: '2026-08-05'
 tags:
 - licencje
 - prawo

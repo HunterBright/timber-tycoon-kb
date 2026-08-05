@@ -1,9 +1,9 @@
 ---
 title: MaterialPropertyBlock for Runtime Color Variants
 type: pattern
-status: draft
-confidence: medium
-verified: ''
+status: needs-reproduction
+confidence: low
+verified: '2026-08-05'
 date: '2026-05-17'
 project: Kerf - Sawmill Tycoon
 tags:
@@ -45,3 +45,16 @@ MPB overrides must be re-applied after any renderer update (e.g., after LOD swit
 
 ## Variants
 Same pattern for: emission pulse (machine state glow), health-based tinting (damage indication), season tints (leaf color per season), faction color (RTS units).
+
+<!-- WERYFIKATOR 2026-08-05 -->
+Weryfikacja 2026-08-05: zdanie "GPU batching still works (same material asset)"
+jest sprzeczne z dokumentacja Unity dla URP. Unity pisze, ze aby obiekt byl zgodny
+z SRP Batcherem, "The GameObject mustn't use MaterialPropertyBlocks", a osobna strona
+mowi wprost, ze dodanie MaterialPropertyBlocku to sposob, zeby **zabrac** obiektowi
+zgodnosc z SRP Batcherem. To samo dotyczy GPU Resident Drawera w Unity 6, ktory
+obsluguje tylko obiekty majace "no MaterialPropertyBlocks set". Sam mechanizm nadpisywania
+wlasciwosci bez tworzenia kopii materialu jest opisany poprawnie - falszywy jest tylko
+wniosek o wsadowaniu, a to on jest w tym wpisie uzasadnieniem calego wzorca.
+Zrodla: https://docs.unity3d.com/6000.3/Documentation/Manual/SRPBatcher-Materials.html ,
+https://docs.unity3d.com/6000.0/Documentation/Manual/SRPBatcher-Incompatible.html ,
+https://docs.unity3d.com/6000.5/Documentation/Manual/urp/gpu-resident-drawer.html

@@ -1,9 +1,9 @@
 ---
 title: Szybkie rysowanie w Unity 6 omija wszystko, co ma Animator
 type: lesson
-status: draft
+status: verified
 confidence: high
-verified: '2026-08-01'
+verified: '2026-08-05'
 tags:
 - unity
 - wydajnosc
@@ -100,3 +100,17 @@ calego potoku postaci.
 
 - [[MAPA-LOW-POLY]]
 - [[MAPA-RIGGING-I-ANIMACJA]]
+
+<!-- WERYFIKATOR 2026-08-05 -->
+Weryfikacja 2026-08-05: dokumentacja Unity 6.5 potwierdza wykluczenie obiektow
+"in the hierarchy of Animation or Animator components" i ograniczenie do Mesh
+Renderera (GPU Resident Drawer), zaleznosc wycinania na GPU od tego mechanizmu
+(GPU occlusion culling) oraz oba twierdzenia o Mesh LOD ("does not take skin
+weights or blend shape deformations into account", "deforms LOD0 regardless of
+which LOD index"); natomiast strona o GPU Instancing mowi tylko "Skinned Mesh
+Renderer components are not supported" i **nie** potwierdza wykluczenia przez
+Animator w hierarchii - to zdanie wpisu jest szersze niz zrodlo.
+Zrodla: https://docs.unity3d.com/6000.5/Documentation/Manual/urp/gpu-resident-drawer.html ,
+https://docs.unity3d.com/6000.5/Documentation/Manual/GPUInstancing.html ,
+https://docs.unity3d.com/6000.5/Documentation/Manual/urp/gpu-culling.html ,
+https://docs.unity3d.com/6000.2/Documentation/Manual/lod/mesh-lod-introduction.html
