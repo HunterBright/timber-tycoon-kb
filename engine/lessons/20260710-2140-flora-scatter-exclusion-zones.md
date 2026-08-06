@@ -50,5 +50,6 @@ kazdy re-bake przywraca problem.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260805-2140-chirurgia-blobow-instancji|20260805-2140-chirurgia-blobow-instancji]] - wspolne: gpu-instancing, scatter
 - [[20260531-1614-editor-flora-scatter-patterns|Reproducible Editor Flora Scatter onto a Mesh Terrain]] - wspolne: scatter, procedural
 <!-- /POWIAZANE:auto -->

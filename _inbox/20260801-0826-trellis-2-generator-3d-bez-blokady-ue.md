@@ -129,5 +129,5 @@ https://raw.githubusercontent.com/NVlabs/nvdiffrast/main/LICENSE.txt
 - [[20260801-1140-licencja-modelu-ai-to-trzy-osobne-dokumenty|Licencja modelu AI to trzy osobne dokumenty i wystarczy, ze jeden zabroni]] - wspolne: ue, licencje
 - [[20260801-1130-quadriflow-kasuje-uv-i-wagi-bez-jednej-flagi|QuadriFlow kasuje UV i wagi szkieletu, dopoki nie wlaczysz jednej flagi]] - wspolne: pipeline, low-poly, blender
 - [[20260725-0625-ai-model-community-license-excludes-eu|Nie stawiaj pipeline'u assetow na modelu AI z licencja "Community", nie czytajac pierwszej linii LICENSE]] - wspolne: licencje, pipeline
-- [[20260725-1830-plaskie-tekstury-z-plam-referencji|Plaskie tekstury dla modelu z generatora 3D: tozsamosc elementu bierz z REFERENCJI, nie z koloru]] - wspolne: generatory-3d, blender
+- [[20260805-2320-bone-heat-pada-na-siatkach-wielobrylowych|20260805-2320-bone-heat-pada-na-siatkach-wielobrylowych]] - wspolne: generatory-3d, blender
 <!-- /POWIAZANE:auto -->

@@ -94,7 +94,7 @@ Patrz też: [[feedback_probe_must_be_able_to_fail]].
 - [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: character, rigging, blender
 - [[20260531-1500-mixamo-clean-mesh-extraction|Extract a clean mesh-only FBX from a rigged source for Mixamo re-rig]] - wspolne: character, rigging, blender
 - [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: skirt, blender
+- [[20260805-2320-bone-heat-pada-na-siatkach-wielobrylowych|20260805-2320-bone-heat-pada-na-siatkach-wielobrylowych]] - wspolne: skinning, blender
 - [[20260717-0010-generated-rig-bone-axis-defect-skeleton-transplant|Rigi z generatorów AI (Hunyuan): osie kości rozjechane z frontem modelu = wykrzywiona stopa w retargecie; lek = przeszczep szkieletu w Blenderze]] - wspolne: rigging, blender
 - [[20260717-1115-style-match-real-assets-not-description|Anti-pattern: dopasowywanie stylu do OPISU stylu zamiast do prawdziwych assetów z gry]] - wspolne: character, blender
-- [[20260805-1815-rigify-ma-gotowe-szkielety-zwierzat|Blender ma w standardzie gotowe szkielety zwierzat (Rigify), zanim siegniesz po AI]] - wspolne: rigging, blender
 <!-- /POWIAZANE:auto -->
