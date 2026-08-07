@@ -87,3 +87,11 @@ Przy tym formacie idz za repozytorium, nie za strona.
 Gdy fakt dotyczy **wlasnej maszyny**, pomiar bije kazdy wpis i kazde zrodlo.
 Spor o to, na ktorej wersji edytora stoi projekt, rozstrzyga jeden plik
 `ProjectVersion.txt`, a nie trzecia notatka w bazie.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260807-1155-skrypt-zarzadzany-blender-bezokienkowy|Skrypt zarzadzany - dyscyplina edycji Blendera bezokienkowo]] - wspolne: agent, automatyzacja
+<!-- /POWIAZANE:auto -->

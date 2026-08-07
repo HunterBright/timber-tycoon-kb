@@ -52,5 +52,5 @@ wysokości psuje mapowanie kluczy kształtu.
 - [[20260730-1217-bone-side-names-vs-axis-sign|Nie zgaduj strony ciała ze znaku osi ani z nazwy kości (.L/.R)]] - wspolne: bmesh, blender
 - [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue|TRELLIS.2 jako generator 3D bez blokady licencyjnej w UE]] - wspolne: low-poly, blender
 - [[20260805-1815-rigify-ma-gotowe-szkielety-zwierzat|Blender ma w standardzie gotowe szkielety zwierzat (Rigify), zanim siegniesz po AI]] - wspolne: low-poly, blender
-- [[20260801-1130-quadriflow-kasuje-uv-i-wagi-bez-jednej-flagi|QuadriFlow kasuje UV i wagi szkieletu, dopoki nie wlaczysz jednej flagi]] - wspolne: low-poly, blender
+- [[20260807-1140-laczenie-siatek-a-animowany-przodek|Laczenie siatek pod wywolania rysowania a animowany przodek]] - wspolne: low-poly, blender
 <!-- /POWIAZANE:auto -->

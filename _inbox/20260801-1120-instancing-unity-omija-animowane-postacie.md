@@ -114,3 +114,11 @@ Zrodla: https://docs.unity3d.com/6000.5/Documentation/Manual/urp/gpu-resident-dr
 https://docs.unity3d.com/6000.5/Documentation/Manual/GPUInstancing.html ,
 https://docs.unity3d.com/6000.5/Documentation/Manual/urp/gpu-culling.html ,
 https://docs.unity3d.com/6000.2/Documentation/Manual/lod/mesh-lod-introduction.html
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260807-1140-laczenie-siatek-a-animowany-przodek|Laczenie siatek pod wywolania rysowania a animowany przodek]] - wspolne: wydajnosc, animacja
+<!-- /POWIAZANE:auto -->

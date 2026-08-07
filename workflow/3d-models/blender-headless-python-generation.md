@@ -110,8 +110,8 @@ See also: [[procedural-textures-cycles-commercial]], [[zero-floating-zero-flicke
 
 - [[20260612-1815-headless-tmp-sdf-font-generation|Headless TMP setup: import Essentials + generate SDF font asset from editor script]] - wspolne: headless, automation
 - [[20260726-1535-blender-addon-parametryczny-suwaki|Parametryczny dodatek do Blendera: trzy pulapki, ktore kosztuja godzine kazda]] - wspolne: python, blender
+- [[20260807-1140-laczenie-siatek-a-animowany-przodek|Laczenie siatek pod wywolania rysowania a animowany przodek]] - wspolne: headless, blender
+- [[20260807-1155-skrypt-zarzadzany-blender-bezokienkowy|Skrypt zarzadzany - dyscyplina edycji Blendera bezokienkowo]] - wspolne: headless, blender
 - [[20260610-1820-blender-mcp-failure-headless-fallback|blender-mcp bridge failure modes + headless CLI fallback]] - wspolne: headless, blender
 - [[20260730-1710-blender-materials-clear-resets-face-indices|Mesh.materials.clear() zeruje material_index na ściankach]] - wspolne: python, blender
-- [[20260704-1732-blender-linked-basecolor-recolor|Recoloring a Blender material whose Base Color is LINKED does nothing via default_value]] - wspolne: python, blender
-- [[20260725-1930-blender-pixels-buffer-not-converted-to-srgb-on-png-save|Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG]] - wspolne: python, blender
 <!-- /POWIAZANE:auto -->

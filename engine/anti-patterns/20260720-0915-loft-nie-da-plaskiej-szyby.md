@@ -99,9 +99,9 @@ odcinków). Prostsza konstrukcja okazała się i tańsza, i ładniejsza.
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
 - [[20260628-1105-lowpoly-lake-shore-jagged-fix|Low-poly lake shore looks jagged (serrated) - submerge the rim + widen the water, don't densify]] - wspolne: vertex-color, low-poly
+- [[vertex-color-gamma-correction-blender-to-unity|Vertex Color Gamma Correction Blender → Unity]] - wspolne: vertex-color, blender
 - [[20260702-1135-lowpoly-thin-planar-leaves-antipattern|Anty-pattern: cienkie płaskie „soczewki" jako liście low-poly]] - wspolne: low-poly, blender
 - [[20260711-1647-blender-prop-contact-interpenetrate-not-gap|Anty-wzorzec: szczeliny powietrza jako ochrona przed z-fightingiem (lewitujące propy)]] - wspolne: low-poly, blender
-- [[vertex-color-gamma-correction-blender-to-unity|Vertex Color Gamma Correction Blender → Unity]] - wspolne: vertex-color, blender
 - [[20260725-2050-kontrakt-liczbowy-bez-nazw-osi|Wspolny kontrakt liczbowy dla kilku agentow, ktory nie nazywa osi]] - wspolne: low-poly, blender
 - [[20260802-0500-naprawa-twarzy-w-teksturze-generatora|20260802-0500-naprawa-twarzy-w-teksturze-generatora]] - wspolne: low-poly, blender
 <!-- /POWIAZANE:auto -->
