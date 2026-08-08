@@ -64,7 +64,7 @@ Same technique for: indoor lighting by hour (office morning/afternoon/evening), 
 - [[procedural-skybox-sun-moon-trick|Procedural Skybox Sun/Moon Trick]] - wspolne: shader, urp
 - [[stale-reflection-probe-night-whitening|Stale Skybox Reflections Whiten PBR Materials at Night (Day/Night Cycle)]] - wspolne: day-night, urp
 - [[urp-distant-caster-shadow-band|"Dark band that follows the player" = terrain self-shadow leaking onto near-coplanar road meshes]] - wspolne: day-night, urp
+- [[20260807-2230-splaszczanie-oswietlenia-per-material|20260807-2230-splaszczanie-oswietlenia-per-material]] - wspolne: shader, urp
+- [[20260807-2330-fallback-shadera-wysypuje-build|20260807-2330-fallback-shadera-wysypuje-build]] - wspolne: shader, urp
 - [[20260710-2010-material-props-wrong-shader-inert|Ustawianie właściwości materiału bez sprawdzenia SHADERA = ciche nic + ryzyko nadpisania]] - wspolne: shader, urp
-- [[low-poly-water-side-wave|ANTI-PATTERN: sin(X) + sin(Z) Water Shader = Side Waves]] - wspolne: shader, urp
-- [[20260531-1612-quaternius-lowpoly-nature-urp-import|Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP]] - wspolne: shader, urp
 <!-- /POWIAZANE:auto -->

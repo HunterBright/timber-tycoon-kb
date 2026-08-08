@@ -131,5 +131,6 @@ Dlatego warto zapisywac historie edycji jako dowod wkladu tworczego.
 - [[20260801-0825-licencja-marki-nie-jest-licencja-produktu|Licencja marki nie jest licencja produktu]] - wspolne: ue, licencje
 - [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue|TRELLIS.2 jako generator 3D bez blokady licencyjnej w UE]] - wspolne: ue, licencje
 - [[20260801-1245-regulamin-uslugi-a-licencja-wag-to-dwa-rozne-swiaty|Regulamin uslugi w chmurze i licencja pobieranych wag to dwa rozne dokumenty - sprawdzaj oba]] - wspolne: prawo, licencje
+- [[20260808-1120-zasoby-w-dodatkach-blendera-maja-byc-cc0|Zasoby w dodatkach Blendera maja byc na CC0, a nie na GPL dodatku]] - wspolne: prawo, licencje
 - [[20260725-0625-ai-model-community-license-excludes-eu|Nie stawiaj pipeline'u assetow na modelu AI z licencja "Community", nie czytajac pierwszej linii LICENSE]] - wspolne: prawo, licencje
 <!-- /POWIAZANE:auto -->

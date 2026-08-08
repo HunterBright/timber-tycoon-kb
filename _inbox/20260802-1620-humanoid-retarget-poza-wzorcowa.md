@@ -99,6 +99,6 @@ Analogicznie dla biodra i kolana.
 - [[20260705-1745-mixamo-motion-only-vs-withskin-retarget|Mixamo "Without Skin" (motion-only) FBX psuje retarget Humanoid - uzyj "With Skin"]] - wspolne: retargeting, humanoid, mixamo
 - [[20260717-0010-generated-rig-bone-axis-defect-skeleton-transplant|Rigi z generatorów AI (Hunyuan): osie kości rozjechane z frontem modelu = wykrzywiona stopa w retargecie; lek = przeszczep szkieletu w Blenderze]] - wspolne: humanoid, rigging, mixamo
 - [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: rigging, mixamo, npc
-- [[20260725-1015-ai-autorig-proportions-crush-humanoid|Szkielet z auto-rigu AI ma inne proporcje niz siatka: postac w grze skladasie w harmonijke]] - wspolne: retargeting, humanoid
-- [[20260531-0934-humanoid-orientation-from-armature-not-bbox|Determine a humanoid's up/forward axis from ARMATURE bone landmarks, not from bounding-box max-spread - a T-pose arm span can beat true height]] - wspolne: humanoid, mixamo
+- [[20260807-0915-kierunek-koscia-nie-siatka|20260807-0915-kierunek-koscia-nie-siatka]] - wspolne: animacja, humanoid
+- [[20260807-1620-skinning-lerp-zapada-nadgarstek|20260807-1620-skinning-lerp-zapada-nadgarstek]] - wspolne: humanoid, rigging
 <!-- /POWIAZANE:auto -->

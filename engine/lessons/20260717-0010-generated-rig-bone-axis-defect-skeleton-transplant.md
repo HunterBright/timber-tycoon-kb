@@ -86,7 +86,7 @@ kalibruj klip na znanym-zdrowym rigu; gdy wada potwierdzona - od razu przeszczep
 - [[20260802-1620-humanoid-retarget-poza-wzorcowa|20260802-1620-humanoid-retarget-poza-wzorcowa]] - wspolne: humanoid, rigging, mixamo
 - [[20260531-0934-humanoid-orientation-from-armature-not-bbox|Determine a humanoid's up/forward axis from ARMATURE bone landmarks, not from bounding-box max-spread - a T-pose arm span can beat true height]] - wspolne: humanoid, mixamo, blender
 - [[20260531-1530-unity-humanoid-autorig-mirrored-foot|Crooked foot under Unity Humanoid = auto-rig copied the foot bind pose instead of mirroring it]] - wspolne: humanoid, mixamo, blender
+- [[20260807-1620-skinning-lerp-zapada-nadgarstek|20260807-1620-skinning-lerp-zapada-nadgarstek]] - wspolne: humanoid, rigging, blender
+- [[20260807-0915-kierunek-koscia-nie-siatka|20260807-0915-kierunek-koscia-nie-siatka]] - wspolne: retarget, humanoid
 - [[20260705-1745-mixamo-motion-only-vs-withskin-retarget|Mixamo "Without Skin" (motion-only) FBX psuje retarget Humanoid - uzyj "With Skin"]] - wspolne: humanoid, mixamo
-- [[20260726-1420-humanoid-sloty-opcjonalne-vs-wymagane|Humanoid: sloty OPCJONALNE zwracaja null na poprawnym awatarze - fallback po nazwach nie moze byc pod jednym `!isHuman`]] - wspolne: humanoid, mixamo
-- [[20260531-2000-blender-mesh-only-fbx-for-mixamo|Batch-extract clean mesh-only FBX from rigged .blend for Mixamo re-rig]] - wspolne: rigging, mixamo, blender
 <!-- /POWIAZANE:auto -->

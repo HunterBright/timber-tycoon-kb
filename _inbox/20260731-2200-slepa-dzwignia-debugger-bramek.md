@@ -71,5 +71,5 @@ od razu obleje.
 - [[gate-must-have-provable-failure-mode|Bramka bez udowodnionego trybu porazki niczego nie pilnuje]] - wspolne: sonda, qa
 - [[20260726-1810-ciagla-powloka-zamiast-osobnych-bryl|"Zle przyklejone konczyny" to nie blad ustawienia, tylko blad architektury]] - wspolne: proceduralne, blender
 - [[20260727-1309-naprawiony-suwak-uniewaznia-strojenie|Naprawa suwaka, ktory po cichu klamal, uniewaznia CALE wczesniejsze strojenie]] - wspolne: proceduralne, blender
-- [[20260731-2115-bramka-ktora-istnieje-ale-nie-odpala-sie-dla-wiekszosci-obiektow|Bramka, ktora istnieje, ale nie odpala sie dla wiekszosci obiektow]] - wspolne: bramki, blender
+- [[20260807-1620-skinning-lerp-zapada-nadgarstek|20260807-1620-skinning-lerp-zapada-nadgarstek]] - wspolne: bramki, blender
 <!-- /POWIAZANE:auto -->

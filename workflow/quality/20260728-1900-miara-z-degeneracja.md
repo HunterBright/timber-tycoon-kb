@@ -94,9 +94,9 @@ Kerf - Sawmill Tycoon, dopasowanie kupionej bazy postaci do siatki MakeHumana,
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
 - [[20260728-0030-wymiar-ktorego-nie-widzi-zadne-ujecie-dopasuj-do-wszystkich|Wymiar, którego nie widzi żadne ujęcie, mierzy się dopasowaniem do wszystkich naraz]] - wspolne: dopasowanie, pomiar
-- [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: bramki, pomiar
 - [[20260727-0510-rozproszenie-kartek-punkty-zaczepienia|Rozsypywanie kartek po szkielecie: licz NOSNIKI, nie kartki]] - wspolne: optymalizacja, pomiar
 - [[20260728-1320-mniej-wiekszych-kartek|Polowa kartek o rozmiarze wiekszym o jedna trzecia wyglada tak samo]] - wspolne: optymalizacja, pomiar
+- [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: bramki, pomiar
 - [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: bramki, pomiar
 - [[20260728-1140-miernik-ktory-klamie-inaczej|Zanim zaufasz bramce, sprawdz, czy mierzy to, co widac]] - wspolne: bramki, pomiar
 <!-- /POWIAZANE:auto -->

@@ -50,7 +50,7 @@ See also: [[river-mesh-semi-ellipse-cross-section]] for the geometry that pairs 
 - [[20260605-1250-urp-flow-shader-scroll-sign|Scrolling/flow shaders: visual motion runs OPPOSITE to the flow vector]] - wspolne: vertex-displacement, water, shader
 - [[20260710-2010-material-props-wrong-shader-inert|Ustawianie właściwości materiału bez sprawdzenia SHADERA = ciche nic + ryzyko nadpisania]] - wspolne: shader, urp
 - [[20260606-0615-meandering-river-flow-map-baked-tangent|Curved/meandering water flow via a baked flow map (arc-length V + per-vertex tangent)]] - wspolne: water, shader
+- [[20260807-2330-fallback-shadera-wysypuje-build|20260807-2330-fallback-shadera-wysypuje-build]] - wspolne: shader, urp
 - [[20260718-0800-particle-visibility-water-sorting|Czasteczki "dzialaja, ale ich nie widac" - trzy niezalezne przyczyny przy wodzie]] - wspolne: water, urp
-- [[20260531-1612-quaternius-lowpoly-nature-urp-import|Importing Quaternius "Stylized Nature MegaKit" (and similar low-poly packs) into URP]] - wspolne: shader, urp
-- [[20260702-2140-shader-property-stale-serialized-material-values|Dodanie property do shadera może aktywować STARE, ukryte wartości w materiałach]] - wspolne: shader, urp
+- [[20260807-2230-splaszczanie-oswietlenia-per-material|20260807-2230-splaszczanie-oswietlenia-per-material]] - wspolne: shader, urp
 <!-- /POWIAZANE:auto -->

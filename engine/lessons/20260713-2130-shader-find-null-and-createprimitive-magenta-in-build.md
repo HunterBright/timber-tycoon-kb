@@ -138,4 +138,5 @@ tylko to, do czego prowadzi łańcuch referencji.
 
 - [[20260713-2145-urp-transparent-material-silent-failure|URP: źle skonfigurowany materiał przezroczysty to CICHA porażka, której wykrywacz magenty nie widzi]] - wspolne: shader-stripping, urp
 - [[20260713-1900-build-early-never-built-project-hides-editor-only-bugs|Projekt, który nigdy nie był budowany, hoduje całą klasę uśpionych błędów]] - wspolne: shader-find, build
+- [[20260807-2330-fallback-shadera-wysypuje-build|20260807-2330-fallback-shadera-wysypuje-build]] - wspolne: build, urp
 <!-- /POWIAZANE:auto -->

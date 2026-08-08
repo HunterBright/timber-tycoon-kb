@@ -67,6 +67,8 @@ kazdy lint z `# noqa`, kazdy test parametryzowany lista, ktora ktos zapomnial uz
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260807-0900-normalne-nie-uspojniac-bezwarunkowo|20260807-0900-normalne-nie-uspojniac-bezwarunkowo]] - wspolne: bramki, blender
 - [[20260731-2200-slepa-dzwignia-debugger-bramek|20260731-2200-slepa-dzwignia-debugger-bramek]] - wspolne: bramki, blender
 - [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: bramki, blender
+- [[20260807-1620-skinning-lerp-zapada-nadgarstek|20260807-1620-skinning-lerp-zapada-nadgarstek]] - wspolne: bramki, blender
 <!-- /POWIAZANE:auto -->
