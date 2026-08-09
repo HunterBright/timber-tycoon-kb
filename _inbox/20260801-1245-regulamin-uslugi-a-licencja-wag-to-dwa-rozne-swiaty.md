@@ -90,6 +90,7 @@ zostaje osobnym krokiem, chyba ze producent ma tryb "wspiera topologie".
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260809-1140-cztery-pytania-do-regulaminu-uslugi-generatywnej|Cztery pytania, ktore trzeba zadac regulaminowi kazdej uslugi generatywnej, zanim jej wynik trafi do gry]] - wspolne: prawo, generatory-3d, licencje
 - [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue|TRELLIS.2 jako generator 3D bez blokady licencyjnej w UE]] - wspolne: generatory-3d, licencje, low-poly
 - [[20260808-1120-zasoby-w-dodatkach-blendera-maja-byc-cc0|Zasoby w dodatkach Blendera maja byc na CC0, a nie na GPL dodatku]] - wspolne: prawo, licencje
 - [[20260801-1140-licencja-modelu-ai-to-trzy-osobne-dokumenty|Licencja modelu AI to trzy osobne dokumenty i wystarczy, ze jeden zabroni]] - wspolne: prawo, licencje

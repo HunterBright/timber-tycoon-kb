@@ -102,6 +102,7 @@ o tę pomyłkę.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260809-1140-cztery-pytania-do-regulaminu-uslugi-generatywnej|Cztery pytania, ktore trzeba zadac regulaminowi kazdej uslugi generatywnej, zanim jej wynik trafi do gry]] - wspolne: ai, generatory-3d, licencje
 - [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue|TRELLIS.2 jako generator 3D bez blokady licencyjnej w UE]] - wspolne: ue, generatory-3d, licencje
 - [[20260801-1140-licencja-modelu-ai-to-trzy-osobne-dokumenty|Licencja modelu AI to trzy osobne dokumenty i wystarczy, ze jeden zabroni]] - wspolne: ue, licencje
 - [[20260802-1120-licencja-repo-github-to-nie-licencja-wag-na-hugging-face|Licencja repozytorium GitHub to nie jest licencja wag na Hugging Face]] - wspolne: due-diligence, licencje

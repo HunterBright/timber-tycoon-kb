@@ -127,7 +127,7 @@ https://raw.githubusercontent.com/NVlabs/nvdiffrast/main/LICENSE.txt
 - [[20260801-0825-licencja-marki-nie-jest-licencja-produktu|Licencja marki nie jest licencja produktu]] - wspolne: ue, generatory-3d, licencje
 - [[20260801-1245-regulamin-uslugi-a-licencja-wag-to-dwa-rozne-swiaty|Regulamin uslugi w chmurze i licencja pobieranych wag to dwa rozne dokumenty - sprawdzaj oba]] - wspolne: generatory-3d, licencje, low-poly
 - [[20260801-1140-licencja-modelu-ai-to-trzy-osobne-dokumenty|Licencja modelu AI to trzy osobne dokumenty i wystarczy, ze jeden zabroni]] - wspolne: ue, licencje
+- [[20260809-1140-cztery-pytania-do-regulaminu-uslugi-generatywnej|Cztery pytania, ktore trzeba zadac regulaminowi kazdej uslugi generatywnej, zanim jej wynik trafi do gry]] - wspolne: generatory-3d, licencje
 - [[20260801-1130-quadriflow-kasuje-uv-i-wagi-bez-jednej-flagi|QuadriFlow kasuje UV i wagi szkieletu, dopoki nie wlaczysz jednej flagi]] - wspolne: pipeline, low-poly, blender
 - [[20260725-0625-ai-model-community-license-excludes-eu|Nie stawiaj pipeline'u assetow na modelu AI z licencja "Community", nie czytajac pierwszej linii LICENSE]] - wspolne: licencje, pipeline
-- [[20260805-2320-bone-heat-pada-na-siatkach-wielobrylowych|20260805-2320-bone-heat-pada-na-siatkach-wielobrylowych]] - wspolne: generatory-3d, blender
 <!-- /POWIAZANE:auto -->

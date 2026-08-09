@@ -104,7 +104,7 @@ przy bramce przed oddaniem pracy.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[gate-must-have-provable-failure-mode|Bramka bez udowodnionego trybu porazki niczego nie pilnuje]] - wspolne: metodologia, sonda, qa
+- [[gate-must-have-provable-failure-mode|Bramka bez udowodnionego trybu porazki niczego nie pilnuje]] - wspolne: metodologia, qa, sonda
 - [[20260731-0025-sedzia-na-artefaktach-lapie-bledy-wlasnego-narzedzia|Sedzia oceniajacy artefakty lapie bledy w narzedziu, ktore te artefakty produkuje]] - wspolne: metodologia, qa
-- [[20260731-2200-slepa-dzwignia-debugger-bramek|20260731-2200-slepa-dzwignia-debugger-bramek]] - wspolne: sonda, qa
+- [[20260731-2200-slepa-dzwignia-debugger-bramek|20260731-2200-slepa-dzwignia-debugger-bramek]] - wspolne: qa, sonda
 <!-- /POWIAZANE:auto -->
