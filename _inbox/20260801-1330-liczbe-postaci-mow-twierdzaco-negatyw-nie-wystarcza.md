@@ -76,4 +76,5 @@ wieku, plci, budowy i koloru skory.
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
 - [[20260801-1600-generator-obrazow-nie-utrzyma-pozy-ani-anatomii-dloni|Generator obrazow nie utrzyma pozy ani anatomii dloni - to nie jest zadanie dla referencji]] - wspolne: generator-obrazow, qwen, referencja
+- [[20260809-1145-kimodo-prompt-kropka-dzieli-ruch|20260809-1145-kimodo-prompt-kropka-dzieli-ruch]] - wspolne: prompt, npc
 <!-- /POWIAZANE:auto -->

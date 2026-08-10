@@ -3,8 +3,8 @@ title: Timber Tycoon - Project Index
 type: project-index
 status: verified
 confidence: high
-verified: ''
-date: ''
+verified: '2026-08-09'
+date: '2026-08-09'
 project: Kerf - Sawmill Tycoon
 tags: []
 applies_to: []
@@ -14,7 +14,10 @@ demo: pending
 
 # Timber Tycoon - Project Index
 
-Single-player FPP tycoon, Unity 6000.3.5f1 / URP 17.3.
+Single-player FPP tycoon, Unity 6000.5.1f1 / URP 17.5.0.
+
+Source of truth: `ProjectSettings/ProjectVersion.txt` and `Packages/manifest.json`
+in `D:\Unity\Timber_Tycoon`. Both read 2026-08-09.
 
 ## Active KB entries
 (Empty - seed pending post-demo extraction)

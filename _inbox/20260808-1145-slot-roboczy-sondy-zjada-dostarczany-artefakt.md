@@ -50,6 +50,7 @@ dowodem sam z siebie, dopóki nie wiesz, kiedy powstał i co go od tamtej pory d
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260809-1440-bramka-nie-moze-przyznawac-tego-co-sprawdza|20260809-1440-bramka-nie-moze-przyznawac-tego-co-sprawdza]] - wspolne: sonda, testy
 - [[20260720-0920-red-proof-musi-uzbroic-wszystkie-checki|Dźwignia psująca jeden check może wyłączyć drugi - i jego tryb porażki zostaje nieudowodniony]] - wspolne: sonda, testy
 - [[gate-must-have-provable-failure-mode|Bramka bez udowodnionego trybu porazki niczego nie pilnuje]] - wspolne: sonda, testy
 <!-- /POWIAZANE:auto -->

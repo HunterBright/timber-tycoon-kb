@@ -60,5 +60,5 @@ przy skladaniu, jako przekrecony o 90 stopni przekroj na szwie.
 - [[20260720-1310-hash-siatki-jako-dowod-neutralnosci-refaktoru|Kanoniczny hash wyniku jako dowod neutralnosci refaktoru generatora]] - wspolne: asset-pipeline, blender
 - [[20260612-1845-blender-9slice-ui-sprites|Blender-rendered 9-slice-ready UI sprites (3D panel → ortho render → Unity Sliced sprite)]] - wspolne: low-poly, blender
 - [[terrain-skirt-against-seethrough-gap|Terrain Skirt Against the See-Through Gap]] - wspolne: low-poly, blender
-- [[20260702-1135-lowpoly-thin-planar-leaves-antipattern|Anty-pattern: cienkie płaskie „soczewki" jako liście low-poly]] - wspolne: low-poly, blender
+- [[20260809-2140-metakule-i-remesh-to-technika-bazowa-nie-wykonczeniowa|Metakule plus remesh wokselowy to technika BRYLY BAZOWEJ, nie wykonczeniowa - do postaci uzywaj loftu z funkcja ksztaltujaca]] - wspolne: low-poly, blender
 <!-- /POWIAZANE:auto -->

@@ -97,4 +97,5 @@ ma to maksimum równe zeru niezależnie od liczby próbek.
 - [[gate-must-have-provable-failure-mode|Bramka bez udowodnionego trybu porazki niczego nie pilnuje]] - wspolne: red-proof, sonda, testy
 - [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: progi, testy
 - [[20260808-1145-slot-roboczy-sondy-zjada-dostarczany-artefakt|20260808-1145-slot-roboczy-sondy-zjada-dostarczany-artefakt]] - wspolne: sonda, testy
+- [[20260809-1440-bramka-nie-moze-przyznawac-tego-co-sprawdza|20260809-1440-bramka-nie-moze-przyznawac-tego-co-sprawdza]] - wspolne: sonda, testy
 <!-- /POWIAZANE:auto -->

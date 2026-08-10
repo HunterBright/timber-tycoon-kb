@@ -97,10 +97,10 @@ wczesniej nie pokazywala.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: iteracja, bramki, pomiar
+- [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: iteracja, pomiar, bramki
 - [[20260720-0920-red-proof-musi-uzbroic-wszystkie-checki|Dźwignia psująca jeden check może wyłączyć drugi - i jego tryb porażki zostaje nieudowodniony]] - wspolne: progi, testy
-- [[20260728-1900-miara-z-degeneracja|Miara optymalizowana samotnie znajduje rozwiazanie zdegenerowane]] - wspolne: bramki, pomiar
+- [[20260728-1900-miara-z-degeneracja|Miara optymalizowana samotnie znajduje rozwiazanie zdegenerowane]] - wspolne: pomiar, bramki
 - [[20260731-0930-bramka-mierzaca-srodek-bryly-oblewa-ksztalty-niesymetryczne|Sprawdzian celujący w środek bryły oblewa kształty, których masa jest przesunięta]] - wspolne: testy, bramki
 - [[20260727-1422-bramka-musi-umiec-zaliczyc-nie-tylko-oblac|Bramka musi mieć udowodniony tryb ZALICZENIA, nie tylko PORAŻKI]] - wspolne: testy, bramki
-- [[20260728-1140-miernik-ktory-klamie-inaczej|Zanim zaufasz bramce, sprawdz, czy mierzy to, co widac]] - wspolne: bramki, pomiar
+- [[20260728-1140-miernik-ktory-klamie-inaczej|Zanim zaufasz bramce, sprawdz, czy mierzy to, co widac]] - wspolne: pomiar, bramki
 <!-- /POWIAZANE:auto -->

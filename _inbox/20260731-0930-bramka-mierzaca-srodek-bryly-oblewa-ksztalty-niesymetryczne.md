@@ -100,6 +100,7 @@ ignorować kolor czerwony, a to jest gorsze niż brak bramki.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260809-1440-bramka-nie-moze-przyznawac-tego-co-sprawdza|20260809-1440-bramka-nie-moze-przyznawac-tego-co-sprawdza]] - wspolne: testy, bramki
 - [[20260727-1422-bramka-musi-umiec-zaliczyc-nie-tylko-oblac|Bramka musi mieć udowodniony tryb ZALICZENIA, nie tylko PORAŻKI]] - wspolne: testy, bramki
 - [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: testy, bramki
 - [[20260726-1930-zielone-bramki-nie-dowodza-ze-wyglada-dobrze|Zielona tablica bramek nie dowodzi, ze cos wyglada dobrze]] - wspolne: testy, bramki

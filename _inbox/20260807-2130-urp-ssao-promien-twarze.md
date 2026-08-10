@@ -62,6 +62,6 @@ w nowe (0.134) - roznica brala sie z czego innego. Mierz, zanim przypiszesz wine
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260807-2230-splaszczanie-oswietlenia-per-material|20260807-2230-splaszczanie-oswietlenia-per-material]] - wspolne: oswietlenie, ssao, postacie
+- [[20260807-2230-splaszczanie-oswietlenia-per-material|20260807-2230-splaszczanie-oswietlenia-per-material]] - wspolne: oswietlenie, ssao, unity6
 - [[20260807-2330-fallback-shadera-wysypuje-build|20260807-2330-fallback-shadera-wysypuje-build]] - wspolne: unity6, urp
 <!-- /POWIAZANE:auto -->

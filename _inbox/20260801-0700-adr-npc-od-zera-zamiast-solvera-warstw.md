@@ -66,6 +66,8 @@ ze walczysz z ARCHITEKTURA, nie z bugami. Zmien reprezentacje problemu
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260809-2320-adr-siatki-postaci-z-generatora-nie-proceduralnie|ADR - siatki postaci bierzemy z generatora, proceduralnie robimy wszystko PO siatce]] - wspolne: adr, postacie, npc
 - [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: solver, ubrania
 - [[20260731-1050-rowne-krawedzie-ubran-bisect-plane|20260731-1050-rowne-krawedzie-ubran-bisect-plane]] - wspolne: ubrania, low-poly
+- [[20260809-2140-metakule-i-remesh-to-technika-bazowa-nie-wykonczeniowa|Metakule plus remesh wokselowy to technika BRYLY BAZOWEJ, nie wykonczeniowa - do postaci uzywaj loftu z funkcja ksztaltujaca]] - wspolne: postacie, low-poly
 <!-- /POWIAZANE:auto -->

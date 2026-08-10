@@ -61,5 +61,6 @@ save'a (poziom 8) i warianty pory dnia. Sonda build-smoke 225/225 po zmianach.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260809-1620-steam-strona-sklepu-edycja-programowa|Steam - co da się zmienić na stronie sklepu programowo, a co się zatrzaskuje po publikacji]] - wspolne: steam, automation
 - [[20260726-1415-powershell-nie-czeka-na-unity-batchmode|PowerShell nie czeka na Unity.exe ani na exe gry - kontrola swiezosci builda strzela za wczesnie]] - wspolne: automation, build
 <!-- /POWIAZANE:auto -->

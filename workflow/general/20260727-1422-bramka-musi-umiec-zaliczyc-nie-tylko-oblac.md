@@ -92,4 +92,5 @@ wspólnego ze źródłem.
 - [[20260726-1930-zielone-bramki-nie-dowodza-ze-wyglada-dobrze|Zielona tablica bramek nie dowodzi, ze cos wyglada dobrze]] - wspolne: testy, bramki
 - [[20260731-0930-bramka-mierzaca-srodek-bryly-oblewa-ksztalty-niesymetryczne|Sprawdzian celujący w środek bryły oblewa kształty, których masa jest przesunięta]] - wspolne: testy, bramki
 - [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: testy, bramki
+- [[20260809-1440-bramka-nie-moze-przyznawac-tego-co-sprawdza|20260809-1440-bramka-nie-moze-przyznawac-tego-co-sprawdza]] - wspolne: testy, bramki
 <!-- /POWIAZANE:auto -->

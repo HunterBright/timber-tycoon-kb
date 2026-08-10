@@ -51,3 +51,12 @@ Planowanie z buforem "traci" kilka dni, gdy wszystko pojdzie gladko - ale brak b
 - **macOS przez SteamPipe** potrafi zgubic bit wykonywalny w .app / uniewaznic notaryzacje Apple - najlepiej wgrywac build Maca z Maca (builder_osx).
 - **Steam Cloud bez kodu (Auto-Cloud)**: dla gry piszacej save na dysk wystarcza Auto-Cloud (folder + pattern), zamiast integracji Cloud API. Celowac w podfolder zapisow, nie caly persistentDataPath (ustawienia per-maszyna i telemetria maja zostac lokalne).
 - App Icon aktualnie **184x184 JPG** (nie stare 32x32) - ale przy grafikach ostatecznym zrodlem prawdy jest pole w panelu.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260809-1620-steam-strona-sklepu-edycja-programowa|Steam - co da się zmienić na stronie sklepu programowo, a co się zatrzaskuje po publikacji]] - wspolne: publishing, steamworks, steam
+- [[20260809-1120-steam-obraz-w-opisie-bez-rozszerzenia|20260809-1120-steam-obraz-w-opisie-bez-rozszerzenia]] - wspolne: steamworks, steam
+<!-- /POWIAZANE:auto -->

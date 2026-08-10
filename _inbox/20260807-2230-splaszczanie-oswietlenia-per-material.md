@@ -76,7 +76,7 @@ nie ruszono.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260807-2130-urp-ssao-promien-twarze|20260807-2130-urp-ssao-promien-twarze]] - wspolne: oswietlenie, ssao, postacie
+- [[20260807-2130-urp-ssao-promien-twarze|20260807-2130-urp-ssao-promien-twarze]] - wspolne: oswietlenie, ssao, unity6
 - [[20260807-2330-fallback-shadera-wysypuje-build|20260807-2330-fallback-shadera-wysypuje-build]] - wspolne: unity6, shader, urp
 - [[four-phase-weighted-smoothstep-day-night|4-Phase Weighted Smoothstep Day/Night Transition]] - wspolne: shader, urp
 - [[procedural-skybox-sun-moon-trick|Procedural Skybox Sun/Moon Trick]] - wspolne: shader, urp
