@@ -1,8 +1,8 @@
 ---
 title: Blender ma w standardzie gotowe szkielety zwierzat (Rigify), zanim siegniesz po AI
 type: pattern
-status: draft
-confidence: medium
+status: needs-reproduction
+confidence: low
 verified: ''
 date: 2026-08-05
 project: GameDevOS
@@ -81,6 +81,19 @@ zainstalowany**, i w calej bazie wiedzy nie bylo o tym ani jednej wzmianki.
 
 Reguła ogolniejsza: **zanim zaczniesz szukac nowego narzedzia, sprawdz, co juz
 jest w tym, ktore masz**. To samo pytanie zadaj przy Unity i przy Claude Code.
+
+> **Adnotacja weryfikatora 2026-08-10.** Lista metarigow jest poprawna (w instalacji
+> Blendera 5.2 LTS katalog `metarigs/Animals/` zawiera dokladnie `bird.py`, `cat.py`,
+> `horse.py`, `shark.py`, `wolf.py`, a `metarigs/Basic/` - `basic_human.py`
+> i `basic_quadruped.py`), podobnie jak to, ze Rigify jest dodatkiem wbudowanym
+> i wystarczy go wlaczyc. **Sprzeczne z pomiarem jest zdanie o koszcie**: "dopasowanie
+> kosci wilka do wlasnego potwora to zadanie na kilkanascie minut". Metarig wilka ma
+> w zrodle 190 kosci, z czego przy wlaczonym X-Mirror czlowiek musi ustawic 108, w tym
+> pelny rig twarzy i lancuchy palcow odziedziczone po metarigu ludzkim. Wlasciwym punktem
+> startu jest `basic_quadruped` (34 kosci, 23 do ustawienia) - patrz
+> [[20260809-1740-rigify-wolf-nie-jest-rigiem-do-gry]], ktory te sciezke zmierzyl
+> i ktory ten wpis w tej jednej kwestii zastepuje. Zrodlo:
+> `scripts/addons_core/rigify/metarigs/` w instalacji Blendera 5.2 LTS.
 
 <!-- POWIAZANE:auto -->
 ## Powiazane

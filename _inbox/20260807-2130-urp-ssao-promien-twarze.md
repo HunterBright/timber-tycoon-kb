@@ -4,7 +4,10 @@ project: Kerf - Sawmill Tycoon
 suggested-category: engine/lessons
 tags: [urp, ssao, ambient-occlusion, postacie, oswietlenie, unity6, pomiar]
 date: 2026-08-07
-status: draft
+status: verified
+confidence: high
+verified: 2026-08-10
+source: 'kod zrodlowy URP 17.5.0 (Unity 6000.5): Runtime/RendererFeatures/ScreenSpaceAmbientOcclusion.cs (Radius=0.035f, DirectLightingStrength=0.25f, AOMethod=BlueNoise), Runtime/Passes/ScreenSpaceAmbientOcclusionPass.cs:87 (radiusMultiplier=1.5f dla BlueNoise), ShaderLibrary/SSAO.hlsl:31,423 (RADIUS porownywany z roznica glebokosci liniowej, czyli metry). Repozytorium: https://github.com/Unity-Technologies/Graphics'
 ---
 
 # Promien SSAO w URP jest w METRACH i domyslnie mikroskopijny - przy twarzach decyduje o wszystkim

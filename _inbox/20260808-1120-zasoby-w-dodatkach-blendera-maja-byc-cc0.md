@@ -1,9 +1,9 @@
 ---
 title: Zasoby w dodatkach Blendera maja byc na CC0, a nie na GPL dodatku
 type: lesson
-status: draft
+status: verified
 confidence: high
-verified: 2026-08-08
+verified: 2026-08-10
 tags: [blender, licencje, assety, dodatki, prawo]
 date: 2026-08-08
 project: GameDevOS
@@ -93,6 +93,17 @@ bibliotek poz, zestawow materialow, presetow geometrii i paczek dzwiekow.
 ## Powiazane
 
 - [[20260805-1815-rigify-ma-gotowe-szkielety-zwierzat]]
+
+> **Adnotacja weryfikatora 2026-08-10.** Regula trojstopniowa potwierdzona doslownie
+> w zrodle podrecznika Blendera (`manual/advanced/extensions/licenses.rst`): dodatki
+> GPL-3.0-or-later wymagane, motywy GPL-zgodne, "for assets used in add-ons, the required
+> license is Public Domain (CC0)". Liczba "dokladnie dwa dodatki z para GPL plus CC0" tez
+> sie potwierdza. Natomiast liczby 7 (MIT), 3 (CC0) i 2 (Zlib) to liczby rozszerzen,
+> ktore **wymieniaja** dana licencje, a nie majacych ja jako jedyna: wedlug oficjalnego
+> API (https://extensions.blender.org/api/v1/extensions/, pomiar 2026-08-10, 1345 wierszy)
+> czystego MIT jest 2, czystego CC0 1, czystego Zlib 0. Zdanie "katalog dopuszcza tez
+> czysty MIT" jest wiec za mocne - czysty MIT u dodatku lamie regule, ktora ten sam
+> katalog oglasza, i jest raczej dowodem slabej egzekucji niz realnego wyboru.
 
 <!-- POWIAZANE:auto -->
 ## Powiazane

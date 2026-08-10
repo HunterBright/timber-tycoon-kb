@@ -1,7 +1,7 @@
 ---
 title: Nieobecnosc w jednym kanale nie jest nieobecnoscia w swiecie
 type: lesson
-status: draft
+status: verified
 confidence: high
 verified: '2026-08-10'
 tags: [weryfikacja, zwiad, metodyka, falszywy-negatyw]

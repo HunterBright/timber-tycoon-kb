@@ -4,7 +4,10 @@ project: Kerf - Sawmill Tycoon
 suggested-category: engine/lessons
 tags: [unity, asmdef, upm, pakiety, kompilacja, steamworks]
 date: 2026-08-09
-status: draft
+status: verified
+confidence: high
+verified: 2026-08-10
+source: 'https://docs.unity3d.com/Manual/assembly-definitions-referencing.html - "To prevent a custom assembly being automatically referenced by the predefined assemblies, deselect the Assembly Definition''s Auto Referenced property"; czyli Auto Referenced dotyczy zbiorow wbudowanych, nie zbiorow z wlasnym asmdef'
 ---
 
 # Własny asmdef unieważnia „autoReferenced" pakietu z Package Managera

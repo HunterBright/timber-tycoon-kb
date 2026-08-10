@@ -1,7 +1,7 @@
 ---
 title: Migawka zamiast zapytania, gdy kanal nie ma daty zmiany
 type: pattern
-status: draft
+status: verified
 confidence: high
 verified: '2026-08-10'
 tags: [monitoring, zwiad, licencje, ceny, narzedzia, radar]

@@ -1,8 +1,8 @@
 ---
 title: Metarig wilka w Rigify to rig filmowy, nie growy - do gry idzie basic_quadruped
 type: lesson
-status: draft
-confidence: high
+status: needs-reproduction
+confidence: low
 verified: '2026-08-09'
 date: 2026-08-09
 project: GameDevOS
@@ -122,6 +122,23 @@ bezokiennie, zanim ktokolwiek otworzy Blendera.
 - [[20260809-1755-mobjaverse-jako-punkt-odniesienia-dla-rigow]] - skad wzielismy mediane 30 kosci
 - Blender ma szesc metarigow zwierzat w standardzie: wilk, kot, kon, ptak,
   rekin, czworonog podstawowy (zmierzone `dir(bpy.ops.object)`)
+
+> **Adnotacja weryfikatora 2026-08-10.** Wniosek glowny (startowac z `basic_quadruped`,
+> nie z `wolf`) potwierdzony w kodzie zrodlowym Rigify - liczby kosci metarigow zgadzaja
+> sie co do jednej (wilk 190, kot 174, kon 70, ptak 75, rekin 35, czworonog 34), podobnie
+> jak obecnosc w wilku kosci twarzy, `breast.L/R` i lancuchow palcow. Dwa zdania sa jednak
+> **sprzeczne ze zrodlem**. Pierwsze: "czego `basic_quadruped` nie ma i trzeba dolozyc:
+> ogona, szyi i glowy" - w pliku `metarigs/Basic/basic_quadruped.py` kosc `spine.003` ma
+> przypisany typ `spines.basic_tail`, a `spine.009` typ `spines.super_head`, czyli ogon
+> i glowa sa w metarigu skonfigurowane; podrecznik Blendera opisuje ten metarig jako
+> zawierajacy "the new tail option in the spine". Brakuje realnie tylko zuchwy. Drugie:
+> "132 kosci do ustawienia recznie przy wilku (74 + 58)" - w zrodle wilk ma 26 kosci
+> w osi symetrii i po 82 na strone, czyli przy X-Mirror wychodzi 108, a nie 132; skladniki
+> 74 i 58 nie odpowiadaja niczemu w pliku. Liczba 23 dla `basic_quadruped` jest poprawna
+> (12 osiowych + 11 z jednej strony), ale zawiera `breast.L`, czyli te sama pozostalosc
+> po metarigu ludzkim, ktora wpis podaje jako argument rozstrzygajacy przeciw wilkowi.
+> Zrodlo: `scripts/addons_core/rigify/metarigs/` w instalacji Blendera 5.2 LTS oraz
+> https://projects.blender.org/blender/blender-manual (metarigs).
 
 <!-- POWIAZANE:auto -->
 ## Powiazane
