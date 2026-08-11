@@ -116,3 +116,11 @@ zaden z tych katalogow na nie nie odpowiada.**
 ## Powiazane
 - [[20260810-1015-nieobecnosc-w-jednym-kanale-nie-jest-nieobecnoscia-w-swiecie]]
 - [[20260809-1140-cztery-pytania-do-regulaminu-uslugi-generatywnej]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260811-0940-cena-u-posrednika-to-nie-cena-u-producenta|Cena u posrednika to cena wybranego dostawcy, nie cena producenta]] - wspolne: ceny, radar
+<!-- /POWIAZANE:auto -->

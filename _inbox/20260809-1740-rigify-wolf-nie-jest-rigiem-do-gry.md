@@ -147,8 +147,8 @@ bezokiennie, zanim ktokolwiek otworzy Blendera.
 
 - [[20260805-1815-rigify-ma-gotowe-szkielety-zwierzat|Blender ma w standardzie gotowe szkielety zwierzat (Rigify), zanim siegniesz po AI]] - wspolne: rigify, czworonogi, low-poly
 - [[20260809-1755-mobjaverse-jako-punkt-odniesienia-dla-rigow|Mobjaverse - nazwy kosci sa puste w 80 procentach, wiec to punkt odniesienia dla struktury, nie zrodlo animacji]] - wspolne: rigowanie, czworonogi
+- [[20260811-1520-cloudrig-daje-czysty-rig-do-gry-bo-odwraca-domyslne-use-deform|CloudRig daje czysty rig do gry, bo odwraca domyslne use_deform Blendera]] - wspolne: czworonogi, low-poly, blender
 - [[20260801-1130-quadriflow-kasuje-uv-i-wagi-bez-jednej-flagi|QuadriFlow kasuje UV i wagi szkieletu, dopoki nie wlaczysz jednej flagi]] - wspolne: low-poly, blender
 - [[20260731-1050-rowne-krawedzie-ubran-bisect-plane|20260731-1050-rowne-krawedzie-ubran-bisect-plane]] - wspolne: low-poly, blender
 - [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue|TRELLIS.2 jako generator 3D bez blokady licencyjnej w UE]] - wspolne: low-poly, blender
-- [[20260807-1140-laczenie-siatek-a-animowany-przodek|Laczenie siatek pod wywolania rysowania a animowany przodek]] - wspolne: low-poly, blender
 <!-- /POWIAZANE:auto -->

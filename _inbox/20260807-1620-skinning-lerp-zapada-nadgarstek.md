@@ -95,5 +95,5 @@ parze PRZED/PO, o ktorej niezaleznie wiesz, ze sie rozni.
 - [[20260717-0010-generated-rig-bone-axis-defect-skeleton-transplant|Rigi z generatorów AI (Hunyuan): osie kości rozjechane z frontem modelu = wykrzywiona stopa w retargecie; lek = przeszczep szkieletu w Blenderze]] - wspolne: humanoid, rigging, blender
 - [[20260802-1620-humanoid-retarget-poza-wzorcowa|20260802-1620-humanoid-retarget-poza-wzorcowa]] - wspolne: humanoid, rigging
 - [[20260805-2320-bone-heat-pada-na-siatkach-wielobrylowych|20260805-2320-bone-heat-pada-na-siatkach-wielobrylowych]] - wspolne: skinning, blender
-- [[20260731-2200-slepa-dzwignia-debugger-bramek|20260731-2200-slepa-dzwignia-debugger-bramek]] - wspolne: bramki, blender
+- [[20260811-1520-cloudrig-daje-czysty-rig-do-gry-bo-odwraca-domyslne-use-deform|CloudRig daje czysty rig do gry, bo odwraca domyslne use_deform Blendera]] - wspolne: rigging, blender
 <!-- /POWIAZANE:auto -->

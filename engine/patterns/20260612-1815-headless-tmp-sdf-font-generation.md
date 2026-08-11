@@ -66,7 +66,7 @@ Validated in Timber_Tycoon 2026-06-12 (Unity 6000.3, ugui 2.0.0): 329 glyphs, at
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[typography-accessibility-stack|Typography + Accessibility Stack]] - wspolne: sdf, font, textmeshpro
+- [[typography-accessibility-stack|Typography + Accessibility Stack]] - wspolne: font, sdf, textmeshpro
 - [[20260623-0840-unity-cjk-cyrillic-fonts-tmp-and-legacy-text|Renderowanie CJK + cyrylicy w grze Unity (TextMeshPro + legacy UI.Text)]] - wspolne: font, localization, textmeshpro
 - [[20260617-1210-tmp-text-legibility-on-textured-bg|TextMeshPro: czytelność na teksturowanym tle (drewno) + warstwy modali]] - wspolne: tmp, textmeshpro
 - [[20260707-1320-unity-ugui-fixed-preferredheight-clips-multiline-localized-text|uGUI toast/plaque with a fixed LayoutElement.preferredHeight clips multi-line and localized text]] - wspolne: tmp, localization

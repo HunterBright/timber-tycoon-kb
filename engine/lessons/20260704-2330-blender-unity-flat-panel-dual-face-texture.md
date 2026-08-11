@@ -63,5 +63,5 @@ zanim się zrozumie, że to wybór ściany przez flip osi.
 - [[20260802-0500-naprawa-twarzy-w-teksturze-generatora|20260802-0500-naprawa-twarzy-w-teksturze-generatora]] - wspolne: uv, low-poly, blender
 - [[20260704-1322-blender-file-image-scale-bake-revert|Blender: image.scale() na file-backed image nie trzyma się podczas bake - użyj images.new()]] - wspolne: texture, blender
 - [[20260725-1930-blender-pixels-buffer-not-converted-to-srgb-on-png-save|Blender nie przelicza `image.pixels[]` na sRGB przy zapisie PNG]] - wspolne: texture, blender
-- [[20260802-0210-fbx-blender-unity-obrot-i-tekstury|20260802-0210-fbx-blender-unity-obrot-i-tekstury]] - wspolne: fbx, low-poly, blender
+- [[20260811-1520-cloudrig-daje-czysty-rig-do-gry-bo-odwraca-domyslne-use-deform|CloudRig daje czysty rig do gry, bo odwraca domyslne use_deform Blendera]] - wspolne: fbx, low-poly, blender
 <!-- /POWIAZANE:auto -->

@@ -73,6 +73,6 @@ Any engine/spawn system that forces uniform scale on instantiated objects (very 
 - [[fbx-long-axis-detect-programmatically|Don't assume an FBX mesh's axis - detect the longest axis programmatically from bounds]] - wspolne: axis, fbx, blender
 - [[20260531-1705-normalize-assetpack-scale-via-modelimporter|Normalize Inconsistent Asset-Pack Scale at the Source (ModelImporter.globalScale)]] - wspolne: scale, fbx
 - [[20260802-0950-mierz-wyeksportowany-plik-nie-policzona-skale|20260802-0950-mierz-wyeksportowany-plik-nie-policzona-skale]] - wspolne: fbx, blender
+- [[20260811-1520-cloudrig-daje-czysty-rig-do-gry-bo-odwraca-domyslne-use-deform|CloudRig daje czysty rig do gry, bo odwraca domyslne use_deform Blendera]] - wspolne: fbx, blender
 - [[20260531-0934-tripo-polygon-soup-inverted-winding-fix|Tripo / AI-generated meshes import as "polygon soup" - see-through holes under single-sided rendering are a winding problem caused by UNWELDED verts, not interior faces]] - wspolne: fbx, blender
-- [[20260626-1203-fbx-pivot-direction-vs-procedural-placement|Pivot/geometry direction of an FBX must match what a procedural placement tool assumes]] - wspolne: fbx, blender
 <!-- /POWIAZANE:auto -->

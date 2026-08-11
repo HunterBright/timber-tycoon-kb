@@ -56,3 +56,11 @@ mu wszystko naraz: styl, budowę przedmiotów i logikę sceny. Zasada ogólna br
   poświaty i gradienty, które progiem koloru się nie łapią, a są ciągłe z tłem.
 - **Generuj 4-6 kandydatów i wybieraj okiem.** Budowa narzędzi wychodzi losowo; jedna próba
   to loteria, sześć prób to wybór.
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260810-2140-model-edytujacy-psuje-to-czego-nie-dotyka|Model edytujący psuje elementy, o które nie proszono - do drobnych poprawek użyć pikseli]] - wspolne: grafika, comfyui
+<!-- /POWIAZANE:auto -->

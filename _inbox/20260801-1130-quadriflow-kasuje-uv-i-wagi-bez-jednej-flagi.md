@@ -111,5 +111,5 @@ kazdego modelu.
 - [[20260807-0900-normalne-nie-uspojniac-bezwarunkowo|20260807-0900-normalne-nie-uspojniac-bezwarunkowo]] - wspolne: pipeline, blender
 - [[20260807-1155-skrypt-zarzadzany-blender-bezokienkowy|Skrypt zarzadzany - dyscyplina edycji Blendera bezokienkowo]] - wspolne: pipeline, blender
 - [[20260809-1740-rigify-wolf-nie-jest-rigiem-do-gry|Metarig wilka w Rigify to rig filmowy, nie growy - do gry idzie basic_quadruped]] - wspolne: low-poly, blender
-- [[20260731-1050-rowne-krawedzie-ubran-bisect-plane|20260731-1050-rowne-krawedzie-ubran-bisect-plane]] - wspolne: low-poly, blender
+- [[20260811-1520-cloudrig-daje-czysty-rig-do-gry-bo-odwraca-domyslne-use-deform|CloudRig daje czysty rig do gry, bo odwraca domyslne use_deform Blendera]] - wspolne: low-poly, blender
 <!-- /POWIAZANE:auto -->

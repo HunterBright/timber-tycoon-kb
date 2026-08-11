@@ -56,10 +56,10 @@ która go redukuje.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
-- [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: iteracja, pomiar, bramki
+- [[20260728-1500-bramka-ponad-sufitem|Prog bramki ponad zmierzonym sufitem zamienia kazda runde w porazke]] - wspolne: iteracja, bramki, pomiar
 - [[20260731-1055-post-krok-poza-petla-solvera|20260731-1055-post-krok-poza-petla-solvera]] - wspolne: iteracja, solver
 - [[20260801-0700-adr-npc-od-zera-zamiast-solvera-warstw|20260801-0700-adr-npc-od-zera-zamiast-solvera-warstw]] - wspolne: solver, ubrania
 - [[20260731-2200-slepa-dzwignia-debugger-bramek|20260731-2200-slepa-dzwignia-debugger-bramek]] - wspolne: proceduralne, bramki, blender
 - [[20260731-1050-rowne-krawedzie-ubran-bisect-plane|20260731-1050-rowne-krawedzie-ubran-bisect-plane]] - wspolne: ubrania, blender
-- [[20260728-1140-miernik-ktory-klamie-inaczej|Zanim zaufasz bramce, sprawdz, czy mierzy to, co widac]] - wspolne: pomiar, bramki
+- [[20260728-1140-miernik-ktory-klamie-inaczej|Zanim zaufasz bramce, sprawdz, czy mierzy to, co widac]] - wspolne: bramki, pomiar
 <!-- /POWIAZANE:auto -->

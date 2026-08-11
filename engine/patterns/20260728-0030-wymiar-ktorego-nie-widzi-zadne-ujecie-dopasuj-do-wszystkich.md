@@ -89,6 +89,6 @@ dają wyniki różniące się dwukrotnie.
 - [[20260727-2320-sylwetka-nie-rozdziela-czesci-ktore-sie-stykaja|Sylwetka nie rozdziela dwóch rzeczy, które się stykają - i milczy o tym]] - wspolne: sylwetka, pomiar, blender
 - [[20260728-1900-miara-z-degeneracja|Miara optymalizowana samotnie znajduje rozwiazanie zdegenerowane]] - wspolne: dopasowanie, pomiar
 - [[20260727-2140-linijka-wysokosci-na-zdjeciu-jest-krzywa|"Ile procent kadru, tyle procent wysokości" to nieprawda, gdy obiektyw patrzy z góry]] - wspolne: kamera, pomiar
-- [[20260727-2145-sprawdzaj-czytnik-obrazu-renderem-wlasnego-modelu|Czytnik obrazu sprawdzaj renderem własnego modelu, nie obrazkiem, który sam sobie narysowałeś]] - wspolne: pomiar, blender
 - [[20260727-1924-maska-sylwetki-z-dziurami-w-cieniu|Maska sylwetki może mieć dziury w środku - i przez lata tego nie widać]] - wspolne: sylwetka, blender
+- [[20260727-2145-sprawdzaj-czytnik-obrazu-renderem-wlasnego-modelu|Czytnik obrazu sprawdzaj renderem własnego modelu, nie obrazkiem, który sam sobie narysowałeś]] - wspolne: pomiar, blender
 <!-- /POWIAZANE:auto -->

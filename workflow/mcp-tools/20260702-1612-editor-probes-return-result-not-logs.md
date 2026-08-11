@@ -52,7 +52,7 @@ Ka偶da sonda/diagnostyka odpalana przez MCP, szczeg贸lnie po przej艣ciach Play鈫
 - [[20260710-2250-unity-autonomous-smoke-runner-flag-file|Autonomiczny runner smoke test贸w w Unity: plik-flaga + plik wynik贸w]] - wspolne: play-mode, coplay, mcp
 - [[20260609-1045-coplay-execute-script-roslyn-diagnostic-crash|Coplay execute_script crashes opaquely on ANY C# compiler diagnostic (incl. a plain compile error)]] - wspolne: coplay, editor-scripting, mcp
 - [[20260710-2252-coplay-execute-script-tmpro-compile-fail|Coplay execute_script nie kompiluje plik贸w z `using TMPro;`]] - wspolne: coplay, editor-scripting, mcp
+- [[20260611-2055-editor-playmode-test-harness-quirks|Editor-driven Play Mode test automation - three engine quirks that break naive harnesses]] - wspolne: play-mode, editor-scripting
 - [[20260531-1610-coplay-execute-script-masks-compile-errors|Coplay `execute_script` Hides Compile Errors - Use Unity-Compiled Editor Scripts Instead]] - wspolne: coplay, mcp
 - [[20260606-1628-mcp-scene-capture-renders-main-scene-not-prefab-stage|MCP Scene-Capture Renders the Active Scene, Not an Open Prefab Stage]] - wspolne: coplay, mcp
-- [[20260611-coplay-set-property-color-json-silent-white|Coplay set_property: Color fields need comma-separated r,g,b,a - JSON silently writes white]] - wspolne: coplay, mcp
 <!-- /POWIAZANE:auto -->
