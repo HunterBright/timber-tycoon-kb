@@ -61,5 +61,5 @@ a użytkownik odrzuca go w 5 sekund słowami "to nie wygląda jak nasza gra".
 - [[character-pipeline-tripo-mixamo-unity|Character pipeline: Tripo mesh → Mixamo rig → Unity (clean, working recipe)]] - wspolne: character, blender
 - [[20260531-1500-mixamo-clean-mesh-extraction|Extract a clean mesh-only FBX from a rigged source for Mixamo re-rig]] - wspolne: character, blender
 - [[20260711-1647-blender-prop-contact-interpenetrate-not-gap|Anty-wzorzec: szczeliny powietrza jako ochrona przed z-fightingiem (lewitujące propy)]] - wspolne: qa, blender
-- [[20260725-2050-kontrakt-liczbowy-bez-nazw-osi|Wspolny kontrakt liczbowy dla kilku agentow, ktory nie nazywa osi]] - wspolne: asset-pipeline, blender
+- [[20260717-0010-generated-rig-bone-axis-defect-skeleton-transplant|Rigi z generatorów AI (Hunyuan): osie kości rozjechane z frontem modelu = wykrzywiona stopa w retargecie; lek = przeszczep szkieletu w Blenderze]] - wspolne: hunyuan, blender
 <!-- /POWIAZANE:auto -->

@@ -50,6 +50,27 @@ Model rysuje poświatę jako część obrazu, nie jako osobną warstwę. Nie ma 
 6. Wejście w obszar sąsiedniej litery przez poziomą rampę alfa (15 px), żeby nie
    zostawić pionowego szwu.
 
+## Druga przyczyna: kadrowanie ucina efekt świetlny
+
+Ten sam objaw miał drugie źródło, znacznie gorsze, bo niewidoczne w pliku źródłowym.
+Awatar powstawał przez wycięcie z logotypu prostokąta obejmującego litery i wklejenie go
+na kwadratowe płótno. Poświata sięga **dalej niż litery**, więc prostokąt ucinał ją w pół
+drogi i po wklejeniu zostawały dwie proste poziome linie na płaskim tle.
+
+Wykrycie jednym pomiarem: średnia jasność wiersza liczona **tylko na kolumnach, w których
+stoi świecący element**. Szew widać jako skok między sąsiednimi wierszami (tu 18,5 → 47).
+Liczenie średniej po całej szerokości go maskuje — tonie w tle.
+
+Zasada: **efekt świetlny wyznacza kadr, nie kształt.** Przy kadrowaniu czegokolwiek
+z poświatą, cieniem albo rozmyciem bierz obwiednię efektu, nie obwiednię obiektu — albo
+policz efekt od nowa po kadrowaniu, na docelowym płótnie.
+
+## Ziarno tła a waga animacji
+
+Odtworzone tło z syntetycznym szumem rozbija kompresję LZW: ten sam GIF ważył 4896 KB
+z ziarnem i 1281 KB bez. Ziarno ma sens tylko tam, gdzie oryginał faktycznie jest ziarnisty
+i łata byłaby widoczna. Na gładkim tle to czysta strata.
+
 ## What didn't work
 
 **Przemalowanie całego prostokąta wokół litery.** Pierwsza wersja podmieniała każdy piksel
@@ -68,3 +89,11 @@ na mapach emisji w Unity — poświatę wokół kształtu lepiej policzyć z mas
 
 ## Related
 - [[podpikselowe-skalowanie-logotypu-polem-odleglosci]]
+
+<!-- POWIAZANE:auto -->
+## Powiazane
+
+*Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
+
+- [[20260811-1735-edycja-ksztaltu-przez-roznice-pokrycia|Edycja wygładzonego kształtu w rastrze — licz różnicę pokrycia, nie przemalowuj]] - wspolne: obrobka-obrazu, numpy
+<!-- /POWIAZANE:auto -->

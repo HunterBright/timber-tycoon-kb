@@ -94,4 +94,5 @@ Spor o to, na ktorej wersji edytora stoi projekt, rozstrzyga jeden plik
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
 - [[20260807-1155-skrypt-zarzadzany-blender-bezokienkowy|Skrypt zarzadzany - dyscyplina edycji Blendera bezokienkowo]] - wspolne: agent, automatyzacja
+- [[20260813-1545-dlugie-polecenia-unity-zadania-odczepione|Dlugie polecenia w Unity z wiersza polecen - zadania odczepione zamiast czekania na polaczenie]] - wspolne: agent, automatyzacja
 <!-- /POWIAZANE:auto -->

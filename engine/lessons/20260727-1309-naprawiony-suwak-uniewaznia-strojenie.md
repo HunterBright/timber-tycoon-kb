@@ -78,5 +78,6 @@ kolejna wartosc.
 - [[20260726-1810-ciagla-powloka-zamiast-osobnych-bryl|"Zle przyklejone konczyny" to nie blad ustawienia, tylko blad architektury]] - wspolne: proceduralne, blender
 - [[20260727-0525-jeden-suwak-dwie-role|Jeden suwak sterujacy dwiema roznymi rzeczami]] - wspolne: suwaki, blender
 - [[20260731-2200-slepa-dzwignia-debugger-bramek|20260731-2200-slepa-dzwignia-debugger-bramek]] - wspolne: proceduralne, blender
+- [[20260813-1520-plik-licencji-poziom-nizej-falszywe-brak|Szukanie licencji tylko w korzeniu repozytorium daje falszywe "brak licencji"]] - wspolne: narzedzia, blender
 - [[20260801-0500-gestszy-pomiar-odslania-dlug|20260801-0500-gestszy-pomiar-odslania-dlug]] - wspolne: proceduralne, blender
 <!-- /POWIAZANE:auto -->

@@ -123,4 +123,5 @@ zaden z tych katalogow na nie nie odpowiada.**
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
 - [[20260811-0940-cena-u-posrednika-to-nie-cena-u-producenta|Cena u posrednika to cena wybranego dostawcy, nie cena producenta]] - wspolne: ceny, radar
+- [[20260813-1520-plik-licencji-poziom-nizej-falszywe-brak|Szukanie licencji tylko w korzeniu repozytorium daje falszywe "brak licencji"]] - wspolne: narzedzia, licencje
 <!-- /POWIAZANE:auto -->

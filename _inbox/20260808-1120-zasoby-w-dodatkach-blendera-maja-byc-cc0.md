@@ -110,6 +110,7 @@ bibliotek poz, zestawow materialow, presetow geometrii i paczek dzwiekow.
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260813-1520-plik-licencji-poziom-nizej-falszywe-brak|Szukanie licencji tylko w korzeniu repozytorium daje falszywe "brak licencji"]] - wspolne: dodatki, licencje, blender
 - [[20260801-1245-regulamin-uslugi-a-licencja-wag-to-dwa-rozne-swiaty|Regulamin uslugi w chmurze i licencja pobieranych wag to dwa rozne dokumenty - sprawdzaj oba]] - wspolne: prawo, licencje
 - [[20260801-1140-licencja-modelu-ai-to-trzy-osobne-dokumenty|Licencja modelu AI to trzy osobne dokumenty i wystarczy, ze jeden zabroni]] - wspolne: prawo, licencje
 - [[20260809-1140-cztery-pytania-do-regulaminu-uslugi-generatywnej|Cztery pytania, ktore trzeba zadac regulaminowi kazdej uslugi generatywnej, zanim jej wynik trafi do gry]] - wspolne: prawo, licencje

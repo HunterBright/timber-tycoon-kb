@@ -108,4 +108,6 @@ wygody i staje się warunkiem wykonalności.
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
 - [[20260810-1930-discord-automod-regex-i-blokada-linkow|Blokada linków na Discordzie działa tylko przez AutoMod, nie przez uprawnienia]] - wspolne: uprawnienia, discord
+- [[20260813-0800-panel-saas-bez-api-zjada-automatyzacje|Panel SaaS bez API zjada automatyzację przeglądarkową — rozpoznaj to po trzech objawach]] - wspolne: discord, automatyzacja
+- [[20260813-0640-success-z-mostu-mcp-nie-dowodzi-zapisu|"success" z mostu MCP nie dowodzi, że usługa przyjęła zmianę]] - wspolne: discord, mcp
 <!-- /POWIAZANE:auto -->

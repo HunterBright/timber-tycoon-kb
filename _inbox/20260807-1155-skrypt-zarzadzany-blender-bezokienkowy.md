@@ -89,10 +89,10 @@ inaczej bysmy nie zobaczyli. To jest ten sam wzorzec przeniesiony na pliki
 
 *Dobrane automatycznie po wspolnych tagach. Kolejnosc wedlug sily zwiazku.*
 
+- [[20260813-1545-dlugie-polecenia-unity-zadania-odczepione|Dlugie polecenia w Unity z wiersza polecen - zadania odczepione zamiast czekania na polaczenie]] - wspolne: agent, automatyzacja, pipeline
 - [[20260805-1520-przedawnienie-wiedzy-jest-funkcja-typu-wpisu|Przedawnienie wpisu jest funkcja jego TYPU, nie uplywu czasu]] - wspolne: agent, automatyzacja
 - [[ANALIZA-ROZMOWY|Analiza rozmowy o automatyzacji pipeline'u - mocne i słabe strony]] - wspolne: automatyzacja, pipeline
 - [[DZWIGNIA-UNITY-CLI|Dźwignia, która stoi nieużywana - własne komendy w Unity CLI]] - wspolne: automatyzacja, pipeline
 - [[20260807-1140-laczenie-siatek-a-animowany-przodek|Laczenie siatek pod wywolania rysowania a animowany przodek]] - wspolne: headless, blender
 - [[20260801-0826-trellis-2-generator-3d-bez-blokady-ue|TRELLIS.2 jako generator 3D bez blokady licencyjnej w UE]] - wspolne: pipeline, blender
-- [[blender-headless-python-generation|Blender Headless Python Script Generation]] - wspolne: headless, blender
 <!-- /POWIAZANE:auto -->
